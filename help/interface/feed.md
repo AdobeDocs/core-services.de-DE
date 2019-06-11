@@ -1,0 +1,45 @@
+---
+description: Erfahren Sie mehr über das Posten und die Freigabe von Assets und Analytics-Berichten für andere Nutzer Ihres Experience Cloud-Feeds.
+keywords: Hauptdienste
+seo-description: Erfahren Sie, wie Sie Assets und Adobe Analytics-Berichte direkt mit anderen teilen, die Ihren Experience Cloud-Feed verwenden.
+seo-title: Feed
+solution: Experience Cloud
+title: Feed
+uuid: 7 ff 327 d 1-5 a 74-49 fb -8 c 3 c -729034818 ebc
+translation-type: tm+mt
+source-git-commit: af5339fe58ce884345804574c209907d6504a483
+
+---
+
+
+# Feed
+
+Erfahren Sie mehr über das Posten und die Freigabe von Assets und Analytics-Berichten für andere Nutzer Ihres Experience Cloud-Feeds.
+
+Der Feed kann beim ersten Anmelden in der Experience Cloud leer sein. Wenn Sie Beiträge erstellen und etwas freigeben und andere Benutzer Inhalte für Sie freigeben, füllt sich der Feed automatisch, damit Sie und Ihre Team-Mitglieder auf dem Laufenden bleiben.
+
+![](assets/posts.png)
+
+Zu den Feed-Einstellungen gehören die folgenden:
+
+* **Themen: Alle\ &lt; Name der Organisation\ &gt;:** Zeigt alle Beiträge an, die für Sie freigegeben wurden, sowie alle Beiträge, auf die Sie Zugriff haben.
+* **Themen verwalten:** Hier können Sie Themen folgen, nicht mehr folgen oder Themen vorschlagen. Darüber hinaus können Administratoren Themen genehmigen, ablehnen, deaktivieren und erstellen.
+* **Neuer Beitrag:** Beiträge erstellen, die von Mitgliedern oder Gruppen gesehen werden können.
+* **Alle Beiträge:** Alle Beiträge in Ihrem Feed anzeigen.
+* **Meine Beiträge:** Nur Ihre Beiträge anzeigen.
+* **Erwähnungen:** Beiträge anzeigen, in denn Sie oder Ihre Gruppe erwähnt werden.
+* **Favoriten:** Beiträge anzeigen, die als Favoriten gekennzeichnet wurden.
+
+## Ein Analytics-Projekt im Feed freigeben {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+Sie können Berichte aus [!UICONTROL Reports &amp; Analytics] im Experience Cloud-Feed freigeben.
+
+1. Sie können sich mit Ihrer Adobe ID in der Experience Cloud [anmelden](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
+
+1. Navigieren Sie zu Reports &amp; Analytics und [erstellen Sie ein Projekt](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
+
+1. Klicken Sie **[!UICONTROL auf Mehr]** &gt; **[!UICONTROL Freigeben]**.
+
+   ![](assets/share_report.png)
+
+1. Fügen Sie im Freigabefenster Empfänger hinzu und klicken Sie auf **[!UICONTROL Freigeben]**.
