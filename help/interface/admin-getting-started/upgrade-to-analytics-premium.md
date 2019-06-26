@@ -6,8 +6,8 @@ seo-title: Upgrade auf Analytics Premium und die Experience Cloud
 solution: Experience Cloud
 title: Upgrade auf Analytics Premium und die Experience Cloud
 topic: Premium
-uuid: 450 a 601 c-d 199-4 e 90-b 525-19 bd 9 f 9576 d 2
-translation-type: tm+mt
+uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -25,7 +25,7 @@ Ein Upgrade auf Adobe Analytics Premium bietet Ihnen alle Funktionen und Produkt
 Analytics Premium bietet Ihnen Folgendes:
 
 * Zugriff auf 250 Konversion-Variablen (eVars)
-* [Analyse mobiler Apps](https://marketing.adobe.com/resources/help/en_US/mobile/)
+* [Mobile App Analytics](https://marketing.adobe.com/resources/help/de_DE/mobile/)
 * Data Workbench (visuelle Datenabfrage, regelbasierte Zuordnung, kanalübergreifende Analyse)
 
 
@@ -55,9 +55,9 @@ In Analytics Premium Complete erhalten Sie alle Funktionen von [Analytics Premiu
 
 | Produkt | Upgrades |
 |--- |--- |
-| Reports &amp; Analytics | <ul><li>[Beitragsanalyse](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/)</li><li>[Kundenattribute](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (bis zu 200)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[Beitragsanalyse](https://marketing.adobe.com/resources/help/de_DE/analytics/contribution/)</li><li>[Kundenattribute](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (bis zu 200)</li></ul> |
 | Data Workbench | <ul><li>Algorithmische Zuordnung</li><li>Vordefinierte Arbeitsbereiche</li></ul> |
-| Analytics-Plattform | [Livestream](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1) (Rohdaten, Dashboards, Trigger) |
+| Analytics-Plattform | [Live Stream](https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1) (Rohdaten, Dashboards, Triggers) |
 
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
@@ -66,7 +66,7 @@ Ein Upgrade auf Predictive Intelligence bietet [Analytics Premium](../admin-gett
 
 | Produkt | Upgrades |
 |---|---|
-| Reports &amp; Analytics | [Beitragsanalyse](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/) |
+| Reports &amp; Analytics | [Beitragsanalyse](https://marketing.adobe.com/resources/help/de_DE/analytics/contribution/) |
 | Data Workbench | Vordefinierte Arbeitsbereiche für Zielgruppenqualifikationen und vorausschauendes Marketing |
 | Analytics-Plattform | Livestream (Dashboards und Trigger) |
 
@@ -86,7 +86,7 @@ Ein Upgrade auf Customer 360 bietet Ihnen [Analytics Premium](../admin-getting-
 
 Advanced Attribution bietet Zugriff auf [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) sowie die algorithmische Zuordnung in Data Workbench (25 % Server-Aufrufvolumen).
 
-## Data Workbench-Anforderungen {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Data Workbench-Anforderungen  {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 Die aktualisierten Benutzer können über eine E-Mail an `dwb@adobe.com` anfordern, dass alle Kundenlizenzen mit der Premium-Information aktualisiert werden. Dies aktiviert Funktionen wie die algorithmische Zuordnung.
 
@@ -96,39 +96,39 @@ Sämtliche Software, die am Kundenstandort ausgeführt wird, muss deaktiviert we
 
 **Premium Complete** und **Advanced Attribution**
 
-Informationen zur regelbasierten Zuordnung in vordefinierten Vorlagen finden Sie unter [Regelbasierte Zuordnung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib).
+Eine regelbasierte Zuordnung in vordefinierten Vorlagen finden Sie unter: [Regelbasierte Zuordnung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib).
 
-Informationen zur algorithmischen Zuordnung finden Sie im Dokument zum [Finden der geeignetsten Zuordnung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic).
+Informationen zur algorithmischen Zuordnung finden Sie unter [Geeignetste Zuordnung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)
 
 **Predictive Intelligence**
 
 Predictive Intelligence in Data Workbench beinhaltet die folgenden Visualisierungen:
 
 * [Tendenzauswertung der Zielgruppe](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_propensity)
-* [Besucheraufteilung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster)
+* [Besucher-Clustering](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_visitor_cluster)
 * [Korrelationsanalyse](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_correlation_analysis)
 
 
 **Customer 360** und **Advanced Attribution**
 
-Siehe Informationen zu regelbasierter Analytics-Zuordnung in vordefinierten Vorlagen unter [Regelbasierte Zuordnung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib).
+Informationen zu regelbasierter Zuordnung in vordefinierten Vorlagen in Analytics finden Sie unter [Regelbasierte Zuordnung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_rules_attrib).
 
-Siehe Informationen zu Vorlagen der algorithmischen Zuordnung im Dokument zum [Finden der geeignetsten Zuordnung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic)..
+Informationen zu Vorlagen für algorithmische Zuordnung finden Sie unter [Geeignetste Zuordnung](https://marketing.adobe.com/resources/help/en_US/insight/client/?f=c_attrib_algorithmic).
 
 ## Experience Cloud – Benutzer und Produkte verwalten {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud und Core Services sind für Analytics Standard- und Premium-Benutzer verfügbar, sofern Sie die Implementierung der Implementierung befolgt haben, die unter [Erste Schritte - Aktivierung Ihrer Lösungen für Hauptdienste beschrieben](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)ist. (Dieser Prozess unterstützt Sie beim Modernisieren Ihrer Implementierung und ermöglicht es Ihnen, ein Administrator in Experience Cloud zu werden.)
+Experience Cloud und Hauptdienste stehen Analytics Standard- und Premium-Benutzern zur Verfügung, vorausgesetzt, die Modernisierung der Implementierung wurde wie in [Erste Schritte - ermöglichen Sie Ihre Lösungen für Hauptdienste](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) beschrieben durchgeführt. (Dieser Prozess unterstützt Sie beim Modernisieren Ihrer Implementierung und ermöglicht es Ihnen, ein Administrator in Experience Cloud zu werden.)
 
 Nachdem Sie Mitglied der Experience Cloud geworden sind, können Sie sich über [!DNL marketing.adobe.com] bei der Experience Cloud anmelden und damit beginnen, die Hauptdienste zu verwenden (einschließlich Kundenattributen, Zielgruppen und Analysen mobiler Apps).
 
 **Verwalten Sie Benutzer und Gruppen**
 
-Die Benutzerverwaltung geschieht über die [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html) (Produktlink).
+Die Benutzerverwaltung erfolgt über [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/help/aedash.html) (Produktlink).
 
 Sie können eine 1-zu-1-Zuordnung zwischen einer Gruppe, die in der Adobe Admin Console erstellt wurde, und einer Lösungsgruppe (wie z. B. Adobe Analytics) festlegen. Daraufhin wird für einen neuen Benutzer, der zur zugeordneten Admin Console-Gruppe hinzugefügt wird, automatisch ein Analytics-Lösungskonto erstellt und mit der Adobe ID des Benutzers verknüpft. (Vorhandene Benutzer müssen die Anmeldeinformationen Ihres Lösungskontos manuell verknüpfen, wenn sie über die Anmeldung bei der Experience Cloud auf Lösungen zugreifen möchten.)
 
 
 >[!NOTE]
 >
->Sie können mehrere Lösungsgruppen einer Admin-Konsolengruppe zuordnen. Adobe empfiehlt jedoch eine 1-zu-1-Zuordnung. Die frühzeitige Zuordnung der Gruppen ermöglicht es Ihnen, mehrere Benutzer gleichzeitig hinzuzufügen, einzuladen, zu erstellen und ihnen Berechtigungen zuzuweisen, indem Sie eine CSV-Datei hochladen.
+>Sie können mehrere Lösungsgruppen einer Admin Console-Gruppe zuordnen. Adobe empfiehlt jedoch eine 1-zu-1-Zuordnung. Die frühzeitige Zuordnung der Gruppen ermöglicht es Ihnen, mehrere Benutzer gleichzeitig hinzuzufügen, einzuladen, zu erstellen und ihnen Berechtigungen zuzuweisen, indem Sie eine CSV-Datei hochladen.
 
