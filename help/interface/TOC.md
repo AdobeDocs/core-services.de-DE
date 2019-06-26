@@ -1,9 +1,9 @@
 ---
-audience: Endbenutzer
+audience: Endanwender
 user-guide-title: Hauptdienste-Benutzerhandbuch
-user-guide-url: https://www.adobe.com
+user-guide-url: https://www.adobe.com/de
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
 
 # Hauptdienste-Benutzerhandbuch {#interface}
 
-+ [Hilfe zu Experience Cloud und Core Services](experience-cloud.md)
++ [Hilfe für Experience Cloud und Hauptdienste](experience-cloud.md)
 + Über Hauptdienste {#about-core-services}
    + [Übersicht über die Hauptdienste](core-services-landing.md)
    + [Lösungen für Hauptdienste aktivieren](core-services/core-services.md)
@@ -26,19 +26,19 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
    + [Inhalte einbetten](admin-getting-started/oembed.md)
 + Activation {#activation}
-   + [Aktivierungsübersicht](activation/activation.md)
+   + [Übersicht über Activation](activation/activation.md)
    + [Benutzerhandbuch starten](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/)
-   + [DTM-Benutzerhandbuch](https://marketing.adobe.com/resources/help/en_US/dtm/)
+   + [DTM-Benutzerhandbuch](https://marketing.adobe.com/resources/help/de_DE/dtm/)
    + [Triggers](activation/triggers.md)
 + Assets {#assets}
    + [Überblick über Assets](experience-cloud-assets/experience-cloud-assets.md)
-   + [Freigeben von Experience Cloud-Ordnern und -assets mit Creative Cloud](experience-cloud-assets/creative-cloud.md)
+   + [Experience Cloud-Ordner und -Assets für Creative Cloud freigeben](experience-cloud-assets/creative-cloud.md)
    + [Verwaltung der Creative Cloud-Benutzer](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Experience Cloud-Asset-Ordner freigeben](experience-cloud-assets/t-share-creative-cloud.md)
    + [Laden Sie ein Asset aus dem Creative Cloud-Browser in einen freigegebenen Ordner hoch](experience-cloud-assets/t-upload-asset-cc.md)
    + [Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Deaktivierung der Synchronisierung freigegebener Ordner](experience-cloud-assets/t-disable-asset-sync.md)
-   + [Asset-Dateivoraussetzungen für die Freigabe](experience-cloud-assets/assets-file-reqs.md)
+   + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
 + Zielgruppen{#audiences}
    + [Überblick über Zielgruppen](audience-library/audience-library.md)
@@ -53,15 +53,15 @@ source-git-commit: ea102e402ee942d00f0525000f3ebd7ee19a4392
    + [Prüfen des Schemas](attributes/validate-schema.md)
    + [Konfigurieren von Abonnements](attributes/subscription.md)
    + [Schema aktualisieren](attributes/t-update-schema.md)
-   + [Überlegungen zum Datenschutz - Kundenattribute](attributes/privacy-mac.md)
+   + [Überlegungen zum Datenschutz – Kundenattribute](attributes/privacy-mac.md)
 + Versionshinweise {#release-notes}
    + [Neue Funktionen in der Experience Cloud](marketing-cloud-interface/marketing-cloud-interface.md)
    + [Gesammelte Versionshinweise](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [Feed](feed.md)
-+ [Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/)
++ [Mobile Services](https://marketing.adobe.com/resources/help/de_DE/mobile/)
 + Zusätzliche Ressourcen {#more-resources}
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologie](terms.md)
-   + [Verwenden von DNS-Vorab-Lösungen mit verschiedenen Lösungen und Diensten](dns-prefetch.md)
-   + [Aktualisierungen der Dokumentation - Experience Cloud](doc-updates.md)
+   + [Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste](dns-prefetch.md)
+   + [Aktualisierungen der Dokumentation – Experience Cloud](doc-updates.md)
