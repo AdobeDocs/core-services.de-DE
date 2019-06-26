@@ -3,8 +3,8 @@ description: Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organis
 seo-description: Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
 seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
-uuid: b 983 d 5 a 6-b 3 d 0-4137-ac 53-bc 5681 d 3 e 58 b
-translation-type: tm+mt
+uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
+translation-type: ht
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -17,7 +17,7 @@ Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweise
 Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und der People-Hauptdienst) sind einer Experience Cloud-Organisation zugeordnet und keiner einzelnen Report Suite. Damit sichergestellt ist, dass diese Dienste korrekt funktionieren, muss jede Analytics-Report Suite einer Organisation zugeordnet sein. Der Zuweisungsprozess:
 
 * Legt eine Experience Cloud-Organisation als primäre Organisation für die Report Suite fest.
-* hat keinen Einfluss darauf, wer auf die Report Suite zugreifen kann (der Zugriff wird nach wie vor über das Adobe Analytics-Anmeldekonto eines jeden Benutzers bestimmt) 
+* hat keinen Einfluss darauf, wer auf die Report Suite zugreifen kann (der Zugriff wird nach wie vor über das Adobe Analytics-Anmeldekonto eines jeden Benutzers bestimmt)
 
 
 **Voraussetzungen**
@@ -26,25 +26,25 @@ Sie müssen Analytics-Administrator einer Unternehmensanmeldung sein, der Zugrif
 
 Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrechte für eine Unternehmensanmeldung einer Organisation haben, die über Zugriff auf die entsprechende Report Suite verfügt.
 
-## Eine Report Suite einer Organisation zuordnen {#task_23993FE78DF6455FA8D7BE60686EA16C}
+## Report Suite einer Organisation zuweisen{#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite Zuordnung]**
+1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite-Zuweisung]**
 
-   Alternativ können Sie eine [direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
+   Sie können auch eine [Direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
 
 1. Wenn Sie anzeigen möchten, welche Unternehmensanmeldungen Zugriff auf welche Report Suite haben, klicken Sie auf **[!UICONTROL Sichtbar für Unternehmensanmeldung]**.
 
    Mithilfe dieser Ansicht können Sie Entscheidungen über die Zuweisung einfacher treffen.
 
-1. Klicken Sie auf das Dropdown-Menü in der Spalte **[!UICONTROL Zugeordnete Organisation]neben einer Report Suite und wählen Sie die Organisation aus, der Sie die Suite zuweisen möchten.**
+1. Klicken Sie auf das Dropdown-Menü in der Spalte **[!UICONTROL Zugeordnete Organisation]** neben einer Report Suite und wählen Sie die Organisation aus, der Sie die Suite zuweisen möchten.
 
    Tipps zum Auswählen einer Experience Cloud-Organisation finden Sie im nächsten Abschnitt.
 
-## Mehrere Report Suites einer Organisation zuordnen {#task_94955B0D8ABA4CB1A38746ECF8E32711}
+## Mehrere Report Suites einer Organisation zuweisen {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Klicken **[!UICONTROL Sie auf Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite Zuordnung]**.
+1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite-Zuweisung]**.
 
-   Alternativ können Sie eine [direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
+   Sie können auch eine [Direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
 
 1. Wählen Sie die Report Suites aus, die Sie zuweisen möchten.
 
@@ -62,13 +62,14 @@ In diesem Abschnitt finden Sie Tipps dazu, wie Sie die Experience Cloud-Organis
 
 **Welche Organisation sollte ich auswählen?**
 
-Wird der Experience Cloud ID-Dienst derzeit auf die Report Suite angewandt, müssen Sie sicherstellen, dass Sie im Zuordnungs-Tool für Report Suites die gleiche Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Kapitel über das [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom ID-Dienst genutzt wird.
+Wird der Experience Cloud ID-Dienst derzeit auf die Report Suite angewandt, müssen Sie sicherstellen, dass Sie im Zuordnungs-Tool für Report Suites die gleiche Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Abschnitt zum [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://marketing.adobe.com/resources/help/de_DE/mcvid/?f=mcvid-test-verify) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom Besucher-ID-Dienst genutzt wird.
 
-Wird der Besucher-ID-Dienst bisher noch nicht auf Sites eingesetzt, auf denen die Report Suite Daten erfasst, muss die Bereitstellung der in der Report Suite-Zuweisung ausgewählten Organisation entsprechen, wenn der Experience Cloud-Besucher-ID-Dienst zu einem späteren Zeitpunkt verwendet wird.
+Wird der Besucher-ID-Dienst bisher noch nicht auf Sites eingesetzt, auf denen die Report Suite Daten erfasst, muss die Implementierung der in der Report Suite-Zuweisung ausgewählten Organisation entsprechen, wenn der Experience Cloud-Besucher-ID-Dienst zu einem späteren Zeitpunkt verwendet wird.
 
 **Warum sind einige Organisationen ausgegraut?**
 
 Dieser Umstand zeigt an, dass Sie nicht über die für eine Zuweisung der ausgegrauten Report Suite notwendigen Zugriffsrechte verfügen. Siehe folgendes Beispiel:
+
 ![](assets/rs-mapping.png) In dieser Darstellung zeigt der blaue Schlüssel an, dass der Benutzer über Administratorrechte verfügt. Die graue Linie steht für die Sichtbarkeit.
 
 Dieser Benutzer hat Zugriff auf zwei Experience Cloud-Organisationen. Er hat Folgendes unternommen:
@@ -91,7 +92,7 @@ Einige Ihrer Report Suites werden möglicherweise nur für eine andere Unternehm
 
 **Was passiert, wenn ich einige der im Dropdown-Menü einer meiner Report Suites aufgelisteten Organisationen nicht kenne?**
 
-Die Liste zeigt Ihnen alle * möglichen * Organisationen, denen Ihre Report Suite zugeordnet werden könnte, auch wenn Sie nicht berechtigt sind, all diese Report Suites zuzuordnen. Wenn Sie nicht sicher sind, ob die Report Suite einer der ausgegrauten Report Suites in der Liste zugeordnet werden soll, wenden Sie sich an einen Experience Cloud-Administrator in Ihrer Organisation, um die am besten geeignete Option auszuwählen.
+In der Liste sind alle *möglichen *Organisationen aufgeführt, der die Report Suite zugewiesen werden kann, selbst wenn Sie nicht über die nötigen Berechtigungen für die Zuweisung all dieser Report Suites verfügen. Wenn Sie nicht sicher sind, ob die Report Suite einer der ausgegrauten Report Suites in der Liste zugeordnet werden soll, wenden Sie sich an einen Experience Cloud-Administrator in Ihrer Organisation, um die am besten geeignete Option auszuwählen.
 
 **Was ist, wenn ich einige der Unternehmensanmeldungen nicht kenne, die in der Spalte „Sichtbar für Unternehmensanmeldung“ einer Report Suite aufgezählt werden?**
 
@@ -107,7 +108,7 @@ Zugeordnete Report Suites werden als nicht bearbeitbar dargestellt. Sollten Sie 
 
 **Was passiert, wenn ich nur die Organisations-ID meiner Experience Cloud-Organisation kenne? Wo kann ich den Namen meiner Organisations-ID nachschlagen?**
 
-Den Namen Ihrer Organisation finden Sie unter [Organisationen und Kontoeinstellungen](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
+Sie finden den Namen Ihrer Organisation in [Einstellungen für Organisationen und Konten](https://marketing.adobe.com/resources/help/de_DE/mcloud/?f=organizations).
 
 **In der Spalte „Datum der Zuordnung“ ist ein Datum eingetragen. Wer hat diese Zuordnung vorgenommen?**
 
