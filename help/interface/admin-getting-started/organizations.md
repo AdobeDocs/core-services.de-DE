@@ -3,10 +3,10 @@ description: Erfahren Sie mehr über Organisationen und das Verknüpfen von Lös
 keywords: Hauptdienste
 seo-description: Erfahren Sie mehr über Organisationen und das Verknüpfen von Lösungskonten mit der Experience Cloud.
 seo-title: Organisationen und Kontoverknüpfung
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Organisationen und Kontoverknüpfung
-uuid: ae 47 ad 18-ac 33-4 efa -8 b 68-2 bfaf 77397 aa
-translation-type: tm+mt
+uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
+translation-type: ht
 source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 # Organisationen und Kontoverknüpfung
 
-Erfahren Sie mehr über die Verwaltung von Organisationen und Verknüpfen von Lösungskonten mit Experience Cloud.
+Erfahren Sie mehr über die Verwaltung von Organisationen und das Verknüpfen von Lösungskonten mit der Experience Cloud.
 
 <!-- accounts-experience-cloud.xml -->
 
@@ -22,15 +22,15 @@ Erfahren Sie mehr über die Verwaltung von Organisationen und Verknüpfen von L�
 
 Eine *Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen.
 
-Unter Umständen müssen Sie für den Support Ihre Organisations-ID bereithalten. Mit dem Menü **[!UICONTROL Organisation]können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.**
+Unter Umständen müssen Sie für den Support Ihre Organisations-ID bereithalten. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
-![Schrittergebnis](assets/organization-switch.png)
+![Schritt Ergebnis](assets/organization-switch.png)
 
 ## Organisations-ID ermitteln {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Die **Organisations-ID** ist die ID, die Ihrem bereitgestellten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich).
+Die **Organisations-ID** ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich).
 
-Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Einstiegsseite oder klicken Sie auf ( ![](assets/menu-icon.png)) und anschließend **[!UICONTROL auf Administration]**. Sie finden die Organisations-ID am unteren Rand der [!UICONTROL ersten Schritte mit der Experience Cloud] -Seite oder auf der [!UICONTROL Seite &quot;Administration] &quot; .
+Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Landingpage oder klicken Sie auf (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**. Sie finden die Organisations-ID am unteren Rand der Seite [!UICONTROL Erste Schritte mit der Experience Cloud] oder auf der Seite [!UICONTROL Administration].
 
 ![](assets/administration-page.png)
 
@@ -50,7 +50,7 @@ Typischerweise geben Experience Cloud-Administratoren den Zugriff auf Lösungen
    ![](assets/analytics-link-accounts.png)
 
    Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf die Lösung verfügen), Ihre Kontodaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
-1. Klicken **[!UICONTROL Sie auf Konto]** verknüpfen und geben Sie Ihre Anmeldedaten ein.
+1. Klicken Sie auf **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
 
 ## Standardorganisation und -Landingpage festlegen {#concept_6A191B42A9874A9780882903BA18F071}
 
@@ -60,7 +60,7 @@ Klicken Sie in Ihrem Profil auf **[!UICONTROL Profil bearbeiten]**.
 
 ![](assets/edit-profile.png)
 
-Unter „Standardorganisation und Landing Page“ können Sie Ihren Anmeldevorgang anpassen.
+Unter „Standardorganisation und Landingpage“ können Sie Ihren Anmeldevorgang anpassen.
 
 ![](assets/default-organization.png)
 
@@ -70,5 +70,5 @@ Hilfe zu Problemen bei der Kontoverknüpfung.
 
 Für gewöhnlich schläft die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie folgende Schritte durchführen:
 
-* [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+* [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/de/marketing-cloud/contact-support.html).
 * Greifen Sie über die Standardanmeldung auf die Lösung zu, solange das Problem nicht behoben ist.
