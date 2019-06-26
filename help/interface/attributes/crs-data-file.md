@@ -5,8 +5,8 @@ seo-description: Datendateianforderungen und mehrere Datenquellen für das Hochl
 seo-title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
 solution: Experience Cloud
 title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
-uuid: 9 dd 0 e 364-889 b -45 db-b 190-85 c 0930 a 101 e
-translation-type: tm+mt
+uuid: 9dd0e364-889b-45db-b190-85c0930a101e
+translation-type: ht
 source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: bae7ac2bc620fc0f9ac149f7dce84fa70e1355c9
 
 Datendateianforderungen und mehrere Datenquellen für das Hochladen von Kundenattributen in der Experience Cloud.
 
-Sie benötigen Zugriff auf CRM- oder ähnliche Daten aus Ihrem Unternehmen. Die Daten, die Sie in die Experience Cloud hochladen, müssen eine [!DNL .csv] Datei sein. Wenn Sie per FTP oder sftp hochladen, laden Sie auch eine [!DNL .fin] Datei hoch.
+Sie benötigen Zugriff auf CRM- oder ähnliche Daten aus Ihrem Unternehmen. Die in die Experience Cloud hochzuladenden Daten müssen im [!DNL .csv]-Format vorliegen. Wenn das Upload über FTP oder sFTP erfolgt, wird auch eine [!DNL .fin]-Datei hochgeladen.
 
 Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
 
@@ -43,13 +43,13 @@ Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz</span> oder <span class="filepath">.zip </span> </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> .gz</span> (gzip) oder <span class="filepath">.zip</span> – bei komprimierten Dateien. Eine <span class="filepath">.zip</span>-Datei darf nur eine Datei enthalten. </p> <p> <b>Namensanforderungen:</b> Die <span class="filepath">.zip</span>- bzw. <span class="filepath">.gz</span>-Datei und die <span class="filepath">.csv</span>-Datei sollten den gleichen Namen haben . Beispiel: Wenn der Name der <span class="filepath">.csv</span>-Datei <span class="filepath">crm_klein.csv</span> lautet, sollte der Name der <span class="filepath">.zip</span>-Datei <span class="filepath">crm_klein.csv.zip</span> lauten . </p> <p>Der Name der .fin-Datei muss mit dem Namen der .csv-Datei übereinstimmen. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> .gz</span> (gzip) oder <span class="filepath">.zip</span> – bei komprimierten Dateien. Eine <span class="filepath">.zip</span>-Datei darf nur eine Datei enthalten. </p> <p> <b>Namensanforderungen:</b> Die <span class="filepath">.zip</span>- bzw. <span class="filepath">.gz</span>-Datei und die <span class="filepath">.csv</span>-Datei sollten den gleichen Namen haben. Beispiel: Wenn der Name der <span class="filepath">.csv</span>-Datei <span class="filepath">crm_klein.csv</span> lautet, sollte der Name der <span class="filepath">.zip</span>-Datei <span class="filepath">crm_klein.csv.zip</span> lauten. </p> <p>Der Name der .fin-Datei muss mit dem Namen der .csv-Datei übereinstimmen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 
-## Anforderungen für die Attributdatendateien {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## Voraussetzungen für Attributdatendateien {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
 
 
@@ -81,7 +81,7 @@ Die gleiche Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Spalte mit Kunden-ID </p> </td> 
-   <td colname="col2"> <p> Die erste Spalte muss eine Unique Customer-ID enthalten. Die verwendete ID muss mit der an den Experience Cloud ID-Dienst übergebenen ID übereinstimmen. </p> <p>Bei Analytics die in einer prop oder eVar gespeicherte ID. </p> <p>Bei Target der Wert von setCustomerID. (Siehe <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics und Target – Synchronisieren der Kunden-ID</a>.) </p> <p> Diese Kunden-ID stellt den eindeutigen Bezeichner dar, den Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Alle anderen Spalten enthalten Attribute aus Ihrem CRM-System. Sie selbst legen fest, wie viele Attribute hochgeladen werden. </p> <p>Als Spaltentitel werden aussagekräftige, gut lesbare Namen empfohlen, allerdings ist dies keine Voraussetzung. Auch bei der Prüfung des Schemas nach dem Upload können Sie den hochgeladenen Zeilen und Spalten noch Anzeigenamen zuordnen. </p> <p> <b>Informationen zu Kunden-IDs</b> </p> <p>Für gewöhnlich verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph">setCustomerIDs</span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in die Experience Cloud hochgeladen wird. Eine <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Alias zu diesem Datenspeicher (über „setCustomerIDs“). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen zu <span class="codeph">setCustomerIDs</span> finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">Kunden-IDs und Authentifizierungszustände </a>. </p> </td> 
+   <td colname="col2"> <p> Die erste Spalte muss eine Unique Customer-ID enthalten. Die verwendete ID muss mit der an den Experience Cloud ID-Dienst übergebenen ID übereinstimmen. </p> <p>Bei Analytics die in einer prop oder eVar gespeicherte ID. </p> <p>Bei Target der Wert von setCustomerID. (Siehe <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics und Target – Synchronisieren der Kunden-ID</a>.) </p> <p> Diese Kunden-ID stellt den eindeutigen Bezeichner dar, den Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Alle anderen Spalten enthalten Attribute aus Ihrem CRM-System. Sie selbst legen fest, wie viele Attribute hochgeladen werden. </p> <p>Als Spaltentitel werden aussagekräftige, gut lesbare Namen empfohlen, allerdings ist dies keine Voraussetzung. Auch bei der Prüfung des Schemas nach dem Upload können Sie den hochgeladenen Zeilen und Spalten noch Anzeigenamen zuordnen. </p> <p> <b>Informationen zu Kunden-IDs</b> </p> <p>Für gewöhnlich verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph">setCustomerIDs</span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in die Experience Cloud hochgeladen wird. Eine  <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Alias zu diesem Datenspeicher (über „setCustomerIDs“). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen zu <span class="codeph">setCustomerIDs</span> finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/mcvid/?f=mcvid-authenticated-state" format="https" scope="external">Kunden-IDs und Authentifizierungszustände </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Weitere Spaltentitel bzw. Spalten </p> </td> 
@@ -113,19 +113,19 @@ Die gleiche Datei in einem Texteditor:
    <td colname="col1"> <p>FTP-Richtlinien und Größenbeschränkungen </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E157EE6F98914EADA0C103D1D1E705D3"> 
-      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">Die maximale Dateigröße für FTP beträgt 4 GB für jeden Hochladevorgang. </li> 
-      <li>Minimale Beschränkung der Dateigröße für jeden Upload-Vorgang auf 10 MB. </li>
-      <li>Sie können eine Datei jede halbe Stunde hochladen. </li>
+      <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">Die maximale Dateigröße für die Übertragung mittels FTP ist 4 GB pro Upload. </li> 
+      <li>Die minimale Dateigröße für jeden Upload-Vorgang ist 10 MB. </li>
+      <li>Sie können jede halbe Stunde eine Datei hochladen. </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> Sie sollten Ihre <span class="filepath">.csv</span>-Datei (und auch die <span class="filepath">.fin</span>-Datei) im Stammordner der FTP-Site ablegen. </li> 
      </ul> </p> <p> <p>Wichtig: Der zulässige Gesamtspeicherplatz für das FTP-Konto beträgt 40 GB. Es liegt in Ihrer Verantwortung, die verarbeiteten Dateien zu löschen. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dateivoraussetzungen </p> </td> 
-   <td colname="col2"> <p> Jede Attributquelle sollte die gleiche Anzahl kommagetrennter Felder enthalten. </p> <p> Felder mit Zeilenumbrüchen, doppelten Anführungszeichen oder Kommas müssen in Anführungszeichen stehen. </p> <p> Doppelten Anführungszeichen in einem Feld muss als Escape-Zeichen ein umgekehrter Schrägstrich (\) vorangestellt werden. </p> <p> Leere Spalten werden als <span class="term"> null </span>. </p> </td> 
+   <td colname="col2"> <p> Jede Attributquelle sollte die gleiche Anzahl kommagetrennter Felder enthalten. </p> <p> Felder mit Zeilenumbrüchen, doppelten Anführungszeichen oder Kommas müssen in Anführungszeichen stehen. </p> <p> Doppelten Anführungszeichen in einem Feld muss als Escape-Zeichen ein umgekehrter Schrägstrich (\) vorangestellt werden. </p> <p> Leere Spalten werden als  <span class="term"> null </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mehrere Dateien </p> </td> 
-   <td colname="col2"> <p>Wenn Sie beim Hochladen von Kundenattributdaten mehrere Dateien hochladen, die Sie in schnelle Folge hochladen möchten, und besonders dann, wenn die Dateien groß sind, stellen Sie sicher, dass die vorherige Datei verarbeitet wurde, bevor Sie die nächste Datei hochladen. Sie können dies überwachen, indem Sie überprüfen, wann die vorherige Datei in den verarbeiteten oder fehlgeschlagenen Ordner innerhalb Ihres FTP-Kontos für Kundenattribute verschoben wurde. </p> <p> Die Aufschlüsselung einer großen Datei in kleinere Dateien und deren schnelle Übermittlung kann die Verarbeitung verlangsamen, es sei denn, Sie können sicherstellen, dass jede Datei vollständig verarbeitet wird, bevor Sie die nächste versenden. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Kundenattributdaten in mehrere Dateien in schneller Folge hochladen möchten und die Dateien groß sind, stellen Sie sicher, dass die vorherige Datei verarbeitet wurde, bevor Sie die nächste Datei hochladen. Sie können dies überwachen, indem Sie überprüfen, wann die vorherige Datei in den Ordner mit verarbeiteten oder fehlgeschlagenen Vorgängen innerhalb Ihres FTP-Kontos für Kundenattribute verschoben wurde. </p> <p> Die Aufspaltung einer großen Datei in kleinere Dateien und deren schnelle Übermittlung kann die Verarbeitung verlangsamen, es sei denn, Sie können sicherstellen, dass jede Datei vollständig verarbeitet wird, bevor Sie die nächste versenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zeichenkodierung </p> </td> 
@@ -160,8 +160,8 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungszustände](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids).)
+(Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungsstatus](https://marketing.adobe.com/resources/help/de_DE/mcvid/?f=mcvid_customer_ids).)
 
-Wählen Sie in **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Personen]** &gt; **[!UICONTROL Kundenattribute]**:
+In der **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Personen]** &gt; **[!UICONTROL Kundenattribute]**:
 
 Erstellen Sie mithilfe eindeutiger Alias-IDs, die den obigen Kunden-IDs entsprechen, zwei Kundenattributquellen. Durch die Verwendung dieser Methode kann dieselbe Referenz-ID an verschiedene Kundenattributquellen gesendet werden.
