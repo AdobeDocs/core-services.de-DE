@@ -1,12 +1,12 @@
 ---
 description: Erfahren Sie mehr über das Posten und die Freigabe von Assets und Analytics-Berichten für andere Nutzer Ihres Experience Cloud-Feeds.
 keywords: Hauptdienste
-seo-description: Erfahren Sie, wie Sie Assets und Adobe Analytics-Berichte direkt mit anderen teilen, die Ihren Experience Cloud-Feed verwenden.
+seo-description: Erfahren Sie mehr über das Posten und die Freigabe von Assets und Adobe Analytics-Berichten für andere Nutzer Ihres Experience Cloud-Feeds.
 seo-title: Feed
 solution: Experience Cloud
 title: Feed
-uuid: 7 ff 327 d 1-5 a 74-49 fb -8 c 3 c -729034818 ebc
-translation-type: tm+mt
+uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -22,7 +22,7 @@ Der Feed kann beim ersten Anmelden in der Experience Cloud leer sein. Wenn Sie 
 
 Zu den Feed-Einstellungen gehören die folgenden:
 
-* **Themen: Alle\ &lt; Name der Organisation\ &gt;:** Zeigt alle Beiträge an, die für Sie freigegeben wurden, sowie alle Beiträge, auf die Sie Zugriff haben.
+* **Themen: Alle \&lt;Name des Unternehmens \&gt;:** Zeigt alle Beiträge an, die für Sie freigegeben wurden, sowie alle Beiträge, auf die Sie Zugriff haben.
 * **Themen verwalten:** Hier können Sie Themen folgen, nicht mehr folgen oder Themen vorschlagen. Darüber hinaus können Administratoren Themen genehmigen, ablehnen, deaktivieren und erstellen.
 * **Neuer Beitrag:** Beiträge erstellen, die von Mitgliedern oder Gruppen gesehen werden können.
 * **Alle Beiträge:** Alle Beiträge in Ihrem Feed anzeigen.
@@ -36,9 +36,9 @@ Sie können Berichte aus [!UICONTROL Reports &amp; Analytics] im Experience Clo
 
 1. Sie können sich mit Ihrer Adobe ID in der Experience Cloud [anmelden](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
 
-1. Navigieren Sie zu Reports &amp; Analytics und [erstellen Sie ein Projekt](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
+1. Navigieren Sie zu Reports &amp; Analytics und [erstellen Sie dann ein Projekt](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/?f=freeform_overview).
 
-1. Klicken Sie **[!UICONTROL auf Mehr]** &gt; **[!UICONTROL Freigeben]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** &gt; **[!UICONTROL Freigaben]**.
 
    ![](assets/share_report.png)
 
