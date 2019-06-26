@@ -5,8 +5,8 @@ seo-description: Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen
 seo-title: Prüfen des Schemas
 solution: Experience Cloud
 title: Prüfen des Schemas
-uuid: 163 a 4 dbe-d 60 b -4089-8 ff 8-65 f 7461 fbdf 7
-translation-type: tm+mt
+uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -19,10 +19,10 @@ Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibung
 
 >[!NOTE]
 >
->Wenn Sie das Schema nach der Validierung aktualisieren, werden Kundenattribute gelöscht. Siehe Schema [aktualisieren (auch Attribute löschen)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+>Durch die Aktualisierung des Schemas nach der Validierung werden Kundenattribute gelöscht. Siehe [Schema aktualisieren (auch Attribute löschen)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 
-**[!UICONTROL Kundenattributquelle]** &gt; **[!UICONTROL Neue Kunden-Attributquelle erstellen]** &gt; Schema **[!UICONTROL anzeigen/bearbeiten]**
+**[!UICONTROL Kunden-Attributquelle]** &gt; **[!UICONTROL Neue Kunden-Attributquelle erstellen]** &gt; **[!UICONTROL Schema anzeigen/bearbeiten]**
 
 ![](assets/view_edit_schema.png)
 
@@ -30,19 +30,19 @@ Auf der Seite „[!UICONTROL Schema überprüfen]“ stellt jede Schemazeile ein
 
 ![](assets/06_crs_usecase.png)
 
-* **[!UICONTROL Daten hinzufügen:]** Laden Sie neue Attributdaten in diese Datenquelle hoch.
+* **[!UICONTROL Daten hinzufügen:]** Lädt in diese Datenquelle neue Attributdaten hoch.
 
-* **[!UICONTROL Schema anzeigen/bearbeiten:]** Ordnen Sie die Anzeigenamen den Attributdaten zu, wie im nächsten Schritt beschrieben.
+* **[!UICONTROL Schema anzeigen/bearbeiten:]** Ordnet den Attributdaten wie im nächsten Schritt beschrieben Anzeigenamen zu.
 
-* **[!UICONTROL FTP-Einrichtung:]**[Laden Sie die Daten per FTP hoch](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+* **[!UICONTROL FTP-Einrichtung:]** [Daten per FTP hochladen](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL ID-Suche:]** Geben Sie eine Kunden-ID (CID) aus Ihrer [!DNL .csv] zum Suchen der Experience Cloud-Informationen für die ID ein. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
+* **[!UICONTROL ID-Suche:]** Geben Sie eine Kunden-ID (CID) aus Ihrer [!DNL .csv] ein, um Experience Cloud-Informationen für diese ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
 
-   * **[!UICONTROL MCID (Experience Cloud ID):]** Wird angezeigt, wenn Sie den neuesten Experience Cloud ID-Dienst verwenden. Wenn Sie den MCID-Dienst verwenden, hier aber keine IDs angezeigt werden, hat die Experience Cloud keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
+   * **[!UICONTROL MCID (Experience Cloud ID):]** Zeigt an, ob Sie die neueste Version des Experience Cloud ID-Dienstes verwenden. Wenn Sie den MCID-Dienst verwenden, hier aber keine IDs angezeigt werden, hat die Experience Cloud keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
 
-   * **[!UICONTROL CID (Kunden-ID):]** Die mit dieser CID verknüpften Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
+   * **[!UICONTROL CID (Customer ID):]** Die mit dieser CID verbundenen Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
 
-   * **[!UICONTROL AVID (Analytics Besucher-ID):]** Wird angezeigt, wenn Sie eine prop oder evar zum Hochladen von cids verwenden. Wenn diese IDs an die Experience Cloud weitergeleitet werden, werden hier alle mit der angegebenen CID verbundenen-Besucher-IDs angezeigt.
+   * **[!UICONTROL AVID (Analytics-Besucher-ID):]** Zeigt an, ob Sie eine „prop“ oder „eVar“ zum Hochladen von CIDs verwenden. Wenn diese IDs an die Experience Cloud weitergeleitet werden, werden hier alle mit der angegebenen CID verbundenen-Besucher-IDs angezeigt.
 
 
 
@@ -51,11 +51,11 @@ Auf der Seite „[!UICONTROL Schema überprüfen]“ stellt jede Schemazeile ein
 
 Wenn Sie in der Experience Cloud eine Kundenattributquelle und ein FTP-Konto erstellt haben, können Sie die Daten auch via FTP hochladen. Pro Attributquelle müssen Sie ein FTP-Konto erstellen. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im .csv-Format übertragen werden, wobei eine zusätzliche .fin-Datei am Ende angibt, dass das Upload abgeschlossen ist.
 
-Die Namen, die Sie auf Zeichenfolgen, Ganzzahlen und Zahlen anwenden, werden zum Erstellen [!DNL Analytics] von Metriken verwendet. Weitere [Informationen finden Sie in](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) der [!DNL Analytics] Hilfe unter Kundenattribute.
+Die Namen, die Sie den Zeichenfolgen, Ganzzahlen und Nummern geben, werden zur Erstellung der [!DNL Analytics]-Metriken verwendet. Weitere Informationen finden Sie unter [Bericht zu Kundenattributen](https://marketing.adobe.com/resources/help/de_DE/reference/?f=reports_customer_attributes) in der [!DNL Analytics]-Hilfe.
 
-* **[!UICONTROL Attribut:]** Aus der hochgeladenen [!DNL .csv] Datei gelesene Attributdaten.
+* **[!UICONTROL Attribut:]** Die aus der hochgeladenen [!DNL .csv]-Datei gelesenen Attributdaten.
 
-* **[!UICONTROL Typ:]** Der Datentyp, z. B.:
+* **[!UICONTROL Typ:]** Datentyp, z. B.:
 
    * **Zeichenfolge:** eine Folge von Zeichen
 
@@ -66,7 +66,7 @@ Die Namen, die Sie auf Zeichenfolgen, Ganzzahlen und Zahlen anwenden, werden zum
 
 
 
-* **[!UICONTROL Anzeigename:]** Ein Anzeigename für das Attribut. Sie können z. B. ein Alter *des Attributs Kundenkunde* in *Kunden ändern*.
+* **[!UICONTROL Anzeigename:]** Ein benutzerfreundlicher Anzeigename für das Attribut. Beispielsweise können Sie das Attribut *Kundenalter* in *Kunde seit* ändern.
 
 * **[!UICONTROL Beschreibung:]** Eine benutzerfreundliche Beschreibung des Attributs.
 
