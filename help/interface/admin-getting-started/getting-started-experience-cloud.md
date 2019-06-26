@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie sich bei der Experience Cloud anmelden, Kennw
 keywords: Hauptdienste
 seo-description: Erfahren Sie, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage festlegen.
 seo-title: Anmelden und Profileinstellungen verwalten
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Anmelden und Profileinstellungen verwalten
-uuid: c 1 e 13 b 99-0069-4 fdb -8 d 72-ddcec 3 ed 1121
-translation-type: tm+mt
+uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -24,30 +24,30 @@ Durch die Anmeldung in der Experience Cloud (anstelle der Anmeldung in einer ei
 
 >[!IMPORTANT]
 >
->Administratoren finden Informationen [zu](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) den Aktualisierungen für Benutzer und Produktverwaltung unter Administration.
+>Administratoren finden Informationen über Aktualisierungen der Benutzer- und Produktverwaltung im Abschnitt [Administration](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ## Bei der Experience Cloud anmelden (Administratoren) {#task_034FC955031347F3B02B686A09801A08}
 
-Melden Sie sich an und vergewissern Sie sich, dass Sie sich in der richtigen [Organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1)befinden.
+Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) befinden.
 
-1. Klicken Sie auf das Experience Cloud-Pulldown-Menü ( ![](assets/menu-icon.png)) und anschließend **[!UICONTROL auf Administration]**.
+1. Klicken Sie auf das Experience Cloud-Pulldown-Menü (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**.
 
    ![](assets/admin-link.png)
 
    Wird die Verknüpfung **[!UICONTROL Administration]** nicht angezeigt, sind Sie kein Experience Cloud-Administrator der angezeigten [Organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (in diesem Beispiel Adobe Corp). Sollten Sie mit der Zuweisung von Administratorrechten Schwierigkeiten haben, wenden Sie sich an die Kundenunterstützung oder einen bereits bestehenden Experience Cloud-Administrator in Ihrem Unternehmen.
-1. Klicken **[!UICONTROL Sie auf Administration]**.
+1. Klicken Sie auf **[!UICONTROL Administration]**.
 
    ![](assets/admin-landing.png)
 1. Klicken Sie auf einen der folgenden Links, um fortzufahren:
 
 | Element | Beschreibung |
 |--- |--- |
-| [Grundlagen zur Admin Console](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Hier werden die ersten Schritte vorgestellt, mit denen Sie anfangen können, Experience Cloud-Lösungen zu nutzen. |
-| [Identität einrichten](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definieren Sie ein Identitätssystem, mit dem Ihre Endbenutzer authentifiziert werden, und richten Sie es ein. |
-| [Benutzerverwaltung](https://helpx.adobe.com/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
-| [Admin Console starten](../admin-getting-started/admin-getting-started.md) | Bei der Admin Console handelt es sich um den zentralen Anlaufpunkt für die Verwaltung der Adobe-Benutzer und -Produkte Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link](https://adminconsole.adobe.com) bei der Admin Console anmelden. |
+| [Grundlagen zur Admin Console](https://helpx.adobe.com/de/marketing-cloud/how-to/first-time-setup.html) | Hier werden die ersten Schritte vorgestellt, mit denen Sie anfangen können, Experience Cloud-Lösungen zu nutzen. |
+| [Identität einrichten](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | Definieren Sie ein Identitätssystem, mit dem Ihre Endbenutzer authentifiziert werden, und richten Sie es ein. |
+| [Benutzerverwaltung](https://helpx.adobe.com/de/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
+| [Admin Console starten](../admin-getting-started/admin-getting-started.md) | Bei der Admin Console handelt es sich um den zentralen Anlaufpunkt für die Verwaltung der Adobe-Benutzer und -Produkte Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link]( bei der Admin Console https://adminconsole.adobe.com) anmelden. |
 | [Creative Cloud-Benutzer verwalten](../experience-cloud-assets/t-admin-add-cc-user.md) | Mithilfe von Experience Cloud Assets können Marketingspezialisten über die Creative Cloud mit Designern gemeinsam an Ordnern arbeiten, diese freigeben und synchronisieren. Hier können Sie die Creative Cloud-Benutzer verwalten, die über Rechte für die Zusammenarbeit mit Ihrer Organisation verfügen. |
-| [Report Suites zuordnen](../core-services/core-services.md) | (Nur Analytics) Hauptdienste der Experience Cloud werden einer Organisation zugeordnet, nicht einer einzelnen Report Suite. Damit sichergestellt ist, dass diese Dienste korrekt funktionieren, muss jede Analytics-Report Suite einer Organisation zugeordnet sein. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe [Analytics für Hauptdienste aktiviert wird](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).) |
+| [Report Suites zuordnen](../core-services/core-services.md) | (Nur Analytics) Hauptdienste der Experience Cloud werden einer Organisation zugeordnet, nicht einer einzelnen Report Suite. Damit sichergestellt ist, dass diese Dienste korrekt funktionieren, muss jede Analytics-Report Suite einer Organisation zugeordnet sein. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe  [Analytics für Hauptdienste aktiviert wird](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).) |
 | [Organisations-ID](../admin-getting-started/organizations.md) | Die *Organisations-ID* findet sich unten auf der Administrationsseite. Bei dieser ID handelt es sich um diejenige ID, die mit dem bereitgestellten Experience Cloud-Unternehmen verknüpft ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |
 
 ## Bei der Experience Cloud anmelden (Benutzer) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
@@ -59,15 +59,15 @@ Hilfe für Benutzer, die sich nicht als Administratoren bei der Experience Clou
 
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://marketing.adobe.com) ( [!DNL marketing.adobe.com]).
-1. Klicken **[!UICONTROL Sie auf Mit Adobe ID anmelden]**.
+1. Klicken Sie auf **[!UICONTROL Mit Adobe ID anmelden]**.
 
    Ihr Experience Cloud-Administrator kann Ihnen bei der Bestimmung der Kontoart (Adobe ID oder Enterprise ID) behilflich sein.
 
-1. Klicken Sie auf der Feed-Seite (oder Ihrer Standard-Landingpage) auf das Auswahlsymbol ![](assets/menu-icon.png) , um das Pulldown-Menü aufzurufen.
+1. Klicken Sie auf der Feed-Seite (oder Ihrer Standard-Landingpage) auf das Auswahlsymbol ![](assets/menu-icon.png), um auf das Pulldown-Menü zuzugreifen.
 
    ![](assets/experience-cloud-core-services.png)
 
-   Die in diesem Menü angezeigten Lösungen und Dienste hängen von Ihren von [Ihrem Administrator definierten Anwendungsberechtigungen](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909)ab.
+   Die in diesem Menü angezeigten Lösungen und Dienste hängen davon ab, welche Anwendungsberechtigungen Ihnen von Ihrem [Administrator](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) zugewiesen wurden.
 
 ## Persönliche Standard-Kontoeinstellungen konfigurieren {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
@@ -76,16 +76,16 @@ Sie können persönliche Details bearbeiten und eine standardmäßige [Organisat
 1. Melden Sie sich bei der Experience Cloud an und klicken Sie auf Ihr Profilsymbol.
 
    ![](assets/edit-profile.png)
-1. Klicken **[!UICONTROL Sie auf Profil bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Profil bearbeiten]**.
 
    ![](assets/default-organization.png)
-1. Fahren Sie mit der Konfiguration und Bearbeitung persönlicher Informationen fort und klicken Sie dann auf Änderungen **[!UICONTROL speichern]**.
+1. Fahren Sie mit der Konfiguration und Bearbeitung Ihrer persönlichen Informationen fort und klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Benachrichtigungen aktivieren {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 Lassen Sie sich (per E-Mail oder direkt in der Anwendung) über Systemaktualisierungen, Wartungshinweise, Beiträge, Erwähnungen und freigegebene Assets informieren. Außerdem können Sie festlegen, für welche Produkte und Lösungen Sie Benachrichtigungen erhalten möchten – dies gilt auch für den Upload-Status von Kundenattributen.
 
-Klicken Sie zum Navigieren zu Benachrichtigungen auf das **[!UICONTROL Benachrichtigungssymbol]** ![](assets/notifications-icon.png)und anschließend auf das **[!UICONTROL Symbol Einstellungen]**![](assets/icon_edit_board.png).
+Um zu Benachrichtigungen zu navigieren, klicken Sie auf das Symbol **[!UICONTROL Benachrichtigungen]** ![](assets/notifications-icon.png)und dann auf das Symbol **[!UICONTROL Einstellungen]**![](assets/icon_edit_board.png).
 
 Sie können die Anzeige von „Benachrichtigungen“ nach den für Sie wichtigen Benachrichtigungstypen sortieren und Sie können Benachrichtigungen suchen. Sie können auch:
 
@@ -115,7 +115,7 @@ Sie können die Anzeige von „Benachrichtigungen“ nach den für Sie wichtigen
  <li id="li_17B0B176FF85435FB7EDD4317BC18201">Property has been published </li> 
 </ul> -->
 
-## Profile und Kennwörter verwalten {#task_7B89F4F38E5A4C4EB0FF842953856382}
+## Profile und Kennwörter verwalten  {#task_7B89F4F38E5A4C4EB0FF842953856382}
 
 Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation und -Landingpage festlegen und vieles mehr.
 
@@ -124,18 +124,18 @@ Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation u
 1. Klicken Sie im Experience Cloud-Menü auf Ihr Profilbild.
 
    ![](assets/edit-profile.png)
-1. Klicken **[!UICONTROL Sie auf Profil bearbeiten]**.
+1. Klicken Sie auf **[!UICONTROL Profil bearbeiten]**.
 
    Füllen Sie auf der Seite „Profil und Kennwort“ die Felder und Optionen im Bereich „Persönliche Informationen“ aus.
 
-## Kennwort zurücksetzen {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Kennwort zurücksetzen  {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navigieren Sie zur Anmeldeseite Ihrer Lösung.
 1. Klicken Sie auf **[!UICONTROL Kennwort vergessen]**.
 
    Durch das Zurücksetzen des Lösungskennworts sollten sich Probleme bei der Verknüpfung des Kennworts im Zuge der Experience Cloud-Kontenverknüpfung lösen lassen.
 
-   Adobe Analytics-Benutzer navigieren nun zu [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
+   Benutzer von Adobe Analytics können das Kennwort unter [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html) zurücksetzen.
 
 ## Lösungsanmeldung über einen direkten Link konfigurieren {#concept_8BE493A08786469B88B210E13F78FF2F}
 
@@ -153,9 +153,9 @@ Beispiel-URL:
 
 >[!NOTE]
 >
->Sie müssen jede beliebige URL kodieren, bevor Sie sie an den `destURL` Parameter übergeben. (Encoder-Sites wie [URL Decoder/Encoder](https://meyerweb.com/eric/tools/dencoder/) sind verfügbar.)
+>Sie müssen alle URLs vor Weitergabe an den Parameter `destURL` verschlüsseln. (Encoder-Sites wie [URL Decoder/Encoder](https://meyerweb.com/eric/tools/dencoder/) sind verfügbar.)
 
-| Parameter | Beschreibung | Beispiel  | Erforderlich/Optional |
+| Parameter | Beschreibung | Beispiel | Erforderlich/Optional |
 |--- |--- |--- |--- |
 | tenantId | Name des Mandanten, bei dem sich der Benutzer anmelden sollte | aem62tenant | Optional |
 | destURL | Die vollständige URL für den Ort, an den der Benutzer umgeleitet werden soll | https://sc.omniture.com/x/1_7xxzf | Optional |
