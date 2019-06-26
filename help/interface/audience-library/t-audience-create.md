@@ -5,8 +5,8 @@ seo-description: Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstel
 seo-title: Erstellen einer Zielgruppe
 solution: Experience Cloud
 title: Erstellen einer Zielgruppe
-uuid: 7 e 622539-296 e -4 ff 3-93 b 0-ec 1 c 08 b 35429
-translation-type: tm+mt
+uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
+translation-type: ht
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -31,53 +31,52 @@ Beide Kreise stellen eine Regel dar, die die Mitglieder einer Zielgruppe definie
 
 >[!NOTE]
 >
->Die Zielgruppe wird vollständig nach der Datenerfassung für den angegebenen Zeitraum definiert.
-Nachfolgendes Beispiel zeigt, wie die Regeln für eine zusammengefasste Zielgruppe erstellt werden. Diese Zielgruppe besteht aus Folgendem:
+>Die Zielgruppe ist erst nach Ablauf des für die Datenerfassung angegebenen Zeitraums vollständig definiert. Nachfolgendes Beispiel zeigt, wie die Regeln für eine zusammengefasste Zielgruppe erstellt werden. Diese Zielgruppe besteht aus Folgendem:
 
 * Home &amp; Garden-Abschnitt aus Seitendaten oder Analytics-Rohdaten
-* Benutzer von Chrome und Safari, die aus einem [!DNL Adobe Analytics] in der Liste [veröffentlichten](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) Segment abgeleitet [!DNL Experience Cloud]wurden.
+* Chrome- und Safari-Benutzer, die einem [!DNL Adobe Analytics]-Segment entnommen wurden, das in der [!DNL Experience Cloud] [veröffentlicht](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) wurde.
 
 
    ![](assets/audience_create.png)
 
-1. Klicken [!DNL Experience Cloud]**[!UICONTROL Sie in &quot;Personen]** &quot; &gt; **[!UICONTROL &quot; Zielgruppenbibliothek]**«.
-1. Klicken Sie auf der Seite [!UICONTROL „Zielgruppen“]**auf[!UICONTROL Neu]**. ![](assets/add_icon_small.png)
+1. Klicken Sie in der [!DNL Experience Cloud] auf **[!UICONTROL People]** &gt; **[!UICONTROL Zielgruppenbibliothek]**.
+1. Klicken Sie auf der Seite [!UICONTROL „Zielgruppen“] auf **[!UICONTROL Neu]**. ![](assets/add_icon_small.png)
 
-![Schrittergebnis](assets/audience_create_new.png)
+![Schritt Ergebnis](assets/audience_create_new.png)
 
-1. Geben Sie auf der Seite [!UICONTROL „Neue Zielgruppe erstellen“] einen Titel und eine Beschreibung an.
+1. Geben Sie auf der Seite [!UICONTROL Neue Zielgruppe erstellen] einen Titel und eine Beschreibung an.
 1. Wählen Sie unter [!UICONTROL Regeln] eine Attributquelle aus:
 
 * **[!UICONTROL Analytics-Echtzeitdaten (oder Rohdaten):]** Hierbei handelt es sich um Attributdaten, die aus Echtzeit-Bildanfragen an Analytics gewonnen werden und Daten wie eVars und Ereignisse enthalten. Wenn Sie diese Attributquelle verwenden, müssen eine Report Suite auswählen und die einbezogene Dimension oder das einbezogene Ereignis definieren. Die Auswahl dieser Report Suite stellt die Variablenstruktur bereit, die von der Report Suite verwendet wird.
 
    >[!NOTE]
    >
-   >Aufgrund der Zwischenspeicherung müssen Report Suites in Analytics 12 Stunden vor dem Löschen in der Experience Cloud angezeigt werden.
+   >Aufgrund der Caching-Funktion wird die Löschung von Report Suites in Analytics erst nach 12 Stunden durch Experience Cloud übernommen.
 
-* **[!UICONTROL Experience Cloud:]** Attributdaten aus den [!DNL Experience Cloud] Quellen. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
+* **[!UICONTROL Experience Cloud:]** Aus [!DNL Experience Cloud]-Quellen abgeleitete Attributdaten. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 
 1. Definieren Sie die Zielgruppenregeln.
 
 >[!NOTE]
 >
->Bei der Definition von Zielgruppenregeln sollten Sie Ihre Implementierungsvariablen kennen.
+>Für die Erstellung von Zielgruppenregeln sollten Sie Ihre Implementierungsvariablen unbedingt kennen.
 
-Definieren Sie unter [!UICONTROL Regeln]die *`Home & Garden`* Attributauswahl:
+Definieren Sie unter [!UICONTROL Regeln] die *`Home & Garden`*-Attributauswahl:
 
 * **[!UICONTROL Attributquelle:]** Analytics-Rohdaten
 * **[!UICONTROL Report Suite:]** Report Suite 31
-* Dimension = **[!UICONTROL Store (Merch) (v 6)]** &gt; **[!UICONTROL Gleich]** &gt; **[!UICONTROL Home &amp; Garden]**
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** &gt; **[!UICONTROL Entspricht]** &gt; **[!UICONTROL Home &amp; Garden]**
 
    ![](assets/home_garden.png)
 
-   Die Besucher *von Chrome &amp; Safari* sind ein aus Analytics freigegebenes Zielgruppensegment:
+   Die *Besucher von Chrome und Safari* sind ein in Analytics freigegebenes Zielgruppensegment:
 
 * **[!UICONTROL Attributquelle:]** Experience Cloud
 * **[!UICONTROL Dimension:]** Besucher von Chrome &amp; Safari
 
    ![](assets/chrome_safari.png)
 
-   Zum Vergleich können Sie eine *OR* -Regel hinzufügen, um alle Besucher eines Site-Abschnitts wie Patio &amp; Furniture anzuzeigen.
+   Zum Vergleich können Sie eine *OR*-Regel hinzufügen, um alle Besucher eines Site-Bereichs wie „Patio &amp; Furniture“ anzuzeigen.
 
    ![](assets/audiences_rule_patio.png)
 
