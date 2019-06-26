@@ -1,51 +1,51 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Anleitung
 
-**Hinweis: Diese Seite (oder beliebige Readme. md-Seite) wird nicht in der Kundenbezogenen Dokumentation veröffentlicht.**
+**Hinweis: Diese Seite (und jede andere „readme.md“-Seite) wird nicht in der Kundendokumentation veröffentlicht**
 
 ## Inhaltsverzeichnis
 
-+ `TOC.md` im Stamm des Benutzerhandbuchs finden Sie die Organisation der Themen, die im Handbuch für diese Lösung enthalten sind.
-+ Jedes Benutzerhandbuch verfügt über eine eigene eindeutige Kennzeichnung `TOC.md`, in der Sie alle Seiten/Themen nach Bedarf sortieren können.
-+ Die erste Seite aller Benutzerhandbücher `overview.md`ist.
++ `TOC.md` steht am Anfang des Benutzerhandbuchs und ermöglicht die Organisation der Themen, die im Handbuch für diese Lösung enthalten sind.
++ Jedes Benutzerhandbuch verfügt über ein eigenes `TOC.md`, in dem Sie alle Seiten/Themen nach Bedarf sortieren können.
++ Die erste Seite aller Benutzerhandbücher ist `overview.md`.
 
 ## Benutzerhandbuch
 
-+ Die Einführung in das Benutzerhandbuch heißt `overview.md`
++ Die Einführung in das Benutzerhandbuch finden Sie in der `overview.md`
 + Jedes Thema im Benutzerhandbuch verfügt über ein eigenes Verzeichnis.
-   + Wenn im Guide ein Thema namens *Implementierung vorhanden ist*, lautet der entsprechende Ordner `/implementation`
-+ Alle Bild-Assets werden im `/assets` Stamm des Benutzerhandbuchs gespeichert.
-   + Alle Bilder im `/assets` Ordner werden lokalisiert.
-   + Alle Bilder im `/no-localize` Ordner werden nicht lokalisiert (es gibt eine Überraschung!). Dies kann verwendet werden, um in den loc-Versionen sicherzustellen, dass bestimmte Assets nicht unnötig reproduziert werden.
+   + Wenn im Handbuch ein Thema namens *Implementierung* vorhanden ist, lautet auch der entsprechende Ordner `/implementation`.
++ Alle Bild-Assets befinden sich in `/assets` im Stammordner des Benutzerhandbuchs.
+   + Alle Bilder im `/assets`-Ordner werden übersetzt.
+   + Bilder im `/no-localize`-Ordner werden nicht übersetzt. Damit kann sichergestellt werden, dass bestimmte Assets nicht unnötig reproduziert werden.
 
-## Meta-Daten für Benutzerführungsebene
+## Metadaten auf Benutzerhandbuchebene
 
-+ Metadaten, die das Benutzerhandbuch beschreibt, werden im Abschnitt `TOC.md`gespeichert. Dazu gehören:
-   + product - Name des Produkts/der Funktion.
-   + Cloud - Cloud, zu der dieses Produkt gehört.
-   + Zielgruppe - Zielgruppe oder Archetype, auf dem das Handbuch ausgerichtet ist.
-   + user-guide - Name des Benutzerhandbuchs.
++ Metadaten, die das Benutzerhandbuch beschreiben, werden im Abschnitt `TOC.md` gespeichert. Dazu gehören:
+   + product – Name des Produkts/der Funktion.
+   + cloud – Cloud, zu der dieses Produkt gehört.
+   + audience – Zielgruppe des Handbuchs.
+   + user-guide – Name des Benutzerhandbuchs.
 
 ## Metadaten auf Seitenebene
 
 + Die zur Beschreibung eines Dokuments erforderlichen Metadaten werden als Teil jeder einzelnen Seite gespeichert. Dazu gehören:
-   + title - Titel der Seite.
-   + description - description of page.
-   + seo-title - Seo-alternative Titel.
-   + seo-description - alternative Titel für SEO-Zwecke.
-   + short-title - (optionales Feld).
-   + index - ja/nein - wird die Seite durch die Suchplattform von Adobe indexiert.
-   + übersetzen - ja/nein - wird diese Seite lokalisiert.
-   + Version - hauptsächlich für AEM und Campaign verwendet, um die Produktversion zu kennzeichnen.
-   + private-feature-pack - hauptsächlich für AEM verwendet.
-   + beta - ist dieses Produkt in der Beta-Phase?
-   + Umleitung - Kann verwendet werden, um eine ref zu einer neuen Seite zu erstellen, die erforderlich ist.
+   + title – Titel der Seite.
+   + description – Beschreibung der Seite.
+   + seo-title – Seo-Alternativtitel.
+   + seo-description – Alternativer Titel für SEO-Zwecke.
+   + short-title – (Optionales Feld).
+   + index – ja/nein – Wird die Seite durch die Suchplattform von Adobe indexiert?
+   + translate – ja/nein – Wird diese Seite übersetzt?
+   + version – Hauptsächlich für AEM und Campaign verwendet, um die Produktversion zu kennzeichnen.
+   + private-feature-pack – Hauptsächlich für AEM verwendet.
+   + beta – Ist dieses Produkt in der Beta-Phase?
+   + redirect – Kann verwendet werden, um bei Bedarf eine Referenz zu einer neuen Seite zu erstellen.
    + doc-type: reference (Standard)/troubleshooting/developer/tutorial/kb/whitepaper.
 
-## Weitere Info
+## Weitere Informationen
 
-Weitere Veröffentlichungsanweisungen, Stilhandbücher, Beispiele und andere Ressourcen finden Sie in [der Replizierung der Dokumentation.](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
+Weitere Veröffentlichungsanweisungen, Stilhandbücher, Beispiele und andere Ressourcen finden Sie in [Kollaboratives Dokumentationsverzeichnis](https://git.corp.adobe.com/AdobeDocs/collaborative-doc-instructions)
