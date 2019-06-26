@@ -5,8 +5,8 @@ seo-description: Deaktivieren Sie die Synchronisierung freigegebener Experience�
 seo-title: Deaktivierung der Synchronisierung freigegebener Ordner
 solution: Experience Cloud
 title: Deaktivierung der Synchronisierung freigegebener Ordner
-uuid: 17 c 42 b 39-614 c -45 e 4-bfb 1-c 6 cb 2 fd 66150
-translation-type: tm+mt
+uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,7 +18,7 @@ Deaktivieren Sie die Synchronisierung freigegebener Experience Cloud-Ordner in 
 
 >[!NOTE]
 >
->Sie können nur Ordner, deren Inhaber Sie sind, deaktivieren.
+>Die Synchronisierung von Ordnern können Sie nur deaktivieren, wenn Ihnen die Ordner gehören.
 <p class="head"> <b>Windows</b> </p>
 
 1. Öffnen Sie Windows-Explorer.
