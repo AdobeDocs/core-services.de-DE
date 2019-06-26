@@ -1,12 +1,12 @@
 ---
-description: 'Verwaltungstools für die Verwaltung genehmigter Creative Cloud-Benutzer. '
-keywords: Asset Sharing; Creative Cloud; Hauptdienste
-seo-description: 'Verwaltungstools für die Verwaltung genehmigter Creative Cloud-Benutzer. '
+description: 'Verwaltungstools für die Verwaltung genehmigter Creative Cloud-Benutzer '
+keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
+seo-description: 'Verwaltungstools für die Verwaltung genehmigter Creative Cloud-Benutzer '
 seo-title: Verwaltung der Creative Cloud-Benutzer
 solution: Experience Cloud
 title: Verwaltung der Creative Cloud-Benutzer
-uuid: 11 c 4 de 67-40 c 5-4438-92 fc-e 23761 be 3 f 18
-translation-type: tm+mt
+uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
+translation-type: ht
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -18,10 +18,10 @@ Die Experience Cloud bietet Tools für die Verwaltung der zugelassenen Creative
 
 >[!NOTE]
 >
->Zur Durchführung dieses Verfahrens müssen Sie Administrator sein.
+>Hierfür müssen Sie Administrator sein.
 
-1. Klicken Sie in der Experience Cloud auf **[!UICONTROL Administration]** &gt; **[!UICONTROL Creative Cloud-Mitwirkende verwalten]**.
-1. Klicken **[!UICONTROL Sie auf Creative Cloud Asset Sharing]**.
-1. Klicken **[!UICONTROL Sie auf Neuen Benutzer hinzufügen]**. ![](assets/mac_add_icon.png)
+1. Klicken Sie in der Experience Cloud auf **[!UICONTROL Administration]** &gt; **[!UICONTROL Creative Cloud-Mitwirkende verwalten]**.
+1. Klicken Sie auf **[!UICONTROL Creative Cloud-Asset-Freigabe]**.
+1. Klicken Sie auf **[!UICONTROL Neuen Benutzer hinzufügen]**.  ![](assets/mac_add_icon.png)
 1. Geben Sie eine E-Mail-Adresse, einen Anzeigenamen und einen Titel ein und fügen Sie optional einen Avatar hinzu.
-1. Klicken **[!UICONTROL Sie auf Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
