@@ -5,8 +5,8 @@ seo-description: Häufig gestellte Fragen zu und Best Practices für Kundenattri
 seo-title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 solution: Experience Cloud
 title: Häufig gestellte Fragen, Einschränkungen und Best Practices
-uuid: e 93 eb 31-23 c 7-4 d 75-92 e 8-75699 f 58546 a
-translation-type: tm+mt
+uuid: e93eb531-23c7-4d75-92e8-75699f58546a
+translation-type: ht
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -17,17 +17,17 @@ source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 Häufig gestellte Fragen zu und Best Practices für Kundenattribute in Analytics und Target.
 
 
-## Best Practices und Einschränkungen {#section_7F5189B3DAA84EE6865B91D2026EE05A}
+## Best Practices und Einschränkungen  {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
 Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
 
 | Fehler | Beschreibung |
 |--- |--- |
 | Einschränkungen von Kundenattribut-Abonnements | Bei einem Upgrade auf Analytics Premium dauert es 24 Stunden, bis weitere Attribute verfügbar sind. Während dieser Wartezeit wird Ihnen möglicherweise eine Fehlermeldung über einen erreichten Attributabonnement-Maximalwert angezeigt. |
-| Benutzerdefinierte Analytics ID (s.visitorID) | Durch Festlegen einer Kunden-ID mithilfe von  s. visitorid ist eine Methode zur Identifizierung von Benutzern in Analytics. Integrationen, bei denen Daten mithilfe des ID-Diensts aus Analytics exportiert oder in die Anwendung importiert werden, funktionieren jedoch nicht, wenn ein Besucher mit s.visitorID identifiziert wird.<br>Hierzu gehören unter anderem gemeinsam genutzte Zielgruppen, Analytics for Target (A4T) und Kundenattribute.<br>Bei diesen Integrationen wird die Festlegung einer benutzerdefinierten Analytics ID nicht unterstützt. |
+| Benutzerdefinierte Analytics ID (s.visitorID) | Durch Festlegen einer Kunden-ID mithilfe von    „s.visitorID“ ist eine Methode, mit der Benutzer in Analytics identifiziert werden können. Integrationen, bei denen Daten mithilfe des ID-Diensts aus Analytics exportiert oder in die Anwendung importiert werden, funktionieren jedoch nicht, wenn ein Besucher mit s.visitorID identifiziert wird.<br>Hierzu gehören unter anderem gemeinsam genutzte Zielgruppen, Analytics for Target (A4T) und Kundenattribute.<br>Bei diesen Integrationen wird die Festlegung einer benutzerdefinierten Analytics ID nicht unterstützt. |
 | Beschränkungen der Zeichenlänge in Analytics | Wenn Sie ein Analytics-Abonnement erstellen, sind die Längen der Felder für hochgeladene Dateien auf 255 Zeichen beschränkt. |
 
-## Häufig gestellte Fragen zu Kundenattributen {#section_E47866EEA83348E09FE43CEC5E44C461}
+## Häufig gestellte Fragen zu Kundenattributen  {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 <table id="table_88631069013B408EBB0A810657662B36"> 
  <thead> 
@@ -47,8 +47,8 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
     <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
      <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>Lassen Sie sich freischalten. </p> <p>Wenn Sie <b>Analytics</b>-Kunde sind, schaltet Adobe Sie für Kundenattribute frei. Wenn Sie nur <b>Target</b> verwenden und nicht über Analytics verfügen, müssen Sie die Kundenunterstützung bitten, Sie für die Hauptdienste freizuschalten. </p> </li> 
      <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>Besprechen Sie sich mit Ihrem CRM-Team. Finden Sie heraus, welche Arten von Kundendaten vorhanden sind und ob sie sich für die Verwendung in Analytics und in der Experience Cloud eignen. </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>Implementieren Sie die Hauptdienste. </p> <p>Weitere Informationen finden Sie unter <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Erste Schritte - Aktivierung Ihrer Lösungen für die Hauptdienste</a> für die Modernisierung Ihrer Implementierung für Hauptdienste. (Besonders wichtige Informationen finden sich im Abschnitt über die Synchronisierung von Kunden-IDs.) </p> </li> 
-    </ol> <p> <b>Hinweis:</b> Eine FAQ für Administratoren zur Implementierung von Hauptdiensten finden Sie <a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local"> hier</a>. </p> </td> 
+     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>Implementieren Sie die Hauptdienste. </p> <p>Weitere Informationen finden Sie unter  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Erste Schritte - Aktivieren Ihrer Lösungen für Hauptdienste</a>. Hier erfahren Sie, wie Sie Ihre Implementierung für Hauptdienste modernisieren. (Besonders wichtige Informationen finden sich im Abschnitt über die Synchronisierung von Kunden-IDs.) </p> </li> 
+    </ol> <p> <b>Hinweis:</b> Eine FAQ-Rubrik für Administratoren zur Implementierung von Hauptdiensten finden Sie  <a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local">hier</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Wie viele Kundenattribute darf ich verwenden? </p> </td> 
@@ -66,7 +66,7 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: Dringend zu empfehlen </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> Erforderlich </li> 
-     </ul> </p> <p>Der ID-Dienst öffnet die Türen zur modernsten Experience Cloud-Funktionalität, einschließlich Echtzeitzielgruppen, der neuesten Target-Version, der Integration von Analytics und der Pulsmessung für Video. </p> <p>Weitere Informationen finden Sie unter <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Hauptdienste – So aktivieren Sie Ihre Lösungen</a>. </p> <p> <b>Hinweis</b>: Der <span class="term"> Experience Cloud ID-Dienst</span> ist die modernisierte Implementierung des zuvor als <span class="term"> Analytics-Besucher-ID-Service bekannten Dienstes</span>. </p> </td> 
+     </ul> </p> <p>Der ID-Dienst öffnet die Türen zur modernsten Experience Cloud-Funktionalität, einschließlich Echtzeitzielgruppen, der neuesten Target-Version, der Integration von Analytics und der Pulsmessung für Video. </p> <p>Weitere Informationen finden Sie unter  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Hauptdienste – So aktivieren Sie Ihre Lösungen</a>. </p> <p> <b>Hinweis</b>: Der <span class="term"> Experience Cloud ID-Dienst</span> ist die modernisierte Implementierung des <span class="term"> Analytics-Besucher-ID-Dienstes</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inwieweit lässt sich die Kundenattributfunktion mit Adobe Audience Manager vergleichen? </p> </td> 
@@ -95,11 +95,11 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Nur Target)</b> Verlängert das Hochladen von Daten von Kundenattributen zu Adobe Target die Lebensdauer des Target-Besucherprofils? </p> </td> 
-   <td colname="col2"> <p>Ja. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Lebensdauer von Besucherprofilen</a> in der Hilfe zu Adobe Target. </p> </td> 
+   <td colname="col2"> <p>Ja. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Lebensdauer von Besucherprofilen</a> in der Hilfe zu Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Nur Target)</b> Kann ich mich auf die in Kundenattributen hochgeladenen Daten sofort nach Identifikation des Besuchers durch die Kunden-ID beziehen? </p> </td> 
-   <td colname="col2"> <p>Ja.  </p> <p>Nach dem Server-Aufruf für Target, der die mbox-ID des Drittanbieters enthält, stehen alle Kundenattributdaten zur Verfügung. </p> </td> 
+   <td colname="col2"> <p>Ja. </p> <p>Nach dem Server-Aufruf für Target, der die mbox-ID des Drittanbieters enthält, stehen alle Kundenattributdaten zur Verfügung. </p> </td> 
   </tr> 
  </tbody> 
 </table>
