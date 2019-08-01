@@ -1,0 +1,45 @@
+---
+description: Entfernen Sie Benutzer, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
+keywords: Cookies; Datenschutz
+seo-description: Entfernen Sie Benutzer, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
+seo-title: Datenschutzeinstellungen für Browser-Cookies aktivieren
+solution: Marketing Cloud, Analytics, Target, Social
+title: Datenschutzeinstellungen für Browser-Cookies aktivieren
+uuid: f 6 a 56 e 8 b-b 21-49 db -8 eb 4-6 c 14 af 0 c 7243
+index: y
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+
+---
+
+
+# Datenschutzeinstellungen für Browser-Cookies aktivieren{#enable-privacy-settings-for-browser-cookies}
+
+Entfernen Sie Benutzer, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
+
+Mit dieser Einstellung können Sie die Intention von Benutzern respektieren, von einer Verarbeitung in Analytics ausgenommen zu werden, wenn diese alle Cookies in den Cookie-Einstellungen ihres Browsers blockiert haben.
+
+1. Navigate to **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]**.
+1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
+1. Enable **[!UICONTROL Privacy Settings]** (for desktop or mobile).
+
+   Ist diese Funktion aktiviert, werden Daten, die über Desktopbrowser mit vollständig blockierten Cookies erfasst werden, aus den Analytics-Berichten ausgeschlossen. Wenn Adobe den Browser nicht erkennt, werden die Daten in die Analytics-Berichte einbezogen.
+
+>[!IMPORTANT]
+>
+>Beachten Sie, dass viele mobile Apps (wie der App-interne Browser für Facebook oder Twitter) als Standard-Browser für Mobilgeräte angezeigt werden können, jedoch nicht alle Cookies zulassen. Wenn Sie diese Funktion aktivieren, wird möglicherweise ein erheblicher Anteil des mobilen Datenverkehrs aus den Analytics-Berichten ausgeschlossen.
+
+**Informationen über Datenschutzeinstellungen in Browsern**
+
+In Gesetzen und behördlichen Auflagen wird darauf hingewiesen, dass das Blockieren von Cookies durch den Benutzer einer Anfrage zum Ausschluss von der Profilerstellung gleichkommt. Ist diese Funktion aktiviert, werden Daten, die über Desktopbrowser mit vollständig blockierten Cookies erfasst werden, aus den Analytics-Berichten ausgeschlossen. Wenn Adobe den Webbrowser nicht erkennt, werden die Daten in die Analytics-Berichte einbezogen.
+
+Gesetzgeber auf der ganzen Welt haben (sowohl in Auflagen als auch in Vergleichen) erklärt, dass entsprechende Cookie-Browsereinstellungen eine Aufforderung seitens der Benutzer darstellen, von der Profilerstellung ausgenommen zu werden. Insbesondere haben diese Gesetzgeber erklärt, dass die Browsereinstellung zum Blockieren von Drittanbieter-Cookies eine Aufforderung darstellt, vom (siteübergreifenden) Drittanbieter-Tracking ausgenommen zu werden, und dass das Blockieren aller Cookies eine Aufforderung darstellt, von jeglichem Tracking ausgenommen zu werden. Zwar können serverseitige Kennungen (wie IP-Adresse oder Benutzeragent) als erstrebenswerte Alternative zur Umgehung von Cookie-Browsereinstellungen erscheinen, doch werden diese von manchen Gesetzgebern als Umgehung der vom Benutzer geäußerten Absicht gedeutet.
+
+<!--
+<p>Awaiting content from Vinay May 20 2015 </p>
+<p>https://wiki.corp.adobe.com/display/omtrcache/Inferred+Opt+Out </p>
+<p>https://wiki.corp.adobe.com/display/omtrplatform/Auto-opt-out+For+Users+Who+Block+Cookies </p>
+-->
+
