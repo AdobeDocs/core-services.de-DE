@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: 7428f95c3e06e6bad1290540789e203608e113e4
 
 ---
 
@@ -23,7 +23,7 @@ Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfüg
 
 * Experience Platform ID-Dienst. Der ID-Dienst kann das Cookie im Erstanbieterkontext mit javascript festlegen.
 * DNS-Einträge auf Ihrem Unternehmen DNS-Server.
-* Wenn Ihre Site sichere Seiten über das `https://` Protokoll enthält und Sie nicht den Experience Platform ID-Dienst verwenden, können Sie mit Adobe arbeiten, um ein SSL-Zertifikat abzurufen, um Erstanbieter-Cookies zu implementieren.
+* Wenn Ihre Site sichere Seiten über das `https:` Protokoll enthält und Sie nicht den Experience Platform ID-Dienst verwenden, können Sie mit Adobe arbeiten, um ein SSL-Zertifikat abzurufen, um Erstanbieter-Cookies zu implementieren.
 
 Der SSL-Zertifikatsprozess kann häufig verwirrend und zeitraubend sein. Daher hat Adobe eine Partnerschaft mit digicert, einer branchenführenden Zertifizierungsstelle (CA) und einen integrierten Prozess entwickelt, mit dem der Kauf und die Verwaltung dieser Zertifikate automatisiert werden.
 
