@@ -4,7 +4,7 @@ user-guide-title: Hauptdienste-Benutzerhandbuch
 user-guide-url: https://www.adobe.com/de
 index: true
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
 
 ---
 
@@ -29,7 +29,6 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
    + [Advertising Cloud-Cookies](cookies/cookies-advertising-cloud.md)
    + [Scene 7-Cookies](cookies/cookies-s7.md)
    + [Cookies suchen und bewerben](cookies/cookies-snp.md)
-   + [Survey-Cookies](cookies/cookies-survey.md)
    + [Target-Cookies](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt](cookies/cookies-thirdparty.md)
