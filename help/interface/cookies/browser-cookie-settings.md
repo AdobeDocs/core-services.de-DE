@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1630f5de61e410eaf10cf940faa9adc6017fb6b
+source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
 
@@ -36,10 +36,3 @@ Mit dieser Einstellung können Sie die Intention von Benutzern respektieren, von
 In Gesetzen und behördlichen Auflagen wird darauf hingewiesen, dass das Blockieren von Cookies durch den Benutzer einer Anfrage zum Ausschluss von der Profilerstellung gleichkommt. Ist diese Funktion aktiviert, werden Daten, die über Desktopbrowser mit vollständig blockierten Cookies erfasst werden, aus den Analytics-Berichten ausgeschlossen. Wenn Adobe den Webbrowser nicht erkennt, werden die Daten in die Analytics-Berichte einbezogen.
 
 Gesetzgeber auf der ganzen Welt haben (sowohl in Auflagen als auch in Vergleichen) erklärt, dass entsprechende Cookie-Browsereinstellungen eine Aufforderung seitens der Benutzer darstellen, von der Profilerstellung ausgenommen zu werden. Insbesondere haben diese Gesetzgeber erklärt, dass die Browsereinstellung zum Blockieren von Drittanbieter-Cookies eine Aufforderung darstellt, vom (siteübergreifenden) Drittanbieter-Tracking ausgenommen zu werden, und dass das Blockieren aller Cookies eine Aufforderung darstellt, von jeglichem Tracking ausgenommen zu werden. Zwar können serverseitige Kennungen (wie IP-Adresse oder Benutzeragent) als erstrebenswerte Alternative zur Umgehung von Cookie-Browsereinstellungen erscheinen, doch werden diese von manchen Gesetzgebern als Umgehung der vom Benutzer geäußerten Absicht gedeutet.
-
-<!--
-<p>Awaiting content from Vinay May 20 2015 </p>
-<p>https://wiki.corp.adobe.com/display/omtrcache/Inferred+Opt+Out </p>
-<p>https://wiki.corp.adobe.com/display/omtrplatform/Auto-opt-out+For+Users+Who+Block+Cookies </p>
--->
-
