@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21bab04d9df4f75afbd1dc5940842b57c34ecb24
+source-git-commit: 345b1fda364d9f7e884e94f32807bb99cc0c3476
 
 ---
 
@@ -41,12 +41,10 @@ So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Co
 
 1. Füllen Sie das Anforderungsformular aus und öffnen Sie ein Ticket mit dem Kundendienst, um Erstanbieter-Cookies im Adobe Managed Program einzurichten. Jedes Feld wird in dem Dokument anhand von Beispielen beschrieben.
 
-1. Erstellen Sie CNAME-Einträge. Beim Empfang des Tickets sollte Ihnen ein FPSSL-Spezialist ein Paar von CNAME-Aufzeichnungen bereitstellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Die CNAMES ähneln dem folgenden.
+1. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten). Beim Empfang des Tickets sollte Ihnen ein FPSSL-Spezialist ein Paar von CNAME-Aufzeichnungen bereitstellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Die CNAMES ähneln dem folgenden.
 
 * **Sicher** - Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.ssl.d1.omtrdc.net`.
 * **Nicht sicher** - zum Beispiel verweist der Hostname `metrics.example.com` auf: `example.com.d1.omtrdc.net`.
-
-Weitere Informationen finden Sie unter Erstellen von CNAME-Aufzeichnungen.
 
 1. Wenn diese CNAMES vorhanden sind, arbeitet Adobe mit digicert zusammen, um ein Zertifikat auf den Produktionsservern von Adobe zu erwerben und zu installieren. Wenn Sie eine Implementierung haben, sollten Sie die Besuchermigration erwägen, um Ihre vorhandenen Besucher beizubehalten. Nachdem das Zertifikat live in die Produktionsumgebung von Adobe geschaltet wurde, können Sie Ihre Tracking-Server-Variablen auf die neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (https) ist, aktualisieren Sie die `s.trackingServer`. Wenn die Site sicher ist (https), aktualisieren Sie beide `s.trackingServer` und `s.trackingServerSecure` Variablen.
 
