@@ -10,31 +10,31 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
+source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
 
 ---
 
 
-# Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Auswirkungen von Änderungen an der Unterstützung von Drittanbieter-Cookies{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr und mehr zurückgegangen. Aus diesem Grund hat Adobe an neuen Lösungen gearbeitet, die sowohl den Anforderungen der Kunden als auch dem Recht der Verbraucher auf Privatsphäre in den Adobe Experience Cloud-Lösungen in ausgewogenem Maße Rechnung tragen.
 
 Die folgende Liste gibt Aufschluss darüber, wie sich die Unterstützung für Drittanbieter-Cookies auf aktuelle Implementierungen der Adobe Experience Cloud-Lösungen auswirkt:
 
-**Adobe Analytics und Target**
+## Adobe Analytics und Adobe Target
 
-* Kunden mit Erstanbieter-Implementierung sind größtenteils nicht betroffen.
+* Customers with a [first-party implementation](/help/interface/cookies/cookies-first-party.md) would remain largely unaffected.
 * Customers that are not using first-party implementation can implement the [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) to store the ID cookie as a first-party cookie without a first-party implementation.
 
-**Adobe Experience Manager**
+## Adobe Experience Manager
 
-* Da Adobe Experience Manager vollständig innerhalb der Kundendomäne ausgeführt wird, kommt es nur zu minimaler Interaktion mit Drittanbieter-Cookies und damit zu minimalen oder keinerlei Auswirkungen.
+* Da Adobe Experience Manager vollständig innerhalb der Domäne des Kunden arbeitet, gibt es minimale Interaktionen mit Drittanbieter-Cookies und so wenig ohne Auswirkung auf keine Auswirkungen.
 
-**Adobe Social**
+## Adobe Social
 
 * Social ist nicht betroffen, solange der Kunde über die neueste Version des Codes verfügt.
 
-**Adobe Media Optimizer**
+## Adobe Advertising Cloud
 
 * Durchsuchen:
 
