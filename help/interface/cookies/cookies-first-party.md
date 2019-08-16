@@ -39,9 +39,12 @@ Mit dem Programm "Adobe Managed Certificate" können Sie ohne zusätzliche Koste
 
 So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Cookies:
 
-1. Füllen Sie das [Erstanbieter-Cookie-Anforderungsformular](/help/interface/cookies/assets/FPC_Request_Form.xlsx) aus und öffnen Sie ein Ticket mit dem Kundendienst, um Erstanbieter-Cookies im Adobe Managed Program einzurichten. Jedes Feld wird in dem Dokument anhand von Beispielen beschrieben.
+1. Füllen Sie das ![Anforderungsformular](assets/FPC_Request_Form.xlsx) aus und öffnen Sie ein Ticket mit dem Kundendienst, um Erstanbieter-Cookies im Adobe Managed Program einzurichten. Jedes Feld wird in dem Dokument anhand von Beispielen beschrieben.
 
-1. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten). Beim Empfang des Tickets sollte Ihnen ein FPSSL-Spezialist ein Paar von CNAME-Aufzeichnungen bereitstellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Die CNAMES lauten wie folgt: **Sicher** - Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.ssl.d1.omtrdc.net`. **Nicht sicher** - zum Beispiel verweist der Hostname `metrics.example.com` auf: `example.com.d1.omtrdc.net`.
+1. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten). Beim Empfang des Tickets sollte Ihnen ein FPSSL-Spezialist ein Paar von CNAME-Aufzeichnungen bereitstellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Die CNAMES ähneln dem folgenden.
+
+* **Sicher** - Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.ssl.d1.omtrdc.net`.
+* **Nicht sicher** - zum Beispiel verweist der Hostname `metrics.example.com` auf: `example.com.d1.omtrdc.net`.
 
 1. Wenn diese CNAMES vorhanden sind, arbeitet Adobe mit digicert zusammen, um ein Zertifikat auf den Produktionsservern von Adobe zu erwerben und zu installieren. Wenn Sie eine Implementierung haben, sollten Sie die Besuchermigration erwägen, um Ihre vorhandenen Besucher beizubehalten. Nachdem das Zertifikat live in die Produktionsumgebung von Adobe geschaltet wurde, können Sie Ihre Tracking-Server-Variablen auf die neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (https) ist, aktualisieren Sie die `s.trackingServer`. Wenn die Site sicher ist (https), aktualisieren Sie beide `s.trackingServer` und `s.trackingServerSecure` Variablen.
 
@@ -106,9 +109,9 @@ Wenn die CNAME-Aufzeichnungen nicht korrekt eingerichtet werden oder nicht aktiv
 
 Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, müssen Sie folgende Voraussetzungen erfüllen:
 
-* Fordern Sie ein SSL-Zertifikat an, wie oben beschrieben in Implementierungsschritten für das Adobe Managed Certificate-Programm.
-* Erstellen Sie CNAME-Einträge (siehe oben).
-* Ping des Hostnamens (siehe oben)
+* Fordern Sie ein SSL-Zertifikat an, wie beschrieben in Implementierungsschritten für das Adobe Managed Certificate-Programm.
+* Erstellen Sie CNAME-Einträge.
+* Ping des Hostnamens.
 
 Nachdem Sie überprüft haben, ob Ihre Hostnamen reagieren und an Adobe-Datenerfassungsserver weiterleiten, können Sie Ihre Implementierung ändern, um auf Ihre eigenen Datenerfassungshostnamen zu verweisen.
 
@@ -116,7 +119,6 @@ Nachdem Sie überprüft haben, ob Ihre Hostnamen reagieren und an Adobe-Datenerf
 1. Wenn Sie Ihre Codeversion aktualisieren möchten, ersetzen Sie die gesamte `s_code.js/AppMeasurement.js` --Datei mit der neueren Version und ersetzen Sie alle Plugins oder Anpassungen (falls vorhanden). **Wenn** Sie den Code aktualisieren möchten, der nur für Erstanbieter-Cookies gilt, suchen Sie die Variablen s. trackingserver und s. trackingserversecure (falls SSL verwendet wird) und verweisen Sie auf Ihre neuen Datenerfassungshostnamen. Using mysite.com as an example:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Laden Sie die aktualisierte Kern-javascript-Datei auf Ihre Site hoch.
-
 1. Wenn Sie von einer älteren Implementierung zu Erstanbieter-Cookies wechseln oder zu einem anderen Hostnamen der Erstanbieter-Sammlung wechseln, empfehlen wir, Besucher aus der vorherigen Domäne in die neue Domäne zu migrieren.
 
 Siehe [Besuchermigration](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) im Analytics-Implementierungshandbuch.
