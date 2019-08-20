@@ -6,15 +6,15 @@ seo-title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 solution: Experience Cloud
 title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
-source-git-commit: b6058194725c3ad50d280a3daad737cd53416204
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
 
 # Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 
-Erstellen der Kundenattributquelle und Hochladen der Daten. Sobald Sie dazu bereit sind, aktivieren Sie die Datenquelle. Geben Sie die Attributdaten nach Aktivierung der Datenquelle an Analytics und Target weiter.
+Erstellen Sie die Kundenattributquelle (CSV- und FIN-Dateien) und laden Sie die Daten hoch. Sobald Sie dazu bereit sind, aktivieren Sie die Datenquelle. Geben Sie die Attributdaten nach Aktivierung der Datenquelle an Analytics und Target weiter.
 
 ## Arbeitsablauf für Kundenattribute {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
@@ -48,12 +48,12 @@ Informationen hierzu finden Sie unter [Benutzer und Gruppen](../admin-getting-st
 Bei diesen Daten handelt es sich um Unternehmensdaten aus Ihrem CRM-System. Die Daten können zum Beispiel Produktabonnementdaten einschließlich Mitglieds-IDs, Produktberechtigungen, der am häufigsten gestarteten Produkte und dergleichen mehr enthalten.
 
 
-1. Erstellen Sie eine [!DNL .csv].
+1. Erstellen Sie eine `.csv`.
 
 
    >[!NOTE]
    >
-   >Später werden Sie diese [!DNL .csv]-Datei per Drag-and-Drop hochladen. Wenn Sie jedoch [per FTP hochladen](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), benötigen Sie auch eine [!DNL .fin]-Datei mit dem gleichen Namen wie die [!DNL .csv].
+   >Später werden Sie diese `.csv`-Datei per Drag-and-Drop hochladen. Wenn Sie jedoch [per FTP hochladen](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), benötigen Sie auch eine `.fin`-Datei mit dem gleichen Namen wie die `.csv`.
 
 
 
@@ -75,7 +75,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
 
 1. Klicken Sie in [!DNL Experience Cloud] im Menü auf das ![](assets/menu-icon.png)-Symbol.
-1. Klicken Sie auf **[!UICONTROL Personen]** und dann auf **[!UICONTROL Kundenattribute]**.
+1. Klicken Sie unter **[!DNL Experience Platform]****[!UICONTROL "Personen]** " &gt; **[!UICONTROL " Kundenattribute]**«.
 
    Auf der Seite [!UICONTROL Kundenattribute] können Sie vorhandene Datenattributquellen verwalten und bearbeiten.
 
@@ -94,9 +94,9 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
       Die Alias-ID entspricht bestimmten Bereichen, für die Sie zusätzliche Kunden-ID-Werte eingerichtet haben. Beispiel:
 
-      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://marketing.adobe.com/resources/help/de_DE/dtm/?f=macid).
+      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode* -Wert unter [!UICONTROL "Kundeneinstellungen]«im Tool [" Experience Cloud ID-Dienst](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) " .
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://marketing.adobe.com/resources/help/de_DE/mcvid/?f=mcvid_customer_ids), die Sie jedem Besucher zuordnen können.
+      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids), die den Besuchern zugeordnet werden können.
 
          Beispiel: *„crm_ id“* in:
 
@@ -106,21 +106,21 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
          ```
 
 
-      * **iOS:** Die Alias-ID entspricht *„idType“* in [visitorSyncIdentifiers:identifiers](https://marketing.adobe.com/resources/help/de_DE/mobile/ios/?f=methods).
+      * **Ios:** Die Alias-ID entspricht *"idtype"* in [visitorsyncidentifiers: Bezeichner.](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods)
 
          Beispiel:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** Die Alias-ID entspricht *„idType“* in [syncIdentifiers](https://marketing.adobe.com/resources/help/de_DE/mobile/android/?f=methods).
+      * **Android:** Die Alias-ID entspricht dem *" Idtype "* in [syncidentifiers](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods).
 
          Beispiel:
 
          `identifiers.put(`**`"idType"`**`, "idValue");`
 
          Zusätzliche Informationen zur Datenverarbeitung des Alias-ID-Feldes und von Kunden-IDs finden Sie unter [Nutzen mehrerer Data Sources](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB).
-   * **[!UICONTROL Hochladen einer Datei:]** Die [!DNL .csv]-Datendatei kann per Drag-and-Drop oder per FTP hochgeladen werden. (Beim Upload via FTP ist zusätzlich eine [!DNL .fin]-Datei erforderlich.) Siehe [Hochladen der Daten via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+   * **[!UICONTROL Hochladen einer Datei:]** Die `.csv`-Datendatei kann per Drag-and-Drop oder per FTP hochgeladen werden. (Beim Upload via FTP ist zusätzlich eine `.fin`-Datei erforderlich.) Siehe [Hochladen der Daten via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
 
       >[!IMPORTANT]
@@ -192,7 +192,7 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Zielgruppen und in Audience Manager verfügbar.
 
-Weitere Informationen finden Sie unter [Bericht zu Kundenattributen](https://marketing.adobe.com/resources/help/de_DE/reference/?f=reports_customer_attributes) in der Analytics-Hilfe.
+Weitere Informationen hierzu finden Sie in der Analytics-Hilfe unter [Bericht „Kundenattribute“](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes).
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ In Target können Sie beim Erstellen einer Zielgruppe Kundenattribute im Abschni
 
 ![](assets/crs-add-attribute-target.png)
 
-Siehe [Erstellen einer neuen Zielgruppe](https://marketing.adobe.com/resources/help/de_DE/target/target/?f=t_create-audience) in der Target-Hilfe.
+Weitere Informationen finden Sie unter [Erstellen einer neuen Zielgruppe](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience) in der Target-Hilfe.
