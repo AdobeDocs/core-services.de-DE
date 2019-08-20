@@ -6,8 +6,8 @@ seo-title: Prüfen des Schemas
 solution: Experience Cloud
 title: Prüfen des Schemas
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -36,7 +36,7 @@ Auf der Seite „[!UICONTROL Schema überprüfen]“ stellt jede Schemazeile ein
 
 * **[!UICONTROL FTP-Einrichtung:]** [Daten per FTP hochladen](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL ID-Suche:]** Geben Sie eine Kunden-ID (CID) aus Ihrer [!DNL .csv] ein, um Experience Cloud-Informationen für diese ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
+* **[!UICONTROL ID-Suche:]** Geben Sie eine Kunden-ID (CID) aus Ihrer `.csv` ein, um Experience Cloud-Informationen für diese ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
 
    * **[!UICONTROL MCID (Experience Cloud ID):]** Zeigt an, ob Sie die neueste Version des Experience Cloud ID-Dienstes verwenden. Wenn Sie den MCID-Dienst verwenden, hier aber keine IDs angezeigt werden, hat die Experience Cloud keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
 
@@ -51,9 +51,9 @@ Auf der Seite „[!UICONTROL Schema überprüfen]“ stellt jede Schemazeile ein
 
 Wenn Sie in der Experience Cloud eine Kundenattributquelle und ein FTP-Konto erstellt haben, können Sie die Daten auch via FTP hochladen. Pro Attributquelle müssen Sie ein FTP-Konto erstellen. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im .csv-Format übertragen werden, wobei eine zusätzliche .fin-Datei am Ende angibt, dass das Upload abgeschlossen ist.
 
-Die Namen, die Sie den Zeichenfolgen, Ganzzahlen und Nummern geben, werden zur Erstellung der [!DNL Analytics]-Metriken verwendet. Weitere Informationen finden Sie unter [Bericht zu Kundenattributen](https://marketing.adobe.com/resources/help/de_DE/reference/?f=reports_customer_attributes) in der [!DNL Analytics]-Hilfe.
+Die Namen, die Sie den Zeichenfolgen, Ganzzahlen und Nummern geben, werden zur Erstellung der [!DNL Analytics]-Metriken verwendet. See [Customer Attributes Report](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes) in [!DNL Analytics] help for more information.
 
-* **[!UICONTROL Attribut:]** Die aus der hochgeladenen [!DNL .csv]-Datei gelesenen Attributdaten.
+* **[!UICONTROL Attribut:]** Die aus der hochgeladenen `.csv`-Datei gelesenen Attributdaten.
 
 * **[!UICONTROL Typ:]** Datentyp, z. B.:
 
