@@ -4,14 +4,14 @@ user-guide-title: Hauptdienste-Benutzerhandbuch
 user-guide-url: https://www.adobe.com/de
 index: true
 translation-type: tm+mt
-source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
 
 # Hauptdienste-Benutzerhandbuch {#interface}
 
-+ [Hilfe für Experience Cloud und Hauptdienste](experience-cloud.md)
++ [Hilfe zu Experience Cloud und Core Services](experience-cloud.md)
 + Über Hauptdienste {#about-core-services}
    + [Übersicht über die Hauptdienste](core-services-landing.md)
    + [Lösungen für Hauptdienste aktivieren](core-services/core-services.md)
@@ -69,7 +69,7 @@ source-git-commit: b6096f49df48b6c15157237f559c324e21715dcd
    + [Schema aktualisieren](attributes/t-update-schema.md)
    + [Überlegungen zum Datenschutz – Kundenattribute](attributes/privacy-mac.md)
 + Versionshinweise {#release-notes}
-   + [Neue Funktionen in der Experience Cloud](marketing-cloud-interface/marketing-cloud-interface.md)
+   + [Neue Funktionen in der Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
    + [Gesammelte Versionshinweise](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [Feed](feed.md)
