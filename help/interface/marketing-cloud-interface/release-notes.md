@@ -6,8 +6,8 @@ seo-title: Gesammelte Versionshinweise
 solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+translation-type: tm+mt
+source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
 
@@ -18,9 +18,25 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Versionshinweise zu allen Lösungen finden Sie unter [Versionshinweise für Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/whatsnew/).
+Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+
+## August 2019
+
+* Ein kritisches Problem bei der Experience Cloud-Anmeldung wurde behoben, durch das manche Sitzungen unterbrochen wurden. (MCUI-6908)
+* Die Anmeldung von Experience Cloud wurde aktualisiert, um die Leistung zu verbessern und die Latenz zu reduzieren. (MCUI-6854, MCUI-6869, MCUI-6883)
+* Die Benutzeroberfläche wurde aktualisiert. (MCUI-6861, MCUI-6911, MCUI-6862)
+* Ein Problem mit Experience Cloud [!UICONTROL Triggers] wurde behoben, das zur falschen Interpretation der _Like_-Bedingung in der [!UICONTROL Trigger]-Definition geführt hatte. (MCUI-6611)
+
+## April 2019
+
+* Aktualisierung des App-Switchers durch Aufnahme von Marketo in die Experience Cloud-Lösungssuite und Branding-Updates in Experience Platform. (MCUI-6529)
+* Aktualisierung der Experience Cloud-Startseite mit Navigationslinks zur Feed- und Admin-Seite. (MCUI-6682)
+* Es wurde ein Problem in der [!UICONTROL Auslöserdefinition] behoben, damit der „like“-Satz korrekt verwendet wird. (MCUI-6611)
+* Verbesserungen an den Kundenattributen zur besseren Anmeldung im Abonnementdienst. (MCUI-6519)
 
 ## Version 19.1.1 – 17. Januar 2019
+
+**Hinweis:** Im März 2019 wird Internet Explorer 11 von der Experience Cloud-Benutzeroberfläche nicht unterstützt.
 
 * Es wurde ein Problem behoben, das verhinderte, dass die Hilfesuche Ergebnisse lieferte. (MCUI-1670)
 * Die eVar-Verwaltung in Triggers wurde korrigiert und verbessert. (MCUI-6400)
@@ -100,7 +116,7 @@ Wenn Sie über **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Activation]
 
 >[!NOTE]
 >
->Microsoft[beendet die Unterstützung](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
+>Microsoft [beendet den Support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
 
 ## Version 15.10 – 14. Oktober 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -155,7 +171,7 @@ Keine Informationen verfügbar
 </table>
 
 * Ein Problem wurde behoben, infolge dessen die Kundenattribute einiger Kunden nicht synchronisiert werden konnten.
-* Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://marketing.adobe.com/resources/help/de_DE/target/a4t/) nicht auf Japanisch angezeigt wurde.
+* Ein Problem wurde behoben, durch das die Anzeige der Seite [Adobe Target-Produktdokumentation](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) auf Japanisch verhindert wurde.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
 ## Version 15.4.1 – 8. April 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -229,7 +245,7 @@ Keine Informationen verfügbar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktualisierungen an der Dokumentation – Hauptdienste </p> </td> 
-   <td colname="col2"> <p>Thema hinzugefügt:  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktiveren Ihrer Lösungen für Hauptdienste</a>. Unterstützt Sie bei der Implementierung von Hauptdiensten. </p> </td> 
+   <td colname="col2"> <p>Thema hinzugefügt: <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktiveren Ihrer Lösungen für Hauptdienste</a>. Unterstützt Sie bei der Implementierung von Hauptdiensten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
