@@ -6,8 +6,8 @@ seo-title: Erstellen einer Zielgruppe
 solution: Experience Cloud
 title: Erstellen einer Zielgruppe
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -39,7 +39,7 @@ Beide Kreise stellen eine Regel dar, die die Mitglieder einer Zielgruppe definie
 
    ![](assets/audience_create.png)
 
-1. Klicken Sie in der [!DNL Experience Cloud] auf **[!UICONTROL People]** &gt; **[!UICONTROL Zielgruppenbibliothek]**.
+1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
 1. Klicken Sie auf der Seite [!UICONTROL „Zielgruppen“] auf **[!UICONTROL Neu]**. ![](assets/add_icon_small.png)
 
 ![Schritt Ergebnis](assets/audience_create_new.png)
