@@ -6,8 +6,8 @@ seo-title: Kundenattribute
 solution: Experience Cloud
 title: Kundenattribute
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+translation-type: tm+mt
+source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ## Übersicht
 
-[!UICONTROL Die Kundenattributfunktion] in der Experience Cloud finden Sie hier.
-
-**[!UICONTROL Personen]** &gt; **[!UICONTROL Kundenattribute]**
+So suchen [!UICONTROL Sie nach Kundenattributen] navigieren zu **[!DNL Experience Platform]** &gt; **[!UICONTROL Personen]** &gt; **[!UICONTROL Kundenattribute]**
 
 Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Nach dem Hochladen können die Daten mit [!DNL Adobe Analytics] und [!DNL Adobe Target] verarbeitet werden.
 
@@ -38,7 +36,7 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 * **Target-Mbox:** Für Kundenattribute ist mbox.js Version 58 oder höher erforderlich.
 
 
-   Siehe [„mbox.js“-Implementation](https://marketing.adobe.com/resources/help/de_DE/target/ov/?f=t_mbox_download).
+   Siehe [Implementierung von Mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)
 
 * **at.js:** Beliebige Version
 
