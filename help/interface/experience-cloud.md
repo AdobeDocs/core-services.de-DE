@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Hilfe für Experience Cloud und Hauptdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: b84c90a51b6cf88a6422951f3d3f5809f79d25a3
+source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: b84c90a51b6cf88a6422951f3d3f5809f79d25a3
 # Hilfe zu Experience Cloud und Core Services
 
 Bei der Experience Cloud handelt es sich um die integrierte Adobe-Lösungs- und -Dienstfamilie für digitales Marketing. Außerdem handelt es sich hierbei um eine intuitive Schnittstelle, mit deren Hilfe Sie schnell auf Ihre Cloud-Lösungen und Hauptdienste zugreifen können.
+
+Weitere Informationen zur Lösungshilfe finden Sie in der [Experience Cloud-Produktdokumentation](landing/experience-cloud-home.md) .
 
 ![](assets/experience-cloud-core-services.png)
 
