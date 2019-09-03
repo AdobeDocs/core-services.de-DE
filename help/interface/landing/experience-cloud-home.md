@@ -4,7 +4,7 @@ seo-title: Hilfe und Produktdokumentation für Lösungen in der Adobe Experience
 description: Hilfe und Produktdokumentation für Lösungen in der Adobe Experience Cloud.
 seo-description: Experience Cloud-Hilfe
 translation-type: tm+mt
-source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
+source-git-commit: bdeec0dfde7c5415c921aaea4303f3f08c6894e9
 
 ---
 
@@ -13,9 +13,7 @@ source-git-commit: 247c11a53752c953ef70f51b2888c548a1ff471b
 
 Hilfe und Produktdokumentation für Adobe Experience Cloud.
 
-![](assets/experience_cloud_appicon_32.png)
-
-## Experience Cloud-Hilfe
+## ![](assets/experience_cloud_appicon_32.png) Experience Cloud-Hilfe
 
 * [Experience Cloud-Versionshinweise](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) (alle Produkte)
 * [Hilfe zu Experience Cloud und Core Services](https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html)
