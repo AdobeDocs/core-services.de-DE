@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b6950426a81f22757387b297f349377d34865842
+source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 ---
 
@@ -279,6 +279,39 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   <tr> 
    <td colname="col1"> <p>Größe </p> </td> 
    <td colname="col2"> <p>~20 Byte </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Cookie-Name: id_ adcloud
+
+<table> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Attribut </th> 
+   <th colname="col2" class="entry"> Beschreibung </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
+   <td colname="col2"> <p>Die Surfer-ID </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Ablauf </p> </td> 
+   <td colname="col2"> <p>91 Tage </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Nutzung </p> </td> 
+   <td colname="col2"> <p>Das Cookie wird in der Erstanbieterdomäne gesetzt, wird aber noch nicht verwendet </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Position </p> </td> 
+   <td colname="col2"> <p>Die Top-Level-Domäne des werbenden Unternehmens (z. B. example.com) </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Größe </p> </td> 
+   <td colname="col2"> <p>16 Byte </p> </td> 
   </tr> 
  </tbody> 
 </table>
