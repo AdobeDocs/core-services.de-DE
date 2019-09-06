@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0172e141dfad5ec323e1b6c330a02f3cc723a2db
+source-git-commit: 4273ac4e98516e496a26dd83fe72c5197e876896
 
 ---
 
@@ -29,11 +29,11 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>IDs und Zeitstempel (im Format JJJJMMTT) von Anzeigeklicks </p> </td> 
+   <td colname="col2"> <p>IDs und Zeitstempel (im Format JJJJMMTT) von Anzeigeklicks</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>15 Minuten/p &gt; </p> </td> 
+   <td colname="col2"> <p>15 Minuten</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
@@ -50,6 +50,39 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  </tbody> 
 </table>
 
+## Cookie-Name: _ tmae
+
+<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Attribut </th> 
+   <th colname="col2" class="entry"> Beschreibung </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
+   <td colname="col2"> <p>Kodierte IDs und Zeitstempel für Anzeigeninteraktionen mit der Advertising Cloud DSP-Verfolgung </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Ablauf </p> </td> 
+   <td colname="col2"> <p>1 Jahr </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Nutzung </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Cookie, das Benutzerinteraktionen mit Anzeigen speichert, z. B. "zuletzt gesehene Anzeige xyz 123 am 30. Juni 2016 « </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Position </p> </td> 
+   <td colname="col2"> <p>everesttech.net </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Größe </p> </td> 
+   <td colname="col2"> <p>Variable; Daten werden kodiert und gewöhnlich unter 1 KB </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ## Cookie-Name: adcloud
 
 <table id="table_D7CD238736BC4571883F92F47673F57C"> 
@@ -62,7 +95,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Die Surfer-ID, Zeitstempel des letzten Besuchs des Besuchers auf der Website des Werbetreibenden und der letzte Klick des Surfers und die ef_ id, die erstellt wurde, wenn der Benutzer auf eine Anzeige/p &gt; </p> </td> 
+   <td colname="col2"> <p>Die Surfer-ID, Zeitstempel des letzten Besuchs des Surfers auf der Website des Werbetreibenden und der letzte Click des Surfers und die ef_ id, die erstellt wurde, wenn der Benutzer auf eine Anzeige geklickt hat</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -216,37 +249,3 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
  </tbody> 
 </table>
-
-## Cookie-Name: _ tmae
-
-<table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Attribut </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Kodierte IDs und Zeitstempel für Anzeigeninteraktionen mit der Advertising Cloud DSP-Verfolgung </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>1 Jahr </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Cookie, das Benutzerinteraktionen mit Anzeigen speichert, z. B. "zuletzt gesehene Anzeige xyz 123 am 30. Juni 2016 « </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Position </p> </td> 
-   <td colname="col2"> <p>everesttech.net </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Größe </p> </td> 
-   <td colname="col2"> <p>Variable; Daten werden kodiert und gewöhnlich unter 1 KB </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
