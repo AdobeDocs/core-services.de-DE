@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
 
 ---
 
@@ -35,7 +35,7 @@ Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. aus Excel). Dies ist die Datei mit den Kundenattributdaten. </p> <p> <b>Namensanforderungen:</b> Die Dateinamenserweiterung darf keine Leerstellen enthalten. </p> </td> 
+   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. aus Excel). Dies ist die Datei mit den Kundenattributdaten. </p> <p> <b></b> Namensanforderungen: Stellen Sie sicher, dass Dateinamenerweiterungen keine Leerzeichen oder die folgenden Zeichen ".", "..", "/", ":" enthalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
