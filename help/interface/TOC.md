@@ -2,9 +2,10 @@
 audience: Endanwender
 user-guide-title: Hauptdienste-Benutzerhandbuch
 user-guide-url: https://www.adobe.com/de
+product: Hauptdienste
 index: true
 translation-type: tm+mt
-source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
+source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 ---
 
@@ -20,15 +21,15 @@ source-git-commit: fa601ff80430f38fc0d8303f9c833778ad1f8cd5
    + [Über die neuen Cloud-Namen der Experience Cloud](solutions-core-services.md)
 + [Experience Cloud-Integrationen](marketing-cloud-integrations.md)
 + Experience Cloud cookies {#ec-cookies}
-   + [Coookies - Übersicht](cookies/cookies-privacy.md)
+   + [Cookies - Übersicht](cookies/cookies-privacy.md)
    + [Erstanbieter-Cookies](cookies/cookies-first-party.md)
    + [Analytics-Cookies](cookies/cookies-analytics.md)
-   + [Audience Manager-Cookies](cookies/cookies-am.md)
-   + [Datenschnittstellen-Cookies](cookies/cookies-dc.md)
+   + [Cookies in Audience Manager](cookies/cookies-am.md)
+   + [Data Connectors-Cookies](cookies/cookies-dc.md)
    + [Data Workbench-Cookies](cookies/cookies-insight.md)
    + [Experience Cloud-Cookies](cookies/cookies-mc.md)
    + [Advertising Cloud-Cookies](cookies/cookies-advertising-cloud.md)
-   + [Scene 7-Cookies](cookies/cookies-s7.md)
+   + [Scene7-Cookies](cookies/cookies-s7.md)
    + [Cookies suchen und bewerben](cookies/cookies-snp.md)
    + [Target-Cookies](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
