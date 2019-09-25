@@ -6,7 +6,7 @@ seo-title: Gesammelte Versionshinweise
 solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,7 +18,7 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Versionshinweise zu allen Lösungen finden Sie unter [Versionshinweise für Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/whatsnew/).
 
 ## August 2019
 
@@ -116,7 +116,7 @@ Wenn Sie über **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Activation]
 
 >[!NOTE]
 >
->Microsoft [beendet den Support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
+>Microsoft[beendet die Unterstützung](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
 
 ## Version 15.10 – 14. Oktober 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -164,14 +164,14 @@ Keine Informationen verfügbar
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Die Menüauswahlmöglichkeiten für die  Menüauswahlmöglichkeiten für die <span class="term">Zielgruppenbibliothek</span> und die <span class="term">Kundenattribute</span> sind nun unter <span class="term">Audiences</span> zu finden. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">Die <span class="term">Exchange</span>-Menüauswahl wurde vom Dropdown-Menü „Hilfe“ zur linken Navigationsleiste verlegt. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Lösungen</span> wurde entfernt. Sie können alle Lösungen von der unteren Hälfte der Navigationsleiste aus starten. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Lösungen</span> wurde entfernt. Sie können alle Lösungen von der unteren Hälfte der Navigationsleiste aus starten. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
 * Ein Problem wurde behoben, infolge dessen die Kundenattribute einiger Kunden nicht synchronisiert werden konnten.
-* Ein Problem wurde behoben, durch das die Anzeige der Seite [Adobe Target-Produktdokumentation](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) auf Japanisch verhindert wurde.
+* Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://marketing.adobe.com/resources/help/de_DE/target/a4t/) nicht auf Japanisch angezeigt wurde.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
 ## Version 15.4.1 – 8. April 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -245,7 +245,7 @@ Keine Informationen verfügbar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktualisierungen an der Dokumentation – Hauptdienste </p> </td> 
-   <td colname="col2"> <p>Thema hinzugefügt: <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktiveren Ihrer Lösungen für Hauptdienste</a>. Unterstützt Sie bei der Implementierung von Hauptdiensten. </p> </td> 
+   <td colname="col2"> <p>Thema hinzugefügt:  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktiveren Ihrer Lösungen für Hauptdienste</a>. Unterstützt Sie bei der Implementierung von Hauptdiensten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
