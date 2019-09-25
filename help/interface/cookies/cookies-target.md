@@ -1,15 +1,15 @@
 ---
 description: Target verwendet Cookies, um Betreibern von Websites die Möglichkeit zu geben, die Relevanz von Online-Inhalten und -Angeboten für Besucher zu testen.
-keywords: Cookies; Datenschutz
+keywords: Cookies, Datenschutz
 seo-description: Target verwendet Cookies, um Betreibern von Websites die Möglichkeit zu geben, die Relevanz von Online-Inhalten und -Angeboten für Besucher zu testen.
 seo-title: Cookies in Target
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies in Target
-uuid: 44 f 7 e 32 e -8 d 99-4682-8 b 54-8364 d 001 b 403
+uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -54,7 +54,7 @@ Sie können diese Einstellungen bei Bedarf ändern, außer die Cookie-Dauer. Wen
 
 >[!NOTE]
 >
->If any of your domain names include a country code, such as [!DNL mycompany.co.uk], work with your Client Services to configure your [!DNL mbox.js] to support this.
+>Wenn einer Ihrer Domänennamen einen Ländercode enthält, wie beispielsweise [!DNL mycompany.co.uk], konfigurieren Sie gemeinsam mit Ihrem Kundenservice die [!DNL mbox.js], damit dieser Domänenname unterstützt wird.
 
 Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die Besucher die Target-Kampagnen erleben:
 
@@ -80,7 +80,7 @@ Das Cookie enthält verschiedene Werte, mit denen verwaltet werden kann, wie die
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
-   <td colname="col2"> <p>Wird eingestellt, wenn die Ladezeit des Besuchers den in der Datei <span class="filepath">mbox.js</span> konfigurierten Timeout überschreitet. Standardmäßig ist dieser Wert eine Stunde gültig. </p> </td> 
+   <td colname="col2"> <p>Wird eingestellt, wenn die Ladezeit des Besuchers das in der Datei <span class="filepath">mbox.js</span> konfigurierte Time-out überschreitet. Standardmäßig ist dieser Wert eine Stunde gültig. </p> </td> 
   </tr> 
  </tbody> 
 </table>
