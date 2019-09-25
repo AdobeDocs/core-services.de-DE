@@ -1,12 +1,12 @@
 ---
-description: Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe in der Experience Cloud erstellen.
+description: Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe in der Experience Cloud definieren.
 keywords: Hauptdienste
-seo-description: Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe in der Experience Cloud erstellen.
+seo-description: Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe in der Experience Cloud definieren.
 seo-title: Erstellen einer Zielgruppe
 solution: Experience Cloud
 title: Erstellen einer Zielgruppe
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 # Erstellen einer Zielgruppe
 
-Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe in der Experience Cloud erstellen.
+Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe in der Experience Cloud definieren.
 
 In diesem Abschnitt lernen Sie folgende Verfahren kennen:
 
@@ -31,7 +31,8 @@ Beide Kreise stellen eine Regel dar, die die Mitglieder einer Zielgruppe definie
 
 >[!NOTE]
 >
->Die Zielgruppe ist erst nach Ablauf des für die Datenerfassung angegebenen Zeitraums vollständig definiert. Nachfolgendes Beispiel zeigt, wie die Regeln für eine zusammengefasste Zielgruppe erstellt werden. Diese Zielgruppe besteht aus Folgendem:
+>Die Zielgruppe ist erst nach Ablauf des für die Datenerfassung angegebenen Zeitraums vollständig definiert.
+Nachfolgendes Beispiel zeigt, wie die Regeln für eine zusammengefasste Zielgruppe erstellt werden. Diese Zielgruppe besteht aus Folgendem:
 
 * Home &amp; Garden-Abschnitt aus Seitendaten oder Analytics-Rohdaten
 * Chrome- und Safari-Benutzer, die einem [!DNL Adobe Analytics]-Segment entnommen wurden, das in der [!DNL Experience Cloud] [veröffentlicht](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) wurde.
@@ -39,7 +40,7 @@ Beide Kreise stellen eine Regel dar, die die Mitglieder einer Zielgruppe definie
 
    ![](assets/audience_create.png)
 
-1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** &gt; **[!UICONTROL Audience Library]**.
+1. Klicken Sie in der [!DNL Experience Cloud] unter [!DNL Experience Platform] auf **[!UICONTROL Personen]** &gt; **[!UICONTROL Zielgruppenbibliothek]**.
 1. Klicken Sie auf der Seite [!UICONTROL „Zielgruppen“] auf **[!UICONTROL Neu]**. ![](assets/add_icon_small.png)
 
 ![Schritt Ergebnis](assets/audience_create_new.png)
