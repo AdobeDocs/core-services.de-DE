@@ -1,15 +1,15 @@
 ---
 description: Scene7 verwendet Cookies, um nützliche Informationen zu speichern, die zur Bereitstellung dynamischer Medien an den Browser genutzt werden können.
-keywords: Cookies; Datenschutz
+keywords: Cookies, Datenschutz
 seo-description: Scene7 verwendet Cookies, um nützliche Informationen zu speichern, die zur Bereitstellung dynamischer Medien an den Browser genutzt werden können.
 seo-title: Cookies in Scene7
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies in Scene7
-uuid: f 9 b 9 d 13 a -17 e 5-4139-8 c 84-6 fe 5 d 22 c 4196
+uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -40,7 +40,7 @@ Bei den neueren AS3-Viewern wird auf Sitzungspersistenz verzichtet.
 | Gespeicherte Informationen | Stellt das Sitzungs-Cookie ein. Der in IPS ImageServer eingebettete AuthFilter (IS, IR und auch die SWFs/Skins und Videokontexte) verwendet das Cookie zur Zugriffsautorisierung. Sofern vorhanden, gestattet es den Durchlauf von HTTP-Anforderungen. Andernfalls werden Anforderungen als nicht autorisiert zurückgegeben. |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie. Derzeit ist der Sitzungsablaufzeitraum in der [!DNL web.xml] der Scene7-IPS auf 45 Minuten eingestellt. |
 
-**Cookie-Name: s 7 js. flyout. infomessage. displayed`assetId`. state**
+**Cookie-Name: s7js.flyout.InfoMessage.displayed`assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -61,7 +61,7 @@ Bei den neueren AS3-Viewern wird auf Sitzungspersistenz verzichtet.
  </tbody> 
 </table>
 
-**Cookie-Name: s 7 js. flyout. infomessage. displayed`assetId`_ idx`id`. ant**
+**Cookie-Name: s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
 Browser-Cookies werden von älteren DHTML-Anzeigen zur Speicherung von Statusinformationen und Anmerkungsdaten genutzt. Sie werden auch vom Multiscreen-DHTML-Flyout genutzt, um die  Meldungsanzeige sitzungsspezifisch zu machen.
 
