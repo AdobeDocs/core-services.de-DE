@@ -1,15 +1,15 @@
 ---
-description: Entfernen Sie Benutzer, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
-keywords: Cookies; Datenschutz
-seo-description: Entfernen Sie Benutzer, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
+description: Entfernen von Benutzern, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
+keywords: Cookies, Datenschutz
+seo-description: Entfernen von Benutzern, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
 seo-title: Datenschutzeinstellungen für Browser-Cookies aktivieren
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Datenschutzeinstellungen für Browser-Cookies aktivieren
-uuid: f 6 a 56 e 8 b-b 21-49 db -8 eb 4-6 c 14 af 0 c 7243
+uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 ---
@@ -17,19 +17,19 @@ source-git-commit: 426c1fecf16e1cf83cd28971e4de6fdb66b0e10d
 
 # Datenschutzeinstellungen für Browser-Cookies aktivieren{#enable-privacy-settings-for-browser-cookies}
 
-Entfernen Sie Benutzer, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
+Entfernen von Benutzern, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
 
 Mit dieser Einstellung können Sie die Intention von Benutzern respektieren, von einer Verarbeitung in Analytics ausgenommen zu werden, wenn diese alle Cookies in den Cookie-Einstellungen ihres Browsers blockiert haben.
 
-1. Navigate to **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]**.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Privacy Settings]**.
-1. Enable **[!UICONTROL Privacy Settings]** (for desktop or mobile).
+1. Navigieren Sie zu **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]**.
+1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** &gt; **[!UICONTROL Allgemein]** &gt; **[!UICONTROL Datenschutzeinstellungen]**.
+1. Aktivieren Sie **[!UICONTROL Datenschutzeinstellungen]** (für Desktopbrowser oder für mobile Browser).
 
    Ist diese Funktion aktiviert, werden Daten, die über Desktopbrowser mit vollständig blockierten Cookies erfasst werden, aus den Analytics-Berichten ausgeschlossen. Wenn Adobe den Browser nicht erkennt, werden die Daten in die Analytics-Berichte einbezogen.
 
 >[!IMPORTANT]
 >
->Beachten Sie, dass viele mobile Apps (wie der App-interne Browser für Facebook oder Twitter) als Standard-Browser für Mobilgeräte angezeigt werden können, jedoch nicht alle Cookies zulassen. Wenn Sie diese Funktion aktivieren, wird möglicherweise ein erheblicher Anteil des mobilen Datenverkehrs aus den Analytics-Berichten ausgeschlossen.
+>Beachten Sie, dass viele mobile Apps (wie der In-App-Browser für Facebook oder Twitter) als mobile Standardbrowser angesehen werden können, jedoch nicht alle Cookies zulassen. Wenn Sie diese Funktion aktivieren, wird möglicherweise ein erheblicher Anteil des mobilen Datenverkehrs aus den Analytics-Berichten ausgeschlossen.
 
 **Informationen über Datenschutzeinstellungen in Browsern**
 
