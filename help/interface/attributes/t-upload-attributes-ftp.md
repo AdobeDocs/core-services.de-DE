@@ -6,7 +6,7 @@ seo-title: Optional – Hochladen der Datendatei via FTP
 solution: Experience Cloud
 title: Optional – Hochladen der Datendatei via FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -26,7 +26,7 @@ Sie können die Daten hochladen, nachdem Sie in der Experience Cloud eine Kunde
 Datei-Uploads auf die FTP-Site mit den Kundenattributdaten kann via FTP oder SFTP erfolgen.
 
 * Für SFTP benötigen Sie allerdings einen Client, der SFTP-Verbindungen unterstützt.
-* Die Verbindung über SFTP können Sie mit Benutzernamen und Passwort oder, wie [hier](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/?f=ftp_sftp_cert_auth) beschrieben, ohne Passwort herstellen.
+* Sie können eine SFTP-Verbindung mithilfe von Benutzername/Kennwort oder ohne Kennwort wie [hier](https://marketing.adobe.com/resources/help/de_DE/whitepapers/ftp/?f=ftp_sftp_cert_auth) beschrieben herstellen.
 
 
 
@@ -52,4 +52,4 @@ Datei-Uploads auf die FTP-Site mit den Kundenattributdaten kann via FTP oder SFT
    Nach einem erfolgreichen Upload werden beide Dateien in einen Ordner mit dem Namen **processed** verschoben.
 
 
-   Siehe [Datendateivoraussetzungen für das Hochladen von Kundenattributen](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19), wo Sie wichtige Informationen zu Dateinamen und zur Dateistruktur erhalten.
+   Siehe  [Datendateivoraussetzungen für das Hochladen von Kundenattributen](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19), wo Sie wichtige Informationen zu Dateinamen und zur Dateistruktur erhalten.
