@@ -6,7 +6,7 @@ seo-title: Kundenattribute
 solution: Experience Cloud
 title: Kundenattribute
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ## Übersicht
 
-So suchen [!UICONTROL Sie nach Kundenattributen] navigieren zu **[!DNL Experience Platform]** &gt; **[!UICONTROL Personen]** &gt; **[!UICONTROL Kundenattribute]**
+Zum Anzeigen von [!UICONTROL Kundenattributen] navigieren Sie zu **[!DNL Experience Platform]** &gt; **[!UICONTROL Personen]** &gt; **[!UICONTROL Kundenattribute]**.
 
 Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Nach dem Hochladen können die Daten mit [!DNL Adobe Analytics] und [!DNL Adobe Target] verarbeitet werden.
 
@@ -25,7 +25,7 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 ## Voraussetzungen für das Hochladen von Kundenattributen {#section_BD38693AFBF34926BA28E964963B4EA0}
 
 
-* **Aktivierung der Lösung:**[Aktivieren Sie Ihre Lösungen für Hauptdienste](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+* **Aktivierung der Lösung:** [Aktivieren Sie Ihre Lösungen für Hauptdienste](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
 * **Gruppenmitgliedschaft:** Um Kundenattributdaten hochzuladen, müssen Benutzer Mitglieder der folgenden Gruppe sein:  [„Kundenattribute“](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Sie müssen darüber hinaus einer Adobe Analytics-Gruppe oder einer Adobe Target-Gruppe angehören.
 
@@ -36,7 +36,7 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 * **Target-Mbox:** Für Kundenattribute ist mbox.js Version 58 oder höher erforderlich.
 
 
-   Siehe [Implementierung von Mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)
+   Siehe [„mbox.js“-Implementation](https://marketing.adobe.com/resources/help/de_DE/target/ov/?f=t_mbox_download).
 
 * **at.js:** Beliebige Version
 
