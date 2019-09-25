@@ -1,15 +1,15 @@
 ---
 description: Data Workbench verwendet Cookies, um große Mengen sich schnell verändernder Daten in Echtzeit zu analysieren.
-keywords: Cookies; Datenschutz
+keywords: Cookies, Datenschutz
 seo-description: Data Workbench verwendet Cookies, um große Mengen sich schnell verändernder Daten in Echtzeit zu analysieren.
 seo-title: Cookies in Data Workbench
-solution: Marketing Cloud, Analytics, Target, Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Cookies in Data Workbench
-uuid: c 15013 f 4-c 47 d -4950-aa 19-be 9 afd 25 cd 5 f
+uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
