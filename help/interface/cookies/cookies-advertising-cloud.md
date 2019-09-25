@@ -1,23 +1,23 @@
 ---
-description: Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen zu Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigenangebote zu verwenden.
-seo-description: Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen zu Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigenangebote zu verwenden.
+description: Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigengebote zu verwenden.
+seo-description: Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigengebote zu verwenden.
 seo-title: Advertising Cloud-Cookies
 title: Advertising Cloud-Cookies
-uuid: 2 eec 48 a 3-3 e 81-488 e -8 e 30-5 fd 62885 de 0 b
+uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 index: y
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dfb43724e2fcc36d54ddfee33cfcae66eba8710f
 
 ---
 
 
-# Advertising Cloud-Cookies{#advertising-cloud-cookies}
+# Advertising Cloud-Cookies {#advertising-cloud-cookies}
 
-Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen zu Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigenangebote zu verwenden.
+Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigengebote zu verwenden.
 
-## Cookie-Name: id_ adcloud
+## Cookie-Name: id_adcloud
 
 <table id="id_adcloud"> 
 <thead> 
@@ -33,7 +33,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
 </tr> 
 <tr> 
 <td colname="col1"> <p>Ablauf </p> </td> 
-<td colname="col2"> <p>91 Tage </p> </td> 
+<td colname="col2"> <p>91 Tage </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>Nutzung </p> </td> 
@@ -41,7 +41,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
 </tr> 
 <tr> 
 <td colname="col1"> <p>Position </p> </td> 
-<td colname="col2"> <p>Die Top-Level-Domäne des werbenden Unternehmens (z. B. example.com) </p> </td> 
+<td colname="col2"> <p>Die oberste Domänenebene des Werbetreibenden (z. B. beispiel.com) </p> </td> 
 </tr> 
 <tr> 
 <td colname="col1"> <p>Größe </p> </td> 
@@ -50,7 +50,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
 </tbody> 
 </table>
 
-## Cookie-Name: _ lcc
+## Cookie-Name: _lcc
 
 <table id="table_821F8EBE91F244CBA72B0975B961B908"> 
  <thead> 
@@ -62,7 +62,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>IDs und Zeitstempel (im Format JJJJMMTT) von Anzeigeklicks</p> </td> 
+   <td colname="col2"> <p>IDs und Zeitstempel (im Format JJJJMMTT) von Anzeigenklicks</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -70,7 +70,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Cookie, mit dem festgestellt wird, ob ein Click-Ereignis auf einer Display-Anzeige für einen Adobe Analytics-Treffer gilt </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Cookie, mit dem festgestellt wird, ob ein Klick-Ereignis auf einer Display-Anzeige als Adobe Analytics-Treffer gewertet werden soll </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -83,7 +83,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  </tbody> 
 </table>
 
-## Cookie-Name: _ tmae
+## Cookie-Name: _tmae
 
 <table id="table_28C2B62595E240D5A3C3E0BE147748C1"> 
  <thead> 
@@ -95,7 +95,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Kodierte IDs und Zeitstempel für Anzeigeninteraktionen mit der Advertising Cloud DSP-Verfolgung </p> </td> 
+   <td colname="col2"> <p>Kodierte IDs und Zeitstempel für Anzeigeninteraktionen mit Advertising Cloud DSP-Tracking </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -103,7 +103,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Cookie, das Benutzerinteraktionen mit Anzeigen speichert, z. B. "zuletzt gesehene Anzeige xyz 123 am 30. Juni 2016 « </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Cookie, das Benutzerinteraktionen mit Anzeigen speichert, z. B. „Anzeige xyz123 wurde zuletzt am 30. Juni 2016 angesehen“ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -111,7 +111,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Größe </p> </td> 
-   <td colname="col2"> <p>Variable; Daten werden kodiert und gewöhnlich unter 1 KB </p> </td> 
+   <td colname="col2"> <p>Variable; Daten sind kodiert und haben normalerweise weniger als 1 KB </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +128,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Die Surfer-ID, Zeitstempel des letzten Besuchs des Surfers auf der Website des Werbetreibenden und der letzte Click des Surfers und die ef_ id, die erstellt wurde, wenn der Benutzer auf eine Anzeige geklickt hat</p> </td> 
+   <td colname="col2"> <p>Die Surfer-ID, der Zeitstempel des letzten Besuchs auf der Website des Werbetreibenden und der letzte Suchklick des Surfers sowie die ef_id, die erstellt wurde, als der Benutzer auf eine Anzeige geklickt hat</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -136,22 +136,22 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Erstanbieter-Cookie, das die Surfer-ID mit relevanten Zielgruppensegmenten und Konversionen verknüpft </p> <p> Informationen zum letzten Besuch werden zur Optimierung der Seitenladezeiten verwendet, indem unnötige Anforderungen an Adobe-Server vermieden werden. </p> <p>Informationen zum letzten Durchklicken helfen dabei festzustellen, ob ein Konversionsereignis durch einen Klick oder eine Durchsicht zustande gekommen ist (Umrechnung aus Impressionen, aber keine Klicks). </p> </td> 
+   <td colname="col2"> <p>Ein Erstanbieter-Cookie, das die Surfer-ID mit relevanten Zielgruppensegmenten und Konversionen verknüpft </p> <p> Informationen zum letzten Besuch werden zur Optimierung der Seitenladezeiten verwendet, indem unnötige Aufrufe von Adobe-Servern verhindert werden. </p> <p>Informationen zum letzten Suchklick helfen dabei festzustellen, ob ein Konversionsereignis durch einen Klick oder ein Viewthrough zustande gekommen ist (Konversion durch Impressionen, aber keine Klicks). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
-   <td colname="col2"> <p>Die Top-Level-Domäne des werbenden Unternehmens (z. B. example.com) </p> </td> 
+   <td colname="col2"> <p>Die oberste Domänenebene des Werbetreibenden (z. B. beispiel.com) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Größe </p> </td> 
-   <td colname="col2"> <p>Variable, normalerweise 50 bis 150 Byte </p> </td> 
+   <td colname="col2"> <p>Variabel, normalerweise aber 50 bis 150 Byte </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Cookie-Name: ev_ sync_ *
+## Cookie-Name: ev_sync_*
 
-(ev_ sync_ ax, ev_ sync_ bk, ev_ sync_ dd, ev_ sync_ fs, ev_ sync_ ix, ev_ sync_ nx, ev_ sync_ ox, ev_ sync_ pm, ev_ sync_ rc, ev_ sync_ rc, ev_ sync_ rc sync_ tm, ev_ sync_ yh)
+(ev_sync_ax, ev_sync_bk, ev_sync_dd, ev_sync_fs, ev_sync_ix, ev_sync_nx, ev_sync_ox, ev_sync_pm, ev_sync_rc, ev_sync_tm, ev_sync_yh)
 
 <table id="table_A05C02AB261946E0AABAD78259392D81"> 
  <thead> 
@@ -163,15 +163,15 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Das Datum, an dem die Synchronisierung durchgeführt wird, im Format JJJJMMTT </p> </td> 
+   <td colname="col2"> <p>Das Datum der Synchronisierung im Format JJJJMMTT </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>Das Datum, an dem die Synchronisierung durchgeführt wird, im Format JJJJMMTT </p> </td> 
+   <td colname="col2"> <p>Das Datum der Synchronisierung im Format JJJJMMTT </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Anzeigenbasiertes Cookie, das die Marketing Cloud-Surfer-ID mit dem Partner-Anzeigenaustausch synchronisiert. Es wird für neue Surfer erstellt und sendet eine Synchronisierungsanforderung, wenn es abgelaufen ist. </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Cookie speziell für Anzeigenbörsen, das die Surfer-ID in Advertising Cloud mit der Partner-Anzeigenbörse synchronisiert. Das Cookie wird für neue Surfer erstellt und sendet eine Synchronisierungsanforderung, wenn es abgelaufen ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -184,7 +184,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  </tbody> 
 </table>
 
-## Cookie-Name: everest_ g_ v 2
+## Cookie-Name: everest_g_v2
 
 <table id="table_04043292A43B41B69EAF17AF4E217C69"> 
  <thead> 
@@ -196,7 +196,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Browser- und Surfer-ID </p> </td> 
+   <td colname="col2"> <p>Browser und Surfer-ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -204,7 +204,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Erstellt, nachdem ein Benutzer anfänglich auf die Anzeige eines Kunden klickt und verwendet, um die aktuellen und nachfolgenden Klicks mit anderen Ereignissen auf der Website des Kunden zuzuordnen. </p> </td> 
+   <td colname="col2"> <p>Erstellt, nachdem ein Benutzer anfänglich auf die Anzeige eines Kunden geklickt hat, und verwendet, um die aktuellen und nachfolgenden Klicks anderen Ereignissen auf der Kundenwebsite zuzuordnen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -217,7 +217,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  </tbody> 
 </table>
 
-## Cookie-Name: everest_ session_ v 2
+## Cookie-Name: everest_session_v2
 
 <table id="table_1A3AE4CA71304ADB943CB1F64BE695F5"> 
  <thead> 
@@ -229,7 +229,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Sitzungs-ID </p> </td> 
+   <td colname="col2"> <p>Die Sitzungs-ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -237,7 +237,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Sitzungs-Cookie; ein Cookie wird für alle Konten verwendet </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Sitzungs-Cookie; für alle Konten wird ein Cookie verwendet </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -250,7 +250,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  </tbody> 
 </table>
 
-## Cookie-Name: ev_ tm
+## Cookie-Name: ev_tm
 
 <table id="table_6C4D9DCFA4BF4FB2BD445E027550955F"> 
  <thead> 
@@ -262,7 +262,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Advertising Cloud DSP (nachfrageseitige Plattform) ID </p> </td> 
+   <td colname="col2"> <p>ID der Advertising Cloud DSP (Demand Side Platform) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -270,7 +270,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Cookie, das die DSP-ID speichert, die der surfer-ID im Cookie everest_ g_ v 2 entspricht </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Cookie, das die DSP-ID speichert, die der Surfer-ID im Cookie everest_g_v2 entspricht </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -283,7 +283,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
  </tbody> 
 </table>
 
-## Cookie-Name: id_ adcloud
+## Cookie-Name: id_adcloud
 
 <table> 
  <thead> 
@@ -299,7 +299,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>91 Tage </p> </td> 
+   <td colname="col2"> <p>91 Tage </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
@@ -307,7 +307,7 @@ Die Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
-   <td colname="col2"> <p>Die Top-Level-Domäne des werbenden Unternehmens (z. B. example.com) </p> </td> 
+   <td colname="col2"> <p>Die oberste Domänenebene des Werbetreibenden (z. B. beispiel.com) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Größe </p> </td> 
