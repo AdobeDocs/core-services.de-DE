@@ -6,7 +6,7 @@ seo-title: Anmelden und Profileinstellungen verwalten
 solution: Experience Cloud
 title: Anmelden und Profileinstellungen verwalten
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 
 ---
@@ -42,10 +42,10 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 | Element | Beschreibung |
 |--- |--- |
-| [Grundlagen zur Admin Console](https://helpx.adobe.com/de/marketing-cloud/how-to/first-time-setup.html) | Hier werden die ersten Schritte vorgestellt, mit denen Sie anfangen können, Experience Cloud-Lösungen zu nutzen. |
-| [Identität einrichten](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | Definieren Sie ein Identitätssystem, mit dem Ihre Endbenutzer authentifiziert werden, und richten Sie es ein. |
-| [Benutzerverwaltung](https://helpx.adobe.com/de/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
-| [Admin Console starten](../admin-getting-started/admin-getting-started.md) | Bei der Admin Console handelt es sich um den zentralen Anlaufpunkt für die Verwaltung der Adobe-Benutzer und -Produkte Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link]( bei der Admin Console https://adminconsole.adobe.com) anmelden. |
+| [Grundlagen zur Admin Console](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Hier werden die ersten Schritte vorgestellt, mit denen Sie anfangen können, Experience Cloud-Lösungen zu nutzen. |
+| [Identität einrichten](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definieren Sie ein Identitätssystem, mit dem Ihre Endbenutzer authentifiziert werden, und richten Sie es ein. |
+| [Benutzerverwaltung](https://helpx.adobe.com/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
+| [Admin Console starten](../admin-getting-started/admin-getting-started.md) | Bei der Admin Console handelt es sich um den zentralen Anlaufpunkt für die Verwaltung der Adobe-Benutzer und -Produkte Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link](https://adminconsole.adobe.com) bei der Admin Console   anmelden. |
 | [Creative Cloud-Benutzer verwalten](../experience-cloud-assets/t-admin-add-cc-user.md) | Mithilfe von Experience Cloud Assets können Marketingspezialisten über die Creative Cloud mit Designern gemeinsam an Ordnern arbeiten, diese freigeben und synchronisieren. Hier können Sie die Creative Cloud-Benutzer verwalten, die über Rechte für die Zusammenarbeit mit Ihrer Organisation verfügen. |
 | [Report Suites zuordnen](../core-services/core-services.md) | (Nur Analytics) Hauptdienste der Experience Cloud werden einer Organisation zugeordnet, nicht einer einzelnen Report Suite. Damit sichergestellt ist, dass diese Dienste korrekt funktionieren, muss jede Analytics-Report Suite einer Organisation zugeordnet sein. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe  [Analytics für Hauptdienste aktiviert wird](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).) |
 | [Organisations-ID](../admin-getting-started/organizations.md) | Die *Organisations-ID* findet sich unten auf der Administrationsseite. Bei dieser ID handelt es sich um diejenige ID, die mit dem bereitgestellten Experience Cloud-Unternehmen verknüpft ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |
@@ -135,7 +135,7 @@ Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation u
 
    Durch das Zurücksetzen des Lösungskennworts sollten sich Probleme bei der Verknüpfung des Kennworts im Zuge der Experience Cloud-Kontenverknüpfung lösen lassen.
 
-   Benutzer von Adobe Analytics können das Kennwort unter [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html) zurücksetzen.
+   Adobe Analytics-Benutzer navigieren nun zu [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## Lösungsanmeldung über einen direkten Link konfigurieren {#concept_8BE493A08786469B88B210E13F78FF2F}
 
@@ -153,7 +153,7 @@ Beispiel-URL:
 
 >[!NOTE]
 >
->Sie müssen alle URLs vor Weitergabe an den Parameter `destURL` verschlüsseln. (Encoder-Sites wie [URL Decoder/Encoder](https://meyerweb.com/eric/tools/dencoder/) sind verfügbar.)
+>Sie müssen alle URLs vor Weitergabe an den Parameter `destURL` verschlüsseln. (Encoder sites like [URL Decoder / Encoder](https://meyerweb.com/eric/tools/dencoder/) are available.)
 
 | Parameter | Beschreibung | Beispiel | Erforderlich/Optional |
 |--- |--- |--- |--- |
