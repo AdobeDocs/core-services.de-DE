@@ -9,7 +9,7 @@ uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 index: y
 internal: n
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7137e608ddece5bf2a3983b3b18909ba89d607a6
 
 ---
@@ -35,7 +35,7 @@ Audience Manager nutzt einige einfache Cookies für verschiedene Funktionen. Hie
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
-   <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine Unique User-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Index of IDs in Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine Unique User-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Index of IDs in Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Weitere Attribute</b> </p> </td> 
@@ -66,7 +66,7 @@ Audience Manager nutzt einige einfache Cookies für verschiedene Funktionen. Hie
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
    <td colname="col2"> <p>Das <span class="wintitle">dextp</span>-Cookie umfasst einen Datenanbieternamen bzw. eine Datenanbieter-ID sowie einen UNIX-UTC-Zeitstempel. Der Zeitstempel ist als mit senkrechtem Strich (Pipe) getrennte Zeichenfolge formatiert. In den Beispielen stehen die <i>kursiv</i> dargestellten Inhalte für Variablenplatzhalter. </p> <p> 
      <ul id="ul_80D0BC3FCF06470991E12712401D784A"> 
-      <li id="li_03747A433CEB4756A26CD866E716B89D">Alter Stil: <span class="codeph">  <span class="varname"> Name des Datenanbieters hier </span>-1490307822097  <span class="varname"> Name des Datenanbieters hier </span>-1490307822038 </span> </li> 
+      <li id="li_03747A433CEB4756A26CD866E716B89D">Old style: <span class="codeph"> <span class="varname"> data provider name here </span>-1490307822097| <span class="varname"> data provider name here </span>-1490307822038 </span> </li> 
       <li id="li_79E7000E82DB4ADA9E9887B017343B2D">Neuer Stil: <span class="codeph">21-1-1490307821616|544-1-1490307821793|3-1-1490307821852|420-1-1490307822038| </span> </li> 
      </ul> </p> <p>Sehen Sie sich auch den unten stehenden Abschnitt zur Datensyntax des dextp-Cookies an. </p> </td> 
   </tr> 
@@ -97,11 +97,11 @@ In der folgenden Tabelle werden die in einem [!DNL dextp]-Cookie enthaltenen Ele
    <td colname="col1"> <p> <b>Erste oder zweite Position</b> </p> </td> 
    <td colname="col2"> <p>Die Position des Namens bzw. der ID des Datenanbieters variiert. Dies hängt davon ab, welche Formatierung das Cookie verwendet (Formatierung im neuen oder alten Stil). </p> <p> <b>Formatierung im alten Stil:</b> </p> <p> 
      <ul id="ul_5BFBF40E3FE849CA859030F2D070FDF6"> 
-      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Syntax: <span class="codeph">  <span class="varname"> Name des Datenanbieters </span> - <span class="varname"> UNIX-UTC-Zeitstempel </span> </span> </li> 
+      <li id="li_E8F4DC0CB15B472ABE9892B3A61D7F77">Syntax: <span class="codeph"> <span class="varname"> Name des Datenanbieters </span> - <span class="varname"> UNIX-UTC-Zeitstempel </span> </span> </li> 
       <li id="li_7CD8B101156140F49EA97B18E9591402">Beispiel: <span class="codeph">dataProvider1 – 1490307822038 </span> </li> 
      </ul> </p> <p>In dem im alten Stil formatierten Cookie wird der Datenanbieter mit einem lesbaren Namen identifiziert. </p> <p> <b>Formatierung im neuen Stil:</b> </p> <p> 
      <ul id="ul_AC6225CA781746148C125F21DFED1ED9"> 
-      <li id="li_29C4B52E398B4EA28944980A15B05A57">Syntax: <span class="codeph">  <span class="varname"> Datenanbieter-ID </span> -1 2 - <span class="varname"> UNIX-UTC-Zeitstempel </span> </span> </li> 
+      <li id="li_29C4B52E398B4EA28944980A15B05A57">Syntax: <span class="codeph"> <span class="varname"> Datenanbieter-ID </span> -1 2 - <span class="varname"> UNIX-UTC-Zeitstempel </span> </span> </li> 
       <li id="li_3BF30CA5FED242DF96E0B54AFC64B06F">Beispiel: <span class="codeph"> 123345 - 1 - 1490307822038 </span> </li> 
      </ul> </p> <p>Im neuen Stil formatiertes Cookie: </p> <p> 
      <ul id="ul_F05A91A455FA44C7A71186C0C9E31630"> 
@@ -128,7 +128,7 @@ In der folgenden Tabelle werden die in einem [!DNL dextp]-Cookie enthaltenen Ele
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Zweck</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/destinations/destinations.translate.html#purposes" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://marketing.adobe.com/resources/help/en_US/aam/c_destinations.html" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
