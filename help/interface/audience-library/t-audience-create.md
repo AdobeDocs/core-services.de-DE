@@ -6,7 +6,7 @@ seo-title: Erstellen einer Zielgruppe
 solution: Experience Cloud
 title: Erstellen einer Zielgruppe
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -19,7 +19,7 @@ Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstellen und eine gemi
 In diesem Abschnitt lernen Sie folgende Verfahren kennen:
 
 * Erstellen einer Zielgruppe
-* Erstellen von Regeln
+* Erstellen einer Regel
 * Verwenden von Regeln zum Definieren von zusammengefassten Zielgruppen
 
 
