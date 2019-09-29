@@ -6,7 +6,7 @@ seo-title: Kundenattribute
 solution: Experience Cloud
 title: Kundenattribute
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
 
 ---
@@ -36,7 +36,7 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 * **Target-Mbox:** Für Kundenattribute ist mbox.js Version 58 oder höher erforderlich.
 
 
-   Siehe [„mbox.js“-Implementation](https://marketing.adobe.com/resources/help/de_DE/target/ov/?f=t_mbox_download).
+   Siehe [Implementierung von Mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)
 
 * **at.js:** Beliebige Version
 
