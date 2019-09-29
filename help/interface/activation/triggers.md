@@ -6,7 +6,7 @@ seo-title: Triggers
 solution: Experience Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8ec57774743e8c32a17f18ae6dfe98c0767297a6
 
 ---
@@ -57,7 +57,7 @@ Erstellen Sie einen Abbruchsauslöser und konfigurieren Sie die Bedingungen für
    |--- |--- |
    | Name | Der Anzeigename für diesen Auslöser. |
    | Beschreibung | Die Beschreibung dieses Auslösers, seine Verwendung usw. |
-   | Report Suite | Die Analytics-[Report Suite](https://marketing.adobe.com/resources/help/de_DE/analytics/getting-started/?f=report-suites), die für diesen Trigger verwendet wird. Diese Einstellung gibt die zu verwendenden Berichtsdaten an. |
+   | Report Suite | Die für diesen Auslöser verwendete Analytics-[Report Suite](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html). Diese Einstellung gibt die zu verwendenden Berichtsdaten an. |
    | Besuch muss beinhalten<br>Besuch darf nicht beinhalten<br>Auslöser nach ausbleibender Aktion<br> Metadaten einschließen | Sie können Kriterien oder Besucherverhalten, das auftreten soll, sowie Verhalten, das nicht auftreten soll, definieren.  Regeln für einen einfachen Warenkorbabbruchsauslöser können beispielsweise die folgenden sein:<ul><li>Besuch muss Folgendes beinhalten: „Zusatz zum Warenkorb“ (Metrik) und „Vorhanden“. (Sie können die Regel mit einer bestimmten Produktansicht oder mit Dimensionen wie „Browsertypen“ weiter verfeinern.)</li><li>Besuch darf Folgendes nicht beinhalten: Checkout.</li><li>Auslöser nach ausbleibender Aktion bei: 10 Minuten.</li><li>Metadaten einschließen: Sie können eine bestimmte Kampagnendimension oder Variablen, die für das Verhalten eines Besuchers relevant sind, hinzufügen. Dieses Feld kann für Adobe Campaign zum Verfassen der richtigen Remarketing-E-Mail nützlich sein.</li></ul><br>Sie können eine Beliebige-, Und- oder Oder-Logik innerhalb oder zwischen Behältern angeben, je nachdem, welche Kriterien Sie für die Regel für wichtig halten. |
    | Behälter | Behälter sind der Ort, an dem Sie Regeln, Bedingungen oder Filter zur Definition eines Auslösers festlegen und speichern. Wenn Ereignisse gleichzeitig eintreten sollen, speichern Sie sie in demselben Behälter. Dies bedeutet, dass jeder Behälter unabhängig auf der Trefferebene arbeitet.  Wenn Sie beispielsweise zwei Behälter mit dem Operator „Und“ verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
    | Neue Sitzung beginnen nach | Erstellen Sie einen Auslöser für den Beginn und das Ende von Sitzungsereignissen. |
@@ -67,7 +67,7 @@ Erstellen Sie einen Abbruchsauslöser und konfigurieren Sie die Bedingungen für
    ![Schritt Ergebnis](assets/propensity-scoring.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
-1. Verwenden Sie Trigger für [Echtzeit-Remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
+1. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
 
 ### Beispielauslöser
 
