@@ -5,7 +5,7 @@ seo-title: Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste
 solution: Experience Cloud
 title: Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -17,7 +17,7 @@ Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Lösu
 
 ## Vorstellung des DNS-Vorabrufs {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Mithilfe des DNS-Vorabrufs können Browser auf Webseiten verlinkte Domänennamen automatisch in die zugehörigen IP-Adressen umwandeln. Der Vorabruf beginnt, sobald in Ihrem Browser eine Webseite geladen wird. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. Lädt ein Browser diese Seite, nutzt dieser das [DNS-System](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/), um den verlinkten Domänennamen nachzuschlagen und ihn in die zugehörige numerische IP-Adresse umzuwandeln. Mithilfe des DNS-Vorabrufs lässt sich die Leistung einer Seite verbessern, da der Domännename bereits in eine IP-Adresse umgewandelt wurde, bevor ein Besucher auf den Link oder die zugehörige Schaltfläche klickt. Der DNS-Vorabruf ist für Benutzer vollständig transparent.
+Mithilfe des DNS-Vorabrufs können Browser auf Webseiten verlinkte Domänennamen automatisch in die zugehörigen IP-Adressen umwandeln. Der Vorabruf beginnt, sobald in Ihrem Browser eine Webseite geladen wird. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. Lädt ein Browser diese Seite, nutzt dieser das [DNS-System](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/), um den verlinkten Domänennamen nachzuschlagen und ihn in die zugehörige, numerische IP-Adresse umzuwandeln. Mithilfe des DNS-Vorabrufs lässt sich die Leistung einer Seite verbessern, da der Domännename bereits in eine IP-Adresse umgewandelt wurde, bevor ein Besucher auf den Link oder die zugehörige Schaltfläche klickt. Der DNS-Vorabruf ist für Benutzer vollständig transparent.
 
 ## DNS-Vorabruf und Adobe Experience Cloud-Lösungen {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
