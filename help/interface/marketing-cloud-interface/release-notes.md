@@ -6,7 +6,7 @@ seo-title: Gesammelte Versionshinweise
 solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 75831abe44d04902691325add2338381754f98ec
 
 ---
@@ -18,7 +18,7 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Versionshinweise zu allen Lösungen finden Sie unter [Versionshinweise für Experience Cloud](https://marketing.adobe.com/resources/help/de_DE/whatsnew/).
+Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
 
 ## August 2019
 
@@ -116,7 +116,7 @@ Wenn Sie über **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Activation]
 
 >[!NOTE]
 >
->Microsoft[beendet die Unterstützung](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
+>Microsoft [beendet den Support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
 
 ## Version 15.10 – 14. Oktober 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -171,7 +171,7 @@ Keine Informationen verfügbar
 </table>
 
 * Ein Problem wurde behoben, infolge dessen die Kundenattribute einiger Kunden nicht synchronisiert werden konnten.
-* Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://marketing.adobe.com/resources/help/de_DE/target/a4t/) nicht auf Japanisch angezeigt wurde.
+* Ein Problem wurde behoben, durch das die Anzeige der Seite [Adobe Target-Produktdokumentation](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) auf Japanisch verhindert wurde.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
 ## Version 15.4.1 – 8. April 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -245,7 +245,7 @@ Keine Informationen verfügbar
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktualisierungen an der Dokumentation – Hauptdienste </p> </td> 
-   <td colname="col2"> <p>Thema hinzugefügt:  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktiveren Ihrer Lösungen für Hauptdienste</a>. Unterstützt Sie bei der Implementierung von Hauptdiensten. </p> </td> 
+   <td colname="col2"> <p>Thema hinzugefügt: <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktiveren Ihrer Lösungen für Hauptdienste</a>. Unterstützt Sie bei der Implementierung von Hauptdiensten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
