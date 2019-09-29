@@ -4,7 +4,7 @@ seo-description: Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Org
 seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
 
 ---
@@ -20,7 +20,7 @@ Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und der People
 * hat keinen Einfluss darauf, wer auf die Report Suite zugreifen kann (der Zugriff wird nach wie vor über das Adobe Analytics-Anmeldekonto eines jeden Benutzers bestimmt)
 
 
-**Voraussetzungen**
+**Anforderungen**
 
 Sie müssen Analytics-Administrator einer Unternehmensanmeldung sein, der Zugriff auf die zuzuweisende Report Suite hat. Außerdem muss dieses Konto [mit einer Experience Cloud-Organisation verknüpft](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) sein, damit dieser Organisation Report Suites zugeordnet werden können.
 
@@ -30,7 +30,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite-Zuweisung]**
 
-   Sie können auch eine [Direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
+   Alternativ können Sie eine [direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
 
 1. Wenn Sie anzeigen möchten, welche Unternehmensanmeldungen Zugriff auf welche Report Suite haben, klicken Sie auf **[!UICONTROL Sichtbar für Unternehmensanmeldung]**.
 
@@ -44,7 +44,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite-Zuweisung]**.
 
-   Sie können auch eine [Direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
+   Alternativ können Sie eine [direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
 
 1. Wählen Sie die Report Suites aus, die Sie zuweisen möchten.
 
@@ -62,7 +62,7 @@ In diesem Abschnitt finden Sie Tipps dazu, wie Sie die Experience Cloud-Organis
 
 **Welche Organisation sollte ich auswählen?**
 
-Wird der Experience Cloud ID-Dienst derzeit auf die Report Suite angewandt, müssen Sie sicherstellen, dass Sie im Zuordnungs-Tool für Report Suites die gleiche Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Abschnitt zum [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://marketing.adobe.com/resources/help/de_DE/mcvid/?f=mcvid-test-verify) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom Besucher-ID-Dienst genutzt wird.
+Wird der Experience Cloud ID-Dienst derzeit auf die Report Suite angewandt, müssen Sie sicherstellen, dass Sie im Zuordnungs-Tool für Report Suites die gleiche Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Kapitel über das [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom ID-Dienst genutzt wird.
 
 Wird der Besucher-ID-Dienst bisher noch nicht auf Sites eingesetzt, auf denen die Report Suite Daten erfasst, muss die Implementierung der in der Report Suite-Zuweisung ausgewählten Organisation entsprechen, wenn der Experience Cloud-Besucher-ID-Dienst zu einem späteren Zeitpunkt verwendet wird.
 
@@ -108,7 +108,7 @@ Zugeordnete Report Suites werden als nicht bearbeitbar dargestellt. Sollten Sie 
 
 **Was passiert, wenn ich nur die Organisations-ID meiner Experience Cloud-Organisation kenne? Wo kann ich den Namen meiner Organisations-ID nachschlagen?**
 
-Sie finden den Namen Ihrer Organisation in [Einstellungen für Organisationen und Konten](https://marketing.adobe.com/resources/help/de_DE/mcloud/?f=organizations).
+Den Namen Ihrer Organisation finden Sie unter [Organisationen und Kontoeinstellungen](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
 
 **In der Spalte „Datum der Zuordnung“ ist ein Datum eingetragen. Wer hat diese Zuordnung vorgenommen?**
 
