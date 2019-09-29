@@ -6,7 +6,7 @@ seo-title: Aktualisierungen der Dokumentation – Experience Cloud
 solution: Experience Cloud
 title: Aktualisierungen der Dokumentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -66,7 +66,7 @@ Der Abschnitt [Aktivieren Ihrer Lösungen für Hauptdienste](core-services/core-
 
 **Aktualisiert: 15.01.2015**
 
-Hinzugefügt: Experience Cloud-Benutzer können jetzt Ordner mit Creative Cloud freigeben und Assets und Kommentare zwischen beiden Clouds synchronisieren. Siehe  [Asset-Freigabe](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Hinzugefügt: Experience Cloud-Benutzer können jetzt Ordner mit Creative Cloud freigeben und Assets und Kommentare zwischen beiden Clouds synchronisieren. Siehe [Asset-Freigabe](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Aktualisiert: 17.07.2014**
 
