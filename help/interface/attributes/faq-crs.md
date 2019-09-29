@@ -6,7 +6,7 @@ seo-title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 solution: Experience Cloud
 title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
 
 ---
@@ -47,7 +47,7 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
     <ol id="ol_1FACEF0990B6486B8DE86245D17695A8"> 
      <li id="li_F0C1542853684F8591FDC1B441D31A56"> <p>Lassen Sie sich freischalten. </p> <p>Wenn Sie <b>Analytics</b>-Kunde sind, schaltet Adobe Sie für Kundenattribute frei. Wenn Sie nur <b>Target</b> verwenden und nicht über Analytics verfügen, müssen Sie die Kundenunterstützung bitten, Sie für die Hauptdienste freizuschalten. </p> </li> 
      <li id="li_444FEDEE4B7244F79BA847662F5B17CB"> <p>Besprechen Sie sich mit Ihrem CRM-Team. Finden Sie heraus, welche Arten von Kundendaten vorhanden sind und ob sie sich für die Verwendung in Analytics und in der Experience Cloud eignen. </p> </li> 
-     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>Implementieren Sie die Hauptdienste. </p> <p>Weitere Informationen finden Sie unter  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Erste Schritte - Aktivieren Ihrer Lösungen für Hauptdienste</a>. Hier erfahren Sie, wie Sie Ihre Implementierung für Hauptdienste modernisieren. (Besonders wichtige Informationen finden sich im Abschnitt über die Synchronisierung von Kunden-IDs.) </p> </li> 
+     <li id="li_32D4AAF8C29748A78801A0E1BFB37AF5"> <p>Implementieren Sie die Hauptdienste. </p> <p>Weitere Informationen finden Sie unter <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Erste Schritte - Aktivieren Ihrer Lösungen für Hauptdienste</a>. Hier erfahren Sie, wie Sie Ihre Implementierung für Hauptdienste modernisieren. (Besonders wichtige Informationen finden sich im Abschnitt über die Synchronisierung von Kunden-IDs.) </p> </li> 
     </ol> <p> <b>Hinweis:</b> Eine FAQ-Rubrik für Administratoren zur Implementierung von Hauptdiensten finden Sie  <a href="../admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91" format="dita" scope="local">hier</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -66,7 +66,7 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: Dringend zu empfehlen </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> Erforderlich </li> 
-     </ul> </p> <p>Der ID-Dienst öffnet die Türen zur modernsten Experience Cloud-Funktionalität, einschließlich Echtzeitzielgruppen, der neuesten Target-Version, der Integration von Analytics und der Pulsmessung für Video. </p> <p>Weitere Informationen finden Sie unter  <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Hauptdienste – So aktivieren Sie Ihre Lösungen</a>. </p> <p> <b>Hinweis</b>: Der <span class="term"> Experience Cloud ID-Dienst</span> ist die modernisierte Implementierung des <span class="term"> Analytics-Besucher-ID-Dienstes</span>. </p> </td> 
+     </ul> </p> <p>Der ID-Dienst öffnet die Türen zur modernsten Experience Cloud-Funktionalität, einschließlich Echtzeitzielgruppen, der neuesten Target-Version, der Integration von Analytics und der Pulsmessung für Video. </p> <p>Weitere Informationen finden Sie unter <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Hauptdienste – So aktivieren Sie Ihre Lösungen</a>. </p> <p> <b>Hinweis</b>: Der <span class="term"> Experience Cloud ID-Dienst</span> ist die modernisierte Implementierung des <span class="term"> Analytics-Besucher-ID-Dienstes</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inwieweit lässt sich die Kundenattributfunktion mit Adobe Audience Manager vergleichen? </p> </td> 
@@ -95,7 +95,7 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Nur Target)</b> Verlängert das Hochladen von Daten von Kundenattributen zu Adobe Target die Lebensdauer des Target-Besucherprofils? </p> </td> 
-   <td colname="col2"> <p>Ja. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/de_DE/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Lebensdauer von Besucherprofilen</a> in der Hilfe zu Adobe Target. </p> </td> 
+   <td colname="col2"> <p>Ja. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Lebensdauer von Besucherprofilen</a> in der Hilfe zu Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Nur Target)</b> Kann ich mich auf die in Kundenattributen hochgeladenen Daten sofort nach Identifikation des Besuchers durch die Kunden-ID beziehen? </p> </td> 
