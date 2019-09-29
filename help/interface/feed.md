@@ -6,7 +6,7 @@ seo-title: Feed
 solution: Experience Cloud
 title: Feed
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -36,7 +36,7 @@ Sie können Berichte aus [!UICONTROL Reports &amp; Analytics] im Experience Clo
 
 1. Sie können sich mit Ihrer Adobe ID in der Experience Cloud [anmelden](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
 
-1. Navigieren Sie zu Reports &amp; Analytics und [erstellen Sie dann ein Projekt](https://marketing.adobe.com/resources/help/de_DE/analytics/analysis-workspace/?f=freeform_overview).
+1. Navigieren Sie zu Reports &amp; Analytics und [erstellen Sie ein Projekt](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** &gt; **[!UICONTROL Freigaben]**.
 
