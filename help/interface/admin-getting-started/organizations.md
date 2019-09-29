@@ -6,7 +6,7 @@ seo-title: Organisationen und Kontoverknüpfung
 solution: Experience Cloud
 title: Organisationen und Kontoverknüpfung
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 ---
@@ -70,5 +70,5 @@ Hilfe zu Problemen bei der Kontoverknüpfung.
 
 Für gewöhnlich schläft die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie folgende Schritte durchführen:
 
-* [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/de/marketing-cloud/contact-support.html).
+* [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 * Greifen Sie über die Standardanmeldung auf die Lösung zu, solange das Problem nicht behoben ist.
