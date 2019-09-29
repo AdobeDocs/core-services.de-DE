@@ -12,28 +12,28 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
 
 # Hauptdienste-Benutzerhandbuch {#interface}
 
-+ [Experience Cloud-Produktdokumentation](landing/experience-cloud-home.md)
-+ [Hilfe zu Experience Cloud und Core Services](experience-cloud.md)
++ [Experience Cloud – Produktdokumentation](landing/experience-cloud-home.md)
++ [Hilfe für Experience Cloud und Hauptdienste](experience-cloud.md)
 + Über Hauptdienste {#about-core-services}
    + [Übersicht über die Hauptdienste](core-services-landing.md)
    + [Lösungen für Hauptdienste aktivieren](core-services/core-services.md)
    + [Report Suites einer Organisation zuweisen](core-services/report-suite-mapping.md)
    + [Über die neuen Cloud-Namen der Experience Cloud](solutions-core-services.md)
 + [Experience Cloud-Integrationen](marketing-cloud-integrations.md)
-+ Experience Cloud cookies {#ec-cookies}
-   + [Cookies - Übersicht](cookies/cookies-privacy.md)
++ Experience Cloud-Cookies {#ec-cookies}
+   + [Cookies – Übersicht](cookies/cookies-privacy.md)
    + [Erstanbieter-Cookies](cookies/cookies-first-party.md)
-   + [Analytics-Cookies](cookies/cookies-analytics.md)
+   + [Cookies in Analytics](cookies/cookies-analytics.md)
    + [Cookies in Audience Manager](cookies/cookies-am.md)
-   + [Data Connectors-Cookies](cookies/cookies-dc.md)
-   + [Data Workbench-Cookies](cookies/cookies-insight.md)
-   + [Experience Cloud-Cookies](cookies/cookies-mc.md)
-   + [Advertising Cloud-Cookies](cookies/cookies-advertising-cloud.md)
-   + [Scene7-Cookies](cookies/cookies-s7.md)
-   + [Cookies suchen und bewerben](cookies/cookies-snp.md)
-   + [Target-Cookies](cookies/cookies-target.md)
+   + [Cookies in Data Connectors](cookies/cookies-dc.md)
+   + [Cookies in Data Workbench](cookies/cookies-insight.md)
+   + [Cookies in Experience Cloud](cookies/cookies-mc.md)
+   + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
+   + [Cookies in Scene7](cookies/cookies-s7.md)
+   + [Cookies in Search&amp;Promote](cookies/cookies-snp.md)
+   + [Cookies in Target](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
-   + [Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt](cookies/cookies-thirdparty.md)
+   + [Wie sich Veränderungen bei der Unterstützung von Drittanbieter-Cookies auf Kunden auswirken](cookies/cookies-thirdparty.md)
 + Benutzer und Produkte verwalten {#manage-users-and-products}
    + [Verwalten von Experience Cloud-Benutzern und -produkten](admin-getting-started/admin-getting-started.md)
    + [Häufig gestellte Fragen](admin-getting-started/faq.md)
@@ -56,7 +56,7 @@ source-git-commit: 4bc85987882f7def7555351aad2bc344de8c2130
    + [Deaktivierung der Synchronisierung freigegebener Ordner](experience-cloud-assets/t-disable-asset-sync.md)
    + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
-+ Zielgruppen{#audiences}
++ Zielgruppen {#audiences}
    + [Überblick über Zielgruppen](audience-library/audience-library.md)
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
