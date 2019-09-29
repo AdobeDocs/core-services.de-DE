@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics
 title: Erstanbieter-Cookies
 index: y
 snippet: y
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
 
 ---
@@ -119,6 +119,6 @@ Nachdem Sie geprüft haben, dass Ihr(e) Hostname(n) reagieren und die Weiterleit
 
 1. Wenn Sie von einer älteren Implementierung zu Erstanbieter-Cookies wechseln oder zu einem anderen Hostnamen der Erstanbieter-Datensammlung wechseln, empfehlen wir, Besucher aus der vorherigen Domäne in die neue Domäne zu migrieren.
 
-Siehe [Besuchermigration](https://docs.adobe.com/help/de-DE/analytics/implementation/javascript-implementation/visitor-migration.html) im Analytics-Implementierungshandbuch.
+Siehe [Besuchermigration](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) im Analytics-Implementierungshandbuch.
 
 Nachdem Sie die JavaScript-Datei hochgeladen haben, ist die Konfiguration für die Erstanbieter-Cookie-Datensammlung abgeschlossen. Es wird empfohlen, Analytics-Berichte in den nächsten Stunden zu überwachen, um sicherzustellen, dass die Datenerfassung wie üblich erfolgt. Ist dies nicht der Fall, stellen Sie sicher, dass alle oben genannten Schritte ausgeführt wurden und veranlassen Sie, dass ein unterstützter Mitarbeiter Ihrer Organisation die Kundenunterstützung kontaktiert.
