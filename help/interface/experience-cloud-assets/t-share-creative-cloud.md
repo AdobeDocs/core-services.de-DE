@@ -6,7 +6,7 @@ seo-title: Experience Cloud-Asset-Ordner freigeben
 solution: Experience Cloud
 title: Experience Cloud-Asset-Ordner freigeben
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
 
 ---
@@ -50,8 +50,8 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 Wenn Sie alle Creative Cloud-Benutzer aus der Freigabe entfernt haben, wird die Freigabe des gesamten Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 Freigegebene Assets können Sie auch wie folgt verwenden:
 
-* Verwenden Sie Assets in der [!UICONTROL Asset-Auswahl] in [!DNL Adobe Social] für Social-Beiträge. Siehe [Publisher-Seite](https://marketing.adobe.com/resources/help/de_DE/social/?f=c_pub_publisher).
-* Laden oder tauschen Sie Assets in der [Inhaltsbibliothek](https://marketing.adobe.com/resources/help/de_DE/target/target/?f=c_manage_content) in [!DNL Adobe Target], um sie für Bilder in Aktivitäten zu verwenden.
+* Verwenden Sie Assets in der [!UICONTROL Asset-Auswahl] in [!DNL Adobe Social] für Social-Beiträge. Siehe [Seite „Publisher“](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher).
+* Laden Sie Assets in der [Inhaltsbibliothek](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content) in [!DNL Adobe Target] oder tauschen Sie sie dort aus, um Bilder für Aktivitäten hinzuzufügen.
 
 Wenn Sie einen Ordner in der Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 
@@ -59,6 +59,6 @@ Wenn Sie einen Ordner in der Creative Cloud freigegeben haben, erscheint auf dem
 
 Verwandte Hilfe:
 
-* [Creative Cloud-Hilfe – Dateien verwalten und synchronisieren](https://helpx.adobe.com/de/creative-cloud/help/sync-files.html)
-* [Creative Cloud-Hilfe – Zusammenarbeit mit anderen](https://helpx.adobe.com/de/creative-cloud/help/collaboration.html)
-* [Creative Cloud-Hilfe – FAQ zur Zusammenarbeit](https://helpx.adobe.com/de/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud-Hilfe – Dateiverwaltung und -synchronisierung](https://helpx.adobe.com/creative-cloud/help/sync-files.html)
+* [Creative Cloud-Hilfe – Zusammenarbeit im Team](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
+* [Creative Cloud-Hilfe – Häufig gestellte Fragen zur Zusammenarbeit](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
