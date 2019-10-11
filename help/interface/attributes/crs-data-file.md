@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: a231e39dd97eb441d67fdf35bd7e5328bcfe0359
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -35,7 +35,7 @@ Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. aus Excel). Dies ist die Datei mit den Kundenattributdaten. </p> <p> <b></b> Namensanforderungen: Stellen Sie sicher, dass Dateinamenerweiterungen keine Leerzeichen oder die folgenden Zeichen ".", "..", "/", ":" enthalten. </p> </td> 
+   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. aus Excel). Dies ist die Datei mit den Kundenattributdaten. </p> <p> <b>Namensanforderungen:</b> Die Dateinamenserweiterung darf keine Leerstellen enthalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -81,7 +81,7 @@ Die gleiche Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Spalte mit Kunden-ID </p> </td> 
-   <td colname="col2"> <p> Die erste Spalte muss eine Unique Customer-ID enthalten. Die verwendete ID muss mit der an den Experience Cloud ID-Dienst übergebenen ID übereinstimmen. </p> <p>Bei Analytics die in einer prop oder eVar gespeicherte ID. </p> <p>Bei Target der Wert von setCustomerID. (Siehe <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics und Target – Synchronisieren der Kunden-ID</a>.) </p> <p> Diese Kunden-ID stellt den eindeutigen Bezeichner dar, den Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Alle anderen Spalten enthalten Attribute aus Ihrem CRM-System. Sie selbst legen fest, wie viele Attribute hochgeladen werden. </p> <p>Als Spaltentitel werden aussagekräftige, gut lesbare Namen empfohlen, allerdings ist dies keine Voraussetzung. Auch bei der Prüfung des Schemas nach dem Upload können Sie den hochgeladenen Zeilen und Spalten noch Anzeigenamen zuordnen. </p> <p> <b>Informationen zu Kunden-IDs</b> </p> <p>Für gewöhnlich verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph">setCustomerIDs</span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in die Experience Cloud hochgeladen wird. Eine <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Alias zu diesem Datenspeicher (über „setCustomerIDs“). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen zu <span class="codeph">setCustomerIDs</span> finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">Kunden-IDs und Authentifizierungszustände </a>. </p> </td> 
+   <td colname="col2"> <p> Die erste Spalte muss eine Unique Customer-ID enthalten. Die verwendete ID muss mit der an den Experience Cloud ID-Dienst übergebenen ID übereinstimmen. </p> <p>Bei Analytics die in einer prop oder eVar gespeicherte ID. </p> <p>Bei Target der Wert von setCustomerID. (Siehe <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics und Target – Synchronisieren der Kunden-ID</a>) </p> <p> Diese Kunden-ID stellt den eindeutigen Bezeichner dar, den Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Alle anderen Spalten enthalten Attribute aus Ihrem CRM-System. Sie selbst legen fest, wie viele Attribute hochgeladen werden. </p> <p>Als Spaltentitel werden aussagekräftige, gut lesbare Namen empfohlen, allerdings ist dies keine Voraussetzung. Auch bei der Prüfung des Schemas nach dem Upload können Sie den hochgeladenen Zeilen und Spalten noch Anzeigenamen zuordnen. </p> <p> <b>Informationen zu Kunden-IDs</b> </p> <p>Für gewöhnlich verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph">setCustomerIDs</span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in die Experience Cloud hochgeladen wird. Eine <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Alias zu diesem Datenspeicher (über „setCustomerIDs“). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen zu <span class="codeph">setCustomerIDs</span> finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html" format="https" scope="external">Kunden-IDs und Authentifizierungszustände</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Weitere Spaltentitel bzw. Spalten </p> </td> 
@@ -121,7 +121,7 @@ Die gleiche Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dateivoraussetzungen </p> </td> 
-   <td colname="col2"> <p> Jede Attributquelle sollte die gleiche Anzahl kommagetrennter Felder enthalten. </p> <p> Felder mit Zeilenumbrüchen, doppelten Anführungszeichen oder Kommas müssen in Anführungszeichen stehen. </p> <p> Doppelten Anführungszeichen in einem Feld muss als Escape-Zeichen ein umgekehrter Schrägstrich (\) vorangestellt werden. </p> <p> Leere Spalten werden als  <span class="term"> null </span>. </p> </td> 
+   <td colname="col2"> <p> Jede Attributquelle sollte die gleiche Anzahl kommagetrennter Felder enthalten. </p> <p> Felder mit Zeilenumbrüchen, doppelten Anführungszeichen oder Kommas müssen in Anführungszeichen stehen. </p> <p> Doppelten Anführungszeichen in einem Feld muss als Escape-Zeichen ein umgekehrter Schrägstrich (\) vorangestellt werden. </p> <p> Leere Spalten werden als <span class="term">null</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mehrere Dateien </p> </td> 
