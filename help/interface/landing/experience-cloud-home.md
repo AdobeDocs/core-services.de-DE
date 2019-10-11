@@ -4,7 +4,7 @@ seo-title: Hilfe und Produktdokumentation für Lösungen in Adobe Experience Clo
 description: Hilfe und Produktdokumentation für Lösungen in Adobe Experience Cloud.
 seo-description: Hilfe für Experience Cloud
 translation-type: tm+mt
-source-git-commit: 7e09e666cf9102ab02bab85b5546f9dc6f2ca635
+source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
 
 ---
 
@@ -18,6 +18,7 @@ Hilfe und Produktdokumentation für Adobe Experience Cloud.
 * Subscribe to the [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) to receive release notes each month.
 * Produktvideos: Produktvideos finden Sie unter [Adobe Videolernprogramme](https://helpx.adobe.com/experience-cloud/tutorials.html).
 * Experience League: Visit the [Adobe Experience League](https://landing.adobe.com/experience-league/) for guided learning.
+* Experience Cloud-Hilfecenter
 
 ## ![Hilfe für Experience Cloud](assets/experience_cloud_appicon_32.png) Hilfe für Experience Cloud
 
@@ -55,12 +56,12 @@ Hilfe und Produktdokumentation für Adobe Experience Cloud.
 
 ## ![Hilfe zu Experience Manager](assets/mc_experiencemanager_32.png) Hilfe zu Experience Manager
 
-* [Experience Manager Learn &amp; Support](https://helpx.adobe.com/support/experience-manager.html)
+* [Experience Manager - Training und Support](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![Hilfe zu Campaign](assets/mc_campaign_32.png) Hilfe zu Campaign
 
-* Campaign Standard: [Documentation](https://helpx.adobe.com/support/campaign/standard.html) - [Release Notes](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-* Campaign Classic: [Documentation](https://helpx.adobe.com/support/campaign/classic.html) - [Release Notes](https://docs.campaign.adobe.com/doc/AC/en/RN.html) - [How-to videos](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
+* Campaign Standard: [Dokumentation](https://helpx.adobe.com/support/campaign/standard.html) – [Versionshinweise](https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html) – [Videoanleitungen](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* Campaign Classic: [Dokumentation](https://helpx.adobe.com/support/campaign/classic.html) – [Versionshinweise](https://docs.campaign.adobe.com/doc/AC/en/RN.html) – [Videoanleitungen](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
 
 ## ![Hilfe zu Primetime](assets/primetime_app_32.png) Hilfe zu Primetime
 
