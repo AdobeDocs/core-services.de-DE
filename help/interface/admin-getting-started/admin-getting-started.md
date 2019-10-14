@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -15,19 +15,6 @@ source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
 # Verwalten von Experience Cloud-Benutzern und -produkten {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
 Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud.
-
-
-<!-- marketing-cloud-identity-management.xml -->
-
-<!-- user_mgmt_admin.xml -->
-
-<!-- domain change for 2018 
-<ul id="ul_6654B3993EBE4DE0A3FBCFA5173A52D1"> 
- <li id="li_BE41EB31960B4C079E864FAA2E322BB4"> Private Beta - Support new domain alongside old domain for selected customers (June, 2018) </li> 
- <li id="li_0513CA457FAA4F37A9D5E514DEAF2067"> General Rollout - Serve both old and new domains seamlessly for all customers (Aug, 2018) </li> 
- <li id="li_AB89A6D00A274EB7863D0243757322DE"> Public Beta - Drive solution teams and customers to switch references from old domain to new domain (Aug - Oct, 2018) </li> 
- <li id="li_6FED48B1F361493082102E823EA335F4"> General Availability - Redirect all old domain requests to new domain (Oct, 2018) </li> 
-</ul> -->
 
 >[!IMPORTANT]
 >
@@ -37,7 +24,6 @@ Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung vo
 
 Lernen Sie die neuesten Funktionen der Experience Cloud-Benutzerverwaltung kennen.
 
-
 ## Bei der Admin Console anmelden {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
 Administratoren verwalten Benutzer nicht mehr mithilfe von Lösungen. Die Benutzer- und Produktverwaltung für die Experience Cloud erfolgt nun in der Admin Console.
@@ -46,7 +32,6 @@ Administratoren verwalten Benutzer nicht mehr mithilfe von Lösungen. Die Benutz
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Geben Sie Ihre [Adobe ID oder Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) und Ihr Kennwort ein.
-
 
 Alternativ können Sie im Experience Cloud-Menü (![](assets/menu-icon.png)) auf **[!UICONTROL Administration]** &gt; **[!UICONTROL Admin Console starten]** klicken.
 
@@ -93,16 +78,13 @@ Siehe:
 * [Produkte und Profile verwalten](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Video: [Target-Arbeitsbereiche in der Adobe Admin Console konfigurieren](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
-
-
 ## Campaign - Produktprofile, Mandanten und Sicherheitsgruppen {#section_09CDF75366444CF5810CF321B7C712F3}
 
 Ein *Mandant* in Campaign wird auf der Produktseite der Admin Console als *Produkt* angezeigt.
 
 Eine *Sicherheitsgruppe* wird als Produktprofil angezeigt.
 
-See Managing groups and users for information about security groups and assigning users to security groups.[](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html)
+Informationen zu Sicherheitsgruppen und zum Zuweisen von Benutzern zu Sicherheitsgruppen finden Sie unter [Verwalten von Gruppen und Benutzern](https://helpx.adobe.com/campaign/standard/administration/using/managing-groups-and-users.html) .
 
 ## Experience Platform Launch {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
@@ -120,7 +102,7 @@ See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm
 
 Erstellen Sie Audience Manager-Benutzer und weisen Sie diese Gruppen zu. Sie können außerdem Beschränkungen anzeigen (Eigenschaften, Segmente, Ziele und AlgoModel).
 
-See [Administration](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) in Audience Manager help.
+Siehe [Administration](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) in der Hilfe zu Audience Manager.
 
 ## Experience Cloud-Produkte verwalten {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -139,7 +121,6 @@ Weitere Informationen finden Sie hier:
 * [Enterprise-Benutzerrechte](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html) in der Target-Hilfe
 * Video: [Target-Arbeitsbereiche in der Adobe Admin Console konfigurieren](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-
 ## Analytics-Zugriffsberechtigungen einem Produktprofil zuweisen {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
 Zugriffsberechtigungen für Analytics-Berichte (Report Suites, Metriken, Dimensionen usw.) einem Produktprofil zuweisen.
@@ -150,7 +131,6 @@ Sie können beispielsweise ein Produktprofil mit mehreren Analytics-Tools ([!UIC
 1. Klicken Sie im Produktprofil dann auf **[!UICONTROL Berechtigungen]** (nur für Administratoren verfügbar).
 1. Konfigurieren Sie die Profilberechtigungen:
 
-
 | Element | Beschreibung |
 |--- |--- |
 | Report Suites | Gewähren Sie Zugriff auf bestimmte Report Suites. |
@@ -159,12 +139,8 @@ Sie können beispielsweise ein Produktprofil mit mehreren Analytics-Tools ([!UIC
 | Report Suite-Tools | Gewähren Sie Benutzern Zugriff auf Webdiensten, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente. |
 | Analytics-Tools | Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Werkzeuge, Web-Services, den Report Builder und die Data Connectors-Integration. Die Unternehmenseinstellungen aus der Kategorie „Anpassung der Admin Console“ sind nun in den Analytics-Tools zu finden. |
 
-
-
 ## Delegieren von administrativen Rollen an Benutzer {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-
-<!-- t_admin-roles.xml -->
 In der Admin Console können Sie anderen Benutzern Ihrer Organisation eingeschränkte Administratorrechte zuweisen. Delegierte Rollen versetzen Benutzer in die Lage, den Software-Zugriff für Endbenutzer zu administrieren, andere zum Erteilen von Zugangsberechtigungen zu befähigen und als Supportbeauftragter zu fungieren.
 
 Sie können zum Beispiel:
@@ -172,7 +148,6 @@ Sie können zum Beispiel:
 * Dem Kreativdirektor den Zugriff auf Creative Cloud gewähren.
 * Dem Marketingdirektor den Zugriff auf die Experience Cloud gewähren.
 * Halten Sie diese beiden Rollen auseinander, damit sie sich nicht überschneiden.
-
 
 Durch die Verwendung dieser Rollen können Sie gleichzeitig die Verwaltung an andere delegieren, ohne mehr als die benötigten Berechtigungen zu erteilen.
 
@@ -185,8 +160,6 @@ Durch die Verwendung dieser Rollen können Sie gleichzeitig die Verwaltung an an
 
 In der Experience Cloud unterstützte Browser
 
-
-<!-- browsers.xml -->
 **Experience Cloud – Hauptdienste**
 
 * Der neueste Internet Explorer von Microsoft (Microsoft hat den Support für Internet Explorer 8, 9 und 10 [eingestellt](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support). Aus diesem Grund werden von Adobe keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.)
@@ -194,14 +167,8 @@ In der Experience Cloud unterstützte Browser
 * Mozilla Firefox
 * Apple Safari
 
-
 **Anforderungen der Lösung und des Produkts**
 
-* [Analysis Workspace und Reports &amp; Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements) (einschließlich Adobe Social)
-* [Report Builder ](https://marketing.adobe.com/resources/help/en_US/arb/?f=system_requirements)
-* [Ad Hoc Analysis](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/install/?f=c_Data_Workbench_Client_install)
-* [Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/ov/?f=r_supported_browsers)
-* [Adobe Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/?f=c_supported_browsers)
-* [Adobe Campaign Standard ](https://helpx.adobe.com/campaign/standard/start/using/compatible-browsers.html)
-* [Adobe Campaign Classic](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html)
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) (einschließlich Adobe Social)
+* [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
+* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
