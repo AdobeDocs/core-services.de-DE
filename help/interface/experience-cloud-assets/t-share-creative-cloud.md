@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud-Asset-Ordner freigeben
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -50,8 +50,8 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 Wenn Sie alle Creative Cloud-Benutzer aus der Freigabe entfernt haben, wird die Freigabe des gesamten Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 Freigegebene Assets können Sie auch wie folgt verwenden:
 
-* Verwenden Sie Assets in der [!UICONTROL Asset-Auswahl] in [!DNL Adobe Social] für Social-Beiträge. Siehe [Seite „Publisher“](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher).
-* Laden Sie Assets in der [Inhaltsbibliothek](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content) in [!DNL Adobe Target] oder tauschen Sie sie dort aus, um Bilder für Aktivitäten hinzuzufügen.
+* Verwenden Sie Assets in der [!UICONTROL Asset-Auswahl] in [!DNL Adobe Social] für Social-Beiträge.
+* Load or swap assets in the [Offers Library](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] for images in activities.
 
 Wenn Sie einen Ordner in der Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 
