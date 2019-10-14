@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Zielgruppen
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -30,7 +30,6 @@ Alle Zielgruppen stehen unabhängig von ihrer Quelle für Echtzeit-Targeting zur
 * Historische Zielgruppen aus Analysen werden alle 12 Stunden ausgewertet. Historische Zielgruppen beinhalten immer wiederkehrende Besucher.
 * Echtzeit-Zielgruppen werden in den Experience Cloud Audiences ermittelt und in Echtzeit ausgewertet.
 
-
 ## So werden Zielgruppen in Lösungen verwendet {#concept_01EB9345C5344597BC94A864EDD38EE1}
 
 In der folgenden Tabelle wird beschrieben, wie Zielgruppen in Lösungen der Experience Cloud eingesetzt werden:
@@ -39,12 +38,11 @@ In der folgenden Tabelle wird beschrieben, wie Zielgruppen in Lösungen der Expe
 |--- |--- |
 | Experience Cloud Audiences | Erstellen, verwalten und teilen Sie Zielgruppen systemintern mithilfe der Benutzeroberfläche der [Zielgruppenbibliothek](../audience-library/audience-library.md). Sie haben folgende Möglichkeiten:<ul><li>Echtzeit-Zielgruppen mit Attributen für Analytics-Rohdaten verwenden</li><li>Zielgruppen zu Mischgruppen kombinieren, indem Sie Echtzeitdaten und historische Daten kombinieren</li><li>Siehe „Grafische Ansicht geschätzter Zielgruppengrößen“</li></ul><br>Hinweise dazu, welche Zielgruppenart Sie erstellen sollten, finden Sie im Kapitel über [Experience Cloud Audiences](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
 | Analytics | Bei der Segmentierung können Sie ein Segment erstellen, es mit einer Report Suite verknüpfen und das  [ Segment dann in Experience Cloud veröffentlichen](../audience-library/audience-library.md). Nach seiner Veröffentlichung erscheint das Segment auf der Seite [Zielgruppen](../audience-library/audience-library.md). Die Zielgruppe steht auch als eine für ein Kampagnenerlebnis anvisierte Zielgruppe in Adobe Target und in Audience Manager bereit.   Nachdem eine Zielgruppe in Analytics freigegeben und zur Verwendung in einer aktiven Kampagne ausgewählt wurde, werden alle Besucherprofile, die in den letzten 90 Tagen den Segmentdefinitionskriterien entsprochen haben, an die Experience Cloud Audience Services-Plattform gesendet.   Wichtig: Begrenzen Sie die Anzahl der von Analytics freigegebenen Zielgruppen auf 20, um zusätzliche Verarbeitungsverzögerungen zu vermeiden. Zielgruppen, die von der Experience Cloud und Analytics gemeinsam verwendet werden, dürfen nicht mehr als 20 Millionen eindeutige Mitglieder umfassen. Aufgrund der Caching-Funktion wird die Löschung von Report Suites in Analytics erst nach 12 Stunden durch die Experience Cloud übernommen. |
-| Mobile Services | Analyze mobile traffic using the sunburst visualization in the [Device Types](https://marketing.adobe.com/resources/help/en_US/mobile/?f=reports_devices). |
-| Target | Der [ID-Dienst](https://marketing.adobe.com/resources/help/en_US/mcvid/) der Experience Cloud kombiniert Besucher-IDs und Daten in einem gemeinsam umsetzbaren Profil für die lösungsübergreifende Verwendung. Wenn das Kontrollkästchen [In der Experience Cloud veröffentlichen](../audience-library/audience-library.md) während der Segmenterstellung in Adobe Analytics aktiviert wird, ist das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar. Ein in Analytics oder Audience Manager erstelltes Segment kann für Aktivitäten in Target verwendet werden.  Sie können zum Beispiel Kampagnenaktivitäten basierend auf Analytics-Konversionsmetriken und in Analytics erstellten Zielgruppensegmenten erstellen. |
+| Mobile Services | Analysieren Sie mobilen Datenverkehr mithilfe einer Sunburst-Visualisierung im Bericht [!UICONTROL Gerätetypen]. |
+| Target | Der [ID-Dienst](https://docs.adobe.com/content/help/en/id-service/using/home.html) der Experience Cloud kombiniert Besucher-IDs und Daten in einem gemeinsam umsetzbaren Profil für die lösungsübergreifende Verwendung. Wenn das Kontrollkästchen [In der Experience Cloud veröffentlichen](../audience-library/audience-library.md) während der Segmenterstellung in Adobe Analytics aktiviert wird, ist das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar. Ein in Analytics oder Audience Manager erstelltes Segment kann für Aktivitäten in Target verwendet werden.  Sie können zum Beispiel Kampagnenaktivitäten basierend auf Analytics-Konversionsmetriken und in Analytics erstellten Zielgruppensegmenten erstellen. |
 | Audience Manager | Freigegebene Zielgruppen stehen in der Segmentierungsfunktion von Audience Manager zur Verfügung. Alle Experience Cloud-Zielgruppen stehen systemintern in Audience Manager zur Verfügung. Dieser bietet Folgendes:<ul><li>Integrierte Automatisierung hinsichtlich der Freigabe und Verwendung in Lösungsabläufen</li><li>Offsite-Ziele</li><li>Look-Alike-Modellierung</li></ul> |
 | Kampagne | <ul><li>Importieren freigegebener Zielgruppen von verschiedenen Adobe Experience Cloud-Lösungen in Adobe Campaign</li><li>Exportieren von Empfängerlisten in Form von freigegebenen Zielgruppen. Diese freigegebenen Zielgruppen können in verschiedenen von Ihnen genutzten Adobe Experience Cloud-Lösungen verwendet werden.</li></ul> |
 | Media Optimizer | Verwendung der Zielgruppen als Ziele. |
-
 
 >[!IMPORTANT]
 >
@@ -52,13 +50,11 @@ In der folgenden Tabelle wird beschrieben, wie Zielgruppen in Lösungen der Expe
 
 ## Weitere Hilfestellung – Fragen, Hinweise und Anwendungsbeispiele {#section_C7F151644D8A45F7B6FC54F58845635D}
 
-
 | Hilfethema | Ressource |
 |--- |--- |
 | Sie finden Ihre Zielgruppen nicht? | Stellen Sie sicher, dass Ihnen die entsprechenden Lösungen bereitgestellt wurden. Siehe [Erste Schritte - Aktivieren Ihrer Lösungen für Hauptdienste](../core-services/core-services.md).<br>Klicken Sie [hier](https://www.adobe.com/go/audiences), um Zugriff auf Profiles &amp; Audiences anzufordern (Integrations-Bereitstellungsformular). |
 | Anwendungsbeispiele | Weitere Tipps dazu, welche Lösung sich für Ihre Bedürfnisse am besten eignet, finden Sie im Abschnitt über [Erstellungsoptionen für Zielgruppen](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html) in der Knowledge Base. |
 | Forum | Auch im [Audiences-Forum](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) erhalten Sie weitere Hilfestellung zum Thema Zielgruppen. |
-
 
 ## Schnittstellenelemente der Zielgruppenbibliothek {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
