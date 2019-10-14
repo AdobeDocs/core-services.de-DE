@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 08c2caa1e0e5ca5c487294e9ce33600dde9c9a1e
+source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
 
 ---
 
@@ -86,7 +86,7 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Nur Target) </b>Inwiefern unterscheidet sich die Funktion von Kundenattributen von der Bulk-Profile-API von Target? </p> </td> 
-   <td colname="col2"> <p> Mit der <a href="https://marketing.adobe.com/developer/documentation/test-target/r-profile-update" format="https" scope="external">Bulk-Profile-API</a> können Target-Profile direkt über die API aktualisiert werden – entweder als einzelne Profile oder in Profilgruppen. Diese Funktionalität ähnelt der von Kundenattributen, es gibt jedoch folgende wichtige Unterschiede: </p> 
+   <td colname="col2"> <p> Mit der <a href="https://www.adobe.io/apis/experiencecloud/target.html" format="https" scope="external">Bulk-Profile-API</a> können Target-Profile direkt über die API aktualisiert werden – entweder als einzelne Profile oder in Profilgruppen. Diese Funktionalität ähnelt der von Kundenattributen, es gibt jedoch folgende wichtige Unterschiede: </p> 
     <ul id="ul_5AAA4A8497C04F50A8AAA9F776BB868E"> 
      <li id="li_B20AEA397F3B4C86A1140CDA61ABD575">Die Profil-API ist ein REST-API-Aufruf und wird für Kundenattribute wie FTP verwendet. </li> 
      <li id="li_7FBE428EF5D34B6AA09B6368E8210344">Die Profil-API von Target sendet nur Daten an Target und nicht an die Experience Cloud. </li> 
@@ -95,7 +95,7 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>(Nur Target)</b> Verlängert das Hochladen von Daten von Kundenattributen zu Adobe Target die Lebensdauer des Target-Besucherprofils? </p> </td> 
-   <td colname="col2"> <p>Ja. Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/target/ov/?f=c_visitor_profile_lifetime" format="https" scope="external">Lebensdauer von Besucherprofilen</a> in der Hilfe zu Adobe Target. </p> </td> 
+   <td colname="col2"> <p>Ja. Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html" format="https" scope="external">Lebensdauer von Besucherprofilen</a> in der Hilfe zu Adobe Target. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b> (Nur Target)</b> Kann ich mich auf die in Kundenattributen hochgeladenen Daten sofort nach Identifikation des Besuchers durch die Kunden-ID beziehen? </p> </td> 
