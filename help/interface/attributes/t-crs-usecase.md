@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -94,9 +94,9 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
       Die Alias-ID entspricht bestimmten Bereichen, für die Sie zusätzliche Kunden-ID-Werte eingerichtet haben. Beispiel:
 
-      * **** Dynamisches Tag-Management: Die Alias-ID entspricht dem *Integrationscode* -Wert unter [!UICONTROL Kundeneinstellungen]im Tool [Experience Cloud ID-Dienst](https://marketing.adobe.com/resources/help/en_US/dtm/?f=macid) .
+      * **** Dynamisches Tag-Management: Die Alias-ID entspricht dem *Integrationscode* -Wert unter [!UICONTROL Kundeneinstellungen]im Tool [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_customer_ids), die den Besuchern zugeordnet werden können.
+      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html), die den Besuchern zugeordnet werden können.
 
          Beispiel: *„crm_ id“* in:
 
@@ -106,14 +106,14 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
          ```
 
 
-      * **** iOS: Die Alias-ID entspricht *"idType"* in visitorSyncIdentifiers:identifiers[](https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=methods).
+      * **** iOS: Die Alias-ID entspricht *"idType"* in visitorSyncIdentifiers:identifiers[](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Beispiel:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** Die Alias-ID entspricht dem *"idType"* in [syncIdentifiers](https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=methods).
+      * **Android:** Die Alias-ID entspricht dem *"idType"* in [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
          Beispiel:
 
@@ -175,7 +175,7 @@ Siehe [Konfigurieren von Abonnements](../attributes/subscription.md#concept_ECA3
 
 **So aktivieren Sie eine Attributquelle**
 
-Suchen Sie auf der Seite [!UICONTROL Neue Kunden-Attributquelle erstellen oder [bearbeiten] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
+Suchen Sie auf der Seite [!UICONTROL Neue Kunden-Attributquelle erstellen[ oder ]Kunden-Attributquelle bearbeiten] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
 
 ![Schritt Ergebnis](assets/activate_attribute_source.png)
 
@@ -192,7 +192,7 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Zielgruppen und in Audience Manager verfügbar.
 
-Weitere Informationen hierzu finden Sie in der Analytics-Hilfe unter [Bericht „Kundenattribute“](https://marketing.adobe.com/resources/help/en_US/reference/?f=reports_customer_attributes).
+Weitere Informationen hierzu finden Sie in der Analytics-Hilfe unter [Bericht „Kundenattribute“](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html).
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +200,4 @@ In Target können Sie beim Erstellen einer Zielgruppe Kundenattribute im Abschni
 
 ![](assets/crs-add-attribute-target.png)
 
-Weitere Informationen finden Sie unter [Erstellen einer neuen Zielgruppe](https://marketing.adobe.com/resources/help/en_US/target/target/?f=t_creating_a_new_audience) in der Target-Hilfe.
+Weitere Informationen finden Sie unter [Erstellen einer neuen Zielgruppe](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) in der Target-Hilfe.
