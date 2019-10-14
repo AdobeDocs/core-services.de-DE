@@ -5,7 +5,7 @@ seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d9d6cebc0e9e14eac2471dc79b91276a154e35e0
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -108,7 +108,7 @@ Zugeordnete Report Suites werden als nicht bearbeitbar dargestellt. Sollten Sie 
 
 **Was passiert, wenn ich nur die Organisations-ID meiner Experience Cloud-Organisation kenne? Wo kann ich den Namen meiner Organisations-ID nachschlagen?**
 
-Den Namen Ihrer Organisation finden Sie unter [Organisationen und Kontoeinstellungen](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=organizations).
+Den Namen Ihrer Organisation finden Sie unter [Organisationen und Kontoeinstellungen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 **In der Spalte „Datum der Zuordnung“ ist ein Datum eingetragen. Wer hat diese Zuordnung vorgenommen?**
 
