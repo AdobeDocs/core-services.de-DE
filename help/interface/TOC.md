@@ -4,14 +4,13 @@ user-guide-title: Hauptdienste-Benutzerhandbuch
 user-guide-url: https://www.adobe.com/de
 index: true
 translation-type: tm+mt
-source-git-commit: 6711229e3423de0040fa89c49d481ffa1e2f0a08
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
 
 # Hauptdienste-Benutzerhandbuch {#interface}
 
-+ [Experience Cloud – Produktdokumentation](landing/experience-cloud-home.md)
 + [Hilfe für Experience Cloud und Hauptdienste](experience-cloud.md)
 + Über Hauptdienste {#about-core-services}
    + [Übersicht über die Hauptdienste](core-services-landing.md)
