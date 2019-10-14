@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 ---
 
@@ -28,14 +28,6 @@ Creative Cloud-Benutzer erhalten nur Zugriff auf die Assets, nachdem sie in der 
 
 ## Informationen zur Asset-Freigabe für Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-Bei der Erstellung von Aktivitäten in [!DNL Adobe Target] können Sie beim Austausch von Bildern in der Inhaltsbibliothek freigegebene Bild-Assets verwenden.
+When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-Siehe [Inhaltsbibliothek](https://marketing.adobe.com/resources/help/en_US/target/target/?f=c_manage_content) in der Hilfe zu [!DNL Target].
-
-## Informationen zur Asset-Freigabe für Adobe Social {#section_96BFBB9FF3074B2AB49A9B7932DB25EF}
-
-In [!DNL Adobe Social] können Sie ein freigegebenes Bild-Asset mit der [!UICONTROL Asset-Auswahl] des [!UICONTROL Publishers] einfügen. Sie können einen Ordner suchen, ihn auswählen und das Asset an einen Facebook- oder Twitter-Beitrag anfügen.
-
-Siehe [Seite „Publisher“](https://marketing.adobe.com/resources/help/en_US/social/?f=c_pub_publisher) in der Hilfe zu [!DNL Social].
-
-Freigegebene Ordner und Assets werden automatisch zwischen den Clouds synchronisiert.
+Siehe [Angebotsbibliothek](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in der [!DNL Target] Hilfe.
