@@ -10,7 +10,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f59badcd3423ada51a3fe0c605158a009d5b1d64
+source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
 
 ---
 
@@ -85,6 +85,20 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  Wenn das standardmäßig eingesetzte Cookie s_vi aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Wird nicht für Implementierungen eingesetzt, die Erstanbieter-Cookies verwenden. |
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domäne gespeichert. |
 | Größe | 33 Byte |
+
+## Cookie-Flags
+
+Die folgende Tabelle beschreibt die Flags für Analytics-Cookies:
+
+| Cookie (eingestellt von | httpOnly | Sicher | GleicheSite |
+|--- |--- |--- |--- |
+| s_vi (http Response) | Nein | Ja, wenn dieselbe Site "Keine"ist und die Verbindung HTTPS verwendet | Bei Verwendung von CNAME wird standardmäßig "Lax"verwendet. "Keine"bei Verwendung von 2o7.net oder omtrdc.net. |
+| s_ecid (http Response) | Nein | Nein | "Lax" |
+| s_fid (Javascript) | Nein | Nein | Ungestellt |
+| s_cc (Javascript) | Nein | Nein | Ungestellt |
+| s_sq (Javascript) | Nein | Nein | Ungestellt |
+
+*Hinweis: Wenn ein einziger CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg verwendet wird, sollte SameSite auf "Keine"eingestellt werden. Wenden Sie sich an den Kundendienst, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.*
 
 ## Von Plug-ins eingestellte Cookies  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
