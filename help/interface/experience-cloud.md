@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Hilfe für Experience Cloud und Hauptdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: bc0c6b6b4a4f3ed5ddc3d6020ac1afb6828a73d5
+source-git-commit: 5acb6229c1263b81bdfd95c03df2179a5cd8a890
 
 ---
 
@@ -20,9 +20,9 @@ Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentati
 
 * [Versionshinweise](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) zu Experience Cloud - alle Produkte
 * [Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html) - Abonnieren Sie jeden Monat Versionshinweise)
-* [Adobe-Video-Tutorials](https://helpx.adobe.com/experience-cloud/tutorials.html)
+* [Adobe-Video-Tutorials](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Adobe Experience League](https://landing.adobe.com/experience-league/) - geführtes Lernen
-* [Wenden Sie sich an den Kundendienst](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Kundenunterstützung kontaktieren](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Community-Forum](https://forums.adobe.com/community/experience-cloud)
 * [Experience Cloud-Schulungen und -Support](https://helpx.adobe.com/support/experience-cloud.html)
 * [Adobe-Schulungen und -Lernprogramme](https://helpx.adobe.com/learning.html?promoid=KAUDK)
@@ -75,12 +75,12 @@ Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentati
 
 ## ![Target-Hilfe](assets/mc_target_32.png) Target-Hilfe
 
-* [Versionshinweise zu Target](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
+* [Target-Versionshinweise](https://docs.adobe.com/content/help/en/target/using/release-notes/release-notes.html)
 * [Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 ## ![Hilfe](assets/mc_experiencemanager_32.png) zu Experience Manager
 
-* [Experience Manager - Training und Support](https://helpx.adobe.com/support/experience-manager.html)
+* [Experience Manager – Lernen und Support](https://helpx.adobe.com/support/experience-manager.html)
 
 ## ![Hilfe](assets/mc_campaign_32.png) zur Kampagne - Hilfe zur Kampagne
 
@@ -93,4 +93,4 @@ Hilfe für Advertising Cloud ist im Produkt verfügbar, indem Sie auf das **Hilf
 
 ## ![Primetime-Hilfe](assets/primetime_app_32.png) Primetime-Hilfe
 
-* [Primetime-Hilfe](http://help.adobe.com/en_US/primetime/)
+* [Hilfe zu Primetime](http://help.adobe.com/en_US/primetime/)
