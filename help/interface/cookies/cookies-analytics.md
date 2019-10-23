@@ -6,11 +6,8 @@ seo-title: Analytics-Cookies
 solution: Experience Cloud,Analytics,Target,Social
 title: Analytics-Cookies
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cc39f5c19c444f23564ff7549d801e958995271
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -36,7 +33,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Enthält eine Kopie der Experience Cloud ID (ECID) oder der MID. Die MID wird in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID | <ECID> |
+| Gespeicherte Informationen | Enthält eine Kopie der Experience Cloud ID (ECID) oder der MID. Die MID wird in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID | `<ECID>` |
 | Ablauf | 2 Jahre |
 | Nutzung | Dieses Cookie wird durch die Domäne des Kunden festgelegt, nachdem das AMCV-Cookie vom Client festgelegt wurde. Dieses Cookie ermöglicht das durchgängige ID-Tracking als Erstanbieter und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abgelaufen ist. Weitere Details zum AMCV-Cookie finden Sie hier. |
 | Position | Nur CNAME-Kunden. Gilt nicht für Drittanbieter-Szenarien. Cookie wird in Ihrer Domäne gespeichert; dieselbe Domäne wie die von CNAME und Ihrer Analytics-Bildanforderung verwendete. |
@@ -56,7 +53,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die ClickMap-Funktion und die Activity Map-Funktion aktiviert sind. Es enthält Informationen über den vorherigen Link, der vom Benutzer angeklickt wurde. |
+| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die ClickMap-Funktion oder die Activity Map-Funktion aktiviert ist. enthält Informationen zum vorherigen Link, auf den der Benutzer geklickt hat |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert |
@@ -69,7 +66,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Gespeicherte Informationen | Unique Visitor-ID, Zeit-/Datumsstempel |
 | Ablauf | 2 Jahre |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  |
-| Position | Dieses Cookie wird unter der Domäne der Bildanforderung gespeichert – üblicherweise 2O7.net, wenn Sie Drittanbieter-Cookies verwenden, oder Ihre Domäne, wenn Sie Erstanbieter-Cookies verwenden. |
+| Position | Dieses Cookie wird in der Domäne der Bildanforderung gespeichert - normalerweise eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domäne Erstanbieter-Cookies verwendet. |
 | Größe | 44 Byte |
 
 >[!NOTE]
@@ -81,8 +78,8 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Attribut | Beschreibung |
 |--- |--- |
 | Gespeicherte Informationen | Unique Visitor-ID, Zeit-/Datumsstempel (Fallback) |
-| Ablauf | 5 Jahre |
-| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  Wenn das standardmäßig eingesetzte Cookie s_vi aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Wird nicht für Implementierungen eingesetzt, die Erstanbieter-Cookies verwenden. |
+| Ablauf | 2 Jahre |
+| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  wenn das standardmäßig eingesetzte Cookie `s_vi` aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Wird nicht für Implementierungen eingesetzt, die Erstanbieter-Cookies verwenden. |
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domäne gespeichert. |
 | Größe | 33 Byte |
 
@@ -98,7 +95,7 @@ Die folgende Tabelle beschreibt die Flags für Analytics-Cookies:
 | s_cc (Javascript) | Nein | Nein | Ungestellt |
 | s_sq (Javascript) | Nein | Nein | Ungestellt |
 
-*Hinweis: Wenn ein einziger CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg verwendet wird, sollte SameSite auf "Keine"eingestellt werden. Wenden Sie sich an den Kundendienst, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.*
+>[!NOTE] Wenn ein einziger CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg verwendet wird, sollte für SameSite für `s_vi`die Verfolgung "Keine"festgelegt werden. Wenden Sie sich an den Kundendienst, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
 
 ## Von Plug-ins eingestellte Cookies  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
