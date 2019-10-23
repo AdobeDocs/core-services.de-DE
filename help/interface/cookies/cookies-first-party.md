@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bdc4b7287ccacfc4d968278b2c3ffdaeddfc105
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -41,7 +41,7 @@ So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Co
 
 1. Füllen Sie das [Anforderungsformular für Erstanbieter-Cookies](/help/interface/cookies/assets/FPC_Request_Form.xlsx) aus und erstellen Sie ein Ticket für die Kundenunterstützung, um Erstanbieter-Cookies im Adobe Managed Program einzurichten. Bei jedem Feld finden Sie eine Beschreibung anhand von Beispielen.
 
-1. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten). Nach Erhalt des Tickets stellt Ihnen ein FPSSL-Spezialist ein Paar CNAME-Datensätze bereit. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Die CNAMEs sehen in etwa folgendermaßen aus: **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.ssl.d1.omtrdc.net`. **Nicht sicher** – Zum Beispiel verweist der Hostname `metrics.example.com` auf `example.com.d1.omtrdc.net`.
+1. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten). Nach Erhalt des Tickets sollte ein Kundenbetreuer Ihnen ein Paar CNAME-Einträge zur Verfügung stellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Die CNAMEs sehen in etwa folgendermaßen aus: **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.ssl.d1.omtrdc.net`. **Nicht sicher** – Zum Beispiel verweist der Hostname `metrics.example.com` auf `example.com.d1.omtrdc.net`.
 
 1. Wenn diese CNAMEs eingerichtet sind, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Produktionsservern von Adobe. Wenn Sie bereits ein Zertifikat implementiert haben, sollten Sie eine Besuchermigration erwägen, um Ihre vorhandenen Besucher zu behalten. Nachdem das Zertifikat live in die Produktionsumgebung von Adobe übermittelt wurde, können Sie Ihre Tracking-Server-Variablen gemäß den neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (http) ist, aktualisieren Sie `s.trackingServer`. Wenn die Site sicher ist (https), aktualisieren Sie beide Variablen, `s.trackingServer` und `s.trackingServerSecure`.
 
