@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Terminologie
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 ---
 
@@ -35,4 +35,4 @@ Terminologiereferenz für neue Experience Cloud-Benutzer, in der auch auf die B
 | Produktprofil | Weitere Informationen finden Sie unter [Produkte und Profile verwalten](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html). | Damit ein Benutzer zur Nutzung eines Dienstes oder Produkts berechtigt ist, muss er einem Produktprofil zugeordnet sein. Der Produktadministrator weist einem Produktprofil Lizenzen zu, indem er das Profil mit einem von Ihnen erworbenen Abonnement verknüpft.<br>Ein Benutzer kann mehreren Produktprofilen zugeordnet werden, über die er jeweils verschiedene Lizenzen erhält. Die entgültige Zugriffsberechtigung des Benutzers wird durch eine Zusammenfassung aller Lizenzen ermittelt, die dem Benutzer in verschiedenen Profilen gewährt werden. |
 | Plan | Kann eine Folge von Szenen in Adobe Story oder geplante Aufgaben in ColdFusion sein. | In der Experience Cloud ist ein Zeitplan das Startdatum (Jahr, Monat, Tag) und Enddatum für die Aktivierung von Kampagnen, Kanälen und Aktivitäten. Aktivitätspläne können bis auf die Minute genau festgelegt werden. Beim Ändern eines Plans wird eine Karte erstellt.<br>Zu den Beispielen gehören:<ul><li>Kampagnenpläne</li><li>Kanalpläne</li><li>Aktivitätspläne</li></ul> |
 | Freigeben | In Creative Cloud können Dateien extern über Plattformen freigegeben werden (soziale Medien, Communitys, E-Mails usw.). | In der Experience Cloud können Assets nur schnittstellenintern als Karten auf Pinnwänden freigegeben werden. Die Freigabe ist nur für Benutzer verfügbar, die bei der Site angemeldet sind. |
-| Lösung | Keine festgeschriebene Verwendung. | In der Experience Cloud sind Lösungen Produkte wie Analytics, Social oder Target.<br>Siehe „Über die neuen Cloud-Namen der Experience Cloud“ (solutions-core-services.md). |
+| Lösung | Keine festgeschriebene Verwendung. | In der Experience Cloud sind Lösungen Produkte wie Analytics, Social oder Target.<br>Siehe [Informationen zu den neuen Cloud-Namen in Experience Cloud](solutions-core-services.md). |
