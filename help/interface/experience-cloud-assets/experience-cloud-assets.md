@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
 
 ---
 
@@ -76,6 +76,8 @@ Klicken Sie auf **[!UICONTROL Anmerken]** und zeichnen Sie Kreise oder Pfeile au
 ![](assets/assets-annotate.png)
 
 ## Assets für einen Feed freigeben {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+
+**Experience Cloud-Feed wird ab dem 01. November 2019 nicht mehr unterstützt und wird bis Dezember 2019 eingestellt.**
 
 Klicken Sie in der Symbolleiste auf **[!UICONTROL Freigeben]**, um das Asset als [Feed](../feed.md#concept_9256B8768A294009A777282DD8719213) für andere Experience Cloud-Benutzer freizugeben.
 
