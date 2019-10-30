@@ -7,12 +7,14 @@ solution: Experience Cloud
 title: Feed
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
 
 ---
 
 
 # Feed
+
+**Experience Cloud-Feed wird ab dem 01. November 2019 nicht mehr unterstützt und wird bis Dezember 2019 eingestellt.**
 
 Erfahren Sie mehr über das Posten und die Freigabe von Assets und Analytics-Berichten für andere Nutzer Ihres Experience Cloud-Feeds.
 
@@ -31,6 +33,8 @@ Zu den Feed-Einstellungen gehören die folgenden:
 * **Favoriten:** Beiträge anzeigen, die als Favoriten gekennzeichnet wurden.
 
 ## Ein Analytics-Projekt im Feed freigeben {#section_F2BDF9FEF4394686BAC5051CBE913EE5}
+
+**Experience Cloud-Feed wird ab dem 01. November 2019 nicht mehr unterstützt und wird bis Dezember 2019 eingestellt.**
 
 Sie können Berichte aus [!UICONTROL Reports &amp; Analytics] im Experience Cloud-Feed freigeben.
 
