@@ -1,9 +1,10 @@
 ---
-source-git-commit: de9a84581dd3f52e1f76f39105bcb89e849b6230
-translation-type: ht
+source-git-commit: 277e8b855210e1658b7c74f14d2c5f1036ef80a6
+translation-type: tm+mt
 
 ---
 # Artikel beitragen
+
 
 Wir freuen uns über Beiträge unserer Community sowie von Adobe-Mitarbeitern, die nicht zum Dokumentationsteam gehören.
 
@@ -13,13 +14,13 @@ Für dieses Projekt gilt der [Adobe Open Source-Verhaltenskodex](code-of-conduct
 
 ## Informationen zu Ihren Beiträgen zu den Adobe-Inhalten
 
-Weitere Informationen finden Sie unter [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Lesen Sie das [Adobe Docs-Mitarbeiter-Handbuch](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Wie Sie Beiträge einbringen, hängt davon ab, wer Sie sind und welche Art von Änderungen Sie beitragen möchten:
 
 ### Geringfügige Änderungen
 
-Wenn Sie aus Gemeinschaftsgeist kleine Updates beitragen wollen, besuchen Sie den Artikel, und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle des Artikels führt. Verwenden Sie dann einfach die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. Weitere Informationen finden Sie im allgemeinen [Adobe Docs Mitarbeiter-Handbuch](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Wenn Sie aus Gemeinschaftsgeist kleine Updates beitragen wollen, besuchen Sie den Artikel, und klicken Sie auf den Link **Bearbeiten** im Artikel, der zur GitHub-Quelle des Artikels führt. Verwenden Sie dann einfach die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. Weitere Informationen finden Sie im allgemeinen [Adobe Docs-Mitarbeiter-Handbuch](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebeispiele in diesem Repository senden, sind durch die Adobe-Nutzungsbedingungen abgedeckt.
 
@@ -41,7 +42,7 @@ Wenn Sie technischer Redakteur, Programmmanager oder Entwickler des Produktteams
 
 Community-Mitarbeiter können die GitHub-Benutzeroberfläche zur einfachen Bearbeitung oder zur Abspaltung des Repositorys verwenden, um umfangreiche Beiträge vorzunehmen.
 
-Siehe [Adobe Docs Mitarbeiter-Handbuch](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Weitere Informationen finden Sie im [Adobe Docs-Mitarbeiter-Handbuch](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 ## Markdown zum Formatieren Ihres Themas verwenden
 
