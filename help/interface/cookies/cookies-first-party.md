@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
 
 ---
 
@@ -70,9 +70,9 @@ Das Netzwerkteam Ihres Unternehmens sollte Ihre DNS-Server konfigurieren, indem 
 Der FPC-Spezialist stellt Ihnen die konfigurierten Hostnamen bereit und gibt an, auf welche CNAMEs sie verweisen sollen. Beispiel:
 
 * **SSL-Hostname**:`smetrics.mysite.com`
-* **SSL-CNAME**:`mysite.com.ssl.d1.sc.omtrdc.net`
+* **SSL-CNAME**:`mysite.com.ssl.sc.omtrdc.net`
 * **Nicht-SSL-Hostname**:`metrics.mysite.com`
-* **Nicht-SSL-CNAME**:`mysite.com.d1.sc.omtrdc.net`
+* **Nicht-SSL-CNAME**:`mysite.com.sc.omtrdc.net`
 
 Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schritt nicht die Datensammlung und kann zu einem beliebigen Zeitpunkt nach der Aktualisierung des Implementierungscodes vorgenommen werden.
 
