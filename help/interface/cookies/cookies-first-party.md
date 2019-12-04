@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
+source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
 
 ---
 
@@ -19,7 +19,7 @@ Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu li
 
 Viele Browser und Anti-Spyware-Anwendungen sind dafür ausgelegt, Cookies von Drittanbietern abzuweisen und zu löschen, einschließlich der bei der Analytics-Datensammlung verwendeten Cookies. Um Ihre Verfolgung der Interaktion Ihrer Besucher mit Ihrer Website zu unterstützen, können Sie Erstanbieter-Cookies implementieren.
 
-Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfügung.
+Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfügung:
 
 * Der ID-Dienst von Experience Platform. Der ID-Dienst kann das Cookie im Erstanbieterkontext mit JavaScript setzen.
 * DNS-Einträge auf dem DNS-Server Ihres Unternehmens, um einen CNAME-Alias für eine von Adobe gehostete Domäne zu konfigurieren. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn der Kunde mehrere Domänen kontrolliert, kann er einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Da dies jedoch Drittanbieter-Cookies für alle Domänen außerhalb der CNAME-Domäne erfordert, funktioniert dies nicht, wenn Drittanbieter-Cookies blockiert werden und wird daher nicht empfohlen. Adobe-CNAMEs werden nie zur Verfolgung von Einzelpersonen oder Geräten über Domänen verschiedener Kunden hinweg verwendet.
@@ -64,7 +64,7 @@ SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zert
 | **Wie kann Adobe ein Zertifikat für unsere Domäne erwerben?** | Das Zertifikat kann nur gekauft werden, wenn Sie mit dem jeweiligen Hostnamen (z. B. smetrics.beispiel.com) auf Hostnamen von Adobe verweisen. Dadurch wird dieser Hostname an Adobe übertragen und Adobe kann das Zertifikat in Ihrem Namen erwerben. |
 | **Kann ich verlangen, dass das Zertifikat entzogen wird?** | Ja, als Eigentümer der Domäne können Sie verlangen, dass uns das Zertifikat entzogen wird. Sie müssen dazu nur ein Ticket bei der Kundenunterstützung erstellen. |
 | **Verwendet dieses Zertifikat SHA-2-Verschlüsselung?** | Ja, Adobe gibt in Zusammenarbeit mit DigiCert ein SHA-2-Zertifikat heraus. |
-| **Verursacht dies Mehrkosten?** | Nein, Adobe stellt diesen Dienst allen aktuellen Analytics-Kunden kostenlos zur Verfügung. |
+| **Verursacht dies Mehrkosten?** | Nein, Adobe bietet diesen Dienst allen aktuellen Adobe Digital Experience-Kunden kostenlos an. |
 
 ## Erstellen von CNAME-Datensätzen
 
@@ -79,7 +79,7 @@ Der FPC-Spezialist stellt Ihnen die konfigurierten Hostnamen bereit und gibt an,
 
 Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schritt nicht die Datensammlung und kann zu einem beliebigen Zeitpunkt nach der Aktualisierung des Implementierungscodes vorgenommen werden.
 
->[!NHinweis:] Der Experience Cloud-Besucher-ID-Dienst bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu ermöglichen.
+>[!N] Hinweis: Der Experience Cloud-Besucher-ID-Dienst bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu aktivieren. Aufgrund der jüngsten Apple ITP-Änderungen wird jedoch empfohlen, einen CNAME auch bei Verwendung des Experience Cloud ID-Diensts zuzuweisen.
 
 ## Ping an den Hostnamen durchführen
 
@@ -103,7 +103,7 @@ Wenn die CNAME-Datensätze nicht korrekt eingerichtet oder nicht aktiv sind, erh
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!NHinweis:] Wenn Sie `https:// protocol` verwenden, reagiert der Ping erst nach dem durch den FPC-Spezialisten festgelegten Upload-Datum. Stellen Sie auch sicher, dass ein Ping des sicheren und des nicht sicheren Hostnamens durchgeführt wird, sodass gewährleistet ist, dass beide korrekt funktionieren, bevor Sie Ihre Implementierung aktualisieren..
+>[!NHinweis:] Wenn Sie `https:// protocol` verwenden, reagiert der Ping erst nach dem durch den FPC-Spezialisten festgelegten Upload-Datum. Achten Sie außerdem darauf, den sicheren Hostnamen und den nicht sicheren Hostnamen zu pingen, um sicherzustellen, dass beide korrekt funktionieren, bevor Sie Ihre Implementierung aktualisieren.
 
 ## Aktualisierung des Implementierungscodes
 
@@ -111,7 +111,7 @@ Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, 
 
 * Fordern Sie ein SSL-Zertifikat an, indem Sie die oben beschriebenen Schritte im Abschnitt *Implementierung* des Clas des *Adobe Managed Certificate-Programms befolgen.*
 * Erstellen Sie CNAME-Datensätze (siehe oben).
-* Führen Sie einen Ping auf den Hostnamen durch (siehe oben).
+* Ping des Hostnamens/der Hostnamen (siehe oben).
 
 Nachdem Sie geprüft haben, dass Ihr(e) Hostname(n) reagieren und die Weiterleitung an die Adobe-Datensammlungsserver funktioniert, können Sie Ihre Implementierung ändern, damit diese zu Ihren eigenen Cookie-Domains weist.
 
