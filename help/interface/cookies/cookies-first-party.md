@@ -1,6 +1,6 @@
 ---
 description: Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben.
-keywords: Cookies, Datenschutz
+keywords: cookies;privacy
 seo-description: Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben.
 seo-title: Erstanbieter-Cookies
 solution: Experience Cloud,Analytics
@@ -8,26 +8,29 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90123ac9194d180a6a8ae59a273a6a6154ea8d96
+source-git-commit: 0b8723359c1222be09aff347eef0fb8135705c88
 
 ---
 
 
 # Informationen zu Erstanbieter-Cookies
 
-Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben. Diese harmlosen Cookies stammen aus einer von Adobe gehosteten Domain und werden als Drittanbieter-Cookies bezeichnet.
+Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben. Diese harmlosen Cookies, die aus einer von Adobe gehosteten Domäne stammen, werden als Drittanbieter-Cookies bezeichnet.
 
-Viele Browser und Anti-Spyware-Anwendungen sind dafür ausgelegt, Cookies von Drittanbietern abzuweisen und zu löschen, einschließlich der bei der Analytics-Datensammlung verwendeten Cookies. Um diese Einschränkungen beim Tracking durch Browser und Programme zu umgehen, können Sie Erstanbieter-Cookies implementieren.
+Viele Browser und Anti-Spyware-Anwendungen sind dafür ausgelegt, Cookies von Drittanbietern abzuweisen und zu löschen, einschließlich der bei der Analytics-Datensammlung verwendeten Cookies. Um Ihre Verfolgung der Interaktion Ihrer Besucher mit Ihrer Website zu unterstützen, können Sie Erstanbieter-Cookies implementieren.
 
 Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfügung.
 
 * Der ID-Dienst von Experience Platform. Der ID-Dienst kann das Cookie im Erstanbieterkontext mit JavaScript setzen.
-* DNS-Einträge im DNS-Server Ihres Unternehmens.
-* Wenn Ihre Site sichere Seiten mit dem `https:`-Protokoll enthält und Sie den Experience Platform ID-Dienst nicht verwenden, können Sie von Adobe ein SSL-Zertifikat anfordern, mit dem Sie Erstanbieter-Cookies implementieren können.
+* DNS-Einträge auf dem DNS-Server Ihres Unternehmens, um einen CNAME-Alias für eine von Adobe gehostete Domäne zu konfigurieren. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn der Kunde mehrere Domänen kontrolliert, kann er einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Da dies jedoch Drittanbieter-Cookies für alle Domänen außerhalb der CNAME-Domäne erfordert, funktioniert dies nicht, wenn Drittanbieter-Cookies blockiert werden und wird daher nicht empfohlen. Adobe-CNAMEs werden nie zur Verfolgung von Einzelpersonen oder Geräten über Domänen verschiedener Kunden hinweg verwendet.
+
+Selbst bei Verwendung der ersten Option mit dem Experience Cloud ID-Dienst macht Apple's ITP die Erstanbieter-Cookies kurzlebig, sodass sie am besten zusammen mit der zweiten Option verwendet werden.
+
+Bei der zweiten Option mit einem CNAME können Sie, wenn Ihre Site sichere Seiten mit dem `https:` Protokoll verwendet, mit Adobe zusammenarbeiten, um ein SSL-Zertifikat zu erhalten, um Erstanbieter-Cookies zu implementieren. Adobe empfiehlt dringend, ausschließlich HTTPS für die Datenerfassung zu verwenden, da die Unterstützung für die HTTP-Erfassung in der zweiten Jahreshälfte 2020 eingestellt wird.
 
 Der Bereitstellungsprozess von SSL-Zertifikaten kann verwirrend und zeitraubend sein. Daher ist Adobe eine Partnerschaft mit DigiCert, einer branchenführenden Zertifizierungsstelle (CA), eingegangen und hat einen integrierten Prozess entwickelt, durch den der Kauf und die Verwaltung dieser Zertifikate automatisiert werden.
 
-Mit Ihrer Einwilligung übernehmen wir gemeinsam mit unserer CA die Erstellung, Bereitstellung und Verwaltung eines neuen SHA-2-SSL-Zertifikats. Adobe verwaltet dieses Zertifikat und gewährleistet, dass die sichere Datenerfassung durch Ihr Unternehmen nicht durch ein unerwartetes Ablaufen der Gültigkeit, die Aberkennung oder ein Sicherheitsproblem gefährdet wird.
+Mit Ihrer Einwilligung übernehmen wir gemeinsam mit unserer CA die Erstellung, Bereitstellung und Verwaltung eines neuen SHA-2-SSL-Zertifikats. Adobe wird dieses Zertifikat weiterhin verwalten und sicherstellen, dass ein unerwarteter Ablauf, eine Sperrung oder Sicherheitsbedenken die Verfügbarkeit der sicheren Sammlung in Ihrem Unternehmen nicht gefährdet.
 
 ## Adobe Managed Certificate Program
 
@@ -51,7 +54,7 @@ So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Co
 
 ### Wartung und Verlängerung
 
-SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zertifikat für jede Implementierung erwerben. Alle unterstützten Benutzer in Ihrem Unternehmen erhalten kurz von jedem Ablauf einer Implementierung eine E-Mail-Benachrichtigung. Damit Adobe Ihren Hostnamen verlängert, muss ein unterstützter Benutzer auf die E-Mail von Adobe antworten und angeben, dass der ablaufende Hostname weiterhin für die Datenerfassung verwendet werden soll. Adobe kauft dann automatisch ein neues Zertifikat und installiert es.
+SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zertifikat für jede Implementierung erwerben. Alle unterstützten Benutzer in Ihrem Unternehmen erhalten kurz von jedem Ablauf einer Implementierung eine E-Mail-Benachrichtigung. Damit Adobe Ihren Hostnamen erneuern kann, muss ein unterstützter Benutzer auf die E-Mail von Adobe antworten und angeben, dass Sie den auslaufenden Hostnamen für die Datenerfassung weiterhin verwenden möchten. Adobe kauft dann automatisch ein neues Zertifikat und installiert es.
 
 ### Häufig gestellte Fragen
 
@@ -106,7 +109,7 @@ Wenn die CNAME-Datensätze nicht korrekt eingerichtet oder nicht aktiv sind, erh
 
 Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, müssen folgende Voraussetzungen erfüllt sein:
 
-* Fordern Sie ein SSL-Zertifikat an, wie oben in den Implementierungsschritten für das Adobe Managed Certificate Program beschrieben.
+* Fordern Sie ein SSL-Zertifikat an, indem Sie die oben beschriebenen Schritte im Abschnitt *Implementierung* des Clas des *Adobe Managed Certificate-Programms befolgen.*
 * Erstellen Sie CNAME-Datensätze (siehe oben).
 * Führen Sie einen Ping auf den Hostnamen durch (siehe oben).
 
