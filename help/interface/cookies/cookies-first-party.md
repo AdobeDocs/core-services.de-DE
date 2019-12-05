@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9dcf5f0e5aad3e18448b72f39fb0c0af0c84d733
+source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
 
 ---
 
@@ -109,7 +109,7 @@ Wenn die CNAME-Datensätze nicht korrekt eingerichtet oder nicht aktiv sind, erh
 
 Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, müssen folgende Voraussetzungen erfüllt sein:
 
-* Fordern Sie ein SSL-Zertifikat an, indem Sie die oben beschriebenen Schritte im Abschnitt *Implementierung* des Clas des *Adobe Managed Certificate-Programms befolgen.*
+* Fordern Sie ein SSL-Zertifikat an, indem Sie die oben im Abschnitt *Implementierung* des [Adobe Managed Certificate-Programms](#adobe-managed-certificate-program)beschriebenen Schritte befolgen.
 * Erstellen Sie CNAME-Datensätze (siehe oben).
 * Ping des Hostnamens/der Hostnamen (siehe oben).
 
