@@ -1,13 +1,13 @@
 ---
 description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Durch diesen Prozess werden Ihre Lösungen bezüglich der Hauptdienst-Funktionen, wie Kundenattribute und Zielgruppen, modernisiert.
-keywords: Hauptdienste; Kundenattribute
+keywords: core services;customer attributes
 seo-description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Durch diesen Prozess werden Ihre Lösungen bezüglich der Hauptdienst-Funktionen, wie Kundenattribute und Zielgruppen, modernisiert.
 seo-title: Experience Cloud-Lösungen für Hauptdienste aktivieren
-solution: Experience Cloud
+solution: Experience Cloud
 title: Lösungen für Hauptdienste aktivieren
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Möchten Sie Experience Cloud-Mitglied werden, benötigen Sie Folgendes:
 
 >[!NOTE]
 >
->For Target, [migrate to at.js from mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov2/t_target-migrate-atjs.html).
+>For Target, [migrate to at.js from mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) Modernisieren Sie Ihre Implementierung und lassen Sie sich einen Administrator bereitstellen.
 
@@ -116,11 +116,11 @@ Beispiel: Bob hat in Ihrem CRM-System die Kunden-ID `52mc210tr42`. Wenn sich Bob
 
 Die Kunden-ID muss in jedem Aufruf an den [!DNL Analytics]-Server angegeben sein, auf dem die Kunden-ID bekannt ist.
 
-**Mobile SDKs**
+### Mobile SDKs 
 
 Syntaxbeispiele zum Festlegen zusätzlicher Kunden-IDs in *Android* - und [iOS](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) Mobile-Anwendungen finden Sie im Abschnitt zum Dienst[ ](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)für die Experience Cloud ID.
 
-**Aktivierung der Attribute historischer Daten**
+### Aktivierung der Attribute historischer Daten
 
 Die Kundenattributdaten stehen nach der Anmeldung eines Besuchers zur Verfügung. Wenn Sie die aktuelle Version des Experience Cloud ID-Dienstes noch nicht implementiert haben, sondern Kunden-IDs in einer prop oder eVar aufzeichnen, können Sie einen Prozess anfordern, der historische Anmeldungen an die Experience Cloud sendet. Nach Ausführung dieses Prozesses können Sie die Kundenattribute sofort verwenden.
 
