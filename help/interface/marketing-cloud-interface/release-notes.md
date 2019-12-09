@@ -1,13 +1,13 @@
 ---
 description: Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experience Cloud-Schnittstelle
-keywords: Hauptdienste
+keywords: core services
 seo-description: Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experience Cloud-Schnittstelle
 seo-title: Gesammelte Versionshinweise
-solution: Experience Cloud
+solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 75831abe44d04902691325add2338381754f98ec
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -18,7 +18,7 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://marketing.adobe.com/resources/help/en_US/whatsnew/).
+Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
 
 ## August 2019
 
@@ -171,7 +171,7 @@ Keine Informationen verfügbar
 </table>
 
 * Ein Problem wurde behoben, infolge dessen die Kundenattribute einiger Kunden nicht synchronisiert werden konnten.
-* Ein Problem wurde behoben, durch das die Anzeige der Seite [Adobe Target-Produktdokumentation](https://marketing.adobe.com/resources/help/ja_JP/target/a4t/) auf Japanisch verhindert wurde.
+* Ein Problem wurde behoben, durch das die Anzeige der Seite [Adobe Target-Produktdokumentation](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) auf Japanisch verhindert wurde.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
 ## Version 15.4.1 – 8. April 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -355,7 +355,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 
 **Fehlerbehebungen und Verbesserungen**
 
-* Wenn Sie zu [!DNL marketing.adobe.com] navigieren, ist die Anmeldungserfahrung nun mit der Anmeldung von Creative Cloud von Adobe konsistent.
+* Wenn Sie zu [!DNL experiencecloud.adobe.com] navigieren, ist die Anmeldungserfahrung nun mit der Anmeldung von Creative Cloud von Adobe konsistent.
 * Die Verknüpfung erfolgt nun auf der Seite „Unternehmen verwalten“ für jede Lösung gleich (nach dem Erhalt einer entsprechenden Einladung).
 
 **Bekannte Probleme**
