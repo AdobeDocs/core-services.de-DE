@@ -1,13 +1,13 @@
 ---
 description: Ein Überblick über neue Funktionen und Aktualisierungen in der Experience Cloud
-keywords: Hauptdienste
+keywords: core services
 seo-description: Ein Überblick über neue Funktionen und Aktualisierungen in der Experience Cloud
 seo-title: Neue Funktionen in der Experience Cloud
-solution: Experience Cloud
+solution: Experience Cloud
 title: Neue Funktionen in der Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -31,7 +31,7 @@ Fehlerkorrekturen und Verbesserungen für Juli 2018
 
 * Implementierung einer Backend-Lösung, um die Freigabe von Assets zwischen Experience Cloud-to-AEM und Experience Cloud-to-Creative Cloud zu steuern. (CORE-14386)
 * Behebung eines Fehlers, aufgrund dessen die Bereitstellung neuer Mandanten in einigen Umgebungen blockiert wurde. (CORE-15509)
-* Es wurde ein Problem behoben, durch das Benutzer zu [!DNL marketing.adobe.com] weitergeleitet wurden, während sie auf [!DNL experiencecloud.adobe.com] über [!DNL http] statt [!DNL https] (geschützt) zugegriffen haben. (CORE-15587)
+* Es wurde ein Problem behoben, durch das Benutzer zu [!DNL experiencecloud.adobe.com] weitergeleitet wurden, während sie auf [!DNL experiencecloud.adobe.com] über [!DNL http] statt [!DNL https] (geschützt) zugegriffen haben. (CORE-15587)
 * Behebung eines Fehlers, aufgrund dessen Benachrichtigungen für manche neuen Mandanten blockiert wurden. (CORE-15240)
 
 ## 14. Juni 2018 {#section_7ABC327992CB46B0B8E4A631B8B68899}
@@ -67,7 +67,7 @@ Viele der Wartungsbenachrichtigungen über geplante Wartungsarbeiten/Produktaktu
 |--- |--- |
 | Benachrichtigungen – detaillierte Einstellungen | Sie können Benachrichtigungen für Produkt- und Lösungsereignisse/-aktivitäten aktivieren, einschließlich Benachrichtigungen über die Upload-Aktivität der [Kundenattribute](../attributes/attributes.md). |
 | Benachrichtigungen – Wartungsbenachrichtigungen | In den Benachrichtigungseinstellungen können Sie Wartungsbenachrichtigungen für Produkte und Lösungen aktivieren. |
-| Admin Console für Experience Cloud-Lösungen | Neue Experience Cloud-Kunden können mit der Nutzung der Admin Console beginnen. Hierbei handelt es sich um eine zentrale Anlaufstelle für die Verwaltung Ihrer Adobe-Produkte für Ihre gesamte Organisation.<br>Die Migration der Benutzerverwaltung in die Admin Console wird in mehreren Wellen durchgeführt. Adobe kontaktiert Sie (die Systemadministratoren), wenn die Zeit für Ihre Migration gekommen ist.<br>Analytics-Administratoren finden weitere Informationen im Abschnitt über die [Analytics-Migration](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/). |
+| Admin Console für Experience Cloud-Lösungen | Neue Experience Cloud-Kunden können mit der Nutzung der Admin Console beginnen. Hierbei handelt es sich um eine zentrale Anlaufstelle für die Verwaltung Ihrer Adobe-Produkte für Ihre gesamte Organisation.<br>Die Migration der Benutzerverwaltung in die Admin Console wird in mehreren Wellen durchgeführt. Adobe kontaktiert Sie (die Systemadministratoren), wenn die Zeit für Ihre Migration gekommen ist.<br>Analytics-Administratoren finden weitere Informationen im Abschnitt über die [Analytics-Migration](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html). |
 
 ## 22. Mai 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
