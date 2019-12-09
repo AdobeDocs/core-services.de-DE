@@ -1,13 +1,13 @@
 ---
 description: 'Audience Manager nutzt einige einfache Cookies für verschiedene Funktionen. Hierzu zählt Folgendes: Das Zuweisen von IDs, das Aufzeichnen von Datenaufrufen, das Nachverfolgen von Fehlern sowie das Durchführen von Tests. (Mit diesen Tests wird ermittelt, ob Cookies gesetzt werden können.) Im vorliegenden Abschnitt werden die verschiedenen von Audience Manager gesetzten Cookies aufgeführt und beschrieben.'
-keywords: Cookies
+keywords: cookies
 seo-description: 'Audience Manager nutzt einige einfache Cookies für verschiedene Funktionen. Hierzu zählt Folgendes: Das Zuweisen von IDs, das Aufzeichnen von Datenaufrufen, das Nachverfolgen von Fehlern sowie das Durchführen von Tests. (Mit diesen Tests wird ermittelt, ob Cookies gesetzt werden können.) Im vorliegenden Abschnitt werden die verschiedenen von Audience Manager gesetzten Cookies aufgeführt und beschrieben.'
 seo-title: Cookies in Audience Manager
-solution: Experience Cloud,Audience Manager
+solution: Marketing Cloud,Audience Manager
 title: Cookies in Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -32,7 +32,7 @@ Audience Manager nutzt einige einfache Cookies für verschiedene Funktionen. Hie
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
-   <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine Unique User-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://marketing.adobe.com/resources/help/en_US/aam/ids-in-aam.html" format="https" scope="external">Index of IDs in Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine Unique User-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Index of IDs in Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Weitere Attribute</b> </p> </td> 
@@ -125,7 +125,7 @@ In der folgenden Tabelle werden die in einem [!DNL dextp]-Cookie enthaltenen Ele
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Zweck</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://marketing.adobe.com/resources/help/en_US/aam/c_destinations.html" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
