@@ -1,13 +1,13 @@
 ---
 description: Erfahren Sie mehr über das Posten und die Freigabe von Assets und Analytics-Berichten für andere Nutzer Ihres Experience Cloud-Feeds.
-keywords: Hauptdienste
+keywords: core services
 seo-description: Erfahren Sie mehr über das Posten und die Freigabe von Assets und Adobe Analytics-Berichten für andere Nutzer Ihres Experience Cloud-Feeds.
 seo-title: Feed
-solution: Experience Cloud
+solution: Experience Cloud
 title: Feed
 uuid: 7ff327d1-5a74-49fb-8c3c-729034818ebc
 translation-type: tm+mt
-source-git-commit: d39758702a37d16d6c4aeeb4f21863dcbc175523
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -40,7 +40,7 @@ Sie können Berichte aus [!UICONTROL Reports &amp; Analytics] im Experience Clo
 
 1. Sie können sich mit Ihrer Adobe ID in der Experience Cloud [anmelden](admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
 
-1. Navigieren Sie zu Reports &amp; Analytics und [erstellen Sie ein Projekt](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/freeform_overview.html).
+1. Navigieren Sie zu Reports &amp; Analytics und [erstellen Sie ein Projekt](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html).
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** &gt; **[!UICONTROL Freigaben]**.
 
