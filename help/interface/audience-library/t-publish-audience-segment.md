@@ -1,13 +1,13 @@
 ---
 description: Für Ihre Zielgruppen-Marketingaktivitäten müssen Sie ein Analytics-Zielgruppensegment in der Experience Cloud und in Adobe Target veröffentlichen.
-keywords: Hauptdienste
+keywords: core services
 seo-description: Für Ihre Zielgruppen-Marketingaktivitäten müssen Sie ein Analytics-Zielgruppensegment in der Experience Cloud und in Adobe Target veröffentlichen.
 seo-title: Veröffentlichen eines Analytics-Zielgruppensegments
-solution: Experience Cloud
+solution: Experience Cloud
 title: Veröffentlichen eines Analytics-Zielgruppensegments
 uuid: 4201dc22-4b79-457c-a614-949bba087617
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d304e625bd2125854d9ed932674522284995e030
 
 Für Ihre Zielgruppen-Marketingaktivitäten müssen Sie ein Analytics-Zielgruppensegment in der Experience Cloud und in Adobe Target veröffentlichen.
 
-1. [Erstellen Sie in Analytics ein Segment](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html).
+1. [Erstellen Sie in Analytics ein Segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 1. Aktivieren Sie in Segment Builder die Option **[!UICONTROL Publish this segment to the Experience Cloud]**.
 
    ![](assets/ec_audience_example.png)
