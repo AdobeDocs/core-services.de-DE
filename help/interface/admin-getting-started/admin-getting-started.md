@@ -1,13 +1,13 @@
 ---
 description: Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud.
-keywords: Hauptdienste
+keywords: core services
 seo-description: Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud.
 seo-title: Verwalten von Experience Cloud-Benutzern und -produkten
-solution: Experience Cloud
+solution: Marketing Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: c0ba39895218769e27ab99568387eb91310a574c
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -63,18 +63,18 @@ Analytics-Administratoren können Benutzerkonten mithilfe des verfügbaren Analy
 
 Die Kontomigration erfolgt für Kunden stufenweise. Adobe wird Sie benachrichtigen und unterstützen, wenn Sie an der Reihe sind, Ihre bestehenden Benutzerkonten von **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** in die Admin Console zu migrieren.
 
-Nach der Migration müssen Benutzer sich mithilfe ihrer Adobe ID (oder Enterprise ID) anmelden und sich unter [marketing.adobe.com](https://marketing.adobe.com) für ihre Experience Cloud-Lösungen und -Dienste authentifizieren. Benutzer, die versuchen, sich über die bisherigen Anmeldedaten anzumelden ([!DNL my.omniture.com] und [!DNL sc.omniture.com]), werden an [!DNL marketing.adobe.com] weitergeleitet.
+After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). Benutzer, die versuchen, sich über die bisherigen Anmeldedaten anzumelden ([!DNL my.omniture.com] und [!DNL sc.omniture.com]), werden an [!DNL experiencecloud.adobe.com] weitergeleitet.
 
 **Verwandte Hilfe**
 
-[Migration der Analytics-Benutzer-ID](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+[Migration der Analytics-Benutzer-ID](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Target - Produktprofile im Vergleich zu Arbeitsbereichen {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 In Target entspricht ein Arbeitsbereich einem Produktprofil. Mit seiner Hilfe können Organisationen Benutzergruppen bestimmten Eigenschaftsgruppen zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in Adobe Analytics.
 
 Siehe:
-* [Berechtigungen für Unternehmensbenutzer](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html)
+* [Berechtigungen für Unternehmensbenutzer](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Produkte und Profile verwalten](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Video: [Target-Arbeitsbereiche in der Adobe Admin Console konfigurieren](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
@@ -90,19 +90,19 @@ Informationen zu Sicherheitsgruppen und zum Zuweisen von Benutzern zu Sicherheit
 
 Experience Platform Launch wird auf der Produktseite in der Admin Console angezeigt. Sie können weitere Lösungen und zentrale Dienste in ein Launch-Produktprofil integrieren.
 
-See [User Management](https://marketing.adobe.com/resources/help/en_US/experience-cloud/launch/user-management.html) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
+See [User Management](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) for information about user permissions in the Admin Console and set up Launch-specific options, including assigning rights to profiles.
 
 ## Dynamischer Tag-Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 Laden Sie Benutzer zur Nutzung des Dynamic Tag Managements ein, weisen Sie Benutzerrollen zu und fügen Sie Benutzer Gruppen hinzu.
 
-See [Users and Permissions](https://marketing.adobe.com/resources/help/en_US/dtm/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
+See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) for information about how to invite users to Dynamic Tag Management and assign user roles and add users to groups.
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
 Erstellen Sie Audience Manager-Benutzer und weisen Sie diese Gruppen zu. Sie können außerdem Beschränkungen anzeigen (Eigenschaften, Segmente, Ziele und AlgoModel).
 
-Siehe [Administration](https://marketing.adobe.com/resources/help/en_US/aam/c_administration.html) in der Hilfe zu Audience Manager.
+Siehe [Administration](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) in der Hilfe zu Audience Manager.
 
 ## Experience Cloud-Produkte verwalten {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -118,7 +118,7 @@ Wenn Sie einen Benutzer einer Organisation zuweisen, können Sie dem Benutzer Zu
 Weitere Informationen finden Sie hier:
 
 * [Produkte und Profile verwalten](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Enterprise-Benutzerrechte](https://marketing.adobe.com/resources/help/en_US/target/target/property_channel.html) in der Target-Hilfe
+* [Enterprise-Benutzerrechte](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) in der Target-Hilfe
 * Video: [Target-Arbeitsbereiche in der Adobe Admin Console konfigurieren](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Analytics-Zugriffsberechtigungen einem Produktprofil zuweisen {#task_040673FE3E3E429B9531FBCB8B6A4391}
