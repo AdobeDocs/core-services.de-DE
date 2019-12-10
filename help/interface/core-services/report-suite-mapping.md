@@ -5,7 +5,7 @@ seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -19,7 +19,6 @@ Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und der People
 * Legt eine Experience Cloud-Organisation als primäre Organisation für die Report Suite fest.
 * hat keinen Einfluss darauf, wer auf die Report Suite zugreifen kann (der Zugriff wird nach wie vor über das Adobe Analytics-Anmeldekonto eines jeden Benutzers bestimmt)
 
-
 **Anforderungen**
 
 Sie müssen Analytics-Administrator einer Unternehmensanmeldung sein, der Zugriff auf die zuzuweisende Report Suite hat. Außerdem muss dieses Konto [mit einer Experience Cloud-Organisation verknüpft](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) sein, damit dieser Organisation Report Suites zugeordnet werden können.
@@ -29,8 +28,6 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 ## Report Suite einer Organisation zuweisen{#task_23993FE78DF6455FA8D7BE60686EA16C}
 
 1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite-Zuweisung]**
-
-   Alternativ können Sie eine [direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
 
 1. Wenn Sie anzeigen möchten, welche Unternehmensanmeldungen Zugriff auf welche Report Suite haben, klicken Sie auf **[!UICONTROL Sichtbar für Unternehmensanmeldung]**.
 
@@ -43,8 +40,6 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 ## Mehrere Report Suites einer Organisation zuweisen {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
 1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite-Zuweisung]**.
-
-   Alternativ können Sie eine [direkte URL](https://audience.marketing.adobe.com/rsmapping/ui.html) verwenden.
 
 1. Wählen Sie die Report Suites aus, die Sie zuweisen möchten.
 
@@ -62,7 +57,7 @@ In diesem Abschnitt finden Sie Tipps dazu, wie Sie die Experience Cloud-Organis
 
 **Welche Organisation sollte ich auswählen?**
 
-Wird der Experience Cloud ID-Dienst derzeit auf die Report Suite angewandt, müssen Sie sicherstellen, dass Sie im Zuordnungs-Tool für Report Suites die gleiche Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Kapitel über das [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-test-verify.html) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom ID-Dienst genutzt wird.
+Wird der Experience Cloud ID-Dienst derzeit auf die Report Suite angewandt, müssen Sie sicherstellen, dass Sie im Zuordnungs-Tool für Report Suites die gleiche Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Kapitel über das [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom ID-Dienst genutzt wird.
 
 Wird der Besucher-ID-Dienst bisher noch nicht auf Sites eingesetzt, auf denen die Report Suite Daten erfasst, muss die Implementierung der in der Report Suite-Zuweisung ausgewählten Organisation entsprechen, wenn der Experience Cloud-Besucher-ID-Dienst zu einem späteren Zeitpunkt verwendet wird.
 
