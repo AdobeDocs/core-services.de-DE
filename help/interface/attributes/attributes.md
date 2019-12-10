@@ -1,13 +1,13 @@
 ---
 description: Überblick und Voraussetzungen zum Hochladen von Kundenattributen in Experience Cloud.
-keywords: Hauptdienste; Kundenattribute
+keywords: core services;customer attributes
 seo-description: Überblick und Voraussetzungen zum Hochladen von Kundenattributen in Experience Cloud.
 seo-title: Kundenattribute
-solution: Experience Cloud
+solution: Experience Cloud
 title: Kundenattribute
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f8b48077d936e289d66c1a93a96fe9ebaa4f0136
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -36,12 +36,9 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 * **Target-Mbox:** Für Kundenattribute ist mbox.js Version 58 oder höher erforderlich.
 
 
-   Siehe [Implementierung von Mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_mbox_download.html)
+   Siehe [Implementierung von Mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)
 
 * **at.js:** Beliebige Version
-
-
-
 
 ## Was sind Enterprise-Kundendaten? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
