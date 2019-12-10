@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Hilfe für Experience Cloud und Hauptdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 23a181998da438d775233235300845febf9c22c6
+source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ---
 
@@ -40,7 +40,7 @@ Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentati
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud-Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)
+* [Experience Cloud-Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
 * [Feed](feed.md)
 * [Datenschutz-Grundverordnung-API (DSGVO-API)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
