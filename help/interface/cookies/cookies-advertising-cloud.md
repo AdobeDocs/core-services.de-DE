@@ -5,7 +5,7 @@ seo-title: Advertising Cloud-Cookies
 title: Advertising Cloud-Cookies
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
 
 ---
 
@@ -13,39 +13,6 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 # Advertising Cloud-Cookies {#advertising-cloud-cookies}
 
 Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigengebote zu verwenden.
-
-## Cookie-Name: id_adcloud
-
-<table id="id_adcloud"> 
-<thead> 
-<tr> 
-<th colname="col1" class="entry"> Attribut </th> 
-<th colname="col2" class="entry"> Beschreibung </th> 
-</tr> 
-</thead>
-<tbody> 
-<tr> 
-<td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-<td colname="col2"> <p>Die Surfer-ID </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Ablauf </p> </td> 
-<td colname="col2"> <p>91 Tage </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Nutzung </p> </td> 
-<td colname="col2"> <p>Das Cookie wird in der Erstanbieterdomäne gesetzt, wird aber noch nicht verwendet </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Position </p> </td> 
-<td colname="col2"> <p>Die oberste Domänenebene des Werbetreibenden (z. B. beispiel.com) </p> </td> 
-</tr> 
-<tr> 
-<td colname="col1"> <p>Größe </p> </td> 
-<td colname="col2"> <p>16 Byte </p> </td> 
-</tr> 
-</tbody> 
-</table>
 
 ## Cookie-Name: _lcc
 
@@ -125,7 +92,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Die Surfer-ID, der Zeitstempel des letzten Besuchs auf der Website des Werbetreibenden und der letzte Suchklick des Surfers sowie die ef_id, die erstellt wurde, als der Benutzer auf eine Anzeige geklickt hat</p> </td> 
+   <td colname="col2"> <p>Die Zeitstempel des letzten Besuchs des Surfers auf der Website des Advertisers und des letzten Suchklicks des Surfers sowie die ef_id, die beim Klicken auf eine Anzeige erstellt wurde</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
