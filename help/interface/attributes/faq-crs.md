@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 7c487fa88723b6aaa2f5ba1555299dbc4c818098
+source-git-commit: 5151026cf3ccf004d7fd311913b2cac1a272ff8d
 
 ---
 
@@ -24,7 +24,7 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
 | Fehler | Beschreibung |
 |--- |--- |
 | Einschränkungen von Kundenattribut-Abonnements | Bei einem Upgrade auf Analytics Premium dauert es 24 Stunden, bis weitere Attribute verfügbar sind. Während dieser Wartezeit wird Ihnen möglicherweise eine Fehlermeldung über einen erreichten Attributabonnement-Maximalwert angezeigt. |
-| Begrenzung des täglichen Hochladevorgangs | Die beste Vorgehensweise ist, Kundenattribute nicht mehr als einmal am Tag zu aktualisieren. Adobe empfiehlt, dass Sie mindestens 24 Stunden warten, um eine weitere Kundenprofildatendatei hochzuladen (für denselben Profilsatz). |
+| Begrenzung des täglichen Hochladevorgangs | Adobe empfiehlt, Kundenattribute nur einmal pro Tag zu aktualisieren. Sie müssen mindestens 24 Stunden warten, um eine weitere Kundenprofildatendatei für denselben Profilsatz hochzuladen. |
 | Benutzerdefinierte Analytics ID (s.visitorID) | Durch Festlegen einer Kunden-ID mithilfe von    „s.visitorID“ ist eine Methode, mit der Benutzer in Analytics identifiziert werden können. Integrationen, bei denen Daten mithilfe des ID-Diensts aus Analytics exportiert oder in die Anwendung importiert werden, funktionieren jedoch nicht, wenn ein Besucher mit s.visitorID identifiziert wird.<br>Hierzu gehören unter anderem gemeinsam genutzte Zielgruppen, Analytics for Target (A4T) und Kundenattribute.<br>Bei diesen Integrationen wird die Festlegung einer benutzerdefinierten Analytics ID nicht unterstützt. |
 | Beschränkungen der Zeichenlänge in Analytics | Wenn Sie ein Analytics-Abonnement erstellen, sind die Längen der Felder für hochgeladene Dateien auf 255 Zeichen beschränkt. |
 
