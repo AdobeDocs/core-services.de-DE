@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -19,6 +19,10 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+
+## Januar - 2020
+
+* Die Feed-Seite wurde im Dezember 2019 nicht mehr unterstützt. Innerhalb des Produkts finden Sie eine Benachrichtigung zur Einstellung. (MCUI-10039)
 
 ## August 2019
 
@@ -95,7 +99,7 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versions
 
 **Bekanntes Problem**
 
-Wenn Sie über **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Activation]** auf das dynamische Tag-Management zugreifen, Ihr Konto für das dynamische Tag-Management jedoch nicht mit der Experience Cloud (Adobe ID) verknüpft ist, können Sie sich nicht beim Dynamic Tag Management anmelden. Um dieses Problem zu umgehen, müssen Sie in einem neuen Browser-Tab direkt zu [!DNL dtm.adobe.com] navigieren.
+Wenn Sie über **[!UICONTROL Experience Cloud]**>**[!UICONTROL  Activation]** auf das Dynamic Tag Management zugreifen, Ihr Konto für das Dynamic Tag Management jedoch nicht mit der Experience Cloud (Adobe ID) verknüpft ist, können Sie sich nicht beim Dynamic Tag Management anmelden. Um dieses Problem zu umgehen, müssen Sie in einem neuen Browser-Tab direkt zu [!DNL dtm.adobe.com] navigieren.
 
 ## Version 16.1 – 21. Januar 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -505,7 +509,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Beim Löschen eines Bildes gibt Assets keine Warnung aus, wenn das Bild in Adobe Target Essentials verwendet wird.
 * Die Benutzeroberfläche der [!UICONTROL Experience Cloud] arbeitete langsam, wenn sie von vielen Benutzern gleichzeitig verwendet wurde.
 * Beim Löschen eines Bildes in [!UICONTROL Experience Cloud Assets] wurde keine Warnmeldung ausgegeben, wenn das Bild in [!DNL Adobe Target Essentials] in Verwendung war.
-* Wenn die Option **[!UICONTROL Angaben speichern]** nicht während des Anmeldevorgangs ausgewählt wurde, wurde der Benutzer nach 15 Minuten abgemeldet.
+* Wenn die Option **[!UICONTROL Angaben speichern]**nicht während des Anmeldevorgangs ausgewählt wurde, wurde der Benutzer nach 15 Minuten abgemeldet.
 * Benutzer mussten sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam wurden.
 * Die Anmeldung bei der [!DNL Experience Cloud] dauerte länger als eine Sekunde.
 * Beim Löschen von Dateien aus [!DNL Experience Cloud] wurde dieser Vorgang bei manchen Benutzern nicht mit dem [!DNL Digital Asset Management] synchronisiert.
@@ -539,7 +543,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 
 * Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, bleiben keine weiteren Änderungen an Metadaten bestehen.
 * Benutzer müssen das Forum aktualisieren, damit die gelöschten Karten aus der Ansicht entfernt werden.
-* Wenn die Option **[!UICONTROL Angaben speichern]** nicht während des Anmeldevorgangs ausgewählt wird, wird der Benutzer nach 15 Minuten abgemeldet.
+* Wenn die Option **[!UICONTROL Angaben speichern]**nicht während des Anmeldevorgangs ausgewählt wird, wird der Benutzer nach 15 Minuten abgemeldet.
 * Die Landingpage der [!DNL Analytics]-Lösung weist Formatierungsfehler auf.
 * Benutzer müssen sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam werden.
 * Beim Löschen eines Bildes gibt [!UICONTROL Assets] keine Warnung aus, wenn das Bild in [!DNL Adobe Target Essentials] verwendet wird.
@@ -574,7 +578,7 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 * Beim Löschen eines Bildes in Experience Cloud-Assets wird keine Warnung ausgegeben, wenn das Bild in Adobe Target Essentials verwendet wird.
 * Das Aktualisieren einer Karte aus [!DNL Analytics] kann in der erweiterten Karte gelegentlich zu einem leeren Diagramm führen.
 * Benutzer müssen sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam werden.
-* Wenn bei der Anmeldung *`Remember me`* nicht aktiviert ist, wird der Benutzer nach 15 Minuten abgemeldet.
+* Wenn bei der Anmeldung *`Remember me`*nicht aktiviert ist, wird der Benutzer nach 15 Minuten abgemeldet.
 * Die Landingpage der [!DNL Analytics]-Lösung weist Formatierungsfehler auf.
 * Der Link „Kommentare“ auf der Ansicht der Assets und Karten kann nicht angeklickt werden.
 * Die Benutzeroberfläche der Experience Cloud ist u. U. beeinträchtigt, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
@@ -620,5 +624,5 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 
 * Es wurde ein Problem behoben, das das Anwenden von Segmentfiltern bei freigegebenen [!DNL Analytics]-Berichten verhinderte.
 * Es wurde ein Problem behoben, bei dem Lösungen auf der Seite [!UICONTROL Experience Cloud-Lösungen] als zugeordnet angezeigt wurden, selbst wenn die Konten der Lösung nicht zugeordnet waren.
-* Es wurde ein Problem behoben, das [!DNL Adobe Target]-Kunden in Asien daran hinderte, auf der Zuordnungsseite auf die Schaltfläche **[!UICONTROL Weiter zu Experience Cloud]** zu klicken.
+* Es wurde ein Problem behoben, das [!DNL Adobe Target]-Kunden in Asien daran hinderte, auf der Zuordnungsseite auf die Schaltfläche **[!UICONTROL Weiter zu Experience Cloud]**zu klicken.
 * Es wurde ein Problem behoben, das die Freigabe von YouTube-Videos verhinderte.
