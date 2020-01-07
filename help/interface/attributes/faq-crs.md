@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: d978c3bdd5a2632787f58339a9554cd8ffa2ec11
+source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ---
 
@@ -23,8 +23,9 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
 | Fehler | Beschreibung |
 |--- |--- |
 | Einschränkungen von Kundenattribut-Abonnements | Bei einem Upgrade auf Analytics Premium dauert es 24 Stunden, bis weitere Attribute verfügbar sind. Während dieser Wartezeit wird Ihnen möglicherweise eine Fehlermeldung über einen erreichten Attributabonnement-Maximalwert angezeigt. |
+| Mehrere Anmeldungen auf demselben Gerät | Wenn Sie Kundenattribute verwenden, um Kundenprofile in eine Datenquelle hochzuladen, empfiehlt Adobe Benutzern, die dasselbe Gerät (d. h. dieselbe Experience Cloud-ID) nutzen. Dies kann dazu führen, dass der auf dem Gerät vorhandene ECID-Dienst mehrere Benutzer unter derselben Experience Cloud-ID verknüpft, was zu unerwarteten Ergebnissen führt [!DNL Target]. **** Hinweis: Bei Mobile ist die ECID dauerhaft, nachdem die Mobile-App installiert wurde, und Sie müssen die App neu installieren, um eine neue ECID zu generieren. Im Web wird nach dem Löschen des Browser-Cookies eine neue ECID generiert. |
 | Begrenzung des täglichen Hochladevorgangs | Adobe empfiehlt, Kundenattribute nur einmal pro Tag zu aktualisieren. Sie müssen mindestens 24 Stunden warten, um eine weitere Kundenprofildatendatei für denselben Profilsatz hochzuladen. |
-| Benutzerdefinierte Analytics ID (s.visitorID) | Durch Festlegen einer Kunden-ID mithilfe von    „s.visitorID“ ist eine Methode, mit der Benutzer in Analytics identifiziert werden können. Integrationen, bei denen Daten mithilfe des ID-Diensts aus Analytics exportiert oder in die Anwendung importiert werden, funktionieren jedoch nicht, wenn ein Besucher mit s.visitorID identifiziert wird.<br>Hierzu gehören unter anderem gemeinsam genutzte Zielgruppen, Analytics for Target (A4T) und Kundenattribute.<br>Bei diesen Integrationen wird die Festlegung einer benutzerdefinierten Analytics ID nicht unterstützt. |
+| Custom Analytics ID (`s.visitorID`) | In Analytics können Besucher identifiziert werden, indem eine Kunden-ID mit `s.visitorID` festgelegt wird. Integrationen, in denen Analytics-Daten mit dem ID-Dienst exportiert oder importiert werden, funktionieren jedoch nicht, wenn ein Besucher anhand `s.visitorID.`<br>dieser Funktion identifiziert wird. Dazu gehören unter anderem freigegebene Zielgruppen, Analytics for Target (A4T) und Kundenattribute.<br>Bei diesen Integrationen wird die Festlegung einer benutzerdefinierten Analytics ID nicht unterstützt. |
 | Beschränkungen der Zeichenlänge in Analytics | Wenn Sie ein Analytics-Abonnement erstellen, sind die Längen der Felder für hochgeladene Dateien auf 255 Zeichen beschränkt. |
 
 ## Häufig gestellte Fragen zu Kundenattributen  {#section_E47866EEA83348E09FE43CEC5E44C461}
