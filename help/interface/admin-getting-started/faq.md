@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -115,7 +115,3 @@ Nein. Die Benutzer müssen ihre eigenen Lösungen selbst verknüpfen, da sie hie
 **Warum wird mir Social angezeigt, wenn mein Unternehmen diesen Dienst gar nicht erworben hat?**
 
 Adobe Social ist ein Produkt, das in einem Paket mit Analytics verkauft werden kann. Wenn Sie Analytics haben, sehen Sie daher auch diese Lösung, können darauf aber nur zugreifen, wenn Sie das Produkt ebenfalls erworben haben.
-
-**Wie gebe ich einen Bericht oder eine Kampagne für die Experience Cloud frei?**
-
-Beispiele für Assets, die Sie im [Feed](../feed.md#concept_9256B8768A294009A777282DD8719213) freigeben können, sind Analytics-Berichte und Target-Kampagnen.
