@@ -2,11 +2,11 @@
 description: Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. Ein Asset ist ein digitales Dokument, Bild, Video oder Audioaufzeichnungsdokument (oder ein Teil davon), das über mehrere Ausgabeformate und Teil-Assets (z. B. Ebenen in einer Photoshop-Datei, Folien in einer PowerPoint-Datei, Seiten in einem PDF-Dokument, Dateien in einer ZIP-Datei) verfügen kann.
 seo-description: Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. Ein Asset ist ein digitales Dokument, Bild, Video oder Audioaufzeichnungsdokument (oder ein Teil davon), das über mehrere Ausgabeformate und Teil-Assets (z. B. Ebenen in einer Photoshop-Datei, Folien in einer PowerPoint-Datei, Seiten in einem PDF-Dokument, Dateien in einer ZIP-Datei) verfügen kann.
 seo-title: Assets
-solution: Experience Cloud
+solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 4eb9f90cf44eb5cc9c6d3898a32c5415f82b8030
+source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
 
 ---
 
@@ -71,23 +71,23 @@ Sie können nach Keyword, Dateityp, Größe, Änderungsdatum, Veröffentlichungs
 
 ## Anmerkungen zu Assets machen{#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Klicken Sie auf **[!UICONTROL Anmerken]** und zeichnen Sie Kreise oder Pfeile auf ein Bild und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
+Klicken Sie auf **[!UICONTROL Anmerken]**und zeichnen Sie Kreise oder Pfeile auf ein Bild und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
 
 ![](assets/assets-annotate.png)
 
-## Assets für einen Feed freigeben {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
+<!-- ## Share an asset to your feed {#section_2CD53A99600D4A3D9AA82C3CDA666E6B}
 
-**Experience Cloud-Feed wird ab dem 01. November 2019 nicht mehr unterstützt und wird bis Dezember 2019 eingestellt.**
+**Experience Cloud Feed will no longer be supported starting Nov 01, 2019 and shall be deprecated by Dec, 2019.**
 
-Klicken Sie in der Symbolleiste auf **[!UICONTROL Freigeben]**, um das Asset als [Feed](../feed.md#concept_9256B8768A294009A777282DD8719213) für andere Experience Cloud-Benutzer freizugeben.
+Click **[!UICONTROL Share]** from the toolbar to share the asset as [feed](../feed.md#concept_9256B8768A294009A777282DD8719213) to other Experience Cloud users. 
 
-![](assets/assets-share-card.png)
+![](assets/assets-share-card.png) 
 
-Durch das Freigeben wird das Bild auf Ihrer Feed-Seite und für alle, für die Sie die Karte freigegeben haben, angezeigt.
+Sharing displays the image on your Feed page and with whomever you have shared the card.  -->
 
 ## Assets im Vollbildmodus anzeigen und Zoomen {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Klicken Sie auf **[!UICONTROL Ansichten]** &gt; **[!UICONTROL Bild]**, wenn Sie das vollständige Bild des Assets anzeigen und das Zoomen aktivieren möchten.
+Klicken Sie auf **[!UICONTROL Ansichten]**>**[!UICONTROL  Bild]**, wenn Sie das vollständige Bild des Assets anzeigen und das Zoomen aktivieren möchten.
 
 ![](assets/asset-zoom.png)
 
@@ -95,7 +95,7 @@ Klicken Sie auf **[!UICONTROL Ansichten]** &gt; **[!UICONTROL Bild]**, wenn Sie 
 
 Treffen Sie eine Auswahl zwischen der Kartenansicht mit Eigenschaften, der Listenansicht und der Spaltenansicht, um Ihr Asset möglichst schnell zu finden.
 
-Klicken Sie auf **[!UICONTROL Ansichten]** &gt; **[!UICONTROL Eigenschaften]**, um die Eigenschaften eines Assets anzuzeigen.
+Klicken Sie auf **[!UICONTROL Ansichten]**>**[!UICONTROL  Eigenschaften]**, um die Eigenschaften eines Assets anzuzeigen.
 
 ![](assets/asset-properties.png)
 
@@ -103,6 +103,6 @@ Klicken Sie auf **[!UICONTROL Ansichten]** &gt; **[!UICONTROL Eigenschaften]**, 
 
 Anzahl der Benutzer, belegten Speicherplatz und Gesamtzahl der Assets anzeigen.
 
-Klicken Sie auf **[!UICONTROL Tools]** &gt; **[!UICONTROL Berichte]** &gt; **[!UICONTROL Gebrauchsbericht]**.
+Klicken Sie auf **[!UICONTROL Tools]**>**[!UICONTROL  Berichte]** > **[!UICONTROL Gebrauchsbericht]**
 
 ![](assets/assets-usage-report.png)
