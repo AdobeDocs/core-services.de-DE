@@ -71,7 +71,7 @@ Erstellen Sie ein Angebot, das Ihrem Angebotsbestand hinzugefügt wird.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Max. Obergrenze pro Benutzer </p> </td> 
-   <td colname="col2"> <p>Die maximale Zeit, die ein Angebot einem bestimmten Benutzer vorgeschlagen werden kann. </p> <p>Hinweis:  Die Anzahl der Angebote, die einem bestimmten Benutzer zur Zeit der E-Mail-Vorbereitung vorgeschlagen werden. Wenn Sie z. B. eine E-Mail mit einer Reihe von Angeboten vorbereiten, wird für diese Zahlen die maximale Anzahl pro Benutzer angegeben, unabhängig davon, ob die E-Mail gesendet wird oder nicht.</p> </td> 
+   <td colname="col2"> <p>Die maximale Zeit, die ein Angebot einem bestimmten Benutzer vorgeschlagen werden kann. </p> <p>Hinweis:  Die Anzahl der Angebote, die einem bestimmten Benutzer zur Zeit der E-Mail-Vorbereitung vorgeschlagen werden. Wenn Sie z. B. eine E-Mail mit einer Reihe von Angeboten vorbereiten, wird für diese Zahlen die maximale Anzahl pro Benutzer angegeben, unabhängig davon, ob die E-Mail gesendet wird oder nicht.</p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p>Bezeichnungen </p> </td> 
