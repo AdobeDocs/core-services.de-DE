@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
+source-git-commit: a0e0b51d731343d5cd4226ab29d917aca63317c2
 
 ---
 
@@ -109,7 +109,7 @@ Fügen Sie in Campaign Standard eine Angebotsaktivität in ein beliebiges Bild o
 * **** Platzierungsüberprüfung: Alle Angebote müssen eine Inhaltsdarstellung haben, die mit der Platzierung übereinstimmt, die im Rahmen der Angebotsaktivität ausgewählt wurde. Wenn eine Platzierung für ein Angebot zwischen der Erstellungszeit der Aktivität und der Vorbereitungszeit gelöscht wird (wenn die Zeit länger als drei Minuten ist), wird dieses Angebot nicht berücksichtigt.
 * **** Datumsüberprüfung: Alle Angebote müssen für das aktuelle Datum gültig sein (dies ist _nicht_ das Angebotsversenddatum). Das Datum, an dem Sie die E-Mail-Kampagne vorbereiten, ist das Datum, an dem festgelegt wird, welches Angebot bereitgestellt werden soll. Wenn Sie beispielsweise am 15.01.17 eine E-Mail-Kampagne vorbereiten und eines der ausgewählten Angebote erst am 16.17.2017 gültig ist, wird das Angebot nicht bereitgestellt.
 
-* **** Überprüfung der Förderfähigkeitsregel: Alle Angebote müssen die [Förderkriterien](offers.md#task_6C4AE487377D424FA133ACCA6AF741D4)erfüllen.
+* **** Überprüfung der Förderfähigkeitsregel: Alle Angebote müssen die [Förderkriterien](offers.md)erfüllen.
 
 * **** Prioritätsprüfung: Wenn ein Benutzer für mehrere Angebote berechtigt ist, bestimmt die [!UICONTROL Angebotsverwaltung] anhand der Benutzersatzpriorität, welches Angebot den einzelnen Benutzern angezeigt werden soll.
 
