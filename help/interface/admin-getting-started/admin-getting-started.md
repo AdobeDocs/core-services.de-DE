@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 ---
 
@@ -33,7 +33,7 @@ Administratoren verwalten Benutzer nicht mehr mithilfe von Lösungen. Die Benutz
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Geben Sie Ihre [Adobe ID oder Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) und Ihr Kennwort ein.
 
-Alternativ können Sie im Experience Cloud-Menü (![](assets/menu-icon.png)) auf **[!UICONTROL Administration]** &gt; **[!UICONTROL Admin Console starten]** klicken.
+Alternativ können Sie im Experience Cloud-Menü (![](assets/menu-icon.png)) auf **[!UICONTROL Administration]**>**[!UICONTROL  Admin Console starten]** klicken.
 
 **Verwandte Hilfe**
 
@@ -61,7 +61,7 @@ Verwalten Sie Benutzer- und Produktberechtigungen für Analytics in der Admin Co
 
 Analytics-Administratoren können Benutzerkonten mithilfe des verfügbaren Analytics-Migrationstools für Benutzer-IDs von der Analytics-Benutzerverwaltung in die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/) / migrieren.
 
-Die Kontomigration erfolgt für Kunden stufenweise. Adobe wird Sie benachrichtigen und unterstützen, wenn Sie an der Reihe sind, Ihre bestehenden Benutzerkonten von **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Benutzerverwaltung]** in die Admin Console zu migrieren.
+Die Kontomigration erfolgt für Kunden stufenweise. Adobe wird Sie benachrichtigen und unterstützen, wenn Sie an der Reihe sind, Ihre bestehenden Benutzerkonten von **[!UICONTROL Admin Tools]**>**[!UICONTROL  Benutzerverwaltung]** in die Admin Console zu migrieren.
 
 After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experiencecloud.adobe.com](https://experiencecloud.adobe.com). Benutzer, die versuchen, sich über die bisherigen Anmeldedaten anzumelden ([!DNL my.omniture.com] und [!DNL sc.omniture.com]), werden an [!DNL experiencecloud.adobe.com] weitergeleitet.
 
@@ -110,7 +110,7 @@ Ein Produktprofil erstellen und einer Berechtigungsgruppe zuweisen.
 
 Wenn Sie einen Benutzer einer Organisation zuweisen, können Sie dem Benutzer Zugriff auf Produkte und Produktprofile gewähren. Sie können außerdem eingeschränkte Administratorberechtigungen an einen Benutzer delegieren. Gleichermaßen können Sie Benutzergruppen erstellen und die Gruppe dann einem Produktprofil hinzufügen, um den Zugriff zu gewähren.
 
-1. Klicken Sie in der [Admin Console](https://adminconsole.adobe.com/enterprise/)**auf[!UICONTROL Produkte]**.
+1. Klicken Sie in der [Admin Console](https://adminconsole.adobe.com/enterprise/) auf **[!UICONTROL Produkte]**.
 1. Klicken Sie auf **[!UICONTROL Neues Profil]**.
 1. Konfigurieren Sie die Profildetails und klicken Sie dann auf **[!UICONTROL Weiter]**.
 1. Klicken Sie auf **[!UICONTROL Fertig]**.
@@ -127,8 +127,8 @@ Zugriffsberechtigungen für Analytics-Berichte (Report Suites, Metriken, Dimensi
 
 Sie können beispielsweise ein Produktprofil mit mehreren Analytics-Tools ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] und [!UICONTROL Report Builder]) erstellen, das Zugriff auf bestimmte Metriken und Dimensionen (einschließlich eVars) erhält und beispielswiese Segmente oder berechnete Metriken erstellen kann.
 
-1. Melden Sie sich in der [Admin Console](https://adminconsole.adobe.com/enterprise) an und klicken Sie dann auf **[!UICONTROL Produkte]** (oder auf Ihren Produktnamen).
-1. Klicken Sie im Produktprofil dann auf **[!UICONTROL Berechtigungen]** (nur für Administratoren verfügbar).
+1. Melden Sie sich in der [Admin Console](https://adminconsole.adobe.com/enterprise) an und klicken Sie dann auf **[!UICONTROL Produkte]**(oder auf Ihren Produktnamen).
+1. Klicken Sie im Produktprofil dann auf **[!UICONTROL Berechtigungen]**(nur für Administratoren verfügbar).
 1. Konfigurieren Sie die Profilberechtigungen:
 
 | Element | Beschreibung |
@@ -151,24 +151,27 @@ Sie können zum Beispiel:
 
 Durch die Verwendung dieser Rollen können Sie gleichzeitig die Verwaltung an andere delegieren, ohne mehr als die benötigten Berechtigungen zu erteilen.
 
-1. Klicken Sie in der Admin Console auf **[!UICONTROL Benutzer]** und anschließend auf den entsprechenden Benutzernamen.
+1. Klicken Sie in der Admin Console auf **[!UICONTROL Benutzer]**und anschließend auf den entsprechenden Benutzernamen.
 1. Klicken Sie auf **[!UICONTROL Administratorrechte bearbeiten]**.
 1. Konfigurieren Sie die Administratorrechte des Benutzers.
-1. Klicken Sie auf **[!UICONTROL Weiter]**, um die Einstellungen zu prüfen, und anschließend auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Weiter]**, um die Einstellungen zu prüfen, und anschließend auf**[!UICONTROL  Speichern]**.
 
 ## Unterstützte Browser und Systemanforderungen {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
-In der Experience Cloud unterstützte Browser
+In Experience Cloud unterstützte Browser
 
-**Experience Cloud – Hauptdienste**
+Von Experience Cloud unterstützte Browser:
 
-* Der neueste Internet Explorer von Microsoft (Microsoft hat den Support für Internet Explorer 8, 9 und 10 [eingestellt](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support). Aus diesem Grund werden von Adobe keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.)
-* Google Chrome
-* Mozilla Firefox
-* Apple Safari
+* [!DNL Microsoft Edge] (Microsoft hat den Support für Internet Explorer 8, 9 und 10 [eingestellt](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support). Aus diesem Grund werden von Adobe keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.)
+* [!DNL Google Chrome]
+* [!DNL Firefox]
+* [!DNL Safari]
+* [!DNL Opera]
 
-**Anforderungen der Lösung und des Produkts**
+**** Hinweis: Obwohl die Experience Cloud-Oberfläche diese Browser unterstützt, unterstützen einzelne Lösungen möglicherweise nicht jeden Browser. ( [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) unterstützt beispielsweise nicht [!DNL Opera], [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) nicht [!DNL Safari].)
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) (einschließlich Adobe Social)
+**Anforderungen an Lösungen und Produkte**
+
+* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
