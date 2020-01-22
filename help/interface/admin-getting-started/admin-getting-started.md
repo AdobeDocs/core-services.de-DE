@@ -1,9 +1,9 @@
 ---
-description: Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud.
+description: Erfahren Sie mehr über die Anmeldung bei der Admin-Konsole, die Verwaltung von Experience Cloud-Benutzerberechtigungen und -Produktprofilen und die Browserunterstützung.
 keywords: core services
-seo-description: Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud.
+seo-description: Erfahren Sie mehr über die Anmeldung bei der Admin-Konsole, die Verwaltung von Experience Cloud-Benutzerberechtigungen und -Produktprofilen und die Browserunterstützung.
 seo-title: Verwalten von Experience Cloud-Benutzern und -produkten
-solution: Marketing Cloud
+solution: Experience Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
@@ -14,7 +14,7 @@ source-git-commit: 6040c4d2f052c561958624296c8e62c8230ae820
 
 # Verwalten von Experience Cloud-Benutzern und -produkten {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud.
+Erfahren Sie mehr über die Anmeldung bei der Admin-Konsole, die Verwaltung von Experience Cloud-Benutzerberechtigungen und -Produktprofilen und die Browserunterstützung.
 
 >[!IMPORTANT]
 >
