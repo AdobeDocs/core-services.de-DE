@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
 
 ---
 
@@ -105,6 +105,11 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
   <tr> 
    <td colname="col1"> <p> <b> (Nur Target)</b> Kann ich mich auf die in Kundenattributen hochgeladenen Daten sofort nach Identifikation des Besuchers durch die Kunden-ID beziehen? </p> </td> 
    <td colname="col2"> <p>Ja. </p> <p>Nach dem Server-Aufruf für Target, der die mbox-ID des Drittanbieters enthält, stehen alle Kundenattributdaten zur Verfügung. </p> </td> 
+  </tr> 
+    <tr> 
+   <td colname="col1"> <p> <b> (Nur Target)</b> Was bedeutet die Spalte "Synchronisierungsstatus"für Dateien, die in der Kundenattributquelle hochgeladen wurden? </p> </td> 
+   <td colname="col2"> <p> Die Anzahl der von Target veröffentlichten und synchronisierten Datensätze kann angezeigt werden, indem Sie auf das Symbol "Status synchronisieren"für eine bestimmte Attributdatei klicken. "Synchronisieren %"ist eine Echtzeitmetrik, die den Prozentsatz der Profile angibt, die in Target synchronisiert wurden. </p> <p> <b></b> Hinweis: Die Synchronisierung von Attributen mit Target kann bis zu 24 Stunden dauern. </p>
+ </td> 
   </tr> 
  </tbody> 
 </table>
