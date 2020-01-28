@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Hilfe für Experience Cloud und Hauptdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ---
 
@@ -20,12 +20,12 @@ Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentati
 
 ## Was willst du lernen?
 
+* [Produktdokumentation für alle Experience Cloud-Lösungen](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Hilfe finden Sie unter Experience Cloud - Training und Support
 * [Versionshinweise und Produktupdates](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html) - Neue Funktionen in der Experience Cloud und Abonnieren Sie die Updates
 * [Übungen zur Implementierung der Hauptdienste](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - Videos und Tutorials zu den Hauptdiensten
 * [Expertenhilfe bei Experience League](https://landing.adobe.com/experience-league/) - Lernen Sie von Experten und der Community
 * [Allgemeine und berufliche](https://helpx.adobe.com/learning.html?promoid=KAUDK) Bildung - Wenden Sie sich an Adobe, um sicherzustellen, dass Sie unsere Produkte optimal nutzen
 * [Customer Experience Blog](https://theblog.adobe.com/customer-experience/) - Lesen Sie das Experience Cloud-Blog
-* [Produktdokumentation für alle Experience Cloud-Lösungen](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Hilfe finden Sie unter Experience Cloud - Training und Support
 * [Kundenunterstützung](https://helpx.adobe.com/contact/enterprise-support.ec.html) - Wenden Sie sich an den Adobe-Kundendienst
 
 ## Produktdokumentation zu Hauptdiensten
