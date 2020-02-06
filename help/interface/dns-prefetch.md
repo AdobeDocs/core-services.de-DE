@@ -2,11 +2,11 @@
 description: Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Lösungen und Dienste zu reduzieren.
 seo-description: Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Lösungen und Dienste zu reduzieren.
 seo-title: Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste
-solution: Experience Cloud
+solution: Experience Cloud
 title: Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -38,7 +38,7 @@ In den folgenden Beispielen ist dargestellt, wie Sie DNS-Vorabrufe an unterschie
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Experience Cloud ID-Dienst:** `<link rel="dns-prefetch" href="//fast. *`hier Partner-ID einfügen`*.demdex.net">`
+* **** Experience Cloud ID-Dienst: Partner-ID hier `<link rel="dns-prefetch" href="//fast. *`einfügen`*.demdex.net">`
 
 * **Dynamischer Tag-Manager** (DTM): nicht erforderlich. DTM-Links sind verfügbar, sobald die Seite lädt.
 
