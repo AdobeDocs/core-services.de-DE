@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: aea2e2b787f4d50b5f3666fd42a4c2b3f8fdeaa0
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -22,7 +22,7 @@ Wenn Ihre Implementierung nicht für Hauptdienste bereitgestellt wurde, lesen Si
 
 
 1. [Experience Cloud beitreten und Administrator werden](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Den Experience Cloud ID-Dienst mit dem dynamischem Tag-Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (oder dem neuen [Launch von Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)) implementieren
+1. [Implementieren des Experience Cloud ID-Diensts mit dem dynamischen Tag-Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (oder dem neuen [Start von Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Report Suites einer Experience Cloud-Organisation zuweisen](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Nur Analytics) Modernisieren Sie Ihren Analytics-AppMeasurement-Code](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Nur Target) Modernisierten Sie Ihre Adobe Target-Implementierung](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
