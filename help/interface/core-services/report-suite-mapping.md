@@ -5,7 +5,7 @@ seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
 
-Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und der People-Hauptdienst) sind einer Experience Cloud-Organisation zugeordnet und keiner einzelnen Report Suite. Damit sichergestellt ist, dass diese Dienste korrekt funktionieren, muss jede Analytics-Report Suite einer Organisation zugeordnet sein. Der Zuweisungsprozess:
+Experience Cloud-Dienste (z. B. Experience Cloud ID-Dienst und People-Hauptdienst) sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Damit sichergestellt ist, dass diese Dienste korrekt funktionieren, muss jede Analytics-Report Suite einer Organisation zugeordnet sein. Der Zuweisungsprozess:
 
 * Legt eine Experience Cloud-Organisation als primäre Organisation für die Report Suite fest.
 * hat keinen Einfluss darauf, wer auf die Report Suite zugreifen kann (der Zugriff wird nach wie vor über das Adobe Analytics-Anmeldekonto eines jeden Benutzers bestimmt)
@@ -27,7 +27,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 ## Report Suite einer Organisation zuweisen{#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite-Zuweisung]**
+1. Klicken Sie auf **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite-Zuweisung]**
 
 1. Wenn Sie anzeigen möchten, welche Unternehmensanmeldungen Zugriff auf welche Report Suite haben, klicken Sie auf **[!UICONTROL Sichtbar für Unternehmensanmeldung]**.
 
@@ -39,7 +39,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 ## Mehrere Report Suites einer Organisation zuweisen {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Klicken Sie auf **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Report Suite-Zuweisung]**.
+1. Klicken Sie auf **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite-Zuweisung]**.
 
 1. Wählen Sie die Report Suites aus, die Sie zuweisen möchten.
 
@@ -57,7 +57,7 @@ In diesem Abschnitt finden Sie Tipps dazu, wie Sie die Experience Cloud-Organis
 
 **Welche Organisation sollte ich auswählen?**
 
-Wird der Experience Cloud ID-Dienst derzeit auf die Report Suite angewandt, müssen Sie sicherstellen, dass Sie im Zuordnungs-Tool für Report Suites die gleiche Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Kapitel über das [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom ID-Dienst genutzt wird.
+If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. Sie können die im Kapitel über das [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom ID-Dienst genutzt wird.
 
 Wird der Besucher-ID-Dienst bisher noch nicht auf Sites eingesetzt, auf denen die Report Suite Daten erfasst, muss die Implementierung der in der Report Suite-Zuweisung ausgewählten Organisation entsprechen, wenn der Experience Cloud-Besucher-ID-Dienst zu einem späteren Zeitpunkt verwendet wird.
 
