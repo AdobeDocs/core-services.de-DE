@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f89a6c6704c9f499e6aa2ab38b2f5f9496ccdda5
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -71,7 +71,7 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
      <ul id="ul_9C473434B5DA4C6299AAB209DEDFCDE7"> 
       <li id="li_8BC10EB2825F4ADF8CA61F71D4994A28"> <b>Adobe Analytics</b>: Dringend zu empfehlen </li> 
       <li id="li_56F518E3F3DF4C93B6F7EF3B40ACC52F"> <b>Adobe Target:</b> Erforderlich </li> 
-     </ul> </p> <p>Der ID-Dienst öffnet die Türen zur modernsten Experience Cloud-Funktionalität, einschließlich Echtzeitzielgruppen, der neuesten Target-Version, der Integration von Analytics und der Pulsmessung für Video. </p> <p>Weitere Informationen finden Sie unter <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Hauptdienste – So aktivieren Sie Ihre Lösungen</a>. </p> <p> <b>Hinweis</b>: Der <span class="term"> Experience Cloud ID-Dienst</span> ist die modernisierte Implementierung des <span class="term"> Analytics-Besucher-ID-Dienstes</span>. </p> </td> 
+     </ul> </p> <p>Der ID-Dienst öffnet die Türen zur modernsten Experience Cloud-Funktionalität, einschließlich Echtzeitzielgruppen, der neuesten Target-Version, der Integration von Analytics und der Pulsmessung für Video. </p> <p>Weitere Informationen finden Sie unter <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Hauptdienste – So aktivieren Sie Ihre Lösungen</a>. </p> <p> <b>Hinweis</b>: Der <span class="term"> Experience Cloud ID-Dienst</span> ist die modernisierte Implementierung des zuvor als <span class="term"> Analytics-Besucher-ID-Service</span>bekannten Dienstes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Inwieweit lässt sich die Kundenattributfunktion mit Adobe Audience Manager vergleichen? </p> </td> 
