@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
@@ -40,7 +40,7 @@ Klicken Sie zum Starten von „Dynamic Tag Management“ auf **[!UICONTROL Activ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementierungshandbücher für Experience Cloud ID-Dienst </a> </p> </td> 
-   <td colname="col2"> <p>Der Experience Cloud ID-Dienst ermöglicht die Nutzung Experience Cloud-lösungsübergreifender Hauptfunktionen (u. a. Kundenattribute, Zielgruppenfreigabe und Auslöser). Adobe empfiehlt dringend, den ID-Dienst zu implementieren und die Vorteile dieser Funktionen zu nutzen. </p> </td> 
+   <td colname="col2"> <p>Der Experience Cloud ID-Dienst ermöglicht die Aktivierung der wichtigsten Funktionen in allen Experience Cloud-Lösungen (einschließlich Kundenattributen, Zielgruppenfreigabe und Auslöser). Adobe empfiehlt dringend, den ID-Dienst zu implementieren und die Vorteile dieser Funktionen zu nutzen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation für das Dynamic Tag Management </a> </p> </td> 
@@ -69,7 +69,7 @@ Wenn Sie Hilfe bei der Implementierung des Dynamic Tag Managements benötigen, e
   </tr> 
   <tr> 
    <td colname="col1"> <p>Triggers in Adobe Campaign verwenden </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 bietet nun eine Integration des neuen Hauptdienstes „Auslöser“. Mit diesem Hauptdienst können Geschäftsbenutzer Auslöser einfach anhand der in Adobe Analytics erfassten Online-Verhaltensdaten definieren. Sobald der Auslöser definiert wurde, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten, die Interaktionen und Konversionen steigern, zur Verfügung. Mit dieser brandneuen Funktion können Marketingfachleute Remarketing-Nachrichten anhand von Online-Ereignissen wie Warenkorbabbrüchen, Seitenaufrufen, angesehenen Videos usw. zum richtigen Zeitpunkt auslösen. </p> </td> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 bietet eine Integration mit dem neuen Trigger-Dienst. Dieser Dienst ermöglicht es Geschäftsbenutzern, Auslöser einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Auslöser definiert wurde, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten, die Interaktionen und Konversionen steigern, zur Verfügung. Mit dieser brandneuen Funktion können Marketingfachleute Remarketing-Nachrichten anhand von Online-Ereignissen wie Warenkorbabbrüchen, Seitenaufrufen, angesehenen Videos usw. zum richtigen Zeitpunkt auslösen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
