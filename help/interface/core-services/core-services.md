@@ -62,7 +62,6 @@ Weitere Informationen finden Sie unter [Experience Cloud – Benutzer und Prod
 
 Wenn Sie sich bei der Experience Cloud anmelden möchten, müssen Sie wie folgt vorgehen:
 
-
 1. Verwenden Sie eine Adobe ID.
 1. Sign in at [experiencecloud.adobe.com](https://experiencecloud.adobe.com).
 1. Treten Sie einer Lösungsgruppe bei, die einer Unternehmensgruppe zugeordnet ist.
