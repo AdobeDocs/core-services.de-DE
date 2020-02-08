@@ -7,14 +7,14 @@ solution: Marketing Cloud
 title: Anmelden und Profileinstellungen verwalten
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
 
 ---
 
 
 # Anmelden und Profileinstellungen verwalten
 
-Durch die Anmeldung in der Experience Cloud (anstelle der Anmeldung in einer einzigen Lösung) wird das Single Sign-on für alle Ihre Lösungen und zentralen Dienste aktiviert. Erfahren Sie, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage festlegen.
+Durch die Anmeldung bei der Experience Cloud (anstatt sich bei einer einzigen Lösung anzumelden) wird die einmalige Anmeldung bei allen Lösungen und Diensten, deren Inhaber Sie sind, ermöglicht. Erfahren Sie, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage festlegen.
 
 <!-- t_sign_in.xml -->
 
