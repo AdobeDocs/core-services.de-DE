@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen, Einschränkungen und Best Practices
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: e5bc3afea458d85421ab86ae87a65ebe4e88bb75
 
 ---
 
@@ -111,5 +111,17 @@ Richtlinien und Einschränkungen für die Verwendung von Kundenattributen
    <td colname="col2"> <p> Die Anzahl der von Target veröffentlichten und synchronisierten Datensätze kann angezeigt werden, indem Sie auf das Symbol "Status synchronisieren"für eine bestimmte Attributdatei klicken. "Synchronisieren %"ist eine Echtzeitmetrik, die den Prozentsatz der Profile angibt, die in Target synchronisiert wurden. </p> <p> <b></b> Hinweis: Die Synchronisierung von Attributen mit Target kann bis zu 24 Stunden dauern. </p>
  </td> 
   </tr> 
- </tbody> 
+<tr>
+	<td colname="col1"> <p> Was stellen die Metriken zum Hochladen von Dateien in der Quelle der Kundenattribute dar? </p> </td>
+	<td colname="col2"> <p> Sie können den Status von Attributen, die in Kundenattribute hochgeladen wurden, mithilfe der folgenden Metriken überprüfen: </p>
+		<ul>
+			<li> <b> Aufzeichnungen: </b> Anzahl der Datensätze in der Attributdatei. </li>
+			<li> <b> Neue Datensätze: </b> Anzahl der neuen Datensätze in der Attributdatei. </li>
+			<li> <b> Aktualisierte Datensätze: </b> Anzahl der Datensätze, die bereits in Kundenattributen mit aktualisierten Werten in der Datei vorhanden sind. </li>
+			<li> <b> Alle Daten (Datensätze): Gesamtzahl der erfolgreich in Kundenattribute hochgeladenen Datensätze. </b> </li>
+		</ul>
+	</td>
+</tr>
+
+</tbody> 
 </table>
