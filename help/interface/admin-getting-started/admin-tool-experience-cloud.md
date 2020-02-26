@@ -6,7 +6,7 @@ seo-title: Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails
 solution: Experience Cloud
 title: 'Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails '
 translation-type: tm+mt
-source-git-commit: deb341153e980a003a818f51e417275974ea49e8
+source-git-commit: b2a3ead0bb616d87340aabca4113a4e3f9ed34bc
 
 ---
 
@@ -35,7 +35,7 @@ Auf dieser Seite wird eine vollständige Liste der Benutzer mit Zugriff auf Expe
 | [!UICONTROL E-Mail] | Die mit dem Benutzer verknüpfte E-Mail-Adresse. Die Spalte kann sortiert werden: A->Z, Z->A. |
 | [!UICONTROL ID-Typ] | Der Identitätstyp für das Benutzerkonto. Filter können angewendet werden, um bestimmte ID-Typen anzuzeigen. Weitere Informationen finden Sie unter Identitätstypen [verwalten](https://helpx.adobe.com/enterprise/using/identity.html) . |
 | [!UICONTROL Lösungen] | Zusammenfassung der Experience Cloud-Lösungen, auf die der Benutzer zugreifen kann. Sie können Filter anwenden, um eine Liste von Benutzern mit einem bestimmten Lösungszugriff einzuschränken. |
-| [!UICONTROL Letzte Anmeldung] | Uhrzeit und Datum der letzten Benutzeranmeldung bei Experience Cloud. Diese Spalte kann nach auf- oder absteigenden Daten sortiert werden. <br> **** Wichtig: Die letzten Anmeldedaten werden nicht länger als 30 Tage vor dem Datumswert gespeichert, sodass die Benutzer möglicherweise keine Informationen zur letzten Anmeldung haben. [!UICONTROL Ab dem (Datum)] werden die letzten Anmeldedaten des Benutzers 365 Tage lang aufbewahrt. Sie können diese Informationen verwenden, um die aktuelle Anmeldeaktivität in der Experience Cloud anzuzeigen, jedoch nicht, um bei inaktiven Konten tätig zu werden. Außerdem haben kürzlich erstellte Benutzer möglicherweise keinen letzten Anmeldestatus. |
+| [!UICONTROL Letzte Anmeldung] | Uhrzeit und Datum der letzten Benutzeranmeldung bei Experience Cloud. Diese Spalte kann nach auf- oder absteigenden Daten sortiert werden. <br> **** Wichtig: Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Anmeldeaktivität in der Experience Cloud anzeigen und keine Empfehlung für Maßnahmen bei inaktiven Konten vor dem 13. Januar 2020. |
 
 ## Benutzerlistenansicht anpassen
 
