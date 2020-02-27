@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Über die neuen Cloud-Namen der Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 85bda02326437776baa9503bcc1100c26d48bce4
+source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 
 ---
 
@@ -59,9 +59,9 @@ In der folgenden Tabelle werden die Lösungen kurz beschrieben und Links zur jew
 Erste Schritte mit Analytics:
 
 1. Erstellen Sie mithilfe der im Abschnitt über [erste Schritte mit Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) genannten Anweisungen Ihre erste Analytics-Report Suite (Datenverzeichnis).
-1. Stellen Sie dann den Analytics-Code mithilfe von [Launch von Adobe](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) bereit.
+1. Stellen Sie dann Analytics-Code mit [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html)bereit.
 
-Experience Platform Launch ist das Tag-Management-Tool der nächsten Generation und ermöglicht es Ihnen auf einfache Art und Weise, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten.
+Experience Platform Launch ist die nächste Generation des Tag-Managements und bietet Ihnen eine einfache Möglichkeit, alle Analyse-, Marketing- und Anzeigen-Tags bereitzustellen und zu verwalten.
 
 Siehe auch:
 
@@ -81,7 +81,7 @@ Adobe Target lässt sich mit Analytics und anderen Haupdiensten der Experience 
 
 Social bietet eine gehostete, Abonnement-basierte Lösung, mit der Sie Ihre Social-Media-Ziele erreichen und Ihre Strategie und Performance verbessern können. Sie können Ihr Social Marketing mit einer umfangreichen Plattform verwalten, die soziales Listening, Publishing und Analysen ermöglicht.
 
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
+![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
 
 Als Content Management-Lösung erleichtert Adobe Experience Manager die Verwaltung Ihrer Assets und Inhalte für Ihre Websites, mobilen Apps, Communities und Formulare.
 
@@ -111,7 +111,7 @@ Adobe Primetime ist eine TV-Plattform für mehrere Bildschirme, mit der Anbieter
 
 | Hauptdienst | Beschreibung |
 |--- |--- |
-| [Activation](activation/activation.md) | Systeme für das Tag-Management (Experience Platform Launch und Dynamic Tag Management).<br>Mit Triggers können Sie auf Basis von Adobe Analytics-Einblicken in Adobe Campaign Aktionen in Echtzeit durchführen. |
+| [Activation](activation/activation.md) | Tag-Management-Systeme (Experience Platform Launch und Dynamisches Tag-Management).<br>Mit Triggers können Sie auf Basis von Adobe Analytics-Einblicken in Adobe Campaign Aktionen in Echtzeit durchführen. |
 | [Administration](admin-getting-started/admin-getting-started.md) | Verwalten Sie Benutzer- und Produktrechte für alle Adobe-Clouds und -Lösungen. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Alle digitalen Assets können einfach gespeichert, synchronisiert und freigegeben werden. Dies spart Zeit und trägt zu einem konsistenten Kundenerlebnis bei. |
 | [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch ist mit Adobe-Tag-Management-Funktionen der nächsten Generation ausgestattet. Launch bietet Kunden eine einfache Möglichkeit, alle Analyse-, Marketing- und Werbe-Tags bereitzustellen und zu verwalten, die zur Unterstützung entsprechender Kundenerfahrungen erforderlich sind. |
