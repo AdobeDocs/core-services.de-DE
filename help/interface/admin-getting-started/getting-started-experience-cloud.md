@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Anmelden und Profileinstellungen verwalten
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 02b0163b95c24eb58bf2379c3e0d9f5f31c40925
+source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
 
 ---
 
@@ -63,7 +63,7 @@ Hilfe für Benutzer, die sich nicht als Administratoren bei der Experience Clou
 
    Ihr Experience Cloud-Administrator kann Ihnen bei der Bestimmung der Kontoart (Adobe ID oder Enterprise ID) behilflich sein.
 
-1. Klicken Sie auf der Feed-Seite (oder Ihrer Standard-Landingpage) auf das Auswahlsymbol ![](assets/menu-icon.png), um auf das Pulldown-Menü zuzugreifen.
+1. Klicken Sie auf Ihrer Einstiegsseite auf das Auswahlsymbol, ![](assets/menu-icon.png) um das Pulldown-Menü aufzurufen.
 
    ![](assets/experience-cloud-core-services.png)
 
