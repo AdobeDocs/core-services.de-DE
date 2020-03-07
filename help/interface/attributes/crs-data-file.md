@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -133,7 +133,7 @@ Die gleiche Datei in einem Texteditor:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Verlaufsdaten </p> </td> 
-   <td colname="col2"> <p> Kundenattribute sind an das zugrunde liegende Besucherprofil in Analytics gebunden. So sind Kundenattribute über die gesamte Lebensdauer des Besucherprofils in Analytics hinweg mit dem Besucher verknüpft. Dies beinhaltet ein Verhalten, das auftrat, bevor sich der Besucher zum ersten Mal angemeldet hat. </p> <p> Wenn Sie die Data Warehouse-Aufstockungsmethode verwenden, sind die Daten an ein Element „post_vidid_high/low“ gebunden, das auf der Analytics-ID (AID) basiert. Wenn Sie den Experience Cloud ID-Service verwenden, sind die Daten an ein Element „post_visid_high/low“ gebunden, das auf der Experience Cloud ID (MID) basiert. </p> </td> 
+   <td colname="col2"> <p> Kundenattribute sind an das zugrunde liegende Besucherprofil in Analytics gebunden. So sind Kundenattribute über die gesamte Lebensdauer des Besucherprofils in Analytics hinweg mit dem Besucher verknüpft. Dies beinhaltet ein Verhalten, das auftrat, bevor sich der Besucher zum ersten Mal angemeldet hat. </p> <p> Wenn Sie die Data Warehouse-Aufstockungsmethode verwenden, sind die Daten an ein Element „post_vidid_high/low“ gebunden, das auf der Analytics-ID (AID) basiert. Wenn Sie den Experience Cloud ID-Dienst verwenden, sind die Daten an eine post_visid_high/low-Datei gebunden, die auf Experience Cloud ID (MID) basiert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datenfeeds </p> </td> 
@@ -162,6 +162,6 @@ Visitor.setCustomerIDs({
 
 (Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungszustände)](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html).
 
-In der **[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Personen]** &gt; **[!UICONTROL Kundenattribute]**:
+In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
 Erstellen Sie mithilfe eindeutiger Alias-IDs, die den obigen Kunden-IDs entsprechen, zwei Kundenattributquellen. Durch die Verwendung dieser Methode kann dieselbe Referenz-ID an verschiedene Kundenattributquellen gesendet werden.
