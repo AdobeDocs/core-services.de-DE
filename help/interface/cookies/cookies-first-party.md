@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb4d346d07e1625e95e3737230f03a02b45afb2
+source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 ---
 
@@ -24,7 +24,7 @@ Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfüg
 * Der ID-Dienst von Experience Platform. Der ID-Dienst kann das Cookie im Erstanbieterkontext mit JavaScript setzen.
 * DNS-Einträge auf dem DNS-Server Ihres Unternehmens, um einen CNAME-Alias für eine von Adobe gehostete Domäne zu konfigurieren. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn der Kunde mehrere Domänen kontrolliert, kann er einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Da dies jedoch Drittanbieter-Cookies für alle Domänen außerhalb der CNAME-Domäne erfordert, funktioniert dies nicht, wenn Drittanbieter-Cookies blockiert werden und wird daher nicht empfohlen. Adobe-CNAMEs werden nie zur Verfolgung von Einzelpersonen oder Geräten über Domänen verschiedener Kunden hinweg verwendet.
 
-Selbst bei Verwendung der ersten Option mit dem Experience Cloud ID-Dienst macht Apple's ITP die Erstanbieter-Cookies kurzlebig, sodass sie am besten zusammen mit der zweiten Option verwendet werden.
+Selbst bei Verwendung der ersten Option mit dem Experience Cloud ID-Dienst macht Apple&#39;s ITP die Erstanbieter-Cookies kurzlebig, sodass sie am besten zusammen mit der zweiten Option verwendet werden.
 
 Bei der zweiten Option mit einem CNAME können Sie, wenn Ihre Site sichere Seiten mit dem `https:` Protokoll verwendet, mit Adobe zusammenarbeiten, um ein SSL-Zertifikat zu erhalten, um Erstanbieter-Cookies zu implementieren. Adobe empfiehlt dringend, ausschließlich HTTPS für die Datenerfassung zu verwenden, da die Unterstützung für die HTTP-Erfassung in der zweiten Jahreshälfte 2020 eingestellt wird.
 
