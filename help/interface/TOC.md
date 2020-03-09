@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -34,12 +34,11 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [Wie sich Veränderungen bei der Unterstützung von Drittanbieter-Cookies auf Kunden auswirken](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
    + [Verwalten von Benutzern und Produkten der Experience Cloud (Admin-Konsole)](admin-getting-started/admin-getting-started.md)
-   + [Details zu Experience Cloud-Benutzern anzeigen (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Ansicht Experience Cloud-Benutzerdetails (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Häufig gestellte Fragen](admin-getting-started/faq.md)
    + [Anmelden und Profileinstellungen verwalten](admin-getting-started/getting-started-experience-cloud.md)
    + [Organisationen und Kontoverknüpfung](admin-getting-started/organizations.md)
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-   + [Inhalte einbetten](admin-getting-started/oembed.md)
 + Experience Cloud Activation {#activation}
    + [Übersicht über Activation](activation/activation.md)
    + [Launch-Benutzerhandbuch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
@@ -55,7 +54,7 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [Deaktivierung der Synchronisierung freigegebener Ordner](experience-cloud-assets/t-disable-asset-sync.md)
    + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
-+ Zielgruppen in Experience Cloud {#audiences}
++ Audiencen in Experience Cloud {#audiences}
    + [Überblick über Zielgruppen](audience-library/audience-library.md)
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
@@ -70,8 +69,8 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
    + [Schema aktualisieren](attributes/t-update-schema.md)
    + [Überlegungen zum Datenschutz – Kundenattribute](attributes/privacy-mac.md)
 + Angebotsverwaltung {#offer-management}
-   + [Erste Schritte mit Angebotsverwaltung](offer-management/getting-started.md)
-   + [Arbeitsablauf für Angebotsverwaltung](offer-management/offer-management-workflow.md)
+   + [Erste Schritte mit Angebot-Management](offer-management/getting-started.md)
+   + [Arbeitsablauf für die Angebot-Verwaltung](offer-management/offer-management-workflow.md)
    + [Angebote](offer-management/offers.md)
    + [Bezeichnungen](offer-management/labels.md)
    + [Platzierungen](offer-management/placements.md)
