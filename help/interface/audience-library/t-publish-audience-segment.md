@@ -2,7 +2,7 @@
 title: Veröffentlichen eines Analytics-Zielgruppensegments
 description: Für Ihre Zielgruppen-Marketingaktivitäten müssen Sie ein Analytics-Zielgruppensegment in der Experience Cloud und in Adobe Target veröffentlichen.
 translation-type: tm+mt
-source-git-commit: 83e70059c9b7c0ef606b14d145b450481ba5c38c
+source-git-commit: 3261248dba00440f12fbd10bd2549ff379d6f06b
 
 ---
 
@@ -13,18 +13,20 @@ Für Ihre Zielgruppen-Marketingaktivitäten müssen Sie ein Analytics-Zielgruppe
 
 Anweisungen hierzu finden Sie in der Dokumentation [zu](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) Adobe Analytics.
 
-<!-->1.  In Analytics, [build a segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
-1. Aktivieren Sie in Segment Builder die Option **[!UICONTROL Publish this segment to the Experience Cloud]**.
+<!--
+1.  In Analytics, [build a segment](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+1.  On the Segment Builder, enable the **[!UICONTROL Publish this segment to the Experience Cloud]** option.
 
-   ![](assets/ec_audience_example.png)
+    ![](assets/ec_audience_example.png) 
 
-   | Element | Beschreibung |
-   |--- |---|
-   | Publish this segment to the Experience Cloud (für &lt;Name der Report Suite>) | Veröffentlicht dieses Segment in Experience Cloud. Sie können die Zielgruppe für Marketing- und Segmentierungsaktivitäten in Adobe Target, Audience Manager, Advertising Cloud, Campaign und Audience Analytics verwenden.<br>Die Felder „Titel“ und „Beschreibung“ sind für die Veröffentlichung des Segments erforderlich.<br>Wenn diese Option deaktiviert ist, werden zwar Titel und Definition des Zielgruppensegments freigegeben, die eigentlichen Daten jedoch nicht. Wenn die Zielgruppe einer Aktivität in Target zugewiesen wird, beginnt Analytics damit, IDs für Besucher zu senden, die sich für diese Experience Cloud- und Target-Zielgruppe qualifizieren. Ab diesem Zeitpunkt werden der Zielgruppenname und die zugehörigen Daten auf der Experience Cloud Audiences-Seite angezeigt.<br>Zielgruppen, die von der Experience Cloud und Analytics gemeinsam verwendet werden, dürfen nicht mehr als 20 Millionen Zielgruppen-Mitglieder umfassen.<br>Aufgrund der Caching-Funktion wird die Löschung von Report Suites in Analytics erst nach 12 Stunden durch Experience Cloud übernommen.<br>Um ein in Experience Cloud veröffentlichtes Segment zu löschen, müssen Sie zuerst die Veröffentlichung rückgängig machen. Um die Veröffentlichung eines Segments rückgängig zu machen, **deaktivieren Sie einfach das Kontrollkästchen**, das Sie zum Veröffentlichen aktiviert haben. Sie können die Veröffentlichung eines Segments **nicht** rückgängig machen, das aktuell von einer der folgenden Adobe-Lösungen verwendet wird: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (für Kunden von [!DNL Core Service] und [!DNL Audience Manager]) und alle anderen externen Partner (für Kunden von [!DNL Audience Manager]). Die Veröffentlichung eines Segments, das von [!DNL Target] verwendet wird, **kann** rückgängig gemacht werden.<br>Wenn ein Besucher in die in Analytics freigegebene Zielgruppe aufgenommen wird, ist diese Information erst mit einer Verzögerung von 24 bis 48 Stunden in Target, Advertising Cloud und Campaign verfügbar.<br>**Datenschutz **<br>Zielgruppen werden nicht nach dem Authentifizierungsstatus der Besucher gefiltert. Wenn Besucher Ihre Site sowohl authentifiziert als auch nicht authentifiziert anzeigen können, kann eine Aktion, die ein nicht authentifizierter Benutzer durchführt, dennoch dazu führen, dass der Besucher in die Zielgruppe aufgenommen wird. Welche Implikationen die Zielgruppenfreigabe auf den Datenschutz hat, lesen Sie unter[Übersicht über den Datenschutz in Analytics](https://docs.adobe.com/help/en/analytics/technotes/privacy-overview.html). |
-   | Fenster für Zielgruppenerstellung auswählen | Beachten Sie, dass es sich um ein **rollierendes** Zeitfenster und kein festgelegtes Zeitfenster handelt. |
+    | Element | Description |
+    |--- |---|
+    |Publish this segment to the Experience Cloud (for &lt;report suite name&gt;)|Publishes this segment to the Experience Cloud. You can use the audience for marketing and segmentation activities in Adobe Target, Audience Manager, Advertising Cloud, Campaign, and Audience Analytics.<br>The Title and Description fields are required for the segment to be published.<br>When this option is enabled, the title and audience segment definition are shared, but actual data is not. When that audience is associated with an activity in Target, Analytics begins sending IDs for visitors that qualify for that Experience Cloud and Target audience. At that point, the audience name and corresponding data begins displaying on the  Experience Cloud Audiences page.<br>Audiences shared to the Experience Cloud from Analytics cannot exceed 20 million audience members.<br>Due to caching, deleted report suites in Analytics require 12 hours before the deletion is shown in the Experience Cloud.<br>To delete a segment that has been published to the Experience Cloud, you have to unpublish it first. To unpublish a segment, just **unclick** the checkbox that you used to publish it. You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] & [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].<br>Once a visitor qualifies for the audience shared from  Analytics, there is a 24 - 48 hour delay before that information is actionable in Target, Advertising Cloud, and Campaign.<br>**Data Privacy**<br>Audiences are not filtered based on the authentication state of a visitor. If a visitor can browse your site in un-authenticated and authenticated states, actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Review [Analytics Privacy Overview](https://docs.adobe.com/help/en/analytics/technotes/privacy-overview.html) to understand the full privacy implications of audience sharing.|
+    |Select the window for audience creation|Note that this is a **rolling** time window, not a fixed one.|
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
-1. Rufen Sie [!DNL Adobe Target] auf, klicken Sie auf [!UICONTROL Zielgruppen].
-1. Suchen Sie auf der Seite [!UICONTROL Zielgruppen] die aus der Experience Cloud stammende Zielgruppe.
+1.  Click **[!UICONTROL Save]**.
+1.  Access [!DNL Adobe Target], click [!UICONTROL Audiences].
+1.  On the [!UICONTROL Audiences] page, locate the audience sourced from the Experience Cloud.
 
-   Diese Zielgruppen sind für Aktivitäten verfügbar. &lt;-->
+    These audiences are available for use in activities
+-->
