@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Häufig gestellte Fragen
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 ---
 
@@ -20,7 +20,6 @@ Fragen, die Administratoren der Experience Cloud häufig stellen, und Antworten
 
 Wenn Ihre Implementierung nicht für Hauptdienste bereitgestellt wurde, lesen Sie die den Abschnitt [Lösungen für Hauptdienste aktivieren](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in dem Folgendes beschrieben wird:
 
-
 1. [Experience Cloud beitreten und Administrator werden](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementieren des Experience Cloud ID-Diensts mithilfe des dynamischen Tag-Managers](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (oder des neuen [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Report Suites einer Experience Cloud-Organisation zuweisen](../core-services/core-services.md#concept_apg_zq2_rw)
@@ -29,9 +28,6 @@ Wenn Ihre Implementierung nicht für Hauptdienste bereitgestellt wurde, lesen Si
 1. [Überprüfung der Implementierung der Hauptdienste](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Benutzer und Produkte verwalten](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Einführung in die Hauptdienste](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
-
-
-
 
 Wenden Sie sich für weitere Unterstützung an den [Adobe-Support](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
@@ -47,7 +43,7 @@ Die Funktionen der Experience Cloud-Schnittstelle bieten Ihrem Unternehmen zus�
 
 [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 
-**Was ist *`provisioning`*?**
+**Was ist _Bereitstellung?_**
 
 Bereitstellung im Sinne der Experience Cloud bedeutet:
 
