@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: 620bd7a749080356913ab56a2fca9f4049276938
 
 ---
 
@@ -22,11 +22,11 @@ Viele Browser und Anti-Spyware-Anwendungen sind dafür ausgelegt, Cookies von Dr
 Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfügung:
 
 * Der ID-Dienst von Experience Platform. Der ID-Dienst kann das Cookie im Erstanbieterkontext mit JavaScript setzen.
-* DNS-Einträge auf dem DNS-Server Ihres Unternehmens, um einen CNAME-Alias für eine von Adobe gehostete Domäne zu konfigurieren. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn der Kunde mehrere Domänen kontrolliert, kann er einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Da dies jedoch Drittanbieter-Cookies für alle Domänen außerhalb der CNAME-Domäne erfordert, funktioniert dies nicht, wenn Drittanbieter-Cookies blockiert werden und wird daher nicht empfohlen. Adobe-CNAMEs werden nie zur Verfolgung von Einzelpersonen oder Geräten über Domänen verschiedener Kunden hinweg verwendet.
+* DNS-Einträge auf dem DNS-Server Ihrer Firma, um einen CNAME-Alias für eine von Adobe gehostete Domäne zu konfigurieren. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn der Kunde mehrere Domänen kontrolliert, kann er einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Da dies jedoch Drittanbieter-Cookies für alle Domänen außerhalb der CNAME-Domäne erfordert, funktioniert dies nicht, wenn Drittanbieter-Cookies blockiert werden und wird daher nicht empfohlen. Adobe-CNAMEs werden nie zur Verfolgung von Einzelpersonen oder Geräten über Domänen verschiedener Kunden hinweg verwendet.
 
 Selbst bei Verwendung der ersten Option mit dem Experience Cloud ID-Dienst macht Apple&#39;s ITP die Erstanbieter-Cookies kurzlebig, sodass sie am besten zusammen mit der zweiten Option verwendet werden.
 
-Bei der zweiten Option mit einem CNAME können Sie, wenn Ihre Site sichere Seiten mit dem `https:` Protokoll verwendet, mit Adobe zusammenarbeiten, um ein SSL-Zertifikat zu erhalten, um Erstanbieter-Cookies zu implementieren. Adobe empfiehlt dringend, ausschließlich HTTPS für die Datenerfassung zu verwenden, da die Unterstützung für die HTTP-Erfassung in der zweiten Jahreshälfte 2020 eingestellt wird.
+Bei der zweiten Option mit einem CNAME können Sie, wenn Ihre Site sichere Seiten mit dem `https:` Protokoll verwendet, mit Adobe zusammenarbeiten, um ein SSL-Zertifikat zu erhalten, um Erstanbieter-Cookies zu implementieren. Adobe empfiehlt dringend, dass Sie ausschließlich HTTPS für die Datenerfassung verwenden, da die Unterstützung für die HTTP-Erfassung in der zweiten Jahreshälfte 2020 eingestellt wird.
 
 Der Bereitstellungsprozess von SSL-Zertifikaten kann verwirrend und zeitraubend sein. Daher ist Adobe eine Partnerschaft mit DigiCert, einer branchenführenden Zertifizierungsstelle (CA), eingegangen und hat einen integrierten Prozess entwickelt, durch den der Kauf und die Verwaltung dieser Zertifikate automatisiert werden.
 
@@ -48,7 +48,7 @@ So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Co
 
 1. Wenn diese CNAMEs eingerichtet sind, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Produktionsservern von Adobe. Wenn Sie bereits ein Zertifikat implementiert haben, sollten Sie eine Besuchermigration erwägen, um Ihre vorhandenen Besucher zu behalten. Nachdem das Zertifikat live in die Produktionsumgebung von Adobe übermittelt wurde, können Sie Ihre Tracking-Server-Variablen gemäß den neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (http) ist, aktualisieren Sie `s.trackingServer`. Wenn die Site sicher ist (https), aktualisieren Sie beide Variablen, `s.trackingServer` und `s.trackingServerSecure`.
 
-1. Führen Sie einen Ping auf den Hostnamen durch (siehe unten).
+1. Validieren Sie die Weiterleitung von Hostnamen (siehe unten).
 
 1. Aktualisieren Sie den Implementierungscode (siehe unten).
 
@@ -79,15 +79,29 @@ Der FPC-Spezialist stellt Ihnen die konfigurierten Hostnamen bereit und gibt an,
 
 Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schritt nicht die Datensammlung und kann zu einem beliebigen Zeitpunkt nach der Aktualisierung des Implementierungscodes vorgenommen werden.
 
->[!N] Hinweis: Der Experience Cloud-Besucher-ID-Dienst bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu aktivieren. Aufgrund der jüngsten Apple ITP-Änderungen wird jedoch empfohlen, einen CNAME auch bei Verwendung des Experience Cloud ID-Diensts zuzuweisen.
+>[!NHinweis:] Der Experience Cloud-Besucher-ID-Dienst bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu aktivieren. Aufgrund kürzlich durchgeführter Apple ITP-Änderungen wird jedoch empfohlen, einen CNAME auch bei Verwendung des Experience Cloud ID-Diensts zuzuweisen.
 
-## Ping an den Hostnamen durchführen
+## Hostnamenweiterleitung überprüfen
 
-Führen Sie einen Ping an den Hostnamen durch, um eine korrekte Weiterleitung zu garantieren. Alle Hostnamen müssen auf einen Ping reagieren, um Datenverlust zu verhindern.
+Klicken Sie im Browser auf <https://sstats.adobe.com/_check>.
 
-Nachdem CNAME-Datensätze ordnungsgemäß konfiguriert wurden und Adobe die Installation des Zertifikats bestätigt hat, öffnen Sie eine Eingabeaufforderung und führen Sie einen Ping an Ihre Hostnamen durch. Verwenden von `mysite.com` als Beispiel: `ping metrics.mysite.com`
+Du solltest `SUCCESS` zurückkommen sehen. Es werden Fehler angezeigt, wenn das Zertifikat nicht erworben wurde.
 
-Wenn alles erfolgreich eingerichtet wurde, wird in etwa Folgendes zurückgegeben:
+Sie können auch [!DNL curl] als Befehlszeilenwerkzeug zur Überprüfung verwenden:
+
+1. Bei Verwendung [!DNL Windows]von &quot;curl&quot;(<https://curl.haxx.se/windows/>) installieren.
+1. Wenn der CNAME weiterhin ein Zertifikat benötigt, geben Sie `curl -k https://sstats.adobe.com/_check` in die Befehlszeile ein.
+1. Wenn das Zertifikat ausgefüllt ist, geben Sie `curl https://sstats.adobe.com/_check`ein.
+
+Du solltest `SUCCESS` zurückkommen sehen.
+
+<!-- ## Ping the hostname
+
+Ping the hostname to ensure correct forwarding. All hostnames must respond to a ping to prevent data loss.
+
+After CNAME records are properly configured, and Adobe has confirmed installation of the certificate, open a command prompt and ping your hostname(s). Using `mysite.com` as an example: `ping metrics.mysite.com`
+
+If everything is successfully set up, it will return something similar to the following:
 
 ```Pinging mysite.com.112.2o7.net [66.235.132.232] with 32 bytes of data:
 Reply from 66.235.132.232: bytes=32 time=19ms TTL=246
@@ -99,11 +113,11 @@ Ping statistics for 66.235.132.232: Packets: Sent = 4, Received = 4, Lost = 0 (0
 Approximate round trip times in milli-seconds: Minimum = 19ms, Maximum = 19ms, Average = 19ms
 ```
 
-Wenn die CNAME-Datensätze nicht korrekt eingerichtet oder nicht aktiv sind, erhalten Sie folgendes Ergebnis:
+If the CNAME records are not correctly set up or not active, it will return the following:
 
 `Ping request could not find the host. Please check the name and try again.`
 
->[!NHinweis:] Wenn Sie `https:// protocol` verwenden, reagiert der Ping erst nach dem durch den FPC-Spezialisten festgelegten Upload-Datum. Achten Sie außerdem darauf, den sicheren Hostnamen und den nicht sicheren Hostnamen zu pingen, um sicherzustellen, dass beide korrekt funktionieren, bevor Sie Ihre Implementierung aktualisieren.
+>[!Note:] If you are using `https:// protocol`, ping will only respond after the upload date specified by the FPC specialist. In addition, be sure to ping the secure hostname and non-secure hostname to ensure that both are working correctly before updating your implementation. -->
 
 ## Aktualisierung des Implementierungscodes
 
@@ -111,7 +125,7 @@ Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, 
 
 * Fordern Sie ein SSL-Zertifikat an, indem Sie die oben im Abschnitt *Implementierung* des [Adobe Managed Certificate-Programms](#adobe-managed-certificate-program)beschriebenen Schritte befolgen.
 * Erstellen Sie CNAME-Datensätze (siehe oben).
-* Ping des Hostnamens/der Hostnamen (siehe oben).
+* Validieren Sie die Hostnamen (siehe oben).
 
 Nachdem Sie geprüft haben, dass Ihr(e) Hostname(n) reagieren und die Weiterleitung an die Adobe-Datensammlungsserver funktioniert, können Sie Ihre Implementierung ändern, damit diese zu Ihren eigenen Cookie-Domains weist.
 
@@ -122,6 +136,6 @@ Nachdem Sie geprüft haben, dass Ihr(e) Hostname(n) reagieren und die Weiterleit
 
 1. Wenn Sie von einer älteren Implementierung zu Erstanbieter-Cookies wechseln oder zu einem anderen Hostnamen der Erstanbieter-Datensammlung wechseln, empfehlen wir, Besucher aus der vorherigen Domäne in die neue Domäne zu migrieren.
 
-Siehe [Besuchermigration](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) im Analytics-Implementierungshandbuch.
+Siehe Migration von [Besuchern](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) im Analytics-Implementierungshandbuch.
 
 Nachdem Sie die JavaScript-Datei hochgeladen haben, ist die Konfiguration für die Erstanbieter-Cookie-Datensammlung abgeschlossen. Es wird empfohlen, Analytics-Berichte in den nächsten Stunden zu überwachen, um sicherzustellen, dass die Datenerfassung wie üblich erfolgt. Ist dies nicht der Fall, stellen Sie sicher, dass alle oben genannten Schritte ausgeführt wurden und veranlassen Sie, dass ein unterstützter Mitarbeiter Ihrer Organisation die Kundenunterstützung kontaktiert.
