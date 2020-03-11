@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ebe537c4a0da1f24c5cd48e73ec9567d13fb30
+source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
 
 ---
 
@@ -116,18 +116,22 @@ Wenn Sie einen CNAME eingerichtet haben und das Zertifikat installiert ist, füh
 
 ### Validieren mit [!DNL nslookup]
 
-Sie können diese `nslookup` zur Überprüfung verwenden. Öffnen Sie `mysite.com`als Beispiel eine Eingabeaufforderung und geben Sie `nslookup metrics.mysite.com`
+Sie können diese `nslookup` zur Überprüfung verwenden. Öffnen Sie `sstats.adobe.com`als Beispiel eine Eingabeaufforderung und geben Sie `nslookup sstats.adobe.com`
 
 Wenn alles erfolgreich eingerichtet wurde, sehen Sie eine Rückkehr ähnlich der folgenden:
 
 ```
-nslookup metrics.mysite.com
-Server:  hiodsibxvip01.corp.adobe.com
-Address:  10.50.112.247
+nslookup sstats.adobe.com
+Server:             10.30.7.247
+Address:     10.30.7.247#53
 
-Non-authoritative answer:
-Name:    metrics.mysite.com
-Address:  64.136.20.37
+sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.218.180.161
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 52.39.8.230
+Name:  adobe.com.ssl.d1.sc.omtrdc.net
+Address: 54.187.216.46
 ```
 
 ## Aktualisierung des Implementierungscodes {#update}
