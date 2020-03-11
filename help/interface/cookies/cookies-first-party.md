@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: edbe58ffbaeadd2e223ef1567ec9060ab4073f1e
+source-git-commit: 2b44385e32752c7d80322de092d1ac230edfcd01
 
 ---
 
@@ -92,32 +92,43 @@ Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schri
 
 ## Hostnamenweiterleitung überprüfen {#validate}
 
-Sie können den Hostnamen mit <https://sstats.adobe.com/_check>überprüfen. Wenn Sie einen CNAME eingerichtet haben und das Zertifikat installiert ist, können Sie den Browser zur Überprüfung verwenden. Es wird jedoch eine Sicherheitswarnung angezeigt, wenn kein Zertifikat installiert ist.
+Die folgenden Methoden stehen zur Überprüfung zur Verfügung:
 
-**Validieren mit curl**
+**Browserüberprüfung**
 
-Adobe empfiehlt die Verwendung [!DNL curl] über die Befehlszeile. (Wenn Sie sich auf Windows befinden, müssen Sie Folgendes installieren [!DNL curl] : <https://curl.haxx.se/windows/>)
+Wenn Sie einen CNAME eingerichtet haben und das Zertifikat installiert ist, können Sie den Browser zur Überprüfung verwenden:
+
+<https://sstats.adobe.com/_check>.
+
+Hinweis: Wenn kein Zertifikat installiert ist, wird eine Sicherheitswarnung angezeigt.
+
+**Validieren mit[!DNL curl]**
+
+Adobe empfiehlt die Verwendung von [!DNL [curl](https://curl.haxx.se/)] über die Befehlszeile. ([!DNL Windows] Benutzer können Folgendes installieren [!DNL curl] : <https://curl.haxx.se/windows/>)
 
 Wenn Sie einen CNAME haben, aber kein Zertifikat installiert ist, führen Sie Folgendes aus:
 `curl -k https://sstats.adobe.com/_check`Reaktion: `SUCCESS`
 
-(**Hinweis:** Der `-k` Wert deaktiviert die Sicherheitswarnung.)
+(Der `-k` Wert deaktiviert die Sicherheitswarnung.)
 
 Wenn Sie einen CNAME eingerichtet haben und das Zertifikat installiert ist, führen Sie Folgendes aus:
-`curl https://sstats.adobe.com/_check`Reaktion: ERFOLG
+`curl https://sstats.adobe.com/_check`Reaktion: `SUCCESS`
 
-**Validieren mit nslookup**
+**Validieren mit[!DNL nslookup]**
 
-Sie können nslookup zur Überprüfung verwenden. Verwenden von `mysite.com` als Beispiel:
-
-Öffnen Sie eine Eingabeaufforderung und geben Sie `nslookup metrics.mysite.com`
+Sie können diese `nslookup` zur Überprüfung verwenden. Öffnen Sie `mysite.com`als Beispiel eine Eingabeaufforderung und geben Sie `nslookup metrics.mysite.com`
 
 Wenn alles erfolgreich eingerichtet wurde, sehen Sie eine Rückkehr ähnlich der folgenden:
 
-nslookup metrics.mysite.comServer:  hiodsibxvip01.corp.adobe.comAdresse:  10 50 112 247
+```
+nslookup metrics.mysite.com
+Server:  hiodsibxvip01.corp.adobe.com
+Address:  10.50.112.247
 
-Nicht-verbindliche Antwort:
-Name:    metrics.mysite.comAddress:  64 136 20 37
+Non-authoritative answer:
+Name:    metrics.mysite.com
+Address:  64.136.20.37
+```
 
 ## Aktualisierung des Implementierungscodes {#update}
 
