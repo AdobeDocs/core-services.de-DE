@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Kundenattribute
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ## Übersicht
 
-To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]**>**[!UICONTROL  People]** > **[!UICONTROL Customer Attributes]**
+To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Nach dem Hochladen können die Daten mit [!DNL Adobe Analytics] und [!DNL Adobe Target] verarbeitet werden.
 
@@ -29,16 +29,14 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 
 * **Gruppenmitgliedschaft:** Um Kundenattributdaten hochzuladen, müssen Benutzer Mitglieder der folgenden Gruppe sein:  [„Kundenattribute“](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Sie müssen darüber hinaus einer Adobe Analytics-Gruppe oder einer Adobe Target-Gruppe angehören.
 
-   Um herauszufinden, ob Ihr Unternehmen Zugang zu Kundenattributen hat, muss sich Ihr [!DNL Experience Cloud]-Administrator bei der [!DNL Experience Cloud] anmelden. Navigieren Sie zu **[!UICONTROL Administration]**>**[!UICONTROL  Admin Console starten]** > **[!UICONTROL Gruppen]**. Falls *Kundenattribute*als eine der Gruppen angezeigt wird, können Sie beginnen.
+   Um herauszufinden, ob Ihr Unternehmen Zugang zu Kundenattributen hat, muss sich Ihr [!DNL Experience Cloud]-Administrator bei der [!DNL Experience Cloud] anmelden. Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console starten]** > **[!UICONTROL Gruppen]**. Falls *Kundenattribute* als eine der Gruppen angezeigt wird, können Sie beginnen.
 
    Benutzer, die der Gruppe „Kundenattribute“ hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
 
-* **Target-Mbox:** Für Kundenattribute ist mbox.js Version 58 oder höher erforderlich.
+* **Adobe-Zielgruppe** [!DNL at.js] (beliebige Version) oder [!DNL mbox.js] Version 58 oder höher ist für Kundenattribute erforderlich.
 
 
-   Siehe [Implementierung von Mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)
-
-* **at.js:** Beliebige Version
+   Siehe [Bereitstellung von &quot;at.js]&quot;(https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html oder &quot; [Mbox.js&quot;-Implementierung](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
 ## What is enterprise customer data? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -48,7 +46,7 @@ Folgende Abbildung zeigt einen Ausschnitt aus einer Datendatei mit Produktabonne
 
 ![](assets/01_crs_usecase.png)
 
-Nach Erstellung der Datendatei können Sie sie in eine Kundenattributquelle hochladen, die Sie über **[!UICONTROL Experience Cloud]**>**[!UICONTROL  Kundenattribute]** erstellt haben.
+Nach Erstellung der Datendatei können Sie sie in eine Kundenattributquelle hochladen, die Sie über **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundenattribute]** erstellt haben.
 
 Weitere Informationen zu diesem Arbeitsablauf finden Sie unter [Hochladen von Kundenattributdaten](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
