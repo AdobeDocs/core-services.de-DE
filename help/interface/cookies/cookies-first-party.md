@@ -8,7 +8,7 @@ title: Erstanbieter-Cookies
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -88,6 +88,7 @@ Der FPC-Spezialist stellt Ihnen die konfigurierten Hostnamen bereit und gibt an,
 Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schritt nicht die Datensammlung und kann zu einem beliebigen Zeitpunkt nach der Aktualisierung des Implementierungscodes vorgenommen werden.
 
 >[!NHinweis:]
+>
 >Der Experience Cloud-Besucher-ID-Dienst bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu aktivieren. Aufgrund kürzlich durchgeführter Apple ITP-Änderungen wird jedoch empfohlen, einen CNAME auch bei Verwendung des Experience Cloud ID-Diensts zuzuweisen.
 
 ## Hostnamenweiterleitung überprüfen {#validate}
@@ -100,7 +101,9 @@ Wenn Sie einen CNAME eingerichtet haben und das Zertifikat installiert ist, kön
 
 `https://sstats.adobe.com/_check`
 
-**Hinweis:** Wenn kein Zertifikat installiert ist, wird eine Sicherheitswarnung angezeigt.
+>[!NHinweis:]
+>
+>Wenn kein Zertifikat installiert ist, wird eine Sicherheitswarnung angezeigt.
 
 ### Validieren mit [!DNL curl]
 
