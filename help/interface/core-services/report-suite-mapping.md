@@ -5,7 +5,7 @@ seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -65,19 +65,22 @@ Wird der Besucher-ID-Dienst bisher noch nicht auf Sites eingesetzt, auf denen di
 
 Dieser Umstand zeigt an, dass Sie nicht über die für eine Zuweisung der ausgegrauten Report Suite notwendigen Zugriffsrechte verfügen. Siehe folgendes Beispiel:
 
-![](assets/rs-mapping.png) In dieser Darstellung zeigt der blaue Schlüssel an, dass der Benutzer über Administratorrechte verfügt. Die graue Linie steht für die Sichtbarkeit.
+
+![](assets/rs-mapping.png)
+
+ In dieser Darstellung zeigt der blaue Schlüssel an, dass der Benutzer über Administratorrechte verfügt. Die graue Linie steht für die Sichtbarkeit.
 
 Dieser Benutzer hat Zugriff auf zwei Experience Cloud-Organisationen. Er hat Folgendes unternommen:
 
-* Er hat sein Administratorenkonto für die Analytics-Unternehmensanmeldung „chapek“ mit dem Experience Cloud-Organisationskonto der Chapek Corp verknüpft.
-* Er hat sein Konto ohne Administratorrechte für die Analytics-Unternehmensanmeldung „doohan“ mit dem Experience Cloud-Organisationskonto der Chapek Corp verknüpft.
+* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
+* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
 * Er hat sein Konto ohne Administratorrechte für die Analytics-Unternehmensanmeldung „nigel“ mit dem Experience Cloud-Organisationskonto der Nigel Inc verknüpft.
 
 Im Folgenden wird beschrieben, welche Zuweisungen der Benutzer für die Report Suites vornehmen kann und welche nicht:
 
-* Die Report Suite „chapek-prod“ kann der Organisation „Chapek Corp“ zugewiesen werden, da der Benutzer ein Administrator einer verknüpften Analytics-Unternehmensanmeldung (chapek) ist und sein Konto mit der Organisation verknüpft wurde.
-* Die Report Suite „nigel-prod“ kann vom Benutzer nicht zugewiesen werden, da er kein Administrator einer Unternehmensanmeldung ist, für die die Report Suite sichtbar wäre.
-* Die Report Suite „doohan-prod“ kann Chapek Corp zugewiesen werden, da der Benutzer Administrator einer Unternehmnsnameldung (chapek) ist, die mit der Experience Cloud-Organisation verknüpft wurde (beachten Sie, dass der Benutzer nicht Administrator der Analytics-Unternehmensanmeldung „doohan“ ist). Bedenken Sie, dass die Report Suite „doohan-prod“ auch der Experience Cloud-Organisation Nigel Inc zugewiesen werden kann, auch wenn der aktuell angemeldete Benutzer diese Zuweisung nicht vornehmen darf. In diesem Fall erscheinen beide Experience Cloud-Organisationen in der Liste, Nigel Inc wird jedoch ausgegraut. Vor der Zuordnung sollte sich der Benutzer mit einem Administrator der Unternehmensanmeldung „nigel“ in Verbindung setzen, um mit ihm zu besprechen, welche Organisation für die Zuweisung am besten geeignet ist. In der Benutzeroberfläche wird eine Warnmeldung über einen möglichen Konflikt angezeigt, wenn ein Benutzer eine Organisation auswählt, die nicht diejenige Organisation ist, unter der die Report Suite ursprünglich erstellt wurde.
+* [!UICONTROL Die Chapek-prod] Report Suite kann [!UICONTROL Chapek] Corp Org zugeordnet werden, da dieser Benutzer Administrator einer verknüpften Analytics-Anmelde-Firma ([!UICONTROL chapek]) ist und sein Konto mit dieser Organisation verknüpft ist.
+* [!UICONTROL Die Report Suite „nigel-prod“ kann vom Benutzer nicht zugewiesen werden, da er kein Administrator einer Unternehmensanmeldung ist, für die die Report Suite sichtbar wäre.]
+* [!UICONTROL Doohan-prod] Report Suite kann [!UICONTROL Chapek Corp] zugeordnet werden, da dieser Benutzer Administrator einer Anmelde-Firma ([!UICONTROL chapek]) ist, die mit der Experience Cloud-Organisation verknüpft ist (beachten Sie, dass er kein Administrator der Analytics-Anmelde-Firma ist). It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. Vor der Zuordnung sollte sich der Benutzer mit einem Administrator der Unternehmensanmeldung „nigel“ in Verbindung setzen, um mit ihm zu besprechen, welche Organisation für die Zuweisung am besten geeignet ist. In der Benutzeroberfläche wird eine Warnmeldung über einen möglichen Konflikt angezeigt, wenn ein Benutzer eine Organisation auswählt, die nicht diejenige Organisation ist, unter der die Report Suite ursprünglich erstellt wurde.
 
 ## Häufig gestellte Fragen {#section_099E485805994C929FF9C9F75219BEE1}
 
