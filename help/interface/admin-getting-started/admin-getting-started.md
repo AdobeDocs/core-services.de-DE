@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: b6bd75d92ce96e852a6e548362988a9b4d529fb9
+source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
 
 ---
 
@@ -24,9 +24,7 @@ Erfahren Sie mehr über die Anmeldung bei der Admin-Konsole, die Verwaltung der 
 
 Lernen Sie die neuesten Funktionen der Experience Cloud-Benutzerverwaltung kennen.
 
-<!--
-
-### Business ID type
+<!-- ### Business ID type
 
 Adobe is now introducing a new identity type: **Business ID**. This identity type, improves the control of user and product management, and content, while increasing the flexibility of Experience Cloud and Creative Cloud storage usage among your team. With the introduction of this new identity type, Adobe is migrating all Adobe IDs (owned by the individual) used for business to the new Business IDs (owned by the organization).
 
@@ -37,8 +35,7 @@ Beginning May 89, 2020, enterprise admins cannot use the Adobe ID for new organi
 What to do
 
 * Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.)
--->
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
 
 ### Admin-Tool
 
@@ -120,7 +117,7 @@ See [Users and Permissions](https://docs.adobe.com/content/help/en/dtm/using/adm
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Erstellen Sie Audience Manager-Benutzer und weisen Sie sie Gruppen zu. Sie können auch Einschränkungen für die Ansicht festlegen (Eigenschaften, Segmente, Ziele und AlgoModel).
+Erstellen Sie Audience Manager-Benutzer und weisen Sie sie Gruppen zu. Sie können auch Einschränkungen für Ansichten (Eigenschaften, Segmente, Ziele und AlgoModel) festlegen.
 
 Siehe [Administration](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) in der Hilfe zu Audience Manager.
 
