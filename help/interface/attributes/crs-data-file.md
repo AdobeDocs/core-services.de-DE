@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
 
 Datendateianforderungen und mehrere Datenquellen für das Hochladen von Kundenattributen in der Experience Cloud.
 
-Sie benötigen Zugriff auf CRM- oder ähnliche Daten aus Ihrem Unternehmen. Die in die Experience Cloud hochzuladenden Daten müssen im `.csv`-Format vorliegen. Wenn das Upload über FTP oder sFTP erfolgt, wird auch eine `.fin`-Datei hochgeladen.
+Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen. Die in die Experience Cloud hochzuladenden Daten müssen im `.csv`-Format vorliegen. Wenn das Upload über FTP oder sFTP erfolgt, wird auch eine `.fin`-Datei hochgeladen.
 
 Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
 
@@ -35,7 +35,7 @@ Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. aus Excel). Dies ist die Datei mit den Kundenattributdaten. </p> <p> <b>Namensanforderungen:</b> Die Dateinamenserweiterung darf keine Leerstellen enthalten. </p> </td> 
+   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. in Excel). Diese Datei enthält die Kundenattributdaten. </p> <p> <b>Namensanforderungen:</b> Stellen Sie sicher, dass die Dateinamenerweiterungen keine Leerzeichen enthalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -53,19 +53,19 @@ Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um
 
 
 
-**Beispiel für die .csv-Datei**
+**Beispiel-CSV**
 
-Die .csv-Datei muss folgendes Format haben:
+Die CSV-Datei muss das folgende Format aufweisen:
 
 Beispiel-CSV:
 
 ![](assets/cvs.png)
 
-Die gleiche Datei in einem Texteditor:
+Die gleiche Datei, die in einem Texteditor angezeigt wurde:
 
 ![](assets/csv_txt.png)
 
-**Richtlinien**
+**Leitlinien**
 
 <table id="table_A9849CC9AA784763921DE057F0F61515"> 
  <thead> 
@@ -76,38 +76,38 @@ Die gleiche Datei in einem Texteditor:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Drag-and-Drop </p> </td> 
-   <td colname="col2"> <p>Per Drag-and-Drop hochgeladene Dateien sollten kleiner als 100 MB sein. </p> <p>Beim Upload mittels Drag-and-Drop ist keine <span class="filepath">.fin</span>-Datei erforderlich. </p> </td> 
+   <td colname="col1"> <p>Drag &amp; Drop </p> </td> 
+   <td colname="col2"> <p>Die Drag &amp; Drop-Datei sollte weniger als 100 Megabytes betragen. </p> <p>Beim Upload mittels Drag-and-Drop ist keine <span class="filepath">.fin</span>-Datei erforderlich. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Spalte mit Kunden-ID </p> </td> 
-   <td colname="col2"> <p> Die erste Spalte muss eine Unique Customer-ID enthalten. Die verwendete ID muss mit der an den Experience Cloud ID-Dienst übergebenen ID übereinstimmen. </p> <p>Bei Analytics die in einer prop oder eVar gespeicherte ID. </p> <p>Bei Target der Wert von setCustomerID. (Siehe <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local">Analytics und Target – Synchronisieren der Kunden-ID</a>) </p> <p> Diese Kunden-ID stellt den eindeutigen Bezeichner dar, den Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Alle anderen Spalten enthalten Attribute aus Ihrem CRM-System. Sie selbst legen fest, wie viele Attribute hochgeladen werden. </p> <p>Als Spaltentitel werden aussagekräftige, gut lesbare Namen empfohlen, allerdings ist dies keine Voraussetzung. Auch bei der Prüfung des Schemas nach dem Upload können Sie den hochgeladenen Zeilen und Spalten noch Anzeigenamen zuordnen. </p> <p> <b>Informationen zu Kunden-IDs</b> </p> <p>Für gewöhnlich verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph">setCustomerIDs</span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in die Experience Cloud hochgeladen wird. Eine <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Alias zu diesem Datenspeicher (über „setCustomerIDs“). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen zu <span class="codeph">setCustomerIDs</span> finden Sie unter <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">Kunden-IDs und Authentifizierungszustände</a>. </p> </td> 
+   <td colname="col2"> <p> Die erste Spalte muss eine eindeutige Kunden-ID sein. Die verwendete ID muss der ID entsprechen, die an den Experience Cloud ID-Dienst übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Zielgruppe: Der Wert setCustomerID. (See <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie können festlegen, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen, die jedoch nicht erforderlich sind. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Informationen zu Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph">setCustomerIDs</span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in die Experience Cloud hochgeladen wird. An <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias ID </a> is a friendly name for a data store in Audience Manager, where the alias data is stored. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen zu <span class="codeph">setCustomerIDs</span> finden Sie unter <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external">Kunden-IDs und Authentifizierungszustände</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Weitere Spaltentitel bzw. Spalten </p> </td> 
-   <td colname="col2"> <p>Die Titel aller weiteren Spalten sollten den Namen des jeweiligen Attributs angeben. </p> <p> Diese Spalten sollten die Kundenattribute aus Ihrem CRM-System enthalten. </p> </td> 
+   <td colname="col1"> <p>Nachfolgende Überschriften und Spalten </p> </td> 
+   <td colname="col2"> <p>Die nachfolgenden Überschriften sollten den Namen der einzelnen Attribute darstellen. </p> <p> Diese Spalten sollten Kundenattribute enthalten, die aus dem CRM-System stammen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Zulässige Anzahl an Attributen </p> </td> 
-   <td colname="col2"> <p>Sie können Hunderte von <span class="filepath">CSV</span>-Spalten für den Kundenattributdienst in die Experience Cloud hochladen. Bei der Konfiguration von Abonnements und der Auswahl von Attributen gelten jedoch die folgenden Einschränkungen, abhängig von den Lösungen, die Sie besitzen: </p> <p> 
+   <td colname="col1"> <p>Attributbegrenzungen </p> </td> 
+   <td colname="col2"> <p>Sie können Hunderte von <span class="filepath">CSV</span>-Spalten für den Kundenattributdienst in die Experience Cloud hochladen. Bei der Konfiguration von Abonnements und der Auswahl von Attributen gelten jedoch die folgenden Einschränkungen je nach den Lösungen, die Sie besitzen: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
-      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: insgesamt 3 Attribute </li> 
+      <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 3 insgesamt </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 pro Report Suite </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Target Standard:</b> 5 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium:</b> 200 </li> 
+      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Zielgruppe Standard:</b> 5 </li> 
+      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Zielgruppe Premium:</b> 200 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Zulässige Anzahl Zeilen </p> </td> 
-   <td colname="col2"> <p>Die Anzahl der Zeilen ist unbegrenzt bzw. es ist keine Grenze bekannt. </p> </td> 
+   <td colname="col1"> <p>Zeilenbegrenzungen </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Zeilen ist unbekannt. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Zulässige Anzahl an Spalten </p> </td> 
-   <td colname="col2"> <p>Aus praktischen Gründen sollten Sie sich auf etwa 200 Spalten beschränken. </p> </td> 
+   <td colname="col1"> <p>Spaltengrenzen </p> </td> 
+   <td colname="col2"> <p>Die Anzahl der Spalten sollte aus praktischen Gründen auf etwa 200 begrenzt werden. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Längenbeschränkungen </p> </td> 
-   <td colname="col2"> <p>Wenn Sie ein Analytics-Abonnement erstellen, sind die Längen der Felder für hochgeladene Dateien auf 255 Zeichen beschränkt. </p> </td> 
+   <td colname="col1"> <p>Zeichenbeschränkungen </p> </td> 
+   <td colname="col2"> <p>Beim Erstellen eines Analytics-Abonnements werden die Feldlängen für die hochgeladenen Dateien auf 255 gekürzt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>FTP-Richtlinien und Größenbeschränkungen </p> </td> 
@@ -117,11 +117,11 @@ Die gleiche Datei in einem Texteditor:
       <li>Die minimale Dateigröße für jeden Upload-Vorgang ist 10 MB. </li>
       <li>Sie können jede halbe Stunde eine Datei hochladen. </li>
       <li id="li_B69A20C51D824727AA99C1F6F78537A4"> Sie sollten Ihre <span class="filepath">.csv</span>-Datei (und auch die <span class="filepath">.fin</span>-Datei) im Stammordner der FTP-Site ablegen. </li> 
-     </ul> </p> <p> <p>Wichtig: Der zulässige Gesamtspeicherplatz für das FTP-Konto beträgt 40 GB. Es liegt in Ihrer Verantwortung, die verarbeiteten Dateien zu löschen. </p> </p> </td> 
+     </ul> </p> <p> <p>Wichtig: Der zulässige Gesamtspeicherplatz für das FTP-Konto beträgt 40 GB. Es liegt in Ihrer Verantwortung, verarbeitete Dateien zu löschen. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Dateivoraussetzungen </p> </td> 
-   <td colname="col2"> <p> Jede Attributquelle sollte die gleiche Anzahl kommagetrennter Felder enthalten. </p> <p> Felder mit Zeilenumbrüchen, doppelten Anführungszeichen oder Kommas müssen in Anführungszeichen stehen. </p> <p> Doppelten Anführungszeichen in einem Feld muss als Escape-Zeichen ein umgekehrter Schrägstrich (\) vorangestellt werden. </p> <p> Leere Spalten werden als <span class="term">null</span>. </p> </td> 
+   <td colname="col1"> <p>Dateianforderungen </p> </td> 
+   <td colname="col2"> <p> Jede Attributquelle sollte dieselbe Anzahl kommagetrennter Felder enthalten. </p> <p> Felder mit Zeilenumbruch, Anführungszeichen oder Kommas müssen in Anführungszeichen gesetzt werden. </p> <p> Dubletten-Anführungszeichen in einem Feld müssen mit einem umgekehrten Schrägstrich (\) gekennzeichnet werden. </p> <p> Leere Spalten werden als <span class="term">null</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mehrere Dateien </p> </td> 
@@ -129,15 +129,15 @@ Die gleiche Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zeichenkodierung </p> </td> 
-   <td colname="col2"> <p>Für Japanisch ist die UTF-8-Zeichenkodierung obligatorisch. </p> </td> 
+   <td colname="col2"> <p>Für Japan ist UTF-8 obligatorisch. </p> </td> 
   </tr> 
    <tr> 
-   <td colname="col1"> <p>Verlaufsdaten </p> </td> 
-   <td colname="col2"> <p> Kundenattribute sind an das zugrunde liegende Besucherprofil in Analytics gebunden. So sind Kundenattribute über die gesamte Lebensdauer des Besucherprofils in Analytics hinweg mit dem Besucher verknüpft. Dies beinhaltet ein Verhalten, das auftrat, bevor sich der Besucher zum ersten Mal angemeldet hat. </p> <p> Wenn Sie die Data Warehouse-Aufstockungsmethode verwenden, sind die Daten an ein Element „post_vidid_high/low“ gebunden, das auf der Analytics-ID (AID) basiert. Wenn Sie den Experience Cloud ID-Dienst verwenden, sind die Daten an eine post_visid_high/low-Datei gebunden, die auf Experience Cloud ID (MID) basiert. </p> </td> 
+   <td colname="col1"> <p>Historische Daten </p> </td> 
+   <td colname="col2"> <p> Kundenattribute sind an das zugrunde liegende Besucher-Profil in Analytics gebunden. Kundenattribute werden daher während der gesamten Laufzeit des Besucher-Profils in Analytics mit dem Besucher verknüpft. Dies umfasst das Verhalten, das vor der erstmaligen Anmeldung des Kunden aufgetreten ist. </p> <p> Wenn Sie die Data Warehouse-Methode zum Aufstocken verwenden, sind die Daten an eine post_visid_high/low gebunden, die auf der Analytics-ID (AID) basiert. Wenn Sie den Experience Cloud ID-Dienst verwenden, sind die Daten an eine post_visid_high/low-Datei gebunden, die auf Experience Cloud ID (MID) basiert. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datenfeeds </p> </td> 
-   <td colname="col2"> <p>Kundenattribute sind nicht in Datenfeeds verfügbar. </p> </td> 
+   <td colname="col2"> <p>Kundenattribute sind in Datenfeeds nicht verfügbar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -145,11 +145,11 @@ Die gleiche Datei in einem Texteditor:
 
 ## Nutzen mehrerer Datenquellen {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es ca. eine Stunde, bis die IDs mit der neuen Datenquelle synchronisiert werden.
+Beim Erstellen, Ändern oder Löschen von Kundenattributquellen gibt es eine Verzögerung von etwa einer Stunde, bevor die IDs mit der neuen Datenquelle synchronisiert werden.
 
-Die Alias-ID für jede Kundenattributquelle muss eindeutig sein. Wenn Sie über mehrere Datenquellen verfügen, die dieselbe ID verwenden, müssen Sie sie wie folgt einrichten:
+Die Alias-ID für jede Kundenattributquelle muss eindeutig sein. Wenn Sie über mehrere Datenquellen verfügen, die dieselbe ID verwenden, sollten diese wie folgt eingerichtet werden:
 
-**In VisitorAPI.js oder dem Experience Cloud ID-Tool im Dynamic Tag Management:**
+**In VisitorAPI.js oder dem Experience Cloud ID-Tool im dynamischen Tag-Management:**
 
 Legen Sie zwei Kunden-IDs fest, die mit den entsprechenden Datenquellen übereinstimmen:
 
@@ -164,4 +164,4 @@ Visitor.setCustomerIDs({
 
 In the **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-Erstellen Sie mithilfe eindeutiger Alias-IDs, die den obigen Kunden-IDs entsprechen, zwei Kundenattributquellen. Durch die Verwendung dieser Methode kann dieselbe Referenz-ID an verschiedene Kundenattributquellen gesendet werden.
+Erstellen Sie zwei Kundenattributquellen mit eindeutigen Alias-IDs, die den Kunden-IDs oben entsprechen. Mithilfe dieser Methode kann dieselbe Referenz-ID an mehrere Kundenattributquellen gesendet werden.
