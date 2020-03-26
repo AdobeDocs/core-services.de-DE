@@ -1,34 +1,34 @@
 ---
-description: Der Schutz der Kundendaten und die Datensicherheit sind oberste Priorität bei Adobe. Adobe ist Mitglied in diversen Datenschutzorganisationen und arbeitet mit den entsprechenden Regulierungsbehörden zusammen. Gleichzeitig setzt Adobe Vorschriften zur Selbstregulierung (wie das Digital Advertising Alliance AdChoice-Programm) um und informiert Kunden darüber, wie ihre Daten verwendet werden und welche Optionen ihnen hinsichtlich der Nutzung zur Wahl stehen.
-keywords: Cookies, Datenschutz
-seo-description: Der Schutz der Kundendaten und die Datensicherheit sind oberste Priorität bei Adobe. Adobe ist Mitglied in diversen Datenschutzorganisationen und arbeitet mit den entsprechenden Regulierungsbehörden zusammen. Gleichzeitig setzt Adobe Vorschriften zur Selbstregulierung (wie das Digital Advertising Alliance AdChoice-Programm) um und informiert Kunden darüber, wie ihre Daten verwendet werden und welche Optionen ihnen hinsichtlich der Nutzung zur Wahl stehen.
+description: Die Wahrung der Privatsphäre und die Datensicherheit der Kunden sind bei Adobe oberste Priorität. Adobe arbeitet mit Datenschutzbehörden und Selbstregulierungsgrundsätzen (wie dem Digital Advertising Alliance AdChoices Programm) zusammen, um Kunden Informationen über die Verwendung ihrer Informationen und die Wahl ihrer Verwendung zu liefern.
+keywords: cookies;privacy
+seo-description: Die Wahrung der Privatsphäre und die Datensicherheit der Kunden sind bei Adobe oberste Priorität. Adobe arbeitet mit Datenschutzbehörden und Selbstregulierungsgrundsätzen (wie dem Digital Advertising Alliance AdChoices Programm) zusammen, um Kunden Informationen über die Verwendung ihrer Informationen und die Wahl ihrer Verwendung zu liefern.
 seo-title: Informationen über Cookies und Datenschutz
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Informationen über Cookies und Datenschutz
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
 # Informationen über Cookies und Datenschutz{#about-cookies-and-privacy}
 
-Der Schutz der Kundendaten und die Datensicherheit sind oberste Priorität bei Adobe. Adobe ist Mitglied in diversen Datenschutzorganisationen und arbeitet mit den entsprechenden Regulierungsbehörden zusammen. Gleichzeitig setzt Adobe Vorschriften zur Selbstregulierung (wie das Digital Advertising Alliance AdChoice-Programm) um und informiert Kunden darüber, wie ihre Daten verwendet werden und welche Optionen ihnen hinsichtlich der Nutzung zur Wahl stehen.
+Die Wahrung der Privatsphäre und die Datensicherheit der Kunden sind bei Adobe oberste Priorität. Adobe arbeitet mit Datenschutzbehörden und Selbstregulierungsgrundsätzen (wie dem Digital Advertising Alliance AdChoices Programm) zusammen, um Kunden Informationen über die Verwendung ihrer Informationen und die Wahl ihrer Verwendung zu liefern.
 
-Die meisten von Produkten von Experience Cloud gesetzten Cookies enthalten keine Daten, durch die eine persönliche Identifizierung möglich wäre. Diese Cookies und zugehörige Daten sind sicher und werden nur für die Berichte in Ihrem Unternehmen sowie zur Bereitstellung relevanter Inhalte und Werbeanzeigen genutzt. Die Daten werden nicht an Drittanbieter oder andere Kunden von Adobe weitergegeben, es sei denn in aggregierter Form für Branchenberichte. Beispielsweise werden im [!DNL Digital Marketing Insight Report] aggregierte und anonyme Daten mehrerer Einzelhändler analysiert.
+Die meisten von Experience Cloud-Produkten eingestellten Cookies enthalten keine personenbezogenen Informationen. Diese Cookies und zugehörige Daten sind sicher und werden nur für die Berichte in Ihrem Unternehmen sowie zur Bereitstellung relevanter Inhalte und Werbeanzeigen genutzt. Die Daten werden nicht an Drittanbieter oder andere Kunden von Adobe weitergegeben, es sei denn in aggregierter Form für Branchenberichte. Beispielsweise werden im [!DNL Digital Marketing Insight Report] aggregierte und anonyme Daten mehrerer Einzelhändler analysiert.
 
-Adobe führt unternehmensübergreifend keine Informationen auf Browserebene zusammen. Zum Schutz und zur Sicherheit der Kundendaten bieten einige Dienste innerhalb von Experience Cloud Unternehmen die Möglichkeit, für jede verfolgte Seite einen separaten Satz Cookies zu verwenden. Einige der Suite-Angebote bieten Kunden außerdem die Möglichkeit, ihren eigenen Domänennamen als Inhaber des Cookies zu verwenden. Mit dieser Methode wird eine zusätzliche Datenschutz- und Sicherheitsebene geschaffen, da so die Cookies von Experience Cloud zu *Erstanbieter-Cookies* gemacht werden, die dauerhaft zur Website des Unternehmens gehören.
+Adobe führt unternehmensübergreifend keine Informationen auf Browserebene zusammen. Zum Schutz der Privatsphäre und der Sicherheit von Kundendaten können einige Dienste innerhalb des Experience Cloud-Angebots einen separaten Satz von Cookies für jede verfolgte Site verwenden. Einige der Suite-Angebote bieten Kunden außerdem die Möglichkeit, ihren eigenen Domänennamen als Inhaber des Cookies zu verwenden. Dadurch entsteht eine zusätzliche Datenschutz- und Sicherheitsstufe, da die Experience Cloud-Cookies *Erstanbieter-Cookies* sind, die dauerhaft zur Website der Firma gehören.
 
-Cookies können nur die Informationen speichern und bereitstellen, die zuvor in ihnen abgelegt wurden. Sie sind nicht in der Lage, Code auszuführen oder andere auf dem Computer gespeicherte Informationen abzurufen. Darüber hinaus schränken Webbrowser den Zugriff auf Cookie-Daten ein. Die Browser beachten Cookie-Sicherheitsrichtlinien, nach denen alle Cookie-Daten nur der Website zur Verfügung gestellt werden dürfen, die die Informationen ursprünglich eingestellt hatte.
+Cookies können nur die Informationen speichern und bereitstellen, die zuvor in ihnen abgelegt wurden. Sie sind nicht in der Lage, Code auszuführen oder andere auf dem Computer gespeicherte Informationen abzurufen. Darüber hinaus schränken Webbrowser den Zugriff auf Cookie-Daten ein. Browser erzwingen eine Cookie-Sicherheitsrichtlinie, die alle Cookie-Daten nur der Website zur Verfügung stellt, die die Informationen ursprünglich eingestellt hat.
 
-Beispielsweise können Daten, die in über die Adobe.com-Website  eingestellten Cookies enthalten sind, von keiner anderen Website als Adobe.com gesehen werden.
+Beispielsweise können Daten, die in Cookies enthalten sind, die von der Adobe.com-Website eingestellt werden, von keiner anderen Website als Adobe.com angezeigt werden.
 
-Im folgenden Schaubild wird die Cookie-Nutzung für eine Standard-Bildanforderung erläutert:
+Das folgende Diagramm zeigt die Verwendung von Cookies für eine Standard-Bildanforderung:
 
 ![](assets/CookiesProcessGraphic-01.png)
 
-Im folgenden Schaubild wird die Cookie-Nutzung für eine direkte Bildanforderung (in Szenarien, in denen keine JS-Datei geladen wird) erläutert:
+Die folgende Abbildung zeigt die Verwendung von Cookies für eine direkte Bildanforderung (in Szenarien, in denen keine JS-Datei geladen wird):
 
 ![](assets/CookiesProcessGraphic2.png)
 
