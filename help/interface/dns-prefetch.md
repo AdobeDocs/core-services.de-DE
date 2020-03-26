@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -17,16 +17,16 @@ Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Lösu
 
 ## Vorstellung des DNS-Vorabrufs {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Mithilfe des DNS-Vorabrufs können Browser auf Webseiten verlinkte Domänennamen automatisch in die zugehörigen IP-Adressen umwandeln. Der Vorabruf beginnt, sobald in Ihrem Browser eine Webseite geladen wird. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. Lädt ein Browser diese Seite, nutzt dieser das [DNS-System](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/), um den verlinkten Domänennamen nachzuschlagen und ihn in die zugehörige, numerische IP-Adresse umzuwandeln. Mithilfe des DNS-Vorabrufs lässt sich die Leistung einer Seite verbessern, da der Domännename bereits in eine IP-Adresse umgewandelt wurde, bevor ein Besucher auf den Link oder die zugehörige Schaltfläche klickt. Der DNS-Vorabruf ist für Benutzer vollständig transparent.
+Browser verwenden DNS-Prefetch, um Domänennamen, die auf einer Webseite mit ihren entsprechenden IP-Adressen verknüpft sind, automatisch aufzulösen. Der Beginn zum vorherigen Abrufen, wenn der Browser eine Webseite lädt. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. When a browser loads this page, it uses the [DNS system](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) to look up the linked domain name and resolve it to a corresponding numeric IP address. Die DNS-Vorab-Abfrage verbessert die Seitenleistung, da der Domänenname bereits auf eine IP-Adresse aufgelöst wurde, bevor ein Site-Besucher auf diesen Link oder diese Schaltfläche klickt. Der DNS-Prefetch-Prozess ist für die Benutzer transparent.
 
 ## DNS-Vorabruf und Adobe Experience Cloud-Lösungen {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-Der DNS-Vorabruf kann automatisch für statische, eingebettete Links auf einer Seite verwendet werden. Das bedeutet, dass der DNS-Vorabruf aus folgenden Gründen nicht für unterschiedliche Lösungen und Dienste der [!UICONTROL Experience Cloud] eingesetzt werden kann:
+DNS-Prefetch funktioniert automatisch mit statischen, eingebetteten Links auf einer Seite. Dies bedeutet auch, dass der automatische DNS-Prefetch nicht mit verschiedenen [!UICONTROL Experience Cloud] -Lösungen und -Diensten funktioniert, weil:
 
-* Jede Lösung und jeder Dienst der Experience Cloud generiert beim Laden einer Seite dynamisch DNS-Aufrufe.
-* Der Browser ist nicht in der Lage, Domänennamen in IP-Adressen umzuwandeln, bevor diese Aufrufe getätigt werden.
+* Jede Experience Cloud-Lösung oder jeder Experience Cloud-Dienst generiert beim Laden der Seite dynamisch DNS-Aufrufe.
+* Der Browser kann Domänennamen nicht auf IP-Adresse auflösen, bevor diese Aufrufe durchgeführt werden.
 
-Sie können jedoch manuell einen DNS-Vorabruf in Ihre Experience Cloud-Lösungen einbetten. Fügen Sie hierzu das HTML`<dns-prefetch>`-Tag wie unten dargestellt in den Abschnitt `<head>` Ihres Seiten-Codes ein. Wurde der DNS-Vorabruf ordnungsgemäß implementiert, verkürzt er das Laden von Seiten unter Umständen um einige Millisekunden.
+Sie können jedoch die DNS-Vorab-Abfrage manuell in Ihre Experience Cloud-Lösungen implementieren. Fügen Sie hierzu das HTML`<dns-prefetch>`-Tag wie unten dargestellt in den Abschnitt `<head>` Ihres Seiten-Codes ein. Wurde der DNS-Vorabruf ordnungsgemäß implementiert, verkürzt er das Laden von Seiten unter Umständen um einige Millisekunden.
 
 ## Code-Beispiele für den DNS-Vorabruf {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
@@ -38,7 +38,7 @@ In den folgenden Beispielen ist dargestellt, wie Sie DNS-Vorabrufe an unterschie
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **** Experience Cloud ID-Dienst: Partner-ID hier `<link rel="dns-prefetch" href="//fast. *`einfügen`*.demdex.net">`
+* **Experience Cloud ID-Dienst:** Partner-ID hier `<link rel="dns-prefetch" href="//fast. *`einfügen`*.demdex.net">`
 
 * **Dynamischer Tag-Manager** (DTM): nicht erforderlich. DTM-Links sind verfügbar, sobald die Seite lädt.
 
@@ -48,7 +48,7 @@ In den folgenden Beispielen ist dargestellt, wie Sie DNS-Vorabrufe an unterschie
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
 
 
-* **Target:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
+* **[!DNL Target]:**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
 >[!MORE_LIKE_THIS]
 >
