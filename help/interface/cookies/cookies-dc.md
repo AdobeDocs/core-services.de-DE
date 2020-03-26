@@ -1,13 +1,13 @@
 ---
 description: Data Connectors verwendet Cookies, um Werbetreibenden optimierte Metriken zur Kampagnen- und Konversionsleistung über mehrere Werbekanäle hinweg bereitzustellen.
-keywords: Cookies, Datenschutz
+keywords: cookies;privacy
 seo-description: Data Connectors verwendet Cookies, um Werbetreibenden optimierte Metriken zur Kampagnen- und Konversionsleistung über mehrere Werbekanäle hinweg bereitzustellen.
 seo-title: Cookies in Data Connectors
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
 title: Cookies in Data Connectors
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -26,7 +26,7 @@ Data Connectors verwendet Cookies, um Werbetreibenden optimierte Metriken zur Ka
  <tbody> 
   <tr> 
    <td colname="col1"> <p>integration_id </p> </td> 
-   <td colname="col2"> <p>Hiermit kann Data Connectors die letzte genutzte Integration nachhalten. </p> </td> 
+   <td colname="col2"> <p>Damit können Data Connectors die zuletzt verwendete Integration speichern. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>get_started </p> </td> 
