@@ -1,13 +1,13 @@
 ---
 description: Erstellen der Kundenattributquelle und Hochladen der Daten.
-keywords: Kundenattribute; Hauptdienste
+keywords: customer attributes;core services
 seo-description: Erstellen der Kundenattributquelle und Hochladen der Daten.
 seo-title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
-solution: Experience Cloud
+solution: Experience Cloud
 title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: d304e625bd2125854d9ed932674522284995e030
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -35,18 +35,17 @@ Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
 >[!IMPORTANT]
 >
->Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). ( **[!UICONTROL Administration]** &gt; **[!UICONTROL Admin Console]** &gt; **[!UICONTROL Benutzer]** &gt; ). Benutzer, die der Gruppe „Kundenattribute“ hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche unter [!UICONTROL Zielgruppen] das Menüelement [!UICONTROL Kundenattribute.]
+>Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu item in [!UICONTROL Audiences], on the left side of the Experience Cloud interface.
 >
->Die Mitgliedschaft in der Lösungsgruppe ist ebenfalls erforderlich.
+>Die Mitgliedschaft in einer Lösungsgruppe ist ebenfalls erforderlich.
 
-Um die Funktion „Kundenattribute“ verwenden zu können, müssen Benutzer der Adobe-Gruppe „Kundenattribute“ in der Benutzerverwaltung sowie Gruppen auf Lösungsebene (Analytics oder Target) angehören.
+To use the Customer Attributes feature, users must belong to the Adobe Customer Attributes group in user management, and to solution-level groups (Analytics or [!DNL Target]).
 
 Informationen hierzu finden Sie unter [Benutzer und Gruppen](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Erstellen Sie eine Datendatei. {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
-Bei diesen Daten handelt es sich um Unternehmensdaten aus Ihrem CRM-System. Die Daten können zum Beispiel Produktabonnementdaten einschließlich Mitglieds-IDs, Produktberechtigungen, der am häufigsten gestarteten Produkte und dergleichen mehr enthalten.
-
+Diese Daten sind Daten von Unternehmenskunden aus Ihrem CRM-System. Die Daten können Abonnentendaten für Produkte wie Mitglieds-IDs, Produkte mit Berechtigung, am häufigsten gestartete Produkte usw. enthalten.
 
 1. Erstellen Sie eine `.csv`.
 
@@ -68,14 +67,12 @@ Bei diesen Daten handelt es sich um Unternehmensdaten aus Ihrem CRM-System. Die 
 
 Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen“ der Experience Cloud aus.
 
-
 >[!IMPORTANT]
 >
 >Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es bis zu einer Stunde, bis die IDs mit der neuen Datenquelle synchronisiert werden. Sie müssen über Administratorrechte in Audience Manager verfügen, um Kundenattributquellen zu erstellen oder zu ändern. Wenden Sie sich an die Audience Manager-Kundenunterstützung oder -Beratung, um Administratorrechte zu erhalten.
 
-
 1. Klicken Sie in [!DNL Experience Cloud] im Menü auf das ![](assets/menu-icon.png)-Symbol.
-1. Klicken Sie unter **[!DNL Experience Platform]** auf **[!UICONTROL Personen]** &gt; **[!UICONTROL Kundenattribute]**.
+1. Under **[!DNL Experience Platform]**, click **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    Auf der Seite [!UICONTROL Kundenattribute] können Sie vorhandene Datenattributquellen verwalten und bearbeiten.
 
@@ -90,13 +87,13 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Quelle des Datenattributs.
 
-   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. Eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der in der Experience Cloud-Oberfläche im Feld „Alias-ID“ eingegebene Wert für eine Kundenattributquelle sollte mit den Werten übereinstimmen, die (über das Dynamic Tag Management oder JavaScript des Mobile-SDK) aus der Implementierung übergeben werden.
+   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. Eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der in der Experience Cloud-Benutzeroberfläche für eine Kundenattributquelle im Feld &quot;Alias-ID&quot;eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über das dynamische Tag-Management oder JavaScript des Mobile SDK).
 
-      Die Alias-ID entspricht bestimmten Bereichen, für die Sie zusätzliche Kunden-ID-Werte eingerichtet haben. Beispiel:
+      Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
-      * **** Dynamisches Tag-Management: Die Alias-ID entspricht dem *Integrationscode* -Wert unter [!UICONTROL Kundeneinstellungen]im Tool [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
+      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode* -Wert unter [!UICONTROL Kundeneinstellungen]im Tool [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html), die den Besuchern zugeordnet werden können.
+      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) , die Sie jedem Besucher zuordnen können.
 
          Beispiel: *„crm_ id“* in:
 
@@ -106,14 +103,14 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
          ```
 
 
-      * **** iOS: Die Alias-ID entspricht *"idType"* in visitorSyncIdentifiers:identifiers[](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS:** Die Alias-ID entspricht *&quot;idType&quot;* in visitorSyncIdentifiers:identifiers [](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Beispiel:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
 
-      * **Android:** Die Alias-ID entspricht dem *"idType"* in [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android:** Die Alias-ID entspricht *&quot;idType&quot;* in [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
          Beispiel:
 
@@ -128,7 +125,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
       >Für die Datendatei bestehen bestimmte Voraussetzungen. Weitere Informationen finden Sie unter [Datendateivoraussetzungen](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19).
 
 
-      Nach dem Hochladen der Datei werden die Daten auf dieser Seite unter der Überschrift „[!UICONTROL Datei-Upload]“ in tabellarischer Form angezeigt. Sie können das Schema prüfen, Abonnements konfigurieren oder die Übertragung via FTP einrichten.
+      Nach dem Hochladen der Datei werden die Tabellendaten unter der Überschrift [!UICONTROL Datei-Upload] auf dieser Seite angezeigt. Sie können das Schema überprüfen, Abonnement konfigurieren oder den FTP einrichten.
 
 
 
@@ -140,7 +137,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
    * **[!UICONTROL Vom Kunden bereitgestellte IDs für Experience Cloud Besucher-IDs:]** Zeigt an, wie viele IDs für Experience Cloud Besucher-IDs bereitgestellt wurden.
 
-   * **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr bereitgestellten Experience Cloud Besucher-IDs an. In der Regel kennzeichnen diese vom Kunden bereitgestellten IDs keine Einzelpersonen, sondern eine Art freigegebene Anmeldung. Das System verteilt die diesen IDs zugewiesenen Attribute auf die 500 zuletzt als Alias zugewiesenen Experience Cloud-Besucher-IDs, und zwar so lange, bis 10.000 Aliasse erreicht sind. Bei Erreichen dieser Anzahl erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht länger zugewiesene Attribute.
+   * **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr bereitgestellten Experience Cloud Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 zuletzt als Alias gespeicherten Experience Cloud-Besucher-IDs, bis die Aliasanzahl 10.000 erreicht hat. Bei Erreichen dieser Anzahl erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht länger zugewiesene Attribute.
 
 
 
@@ -164,12 +161,12 @@ Informationen zum Löschen von Attributen finden Sie unter [Schema aktualisieren
 So löschen Sie Attribute und ersetzen Attribute im Schema.
 
 
-1. Entfernen Sie auf der Seite [!UICONTROL Kunden-Attributquelle bearbeiten] das **[!UICONTROL Target]-** oder **[!UICONTROL Analytics]**-Abonnement (unter [!UICONTROL Abonnements konfigurieren]).
+1. Entfernen Sie auf der Seite [!UICONTROL Kunden-Attributquelle bearbeiten] das **[!UICONTROL Target]**- oder **[!UICONTROL Analytics]**-Abonnement (unter [!UICONTROL Abonnements konfigurieren]).
 1. [Laden Sie eine neue Datendatei mit aktualisierten Feldern hoch](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
 
 ## Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle. {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-Der Datenfluss zwischen der Experience Cloud und Lösungen wird durch die Konfiguration eines Abonnements eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
+Beim Konfigurieren eines Abonnements wird der Datenfluss zwischen Experience Cloud und Lösungen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den eingehenden ID-Signalen Ihrer Website oder Anwendung abgeglichen.
 
 Siehe [Konfigurieren von Abonnements](../attributes/subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -192,7 +189,7 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Zielgruppen und in Audience Manager verfügbar.
 
-Weitere Informationen hierzu finden Sie in der Analytics-Hilfe unter [Bericht „Kundenattribute“](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html).
+Weitere Informationen finden Sie unter Bericht [zu](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) Kundenattributen in der Analytics-Hilfe.
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -200,4 +197,4 @@ In Target können Sie beim Erstellen einer Zielgruppe Kundenattribute im Abschni
 
 ![](assets/crs-add-attribute-target.png)
 
-Weitere Informationen finden Sie unter [Erstellen einer neuen Zielgruppe](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) in der Target-Hilfe.
+Siehe [Erstellen einer neuen Audience](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) in der [!DNL Target] Hilfe.
