@@ -1,13 +1,13 @@
 ---
-description: Geben Sie Ordner und Assets sowohl in der Experience Cloud als auch in der Creative Cloud frei. Sie können gemeinsame Assets zusammenarbeiten, kommentieren und in Experience Cloud-Lösungen wie Social und Zielgruppe verwenden. Der freigegebene Ordner muss aus der Experience Cloud stammen.
+description: Geben Sie Ordner und Assets sowohl in der Experience Cloud als auch in der Creative Cloud frei. Sie können gemeinsame Assets zusammenarbeiten, kommentieren und in Experience Cloud-Lösungen wie Adobe Social und Adobe Zielgruppe verwenden. Der freigegebene Ordner muss aus der Experience Cloud stammen.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Geben Sie Ordner und Assets sowohl in der Experience Cloud als auch in der Creative Cloud frei. Sie können gemeinsame Assets zusammenarbeiten, kommentieren und in Experience Cloud-Lösungen wie Social und Zielgruppe verwenden. Der freigegebene Ordner muss aus der Experience Cloud stammen.
+seo-description: Geben Sie Ordner und Assets sowohl in der Experience Cloud als auch in der Creative Cloud frei. Sie können gemeinsame Assets zusammenarbeiten, kommentieren und in Experience Cloud-Lösungen wie Adobe Social und Adobe Zielgruppe verwenden. Der freigegebene Ordner muss aus der Experience Cloud stammen.
 seo-title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 solution: Experience Cloud
 title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 uuid: 2bb002a6-e08e-402b-8df0-ecb21ab74490
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
