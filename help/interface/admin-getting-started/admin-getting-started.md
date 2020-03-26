@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -86,14 +86,14 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 [Analytics-Benutzer-ID-Migration](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Target - Produktprofile im Vergleich zu Arbeitsbereichen {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-In Zielgruppe ist ein Arbeitsbereich ein Produkt-Profil. Damit kann eine Organisation einem bestimmten Satz von Benutzern bestimmte Eigenschaften zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in Adobe Analytics.
+In Adobe Zielgruppe ist ein Arbeitsbereich ein Produkt-Profil. Damit kann eine Organisation einem bestimmten Satz von Benutzern bestimmte Eigenschaften zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in Adobe Analytics.
 
 Siehe:
 * [Berechtigungen für Unternehmensbenutzer](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Produkte und Profil verwalten](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Video: Konfigurieren von [Arbeitsbereichen in der Adobe Admin-Konsole](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Video: Adobe Zielgruppe Workspaces [in der Adobe Admin Console konfigurieren](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - Produktprofile, Mandanten und Sicherheitsgruppen {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,8 +135,8 @@ Wenn Sie einen Benutzer zu einer Organisation einladen, können Sie dem Benutzer
 Weitere Hilfe finden Sie unter:
 
 * [Produkte und Profil verwalten](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Enterprise-Benutzerberechtigungen](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) in der Hilfe zur Zielgruppe für weitere Informationen.
-* Video: Konfigurieren von [Arbeitsbereichen in der Adobe Admin-Konsole](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Enterprise-Benutzerberechtigungen](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) in der Hilfe zu Adobe Zielgruppe.
+* Video: Adobe Zielgruppe Workspaces [in der Adobe Admin Console konfigurieren](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Analytics-Zugriffsberechtigungen einem Produktprofil zuweisen {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -152,7 +152,7 @@ Sie können beispielsweise ein Produktprofil mit mehreren Analytics-Tools ([!UIC
 |--- |--- |
 | Report Suites | Aktivieren Sie Berechtigungen für bestimmte Report Suites. |
 | Metriken | Gewähren Sie Zugriff auf Traffic, Konvertierung, benutzerdefinierte Ereignis, Lösungslösungen, Content-basierte Ereignis usw. |
-| Dimensionen | Legen Sie Benutzerrechte auf einer granularen Ebene fest, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadsetzungsberichten. |
+| Dimensionen | Passen Sie den Benutzerzugriff granular an, einschließlich eVars, Traffic-Berichten, Lösungsberichten und Pfadberichten. |
 | Report Suite-Tools | Aktivieren Sie Benutzerberechtigungen für Web-Services, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente. |
 | Analytics-Tools | Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Werkzeuge, Web-Services, den Report Builder und die Data Connectors-Integration. Die Unternehmenseinstellungen aus der Kategorie „Anpassung der Admin Console“ sind nun in den Analytics-Tools zu finden. |
 
@@ -177,7 +177,7 @@ Durch die Verwendung dieser Rollen können Sie die Verwaltung gleichzeitig an an
 
 Unterstützte Browser in der Experience Cloud.
 
-Von Experience Cloud unterstützte Browser:
+Unterstützte Browser in Experience Cloud:
 
 * [!DNL Microsoft Edge] (Microsoft hat die Unterstützung [für Internet Explorer 8, 9 und 10](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) eingestellt. Daher behebt Adobe keine Probleme, die in Verbindung mit diesen bestimmten Versionen von Internet Explorer gemeldet wurden.)
 * [!DNL Google Chrome]
@@ -185,7 +185,7 @@ Von Experience Cloud unterstützte Browser:
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Hinweis:** Obwohl die Experience Cloud-Oberfläche diese Browser unterstützt, unterstützen einzelne Lösungen möglicherweise nicht alle Browser. ([Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) unterstützt beispielsweise nicht [!DNL Opera] und [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) unterstützt nicht [!DNL Safari].)
+**Hinweis:** Obwohl die Experience Cloud-Oberfläche diese Browser unterstützt, unterstützen einzelne Lösungen möglicherweise nicht alle Browser. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 **Anforderungen an Lösungen und Produkte**
 
