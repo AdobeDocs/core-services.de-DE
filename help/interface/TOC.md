@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Cookies in Data Workbench](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies in Scene7](cookies/cookies-s7.md)
-   + [Cookies in Search&amp;Promote](cookies/cookies-snp.md)
-   + [Cookies in Target](cookies/cookies-target.md)
+   + [[!DNL Scene7]-Cookies](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] Cookies](cookies/cookies-snp.md)
+   + [[!DNL Zielgruppe] Cookies](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
-   + [Wie sich Veränderungen bei der Unterstützung von Drittanbieter-Cookies auf Kunden auswirken](cookies/cookies-thirdparty.md)
+   + [Auswirkungen von Änderungen an der Cookie-Unterstützung von Drittanbietern auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
    + [Verwalten von Benutzern und Produkten der Experience Cloud (Admin-Konsole)](admin-getting-started/admin-getting-started.md)
    + [Ansicht Experience Cloud-Benutzerdetails (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -39,7 +39,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Anmelden und Profileinstellungen verwalten](admin-getting-started/getting-started-experience-cloud.md)
    + [Organisationen und Kontoverknüpfung](admin-getting-started/organizations.md)
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud Activation {#activation}
++ Experience Cloud-Aktivierung {#activation}
    + [Übersicht über Activation](activation/activation.md)
    + [Launch-Benutzerhandbuch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [Dynamisches Tag-Manager-Benutzerhandbuch](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
@@ -68,12 +68,12 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [Konfigurieren von Abonnements](attributes/subscription.md)
    + [Schema aktualisieren](attributes/t-update-schema.md)
    + [Überlegungen zum Datenschutz – Kundenattribute](attributes/privacy-mac.md)
-+ Angebotsverwaltung {#offer-management}
++ Offer Management {#offer-management}
    + [Erste Schritte mit Angebot-Management](offer-management/getting-started.md)
    + [Arbeitsablauf für die Angebot-Verwaltung](offer-management/offer-management-workflow.md)
    + [Angebote](offer-management/offers.md)
    + [Bezeichnungen](offer-management/labels.md)
-   + [Platzierungen](offer-management/placements.md)
+   + [Praktika](offer-management/placements.md)
    + [Kampagne](offer-management/campaign.md)
 + Versionshinweise für Experience Cloud {#release-notes}
    + [Neue Funktionen in der Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
