@@ -1,13 +1,13 @@
 ---
 description: Scene7 verwendet Cookies, um nützliche Informationen zu speichern, die zur Bereitstellung dynamischer Medien an den Browser genutzt werden können.
-keywords: Cookies, Datenschutz
+keywords: cookies;privacy
 seo-description: Scene7 verwendet Cookies, um nützliche Informationen zu speichern, die zur Bereitstellung dynamischer Medien an den Browser genutzt werden können.
 seo-title: Cookies in Scene7
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies in Scene7
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -16,25 +16,25 @@ source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
 
 Scene7 verwendet Cookies, um nützliche Informationen zu speichern, die zur Bereitstellung dynamischer Medien an den Browser genutzt werden können.
 
-Scene7 speichert für einige ältere AS2 Flash-basierte Viewer Informationen lokal.
+Scene7 speichert Informationen für einige ältere AS2 Flash-basierte Viewer lokal.
 
-Für AS2-Viewer gilt Folgendes:
+Für AS2-Viewer Cookies:
 
-* Cookies verfolgen den Sitzungsstatus eines Benutzers, z. B. aktuell angezeigte Seite, aktuell angezeigtes Bild, aktueller Zoomfaktor usw.
-* Cookies ermitteln, wie viel Zeit seit der letzten Sitzung des Benutzers vergangen ist. Der Benutzer kann diese Informationen nutzen und sich entscheiden, ob er eine vorherige Sitzung weiterführen oder eine neue Sitzung starten möchte. Die Informationen werden auch an die Scene7-Server gesendet, aber nicht verwendet.
+* Verfolgen Sie den Sitzungsstatus eines Benutzers, z. B. die aktuelle angezeigte Seite und das angezeigte Bild, den aktuellen Zoomgrad usw.
+* Bestimmen Sie, wie lange es seit der vorherigen Sitzung des Benutzers ist. Der Viewer verwendet diese Informationen, um zu entscheiden, ob eine vorherige Sitzung oder eine neue Beginn-Sitzung fortgesetzt werden soll. Diese Informationen werden auch an die Scene7-Server gesendet, jedoch nicht verwendet.
 
-Für E-Katalog-Viewer mit AS2 Flash gilt Folgendes:
+Für AS2 Flash-E-Katalog-Viewer Cookies:
 
-* Cookies speichern benutzergenerierte Inhalte (in erster Linie Inhalte, die vom Benutzer im E-Katalog-Viewer in der „Klebezettel“-Funktion eingegeben werden). Diese Inhalte werden wiederhergestellt, wenn der Benutzer eine Sitzung wiederaufnimmt.
-* Wenn der Benutzer eine E-Mail initiiert, um den E-Katalog mit einem anderen Benutzer zu teilen, werden die Inhalte der „Klebezettel“-Funktion aus dem zweiten AS2-Viewer-Bullet auf unsere Server kopiert, um sie dem Empfänger bereitzustellen. Wenn der Empfänger die Viewer-Sitzung initiiert, werden die Inhalte aus der „Klebezettel“-Funktion vom Server abgerufen und in ein Cookie kopiert. Diese Funktion wird nur selten verwendet, sodass sie nicht abläuft und veraltete Inhalte nicht entfernt werden. Derzeit bleibt sie auf den Servern zeitlich unbegrenzt bestehen.
+* Cookies speichern benutzergenerierte Inhalte (in erster Linie Inhalte, die vom Benutzer im E-Katalog-Viewer in der „Klebezettel“-Funktion eingegeben werden). Dieser Inhalt wird wiederhergestellt, wenn der Benutzer eine Sitzung wiederaufnimmt.
+* Wenn der Benutzer eine E-Mail zum Freigeben des E-Mail-Katalogs für einen anderen Benutzer aufruft, wird der Inhalt der Klebezettel des zweiten AS2-Viewers auf unsere Server kopiert, um ihn dem Empfänger bereitzustellen. Wenn der Empfänger die Viewer-Sitzung initiiert, wird der Inhalt der Klebezettel vom Server abgerufen und in ein Cookie kopiert. Diese Funktion wird nur wenig genutzt, sodass sie nicht abläuft und statische Inhalte nicht entfernt werden. Zu diesem Zeitpunkt bleibt es auf den Servern unbegrenzt.
 
-Bei den neueren AS3-Viewern wird auf Sitzungspersistenz verzichtet.
+Die neueren AS3-Viewer implementieren keine Sitzungspersistenz.
 
 **Cookie-Name: VatLogin.jsp**
 
 | Attribut | Beschreibung |
 |---|---|
-| Gespeicherte Informationen | Stellt das Sitzungs-Cookie ein. Der in IPS ImageServer eingebettete AuthFilter (IS, IR und auch die SWFs/Skins und Videokontexte) verwendet das Cookie zur Zugriffsautorisierung. Sofern vorhanden, gestattet es den Durchlauf von HTTP-Anforderungen. Andernfalls werden Anforderungen als nicht autorisiert zurückgegeben. |
+| Gespeicherte Informationen | Stellt das Sitzungs-Cookie ein. Der in IPS ImageServer eingebettete AuthFilter (IS, IR und auch die SWFs/Skins und Videokontexte) verwendet das Cookie zur Zugriffsautorisierung. Sofern vorhanden, gestattet es den Durchlauf von HTTP-Anforderungen. Andernfalls werden nicht autorisierte Daten zurückgegeben. |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie. Derzeit ist der Sitzungsablaufzeitraum in der [!DNL web.xml] der Scene7-IPS auf 45 Minuten eingestellt. |
 
 **Cookie-Name: s7js.flyout.InfoMessage.displayed`assetId`.state**
@@ -49,7 +49,7 @@ Bei den neueren AS3-Viewern wird auf Sitzungspersistenz verzichtet.
  <tbody> 
   <tr> 
    <td colname="col1"> Gespeicherte Informationen </td> 
-   <td colname="col2"> <p>&lt;assetId&gt; ist der Name des Assets, mit dem die Anzeige arbeitet. </p> </td> 
+   <td colname="col2"> <p>&lt;assetId&gt; ist der Name des Assets, mit dem der Viewer arbeitet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ablauf </td> 
@@ -60,7 +60,7 @@ Bei den neueren AS3-Viewern wird auf Sitzungspersistenz verzichtet.
 
 **Cookie-Name: s7js.flyout.InfoMessage.displayed`assetId`_idx`id`.ant**
 
-Browser-Cookies werden von älteren DHTML-Anzeigen zur Speicherung von Statusinformationen und Anmerkungsdaten genutzt. Sie werden auch vom Multiscreen-DHTML-Flyout genutzt, um die  Meldungsanzeige sitzungsspezifisch zu machen.
+Browser-Cookies werden von älteren DHTML-Viewern zum Speichern von Statusinformationen und Anmerkungsdaten verwendet. Sie werden auch vom Multiscreen DHTML Flyout verwendet, um die Meldungsanzeige sitzungsspezifisch zu machen.
 
 <table id="table_8F6CC83D32D54BEE99884318AD126C98"> 
  <thead> 
@@ -72,7 +72,7 @@ Browser-Cookies werden von älteren DHTML-Anzeigen zur Speicherung von Statusinf
  <tbody> 
   <tr> 
    <td colname="col1"> Gespeicherte Informationen </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; ist der Name des Assets, mit dem die Anzeige arbeitet, und &lt;id&gt; ist der 0-basierte Anmerkungsindex. </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; ist der Name des Assets, mit dem der Viewer arbeitet, und &lt;id&gt; ist der 0-basierte Anmerkungsindex. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ablauf </td> 
