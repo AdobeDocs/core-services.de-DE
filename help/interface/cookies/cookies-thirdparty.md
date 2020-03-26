@@ -1,22 +1,22 @@
 ---
 description: Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr und mehr zurückgegangen. Aus diesem Grund hat Adobe an neuen Lösungen gearbeitet, die sowohl den Anforderungen der Kunden als auch dem Recht der Verbraucher auf Privatsphäre in den Adobe Experience Cloud-Lösungen in ausgewogenem Maße Rechnung tragen.
-keywords: Cookies, Datenschutz
+keywords: cookies;privacy
 seo-description: Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr und mehr zurückgegangen. Aus diesem Grund hat Adobe an neuen Lösungen gearbeitet, die sowohl den Anforderungen der Kunden als auch dem Recht der Verbraucher auf Privatsphäre in den Adobe Experience Cloud-Lösungen in ausgewogenem Maße Rechnung tragen.
 seo-title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies{#how-changes-to-third-party-cookie-support-impacts-customers}
+# How changes to third-party cookie support impact customers{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr und mehr zurückgegangen. Aus diesem Grund hat Adobe an neuen Lösungen gearbeitet, die sowohl den Anforderungen der Kunden als auch dem Recht der Verbraucher auf Privatsphäre in den Adobe Experience Cloud-Lösungen in ausgewogenem Maße Rechnung tragen.
 
-Die folgende Liste gibt Aufschluss darüber, wie sich die Unterstützung für Drittanbieter-Cookies auf aktuelle Implementierungen der Adobe Experience Cloud-Lösungen auswirkt:
+In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanbieter-Cookies auf aktuelle Implementierungen der Adobe Experience Cloud-Lösungen auswirkt:
 
 ## Adobe Analytics und Adobe Target
 
@@ -35,18 +35,17 @@ Die folgende Liste gibt Aufschluss darüber, wie sich die Unterstützung für Dr
 
 * Suche:
 
-   * Bei mit Adobe Analytics-Daten optimierter Suchfunktion wäre die Suche genau wie Adobe Analytics betroffen.
-   * Die Erfassung von Konversionsdaten wäre nicht betroffen.
+   * Wird die Suche auf der Grundlage von Adobe Analytics-Daten optimiert, wird die Suche auf dieselbe Weise wie Adobe Analytics beeinflusst.
+   * Die Erfassung von Konversionsdaten sollte davon nicht betroffen sein.
 
 * Anzeigen:
 
-   * Das Display-Remarketing ist derzeit vollständig von der Verwendung von Drittanbieter-Cookies abhängig.
-   * Display ist auch stark von der Verfügbarkeit verschiedener Werbenetzwerkcookies für die Synchronisierung abhängig.
-   * Die Gesamtwirkung ist unbekannt. Doch schon jetzt kann konstatiert werden, dass Display stärker als andere Services betroffen ist.
-   * Wir arbeiten derzeit intern und in Kooperation mit unseren Werbepartnern daran, das volle Ausmaß der Auswirkungen auf die Anzeigenzustellung zu evaluieren.
+   * Display-Remarketing heute hängt vollständig von der Verwendung von Drittanbieter-Cookies ab.
+   * Die Anzeige ist auch stark von der Verfügbarkeit verschiedener Werbe-Netzwerk-Cookies für die Synchronisierung abhängig.
+   * Die Gesamtwirkung ist nicht bekannt. Die Anzeige wird jedoch vom ersten Punkt an stärker beeinflusst als andere Dienste.
+   * Wir arbeiten intern und mit unseren Werbepartnern zusammen, um die Auswirkungen auf den Versand von Werbeanzeigen in vollem Umfang zu bewerten.
 
 * Social:
 
-   * Es gibt keinerlei Auswirkungen auf Anzeigen auf dem Facebook-Marktplatz.
-   * Facebook Exchange (FBX) wird genau so wie die Display-Anzeigenzustellung betroffen sein.
-
+   * Es gibt keine Auswirkungen auf Facebook-Marktplatzierungen.
+   * Facebook Exchange (FBX) wird genauso betroffen sein wie der Versand der Anzeige.
