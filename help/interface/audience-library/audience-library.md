@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Zielgruppen
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,14 +39,14 @@ Die folgende Tabelle beschreibt, wie Audiencen in Experience Cloud-Lösungen ver
 | Experience Cloud Audiences | Erstellen, verwalten und teilen Sie Zielgruppen systemintern mithilfe der Benutzeroberfläche der [Zielgruppenbibliothek](../audience-library/audience-library.md). Sie haben folgende Möglichkeiten:<ul><li>Echtzeit-Audiencen mithilfe von Attributen für Rohanalysen verwenden</li><li>Kombinieren von Audiencen zur Erstellung von Composite-Daten, indem Sie Echtzeit- und historische Daten kombinieren</li><li>Siehe Grafische Ansichten der geschätzten Audiencen</li></ul><br>Vorschläge zur Art der Audience, die Sie erstellen möchten, finden Sie unter: [Experience Cloud-Audiencen](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
 | Analytics | Bei der Segmentierung können Sie ein Segment erstellen, es mit einer Report Suite verknüpfen und das  [ Segment dann in Experience Cloud veröffentlichen](../audience-library/audience-library.md). Nach seiner Veröffentlichung erscheint das Segment auf der Seite [Zielgruppen](../audience-library/audience-library.md). Die Zielgruppe steht auch als eine für ein Kampagnenerlebnis anvisierte Zielgruppe in Adobe Target und in Audience Manager bereit. Once an audience is shared from Analytics, and selected for use in an active campaign, all the visitor profiles who met the segment definition criteria for the past 90 days are sent to the Experience Cloud [!UICONTROL Audience Services] platform. Die Beschränkung für freigegebene Audiencen wurde auf 75 erhöht. Audiencen, die von Analytics für die Experience Cloud freigegeben wurden, dürfen 20 Millionen individuelle Mitglieder nicht überschreiten. Aufgrund der Zwischenspeicherung müssen gelöschte Report Suites in Analytics 12 Stunden vor dem Löschen in der Experience Cloud angezeigt werden. |
 | Mobile Services | Analysieren Sie den mobilen Traffic mithilfe der Sunburst-Visualisierung im Bericht &quot; [!UICONTROL Gerätetypen] &quot;. |
-| Target | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. Wenn das Kontrollkästchen [In der Experience Cloud veröffentlichen](../audience-library/audience-library.md) während der Segmenterstellung in Adobe Analytics aktiviert wird, ist das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar. Ein in Analytics oder Audience Manager erstelltes Segment kann für Aktivitäten in Target verwendet werden.  Sie können zum Beispiel Kampagnenaktivitäten basierend auf Analytics-Konversionsmetriken und in Analytics erstellten Zielgruppensegmenten erstellen. |
+| [!DNL Target] | The [ID service](https://docs.adobe.com/content/help/en/id-service/using/home.html) unifies visitor IDs and data into a single, actionable profile for use across solutions. Wenn das Kontrollkästchen [In der Experience Cloud veröffentlichen](../audience-library/audience-library.md) während der Segmenterstellung in Adobe Analytics aktiviert wird, ist das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar. A segment created in Analytics or Audience Manager can be used for activities in  [!DNL Target].  Sie können zum Beispiel Kampagnenaktivitäten basierend auf Analytics-Konversionsmetriken und in Analytics erstellten Zielgruppensegmenten erstellen. |
 | Audience Manager | Freigegebene Audiencen sind in der Segmentierung von Audience Manager verfügbar. Alle Experience Cloud-Zielgruppen stehen systemintern in Audience Manager zur Verfügung. Dieser bietet Folgendes:<ul><li>Integrierte Automatisierung hinsichtlich der Freigabe und Verwendung in Workflows</li><li>Offsite-Ziele</li><li>Look-like-Modellierung</li></ul> |
 | Kampagne | <ul><li>Importieren freigegebener Zielgruppen von verschiedenen Adobe Experience Cloud-Lösungen in Adobe Campaign</li><li>Exportieren Sie Empfänger-Listen in Form freigegebener Audiencen. Diese freigegebenen Audiencen können in den verschiedenen Adobe Experience Cloud-Lösungen verwendet werden, die Sie verwenden.</li></ul> |
 | Media Optimizer | Verwenden Sie die Audience als Zielgruppen. |
 
 >[!IMPORTANT]
 >
->Sobald sich ein Besucher für die in Analytics freigegebene Audience qualifiziert hat, erfolgt eine Verzögerung von 4-8 Stunden, bevor diese Informationen in Zielgruppe, Ad Cloud und Campaign Standard verarbeitet werden können.
+>Once a visitor qualifies for the audience shared from Analytics, there is a 4-8 hour delay before that information is actionable in [!DNL Target], Ad Cloud, and Campaign Standard.
 
 ## Weitere Hilfestellung – Fragen, Hinweise und Anwendungsbeispiele {#section_C7F151644D8A45F7B6FC54F58845635D}
 
