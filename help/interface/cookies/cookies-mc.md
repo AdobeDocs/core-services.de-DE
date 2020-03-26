@@ -3,11 +3,11 @@ description: Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu sp
 keywords: cookies;privacy
 seo-description: Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die für alle Experience Cloud-Lösungen genutzt wird.
 seo-title: Experience Cloud-Cookies
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Experience Cloud-Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
-   <td colname="col2"> <p>2 Jahre </p> </td> 
+   <td colname="col2"> <p>2 Jahre </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Nutzung </p> </td> 
@@ -53,7 +53,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
 
 The [Experience Platform ID Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) uses JavaScript to store a unique visitor ID in an `AMCV_###@AdobeOrg` cookie on the domain of the current website, where `###` represents a random string of characters, such as `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Weitere Informationen finden Sie unter [Cookies und der ID-Dienst](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
+See also, [Cookies and the ID Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -65,11 +65,11 @@ Weitere Informationen finden Sie unter [Cookies und der ID-Dienst](https://docs.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Unique Visitor-IDs, die von Experience Cloud-Lösungen verwendet werden. </p> </td> 
+   <td colname="col2"> <p> Eindeutige Besucher-IDs, die von Experience Cloud-Lösungen verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
-   <td colname="col2"> <p> 2 Jahre </p> </td> 
+   <td colname="col2"> <p> 2 Jahre </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Nutzung </p> </td> 
@@ -77,11 +77,11 @@ Weitere Informationen finden Sie unter [Cookies und der ID-Dienst](https://docs.
   </tr> 
   <tr> 
    <td colname="col1"> <p> Position </p> </td> 
-   <td colname="col2"> <p> Dieses Cookie wird unter der Domäne der Website gespeichert (nicht unter der Domäne der Bildanforderung). </p> </td> 
+   <td colname="col2"> <p> Dieses Cookie wird in der Domäne der Website gespeichert (nicht in der Domäne der Bildanforderung). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Größe </p> </td> 
-   <td colname="col2"> <p> Die Größe variiert. Bei den meisten Kunden wird das Cookie wahrscheinlich eine Länge von ca. 200 Byte aufweisen. </p> </td> 
+   <td colname="col2"> <p> Variiert, können die meisten Kunden erwarten, dass dieses Cookie etwa 200 Byte lang ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
