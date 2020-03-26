@@ -1,13 +1,13 @@
 ---
 description: Search&Promote verwendet Cookies, um mehr über die Suchinteressen der Besucher zu erfahren und diese vorauszuahnen.
-keywords: Cookies, Datenschutz
+keywords: cookies;privacy
 seo-description: Search&Promote verwendet Cookies, um mehr über die Suchinteressen der Besucher zu erfahren und diese vorauszuahnen.
 seo-title: Cookies in Search&Promote
-solution: Experience Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies in Search&Promote
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -28,7 +28,7 @@ Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besuc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Verfolgt die letzten drei Suchläufe, die ein Benutzer auf der Domäne des Kunden durchgeführt hat. </p> </td> 
+   <td colname="col2"> <p> Verfolgt die letzten drei Suchvorgänge, die ein Benutzer in der Domäne des Kunden durchgeführt hat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
@@ -47,15 +47,15 @@ Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besuc
   </tr> 
   <tr> 
    <td colname="col1"> <p> Nutzung </p> </td> 
-   <td colname="col2"> <p>Wird von der Suchmaschine genutzt, um dem Benutzer die zuletzt eingegebenen Suchbegriffe anzuzeigen. </p> </td> 
+   <td colname="col2"> <p>Wird von der Suchmaschine verwendet, um dem Benutzer die letzten n Abfragen von Begriffen anzuzeigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Position </p> </td> 
-   <td colname="col2"> <p>Browserabhängig. Cookies werden am im Browser des Benutzers festgelegten Standardspeicherort gespeichert. </p> </td> 
+   <td colname="col2"> <p>Browserabhängig. Cookies werden an dem Standardspeicherort gespeichert, der im Browser des Benutzers angegeben ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Größe </p> </td> 
-   <td colname="col2"> <p>Weniger als 1 KB </p> </td> 
+   <td colname="col2"> <p>Weniger als 1K. </p> </td> 
   </tr> 
  </tbody> 
 </table>
