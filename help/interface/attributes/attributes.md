@@ -7,14 +7,12 @@ solution: Experience Cloud
 title: Kundenattribute
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Kundenattribute
-
-## Übersicht
 
 To locate [!UICONTROL customer attributes] navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
@@ -23,7 +21,6 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 ![](assets/custom_reports.png)
 
 ## Voraussetzungen für das Hochladen von Kundenattributen {#section_BD38693AFBF34926BA28E964963B4EA0}
-
 
 * **Aktivierung der Lösung:** [Aktivieren Sie Ihre Lösungen für Hauptdienste](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
@@ -34,7 +31,6 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
    Benutzer, die der Gruppe „Kundenattribute“ hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
 
 * **Adobe-Zielgruppe** [!DNL at.js] (beliebige Version) oder [!DNL mbox.js] Version 58 oder höher ist für Kundenattribute erforderlich.
-
 
    Siehe [Bereitstellung der &quot;at.js&quot;](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) - oder &quot; [Mbox.js&quot;-Implementierung](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
@@ -59,4 +55,4 @@ Beispiel:
 | Lösung | Vorteile und Anwendungsfälle |
 |--- |--- |
 | Adobe Analytics | Marketingexperten und Analysten können Folgendes verstehen:<ul><li>Die Online-Kampagnen, die bei Ihren Gold-Kunden am effektivsten sind.</li><li>Die Produkte, nach denen Gold-Kunden suchen, im Vergleich zu Produkten, nach denen Platin-Kunden suchen.</li><li>ob Ihre Site-Neugestaltung positive Auswirkungen auf die Konversionsraten älterer Kunden hat.</li><li>Welche Produkte Kunden mit einem niedrigen Lebenszeitwert nutzen, neigen dazu, auf meiner Site zu recherchieren.</li></ul> |
-| Adobe Target | Mithilfe von Attributdaten können Benutzer von Adobe Zielgruppe:<ul><li>Zeigen Sie den treuen Clubmitgliedern besondere Rabatte und Angebote.</li><li>Empfehlen Sie Ihren Luxuskunden teurere Produkte.</li><li>Für Kunden, die bereits E-Mails erhalten, zeigen Sie ein Upsell-Angebot in dem normalerweise für E-Mail-Anmeldungen reservierten Bereich an</li></ul> |
+| Adobe Target | Mithilfe von Attributdaten können Benutzer von Adobe Zielgruppe:<ul><li>Zeigen Sie den treuen Clubmitgliedern besondere Rabatte und Angebote.</li><li>Empfehlen Sie Ihren Luxuskunden teurere Produkte.</li><li>Für Kunden, die bereits E-Mails erhalten, zeigen Sie ein Upsell-Angebot an, das normalerweise für E-Mail-Anmeldungen reserviert ist</li></ul> |
