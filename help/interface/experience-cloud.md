@@ -1,5 +1,5 @@
 ---
-description: Hilfe, Produktdokumentation und technische Dokumentation für die Adobe Experience Cloud. Bei der Experience Cloud handelt es sich um die integrierte Adobe-Lösungs- und -Dienstfamilie für digitales Marketing.
+description: Selbsthilfe, Produktdokumentation und technische Dokumentation für die Adobe Experience Cloud. Die Experience Cloud ist die integrierte Adobe-Familie von Digital Marketing-Lösungen und -Diensten.
 keywords: core services
 seo-description: Auf dieser Seite finden Sie Hilfe, Produktdokumentation und technische Dokumentation zur Experience Cloud.
 seo-title: Hilfe und Produktdokumentation zu Adobe Experience Cloud und den Hauptdiensten.
@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Hilfe für Experience Cloud und Hauptdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ![Experience Cloud](assets/banner.png)
 
-Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentation zu den Adobe Experience Cloud-Lösungen und -Diensten. Bei der Experience Cloud handelt es sich um die integrierte Adobe-Lösungs- und -Dienstfamilie für digitales Marketing. Außerdem handelt es sich hierbei um eine intuitive Schnittstelle, mit deren Hilfe Sie schnell auf Ihre Cloud-Lösungen und Hauptdienste zugreifen können.
+Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentation zu den Adobe Experience Cloud-Lösungen und -Diensten. Die Experience Cloud ist die integrierte Adobe-Familie von Digital Marketing-Lösungen und -Diensten. Es handelt sich dabei um eine intuitive Benutzeroberfläche, mit der Sie schnell auf Ihre Cloud-Lösungen und Hauptdienste zugreifen können.
 
 ## Was willst du lernen?
 
@@ -28,9 +28,9 @@ Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentati
 * [Customer Experience Blog](https://theblog.adobe.com/customer-experience/) - Lesen Sie das Experience Cloud-Blog
 * [Kundenunterstützung](https://helpx.adobe.com/contact/enterprise-support.ec.html) - Wenden Sie sich an den Adobe-Kundendienst
 
-## Produktdokumentation zu Hauptdiensten
+## Produktdokumentation der Hauptdienste
 
-* [Übersicht über die Hauptdienste](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) (Blog)
+* [Übersicht über](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) die Hauptdienste (Blog)
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Zielgruppen](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
@@ -40,7 +40,7 @@ Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentati
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud-Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+* [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
 * [Datenschutz-Grundverordnung-API (DSGVO-API)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 ## Administration und Aktivierung
@@ -50,7 +50,7 @@ Auf dieser Seite finden Sie Hilfe, Support und technische und Produktdokumentati
 * [Häufig gestellte Fragen](admin-getting-started/admin-getting-started.md)
 * [Organisationen und Kontoverknüpfung](admin-getting-started/organizations.md)
 * [Integrationen](marketing-cloud-integrations.md)
-* [Integration von Adobe Target in die Experience Cloud](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Integration der Adobe-Zielgruppe mit der Experience Cloud](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 * [Überblick über den Datenschutz und Sicherheitsmaßnahmen in der Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Profilverwaltung in Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (Blog)
+* [Profil-Management in Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (Blog)
 * [DNS-Vorabruf](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
