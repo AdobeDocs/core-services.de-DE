@@ -1,38 +1,35 @@
 ---
-description: Der Exchange Marketplace bietet eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte.
+description: Der Exchange Marketplace ist ein einziges Ziel, an dem Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen für das Kernprodukt von Adobe, Anwendungen von Drittanbietern und Berichte.
 keywords: core services
-seo-description: Der Exchange Marketplace bietet eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte.
+seo-description: Der Exchange Marketplace ist ein einziges Ziel, an dem Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen für das Kernprodukt von Adobe, Anwendungen von Drittanbietern und Berichte.
 seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Exchange Marketplace
 
-Der Exchange Marketplace bietet eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte.
+Der Exchange Marketplace ist ein einziges Ziel, an dem Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen für das Kernprodukt von Adobe, Anwendungen von Drittanbietern und Berichte.
 
-**[!UICONTROL Experience Cloud]** &gt; **[!UICONTROL Hilfe]** &gt; **[!UICONTROL Exchange]**
+**[!UICONTROL Experience Cloud]** > **[!UICONTROL Hilfe]** > **[!UICONTROL Exchange]**
 
-<!-- <p>https://wiki.corp.adobe.com/display/marketingcloud/Marketing+Cloud+Exchange </p> 
-<p>https://wiki.corp.adobe.com/display/marketingcloud/Marketplace+Implementation#MarketplaceImplementation-Anonymousvsauthenticatedexperience </p> -->
-
-* Laden Sie SDKs herunter, lesen Sie Dokumentationen und reichen Sie Anwendungen zur Überprüfung bei Digital Marketing ein.
+* Laden Sie SDKs herunter, lesen Sie die Dokumentation und senden Sie Anwendungen zur Überprüfung an Digital Marketing.
 
 * Kunden können Digital Marketing-Erweiterungen suchen, auswählen und installieren.
 
 * Administratoren können heruntergeladene Anwendungen konfigurieren.
 
-* Überprüfen Sie Übermittlungen von Entwicklern, durchsuchen Sie Anwendungen und Kommentieren oder Bewerten Sie die einzelnen Anwendungen.
+* Überprüfen Sie die Übermittlungen von Entwicklern, durchsuchen Sie die Anwendung und kommentieren oder bewerten Sie die einzelnen Anwendungen.
 
-* Lehnen Sie Anwendungen ab oder genehmigen Sie sie.
+* Anträge ablehnen oder genehmigen.
 
-* Veröffentlichen Sie sie in der Experience Cloud.
+* Veröffentlichen in der Experience Cloud.
 
-* Suchen und filtern Sie nach Kategorie, Unternehmen, Typ, Benutzer und mehr.
+* Suchen und filtern Sie nach Kategorie, Firma, Typ, Benutzer und mehr.
 
-Weitere Informationen finden Sie unter [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html). 
+See [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) for more information.
