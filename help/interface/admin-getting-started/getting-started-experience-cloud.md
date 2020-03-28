@@ -1,26 +1,20 @@
 ---
 description: Erfahren Sie, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage festlegen.
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: Erfahren Sie, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage festlegen.
 seo-title: Anmelden und Profileinstellungen verwalten
-solution: Marketing Cloud
-title: Anmelden und Profileinstellungen verwalten
+solution: Experience Cloud
+title: Anmelden und Verwalten Ihrer Experience Cloud Profil-Einstellungen
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# Anmelden und Profileinstellungen verwalten
+# Anmelden und Verwalten Ihrer Experience Cloud Profil-Einstellungen
 
-Durch die Anmeldung bei der Experience Cloud (anstatt sich bei einer einzigen Lösung anzumelden) wird die einmalige Anmeldung bei allen Lösungen und Diensten, deren Inhaber Sie sind, ermöglicht. Erfahren Sie, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage festlegen.
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+Durch die Anmeldung bei der Experience Cloud (anstatt sich bei einer einzigen Lösung anzumelden) wird die einmalige Anmeldung bei allen Lösungen und Diensten, deren Inhaber Sie sind, ermöglicht. In dieser Hilfe wird beschrieben, wie Sie sich bei Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage angeben.
 
 >[!IMPORTANT]
 >
