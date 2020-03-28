@@ -5,7 +5,7 @@ seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -14,20 +14,20 @@ source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
 
-Experience Cloud-Dienste (z. B. Experience Cloud ID-Dienst und People-Hauptdienst) sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Damit sichergestellt ist, dass diese Dienste korrekt funktionieren, muss jede Analytics-Report Suite einer Organisation zugeordnet sein. Der Zuweisungsprozess:
+Experience Cloud-Dienste (z. B. Experience Cloud ID-Dienst und People-Hauptdienst) sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. Der Zuordnungsprozess:
 
-* Legt eine Experience Cloud-Organisation als primäre Organisation für die Report Suite fest.
+* Legt eine Experience Cloud-Organisation als primäre Organisation für die Report Suite fest.
 * hat keinen Einfluss darauf, wer auf die Report Suite zugreifen kann (der Zugriff wird nach wie vor über das Adobe Analytics-Anmeldekonto eines jeden Benutzers bestimmt)
 
-**Anforderungen**
+## Anforderungen
 
-Sie müssen Analytics-Administrator einer Unternehmensanmeldung sein, der Zugriff auf die zuzuweisende Report Suite hat. Außerdem muss dieses Konto [mit einer Experience Cloud-Organisation verknüpft](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) sein, damit dieser Organisation Report Suites zugeordnet werden können.
+Sie müssen Analytics-Administrator einer Anmelde-Firma sein, die Zugriff auf die Report Suite hat, die Sie zuordnen möchten. Außerdem muss dieses Konto mit einer Experience Cloud-Organisation [](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) verknüpft sein, um Report Suites dieser Organisation zuzuordnen.
 
 Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrechte für eine Unternehmensanmeldung einer Organisation haben, die über Zugriff auf die entsprechende Report Suite verfügt.
 
 ## Report Suite einer Organisation zuweisen{#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Klicken Sie auf **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite-Zuweisung]**
+1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**
 
 1. Wenn Sie anzeigen möchten, welche Unternehmensanmeldungen Zugriff auf welche Report Suite haben, klicken Sie auf **[!UICONTROL Sichtbar für Unternehmensanmeldung]**.
 
@@ -39,7 +39,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 ## Mehrere Report Suites einer Organisation zuweisen {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Klicken Sie auf **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite-Zuweisung]**.
+1. Click **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**.
 
 1. Wählen Sie die Report Suites aus, die Sie zuweisen möchten.
 
@@ -53,61 +53,61 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 ## Tipps für die Auswahl einer Experience Cloud-Organisation {#mapping-tips}
 
-In diesem Abschnitt finden Sie Tipps dazu, wie Sie die Experience Cloud-Organisation auswählen, der Sie eine Report Suite zuweisen sollten.
+Dieser Abschnitt enthält Tipps zur Auswahl der Experience Cloud-Organisation, der Sie eine Report Suite zuordnen sollten.
 
-**Welche Organisation sollte ich auswählen?**
+### Welche Einrichtung sollte ich wählen?
 
-If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. Sie können die im Kapitel über das [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) beschriebenen Schritte vornehmen, um die Organisations-ID zu ermitteln, die vom ID-Dienst genutzt wird.
+If the Experience Cloud ID Service is currently deployed on the report suite, ensure the organization you select in the Report Suite Mapping tool is the same organization specified in the [!DNL visitorAPI.js] file on your site. You can use the instructions in [Test and Verify the Experience Cloud ID Service](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) to find the org ID that is being used by the Visitor ID service.
 
 Wird der Besucher-ID-Dienst bisher noch nicht auf Sites eingesetzt, auf denen die Report Suite Daten erfasst, muss die Implementierung der in der Report Suite-Zuweisung ausgewählten Organisation entsprechen, wenn der Experience Cloud-Besucher-ID-Dienst zu einem späteren Zeitpunkt verwendet wird.
 
-**Warum sind einige Organisationen ausgegraut?**
+### Warum sind einige Organisationen ausgegraut?
 
-Dieser Umstand zeigt an, dass Sie nicht über die für eine Zuweisung der ausgegrauten Report Suite notwendigen Zugriffsrechte verfügen. Siehe folgendes Beispiel:
+Dies weist darauf hin, dass Sie nicht über ausreichende Berechtigungen verfügen, um der ausgegrauten Report Suite zuzuordnen. Siehe folgendes Beispiel:
 
 
 ![](assets/rs-mapping.png)
 
- In dieser Darstellung zeigt der blaue Schlüssel an, dass der Benutzer über Administratorrechte verfügt. Die graue Linie steht für die Sichtbarkeit.
+ In dieser Darstellung zeigt der blaue Schlüssel an, dass der Benutzer über Administratorrechte verfügt. Die grauen Linien zeigen die Sichtbarkeit an.
 
-Dieser Benutzer hat Zugriff auf zwei Experience Cloud-Organisationen. Er hat Folgendes unternommen:
+Dieser Benutzer hat Zugriff auf zwei Experience Cloud-Organisationen. Er hat Folgendes ausgeführt:
 
-* Linked his admin account in the [!UICONTROL chapek] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
-* Linked his non-admin account in the [!UICONTROL doohan] Analytics login company to his [!UICONTROL Chapek] Corp Experience Cloud organization account.
-* Er hat sein Konto ohne Administratorrechte für die Analytics-Unternehmensanmeldung „nigel“ mit dem Experience Cloud-Organisationskonto der Nigel Inc verknüpft.
+* Verknüpfte sein Admin-Konto in der [!UICONTROL chapek] Analytics-Anmelde-Firma mit seinem [!UICONTROL Chapek] Corp Experience Cloud-Organisationskonto.
+* Verknüpfte sein Nicht-Admin-Konto in der [!UICONTROL Analytics-Anmelde-Firma von Adobe] mit seinem [!UICONTROL Chapek] Corp Experience Cloud-Organisationskonto.
+* Verknüpfte sein Nicht-Admin-Konto in der nigel Analytics-Anmelde-Firma mit seinem Nigel Inc Experience Cloud-Organisationskonto.
 
-Im Folgenden wird beschrieben, welche Zuweisungen der Benutzer für die Report Suites vornehmen kann und welche nicht:
+Mit den folgenden Punkten werden die Zuordnungsaktionen Liste, die dieser Benutzer in Bezug auf diese Report Suites ausführen kann und kann:
 
 * [!UICONTROL Die Chapek-prod] Report Suite kann [!UICONTROL Chapek] Corp Org zugeordnet werden, da dieser Benutzer Administrator einer verknüpften Analytics-Anmelde-Firma ([!UICONTROL chapek]) ist und sein Konto mit dieser Organisation verknüpft ist.
-* [!UICONTROL Die Report Suite „nigel-prod“ kann vom Benutzer nicht zugewiesen werden, da er kein Administrator einer Unternehmensanmeldung ist, für die die Report Suite sichtbar wäre.]
-* [!UICONTROL Doohan-prod] Report Suite kann [!UICONTROL Chapek Corp] zugeordnet werden, da dieser Benutzer Administrator einer Anmelde-Firma ([!UICONTROL chapek]) ist, die mit der Experience Cloud-Organisation verknüpft ist (beachten Sie, dass er kein Administrator der Analytics-Anmelde-Firma ist). It is important to be aware that the [!UICONTROL doohan-prod] report suite is also eligible to be mapped to the Nigel Inc Experience Cloud org, even though this user cannot perform that mapping. In this case, both Experience Cloud organizations are displayed in the list, but [!UICONTROL Nigel Inc] is grayed out. Vor der Zuordnung sollte sich der Benutzer mit einem Administrator der Unternehmensanmeldung „nigel“ in Verbindung setzen, um mit ihm zu besprechen, welche Organisation für die Zuweisung am besten geeignet ist. In der Benutzeroberfläche wird eine Warnmeldung über einen möglichen Konflikt angezeigt, wenn ein Benutzer eine Organisation auswählt, die nicht diejenige Organisation ist, unter der die Report Suite ursprünglich erstellt wurde.
+* [!UICONTROL Nigel-prod] Report Suite kann von diesem Benutzer nicht verknüpft werden, da er in keiner der Anmelde-Firmen, auf die diese Report Suite angezeigt wird, Administrator ist.
+* [!UICONTROL Doohan-prod] Report Suite kann [!UICONTROL Chapek Corp] zugeordnet werden, da dieser Benutzer Administrator einer Anmelde-Firma ([!UICONTROL chapek]) ist, die mit der Experience Cloud-Organisation verknüpft ist (beachten Sie, dass er kein Administrator der Analytics-Anmelde-Firma ist). Beachten Sie, dass die [!UICONTROL doohan-prod] Report Suite auch für die Zuordnung zum Nigel Inc Experience Cloud-Org geeignet ist, auch wenn dieser Benutzer diese Zuordnung nicht durchführen kann. In diesem Fall werden beide Experience Cloud-Organisationen in der Liste angezeigt, [!UICONTROL Nigel Inc] ist jedoch grau ausgeblendet. Vor der Zuordnung sollte sich der Benutzer mit einem Administrator der nigel-Login-Firma beraten, um zu ermitteln, welches Org für die Zuordnung am besten geeignet ist. In der Benutzeroberfläche wird eine Warnung zu möglichen Konflikten angezeigt, wenn Sie eine Organisation auswählen, die sich von der Organisation unterscheidet, unter der die Report Suite ursprünglich erstellt wurde.
 
 ## Häufig gestellte Fragen {#section_099E485805994C929FF9C9F75219BEE1}
 
-**Warum werden mir nicht alle meine Report Suites angezeigt?**
+### Warum werden nicht alle meine Report Suites angezeigt?
 
-Einige Ihrer Report Suites werden möglicherweise nur für eine andere Unternehmensanmeldung angezeigt. Die aktuelle Unternehmensanmeldung können Sie mithilfe des Dropdown-Menüs oben im Bildschirm ändern.
+Einige Ihrer Report Suites können unter einer anderen Firma angezeigt werden. Sie können die aktuelle Firma der Anmeldung über die Dropdown-Liste oben im Bildschirm ändern.
 
-**Was passiert, wenn ich einige der im Dropdown-Menü einer meiner Report Suites aufgelisteten Organisationen nicht kenne?**
+### Was geschieht, wenn ich einige der in der Dropdown-Liste für eine meiner Report Suites aufgelisteten Organisationen nicht kenne?
 
-In der Liste sind alle *möglichen *Organisationen aufgeführt, der die Report Suite zugewiesen werden kann, selbst wenn Sie nicht über die nötigen Berechtigungen für die Zuweisung all dieser Report Suites verfügen. Wenn Sie nicht sicher sind, ob die Report Suite einer der ausgegrauten Report Suites in der Liste zugeordnet werden soll, wenden Sie sich an einen Experience Cloud-Administrator in Ihrer Organisation, um die am besten geeignete Option auszuwählen.
+The list shows you all the *possible* organizations your report suite could be mapped to, even you don’t have permission to map to all those report suites. Wenn Sie sich nicht sicher sind, ob die Report Suite einer der grau ausgeblendeten Report Suites in der Liste zugeordnet werden soll, wenden Sie sich an einen Experience Cloud-Administrator in Ihrem Unternehmen, um die beste Auswahl zu ermitteln.
 
-**Was ist, wenn ich einige der Unternehmensanmeldungen nicht kenne, die in der Spalte „Sichtbar für Unternehmensanmeldung“ einer Report Suite aufgezählt werden?**
+### Was geschieht, wenn ich einige der Firmen für die Anmeldung, die für eine Report Suite in der Spalte &quot;Sichtbare Firmen bei der Anmeldung&quot;aufgeführt sind, nicht erkenne?
 
-In der Vergangenheit wurde die Report Suite für eine andere Unternehmensanmeldung freigegeben, die möglicherweise Teil einer anderen Experience Cloud-Organisation ist.
+Irgendwann wurde diese Report Suite für eine andere Firma freigegeben, die möglicherweise Teil eines anderen Experience Cloud-Unternehmens ist.
 
-**Was bedeutet die Fehlermeldung über einen möglichen Konflikt bei einer Report Suite, die von einer anderen Organisation generiert wurde? Warum ist das für mich von Interesse?**
+### Was bedeutet die Fehlermeldung über einen möglichen Konflikt bei einer Report Suite, die von einer anderen Organisation generiert wurde? Warum ist das wichtig?
 
-Diese Benachrichtigung unterstützt Sie dabei, bei der Zuordnung von Report Suites die richtige Entscheidung zu treffen. Wir möchten Sie darauf hinweisen, dass die Report Suite ursprünglich unter einer anderen Organisation erstellt wurde, da es möglich ist, dass sich diese Organisation für die Zuordnung der Report Suite besser eignet.
+Dies ist eine Benachrichtigung, die Sie bei einer informierten Entscheidung über die Zuordnung Ihrer Report Suite unterstützt. Wir möchten Sie darauf hinweisen, dass die Report Suite ursprünglich unter einer anderen Organisation erstellt wurde, falls diese Organisation für diese Report Suite geeigneter sein sollte.
 
-**Wie erkenne ich, ob eine Report Suite zugeordnet ist?**
+### Woher weiß ich, ob eine Report Suite zugeordnet ist?
 
-Zugeordnete Report Suites werden als nicht bearbeitbar dargestellt. Sollten Sie eine Zuordnung ändern müssen, wenden Sie sich an die Kundenunterstützung.
+Zugeordnete Report Suites werden in einem nicht bearbeitbaren Format angezeigt. Wenn Sie eine Zuordnung ändern müssen, wenden Sie sich bitte an den Kundendienst.
 
-**Was passiert, wenn ich nur die Organisations-ID meiner Experience Cloud-Organisation kenne? Wo kann ich den Namen meiner Organisations-ID nachschlagen?**
+### Was geschieht, wenn ich die Organisations-ID für mein Experience Cloud-Unternehmen kenne? Wo kann ich den Namen meiner Organisations-ID nachschlagen?
 
-Den Namen Ihrer Organisation finden Sie unter [Organisationen und Kontoeinstellungen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Sie finden Ihren Firmennamen in [Organisationen und Kontoeinstellungen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
-**In der Spalte „Datum der Zuordnung“ ist ein Datum eingetragen. Wer hat diese Zuordnung vorgenommen?**
+### In der Spalte „Datum der Zuordnung“ ist ein Datum eingetragen. Wer hat diese Zuordnung gemacht?
 
-Im Report Suite-Änderungsprotokoll der Analytics-Oberfläche können Sie die ID des Benutzers nachschlagen, der die Änderung vorgenommen hat. Suchen Sie nach dem Ereignis „Suite associated to IMS Organization“.
+Sie können das Report Suite-Änderungsprotokoll in der Benutzeroberfläche von Analytics verwenden, um die Benutzer-ID zu überprüfen, die die Änderung vorgenommen hat. Suchen Sie nach dem Ereignis &quot;Suite in Verbindung mit IMS-Organisation&quot;.
