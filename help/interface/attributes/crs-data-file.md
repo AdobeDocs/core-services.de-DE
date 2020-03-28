@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -20,10 +20,7 @@ Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen.
 
 Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
 
-<!-- <p>Articulate difference between this and SAINT. </p> -->
-
 ## Zulässige Dateitypen und Namensanforderungen {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
-
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
  <thead> 
@@ -35,7 +32,7 @@ Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. in Excel). Diese Datei enthält die Kundenattributdaten. </p> <p> <b>Namensanforderungen:</b> Stellen Sie sicher, dass die Dateinamenerweiterungen keine Leerzeichen enthalten. </p> </td> 
+   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. in Excel). Diese Datei enthält die Kundenattributdaten. </p> <p> <b>Namensanforderungen:</b> Stellen Sie sicher, dass Dateinamenerweiterungen keine Leerzeichen enthalten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -48,16 +45,11 @@ Kundenattribute sind für die Verarbeitung einiger Dateien pro Tag ausgelegt. Um
  </tbody> 
 </table>
 
-
 ## Voraussetzungen für Attributdatendateien {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
-
-
 
 **Beispiel-CSV**
 
 Die CSV-Datei muss das folgende Format aufweisen:
-
-Beispiel-CSV:
 
 ![](assets/cvs.png)
 
@@ -141,7 +133,6 @@ Die gleiche Datei, die in einem Texteditor angezeigt wurde:
   </tr> 
  </tbody> 
 </table>
-
 
 ## Nutzen mehrerer Datenquellen {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
