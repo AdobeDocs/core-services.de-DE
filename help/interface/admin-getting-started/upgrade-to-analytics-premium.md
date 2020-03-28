@@ -8,7 +8,7 @@ title: Upgrade auf Analytics Premium und die Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -19,63 +19,63 @@ Administratoren können mehr darüber erfahren, was sie bei einem Upgrade auf An
 
 ## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
-Ein Upgrade auf Adobe Analytics Premium bietet Ihnen alle Funktionen und Produkte, die in Analytics Standard verfügbar sind, darunter Data Warehouse, Ad Hoc Analysis, Report Builder und Data Connectors. (Diese Produkte werden Kunden, die die Punktlösung SiteCatalyst verwenden, separat angeboten.)
+Durch die Aktualisierung auf Adobe Analytics Premium erhalten Sie alle verfügbaren Funktionen oder Produkte von Analytics Standard, einschließlich Data Warehouse, Ad-hoc-Analysen, ReportBuilder und Data Connectors. (Diese Produkte wurden mit SiteCatalyst, der Punktlösung, separat an Kunden verkauft.)
 
-Analytics Premium bietet Ihnen Folgendes:
+Analytics Premium bietet Ihnen:
 
-* Zugriff auf 250 Konversion-Variablen (eVars)
-* [Analyse mobiler Apps](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
+* Zugriff auf 250 Konversionsvariablen (eVars)
+* [Mobile App Analytics](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * Data Workbench (visuelle Datenabfrage, regelbasierte Zuordnung, kanalübergreifende Analyse)
 
 >[!NOTE]
 >
->Bei einem Upgrade ist keine Migration erforderlich, jedoch sollten Sie folgende Punkte berücksichtigen:
+>Bei der Aktualisierung ist keine Migration erforderlich. Beachten Sie jedoch Folgendes:
 >
->* eVars 76 bis 250 (SiteCatalyst) und 100 bis 250 (Standard) werden in Admin Tools angezeigt, sind jedoch nicht bereits aktiviert.&gt;
->* Die Beitragsanalyse wird von Adobe aktiviert. Der Standort wird nicht geändert (das Element ist nach wie vor auf der Seite „Anomalieerkennung“ verfügbar), jedoch beginnt die Analyse aller Datenpunkte nun automatisch.&gt;
+>* Die eVars 76-250 (SiteCatalyst) und 100-250 (Standard) sind in den Admin Tools sichtbar, sind aber noch nicht aktiviert.>
+>* Die Analyse der Beitragsleistung wird von Adobe aktiviert. Der Speicherort wird nicht geändert (er ist weiterhin auf der Seite &quot;Anomalieerkennung&quot;verfügbar), aber jetzt wird automatisch ein Beginn zur Analyse aller Datenpunkte ausgeführt.>
 
 
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
-In Analytics Premium Complete erhalten Sie alle Funktionen von [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) sowie folgende Upgrades:
+In Analytics Premium Complete erhalten Sie alle Funktionen von [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507)sowie die folgenden Upgrades:
 
 | Produkt | Upgrades |
 |--- |--- |
 | Reports and Analytics | <ul><li>[Beitragsanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[Kundenattribute](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (bis zu 200)</li></ul> |
 | Data Workbench | <ul><li>Algorithmische Zuordnung</li><li>Vordefinierte Arbeitsbereiche</li></ul> |
-| Analytics-Plattform | [Livestream](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html) (Rohdaten, Dashboards, Trigger) |
+| Analytics-Plattform | [Live-Stream](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html) (Rohdaten, Dashboards, Auslöser) |
 
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
-Ein Upgrade auf Predictive Intelligence bietet [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
+Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
 
 | Produkt | Upgrades |
 |---|---|
 | Reports and Analytics | [Beitragsanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
-| Data Workbench | Vordefinierte Arbeitsbereiche für Zielgruppenqualifikationen und vorausschauendes Marketing |
-| Analytics-Plattform | Livestream (Dashboards und Trigger) |
+| Data Workbench | Vorgefertigte Arbeitsbereiche für die Qualifizierung von Audiencen und das prädiktive Marketing. |
+| Analytics-Plattform | Live-Stream (Dashboards und Auslöser) |
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
-Ein Upgrade auf Customer 360 bietet Ihnen [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
+Upgrade auf Customer 360 Angebots [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
 
 | Produkt | Upgrades |
 |--- |--- |
 | [Kundenattribute](../attributes/attributes.md) | Kundenattribute (Analyse und Segmentfreigabe) |
-| Data Workbench | <ul><li>Abgeleitete Kundenattribute</li><li>Vordefinierte Arbeitsbereiche für Zielgruppenerkennung</li></ul> |
+| Data Workbench | <ul><li>Abgeleitete Kundenattribute</li><li>Vordefinierte Arbeitsbereiche für die Erkennung von Audiencen</li></ul> |
 | Analytics-Plattform | [Kundenattribute](../attributes/attributes.md) |
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
-Advanced Attribution bietet Zugriff auf [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) sowie die algorithmische Zuordnung in Data Workbench (25 % Server-Aufrufvolumen).
+Advanced Attribution Angebots Zugriff auf [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507)plus Algorithmic Attribution in Data Workbench (25 % Server-Aufrufvolumen).
 
 ## Data Workbench-Anforderungen  {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
-Die aktualisierten Benutzer können über eine E-Mail an `dwb@adobe.com` anfordern, dass alle Kundenlizenzen mit der Premium-Information aktualisiert werden. Dies aktiviert Funktionen wie die algorithmische Zuordnung.
+Die aktualisierten Benutzer können über eine E-Mail an `dwb@adobe.com` anfordern, dass alle Kundenlizenzen mit der Premium-Information aktualisiert werden. Dadurch werden Funktionen wie die algorithmische Zuordnung aktiviert.
 
-TechOps überprüfen Ihre Vertragsverpflichtungen und bestimmen die angemessene verwaltete Infrastruktur, erhöhen oder reduzieren die Kapazität und koordinieren über den Account Manager oder über eine Beratung die Durchführung jeglicher Änderungen.
+TechOps überprüft Ihre vertragliche Verpflichtung und ermittelt die geeignete verwaltete Infrastruktur, erhöht oder verringert die Kapazität und koordiniert dann mit Ihnen über den Kundenbetreuer oder die Beratung die Implementierung von Änderungen.
 
-Sämtliche Software, die am Kundenstandort ausgeführt wird, muss deaktiviert werden. Dies umfasst auch Sensoren, Sie müssen also eine ordnungsgemäße Verfolgung über Analytics-Tags sicherstellen.
+Sämtliche Software, die am Kundenstandort ausgeführt wird, muss deaktiviert werden. Dies schließt Sensoren ein, d. h. Sie müssen eine ordnungsgemäße Verfolgung durch Analytics-Tags sicherstellen.
 
 ## Experience Cloud – Benutzer und Produkte verwalten {#section_6471C54454024301B2E0B687F79F6738}
 
@@ -85,10 +85,10 @@ Nachdem Sie Mitglied der Experience Cloud geworden sind, können Sie sich über
 
 ### Verwalten Sie Benutzer und Gruppen
 
-Die Benutzerverwaltung geschieht über die [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html) (Produktlink).
+Die Benutzerverwaltung erfolgt in der [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html) (Produktlink).
 
-Sie können eine 1-zu-1-Zuordnung zwischen einer Gruppe, die in der Adobe Admin Console erstellt wurde, und einer Lösungsgruppe (wie z. B. Adobe Analytics) festlegen. Daraufhin wird für einen neuen Benutzer, der zur zugeordneten Admin Console-Gruppe hinzugefügt wird, automatisch ein Analytics-Lösungskonto erstellt und mit der Adobe ID des Benutzers verknüpft. (Vorhandene Benutzer müssen die Anmeldeinformationen Ihres Lösungskontos manuell verknüpfen, wenn sie über die Anmeldung bei der Experience Cloud auf Lösungen zugreifen möchten.)
+Sie können eine 1:1-Zuordnung zwischen einer in der Adobe Admin-Konsole erstellten Gruppe und einer Lösungsgruppe (z. B. Adobe Analytics) einrichten. Danach wird für einen neuen Benutzer, der der zugeordneten Admin-Konsolengruppe hinzugefügt wird, automatisch ein Analytics-Lösungskonto erstellt und mit der Adobe-ID des Benutzers verknüpft. (Vorhandene Benutzer müssen ihre Anmeldeinformationen für das Lösungskonto manuell verknüpfen, um über die Experience Cloud-Anmeldung auf Lösungen zuzugreifen.)
 
 >[!NOTE]
 >
->Sie können mehrere Lösungsgruppen einer Admin Console-Gruppe zuordnen. Adobe empfiehlt jedoch eine 1-zu-1-Zuordnung. Die frühzeitige Zuordnung der Gruppen ermöglicht es Ihnen, mehrere Benutzer gleichzeitig hinzuzufügen, einzuladen, zu erstellen und ihnen Berechtigungen zuzuweisen, indem Sie eine CSV-Datei hochladen.
+>Sie können mehrere Lösungsgruppen einer Admin Console-Gruppe zuordnen. Adobe empfiehlt jedoch die 1:1-Zuordnung. Durch die vorzeitige Zuordnung der Gruppen können Sie mehrere Benutzer einladen, erstellen, berechtigen und hinzufügen, indem Sie eine CSV hochladen.
