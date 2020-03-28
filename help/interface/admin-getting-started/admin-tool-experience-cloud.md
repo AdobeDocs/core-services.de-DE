@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Ansicht Experience Cloud-Benutzer und -Benutzerdetails '
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -76,7 +76,7 @@ In diesem Abschnitt wird eine Zusammenfassung des Benutzerkontos angezeigt, daru
 
 ## Lösungszusammenfassung
 
-In diesem Abschnitt wird eine Zusammenfassung der Experience Cloud-Lösungen angezeigt, auf die der Benutzer zugreifen kann. Umfasst die Rolle der Produktverwaltung, sofern zutreffend
+In diesem Abschnitt wird eine Zusammenfassung der Experience Cloud-Lösungen angezeigt, auf die der Benutzer zugreifen kann. Umfasst die Rolle der Produktverwaltung, sofern zutreffend.
 
 ## Detaillierte Liste des Produktzugriffs
 
