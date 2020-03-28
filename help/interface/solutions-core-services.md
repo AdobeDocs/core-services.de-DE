@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Über die neuen Cloud-Namen der Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -105,19 +105,6 @@ Adobe Primetime ist eine TV-Plattform für mehrere Bildschirme, mit der Rundfunk
 
 ## Was sind Hauptdienste?  {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[Hauptdienste](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) enthalten Funktionen, die die Produktimplementierung vereinfachen und lösungsübergreifende Arbeitsabläufe – wie Zielgruppensegmentierung, Hochladen von Kundenattributen und Tools für die Zusammenarbeit – bieten.
+[Hauptdienste](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) enthalten Funktionen, die die Produktimplementierung vereinfachen und lösungsübergreifende Arbeitsabläufe – wie Zielgruppensegmentierung, Hochladen von Kundenattributen und Tools für die Zusammenarbeit – bieten.
 
 ![](assets/core-services.png)
-
-| Hauptdienst | Beschreibung |
-|--- |--- |
-| [Activation](activation/activation.md) | Tag-Management-Systeme (Experience Platform Launch und Dynamisches Tag-Management).<br>Mit Triggers können Sie auf Basis von Adobe Analytics-Einblicken in Adobe Campaign Aktionen in Echtzeit durchführen. |
-| [Administration](admin-getting-started/admin-getting-started.md) | Verwalten Sie Benutzer- und Produktberechtigungen für alle Adobe Clouds und Lösungen. |
-| [Assets](experience-cloud-assets/experience-cloud-assets.md) | Speichern, synchronisieren und teilen Sie Ihre digitalen Assets einfach an einem zentralen Ort, um Zeit zu sparen und eine konsistente Kundenerfahrung zu bieten. |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch ist die nächste Generation der Tag-Management-Funktionen von Adobe. ] [!UICONTROL Experience Platform ] Launch bietet Kunden eine einfache Möglichkeit zum Bereitstellen und Verwalten aller Analyse-, Marketing- und Werbe-Tags, die für relevante Kundenerlebnisse benötigt werden. |
-| [Journey-Orchestrierung](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Dies ist ein in Experience Platform integrierter Anwendungs-Service.] |
-| [Standortdienst](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) ist ein Geo-Location-Service, mit dem mobile Apps mit Standortbewusstsein den Standortkontext verstehen können. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit Interessensgebieten (POIs) verwendet. |
-| Angebote | Angebot Management bietet Angebot-Erstellung, -Verwaltung und -Entscheidungsfindung für alle Kanal in der Experience Cloud. |
-| [Exchange](exchange.md) | Suchen, Durchsuchen, Auswählen, Bezahlen und Herunterladen von Digital Marketing-Erweiterungen über Apps. |
-| [Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services führen mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud zusammen, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer mobilen Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. |
-| „Personen“ | Erstellen Sie eine umfassende Ansicht einzelner Kunden, indem Sie Adobe- und Nicht-Adobe-Daten in Ihre Experience Cloud-Lösungen einbinden. Finden Sie heraus, was ihnen am wichtigsten ist, wenn sie über Berührungspunkte hinweg interagieren. Erkennen Sie vertraute Kunden, wenn sie von unbekannten Geräten aus besuchen. Sie können sogar Benutzer in Audiencen für zielgerichtete Marketingbemühungen gruppieren.<br>[Zielgruppen](audience-library/audience-library.md) – Kategorisieren verschiedener Kundentypen in Zielgruppen und diese Zielgruppen über Experience Cloud-Lösungen freigeben<br>[Kundenattribute](attributes/attributes.md) – Eine Erweiterung der Zielgruppe, mit der Sie eine Verbindung mit Kundeninformationen herstellen können, die außerhalb von Experience Cloud erfasst wurden<br>[Gerätediagramm](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Zusammenarbeit mit den weltweit beliebtesten Marken, um einen bekannten Verbraucher hinter einem unbekannten Gerät zu erkennen. (in der Beta-Version, nur für Experience Cloud Device Co-op-Mitglieder) |
