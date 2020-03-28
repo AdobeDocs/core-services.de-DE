@@ -1,13 +1,13 @@
 ---
 description: Erfahren Sie mehr über Organisationen und das Verknüpfen von Lösungskonten mit der Experience Cloud.
-keywords: Hauptdienste
+keywords: core services
 seo-description: Erfahren Sie mehr über Organisationen und das Verknüpfen von Lösungskonten mit der Experience Cloud.
 seo-title: Organisationen und Kontoverknüpfung
-solution: Experience Cloud
+solution: Marketing Cloud
 title: Organisationen und Kontoverknüpfung
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 translation-type: tm+mt
-source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,13 +16,11 @@ source-git-commit: d9618a5e5a9b2cfbd1088acc8e970c0d6b477289
 
 Erfahren Sie mehr über die Verwaltung von Organisationen und das Verknüpfen von Lösungskonten mit der Experience Cloud.
 
-<!-- accounts-experience-cloud.xml -->
-
 ## Organisation identifizieren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Eine *Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. In den meisten Fällen entspricht die Organisation dem Namen Ihres Unternehmens. Ein Unternehmen kann aber auch aus mehreren Organisationen bestehen.
+Eine **-Organisation ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
-Unter Umständen müssen Sie für den Support Ihre Organisations-ID bereithalten. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
+Möglicherweise müssen Sie auch Ihre Organisations-ID zu Supportzwecken suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
 ![Schritt Ergebnis](assets/organization-switch.png)
 
@@ -36,7 +34,7 @@ Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Landing
 
 ## Lösungskonten mit einer Adobe ID verknüpfen {#task_FD389E78640848919E247AC5E95B8369}
 
-Typischerweise geben Experience Cloud-Administratoren den Zugriff auf Lösungen und Dienste frei. In seltenen Fällen müssen Sie unter Umständen Ihre Lösungs-Anmeldedaten mit einer Adobe ID verknüpfen.
+In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Lösungen und Dienste. In seltenen Fällen müssen Sie eventuell die Anmeldeinformationen der Lösung mit einer Adobe-ID verknüpfen.
 
 1. Befolgen Sie die Anweisungen in Ihrer E-Mail-Einladung zur Experience Cloud.
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
@@ -66,9 +64,9 @@ Unter „Standardorganisation und Landingpage“ können Sie Ihren Anmeldevorgan
 
 ## Problembehebung für Kontoverknüpfungen {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
-Hilfe zu Problemen bei der Kontoverknüpfung.
+Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
-Für gewöhnlich schläft die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie folgende Schritte durchführen:
+In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe-ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
 * [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 * Greifen Sie über die Standardanmeldung auf die Lösung zu, solange das Problem nicht behoben ist.
