@@ -1,13 +1,13 @@
 ---
 description: Deaktivieren Sie die Synchronisierung freigegebener Experience Cloud-Ordner in Ihrem Creative Cloud-Ordner.
-keywords: Hauptdienste
+keywords: core services
 seo-description: Deaktivieren Sie die Synchronisierung freigegebener Experience Cloud-Ordner in Ihrem Creative Cloud-Ordner.
 seo-title: Deaktivierung der Synchronisierung freigegebener Ordner
-solution: Experience Cloud
+solution: Experience Cloud
 title: Deaktivierung der Synchronisierung freigegebener Ordner
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -19,9 +19,10 @@ Deaktivieren Sie die Synchronisierung freigegebener Experience Cloud-Ordner in 
 >[!NOTE]
 >
 >Die Synchronisierung von Ordnern können Sie nur deaktivieren, wenn Ihnen die Ordner gehören.
-<p class="head"> <b>Windows</b> </p>
 
-1. Öffnen Sie Windows-Explorer.
+## Windows
+
+1. Öffnen Sie Windows Explorer.
 
 1. Klicken Sie unter „Favoriten“ mit der rechten Maustaste auf den Ordner **[!UICONTROL Creative Cloud-Dateien]** und klicken Sie dann auf **[!UICONTROL Zu synchronisierende freigegebene Ordner auswählen]**.
 
@@ -29,7 +30,7 @@ Deaktivieren Sie die Synchronisierung freigegebener Experience Cloud-Ordner in 
 
 1. Deaktivieren Sie alle Ordner, die nicht synchronisiert werden sollen.
 
-<p class="head"> <b>Mac OS</b> </p>
+## Mac OS
 
 1. Öffnen Sie ein Finder-Fenster.
 
@@ -41,4 +42,4 @@ Deaktivieren Sie die Synchronisierung freigegebener Experience Cloud-Ordner in 
 
 1. Deaktivieren Sie alle Ordner, die nicht synchronisiert werden sollen.
 
-   Bei synchronisierten Ordnern befindet sich neben dem Ordnernamen ein Häkchen.
+   Synchronisierte Ordner haben ein Häkchen neben dem Ordnernamen.
