@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Über die neuen Cloud-Namen der Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 06e508ef47fcd63117a5a885d80b899b562aee61
+source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ---
 
@@ -21,7 +21,7 @@ Hier erfahren Sie mehr über die neuesten Branding-Änderungen der Clouds, über
 
 Die aktuellsten Cloud-Namen und die Lösungen der jeweiligen Cloud:
 
-![](assets/experience_cloud_appicon_32.png) [Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
+[Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
 
 Ersetzt *Experience Cloud* als übergreifenden Cloud-Namen für alle digitalen Erlebnislösungen und -dienste von Adobe.
 
@@ -29,7 +29,7 @@ Ersetzt *Experience Cloud* als übergreifenden Cloud-Namen für alle digitalen E
 >
 >Sie können weiterhin Verweise auf *Experience Cloud* im vorherigen und umfassenderen Kontext anzeigen, bis alle Lösungsschnittstellen in *Enterprise Cloud* umbenannt werden.
 
-![](assets/marketingcloud_32.png) [Experience Cloud](https://www.adobe.com/marketing-cloud.html)
+[Experience Cloud](https://www.adobe.com/marketing-cloud.html)
 
 Umfasst die folgenden Lösungen:
 
@@ -39,14 +39,14 @@ Umfasst die folgenden Lösungen:
 * Adobe Primetime
 * Adobe Social
 
-![](assets/analyticscloud_appicon_32.png) [Analytics Cloud](https://www.adobe.com/data-analytics-cloud.html)
+[Analytics Cloud](https://www.adobe.com/data-analytics-cloud.html)
 
 Umfasst die folgenden Lösungen:
 
 * Adobe Analytics
 * Adobe Audience Manager
 
-![](assets/advertisingcloud_appicon_32.png) [Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
+[Advertising Cloud](https://www.adobe.com/advertising-cloud.html)
 
 Enthält Media Optimizer und TubeMogul.
 
@@ -54,7 +54,7 @@ Enthält Media Optimizer und TubeMogul.
 
 In der folgenden Tabelle werden die Lösungen kurz beschrieben und Links zur jeweiligen Hilfe bereitgestellt. [Fallrezepte](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) stehen Ihnen auch bei der Workflows für digitales Marketing zur Verfügung.
 
-![](assets/mc_analytics_32.png) [Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 
 Erste Schritte mit Analytics:
 
@@ -68,7 +68,7 @@ Siehe auch:
 * [Welche Analytics-Produkte sollte ich verwenden?](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/which-analytics-tool.html)
 * [Analytics – Produktvergleich und Voraussetzungen](https://docs.adobe.com/content/help/en/analytics/admin/admin-overview/analytics-product-comparison.html)
 
-![](assets/mc_target_32.png) [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
+[Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
 Adobe Zielgruppe kann mit Analytics und anderen Experience Cloud-Hauptdiensten integriert werden. Nützliche Themen für die ersten Schritte:
 
@@ -77,29 +77,25 @@ Adobe Zielgruppe kann mit Analytics und anderen Experience Cloud-Hauptdiensten i
 * [Erste Schritte für Administratoren](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
 * [Analytics als Berichte für Adobe-Zielgruppen verwenden](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
-![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
-
-Social bietet eine gehostete, Abonnement-basierte Lösung, mit der Sie Ihre Social-Media-Ziele erreichen und Ihre Strategie und Leistung verbessern können. Sie können Social Marketing mit einer umfassenden Plattform verwalten, die Social Listening, Publishing und Analysen ermöglicht.
-
-![](assets/mc_experiencemanager_32.png) [Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
+[Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
 
 Als Content Management-Lösung erleichtert Adobe Experience Manager die Verwaltung Ihrer Assets und Inhalte für Ihre Websites, mobilen Apps, Communities und Formulare.
 
 Hilfe finden Sie unter [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) .
 
-![](assets/mc_audiencemanager_32.png) [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
+[Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
 Als Datenverwaltungsplattform erleichtert Adobe Audience Manager den Aufbau von eindeutigen Zielgruppenprofilen. Damit können Sie auf jedem Kanal Ihre wertvollsten Kundensegmente erkennen und ansprechen.
 
-![](assets/mc_optimize_32.png) [Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
+[Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
 
 Adobe Advertising Cloud ist eine Programmlösung zum Einkauf von Werbung. Sie hilft beim Finden und Vorhersagen der besten Mischung von Werbekanälen auf der Grundlage Ihres Budgets und automatisiert dann die Bereitstellungen von Inhalten direkt für Ihre Zielgruppe.
 
-![](assets/mc_campaign_32.png) [Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
+[Adobe Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/getting-started/about-adobe-campaign/campaign-orchestration.html)
 
 Mit Adobe Campaign können Sie Kampagnen für alle Ihre Online- und Offline-Kanal planen, bereitstellen und messen. Dies unterstützt Sie bei der Steigerung Ihrer Produktivität und der Bereitstellung von relevanten Inhalten für Ihre Kunden.
 
-![](assets/primetime_app_32.png) [Adobe Primetime](https://help.adobe.com/en_US/primetime/)
+[Adobe Primetime](https://help.adobe.com/en_US/primetime/)
 
 Adobe Primetime ist eine TV-Plattform für mehrere Bildschirme, mit der Rundfunkanbieter ansprechende TV- und Filmerlebnisse für jede Audience erstellen können.
 
