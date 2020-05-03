@@ -6,7 +6,7 @@ seo-title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 solution: Experience Cloud
 title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -29,4 +29,4 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in der Exper
 
 When creating activities in [!DNL Adobe Target], you can use a shared image asset when swapping images in the [!UICONTROL Offers Library].
 
-Siehe [Angebote-Bibliothek](https://docs.adobe.com/help/en/target/using/experiences/offers/manage-content.html) in der [!DNL Target] Hilfe.
+Siehe [Angebote-Bibliothek](https://docs.adobe.com/help/de-DE/target/using/experiences/offers/manage-content.html) in der [!DNL Target] Hilfe.
