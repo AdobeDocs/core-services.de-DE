@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: Hauptdienste-Benutzerhandbuch
+user-guide-title: Benutzerhandbuch zur Experience Cloud-Oberfläche
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # Hauptdienste-Benutzerhandbuch {#interface}
 
-+ [Produktdokumentation zu Experience Cloud und Hauptdiensten](experience-cloud.md)
++ [Experience Cloud und Produktdokumentation](experience-cloud.md)
 + Hauptdienste in Experience Cloud {#about-core-services}
    + [Übersicht über die Hauptdienste](core-services-landing.md)
    + [Lösungen für Hauptdienste aktivieren](core-services/core-services.md)
@@ -74,7 +74,7 @@ source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
    + [Angebote](offer-management/offers.md)
    + [Bezeichnungen](offer-management/labels.md)
    + [Praktika](offer-management/placements.md)
-   + [Kampagne](offer-management/campaign.md)
+   + [Campaign](offer-management/campaign.md)
 + Versionshinweise für Experience Cloud {#release-notes}
    + [Neue Funktionen in der Experience Cloud](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html)
    + [Gesammelte Versionshinweise](marketing-cloud-interface/release-notes.md)
