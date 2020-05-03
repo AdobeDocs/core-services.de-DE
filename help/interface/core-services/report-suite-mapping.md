@@ -5,7 +5,7 @@ seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
 
-Experience Cloud-Dienste (z. B. Experience Cloud ID-Dienst und People-Hauptdienst) sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. Der Zuordnungsprozess:
+Experience Cloud services (such as Experience Cloud ID Service and [!UICONTROL People]) are associated with an organization instead of an individual report suite. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. Der Zuordnungsprozess:
 
 * Legt eine Experience Cloud-Organisation als primäre Organisation für die Report Suite fest.
 * hat keinen Einfluss darauf, wer auf die Report Suite zugreifen kann (der Zugriff wird nach wie vor über das Adobe Analytics-Anmeldekonto eines jeden Benutzers bestimmt)
@@ -106,7 +106,7 @@ Zugeordnete Report Suites werden in einem nicht bearbeitbaren Format angezeigt. 
 
 ### Was geschieht, wenn ich die Organisations-ID für mein Experience Cloud-Unternehmen kenne? Wo kann ich den Namen meiner Organisations-ID nachschlagen?
 
-Sie finden Ihren Firmennamen in [Organisationen und Kontoeinstellungen](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Sie finden Ihren Firmennamen in [Organisationen und Kontoeinstellungen](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/organizations.html).
 
 ### In der Spalte „Datum der Zuordnung“ ist ein Datum eingetragen. Wer hat diese Zuordnung gemacht?
 
