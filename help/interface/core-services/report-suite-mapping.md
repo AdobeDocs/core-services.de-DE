@@ -5,7 +5,7 @@ seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
 
 ---
 
@@ -13,6 +13,8 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 # Report Suites einer Organisation zuweisen {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
 Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
+
+<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 Experience Cloud services (such as Experience Cloud ID Service and [!UICONTROL People]) are associated with an organization instead of an individual report suite. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. Der Zuordnungsprozess:
 
