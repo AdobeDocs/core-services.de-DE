@@ -2,9 +2,9 @@
 title: Kundenattributunterstützung für California Consumer Privacy Act
 description: Kundenattributunterstützung für California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 2e8c8aee39546a345e72cda2dad08ad866cd90f9
+source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '433'
 ht-degree: 4%
 
 ---
@@ -12,36 +12,36 @@ ht-degree: 4%
 
 # Kundenattributunterstützung für California Consumer Privacy Act
 
+Diese Seite beschreibt die Unterstützung der [!UICONTROL Kundenattribute für das California Consumer Privacy Act (CCPA) durch die] kalifornischen Kundenattribute.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Wenden Sie sich an Ihren Rechtsbeistand, um Ratschläge zum California Consumer Privacy Act zu erhalten.
+>Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Wenden Sie sich an Ihren Rechtsbeistand, um Beratung zu der (CCPA) zu erhalten.
 
-Das California Consumer Privacy Act (CCPA) ist das neue kalifornische Datenschutzgesetz, das am 1. Januar 2020 in Kraft tritt. Die CCPA räumt den Einwohnern Kaliforniens neue Rechte in Bezug auf ihre personenbezogenen Daten ein und erlegt bestimmten Personen, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf. CCPA bietet Verbrauchern das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen sowie das Recht auf Opt-out bestimmter Aktivitäten, die als &quot;Verkauf&quot; personenbezogener Daten an Dritte gelten.
+Das CCPA ist das neue kalifornische Datenschutzgesetz, das am 1. Januar 2020 in Kraft tritt. Die CCPA räumt den Einwohnern Kaliforniens neue Rechte in Bezug auf ihre personenbezogenen Daten ein und erlegt bestimmten Personen, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf. CCPA bietet Verbrauchern das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen sowie das Recht auf Opt-out bestimmter Aktivitäten, die als &quot;Verkauf&quot; personenbezogener Daten an Dritte gelten.
 
 Als Unternehmen bestimmen Sie die personenbezogenen Daten, die Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
 Als Dienstleister unterstützt Adobe Experience Cloud Ihr Unternehmen bei der Erfüllung seiner Verpflichtungen aus dem CCPA, die für die Verwendung von Experience Cloud-Produkten und -Diensten gelten, einschließlich der Verwaltung von Anforderungen zum Zugriff auf und Löschen personenbezogener Daten.
 
-In diesem Dokument wird beschrieben, wie Kundenattribute die CCPA-Datenzugriff- und Löschungsrechte der betroffenen Personen mithilfe der API des Adobe Experience Platform Privacy Service und der Benutzeroberfläche des Datenschutzdienstes unterstützen.
+In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die CCPA-Datenzugriff- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service API und der Benutzeroberfläche des Datenschutzdienstes unterstützen.
 
 Weitere Informationen zu den Datenschutzdiensten von Adobe für CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Erforderliche Einrichtung zum Senden von Anfragen für Kundenattribute
+## Erforderliche Einrichtung zum Senden von Anforderungen an [!UICONTROL Kundenattribute]
 
-Um Anforderungen zum Zugriff auf Daten zu Kundenattributen und zum Löschen von Daten zu stellen, müssen Sie:
+Um Anforderungen zum Zugriff auf und Löschen von Daten für [!UICONTROL Kundenattribute]zu stellen, müssen Sie:
 
 1. Identifizieren Sie Folgendes:
 
-* Kennung der IMS-Organisation
-* Alias-ID der CRS-Datenquelle, auf die Sie reagieren möchten
-* CRM-ID des Profils, auf das Sie reagieren möchten
+   * Kennung der IMS-Organisation
+   * Alias-ID der CRS-Datenquelle, auf die Sie reagieren möchten
+   * CRM-ID des Profils, auf das Sie reagieren möchten
+   Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketingteam oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an den Adobe-Kundendienst unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
 
-Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketingteam oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an den Adobe-Kundendienst unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
+1. Im [!UICONTROL Datenschutzdienst]können Sie Anforderungen zum Zugriff und Löschen an Kundenattribute senden und den Status vorhandener Anforderungen prüfen.
 
-2. Verwenden Sie die Benutzeroberfläche des Datenschutzdienstes, um Anforderungen an Kundenattribute zu senden und zu löschen und den Status vorhandener Anforderungen zu überprüfen.
-
-## Erforderliche Feldwerte in JSON-Anforderungen zu Kundenattributen
+## Erforderliche Feldwerte in JSON-Anforderungen für [!UICONTROL Kundenattribute]
 
 &quot;Kontext der Firma&quot;:
 
@@ -98,7 +98,7 @@ Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die
 }
 ```
 
-## Für Zugriffsanforderungen zurückgegebene Datenfelder
+## Datenfelder, die für Zugriffsanfragen zurückgegeben werden
 
 ```
 attributes:
