@@ -2,44 +2,44 @@
 title: Unterstützung von Kundenattributen für die allgemeine Datenschutzverordnung
 description: Unterstützung von Kundenattributen für die allgemeine Datenschutzverordnung
 translation-type: tm+mt
-source-git-commit: 3a86aed0794c3e35cc028e5bfde5dafcb2285fc8
+source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 5%
+source-wordcount: '430'
+ht-degree: 1%
 
 ---
 
 
-# Unterstützung von Kundenattributen für die allgemeine Datenschutzverordnung
+# Unterstützung der Kundenattribute für die allgemeine Datenschutzverordnung
 
+Diese Seite beschreibt, wie Kundenattribute die Allgemeine Datenschutzverordnung (GDPR) unterstützen.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Wenden Sie sich an Ihren Rechtsbeistand, um Beratung zur allgemeinen Datenschutzverordnung zu erhalten.
+>Die Inhalte dieses Dokuments sind keine Rechtsberatung oder sollen Rechtsberatung ersetzen. Wenden Sie sich an Ihren Rechtsbeistand, um Beratung zu GDPR zu erhalten.
 
-Die am 25. Mai 2018 in Kraft getretene [Datenschutzverordnung](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html) (GDPR) sieht vor, dass alle Personen (betroffene Personen) ihre personenbezogenen Daten innerhalb der Grenzen der Europäischen Vereinigung (EU) kontrollieren, und vereinfacht die Umgebung der Vorschriften für den internationalen Geschäftsverkehr. Dieses Gesetz gilt für alle Unternehmen (für die Verarbeitung von Daten verantwortliche Personen), die zum Zeitpunkt der Verarbeitung ihrer personenbezogenen Daten Waren oder Dienstleistungen an Personen innerhalb der Grenzen der Europäischen Union Angebot zur Überwachung des Verhaltens von Personen oder zur Erhebung personenbezogener Daten erbringen, unabhängig vom Standort des für die Verarbeitung Verantwortlichen.
+Die [Datenschutzverordnung](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html), ein Gesetz vom 25. Mai 2018, gibt allen Personen (betroffenen Personen) die Kontrolle über ihre personenbezogenen Daten innerhalb der Grenzen der Europäischen Vereinigung (EU). Außerdem wird die regulatorische Umgebung für die internationale Wirtschaft vereinfacht. Dieses Gesetz gilt für alle Unternehmen (für die Verarbeitung von Daten verantwortliche Personen), die zum Zeitpunkt der Verarbeitung ihrer personenbezogenen Daten Waren oder Dienstleistungen an Personen innerhalb der Grenzen der Europäischen Union Angebot zur Überwachung des Verhaltens von Personen oder zur Erhebung personenbezogener Daten erbringen, unabhängig vom Standort des für die Verarbeitung Verantwortlichen.
 
 Adobe Experience Cloud fungiert als Datenverarbeiter für alle persönlichen Daten, die es im Auftrag seiner Kunden empfängt und speichert. Als Datencontroller bestimmen Sie die personenbezogenen Daten, die Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
-In diesem Dokument wird beschrieben, wie Kundenattribute mithilfe der API und der Benutzeroberfläche des Datenschutzdienstes für Adobe Experience Platform die GDPR-Datenzugriff- und Löschungsrechte der betroffenen Personen unterstützen.
+In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die GDPR-Datenzugriff- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service API und der Benutzeroberfläche des Datenschutzdienstes unterstützen.
 
 Weitere Informationen darüber, was GDPR für Ihr Unternehmen bedeutet, finden Sie unter [GDPR und Ihr Geschäft](https://www.adobe.com/de/privacy/general-data-protection-regulation.html).
 
-## Erforderliche Einrichtung zum Senden von Anfragen für Kundenattribute
+## Erforderliche Einrichtung zum Senden von Anforderungen an [!UICONTROL Kundenattribute]
 
-Um Anforderungen zum Zugriff auf Daten zu Kundenattributen und zum Löschen von Daten zu stellen, müssen Sie:
+Um Anforderungen zum Zugriff auf und Löschen von Daten für [!UICONTROL Kundenattribute]zu stellen, müssen Sie:
 
 1. Identifizieren Sie Folgendes:
 
-* Kennung der IMS-Organisation
-* Alias-ID der CRS-Datenquelle, auf die Sie reagieren möchten
-* CRM-ID des Profils, auf das Sie reagieren möchten
+   * Kennung der IMS-Organisation
+   * Alias-ID der CRS-Datenquelle, auf die Sie reagieren möchten
+   * CRM-ID des Profils, auf das Sie reagieren möchten
+   Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketingteam oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an den Adobe-Kundendienst unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
 
-Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketingteam oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an den Adobe-Kundendienst unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
+1. Im [!UICONTROL Datenschutzdienst]können Sie Anforderungen zum Zugriff und Löschen an Kundenattribute senden und den Status vorhandener Anforderungen prüfen.
 
-2. Verwenden Sie die Benutzeroberfläche des Datenschutzdienstes, um Anforderungen an Kundenattribute zu senden und zu löschen und den Status vorhandener Anforderungen zu überprüfen.
-
-## Erforderliche Feldwerte in JSON-Anforderungen zu Kundenattributen
+## Erforderliche Feldwerte in JSON-Anforderungen für [!UICONTROL Kundenattribute]
 
 &quot;Kontext der Firma&quot;:
 
@@ -96,7 +96,7 @@ Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die
 }
 ```
 
-## Für Zugriffsanforderungen zurückgegebene Datenfelder
+## Für Zugriffsanfragen zurückgegebene Datenfelder
 
 ```
 attributes:
