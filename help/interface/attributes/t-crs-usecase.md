@@ -1,13 +1,16 @@
 ---
 description: Erstellen der Kundenattributquelle und Hochladen der Daten.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Erstellen der Kundenattributquelle und Hochladen der Daten.
 seo-title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 solution: Experience Cloud
 title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 66%
 
 ---
 
@@ -28,8 +31,8 @@ Erstellen Sie die Kundenattributquelle (CSV- und FIN-Dateien) und laden Sie die 
 
 Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
-* [Verwenden von Kundenattributen in Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
-* [Verwenden von Kundenattributen in Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
+* [Kundenattribute in Adobe Analytics verwenden](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
+* [Kundenattribute in der Adobe-Zielgruppe verwenden](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
 
 
@@ -90,9 +93,9 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
       Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
-      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode* -Wert unter [!UICONTROL Kundeneinstellungen]im Tool [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) .
+      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode* -Wert unter [!UICONTROL Kundeneinstellungen]im Tool [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/macid.html) .
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) , die Sie jedem Besucher zuordnen können.
+      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/authenticated-state.html) , die Sie jedem Besucher zuordnen können.
 
          Beispiel: *„crm_ id“* in:
 
@@ -100,13 +103,13 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** Die Alias-ID entspricht *&quot;idType&quot;* in visitorSyncIdentifiers:identifiers [](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS:** Die Alias-ID entspricht *&quot;idType&quot;* in visitorSyncIdentifiers:identifiers [](https://docs.adobe.com/content/help/de-DE/mobile-services/ios/overview.html).
 
          Beispiel:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** Die Alias-ID entspricht *&quot;idType&quot;* in [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android:** Die Alias-ID entspricht *&quot;idType&quot;* in [syncIdentifiers](https://docs.adobe.com/content/help/de-DE/mobile-services/android/overview.html).
 
          Beispiel:
 
@@ -161,7 +164,7 @@ Suchen Sie auf der Seite [!UICONTROL Neue Kunden-Attributquelle erstellen[ oder 
 
 ![Schritt Ergebnis](assets/activate_attribute_source.png)
 
-## Kundenattribute in Adobe Analytics verwenden {#task_7EB0680540CE4B65911B2C779210915D}
+## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
 Mit den Daten, die jetzt in Lösungen verfügbar sind, wie z. B. in
 <keyword>
@@ -172,14 +175,14 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 ![](assets/08_crs_usecase.png)
 
-Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Zielgruppen und in Audience Manager verfügbar.
+Wenn Sie ein Segment in der Experience Cloud veröffentlichen, steht es in Experience Cloud-Audiencen und Audience Manager zur Verfügung.
 
 Weitere Informationen finden Sie unter Bericht [zu](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) Kundenattributen in der Analytics-Hilfe.
 
-## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Bereich Besucherprofil ein Kundenattribut auswählen.  Alle Kundenattribute enthalten in der Liste das Präfix [!DNL crs.]. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
+In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Bereich Besucherprofil ein Kundenattribut auswählen.  All Customer Attributes will have the prefix [!DNL crs.] in the list. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
 
 ![](assets/crs-add-attribute-target.png)
 
-Siehe [Erstellen einer neuen Audience](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) in der [!DNL Target] Hilfe.
+Siehe [Erstellen einer neuen Audience](https://docs.adobe.com/content/help/de-DE/target/using/audiences/create-audiences/audiences.html) in der [!DNL Target] Hilfe.
