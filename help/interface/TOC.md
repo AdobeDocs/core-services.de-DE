@@ -4,7 +4,10 @@ user-guide-title: Benutzerhandbuch zur Experience Cloud-Oberfläche
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 71%
 
 ---
 
@@ -27,9 +30,9 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [Cookies in Data Workbench](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [[!DNL Scene7]-Cookies](cookies/cookies-s7.md)
+   + [[!DNL Scene7] Cookies](cookies/cookies-s7.md)
    + [[!DNL Search and Promote] Cookies](cookies/cookies-snp.md)
-   + [[!DNL Zielgruppe] Cookies](cookies/cookies-target.md)
+   + [[!DNL Target] Cookies](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Auswirkungen von Änderungen an der Cookie-Unterstützung von Drittanbietern auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
@@ -61,13 +64,13 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 + Kundenattribute in Experience Cloud {#customer-attributes}
    + [Übersicht über Kundenattribute](attributes/attributes.md)
    + [Häufig gestellte Fragen, Einschränkungen und Best Practices](attributes/faq-crs.md)
-   + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](attributes/crs-data-file.md)
+   + [Datendatei und Datenquellen für Kundenattribute](attributes/crs-data-file.md)
    + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](attributes/t-crs-usecase.md)
    + [Optional – Hochladen der Datendatei via FTP](attributes/t-upload-attributes-ftp.md)
    + [Prüfen des Schemas](attributes/validate-schema.md)
    + [Konfigurieren von Abonnements](attributes/subscription.md)
    + [Schema aktualisieren](attributes/t-update-schema.md)
-   + [Überlegungen zum Datenschutz – Kundenattribute](attributes/privacy-mac.md)
+   + [Überlegungen zum Datenschutz - Kundenattribute](attributes/privacy-mac.md)
 + Offer Management {#offer-management}
    + [Erste Schritte mit Angebot-Management](offer-management/getting-started.md)
    + [Arbeitsablauf für die Angebot-Verwaltung](offer-management/offer-management-workflow.md)
