@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +23,7 @@ Aktivierung umfasst das neueste Tag-Management-Produkt mit den Namen Experience 
 
 Bereitstellung und Verwaltung von Analyse-, Marketing- und Werbe-Tags, die Sie für relevante Kundenerlebnisse benötigen
 
-See [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+See [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html).
 
 ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
@@ -40,10 +43,10 @@ Klicken Sie zum Starten von „Dynamic Tag Management“ auf **[!UICONTROL Activ
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementierungshandbücher für Experience Cloud ID-Dienst </a> </p> </td> 
-   <td colname="col2"> <p>Der Experience Cloud ID-Dienst ermöglicht die Aktivierung der wichtigsten Funktionen in allen Experience Cloud-Lösungen (einschließlich Kundenattributen, Freigabe von Audiencen und Auslösern). Adobe empfiehlt dringend, den ID-Dienst zu implementieren und die Vorteile dieser Funktionen zu nutzen. </p> </td> 
+   <td colname="col2"> <p>Der Experience Cloud ID-Dienst aktiviert die wichtigsten Funktionen in allen Experience Cloud-Lösungen (einschließlich Kundenattributen, Freigabe von Audiencen und Auslöser). Adobe empfiehlt dringend, den ID-Dienst zu implementieren und die Vorteile dieser Funktionen zu nutzen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation für das Dynamic Tag Management </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation für das Dynamic Tag Management </a> </p> </td> 
    <td colname="col2"> <p>Erfahren Sie mehr über die Bereitstellung von Experience Cloud-Lösungen mit dynamischem Tag-Management. </p> </td>
   </tr> 
  </tbody> 
@@ -69,7 +72,7 @@ Wenn Sie Hilfe bei der Implementierung des dynamischen Tag-Managements benötige
   </tr>
   <tr> 
    <td colname="col1"> <p>Triggers in Adobe Campaign verwenden </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 bietet eine Integration mit dem neuen Trigger-Dienst. Dieser Dienst ermöglicht es Geschäftsbenutzern, Auslöser einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Auslöser definiert ist, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten zur Verfügung, die Interaktion und Konversionen fördern. Diese neue vordefinierte Funktion ermöglicht es Marketingexperten, Remarketing-Nachrichten zum richtigen Zeitpunkt auszulösen, basierend auf Online-Ereignissen wie Warenkorbabbruch, Ansichten, angesehenen Videos usw. </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 führt eine Integration mit dem neuen Trigger-Dienst ein. Dieser Dienst ermöglicht es Geschäftsbenutzern, Auslöser einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Auslöser definiert ist, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten zur Verfügung, die Interaktion und Konversionen fördern. Diese neue vordefinierte Funktion ermöglicht es Marketingexperten, Remarketing-Nachrichten zum richtigen Zeitpunkt auszulösen, basierend auf Online-Ereignissen wie Warenkorbabbruch, Ansichten, angesehenen Videos usw. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -79,4 +82,4 @@ Wenn Sie Hilfe bei der Implementierung des dynamischen Tag-Managements benötige
 
 Die Adobe Experience Cloud-Debugger-Erweiterung für Chrome überprüft Ihre Webseiten und hilft Ihnen bei der Problembehebung bei der Implementierung Ihrer Experience Cloud-Lösungen.
 
-Hilfe finden Sie unter [Experience Cloud-Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) .
+Hilfe finden Sie unter [Experience Cloud-Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html) .
