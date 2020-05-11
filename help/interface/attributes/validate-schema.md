@@ -1,13 +1,16 @@
 ---
 description: Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.). Auf der Grundlage dieser Einstellungen wird ein Schema erstellt. Das Schema wird zur Überprüfung aller zukünftigen Daten verwendet, die in diese Datenquelle hochgeladen werden. Dieser Zuordnungsprozess ändert die Originaldaten nicht.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.). Auf der Grundlage dieser Einstellungen wird ein Schema erstellt. Das Schema wird zur Überprüfung aller zukünftigen Daten verwendet, die in diese Datenquelle hochgeladen werden. Dieser Zuordnungsprozess ändert die Originaldaten nicht.
 seo-title: Prüfen des Schemas
 solution: Experience Cloud
 title: Prüfen des Schemas
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '551'
+ht-degree: 51%
 
 ---
 
@@ -18,7 +21,7 @@ Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibung
 
 >[!NOTE]
 >
->Durch die Aktualisierung des Schemas nach der Validierung werden Kundenattribute gelöscht. Siehe [Schema aktualisieren (auch Attribute löschen)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+>Beim Aktualisieren des Schemas nach der Überprüfung werden Kundenattribute gelöscht. Siehe [Schema aktualisieren (auch Attribute löschen)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **[!UICONTROL Kundenattributquelle]** > Neue Kundenattributquelle **** erstellen > Schema **[!UICONTROL Ansicht/Bearbeiten]**
 
