@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '3809'
+ht-degree: 60%
 
 ---
 
@@ -131,14 +134,14 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
 
 ## Version 15.9 – 10. September 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Es wurde ein Leistungsproblem mit der Audience Manager API behoben, das zeitweise Timeouts beim Hochladen von Kundenattributdaten verursachte. (MAC-26305)
+* Es wurde ein Leistungsproblem mit der Audience Manager-API behoben, das zeitweise Timeouts beim Hochladen von Daten zu Kundenattributen verursachte. (MAC-26305)
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer einem Abonnement bis zu 200 Kundenattribute hinzufügen konnten. (MAC-26188)
 * Es wurde ein Problem mit der Audience-Bibliothek behoben, das die Freigabe von Audiencen aus der Analytics-Segmentierung verhinderte. Dieses Problem verursachte die Anzeige von „Erfassen von Daten“ (0 Zielgruppen). Um dieses Problem zu vermeiden, empfiehlt Adobe, die Segmentgrößen pro Segment unter 50.000 Audiencen zu halten. (MAC-25788)
 * Ein vorheriges bekanntes Problem mit den Kundenattributen wurde behoben: Die Seite &quot;Schema bearbeiten&quot;verursachte einen Fehler mit der Inhaltsunterstützung, der beim Ändern des Anzeigenamens ausgegeben wurde. (MAC-25589, AN-103834)
 
 ## Version 15.7 – 22. Juli 2015  {#section_2683A152176944E48EF6C943892975B7}
 
-* Es wurde ein Fehler behoben, der verhinderte, dass auf der Seite &quot;Ansicht/Schema bearbeiten&quot;(in Kundenattributen) angegebene Attributbeschreibungen in Analytics-Berichten aktualisiert wurden. (MAC-25985)
+* Es wurde ein Fehler behoben, der verhinderte, dass auf der Seite &quot;Ansicht/Schema bearbeiten&quot;(in &quot;Kundenattribute&quot;) angegebene Attributbeschreibungen in Analytics-Berichten aktualisiert wurden. (MAC-25985)
 * Es wurde ein Fehler behoben, der verhinderte, dass die Miniaturansichten für hochgeladene Assets gerendert wurden. (MAC-25863)
 * Es wurde ein Fehler behoben, der verhinderte, dass in Reports &amp; Analysen erstellte neue Segmente in Experience Cloud-Audiencen verfügbar waren. (MAC-25817)
 * Es wurde ein Fehler behoben, der bei Verwendung des Besucher-ID-Diensts die Freigabe von Audiencen in Analytics verhinderte. (MAC-25788, MAC-25747)
@@ -174,7 +177,7 @@ Keine Informationen verfügbar
  </tbody> 
 </table>
 
-* Ein Problem wurde behoben, infolge dessen die Kundenattribute einiger Kunden nicht synchronisiert werden konnten.
+* Es wurde ein Problem behoben, das die Synchronisierung von Kundenattributen für einige Kunden verhinderte.
 * Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
@@ -236,7 +239,7 @@ Keine Informationen verfügbar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gruppenzuordnung </p> </td> 
+   <td colname="col1"> <p>Gruppe Zuordnen </p> </td> 
    <td colname="col2"> <p>Die Seite "Gruppenverwaltung"wurde als Verwaltungsoberfläche neu gestaltet, mit der Sie Gruppen erstellen, Benutzer Gruppen hinzufügen und Berechtigungen für alle Experience Cloud-Lösungen anwenden können. </p> </td> 
   </tr> 
   <tr> 
