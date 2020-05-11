@@ -1,13 +1,16 @@
 ---
 description: Implementieren Sie Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Audiencen.
-keywords: core services;customer attributes
+keywords: core services;Customer Attributes
 seo-description: Implementieren Sie Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Audiencen.
 seo-title: Experience Cloud-Lösungen für Hauptdienste aktivieren
 solution: Experience Cloud
 title: Lösungen für Hauptdienste aktivieren
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 27%
 
 ---
 
@@ -117,7 +120,7 @@ Syntaxbeispiele zum Festlegen zusätzlicher Kunden-IDs in *Android* - und [iOS](
 
 ### Aktivierung der Attribute historischer Daten
 
-Kundenattributdaten werden nach der Anmeldung durch die Besucher bereitgestellt. Wenn Sie den neuesten Experience Cloud ID-Dienst noch nicht implementiert haben und Kunden-IDs in einer prop oder eVar historisch verfolgt haben, können Sie einen Prozess anfordern, der historische Anmeldungen an die Experience Cloud sendet. Auf diese Weise können Sie sofort mit der Verwendung von Kundenattributen beginnen.
+Kundenattributdaten werden nach der Anmeldung durch die Besucher bereitgestellt. Wenn Sie den neuesten Experience Cloud ID-Dienst noch nicht implementiert haben und Kunden-IDs in einer prop oder eVar historisch verfolgt haben, können Sie einen Prozess anfordern, der historische Anmeldungen an die Experience Cloud sendet. Mit diesem Prozess können Sie sofort mit der Verwendung von Kundenattributen beginnen.
 
 Wenden Sie sich an den Kundendienst, um Verlaufsdaten zu aktivieren.
 
