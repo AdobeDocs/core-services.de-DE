@@ -2,7 +2,7 @@
 title: Kundenattributunterstützung für California Consumer Privacy Act
 description: Kundenattributunterstützung für California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 4%
@@ -12,7 +12,7 @@ ht-degree: 4%
 
 # Kundenattributunterstützung für California Consumer Privacy Act
 
-Diese Seite beschreibt die Unterstützung der [!UICONTROL Kundenattribute für das California Consumer Privacy Act (CCPA) durch die] kalifornischen Kundenattribute.
+Diese Seite beschreibt die Unterstützung von [!UICONTROL Kundenattributen] für das California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
@@ -28,9 +28,9 @@ In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die CCPA-D
 
 Weitere Informationen zu den Datenschutzdiensten von Adobe für CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Erforderliche Einrichtung zum Senden von Anforderungen an [!UICONTROL Kundenattribute]
+## Erforderliche Einrichtung zum Senden von Anforderungen für [!UICONTROL Kundenattribute]
 
-Um Anforderungen zum Zugriff auf und Löschen von Daten für [!UICONTROL Kundenattribute]zu stellen, müssen Sie:
+Um Anforderungen zum Zugriff auf Daten zu [!UICONTROL Kundenattributen]und zum Löschen von Daten zu stellen, müssen Sie:
 
 1. Identifizieren Sie Folgendes:
 
