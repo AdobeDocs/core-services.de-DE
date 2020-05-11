@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud-Integrationen
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '1521'
+ht-degree: 41%
 
 ---
 
@@ -134,14 +137,14 @@ Mit der Erweiterung „Adobe Experience Cloud Debugger“ können Sie von Audito
 
 Hilfe: [Integration der Adobe-Zielgruppe mit der Experience Cloud](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/audience-library.html)
 
-Integrieren Sie Adobe Target in Adobe Analytics und andere Experience Cloud-Lösungen, um die Verwendung der gleichen Daten, Zielgruppen, Attribute und Metriken in beiden Lösungen zu ermöglichen.
+Integrieren Sie Adobe-Zielgruppen in Adobe Analytics und andere Experience Cloud-Lösungen, um die Verwendung derselben Daten, Audiencen, Attribute und Metriken in beiden Lösungen zu ermöglichen.
 
 **Anwendbare Lösungen oder Dienste**
 
 * Kundenattribute: Adobe Zielgruppe- [Abonnement](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) für Kundenattribute konfigurieren
 * Experience Cloud-Audiencen: [Experience Cloud Audience Library](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/audience-library.html)
 * Analytics: [Adobe Analytics as the Reporting Source for Adobe Target](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t.html)
-* Dynamisches Tag-Management: [Best Practices für die Implementierung der Adobe-Zielgruppe mit DTM](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* Dynamisches Tag-Management: [Best Practices für die Implementierung der Adobe-Zielgruppe mit DTM](https://docs.adobe.com/content/help/de-DE/dtm/implementing/overview.html)
 * Audience-Manager: [Adobe Zielgruppe Data Integration in Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
 * Kampagne: [Integration von Adobe-Zielgruppe mit Kampagne](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
