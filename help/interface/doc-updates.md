@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Aktualisierungen der Dokumentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: d5f608401b7496fe044826d13e014c8b3bd9fcba
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 70%
 
 ---
 
@@ -30,7 +33,7 @@ Eine Beschreibung wurde hinzugefügt, wie ein Kundenattribut gelöscht werden ka
 
 **Aktualisiert: 08.06.2018**
 
-Zum Abschnitt [Informationen zur Datendatei und den Datenquellen für Kundenattribute](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) wurde eine Anleitung zum Hochladen mehrerer Dateien hinzugefügt.
+Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
 
 **Aktualisiert: 06.06.2018**
 
@@ -74,7 +77,7 @@ Der Abschnitt [Aktivieren Ihrer Lösungen für Hauptdienste](core-services/core-
 
 **Aktualisiert: 15.01.2015**
 
-Hinzugefügt: Experience Cloud-Benutzer können jetzt Ordner mit Creative Cloud freigeben und Assets und Kommentare zwischen beiden Clouds synchronisieren. Siehe [Asset-Freigabe](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Experience Cloud-Benutzer können jetzt Ordner mit der Creative Cloud freigeben und Assets und Kommentare in den beiden Clouds synchronisieren. Siehe [Asset-Freigabe](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Aktualisiert: 17.07.2014**
 
