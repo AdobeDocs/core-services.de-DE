@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Anmelden und Verwalten Ihrer Experience Cloud Profil-Einstellungen
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 51%
 
 ---
 
@@ -36,9 +39,9 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 | Element | Beschreibung |
 |--- |--- |
-| [Grundlagen der Admin-Konsole](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Erfahren Sie mehr über die ersten Schritte, die Sie für die ersten Schritte mit Experience Cloud-Lösungen unternehmen müssen. |
-| [Identität einrichten](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definieren und richten Sie ein Identitätssystem ein, mit dem Ihre Endbenutzer authentifiziert werden. |
-| [Benutzerverwaltung](https://helpx.adobe.com/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
+| [Grundlagen der Admin-Konsole](https://helpx.adobe.com/de/marketing-cloud/how-to/first-time-setup.html) | Erfahren Sie mehr über die ersten Schritte, die Sie für die ersten Schritte mit Experience Cloud-Lösungen unternehmen müssen. |
+| [Identität einrichten](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | Definieren und richten Sie ein Identitätssystem ein, mit dem Ihre Endbenutzer authentifiziert werden. |
+| [Benutzerverwaltung](https://helpx.adobe.com/de/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
 | [Admin Console starten](../admin-getting-started/admin-getting-started.md) | Die Admin-Konsole ist der zentrale Speicherort für die Verwaltung Ihrer Adobe-Benutzer und Produktberechtigungen in Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link](https://adminconsole.adobe.com) bei der Admin Console   anmelden. |
 | [Creative Cloud-Benutzer verwalten](../experience-cloud-assets/t-admin-add-cc-user.md) | Mit Experience Cloud Assets können Marketingexperten Ordner mit Designern und anderen kreativen Assets gemeinsam verwenden, synchronisieren und mit ihnen zusammenarbeiten. Sie können die Creative Cloud-Benutzer verwalten, die für die Zusammenarbeit mit Ihrem Unternehmen zugelassen sind. |
 | [Report Suites zuordnen](../core-services/core-services.md) | (Nur Analytics) Die Experience Cloud-Hauptdienste sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe  [Analytics für Hauptdienste aktiviert wird](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).) |
