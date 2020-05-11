@@ -2,7 +2,7 @@
 title: Unterstützung von Kundenattributen für die allgemeine Datenschutzverordnung
 description: Unterstützung von Kundenattributen für die allgemeine Datenschutzverordnung
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Unterstützung der Kundenattribute für die allgemeine Datenschutzverordnung
 
-Diese Seite beschreibt, wie Kundenattribute die Allgemeine Datenschutzverordnung (GDPR) unterstützen.
+Auf dieser Seite wird beschrieben, wie Kundenattribute die Allgemeine Datenschutzverordnung (GDPR) unterstützen.
 
 >[!IMPORTANT]
 >
@@ -22,13 +22,13 @@ Die [Datenschutzverordnung](https://www.adobe.com/privacy/general-data-protectio
 
 Adobe Experience Cloud fungiert als Datenverarbeiter für alle persönlichen Daten, die es im Auftrag seiner Kunden empfängt und speichert. Als Datencontroller bestimmen Sie die personenbezogenen Daten, die Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
-In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die GDPR-Datenzugriff- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service API und der Benutzeroberfläche des Datenschutzdienstes unterstützen.
+In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die Zugriffsrechte auf und Löschung von GDPR-Daten Ihrer betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service API und der Benutzeroberfläche des Datenschutzdienstes unterstützen.
 
 Weitere Informationen darüber, was GDPR für Ihr Unternehmen bedeutet, finden Sie unter [GDPR und Ihr Geschäft](https://www.adobe.com/de/privacy/general-data-protection-regulation.html).
 
-## Erforderliche Einrichtung zum Senden von Anforderungen an [!UICONTROL Kundenattribute]
+## Erforderliche Einrichtung zum Senden von Anforderungen für [!UICONTROL Kundenattribute]
 
-Um Anforderungen zum Zugriff auf und Löschen von Daten für [!UICONTROL Kundenattribute]zu stellen, müssen Sie:
+Um Anforderungen zum Zugriff auf Daten zu [!UICONTROL Kundenattributen]und zum Löschen von Daten zu stellen, müssen Sie:
 
 1. Identifizieren Sie Folgendes:
 
