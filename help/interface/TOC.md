@@ -4,10 +4,10 @@ user-guide-title: Benutzerhandbuch zur Experience Cloud-Oberfläche
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 71%
+source-wordcount: '375'
+ht-degree: 69%
 
 ---
 
@@ -70,6 +70,8 @@ ht-degree: 71%
    + [Prüfen des Schemas](attributes/validate-schema.md)
    + [Konfigurieren von Abonnements](attributes/subscription.md)
    + [Schema aktualisieren](attributes/t-update-schema.md)
+   + [Unterstützung der allgemeinen Datenschutzverordnung](attributes/gdpr.md)
+   + [Unterstützung des California Consumer Privacy Act](attributes/ccpa.md)
    + [Überlegungen zum Datenschutz - Kundenattribute](attributes/privacy-mac.md)
 + Offer Management {#offer-management}
    + [Erste Schritte mit Angebot-Management](offer-management/getting-started.md)
