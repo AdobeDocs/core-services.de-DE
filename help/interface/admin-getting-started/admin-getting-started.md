@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 index: true
 translation-type: tm+mt
-source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
+source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+workflow-type: tm+mt
+source-wordcount: '1449'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +21,7 @@ Erfahren Sie mehr über die Anmeldung bei der Admin-Konsole, die Verwaltung der 
 
 >[!IMPORTANT]
 >
->Durch die Verwaltung von Benutzern in der Admin Console werden neue Begriffe, Benutzeroberflächen und Navigationselemente eingeführt. Nachfolgend werden diese Änderungen beschrieben und Links zu weiteren Hilferessourcen angegeben. This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) for all Adobe cloud products.
+>Durch die Verwaltung von Benutzern in der Admin Console werden neue Begriffe, Benutzeroberflächen und Navigationselemente eingeführt. Nachfolgend werden diese Änderungen beschrieben und Links zu weiteren Hilferessourcen angegeben. This help supplements the information in the [Enterprise Administration User Guide](https://helpx.adobe.com/de/enterprise/managing/user-guide.html) for all Adobe cloud products.
 
 ## Neue Funktionen für die Experience Cloud-Benutzerverwaltung {#concept_06A0A13362F644FB90F947238407637A}
 
@@ -48,13 +51,13 @@ Administratoren verwalten Benutzer nicht mehr in Lösungen. Benutzer- und Produk
 So melden Sie sich bei der Admin-Konsole an:
 
 1. Navigate to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
-1. Geben Sie Ihre [Adobe ID oder Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) und Ihr Kennwort ein.
+1. Geben Sie Ihre [Adobe ID oder Enterprise ID](https://helpx.adobe.com/de/enterprise/help/identity.html) und Ihr Kennwort ein.
 
 Alternatively, from the Experience Cloud menu ( ![](assets/menu-icon.png)), click **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
 
 **Verwandte Hilfe**
 
-[Administrations-Benutzerhandbuch](https://helpx.adobe.com/enterprise/using/users.html) für Creative Cloud und Dokument Cloud. Einige Informationen sind für die Experience Cloud-Benutzerverwaltung relevant, z. B. für die [Verwaltung von Identitätstypen](https://helpx.adobe.com/enterprise/help/identity.html).
+[Administrations-Benutzerhandbuch](https://helpx.adobe.com/de/enterprise/using/users.html) für Creative Cloud und Dokument Cloud. Einige Informationen sind für die Experience Cloud-Benutzerverwaltung relevant, z. B. für die [Verwaltung von Identitätstypen](https://helpx.adobe.com/de/enterprise/help/identity.html).
 
 [Melden Sie sich an und verwalten Sie Ihre Profil-Einstellungen](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) , um Kennwörter, Organisationen und Benachrichtigungen zu verwalten.
 
@@ -84,16 +87,16 @@ After the migration, users sign in using their Adobe ID (or Enterprise ID) and a
 
 **Verwandte Hilfe**
 
-[Analytics-Benutzer-ID-Migration](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
+[Analytics-Benutzer-ID-Migration](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
 ## Adobe Target - product profiles vs workspaces {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 In Adobe Zielgruppe ist ein Arbeitsbereich ein Produkt-Profil. Damit kann eine Organisation einem bestimmten Satz von Benutzern bestimmte Eigenschaften zuweisen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in Adobe Analytics.
 
 Siehe:
-* [Berechtigungen für Unternehmensbenutzer](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
-* [Produkte und Profil verwalten](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Video: Adobe Zielgruppe Workspaces [in der Adobe Admin Console konfigurieren](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Berechtigungen für Unternehmensbenutzer](https://docs.adobe.com/content/help/de-DE/target/using/administer/manage-users/enterprise/property-channel.html)
+* [Produkte und Profil verwalten](https://helpx.adobe.com/de/enterprise/using/manage-products-and-profiles.html)
+* Video: [Konfigurieren von Adobe Zielgruppe Workspaces in der Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - Produktprofile, Mandanten und Sicherheitsgruppen {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -108,6 +111,12 @@ Informationen zu Sicherheitsgruppen und zum Zuweisen von Benutzern zu Sicherheit
 Der Start der Erlebnisplattform wird auf der Seite &quot;Produkte&quot;in der Admin-Konsole angezeigt. Sie können andere Lösungen und Dienste in ein Profil zum Starten von Produkten aufnehmen.
 
 Informationen zu Benutzerberechtigungen in der Admin-Konsole finden Sie unter [Benutzerverwaltung](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) und richten Sie startspezifische Optionen ein, einschließlich der Zuweisung von Berechtigungen zu Profilen.
+
+## Experience Manager as a Cloud Service
+
+Adobe Enterprise-Kunden werden in der Adobe Admin Console als IMS-Organisationen repräsentiert. Dieses Portal wird von Adobe-Kunden verwendet, um ihre Produktberechtigungen für ihre Benutzer und Gruppen zu verwalten. AEM-Kunden können die Adobe Admin Console verwenden, um ihre Produktberechtigungen und die IMS-Authentifizierung für AEM als Cloud-Dienst zu verwalten.
+
+See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
 
 ## Dynamischer Tag-Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -134,9 +143,9 @@ Wenn Sie einen Benutzer zu einer Organisation einladen, können Sie dem Benutzer
 
 Weitere Hilfe finden Sie unter:
 
-* [Produkte und Profil verwalten](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Enterprise-Benutzerberechtigungen](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) in der Hilfe zu Adobe Zielgruppe.
-* Video: Adobe Zielgruppe Workspaces [in der Adobe Admin Console konfigurieren](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Produkte und Profil verwalten](https://helpx.adobe.com/de/enterprise/using/manage-products-and-profiles.html)
+* [Enterprise-Benutzerberechtigungen](https://docs.adobe.com/content/help/de-DE/target/using/administer/manage-users/enterprise/property-channel.html) in der Hilfe zu Adobe Zielgruppe.
+* Video: [Konfigurieren von Adobe Zielgruppe Workspaces in der Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Analytics-Zugriffsberechtigungen einem Produktprofil zuweisen {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -183,10 +192,10 @@ Unterstützte Browser in der Experience Cloud.
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Hinweis:** Obwohl die Experience Cloud-Oberfläche diese Browser unterstützt, unterstützen einzelne Lösungen möglicherweise nicht alle Browser. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
+**Hinweis:** Obwohl die Experience Cloud-Oberfläche diese Browser unterstützt, unterstützen einzelne Lösungen möglicherweise nicht alle Browser. (For example, [Analytics](https://docs.adobe.com/content/help/de-DE/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/de-DE/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 ### Anforderungen an Lösungen und Produkte
 
-* [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/de-DE/analytics/admin/sys-reqs.html)
 * [Report Builder ](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/de-DE/target/using/implement-target/before-implement/supported-browsers.html)
