@@ -4,10 +4,10 @@ user-guide-title: Benutzerhandbuch zur Experience Cloud-Oberfläche
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 69%
+ht-degree: 65%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 69%
    + [Übersicht über Kundenattribute](attributes/attributes.md)
    + [Häufig gestellte Fragen, Einschränkungen und Best Practices](attributes/faq-crs.md)
    + [Datendatei und Datenquellen für Kundenattribute](attributes/crs-data-file.md)
-   + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](attributes/t-crs-usecase.md)
+   + [Erstellen Sie eine Kundenattributquelle und laden Sie die Datendatei hoch](attributes/t-crs-usecase.md)
    + [Optional – Hochladen der Datendatei via FTP](attributes/t-upload-attributes-ftp.md)
    + [Prüfen des Schemas](attributes/validate-schema.md)
    + [Konfigurieren von Abonnements](attributes/subscription.md)
