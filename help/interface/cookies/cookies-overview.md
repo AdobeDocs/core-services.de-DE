@@ -1,23 +1,26 @@
 ---
-description: Viele Dienste innerhalb von Adobe Experience Cloud verwenden Cookies. Ein Cookie ist eine kleine Einheit von Daten, die einem Browser von einer Website präsentiert werden. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird dann bei jeder darauffolgenden Anforderung von Seiten und Bildern durchgeführt.
-seo-description: Viele Dienste innerhalb von Adobe Experience Cloud verwenden Cookies. Ein Cookie ist eine kleine Einheit von Daten, die einem Browser von einer Website präsentiert werden. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird dann bei jeder darauffolgenden Anforderung von Seiten und Bildern durchgeführt.
+description: Viele Dienste in der Adobe Experience Cloud verwenden Cookies. Ein Cookie ist ein kleines Datenelement, das von einer Website einem Webbrowser präsentiert wird. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird bei jeder nachfolgenden Anforderung für Seiten und Bilder ausgeführt.
+seo-description: Viele Dienste in der Adobe Experience Cloud verwenden Cookies. Ein Cookie ist ein kleines Datenelement, das von einer Website einem Webbrowser präsentiert wird. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird bei jeder nachfolgenden Anforderung für Seiten und Bilder ausgeführt.
 seo-title: Cookies in Experience Cloud
 title: Cookies in Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+workflow-type: ht
+source-wordcount: '280'
+ht-degree: 100%
 
 ---
 
 
-# Cookies in Experience Cloud{#cookies-used-in-the-experience-cloud}
+# Cookies in Experience Cloud {#cookies-used-in-the-experience-cloud}
 
-Viele Dienste innerhalb von Adobe Experience Cloud verwenden Cookies. Ein Cookie ist eine kleine Einheit von Daten, die einem Browser von einer Website präsentiert werden. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird dann bei jeder darauffolgenden Anforderung von Seiten und Bildern durchgeführt.
+Viele Dienste in der Adobe Experience Cloud verwenden Cookies. Ein Cookie ist ein kleines Datenelement, das von einer Website einem Webbrowser präsentiert wird. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird bei jeder nachfolgenden Anforderung für Seiten und Bilder ausgeführt.
 
-Cookies werden bereitgestellt, um während und manchmal auch zwischen Seitenbesuchen Informationen nachzuhalten. Mit Cookies ist es möglich, Geräte von anderen Browsern, mit denen eine Website angezeigt wird, zu unterscheiden.
+Cookies werden bereitgestellt, um während und manchmal auch zwischen Website-Besuchen Informationen beizubehalten. Cookies ermöglichen eine eindeutige Unterscheidung zwischen Geräten und anderen Browsern, in denen die Site angezeigt wird.
 
 >[!NOTE]
 >
->Möglicherweise sind Sie aufgrund von Gesetzen, Regulierungen und Selbstregulierungsvorschriften dazu verpflichtet, die Zustimmung von Besuchern einzuholen, bevor Sie Informationen auf einem Computer oder einem anderen mit dem Internet verbundenen Gerät speichern oder abrufen können. Wir empfehlen Ihnen, mit Ihrem Rechtsbeistand durchzugehen, welche Gesetze, Regulierungen und Vorschriften im Hinblick auf Ihre Nutzung von Cookies gelten.
+>Möglicherweise sind Sie aufgrund von Gesetzen, Regulierungen und Selbstregulierungsvorschriften dazu verpflichtet, die Zustimmung von Besuchern einzuholen, bevor Sie Informationen auf einem Computer oder einem anderen mit dem Internet verbundenen Gerät speichern oder abrufen können. Wir empfehlen Ihnen, mit Ihrem Rechtsbeistand zu prüfen, durch welche Gesetze, Vorschriften und Grundsätze die Verwendung von Cookies geregelt ist.
 
-In dieser Dokumentation werden die von der Suite verwendeten Cookies beschrieben, und Sie erfahren Näheres über Ihre Verpflichtungen hinsichtlich der Einholung von Zustimmungen.
+Diese Dokumentation beschreibt die von der Suite verwendeten Cookies und hilft Ihnen bei der Erfüllung Ihrer Zustimmungspflichten.
