@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 64%
+ht-degree: 84%
 
 ---
 
 
 # Aktualisierungen der Dokumentation – Experience Cloud
 
-Informationen zu Aktualisierungen der Experience Cloud-Produktdokumentation.
+Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation.
 
 **Aktualisiert: 19.05.2020**
 
@@ -32,11 +32,11 @@ Die folgenden Seiten wurden hinzugefügt:
 
 **Aktualisiert: 10.03.2020**
 
-Aktualisierung der Weiterleitung [von Hostnamen](cookies/cookies-first-party.md#validate) im Erstanbieter-Cookies-Abschnitt überprüfen.
+Aktualisierung der [Weiterleitung von Hostnamen](cookies/cookies-first-party.md#validate) im Erstanbieter-Cookies-Abschnitt.
 
 **Aktualisiert: 20.02.2020**
 
-Es wurden [Ansicht Experience Cloud-Benutzerdetails hinzugefügt (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
+Hinzufügung der [Anzeigen von Experience Cloud-Benutzerdetails (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Aktualisiert: 05.09.2018**
 
@@ -68,7 +68,7 @@ Die Definition von Analytics-Rohdaten wurde in [Erstellen einer Zielgruppe](audi
 
 **Aktualisiert: 23.02.2017**
 
-[Experience Cloud Triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB) hinzugefügt
+[Experience Cloud Triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB) hinzugefügt.
 
 **Aktualisiert: 01.02.2017**
 
@@ -88,7 +88,7 @@ Der Abschnitt [Aktivieren Ihrer Lösungen für Hauptdienste](core-services/core-
 
 **Aktualisiert: 15.01.2015**
 
-Experience Cloud-Benutzer können jetzt Ordner mit der Creative Cloud freigeben und Assets und Kommentare in den beiden Clouds synchronisieren. Siehe [Asset-Freigabe](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Hinzugefügte Experience Cloud-Benutzer können jetzt Ordner für Creative Cloud freigeben und Assets und Kommentare zwischen beiden Clouds synchronisieren. Siehe [Asset-Freigabe](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Aktualisiert: 17.07.2014**
 
