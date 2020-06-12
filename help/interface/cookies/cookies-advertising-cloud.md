@@ -4,8 +4,11 @@ seo-description: Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigen
 seo-title: Advertising Cloud-Cookies
 title: Advertising Cloud-Cookies
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: ht
+source-wordcount: '544'
+ht-degree: 100%
 
 ---
 
@@ -92,11 +95,11 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Die Zeitstempel des letzten Besuchs des Surfers auf der Website des Advertisers und des letzten Suchklicks des Surfers sowie die ef_id, die beim Klicken auf eine Anzeige erstellt wurde</p> </td> 
+   <td colname="col2"> <p>Die Zeitstempel des letzten Besuchs auf der Website des Werbetreibenden und der letzte Suchklick des Surfers sowie die ef_id, die erstellt wurde, als der Benutzer auf eine Anzeige geklickt hat</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>2 Jahre </p> </td> 
+   <td colname="col2"> <p>2 Jahre </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
@@ -164,7 +167,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>2 Jahre </p> </td> 
+   <td colname="col2"> <p>2 Jahre </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
@@ -230,7 +233,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>2 Jahre </p> </td> 
+   <td colname="col2"> <p>2 Jahre </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
