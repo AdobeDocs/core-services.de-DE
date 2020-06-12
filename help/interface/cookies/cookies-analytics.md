@@ -6,17 +6,20 @@ seo-title: Analytics-Cookies
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics-Cookies
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '812'
+ht-degree: 100%
 
 ---
 
 
-# Cookiesin Analytics{#analytics-cookies}
+# Cookies in Analytics {#analytics-cookies}
 
 Adobe Analytics verwendet Cookies, um Anforderungen von verschiedenen Browsern zu unterscheiden und nützliche Informationen zu speichern, die eine Anwendung später verwenden kann. Sie können auch verwendet werden, um Browserinformationen Kundendatensätzen zuzuordnen.
 
-Analytics verwendet Cookies vor allem, um anonym neue Besucher zu definieren, Clickstream-Daten zu analysieren und historische Aktivitäten auf der Website zu verfolgen, z. B. Antworten auf bestimmte Kampagnen oder die Dauer des Verkaufszyklus.
+Analytics verwendet Cookies vor allem, um anonym neue Besucher zu definieren, Klickdaten zu analysieren und historische Aktivitäten auf der Website zu verfolgen, z. B. Reaktionen auf bestimmte Kampagnen oder die Dauer des Verkaufszyklus.
 
 * [Cookie-Name: s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Cookie-Name: AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -43,7 +46,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code eingestellt und gelesen, um festzustellen, ob Cookies aktiviert sind (einfach auf &quot;True&quot;setzen) |
+| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, um zu bestimmen, ob Cookies aktiviert (auf „True“ gesetzt) sind. |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert |
@@ -53,7 +56,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die ClickMap-Funktion oder die Aktivität Map-Funktion aktiviert ist. enthält Informationen zum vorherigen Link, auf den der Benutzer geklickt hat |
+| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die ClickMap-Funktion oder die Activity Map-Funktion aktiviert ist. Es enthält Informationen zum vorherigen Link, auf den der Benutzer geklickt hat |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert |
@@ -63,10 +66,10 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Eindeutiger Besucher-ID-Datums-/Uhrzeitstempel |
+| Gespeicherte Informationen | Datums-/Uhrzeitstempel der eindeutigen Besucher-ID. |
 | Ablauf | 2 Jahre |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  |
-| Position | Dieses Cookie wird in der Domäne der Bildanforderung gespeichert - normalerweise eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domäne Erstanbieter-Cookies verwendet. |
+| Position | Dieses Cookie wird in der Domäne der Bildanforderung gespeichert. Dabei handelt es sich normalerweise um eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domäne Erstanbieter-Cookies verwendet. |
 | Größe | 44 Byte |
 
 >[!NOTE]
@@ -77,9 +80,9 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Zeitstempel/Datumsstempel für eindeutige Besucher-ID |
+| Gespeicherte Informationen | Fallback-Datums-/Uhrzeitstempel der Unique Visitor-ID |
 | Ablauf | 2 Jahre |
-| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  if the standard  `s_vi` cookie is unavailable due to third-party cookie restrictions. Nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
+| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domäne gespeichert. |
 | Größe | 33 Byte |
 
@@ -89,16 +92,16 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 
 | Cookie (gesetzt von) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
-| s_vi (http Response) | Nein | Ja, wenn dieselbe Site &quot;Keine&quot;ist und die Verbindung HTTPS verwendet | Bei Verwendung von CNAME wird standardmäßig &quot;Lax&quot;verwendet. &quot;Keine&quot;bei Verwendung von 2o7.net oder omtrdc.net. |
-| s_ecid (http Response) | Nein | Nein | &quot;Nicht streng&quot; |
-| s_fid (Javascript) | Nein | Nein | Ungestellt |
-| s_cc (Javascript) | Nein | Nein | Ungestellt |
-| s_sq (Javascript) | Nein | Nein | Ungestellt |
+| s_vi (http Response) | Nein | Ja, wenn SameSite „Keine“ lautet und die Verbindung HTTPS verwendet | Bei Verwendung von CNAME wird standardmäßig „Lax“ verwendet. „Keine“ bei Verwendung von 2o7.net oder omtrdc.net. |
+| s_ecid (http-Antwort) | Nein | Nein | &quot;Nicht streng&quot; |
+| s_fid (Javascript) | Nein | Nein | Löschen |
+| s_cc (Javascript) | Nein | Nein | Löschen |
+| s_sq (Javascript) | Nein | Nein | Löschen |
 
->[!NOTE] Wenn ein einziger CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg verwendet wird, sollte für SameSite für `s_vi`die Verfolgung auf &quot;Keine&quot;eingestellt werden. Wenden Sie sich an den Kundendienst, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
+>[!NOTE] Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
 
 ## Von Plug-ins eingestellte Cookies  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins eingestellt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung in verschiedensten Situationen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Weitere Informationen zu Cookies, die von jedem Plug-in gesetzt werden, erhalten Sie von der Kundenunterstützung. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
+Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins gesetzt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung in verschiedensten Situationen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Weitere Informationen zu Cookies, die von jedem Plug-in gesetzt werden, erhalten Sie von der Kundenunterstützung. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
 
 Konversionsvariablen (eVarX), die auf eine Bildanforderung ohne JavaScript hin weitergegeben werden, wie z. B. Code in einer E-Mail, werden nur dann richtig zugewiesen, wenn der E-Mail-Client und der Webbrowser denselben Cookie-Bereich nutzen.
