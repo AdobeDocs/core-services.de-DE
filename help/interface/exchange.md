@@ -1,20 +1,23 @@
 ---
-description: Der Exchange Marketplace ist ein einziges Ziel, an dem Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen für das Kernprodukt von Adobe, Anwendungen von Drittanbietern und Berichte.
+description: Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte.
 keywords: core services
-seo-description: Der Exchange Marketplace ist ein einziges Ziel, an dem Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen für das Kernprodukt von Adobe, Anwendungen von Drittanbietern und Berichte.
+seo-description: Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte.
 seo-title: Exchange Marketplace
 solution: Experience Cloud
 title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 
 
 # Exchange Marketplace
 
-Der Exchange Marketplace ist ein einziges Ziel, an dem Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen für das Kernprodukt von Adobe, Anwendungen von Drittanbietern und Berichte.
+Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte.
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Hilfe]** > **[!UICONTROL Exchange]**
 
@@ -26,10 +29,10 @@ Der Exchange Marketplace ist ein einziges Ziel, an dem Sie Digital Marketing-Erw
 
 * Überprüfen Sie die Übermittlungen von Entwicklern, durchsuchen Sie die Anwendung und kommentieren oder bewerten Sie die einzelnen Anwendungen.
 
-* Anträge ablehnen oder genehmigen.
+* Genehmigen Sie Anträge oder lehnen Sie sie ab.
 
-* Veröffentlichen in der Experience Cloud.
+* Veröffentlichen Sie in der Experience Cloud.
 
-* Suchen und filtern Sie nach Kategorie, Firma, Typ, Benutzer und mehr.
+* Suchen und filtern Sie nach Kategorie, Unternehmen, Typ, Benutzer usw.
 
-See [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) for more information.
+Weitere Informationen finden Sie unter [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html).
