@@ -1,7 +1,7 @@
 ---
-description: Wenn Sie die Kundenattributdaten nicht per Drag-and-Drop in die Experience Cloud hochladen, können Sie die Daten auch via FTP hochladen.
+description: Wenn Sie die Kundenattributdaten nicht per Drag & Drop in die Experience Cloud hochladen, können Sie die Daten auch via FTP hochladen.
 keywords: Customer Attributes;core services
-seo-description: Wenn Sie die Kundenattributdaten nicht per Drag-and-Drop in die Experience Cloud hochladen, können Sie die Daten auch via FTP hochladen.
+seo-description: Wenn Sie die Kundenattributdaten nicht per Drag & Drop in die Experience Cloud hochladen, können Sie die Daten auch via FTP hochladen.
 seo-title: Optional – Hochladen der Datendatei via FTP
 solution: Experience Cloud
 title: Optional – Hochladen der Datendatei via FTP
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
 source-wordcount: '294'
-ht-degree: 54%
+ht-degree: 85%
 
 ---
 
 
 # Optional – Hochladen der Datendatei via FTP
 
-Wenn Sie die Kundenattributdaten nicht per Drag-and-Drop in die Experience Cloud hochladen, können Sie die Daten auch via FTP hochladen.
+Wenn Sie die Kundenattributdaten nicht per Drag &amp; Drop in die Experience Cloud hochladen, können Sie die Daten auch via FTP hochladen.
 
 Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein FTP-Konto in der Experience Cloud erstellt haben. Pro Attributquelle erstellen Sie ein FTP-Konto. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im `.csv`-Format übertragen werden, wobei eine zusätzliche `.fin`-Datei am Ende angibt, dass das Hochladen abgeschlossen ist.
 
@@ -28,7 +28,7 @@ Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein F
 Datei-Uploads auf die FTP-Site &quot;Kundenattribute&quot;können über FTP oder SFTP erfolgen.
 
 * Sie benötigen einen Client, der SFTP-Verbindungen unterstützt.
-* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html)beschrieben.
+* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://docs.adobe.com/help/de-DE/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) beschrieben.
 
 **So laden Sie die Datendatei via FTP hoch**
 
@@ -36,7 +36,7 @@ Datei-Uploads auf die FTP-Site &quot;Kundenattribute&quot;können über FTP oder
 
    Vergewissern Sie sich, dass Sie unter [!DNL ftp.adobe.com/ bei Ihrer FTP-Site angemeldet sind.<sftpname>].
 
-1. Click **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Datei hochladen]**.
 
 1. Laden Sie eine `.fin`-Datei hoch, damit Ihre Datei abgerufen werden kann.
 
