@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
 workflow-type: tm+mt
 source-wordcount: '669'
-ht-degree: 44%
+ht-degree: 96%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 44%
 
 ## Übersicht über Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-Auslöser ermöglichen es Ihnen, wichtige Verhaltensweisen von Verbrauchern zu identifizieren, zu definieren und zu überwachen und dann eine lösungsübergreifende Kommunikation zu generieren, um Besucher erneut zu interagieren. Sie können Auslöser bei Entscheidungen und Personalisierung in Echtzeit verwenden.
+Triggers ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine lösungsübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden.
 
-* Schnelles Remarketing für Warenkorbabbrüche oder Warenkorbabbrüche mit entfernten Produkten konfigurieren
+* Konfigurieren des schnellen Remarketing für Warenkorbabbrüche oder Warenkorbabbrüche mit entfernten Produkten
 * Unvollständige Formulare und Anwendungen
 * Aktionen oder Abfolgen von Aktionen auf der Site
 
 ![](assets/trigger-abandonment-2.png)
 
-### Triggers-typen
+### Trigger-Typen
 
 Im Allgemeinen kann ein Auslöser 15 bis 90 Minuten benötigen, um eine Marketing-Kampagne zu starten. Dies hängt von der Implementierung der Datenerfassung, der Auslastung der Pipeline, der benutzerdefinierten Konfiguration des definierten Triggers und dem Workflow in Adobe Campaign ab.
 
 * **Abbruch:** Sie können einen Auslöser für den Fall erstellen, dass ein Besucher ein Produkt anzeigt, es jedoch nicht zum Warenkorb hinzufügt.
-* **Aktion:** Sie können Auslöser erstellen, die z. B. nach der Newsletter-Anmeldung, E-Mail-Abonnements oder Kreditkartenanträgen (Bestätigungen) ausgelöst werden. Wenn Sie ein Händler sind, können Sie einen Auslöser für einen Besucher erstellen, der sich für ein Treueprogramm anmeldet. Erstellen Sie in Medien und Unterhaltung Auslöser für Besucher, die eine bestimmte Sendung ansehen, und vielleicht möchten Sie mit einer Umfrage reagieren.
-* **Sitzungs-Beginn und Sitzungsende:** Erstellen Sie einen Auslöser für die Ereignis zum Sitzungsende und Beginn zum Sitzungsende.
+* **Aktion:** Sie können Sie Trigger erstellen, die beispielsweise nach der Newsletter-Anmeldung, E-Mail-Abonnements oder Kreditkartenanträgen (Bestätigungen) ausgelöst werden. Wenn Sie ein Händler sind, können Sie einen Trigger für einen Besucher erstellen, der sich für ein Treueprogramm anmeldet. Erstellen Sie in Medien und Unterhaltung Trigger für Besucher, die eine bestimmte Sendung ansehen. Sie können auch mit einer Umfrage reagieren.
+* **Sitzungsbeginn und Sitzungsende:** Erstellen Sie einen Trigger für die Sitzungsbeginn- und Sitzungsende-Ereignisse.
 
 ## Experience Cloud Trigger erstellen {#task_821F37183AC045E5AC8EED20317598FE}
 
-Erstellen Sie einen Auslöser und konfigurieren Sie die Bedingungen für den Auslöser. Sie können beispielsweise die Kriterien für die Regeln eines Auslösers während eines Besuchs angeben, z. B. Metriken wie Warenkorbabbruch oder Dimensionen wie den Produktnamen. Wenn die Regeln erfüllt sind, wird der Auslöser ausgeführt.
+Erstellen Sie einen Auslöser und konfigurieren Sie die Bedingungen für den Auslöser. Sie können beispielsweise die Kriterien für die Regeln eines Triggers während eines Besuchs angeben, z. B. Metriken wie Warenkorbabbruch oder Dimensionen wie den Produktnamen. Wenn die Regeln erfüllt sind, wird der Trigger ausgeführt.
 
 >[!NOTE]
 >
@@ -53,28 +53,28 @@ Erstellen Sie einen Auslöser und konfigurieren Sie die Bedingungen für den Aus
 
    | Element | Beschreibung |
    |--- |--- |
-   | Name | Der Anzeigename für diesen Auslöser. |
-   | Beschreibung | Die Beschreibung dieses Auslösers, wie Sie ihn verwenden werden usw. |
-   | Report Suite | Die für diesen Auslöser verwendete Analytics- [Report Suite](https://docs.adobe.com/content/help/de-DE/analytics/implementation/analytics-basics/ref-reports-report-suites.html) . Diese Einstellung identifiziert die zu verwendenden Berichte-Daten. |
-   | Visit must include<br>Visit must not include<br>Trigger after no action<br>Include meta data | Sie können Kriterien oder Besucherverhalten, das auftreten soll, sowie Verhalten, das nicht auftreten soll, definieren.  Regeln für einen einfachen Warenkorbabbruchsauslöser können beispielsweise die folgenden sein:<ul><li>Besuch muss Folgendes beinhalten: „Zusatz zum Warenkorb“ (Metrik) und „Vorhanden“. (Sie können die Regel mit einer bestimmten Produktansicht oder mit Dimensionen wie „Browsertypen“ weiter verfeinern.)</li><li>Besuch darf Folgendes nicht beinhalten: Checkout.</li><li>Auslöser nach ausbleibender Aktion bei: 10 Minuten.</li><li>Metadaten einschließen: Sie können eine bestimmte Kampagnendimension oder Variablen, die für das Verhalten eines Besuchers relevant sind, hinzufügen. Dieses Feld kann für Adobe Campaign zum Verfassen der richtigen Remarketing-E-Mail nützlich sein.</li></ul><br>Sie können eine Beliebige-, Und- oder Oder-Logik innerhalb oder zwischen Behältern angeben, je nachdem, welche Kriterien Sie für die Regel für wichtig halten. |
-   | Container | Container sind der Ort, an dem Sie Regeln, Bedingungen oder Filter festlegen und speichern, die einen Auslöser definieren. Wenn Sie möchten, dass Ereignis gleichzeitig auftreten, setzen Sie sie in denselben Container. Dies bedeutet, dass jeder Behälter unabhängig auf der Trefferebene arbeitet.  Wenn Sie beispielsweise zwei Behälter mit dem Operator „Und“ verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
-   | Beginn neue Sitzung nach | Erstellen Sie einen Auslöser für die Ereignis zum Sitzungsende und Beginn zum Sitzungsende. |
+   | Name | Der Anzeigename für diesen Trigger. |
+   | Beschreibung | Die Beschreibung dieses Triggers, wie Sie ihn verwenden werden usw. |
+   | Report Suite | Die für diesen Trigger verwendete Analytics [Report Suite](https://docs.adobe.com/content/help/de-DE/analytics/implementation/analytics-basics/ref-reports-report-suites.html). Diese Einstellung identifiziert die zu verwendenden Berichtsdaten. |
+   | Besuch muss beinhalten<br>Besuch darf nicht beinhalten<br>Trigger nach ausbleibender Aktion<br>Metadaten einschließen | Sie können Kriterien oder Besucherverhalten, das auftreten soll, sowie Verhalten, das nicht auftreten soll, definieren.  Regeln für einen einfachen Warenkorbabbruchsauslöser können beispielsweise die folgenden sein:<ul><li>Besuch muss Folgendes beinhalten: „Zusatz zum Warenkorb“ (Metrik) und „Vorhanden“. (Sie können die Regel mit einer bestimmten Produktansicht oder mit Dimensionen wie „Browsertypen“ weiter verfeinern.)</li><li>Besuch darf Folgendes nicht beinhalten: Checkout.</li><li>Auslöser nach ausbleibender Aktion bei: 10 Minuten.</li><li>Metadaten einschließen: Sie können eine bestimmte Kampagnendimension oder Variablen, die für das Verhalten eines Besuchers relevant sind, hinzufügen. Dieses Feld kann für Adobe Campaign zum Verfassen der richtigen Remarketing-E-Mail nützlich sein.</li></ul><br>Sie können eine Beliebige-, Und- oder Oder-Logik innerhalb oder zwischen Behältern angeben, je nachdem, welche Kriterien Sie für die Regel für wichtig halten. |
+   | Container | In Containern legen Sie Regeln, Bedingungen oder Filter zum Definieren eines Triggers fest und speichern diese. Wenn Sie Ereignisse gleichzeitig auftreten sollen, platzieren Sie sie im selben Container. Dies bedeutet, dass jeder Behälter unabhängig auf der Trefferebene arbeitet.  Wenn Sie beispielsweise zwei Behälter mit dem Operator „Und“ verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
+   | Neue Sitzung starten nach | Erstellen Sie einen Trigger für die Ereignisse zum Sitzungsbeginn und Sitzungsende. |
 
 5. Klicken Sie auf **[!UICONTROL Speichern]**.
-6. Use triggers for [real-time remarketing](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) in [!DNL Adobe Campaign].
+6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://helpx.adobe.com/de/support/campaign/standard.html) in [!DNL Adobe Campaign].
 
 ### Beispielauslöser
 
-Beispiele für Experience Cloud-Auslöser:
+Beispiele für Experience Cloud-Trigger:
 
-#### Warenkorbabbruchsauslöser
+#### Warenkorbabbruch-Trigger
 
-Die folgende Seite zeigt beispielsweise Regeln, die Sie für einen Auslöser für den Warenkorbabbruch verwenden können, basierend auf Produkten, die während eines Besuchs angesehen wurden.
+Die folgende Seite zeigt beispielsweise Regeln, die Sie für einen Warenkorbabbruch-Trigger basierend auf Produkten, die während eines Besuchs angesehen wurden, verwenden können.
 
 ![](assets/abandonment-trigger.png)
 
-#### Werber-Auslöser
+#### Referrer-Trigger
 
-Der folgende Auslöser wird ausgelöst, wenn ein Treffer mit dem Produkt Herrenstiefel und Werber von Facebook eingeht. For the two criteria (*products* and *referrer*) to be evaluated in the same hit, they should be added to the same container.
+Der folgende Trigger wird ausgelöst, wenn ein Treffer mit dem Produkt „Herrenstiefel“ und Referrer „Facebook“ eingeht. Für die beiden Kriterien (*Produkte* und *Referrer*), die für denselben Treffer zu bewerten sind, sollten sie demselben Container hinzugefügt werden.
 
 ![](assets/fb-boots-promo.png)
