@@ -6,8 +6,11 @@ seo-title: Deaktivierung der Synchronisierung freigegebener Ordner
 solution: Experience Cloud
 title: Deaktivierung der Synchronisierung freigegebener Ordner
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '145'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ Deaktivieren Sie die Synchronisierung freigegebener Experience Cloud-Ordner in 
 
    ![](assets/select_sync_folders.png)
 
-1. Deaktivieren Sie alle Ordner, die nicht synchronisiert werden sollen.
+1. Heben Sie die Auswahl der Ordner auf, die nicht synchronisiert werden sollen.
 
 ## Mac OS
 
@@ -40,6 +43,6 @@ Deaktivieren Sie die Synchronisierung freigegebener Experience Cloud-Ordner in 
 
    ![](assets/select_sync_folders_mac.png)
 
-1. Deaktivieren Sie alle Ordner, die nicht synchronisiert werden sollen.
+1. Heben Sie die Auswahl der Ordner auf, die nicht synchronisiert werden sollen.
 
-   Synchronisierte Ordner haben ein Häkchen neben dem Ordnernamen.
+   Für synchronisierte Ordner wird neben dem Ordnernamen ein Häkchen angezeigt.
