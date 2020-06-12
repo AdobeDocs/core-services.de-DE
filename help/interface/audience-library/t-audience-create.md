@@ -6,8 +6,11 @@ seo-title: Erstellen einer Zielgruppe
 solution: Experience Cloud
 title: Erstellen einer Zielgruppe
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '494'
+ht-degree: 100%
 
 ---
 
@@ -16,29 +19,29 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 Erfahren Sie, wie Sie mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe in der Experience Cloud definieren.
 
-In diesem Artikel erfahren Sie, wie:
+In diesem Artikel lernen Sie Folgendes:
 
 * Erstellen einer Zielgruppe
-* eine Regel erstellen
-* Verwenden von Regeln zum Definieren einer zusammengesetzten Audience
+* Erstellen einer Regel
+* Verwenden von Regeln zum Definieren einer gemischten Zielgruppe
 
-Die folgende Grafik stellt zwei Regeln in einer zusammengesetzten Audience dar.
+Die folgende Grafik stellt zwei Regeln in einer gemischten Zielgruppe dar.
 
 ![](assets/audience_sharing.png)
 
-Jeder Kreis stellt eine Regel dar, die die Mitgliedschaft in einer Audience definiert. Besucher, die sich in beiden Audiencen als Mitglieder qualifizieren, überschneiden sich, um zur zusammengesetzten, definierten Audience zu werden.
+Jeder Kreis steht für eine Regel, die die Mitgliedschaft in einer Zielgruppe definiert. Besucher, die sich in beiden Zielgruppenregeln qualifizieren, überschneiden sich und werden so zur gemischten, definierten Zielgruppe.
 
 >[!NOTE]
 >
 >Die Zielgruppe ist erst nach Ablauf des für die Datenerfassung angegebenen Zeitraums vollständig definiert.
-Das folgende Beispiel zeigt, wie die Regeln für eine zusammengesetzte Audience erstellt werden. Diese Audience umfasst:
+Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erstellt werden. Diese Zielgruppe umfasst Folgendes:
 
-* &quot;Home &amp; Garden&quot;-Abschnitt, der aus Seitendaten oder Rohanalysedaten abgeleitet wurde.
+* Abschnitt „Home &amp; Garden“, der von Seitendaten oder Analyse-Rohdaten abgeleitet wurde.
 * Chrome- und Safari-Benutzer, die einem [!DNL Adobe Analytics]-Segment entnommen wurden, das in der [!DNL Experience Cloud] [veröffentlicht](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) wurde.
 
    ![](assets/audience_create.png)
 
-1. In the [!DNL Experience Cloud], under [!DNL Experience Platform], click **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
+1. Klicken Sie in der [!DNL Experience Cloud] unter [!DNL Experience Platform] auf **[!UICONTROL Personen]** > **[!UICONTROL Zielgruppenbibliothek].**
 1. Klicken Sie auf der Seite [!UICONTROL „Zielgruppen“] auf **[!UICONTROL Neu]**. ![](assets/add_icon_small.png)
 
    ![Schritt Ergebnis](assets/audience_create_new.png)
@@ -53,7 +56,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine zusammengesetzte Audience 
 
    * **[!UICONTROL Experience Cloud:]** Aus [!DNL Experience Cloud]-Quellen abgeleitete Attributdaten. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 
-1. Definieren Sie Audiencen und klicken Sie dann auf **[!UICONTROL Speichern].**
+1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Speichern].**
 
 >[!NOTE]
 >
@@ -63,7 +66,7 @@ Definieren Sie unter [!UICONTROL Regeln] die *`Home & Garden`*-Attributauswahl:
 
 * **[!UICONTROL Attributquelle:]** Analytics-Rohdaten
 * **[!UICONTROL Report Suite:]** Report Suite 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home &amp; Garden]**
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Entspricht]** > **[!UICONTROL Home &amp; Garden]**
 
 ![](assets/home_garden.png)
 
@@ -78,13 +81,13 @@ Zum Vergleich können Sie eine *OR*-Regel hinzufügen, um alle Besucher eines Si
 
 ![](assets/audiences_rule_patio.png)
 
-Die resultierende Regel ist eine definierte Audience mit Chrome &amp; Safari-Benutzern, die Home &amp; Garden besucht haben. Das Segment &quot;Patio &amp; Furniture&quot;bietet zusätzliche Einblicke in alle Besucher, die diesen Site-Abschnitt besuchen.
+Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-Benutzern, die Home &amp; Garden besucht haben. Der Abschnitt „Patio &amp; Furniture“ bietet zusätzliche Einblicke in alle Besucher, die diesen Site-Abschnitt besuchen.
 
 ![](assets/defined_audience.png)
 
 * **Historische Schätzdaten:** (Gepunkteter Kreis) Stellt Regeln dar, die basierend auf [!DNL Analytics]-Daten erstellt wurden.
-* **Tatsächliche Audience:** (Durchgehender Kreis) Jede erstellte Regel, die 30 Tage lang Daten aus Audience Manager enthält. Wenn die Audience Manager-Daten 30 Tage erreichen, wird die Zeile durchgehend gefüllt und stellt die tatsächlichen Zahlen dar.
+* **Tatsächliche Zielgruppe:** (Durchgehender Kreis) Eine erstellte Regel, die 30 Tage lang Daten aus Audience Manager enthält. Wenn die Audience Manager-Daten 30 Tage erreichen, ist die Zeile durchgehend gefüllt und stellt die tatsächlichen Zahlen dar.
 
-Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Audience kombiniert.
+Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nach dem Speichern der Audience ist sie für andere Lösungen verfügbar. Sie können beispielsweise eine freigegebene Audience in eine Adobe-Zielgruppe-Aktivität aufnehmen.
+Nach dem Speichern der Zielgruppe ist sie für andere Lösungen verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität aufnehmen.
