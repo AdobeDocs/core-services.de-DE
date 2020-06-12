@@ -1,6 +1,9 @@
 ---
 source-git-commit: 277e8b855210e1658b7c74f14d2c5f1036ef80a6
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 # Artikel beitragen
@@ -26,7 +29,7 @@ Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebei
 
 ### Umfangreiche Änderungen oder neue Artikel von Community-Mitgliedern
 
-Wenn Sie Mitglied der Adobe-Community sind und einen neuen Artikel erstellen oder umfangreiche Änderungen einreichen möchten, verwenden Sie die Registerkarte Probleme im Git-Repository, um ein Problem einzureichen und mit dem Dokumentationsteam zu zu kommunizieren. Nachdem Sie einem Plan zugestimmt haben, müssen Sie mit einem Mitarbeiter zusammenarbeiten, um diesen neuen Inhalt durch eine Kombination aus den öffentlichen und privaten Repositorys zu erreichen.
+Wenn Sie Mitglied der Adobe-Community sind und einen neuen Artikel erstellen oder umfangreiche Änderungen einreichen möchten, verwenden Sie die Registerkarte Probleme im Git-Repository, um ein Problem einzureichen und mit dem Dokumentationsteam zu kommunizieren. Nachdem Sie einem Plan zugestimmt haben, müssen Sie mit einem Mitarbeiter zusammenarbeiten, um diesen neuen Inhalt durch eine Kombination aus den öffentlichen und privaten Repositorys zu erreichen.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -53,7 +56,7 @@ Alle Artikel in diesem Repository verwenden GitHub Flavored Markdown. Wenn Sie m
 
 ## Bezeichnungen
 
-Im öffentlichen Repository werden automatisierte Bezeichnungen Pull-Anfragen zugewiesen, damit wir den Arbeitsablauf für Pull-Anfragen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anfrage passiert:
+Im öffentlichen Repository werden automatisierte Bezeichnungen Pull-Anforderungen zugewiesen, damit wir den Arbeitsablauf für Pull-Anforderungen verwalten und Ihnen mitteilen können, was mit Ihrer Pull-Anforderung passiert:
 
-* **Änderung an Autor gesendet**: Der Autor wurde über die ausstehende Pull-Anfrage informiert.
-* **Bereit zum Zusammenführen**: Bereit zur Überprüfung durch unser Pull-Anfrage-Überprüfungsteam.
+* **Änderung an Autor gesendet**: Der Autor wurde über die ausstehende Pull-Anforderung informiert.
+* **Bereit zum Zusammenführen**: Bereit zur Überprüfung durch unser Pull-Anforderung-Überprüfungsteam.
