@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '3929'
-ht-degree: 61%
+ht-degree: 98%
 
 ---
 
@@ -39,9 +39,9 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
 * **Kundenattribute:** Auf der Benutzeroberfläche „Kundenattribute“ werden jetzt zusätzliche Status zu den in Target synchronisierten Profilen angezeigt. (MCUI-10231)
 * **Triggers Hauptdienst:** Aufgrund der mangelnden Verwendung wurde der Tendenzwert „Wahrscheinlichkeit einer Rückkehr in 30 Tagen“ beim Erstellen eines Auslösers vom Typ „Abbruch“ entfernt. (MCUI-10056)
 
-## Januar - 2020
+## Januar 2020
 
-* Die Feed-Seite wurde im Dezember 2019 nicht mehr unterstützt. Innerhalb des Produkts finden Sie eine Benachrichtigung zur Einstellung. (MCUI-10039)
+* Die Feed-Seite wird seit Dezember 2019 nicht mehr unterstützt. Innerhalb des Produkts finden Sie eine Benachrichtigung zur Einstellung. (MCUI-10039)
 
 ## August 2019
 
@@ -61,8 +61,8 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
 
 **Hinweis:** Im März 2019 wird Internet Explorer 11 von der Experience Cloud-Benutzeroberfläche nicht unterstützt.
 
-* Es wurde ein Fehler behoben, der verhinderte, dass die Hilfesuche Ergebnisse zurückgab. (MCUI-1670)
-* Korrektur und verbesserte eVar-Verwaltung in Triggern. (MCUI-6400)
+* Es wurde ein Fehler behoben, der verhinderte, dass die Suche in der Hilfe Ergebnisse zurückgab. (MCUI-1670)
+* Korrigierte und verbesserte eVar-Verwaltung in Triggern. (MCUI-6400)
 
 ## Version 16.5.1 – 26. Mai 2016 {#section_3785F182BC13493F84903CA69EB6D0A8}
 
@@ -77,19 +77,19 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Vorkonfigurierte Produktkonfigurationen in der Admin-Konsole </p> </td> 
-   <td colname="col2"> <p>Experience Cloud-Kundenadministratoren können Produktkonfigurationen nutzen, die vorab erstellt wurden und Standardberechtigungsgruppen für Analytics und das dynamische Tag-Management zugeordnet sind. </p> <p>Diese Optimierung ist für neu bereitgestellte Organisationen verfügbar und verringert die Zeit, die Organisationen zur Verwaltung von Benutzern in der Admin-Konsole benötigen. </p> </td> 
+   <td colname="col1"> <p>Vorkonfigurierte Produktkonfigurationen in der Admin Console </p> </td> 
+   <td colname="col2"> <p>Kundenadministratoren in Experience Cloud können Produktkonfigurationen nutzen, die zuvor erstellt und Standardberechtigungsgruppen für Analytics und das Dynamic Tag Management zugeordnet wurden. </p> <p>Diese Optimierung ist für neu bereitgestellte Organisationen verfügbar und verringert die Zeit, die Organisationen zur Verwaltung von Benutzern in der Admin Console benötigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed-Verbesserung </p> </td> 
-   <td colname="col2"> <p> Beim Erstellen eines neuen Beitrags im Experience Cloud-Feed verwendet die Zeile "An"jetzt standardmäßig das derzeit aktive Thema und nicht mehr das Unternehmen.</p> </td> 
+   <td colname="col2"> <p> Beim Erstellen eines neuen Beitrags im Experience Cloud-Feed wird in der Zeile „An“ jetzt standardmäßig das derzeit aktive Thema anstelle der Organisation verwendet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Fehlerbehebungen**
 
-* Es wurde ein Fehler behoben, der verhinderte, dass Miniaturansichten für Assets angezeigt wurden, die von Assets on Demand an den Experience Cloud-Feed freigegeben wurden. (MAC-29955)
+* Es wurde ein Problem behoben, bei dem Miniaturansichten für Assets, die aus Assets on Demand für den Experience Cloud-Feed freigegeben worden waren, nicht angezeigt wurden. (MAC-29955)
 
 ## Version 16.2 – 18. Februar 2016 {#section_D9610373116C4D77A38F67815C725EA3}
 
@@ -102,23 +102,23 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Verbesserungen an Experience Cloud Assets </p> </td> 
-   <td colname="col2"> <p>In Experience Cloud Assets können Sie Ihre digitalen Assets an einem zentralen Ort speichern, freigeben und synchronisieren. Experience Cloud Assets nutzen einige in <span class="keyword">Adobe Experience Manager</span> (AEM) verfügbare Funktionen. </p> <p>Weitere Informationen finden Sie unter <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
+   <td colname="col1"> <p>Verbesserungen in Experience Cloud Assets </p> </td> 
+   <td colname="col2"> <p>In Experience Cloud Assets können Sie Ihre digitalen Assets an einem zentralen Speicherort speichern, freigeben und synchronisieren. Experience Cloud Assets nutzen einige in <span class="keyword">Adobe Experience Manager</span> (AEM) verfügbare Funktionen. </p> <p>Weitere Informationen finden Sie unter <a href="../experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen bei der Kontoverknüpfung </p> </td> 
-   <td colname="col2"> <p>Der Arbeitsablauf für die Benutzeroberfläche zum Verknüpfen von Lösungskonten mit der Experience Cloud (Adobe ID) wurde verbessert. Dieser neue Arbeitsablauf ermittelt alle Konten des Benutzers, die mit einem Unternehmen verbunden sind, und ermöglicht Ihnen die Auswahl des Kontos, das verknüpft werden soll. Außerdem wurde die Erfahrung bei der Kontoverknüpfung optimiert, sodass Sie nicht mehr auf die Seite "Unternehmen verwalten"zugreifen müssen, um Konten manuell zu verknüpfen. </p> </td> 
+   <td colname="col2"> <p>Der Arbeitsablauf für die Verknüpfung von Konten der Lösung mit der Experience Cloud (Adobe ID) wurde verbessert. Dieser neue Arbeitsablauf ermittelt alle Konten des Benutzers, die mit einem Unternehmen verbunden sind, und ermöglicht Ihnen die Auswahl des Kontos, das verknüpft werden soll. Außerdem wurde die Erfahrung bei der Kontoverknüpfung optimiert, sodass Sie nicht mehr auf die Seite „Unternehmen verwalten“ zugreifen müssen, um Konten manuell zu verknüpfen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Fehlerbehebungen**
 
-* Es wurde ein Fehler behoben, der die Verknüpfung und die einmalige Anmeldung für Analytics verhinderte. In diesem Problem wurde die Meldung &quot;Hinweis: Die Fehlermeldung: FEHLER IMS SSO fehlgeschlagen: Verknüpfte Firma konnte nicht gefunden werden.&quot;
+* Es wurde ein Fehler behoben, durch den die Verknüpfung und die einmalige Anmeldung für Analytics verhindert wurde. Bei diesem Problem wurde der Hinweis bzw. die Fehlermeldung „FEHLER IMS SSO fehlgeschlagen: Verknüpfte Firma konnte nicht gefunden werden.“ angezeigt.
 
 **Bekanntes Problem**
 
-If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** interface, but your Dynamic Tag Management account is not linked to the Experience Cloud (Adobe ID), you will not be able to log in to Dynamic Tag Management. Um dieses Problem zu umgehen, müssen Sie in einem neuen Browser-Tab direkt zu [!DNL dtm.adobe.com] navigieren.
+Wenn Sie über **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** auf das Dynamic Tag Management zugreifen, Ihr Konto für das Dynamic Tag Management jedoch nicht mit der Experience Cloud (Adobe ID) verknüpft ist, können Sie sich nicht beim Dynamic Tag Management anmelden. Um dieses Problem zu umgehen, müssen Sie in einem neuen Browser-Tab direkt zu [!DNL dtm.adobe.com] navigieren.
 
 ## Version 16.1 – 21. Januar 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -131,41 +131,41 @@ If you access Dynamic Tag Management via the **[!UICONTROL Experience Cloud]** >
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Meldungen zur Audience-Bibliothek </td> 
-   <td colname="col2"> <p> Die Zielgruppenbibliothek wurde so verbessert, dass beim Erstellen von Zielgruppen oder Auftreten eines Timouts hilfreiche Meldungen angezeigt werden. </p> <p>Wenn Sie z. B. mehr als fünf Regeln hinzufügen, wird eine Meldung angezeigt, dass Sie die maximal zulässigen Regeln überschritten haben. (MAC-27376, MAC-27375) </p> </td> 
+   <td colname="col1"> Meldungen zur Zielgruppenbibliothek </td> 
+   <td colname="col2"> <p> Die Zielgruppenbibliothek wurde so verbessert, dass beim Erstellen von Zielgruppen oder Auftreten eines Timouts hilfreiche Meldungen angezeigt werden. </p> <p>Wenn Sie beispielsweise mehr als fünf Regeln hinzufügen, wird eine Meldung mit dem Hinweis angezeigt, dass Sie die maximal zulässige Anzahl Regeln überschritten haben. (MAC-27376, MAC-27375) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Microsoft [beendet den Support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
+>Microsoft [beendet den Support](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
 
 ## Version 15.10 – 14. Oktober 2015  {#section_68123833D3634BD3A473C12862BF9606}
 
 **Bekannte Probleme**
 
-* Kunden können sich nicht bei ReportBuilder anmelden, wenn sie über die Experience Cloud SSO bei Analytics eingehen. Dieses Problem hat keine Auswirkungen auf Kunden, die ältere Analytics-Anmeldeinformationen verwenden.
-* Bekanntes Problem mit der Funktion „Link zum Bericht“ in Analytics. Kunden, die sich über die Experience Cloud bei Analytics anmelden, werden beim Versuch, einen Bericht freizugeben, zu einer Nicht-SSO-Anmeldeseite für Analytics weitergeleitet.
+* Kunden können sich nicht bei Report Builder anmelden, wenn sie sich über Experience Cloud per SSO bei Analytics anmelden. Dieses Problem hat keine Auswirkungen auf Kunden, die ältere Analytics-Anmeldeinformationen verwenden.
+* Bekanntes Problem mit der Funktion „Link zum Bericht“ in Analytics. Kunden, die sich über Experience Cloud bei Analytics anmelden, werden beim Versuch, einen Bericht gemeinsam zu nutzen, zu einer Analytics-Anmeldeseite geleitet, auf der SSO nicht möglich ist.
 
 ## Version 15.9 – 10. September 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Es wurde ein Leistungsproblem mit der Audience Manager-API behoben, das zeitweise Timeouts beim Hochladen von Daten zu Kundenattributen verursachte. (MAC-26305)
+* Es wurde ein Leistungsproblem mit Audience Manager-API behoben, das zeitweise Timeouts beim Hochladen von Daten zu Kundenattributen verursachte. (MAC-26305)
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer einem Abonnement bis zu 200 Kundenattribute hinzufügen konnten. (MAC-26188)
-* Es wurde ein Problem mit der Audience-Bibliothek behoben, das die Freigabe von Audiencen aus der Analytics-Segmentierung verhinderte. Dieses Problem verursachte die Anzeige von „Erfassen von Daten“ (0 Zielgruppen). Um dieses Problem zu vermeiden, empfiehlt Adobe, die Segmentgrößen pro Segment unter 50.000 Audiencen zu halten. (MAC-25788)
-* Ein vorheriges bekanntes Problem mit den Kundenattributen wurde behoben: Die Seite &quot;Schema bearbeiten&quot;verursachte einen Fehler mit der Inhaltsunterstützung, der beim Ändern des Anzeigenamens ausgegeben wurde. (MAC-25589, AN-103834)
+* Es wurde ein Problem mit der Zielgruppenbibliothek behoben, das die Freigabe von Zielgruppen aus der Analytics-Segmentierung verhinderte. Dieses Problem verursachte die Anzeige von „Erfassen von Daten“ (0 Zielgruppen). Zum Vermeiden dieses Problems empfiehlt Adobe, die Segmentgrößen pro Segment unter 50.000 Zielgruppenmitgliedern zu halten. (MAC-25788)
+* Ein vorheriges bekanntes Problem mit den Kundenattributen wurde behoben: Die Seite „Schema bearbeiten“ verursachte einen Fehler mit der Inhaltsbewahrung, der beim Ändern des Anzeigenamens ausgegeben wurde. (MAC-25589, AN-103834)
 
 ## Version 15.7 – 22. Juli 2015  {#section_2683A152176944E48EF6C943892975B7}
 
 * Es wurde ein Fehler behoben, der verhinderte, dass auf der Seite &quot;Ansicht/Schema bearbeiten&quot;(in &quot;Kundenattribute&quot;) angegebene Attributbeschreibungen in Analytics-Berichten aktualisiert wurden. (MAC-25985)
 * Es wurde ein Fehler behoben, der verhinderte, dass die Miniaturansichten für hochgeladene Assets gerendert wurden. (MAC-25863)
-* Es wurde ein Fehler behoben, der verhinderte, dass in Reports &amp; Analysen erstellte neue Segmente in Experience Cloud-Audiencen verfügbar waren. (MAC-25817)
-* Es wurde ein Fehler behoben, der bei Verwendung des Besucher-ID-Diensts die Freigabe von Audiencen in Analytics verhinderte. (MAC-25788, MAC-25747)
+* Es wurde ein Problem behoben, bei dem neue Segmente, die in Reports &amp; Analysen erstellt wurden, nicht in Experience Cloud-Zielgruppen verfügbar waren. (MAC-25817)
+* Es wurde ein Fehler behoben, der bei Verwendung des Besucher-ID-Dienstes die Freigabe von Zielgruppen in Analytics verhinderte. (MAC-25788, MAC-25747)
 * Unterstützung für Multibyte-Zeichen in Kundenattributen hinzugefügt. (MAC-25552)
 
 **Bekanntes Problem**
 
-Ein bekanntes Problem führt dazu, dass automatisch generierte Duplikat-Konten in Audience Manager erstellt und automatisch mit der Experience Cloud-Identität eines Benutzers verknüpft werden. Dieses Problem tritt auf, wenn Sie versuchen, zu Audience Manager zu navigieren, bevor Sie Ihre Konten verknüpfen. Adobe empfiehlt, dass Sie Ihre Audience Manager-Konten mit der Experience Cloud verknüpfen, bevor Sie zu Audience Manager navigieren. (MAC-25640)
+Ein bekanntes Problem verursacht die Erstellung doppelter automatisch generierter Konten in Audience Manager und die automatische Verknüpfung dieser Konten mit der Experience Cloud-Identität eines Benutzers. Dieses Problem tritt auf, wenn Sie versuchen, zu Audience Manager zu navigieren, bevor Sie Ihre Konten verknüpfen. Adobe empfiehlt Ihnen, die Verknüpfung Ihrer Audience Manager-Konten mit der Experience Cloud vorzunehmen, bevor Sie zu Audience Manager navigieren. (MAC-25640)
 
 ## Version 15.6.1 – 11. Juni 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
@@ -183,9 +183,9 @@ Keine Informationen verfügbar
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Die linken Navigationsmenüs wurden aktualisiert und es besteht nun Zugang zu allen Hauptdiensten und Lösungen. Zu den wichtigen Änderungen gehören: </p> 
+   <td colname="col2"> <p>Die linken Navigationsmenüs wurden aktualisiert und es besteht nun Zugang zu allen Hauptdiensten und Lösungen. Wichtige Änderungen umfassen Folgendes: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The <span class="term"> Audience Library</span> and <span class="term"> Customer Attributes</span> menu selections are now located under <span class="term"> Audiences</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Die Menüauswahlmöglichkeiten für die <span class="term">Zielgruppenbibliothek</span> und die <span class="term">Kundenattribute</span> sind nun unter <span class="term">Zielgruppen</span> zu finden. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">Die <span class="term">Exchange</span>-Menüauswahl wurde vom Dropdown-Menü „Hilfe“ zur linken Navigationsleiste verlegt. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Lösungen</span> wurde entfernt. Sie können alle Lösungen von der unteren Hälfte der Navigationsleiste aus starten. </li> 
     </ul> </td> 
@@ -194,7 +194,7 @@ Keine Informationen verfügbar
 </table>
 
 * Es wurde ein Problem behoben, das die Synchronisierung von Kundenattributen für einige Kunden verhinderte.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
+* Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t.html) nicht auf Japanisch angezeigt wurde.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
 ## Version 15.4.1 – 8. April 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
@@ -213,7 +213,7 @@ Keine Informationen verfügbar
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise und Federated ID-Unterstützung </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Die Funktionen zur Verwaltung von Benutzern und Gruppen wurden in die Admin-Konsole verschoben. Der neue Navigationspfad lautet: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Admin Console starten</span></p> <p> Außerdem wurde Unterstützung für Enterprise IDs und Federated IDs hinzugefügt. Sie können Enterprise IDs, Federated IDs und Adobe IDs in derselben Unternehmensbereitstellung verwenden. Verwenden Sie beispielsweise Adobe-IDs für Benutzer, die andere Adobe-Produkte und -Dienste verwenden dürfen. Verwenden Sie Enterprise IDs oder Federated IDs für Benutzer, deren Konten Sie streng verwalten möchten. </p> </td> 
+   <td colname="col2"> <p>Die Funktionen zur Verwaltung von Benutzern und Gruppen wurden in die Admin Console verschoben. Der neue Navigationspfad lautet: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Admin Console starten</span></p> <p> Außerdem wurde die Unterstützung für Enterprise IDs und Federated IDs hinzugefügt. Sie können Enterprise IDs, Federated IDs und Adobe-IDs in derselben Unternehmensbereitstellung verwenden. Verwenden Sie beispielsweise Adobe-IDs für Benutzer, die andere Adobe-Produkte und -Dienste verwenden dürfen. Verwenden Sie Enterprise IDs oder Federated IDs für Benutzer, deren Konten Sie streng verwalten möchten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -224,8 +224,8 @@ Keine Informationen verfügbar
 
 **Bekannte Probleme**
 
-* Die Verknüpfung und Aufhebung der Verknüpfung Ihres dynamischen Tag-Management-Unternehmens mit der Experience Cloud funktioniert nicht für neu erstellte Experience Cloud-Organisationen. Wir arbeiten daran, dies zu beheben und die normale Funktionalität mit der Mai-Version wiederherzustellen. Sollten Sie Probleme mit Single Sign-on beim Dynamic Tag Management über die Experience Cloud haben, melden Sie sich unter [!DNL dtm.adobe.com] mit Ihrem gewohnten Konto an.
-* Ein bekanntes Problem verhindert die Freigabe von Audiencen aus Report Suites, die nicht dem verknüpften Analytics-Konto gehören. An einer Lösung wird bereits gearbeitet.
+* Die Verknüpfung und Aufhebung der Verknüpfung Ihres dynamischen Tag-Management-Unternehmens mit der Experience Cloud funktioniert nicht für neu erstellte Experience Cloud-Unternehmen. Wir arbeiten daran, dies zu beheben und die normale Funktionalität im Rahmen der Mai-Version wiederherzustellen. Sollten Sie Probleme mit Single Sign-on beim Dynamic Tag Management über die Experience Cloud haben, melden Sie sich unter [!DNL dtm.adobe.com] mit Ihrem gewohnten Konto an.
+* Ein bekanntes Problem verhindert die Freigabe von Zielgruppen aus Report Suites, die nicht dem verknüpften Analytics-Konto gehören. An einer Lösung wird bereits gearbeitet.
 
 ## Version 15.3.2 – 19. März 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
 
@@ -255,20 +255,20 @@ Keine Informationen verfügbar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gruppe Zuordnen </p> </td> 
-   <td colname="col2"> <p>Die Seite "Gruppenverwaltung"wurde als Verwaltungsoberfläche neu gestaltet, mit der Sie Gruppen erstellen, Benutzer Gruppen hinzufügen und Berechtigungen für alle Experience Cloud-Lösungen anwenden können. </p> </td> 
+   <td colname="col1"> <p>Gruppe  Zuordnen </p> </td> 
+   <td colname="col2"> <p>Die Seite „Gruppenverwaltung“ wurde neu als Verwaltungsoberfläche konzipiert, über die Sie Gruppen erstellen, Benutzer Gruppen hinzufügen und Berechtigungen für die Experience Cloud-Lösungen zuweisen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eins-zu-viele-Zuordnung </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Lösungskonten in der Experience Cloud verknüpfen und über mehrere Lösungen und Organisationen verfügen, können Sie nun mehrere Produkte und Dienste einer einzigen Organisation zuordnen. </p> </td> 
+   <td colname="col2"> <p>Bei der Verknüpfung von Lösungskonten in Experience Cloud können Sie einer Organisation nun mehrere Produkte und Dienste zuordnen, wenn mehrere Lösungen und Organisationen vorhanden sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="../activation/activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> wird nun im linken Navigationsbereich der <span class="keyword">Experience Cloud</span> angezeigt. <span class="wintitle"> Aktivierung</span> ist ein <span class="keyword"> Experience Cloud</span> -Dienst, der derzeit aus der Technologie des dynamischen Tag-Managements besteht und Sie nach dem Klicken dorthin weiterleitet. </p> </td> 
+   <td colname="col2"> <p> <a href="../activation/activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> wird nun im linken Navigationsbereich der <span class="keyword">Experience Cloud</span> angezeigt. <span class="wintitle"> Activation</span> ist ein <span class="keyword">Experience Cloud</span>-Dienst, der derzeit die Technologie des dynamischen Tag-Managements nutzt und Sie beim Klicken dorthin weiterleitet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Aktualisierungen der Dokumentation - Hauptdienste </p> </td> 
-   <td colname="col2"> <p>Added the topic <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Enable your solutions for core services</a> to assist you with implementing core services. </p> </td> 
+   <td colname="col1"> <p>Aktualisierungen der Dokumentation – Zentrale Dienste </p> </td> 
+   <td colname="col2"> <p>Das neu hinzugefügte Thema <a href="../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Aktivieren Ihrer Lösungen für zentrale Dienste</a> unterstützt Sie bei der Implementierung von zentralen Diensten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -277,10 +277,10 @@ Keine Informationen verfügbar
 
 Fehlerbehebungen:
 
-* Der Arbeitsablauf für die Einladung per E-Mail für die Kontobereitstellung wurde verbessert.
+* Der Arbeitsablauf für die Einladung per E-Mail zur Kontobereitstellung wurde verbessert.
 * Es wurde ein Problem mit dem Asset-Ordner behoben, das die [!DNL Experience Cloud] und [!DNL Adobe Campaign] Assets daran hinderte, identische Ordnerhierarchien anzuzeigen.
 * Behebung eines Fehlers, der das Löschen von Zielgruppen verhinderte, die zu deaktivierten [!DNL Target]-Aktivitäten gehörten.
-* Behebung eines Fehlers, der dazu führte, dass das Hinzufügen(Plus)-Symbol unter [!UICONTROL Regeln] auf der Seite [!UICONTROL Neue Zielgruppe erstellen] nicht angezeigt wurde.
+* Behebung eines Fehlers, der dazu führte, dass das Hinzufügen (Plus)-Symbol unter [!UICONTROL Regeln] auf der Seite [!UICONTROL Neue Zielgruppe erstellen] nicht angezeigt wurde.
 * Verbesserte Unterstützung der Experience Cloud-Benutzeroberfläche für Internet Explorer 9.
 
 ## Version 15.1.1 – 15. Januar 2015  {#section_F1A352E928AF432E94CC0A289C345184}
@@ -310,17 +310,17 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 **Bekannte Probleme**
 
 * Benutzer können auf Pinnwänden keine PowerPoint-Dateien freigeben.
-* In User Management vorgenommene Gruppen- und Berechtigungsänderungen treten erst nach einer neuen Anmeldung in Kraft.
+* Änderungen an Gruppen und Berechtigungen, die über die Benutzerverwaltung durchgeführt werden, werden erst nach einer erneuten Anmeldung wirksam.
 * Bei einigen Benutzern treten möglicherweise Probleme beim Hochladen großer Dateitypen in Experience Cloud Assets auf.
 * Einigen Benutzern fehlen möglicherweise Links von Media Optimizer auf ihren Experience Cloud-Karten.
 * Bei einigen Benutzern ohne Administratorrechte treten möglicherweise Probleme beim Verknüpfen ihrer Konten auf, nachdem sie eine Einladung zum Beitritt zur Experience Cloud angenommen haben.
 * Die Leistung der Benutzeroberfläche der Experience Cloud ist u. U. reduziert, wenn sie von mehreren Benutzern gleichzeitig verwendet wird.
 * Für einige Benutzer ist das Löschen nicht mehr aktueller Assets möglich, ohne dabei eine Fehlermeldung zu empfangen.
-* Bei einigen Benutzern treten möglicherweise Probleme auf, wenn sie sich gleichzeitig bei zwei Browsern mit derselben Adobe-ID anmelden.
+* Bei einigen Benutzern treten möglicherweise Probleme auf, wenn sie sich mit derselben Adobe-ID gleichzeitig bei zwei Browsern anmelden.
 * Einige Benutzer können möglicherweise einen Creative Cloud-Benutzer nicht erneut einem Freigabeordner hinzufügen, nachdem der Creative Cloud-Benutzer gelöscht wurde.
 * Bei einigen Benutzern ist möglicherweise die Benachrichtigung verzögert, die erfolgt, wenn ein Ordner aus der Experience Cloud für die Creative Cloud freigegeben wird.
 * Bei einigen Benutzern tritt möglicherweise ein Problem beim Freigeben eines Ordners zwischen der Experience Cloud und der Creative Cloud auf.
-* Einige Benutzer haben möglicherweise Probleme beim Erstellen einer Audience in einer Analytics-Report Suite, nachdem freigegebene Audiencen aktiviert wurden.
+* Einige Benutzer haben möglicherweise Probleme beim Erstellen einer Zielgruppe in einer Analytics-Report Suite, nachdem freigegebene Zielgruppen aktiviert wurden.
 * Einige Benutzer haben möglicherweise Probleme beim Hochladen von Assets auf eine Pinnwand.
 
 ## Version 14.11.1 – 13. November 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
@@ -349,7 +349,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Benutzerberechtigungen bearbeiten </p> </td> 
+   <td colname="col1"> <p>Bearbeiten von Benutzerberechtigungen </p> </td> 
    <td colname="col2"> <p>Inhaber einer Pinnwand können jetzt Benutzerberechtigungen auf der jeweiligen Pinnwand bearbeiten. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
       <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Klicken Sie auf der Pinnwand auf <span class="uicontrol">Einstellungen</span>. </li> 
@@ -379,7 +379,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 **Fehlerbehebungen und Verbesserungen**
 
 * Wenn Sie zu [!DNL experiencecloud.adobe.com] navigieren, ist die Anmeldungserfahrung nun mit der Anmeldung von Creative Cloud von Adobe konsistent.
-* Auf der Seite &quot;Unternehmen verwalten&quot;ist das Verknüpfungserlebnis (nachdem eine Einladung erhalten wurde) nun für jede Lösung konsistent.
+* Auf der Seite „Unternehmen verwalten“ ist das Verknüpfungserlebnis (nach dem Erhalt einer Einladung) nun für jede Lösung konsistent.
 
 **Bekannte Probleme**
 
@@ -436,14 +436,14 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Aus der [!DNL Experience Cloud] gelöschte Dateien werden nicht aus dem [!DNL Digital Asset Management] gelöscht.
 * Bei einigen [!UICONTROL Exchange]-Benutzern wird der Name in den Kommentaren möglicherweise als lange ID anstelle des richtigen Namens angezeigt.
 * Manche [!DNL .png]-Dateien können nicht auf einer Karte dargestellt werden
-* Das Hochladen von Dateien ermöglicht mehr Dateitypen als die Drag &amp; Drop-Methode. Die besten Ergebnisse erzielen Sie, wenn Sie [!UICONTROL Assets]hochladen.
+* Beim Hochladen von Dateien sind mehr Dateitypen zulässig als bei der Drag &amp; Drop-Methode. Die besten Ergebnisse erzielen Sie bei einem Upload mit [!UICONTROL Assets].
 * Die [!DNL Search&Promote]-Verknüpfungen stehen auf der Seite [!UICONTROL Unternehmen und Produktzugriff] nicht zur Verfügung.
 * [!DNL Exchange]-Benutzer müssen ihre Cookies löschen, um ihres Benutzererlebnis zu verbessern.
 * Die Benutzeroberfläche der [!DNL Experience Cloud] ist u. U. beeinträchtigt, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
 * Einige Benutzer werden möglicherweise feststellen, dass ihre [!DNL Creative Cloud]-Inhalte aus ihrem Ordner entfernt wurden, wenn die Inhalte in [!DNL Experience Cloud] nicht freigegeben sind.
 * Nach 15 Minuten Inaktivität werden Sie abgemeldet. Zudem werden Sie, wenn Sie sich an einem Ort abmelden, von der [!DNL Experience Cloud] abgemeldet.
 * Einige Benutzer sind u. U. nicht in der Lage, ihre Audience Manager-Konten mit der [!DNL Experience Cloud] zu verknüpfen.
-* [!UICONTROL Exchange] -Benutzer können nur Englisch in der Sprachauswahl sehen.
+* [!UICONTROL Exchange]-Benutzer können nur Englisch in der Sprachauswahl anzeigen.
 
 **Fehlerbehebungen**
 
@@ -474,11 +474,11 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 **Bekannte Probleme**
 
 * Aus der [!DNL Experience Cloud] gelöschte Dateien werden nicht aus dem [!DNL Digital Asset Management] gelöscht.
-* Das Hochladen von Dateien ermöglicht mehr Dateitypen als die Drag &amp; Drop-Methode. Die besten Ergebnisse erzielen Sie, wenn Sie Assets hochladen.
+* Beim Hochladen von Dateien sind mehr Dateitypen zulässig als bei der Drag &amp; Drop-Methode. Die besten Ergebnisse erzielen Sie bei einem Upload mit Assets.
 * Die [!DNL Search&Promote]-Verknüpfungen stehen auf der Seite [!UICONTROL Unternehmen und Produktzugriff] nicht zur Verfügung.
 * Filter, die auf Trendberichte aus [!DNL Analytics] angewendet werden, werden nicht auf Karten in der [!DNL Experience Cloud] angewendet.
 * Einige Benutzer können ihr Zielgruppen-Management-Konto nicht mit ihrem [!DNL Experience Cloud]-Konto verknüpfen.
-* Nach 15 Minuten Inaktivität werden Sie abgemeldet. Wenn Sie sich an einem Ort abmelden, werden Sie auch aus der Experience Cloud abgemeldet.
+* Nach 15 Minuten Inaktivität werden Sie abgemeldet. Zudem werden Sie, wenn Sie sich an einem Ort abmelden, von der Experience Cloud abgemeldet.
 * Bei einigen Exchange-Benutzern wird der Name in den Kommentaren möglicherweise als lange ID anstelle des richtigen Namens angezeigt.
 
 **Fehlerbehebungen**
@@ -500,7 +500,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Hilfe</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle">Exchange</span> ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. </p> <p>Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern, Berichte und <span class="keyword">Experience Cloud</span>-Karten. </p> <p>Siehe <a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
+   <td colname="col1"> <p>Experience Cloud-Zielgruppen </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Zielgruppen</span></p> <p> In <span class="wintitle">Zielgruppen</span> erstellen, bearbeiten und verwalten Sie Zielgruppen in etwa so, wie Sie mit Segmenten arbeiten. Sie können z. B. ein Segment in Reports &amp; Analysen erstellen und es dann in <span class="wintitle">Experience Cloud</span><span class="wintitle">Audiences</span> freigeben. Nach der Freigabe ist die Zielgruppe in <span class="keyword">Adobe Target</span> für Kampagnenaktivitäten und in Adobe Audience Manager für die Segmentierung verfügbar. </p> <p> <p>Hinweis: Besuchen Sie <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences</a>, um die Aktivierung in Target anzufordern. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -522,9 +522,9 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 
 * Die [!DNL Experience Cloud] wurde nicht mit [!DNL Adobe Target] verknüpft. Dieses Problem trat auf, wenn die [!DNL Adobe Target]-Anmeldung auf mehreren [!DNL Target]-Servern zur Verfügung stand.
 * [!DNL Adobe Media Optimizer] erstellte Benutzer nicht automatisch, wenn der Benutzer in der [!DNL Experience Cloud] erstellt worden war.
-* Die Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer verschwanden während der Eingabe vorübergehend.
-* Der Link &quot;Kommentare&quot;auf der Ansicht der Asset-Karte konnte nicht angeklickt werden.
-* Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, blieben keine weiteren Änderungen an den Metadaten bestehen.
+* Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer wurden bei der Eingabe vorübergehend ausgeblendet.
+* Der Link „Kommentare“ auf der Ansicht der Assets und Karten konnte nicht angeklickt werden.
+* Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, blieben keine weiteren Änderungen an den Metadaten erhalten.
 * Beim Löschen eines Bildes gibt Assets keine Warnung aus, wenn das Bild in Adobe Target Essentials verwendet wird.
 * Die Benutzeroberfläche der [!UICONTROL Experience Cloud] arbeitete langsam, wenn sie von vielen Benutzern gleichzeitig verwendet wurde.
 * Beim Löschen eines Bildes in [!UICONTROL Experience Cloud Assets] wurde keine Warnmeldung ausgegeben, wenn das Bild in [!DNL Adobe Target Essentials] in Verwendung war.
@@ -548,7 +548,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Erstellen von Karten aus Hilfethemen </p> </td> 
-   <td colname="col2"> <p>Nachdem Sie die Funktion Mit Adobe Experience Cloud teilen in der Symbolleiste Lesezeichen Ihres Browsers aktiviert haben, können Sie jetzt Hilfeseiten über die Microsite-URL freigeben. </p> <p> <b>So geben Sie ein Hilfethema frei</b> </p> 
+   <td colname="col2"> <p>Nachdem Sie die Funktion „Mit Adobe Experience Cloud teilen“ in der Symbolleiste „Lesezeichen“ Ihres Browsers aktiviert haben, können Sie jetzt Hilfeseiten über die Microsite-URL freigeben. </p> <p> <b>Freigeben eines Hilfethemas</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
      <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Klicken Sie in der <span class="keyword">Experience Cloud</span> auf <span class="uicontrol">Administration</span>. </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Ziehen Sie die Schaltfläche <span class="uicontrol">Mit Adobe Experience Cloud teilen</span> in Ihre Symbolleiste „Lesezeichen“. </p> </li> 
@@ -560,13 +560,13 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 
 **Fehlerbehebungen**
 
-* Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, können keine weiteren Änderungen an den Metadaten beibehalten werden.
-* Die Benutzer müssen die Pinnwand aktualisieren, damit die gelöschten Karten aus der Ansicht verschwinden.
+* Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, können keine weiteren Änderungen an den Metadaten gespeichert bleiben.
+* Die Benutzer müssen die Pinnwand aktualisieren, damit die gelöschten Karten nicht mehr in der Ansicht angezeigt werden.
 * Wenn die Option **[!UICONTROL Angaben speichern]** nicht während des Anmeldevorgangs ausgewählt wird, wird der Benutzer nach 15 Minuten abgemeldet.
 * Die Landingpage der [!DNL Analytics]-Lösung weist Formatierungsfehler auf.
 * Benutzer müssen sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam werden.
 * Beim Löschen eines Bildes gibt [!UICONTROL Assets] keine Warnung aus, wenn das Bild in [!DNL Adobe Target Essentials] verwendet wird.
-* Der Link &quot;Kommentare&quot;auf der Ansicht der Asset-Karte kann nicht angeklickt werden.
+* Der Link „Kommentare“ auf der Ansicht der Assets und Karten kann nicht angeklickt werden.
 * Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer werden bei der Eingabe vorübergehend ausgeblendet.
 * Die Anmeldung bei der [!DNL Experience Cloud] dauert länger als eine Sekunde.
 * In [!DNL Media Optimizer] freigegebene Daten werden in [!DNL Experience Cloud] falsch angezeigt.
@@ -585,25 +585,25 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 
 ## Version 14.3.1 – 13. März 2014 {#section_5D142E3225E3477A84DC01B8197D39BC}
 
-Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit, Stabilität und Sicherheit. Es enthält keine wichtigen neuen Funktionen.
+Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit, Stabilität und Sicherheit. Sie enthält keine wichtigen neuen Funktionen.
 
 **Fehlerbehebungen**
 
-* Es wurde die Möglichkeit hinzugefügt, Ihr Avatar-Bild zu entfernen.
+* Es wurde die Möglichkeit zum Entfernen Ihres Avatar-Bildes hinzugefügt.
 * Ein Problem wurde behoben, das dazu geführt hat, dass Sie die Verknüpfung Ihrer [!DNL Adobe Media Optimizer]-Konten nicht aufheben konnten.
 
 **Bekannte Probleme**
 
-* Beim Löschen eines Bildes in Experience Cloud Assets wird nicht gewarnt, wenn das Bild in Adobe Zielgruppe Essentials verwendet wird.
+* Beim Löschen eines Bildes in Experience Cloud-Assets wird keine Warnung ausgegeben, wenn das Bild in Adobe Target Essentials verwendet wird.
 * Das Aktualisieren einer Karte aus [!DNL Analytics] kann in der erweiterten Karte gelegentlich zu einem leeren Diagramm führen.
 * Benutzer müssen sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam werden.
 * Wenn bei der Anmeldung *`Remember me`* nicht aktiviert ist, wird der Benutzer nach 15 Minuten abgemeldet.
 * Die Landingpage der [!DNL Analytics]-Lösung weist Formatierungsfehler auf.
 * Der Link „Kommentare“ auf der Ansicht der Assets und Karten kann nicht angeklickt werden.
-* Die Benutzeroberfläche der Experience Cloud kann sich verlangsamen, wenn sie parallel von vielen Benutzern verwendet wird.
+* Die Experience Cloud-Benutzeroberfläche ist u. U. beeinträchtigt, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
 * Die Experience Cloud kann nicht mit [!DNL Adobe Target] verknüpft werden, wenn die [!DNL Adobe Target]-Anmeldung auf mehreren Target-Servern verwendet werden kann.
 * Die Anmeldung bei Experience Cloud dauert länger als eine Sekunde.
-* Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, können keine weiteren Änderungen an den Metadaten beibehalten werden.
+* Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, können keine weiteren Änderungen an den Metadaten gespeichert bleiben.
 * [!DNL Adobe Media Optimizer] erstellt Benutzer nicht automatisch, wenn der Benutzer in der Experience Cloud erstellt wurde.
 * Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer werden bei der Eingabe vorübergehend ausgeblendet.
 * In [!DNL Media Optimizer] freigegebene Daten werden in der Experience Cloud falsch angezeigt.
@@ -611,10 +611,10 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 * Filter, die auf Trendberichte aus [!DNL Analytics] angewendet werden, werden nicht auf Karten in der Experience Cloud angewendet.
 * Änderungen an Gruppen und Berechtigungen, die über die Benutzerverwaltung durchgeführt werden, werden erst bei einer erneuten Anmeldung wirksam.
 * [!DNL Search&Promote]-Verknüpfungen stehen in [!UICONTROL Organisationen und Produktzugriff] nicht zur Verfügung.
-* Der Benutzer muss die Pinnwand aktualisieren, damit die gelöschten Karten aus der Ansicht verschwinden.
+* Benutzer müssen die Pinnwand aktualisieren, damit die gelöschten Karten nicht mehr in der Ansicht angezeigt werden.
 * Manche Excel- oder CSV-Dateien können nicht in eine Pinnwand hochgeladen werden.
 * Simulationskarten in [!DNL Adobe Media Optimizer] werden nicht ordnungsgemäß dargestellt.
-* Einige PNG-Dateien können nicht auf einer Karte wiedergegeben werden.
+* Einige PNG-Dateien können nicht auf einer Karte dargestellt werden.
 * Beta-Feedback kann nicht gesendet werden.
 
 ## Version 14.2.1 – 24. Februar 2014  {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
