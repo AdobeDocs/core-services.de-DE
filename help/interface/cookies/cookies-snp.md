@@ -6,13 +6,16 @@ seo-title: Cookies in Search&Promote
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Cookies in Search&Promote
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+workflow-type: ht
+source-wordcount: '132'
+ht-degree: 100%
 
 ---
 
 
-# Cookies in Search&amp;Promote{#search-and-promote-cookies}
+# Cookies in Search&amp;Promote {#search-and-promote-cookies}
 
 Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besucher zu erfahren und diese vorauszuahnen.
 
@@ -32,14 +35,14 @@ Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besuc
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
-   <td colname="col2"> <p>Konfigurierbar in Search&amp;Promote (<span class="uicontrol">Design</span> &gt; <span class="uicontrol">Navigation</span> &gt; <span class="uicontrol">Aktuelle Suchvorgänge</span>). Sie können aus den folgenden Optionen zum Ablauf von Cookies auswählen: </p> <p> 
+   <td colname="col2"> <p>Konfigurierbar in Search&amp;Promote (<span class="uicontrol">Design</span> &gt; <span class="uicontrol">Navigation</span> &gt; <span class="uicontrol">Aktuelle Suchvorgänge</span>). Sie können aus den folgenden Cookie-Ablaufoptionen auswählen: </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">Ende der Sitzung </li> 
       <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 Stunden </li> 
-      <li id="li_339475FBAB2248348B54073A2386819D">1 Tag </li> 
+      <li id="li_339475FBAB2248348B54073A2386819D">1 Tag </li> 
       <li id="li_F30E6EF7A7FF467DB995D86AD0DF623B">1 Woche </li> 
       <li id="li_77E18CF7EF8E4B24BAC5440D2B87844B">2 Wochen </li> 
-      <li id="li_E8A5FF4C97F64BB087422B16AD1F61DB">1 Monat </li> 
+      <li id="li_E8A5FF4C97F64BB087422B16AD1F61DB">1 Monat </li> 
       <li id="li_C170092F7E5649FE876925B58E6C8580">3 Monate </li> 
       <li id="li_08BD465A900A48BDA1283263047A33FD">6 Monate </li> 
       <li id="li_85FEDE0283F7426B9AF49C72B5089257">1 Jahr </li> 
@@ -47,11 +50,11 @@ Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besuc
   </tr> 
   <tr> 
    <td colname="col1"> <p> Nutzung </p> </td> 
-   <td colname="col2"> <p>Wird von der Suchmaschine verwendet, um dem Benutzer die letzten n Abfragen von Begriffen anzuzeigen. </p> </td> 
+   <td colname="col2"> <p>Wird von der Suchmaschine verwendet, um dem Benutzer die letzten n Abfragebegriffe anzuzeigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Position </p> </td> 
-   <td colname="col2"> <p>Browserabhängig. Cookies werden an dem Standardspeicherort gespeichert, der im Browser des Benutzers angegeben ist. </p> </td> 
+   <td colname="col2"> <p>Browserabhängig. Cookies werden unter dem Standardspeicherort gespeichert, der im Browser des Benutzers angegeben ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Größe </p> </td> 
