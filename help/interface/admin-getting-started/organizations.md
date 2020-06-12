@@ -6,8 +6,11 @@ seo-title: Organisationen und Kontoverknüpfung
 solution: Marketing Cloud
 title: Organisationen und Kontoverknüpfung
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: ht
+source-wordcount: '399'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ Erfahren Sie mehr über die Verwaltung von Organisationen und das Verknüpfen vo
 
 ## Organisation identifizieren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Eine **-Organisation ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 Möglicherweise müssen Sie auch Ihre Organisations-ID zu Supportzwecken suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
@@ -34,7 +37,7 @@ Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Landing
 
 ## Lösungskonten mit einer Adobe ID verknüpfen {#task_FD389E78640848919E247AC5E95B8369}
 
-In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Lösungen und Dienste. In seltenen Fällen müssen Sie eventuell die Anmeldeinformationen der Lösung mit einer Adobe-ID verknüpfen.
+In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Lösungen und Dienste. In seltenen Fällen müssen Sie eventuell die Anmeldeinformationen der Lösung mit einer Adobe ID verknüpfen.
 
 1. Befolgen Sie die Anweisungen in Ihrer E-Mail-Einladung zur Experience Cloud.
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
@@ -66,7 +69,7 @@ Unter „Standardorganisation und Landingpage“ können Sie Ihren Anmeldevorgan
 
 Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
-In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe-ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
+In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
-* [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+* [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/de/marketing-cloud/contact-support.html).
 * Greifen Sie über die Standardanmeldung auf die Lösung zu, solange das Problem nicht behoben ist.
