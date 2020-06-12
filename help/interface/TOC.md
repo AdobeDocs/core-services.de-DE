@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 67%
 # Hauptdienste-Benutzerhandbuch {#interface}
 
 + [Experience Cloud und Produktdokumentation](experience-cloud.md)
-+ Hauptdienste in Experience Cloud {#about-core-services}
++ Zentrale Dienste in Experience Cloud {#about-core-services}
    + [Übersicht über die Hauptdienste](core-services-landing.md)
    + [Lösungen für Hauptdienste aktivieren](core-services/core-services.md)
    + [Report Suites einer Organisation zuweisen](core-services/report-suite-mapping.md)
    + [Über die neuen Cloud-Namen der Experience Cloud](solutions-core-services.md)
 + [Experience Cloud-Integrationen](marketing-cloud-integrations.md)
 + Experience Cloud-Cookies {#ec-cookies}
-   + [Übersicht über Experience Cloud-Cookies](cookies/cookies-privacy.md)
+   + [Übersicht über Cookies in Experience Cloud](cookies/cookies-privacy.md)
    + [Erstanbieter-Cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies in Analytics](cookies/cookies-analytics.md)
    + [Cookies in Audience Manager](cookies/cookies-am.md)
@@ -35,21 +35,21 @@ ht-degree: 67%
    + [[!DNL Search and Promote] Cookies](cookies/cookies-snp.md)
    + [[!DNL Target] Cookies](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
-   + [Auswirkungen von Änderungen an der Cookie-Unterstützung von Drittanbietern auf Kunden](cookies/cookies-thirdparty.md)
+   + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
-   + [Benutzeridentität und Produkte in Experience Cloud verwalten (Admin-Konsole)](admin-getting-started/admin-getting-started.md)
-   + [Ansicht Experience Cloud-Benutzerdetails (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md)
+   + [Verwalten der Benutzeridentität und Produkte in Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Anzeigen von Experience Cloud-Benutzerdetails (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Häufig gestellte Fragen](admin-getting-started/faq.md)
    + [Anmelden und Profileinstellungen verwalten](admin-getting-started/getting-started-experience-cloud.md)
    + [Organisationen und Kontoverknüpfung](admin-getting-started/organizations.md)
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
-+ Experience Cloud-Aktivierung {#activation}
++ Experience Cloud Activation {#activation}
    + [Übersicht über Activation](activation/activation.md)
    + [Launch-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html)
-   + [Dynamisches Tag-Manager-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html)
+   + [Benutzerhandbuch zum dynamischen Tag-Manager](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
-+ Experience Cloud assets {#assets}
-   + [Übersicht über Experience Cloud-Assets](experience-cloud-assets/experience-cloud-assets.md)
++ Experience Cloud-Assets {#assets}
+   + [Übersicht über Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md)
    + [Experience Cloud-Ordner und -Assets für Creative Cloud freigeben](experience-cloud-assets/creative-cloud.md)
    + [Verwaltung der Creative Cloud-Benutzer](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Experience Cloud-Asset-Ordner freigeben](experience-cloud-assets/t-share-creative-cloud.md)
@@ -58,11 +58,11 @@ ht-degree: 67%
    + [Deaktivierung der Synchronisierung freigegebener Ordner](experience-cloud-assets/t-disable-asset-sync.md)
    + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
-+ Audiencen in Experience Cloud {#audiences}
++ Zielgruppen in Experience Cloud {#audiences}
    + [Überblick über Zielgruppen](audience-library/audience-library.md)
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
-+ Kundenattribute in Experience Cloud {#customer-attributes}
++ Customer Attributes in Experience Cloud {#customer-attributes}
    + [Übersicht über Kundenattribute](attributes/attributes.md)
    + [Häufig gestellte Fragen, Einschränkungen und Best Practices](attributes/faq-crs.md)
    + [Datendatei und Datenquellen für Kundenattribute](attributes/crs-data-file.md)
