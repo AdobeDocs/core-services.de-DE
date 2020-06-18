@@ -4,11 +4,11 @@ seo-description: Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Org
 seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+workflow-type: tm+mt
+source-wordcount: '1174'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 ## Report Suite einer Organisation zuweisen {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Klicken Sie auf **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite-Zuweisung]**
+1. Navigieren Sie zu Report Suites für Datenverwaltung unter [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Datenverwaltung]** (siehe Einstellungen für die Datenverwaltung in der Report Suite [Ansicht/Verwalten](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
 
 1. Wenn Sie anzeigen möchten, welche Unternehmensanmeldungen Zugriff auf welche Report Suite haben, klicken Sie auf **[!UICONTROL Sichtbar für Unternehmensanmeldung]**.
 
