@@ -6,11 +6,11 @@ seo-title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirk
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
+workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanb
 ## Adobe Analytics und Adobe Target
 
 * Kunden mit [Erstanbieter-Implementierung](/help/interface/cookies/cookies-first-party.md) sind größtenteils nicht betroffen.
-* Kunden, die keine Erstanbieter-Implementierung verwenden, können den [Experience Platform-ID-Dienst](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html) implementieren, um das ID-Cookie als Erstanbieter-Cookie ohne Erstanbieter-Implementierung zu speichern.
+* Kunden, die keine Erstanbieter-Implementierung verwenden, können den [Experience Platform-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/implementation-guides.html) implementieren, um das ID-Cookie als Erstanbieter-Cookie ohne Erstanbieter-Implementierung zu speichern.
 
 ## Adobe Experience Manager
 
@@ -32,7 +32,7 @@ In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanb
 
 ## Adobe Social
 
-* Social ist nicht betroffen, solange der Kunde über die neueste Version des Codes verfügt.
+* Social würde nicht betroffen sein, solange der Kunde über die neueste Version des Codes verfügt.
 
 ## Adobe Advertising Cloud
 
@@ -44,7 +44,7 @@ In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanb
 * Anzeigen:
 
    * Die Remarketing-Anzeige hängt heute vollständig von der Verwendung von Drittanbieter-Cookies ab.
-   * Die Anzeige ist auch stark von der Verfügbarkeit verschiedener Werbenetzwerk-Cookies für die Synchronisierung abhängig.
+   * Die Anzeige ist auch stark von der Verfügbarkeit verschiedener Werbe-Netzwerk-Cookies für die Synchronisierung abhängig.
    * Die Gesamtauswirkung ist nicht bekannt. Die Anzeige wird jedoch vom ersten Punkt an stärker beeinflusst als andere Dienste.
    * Wir arbeiten intern und mit unseren Werbepartnern zusammen, um die vollständigen Auswirkungen auf das Senden von Werbeanzeigen zu bewerten.
 
