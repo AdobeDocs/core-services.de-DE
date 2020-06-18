@@ -7,10 +7,10 @@ solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: fb03bf89bcc6ed4438daf18c8415de3052ba8fa4
+source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 96%
+source-wordcount: '668'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ Erstellen Sie einen Auslöser und konfigurieren Sie die Bedingungen für den Aus
    | Neue Sitzung starten nach | Erstellen Sie einen Trigger für die Ereignisse zum Sitzungsbeginn und Sitzungsende. |
 
 5. Klicken Sie auf **[!UICONTROL Speichern]**.
-6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://helpx.adobe.com/de/support/campaign/standard.html) in [!DNL Adobe Campaign].
+6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) in [!DNL Adobe Campaign].
 
 ### Beispielauslöser
 
