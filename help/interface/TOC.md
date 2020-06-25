@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
+source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 88%
+source-wordcount: '356'
+ht-degree: 87%
 
 ---
 
@@ -55,7 +55,6 @@ ht-degree: 88%
    + [Experience Cloud-Asset-Ordner freigeben](experience-cloud-assets/t-share-creative-cloud.md)
    + [Laden Sie ein Asset aus dem Creative Cloud-Browser in einen freigegebenen Ordner hoch](experience-cloud-assets/t-upload-asset-cc.md)
    + [Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [Deaktivierung der Synchronisierung freigegebener Ordner](experience-cloud-assets/t-disable-asset-sync.md)
    + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
 + Zielgruppen in Experience Cloud {#audiences}
