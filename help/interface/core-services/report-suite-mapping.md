@@ -5,15 +5,19 @@ seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 97%
+source-wordcount: '1201'
+ht-degree: 95%
 
 ---
 
 
 # Report Suites einer Organisation zuweisen {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>Die Funktion für die Report Suite-Zuordnung wird im November 2020 eingestellt. Bitte ordnen Sie herausragende Report Suites in >Vorbereitung darauf zu. Wenden Sie sich bei Fragen an den Kundendienst.
 
 Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
 
