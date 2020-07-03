@@ -6,11 +6,11 @@ seo-title: Aktualisierungen der Dokumentation – Experience Cloud
 solution: Experience Cloud
 title: Aktualisierungen der Dokumentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation
 
 **Aktualisiert: 19.05.2020**
 
-Veraltete Dokumentation zur Angebot-Verwaltung.
+Veraltete Dokumentation zur Angebotverwaltung.
 
 **Aktualisiert: 15.05.2020**
 
 Die folgenden Seiten wurden hinzugefügt:
 
-* [Unterstützung der allgemeinen Datenschutzverordnung](attributes/gdpr.md)
+* [Unterstützung der Datenschutz-Grundverordnung ](attributes/gdpr.md)
 * [Unterstützung des California Consumer Privacy Act](attributes/ccpa.md)
 
 **Aktualisiert: 10.03.2020**
@@ -44,7 +44,7 @@ Eine Beschreibung wurde hinzugefügt, wie ein Kundenattribut gelöscht werden ka
 
 **Aktualisiert: 08.06.2018**
 
-Updated [About data file and data sources for Customer Attributes](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) with information about uploading multiple files.
+Zum Abschnitt [Informationen zur Datendatei und den Datenquellen für Kundenattribute](attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) wurde eine Anleitung zum Hochladen mehrerer Dateien hinzugefügt.
 
 **Aktualisiert: 06.06.2018**
 
