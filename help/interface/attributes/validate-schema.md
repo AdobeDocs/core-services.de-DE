@@ -6,11 +6,11 @@ seo-title: Prüfen des Schemas
 solution: Experience Cloud
 title: Prüfen des Schemas
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibung
 
 >[!NOTE]
 >
->Beim Aktualisieren des Schemas nach der Überprüfung werden Kundenattribute gelöscht. Siehe [Schema aktualisieren (auch Attribute löschen)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+>Durch die Aktualisierung des Schemas nach der Validierung werden Kundenattribute gelöscht. Siehe [Schema aktualisieren (auch Attribute löschen)](../attributes/t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **[!UICONTROL Kunden-Attributquelle]** > **[!UICONTROL Neue Kundenattributquelle erstellen]** > **[!UICONTROL Schema anzeigen/bearbeiten]**
 
