@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -61,18 +61,18 @@ ht-degree: 87%
    + [Überblick über Zielgruppen](audience-library/audience-library.md)
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
-+ Customer Attributes in Experience Cloud {#customer-attributes}
++ Kundenattribute in Experience Cloud {#customer-attributes}
    + [Übersicht über Kundenattribute](attributes/attributes.md)
    + [Häufig gestellte Fragen, Einschränkungen und Best Practices](attributes/faq-crs.md)
-   + [Datendatei und Datenquellen für Kundenattribute](attributes/crs-data-file.md)
-   + [Erstellen Sie eine Kundenattributquelle und laden Sie die Datendatei hoch](attributes/t-crs-usecase.md)
+   + [Informationen zur Datendatei und zu den Datenquellen für Kundenattribute](attributes/crs-data-file.md)
+   + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](attributes/t-crs-usecase.md)
    + [Optional – Hochladen der Datendatei via FTP](attributes/t-upload-attributes-ftp.md)
    + [Prüfen des Schemas](attributes/validate-schema.md)
    + [Konfigurieren von Abonnements](attributes/subscription.md)
    + [Schema aktualisieren](attributes/t-update-schema.md)
-   + [Unterstützung der allgemeinen Datenschutzverordnung](attributes/gdpr.md)
+   + [Unterstützung der Datenschutz-Grundverordnung ](attributes/gdpr.md)
    + [Unterstützung des California Consumer Privacy Act](attributes/ccpa.md)
-   + [Überlegungen zum Datenschutz - Kundenattribute](attributes/privacy-mac.md)
+   + [Überlegungen zum Datenschutz – Kundenattribute](attributes/privacy-mac.md)
 + Versionshinweise für Experience Cloud {#release-notes}
    + [Neue Funktionen in der Experience Cloud](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html)
    + [Gesammelte Versionshinweise](marketing-cloud-interface/release-notes.md)
