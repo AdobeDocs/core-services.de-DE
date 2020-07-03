@@ -1,23 +1,23 @@
 ---
-description: Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Launch. Dynamic Tag Management (DTM) und Trigger.
+description: Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Launch. Dynamic Tag Management (DTM) und Triggers.
 keywords: core services
-seo-description: Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Launch. Dynamic Tag Management (DTM) und Trigger.
+seo-description: Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Launch. Dynamic Tag Management (DTM) und Triggers.
 seo-title: Activation
 solution: Experience Cloud
 title: Activation
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # Activation
 
-Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform Launch, Dynamic Tag Management (DTM) und Trigger.
+Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform Launch, Dynamic Tag Management (DTM) und Triggers.
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
@@ -43,7 +43,7 @@ Klicken Sie zum Starten des Dynamic Tag Managements auf **[!UICONTROL Activation
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementierungshandbücher für Experience Cloud ID-Dienst </a> </p> </td> 
-   <td colname="col2"> <p>Der Experience Cloud ID-Dienst aktiviert die wichtigsten Funktionen in allen Experience Cloud-Lösungen (einschließlich Kundenattributen, Freigabe von Audiencen und Auslöser). Adobe empfiehlt dringend, den ID-Dienst zu implementieren und die Vorteile dieser Funktionen zu nutzen. </p> </td> 
+   <td colname="col2"> <p>Der Experience Cloud ID-Dienst ermöglicht die wichtigsten Funktionen in allen Experience Cloud-Lösungen (einschließlich Kundenattributen, Freigabe von Zielgruppen und Triggers). Adobe empfiehlt dringend, den ID-Dienst zu implementieren und die Vorteile dieser Funktionen zu nutzen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation für das Dynamic Tag Management </a> </p> </td> 
