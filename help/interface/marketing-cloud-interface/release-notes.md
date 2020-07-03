@@ -6,11 +6,11 @@ seo-title: Gesammelte Versionshinweise
 solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3929'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience 
 
 Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
 
-## April - 2020
+## April 2020
 
 * Die Seite „Experience Cloud- [!UICONTROL Feed]“ wurde entfernt. (EXC-8505)
 * Die Experience Cloud-Anmeldeseite wurde aktualisiert und enthält jetzt neue Branding-Elemente. (EXC-10747)
 
-## Februar - 2020
+## Februar 2020
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
@@ -141,7 +141,7 @@ Wenn Sie über **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** 
 >
 >Microsoft [beendet den Support](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
 
-## Version 15.10 – 14. Oktober 2015  {#section_68123833D3634BD3A473C12862BF9606}
+## Version 15.10 – 14. Oktober 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
 **Bekannte Probleme**
 
@@ -150,24 +150,24 @@ Wenn Sie über **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** 
 
 ## Version 15.9 – 10. September 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Es wurde ein Leistungsproblem mit Audience Manager-API behoben, das zeitweise Timeouts beim Hochladen von Daten zu Kundenattributen verursachte. (MAC-26305)
+* Es wurde ein Leistungsproblem mit der Audience Manager API behoben, das zeitweise zu Timeouts beim Hochladen von Kundenattributdaten geführt hat. (MAC-26305)
 * Es wurde ein Fehler behoben, der verhinderte, dass Benutzer einem Abonnement bis zu 200 Kundenattribute hinzufügen konnten. (MAC-26188)
 * Es wurde ein Problem mit der Zielgruppenbibliothek behoben, das die Freigabe von Zielgruppen aus der Analytics-Segmentierung verhinderte. Dieses Problem verursachte die Anzeige von „Erfassen von Daten“ (0 Zielgruppen). Zum Vermeiden dieses Problems empfiehlt Adobe, die Segmentgrößen pro Segment unter 50.000 Zielgruppenmitgliedern zu halten. (MAC-25788)
 * Ein vorheriges bekanntes Problem mit den Kundenattributen wurde behoben: Die Seite „Schema bearbeiten“ verursachte einen Fehler mit der Inhaltsbewahrung, der beim Ändern des Anzeigenamens ausgegeben wurde. (MAC-25589, AN-103834)
 
-## Version 15.7 – 22. Juli 2015  {#section_2683A152176944E48EF6C943892975B7}
+## Version 15.7 – 22. Juli 2015 {#section_2683A152176944E48EF6C943892975B7}
 
-* Es wurde ein Fehler behoben, der verhinderte, dass auf der Seite &quot;Ansicht/Schema bearbeiten&quot;(in &quot;Kundenattribute&quot;) angegebene Attributbeschreibungen in Analytics-Berichten aktualisiert wurden. (MAC-25985)
+* Es wurde ein Fehler behoben, der verhinderte, dass auf der Seite „Schema anzeigen/bearbeiten“ (in Kundenattributen) angegebene Attributbeschreibungen in Analytics-Berichten aktualisiert wurden. (MAC-25985)
 * Es wurde ein Fehler behoben, der verhinderte, dass die Miniaturansichten für hochgeladene Assets gerendert wurden. (MAC-25863)
 * Es wurde ein Problem behoben, bei dem neue Segmente, die in Reports &amp; Analysen erstellt wurden, nicht in Experience Cloud-Zielgruppen verfügbar waren. (MAC-25817)
 * Es wurde ein Fehler behoben, der bei Verwendung des Besucher-ID-Dienstes die Freigabe von Zielgruppen in Analytics verhinderte. (MAC-25788, MAC-25747)
-* Unterstützung für Multibyte-Zeichen in Kundenattributen hinzugefügt. (MAC-25552)
+* Die Unterstützung für Multibyte-Zeichen in Kundenattributen wurde hinzugefügt. (MAC-25552)
 
 **Bekanntes Problem**
 
 Ein bekanntes Problem verursacht die Erstellung doppelter automatisch generierter Konten in Audience Manager und die automatische Verknüpfung dieser Konten mit der Experience Cloud-Identität eines Benutzers. Dieses Problem tritt auf, wenn Sie versuchen, zu Audience Manager zu navigieren, bevor Sie Ihre Konten verknüpfen. Adobe empfiehlt Ihnen, die Verknüpfung Ihrer Audience Manager-Konten mit der Experience Cloud vorzunehmen, bevor Sie zu Audience Manager navigieren. (MAC-25640)
 
-## Version 15.6.1 – 11. Juni 2015  {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
+## Version 15.6.1 – 11. Juni 2015 {#section_AD2019F8D2F84C9EB2B0533FAACF7043}
 
 Keine Informationen verfügbar
 
@@ -193,7 +193,7 @@ Keine Informationen verfügbar
  </tbody> 
 </table>
 
-* Es wurde ein Problem behoben, das die Synchronisierung von Kundenattributen für einige Kunden verhinderte.
+* Ein Problem wurde behoben, infolge dessen die Kundenattribute einiger Kunden nicht synchronisiert werden konnten.
 * Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://docs.adobe.com/content/help/de-DE/target/using/integrate/a4t/a4t.html) nicht auf Japanisch angezeigt wurde.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
@@ -255,7 +255,7 @@ Keine Informationen verfügbar
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gruppe  Zuordnen </p> </td> 
+   <td colname="col1"> <p>Gruppe Zuordnen </p> </td> 
    <td colname="col2"> <p>Die Seite „Gruppenverwaltung“ wurde neu als Verwaltungsoberfläche konzipiert, über die Sie Gruppen erstellen, Benutzer Gruppen hinzufügen und Berechtigungen für die Experience Cloud-Lösungen zuweisen können. </p> </td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ Fehlerbehebungen:
 * Behebung eines Fehlers, der dazu führte, dass das Hinzufügen (Plus)-Symbol unter [!UICONTROL Regeln] auf der Seite [!UICONTROL Neue Zielgruppe erstellen] nicht angezeigt wurde.
 * Verbesserte Unterstützung der Experience Cloud-Benutzeroberfläche für Internet Explorer 9.
 
-## Version 15.1.1 – 15. Januar 2015  {#section_F1A352E928AF432E94CC0A289C345184}
+## Version 15.1.1 – 15. Januar 2015 {#section_F1A352E928AF432E94CC0A289C345184}
 
 Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusammenarbeit und Freigabe der [!DNL Adobe Experience Cloud]
 
@@ -323,7 +323,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Einige Benutzer haben möglicherweise Probleme beim Erstellen einer Zielgruppe in einer Analytics-Report Suite, nachdem freigegebene Zielgruppen aktiviert wurden.
 * Einige Benutzer haben möglicherweise Probleme beim Hochladen von Assets auf eine Pinnwand.
 
-## Version 14.11.1 – 13. November 2014  {#section_A6CF1D4F27B9496892A89C983EB39102}
+## Version 14.11.1 – 13. November 2014 {#section_A6CF1D4F27B9496892A89C983EB39102}
 
 Bekannte Probleme:
 
@@ -336,7 +336,7 @@ Bekannte Probleme:
 * Die Leistung der Benutzeroberfläche der [!DNL Experience Cloud] ist u. U. reduziert, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
 * Die Synchronisierung zwischen Adobe Experience Manager und Creative Cloud funktioniert nicht.
 
-## Version 14.10.1 – 16. Oktober 2014  {#section_E3A0F4423B814707AA3745E083500835}
+## Version 14.10.1 – 16. Oktober 2014 {#section_E3A0F4423B814707AA3745E083500835}
 
 Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusammenarbeit und Freigabe der [!DNL Adobe Experience Cloud]
 
@@ -449,7 +449,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 
 Keine zu melden.
 
-## Version 14.6.1 – 19. Juni 2014  {#marketing_cloud_interface}
+## Version 14.6.1 – 19. Juni 2014 {#marketing_cloud_interface}
 
 Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusammenarbeit und Freigabe der [!DNL Adobe Experience Cloud]
 
@@ -536,7 +536,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Benutzer konnten auf Pinnwänden keine PowerPoint-Dateien freigeben.
 * Bei einigen Benutzern war das visuelle Layout in Internet Explorer 10 schlechter als bei anderen Browsern.
 
-## Version 14.4.1 – 22. April 2014  {#section_E2A699764E744D2E8D418E9A3D40AF6B}
+## Version 14.4.1 – 22. April 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
@@ -617,7 +617,7 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 * Einige PNG-Dateien können nicht auf einer Karte dargestellt werden.
 * Beta-Feedback kann nicht gesendet werden.
 
-## Version 14.2.1 – 24. Februar 2014  {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
+## Version 14.2.1 – 24. Februar 2014 {#section_5AD81B0737C843AFB4BE9C4420D70EB3}
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
