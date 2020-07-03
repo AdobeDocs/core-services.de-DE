@@ -1,29 +1,29 @@
 ---
-description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Audiencen.
+description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Zielgruppen.
 keywords: core services;Customer Attributes
-seo-description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Audiencen.
+seo-description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Zielgruppen.
 seo-title: Experience Cloud-Lösungen für Hauptdienste aktivieren
 solution: Experience Cloud
 title: Lösungen für Hauptdienste aktivieren
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Lösungen für Hauptdienste aktivieren
 
-Erfahren Sie für Bestandskunden, wie Sie Ihre Lösungsimplementierungen modernisieren und die Experience Cloud implementieren, damit Sie Funktionen wie Kundenattribute und Audiencen verwenden können. Dazu werden Sie:
+Lernen Sie, wie Sie für Bestandskunden Ihre Lösungsimplementierungen modernisieren und die Experience Cloud implementieren, damit Sie Funktionen wie Kundenattribute und Zielgruppen verwenden können. Dazu werden Sie:
 
 1. [Experience Cloud beitreten und Administrator werden](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Den Experience Cloud ID-Dienst implementieren](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Report Suites einer Experience Cloud-Organisation zuweisen](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Den Analytics-AppMeasurement-Code aktualisieren](#section_1798D9D0F05C47E29816AC4EEB9A0913)
-1. [Die Implementierung der Adobe-Zielgruppe aktualisieren](#section_C2F4493C7A36406DAE2266B429A4BD24)
+1. [Die Implementierung der Adobe Target aktualisieren](#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Überprüfung der Implementierung der Hauptdienste](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Benutzer und Produkte verwalten](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Mit der Verwendung von Hauptdiensten beginnen](#section_960C06093623462E8EA247B3E97274A1)
@@ -96,7 +96,7 @@ Wenn Sie [!UICONTROL Experience Platform Launch] oder das [!UICONTROL Dynamic Ta
 | Aufgabe | Beschreibung |
 | -----------| ---------- |  
 | [Implementieren des Experience Cloud ID-Dienstes für Analytics](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/setup-analytics.html) | Adobe empfiehlt auch, zusätzliche [Kunden-IDs](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/authenticated-state.html) festzulegen. Diese IDs werden den einzelnen Besuchern zugeordnet und dienen der Aktivierung der aktuellen und zukünftigen Funktionen in Experience Cloud. |
-| Aktualisieren Sie Ihre vorhandene [!DNL s_code] auf die Version H.27.3 oder höher, oder Ihre vorhandene [!DNL AppMeasurement.js] auf Version 1.4 oder höher. | Diese Dateien können im [Code-Manager](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/code-manager-admin.html) in den Analytics Admin-Tools heruntergeladen werden. (Das Handbuch für die [JavaScript-Implementierung](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.html) ist verfügbar, wenn Sie weitere Informationen zu [!DNL AppMeasurement.js] benötigen.) |
+| Aktualisieren Sie Ihre vorhandene [!DNL s_code] auf die Version H.27.3 oder höher, oder Ihre vorhandene [!DNL AppMeasurement.js] auf Version 1.4 oder höher. | Diese Dateien können im [Code-Manager](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/code-manager-admin.html) in den Analytics Admin-Tools heruntergeladen werden.  (Das Handbuch für die [JavaScript-Implementierung](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.html) ist verfügbar, wenn Sie weitere Informationen zu [!DNL AppMeasurement.js] benötigen.) |
 | Synchronisieren der Kunden-ID für Analytics | Siehe [Analytics – Synchronisieren der Kunden-ID](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (unten). |
 
 ## Analytics und Adobe Target – Synchronisieren der Kunden-ID {#section_AD473A6A21C1446498E700363F9A8437}
@@ -114,13 +114,13 @@ Beispiel: Bob hat in Ihrem CRM-System die Kunden-ID `52mc210tr42`. Wenn sich Bob
 
 Die Kunden-ID muss in jedem Aufruf an den [!DNL Analytics]-Server angegeben sein, auf dem die Kunden-ID bekannt ist.
 
-### Mobile SDKs 
+### Mobile SDKs
 
 Im Abschnitt zum *Experience Cloud ID-Dienst* finden Sie Syntaxbeispiele zum Festlegen zusätzlicher Kunden-IDs in [Android](https://docs.adobe.com/content/help/de-DE/mobile-services/android/overview.html)- und [iOS](https://docs.adobe.com/content/help/de-DE/mobile-services/ios/overview.html)-Apps.
 
 ### Aktivierung der Attribute historischer Daten
 
-Kundenattributdaten werden nach der Anmeldung durch die Besucher bereitgestellt. Wenn Sie den neuesten Experience Cloud ID-Dienst noch nicht implementiert haben und Sie Kunden-IDs zuvor in einer prop oder eVar verfolgt haben, können Sie einen Prozess anfordern, der historische Anmeldungen an die Experience Cloud sendet. Mit diesem Prozess können Sie sofort mit der Verwendung von Kundenattributen beginnen.
+Kundenattributdaten werden nach der Anmeldung durch die Besucher bereitgestellt. Wenn Sie den neuesten Experience Cloud ID-Dienst noch nicht implementiert haben und Sie Kunden-IDs zuvor in einer prop oder eVar verfolgt haben, können Sie einen Prozess anfordern, der historische Anmeldungen an die Experience Cloud sendet. Auf diese Weise können Sie sofort mit der Verwendung von Kundenattributen beginnen.
 
 Wenden Sie sich an die Kundenunterstützung, um historische Daten zu aktivieren.
 
@@ -146,7 +146,7 @@ Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **[!UICONTROL <Web Pro
 
    >[!IMPORTANT]
    >
-   >Alle Analytics-Kunden sind bereits für Hauptdienste wie Kundenattribute bereitgestellt. Wenn Sie kein Analytics-Kunde sind, wenden Sie sich an die Kundenunterstützung, um eine Freischaltung anzufordern.
+   >Alle Analytics-Kunden sind bereits für zentrale Dienste wie Kundenattribute freigeschaltet. Wenn Sie kein Analytics-Kunde sind, wenden Sie sich an die Kundenunterstützung, um eine Freischaltung anzufordern.
 
 ## Schritt 6. Überprüfung der Implementierung der Hauptdienste {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
