@@ -6,11 +6,11 @@ seo-title: Anmelden und Profileinstellungen verwalten
 solution: Experience Cloud
 title: Anmelden und Verwalten von der Experience Cloud-Profileinstellungen
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 | [Benutzerverwaltung](https://helpx.adobe.com/de/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
 | [Admin Console starten](../admin-getting-started/admin-getting-started.md) | Die Admin Console ist der zentrale Ort für die Verwaltung Ihrer Adobe-Benutzer und Produktberechtigungen in Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link](https://adminconsole.adobe.com) bei der Admin Console anmelden. |
 | [Creative Cloud-Benutzer verwalten](../experience-cloud-assets/t-admin-add-cc-user.md) | Mit Experience Cloud Assets können Marketingexperten mithilfe der Creative Cloud Ordner mit Designern und anderen Kreativ-Assets gemeinsam verwenden, synchronisieren und mit ihnen zusammenarbeiten. Hier können Sie die Creative Cloud-Benutzer verwalten, die für die Zusammenarbeit mit Ihrem Unternehmen zugelassen sind. |
-| [Report Suites zuordnen](../core-services/core-services.md) | (Nur Analytics) Die zentralen Experience Cloud-Dienste sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe   [Analytics für Hauptdienste aktiviert wird](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).) |
+| [Report Suites zuordnen](../core-services/core-services.md) | (Nur Analytics) Die zentralen Experience Cloud-Dienste sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe [Analytics für Hauptdienste aktiviert wird](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).) |
 | [Organisations-ID](../admin-getting-started/organizations.md) | Die *Organisations-ID* befindet sich unten auf der Seite „Administration“. Diese ID ist die mit Ihrem bereitgestellten Experience Cloud-Unternehmen verknüpfte ID. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |
 
 ## Bei der Experience Cloud anmelden (Benutzer) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
@@ -112,7 +112,7 @@ Sie können die Anzeige der Benachrichtigungen nach den für Sie wichtigen Benac
  <li id="li_17B0B176FF85435FB7EDD4317BC18201">Property has been published </li> 
 </ul> -->
 
-## Profile und Kennwörter verwalten  {#task_7B89F4F38E5A4C4EB0FF842953856382}
+## Profile und Kennwörter verwalten {#task_7B89F4F38E5A4C4EB0FF842953856382}
 
 Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation und -Landingpage festlegen und vieles mehr.
 
@@ -125,7 +125,7 @@ Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation u
 
    Füllen Sie auf der Seite „Profil und Kennwörter“ die Felder und Optionen unter „Persönliche Details“ aus.
 
-## Kennwort zurücksetzen  {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Kennwort zurücksetzen {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navigieren Sie zur Anmeldeseite Ihrer Lösung.
 1. Klicken Sie auf **[!UICONTROL Kennwort vergessen]**.
