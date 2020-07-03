@@ -6,11 +6,11 @@ seo-title: Optional – Hochladen der Datendatei via FTP
 solution: Experience Cloud
 title: Optional – Hochladen der Datendatei via FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein F
 
 >[!IMPORTANT]
 >
->Review [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) before uploading the file.
+>Lesen Sie [Datendateivoraussetzungen für das Hochladen von Kundenattributen](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19), bevor Sie die Datei hochladen.
 
-Datei-Uploads auf die FTP-Site &quot;Kundenattribute&quot;können über FTP oder SFTP erfolgen.
+Datei-Uploads auf die FTP-Site für Kundenattribute können über FTP oder SFTP erfolgen.
 
 * Sie benötigen einen Client, der SFTP-Verbindungen unterstützt.
 * Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://docs.adobe.com/help/de-DE/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) beschrieben.
@@ -44,4 +44,4 @@ Datei-Uploads auf die FTP-Site &quot;Kundenattribute&quot;können über FTP oder
 
    Wenn der Upload erfolgreich war, werden beide Dateien in einen Ordner mit dem Namen **verarbeitet** verschoben.
 
-   See [Data file requirements for uploading Customer Attributes](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) for important information about file names and structure.
+   Wichtige Informationen zu Dateinamen und zur Dateistruktur finden Sie unter [Datendateivoraussetzungen für das Hochladen von Kundenattributen](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19).
