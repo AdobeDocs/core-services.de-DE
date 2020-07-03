@@ -1,72 +1,73 @@
 ---
-title: Kundenattributunterstützung für California Consumer Privacy Act
-description: Kundenattributunterstützung für California Consumer Privacy Act
-translation-type: tm+mt
+title: Unterstützung von Kundenattributen für den California Consumer Privacy Act
+description: Unterstützung von Kundenattributen für den California Consumer Privacy Act
+translation-type: ht
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# Kundenattributunterstützung für California Consumer Privacy Act
+# Unterstützung von Kundenattributen für den California Consumer Privacy Act
 
-Diese Seite beschreibt die Unterstützung von [!UICONTROL Kundenattributen] für das California Consumer Privacy Act (CCPA).
+Auf dieser Seite wird die Unterstützung von [!UICONTROL Kundenattributen] für den California Consumer Privacy Act (CCPA) beschrieben.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Wenden Sie sich an Ihren Rechtsbeistand, um Beratung zu der (CCPA) zu erhalten.
+>Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Wenden Sie sich an Ihren Rechtsbeistand, um Beratung zum CCPA zu erhalten.
 
-Das CCPA ist das neue kalifornische Datenschutzgesetz, das am 1. Januar 2020 in Kraft tritt. Die CCPA räumt den Einwohnern Kaliforniens neue Rechte in Bezug auf ihre personenbezogenen Daten ein und erlegt bestimmten Personen, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf. CCPA bietet Verbrauchern das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen sowie das Recht auf Opt-out bestimmter Aktivitäten, die als &quot;Verkauf&quot; personenbezogener Daten an Dritte gelten.
+Der CCPA ist das neue kalifornische Datenschutzgesetz, das am 1. Januar 2020 in Kraft tritt. Der CCPA räumt den Einwohnern Kaliforniens neue Rechte in Bezug auf ihre personenbezogenen Daten ein und erlegt Rechtspersönlichkeiten, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf. Der CCPA bietet Verbrauchern das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen sowie das Recht auf den Ausstieg aus bestimmten Aktivitäten, die als „Verkauf“ personenbezogener Daten an Dritte gelten.
 
-Als Unternehmen bestimmen Sie die personenbezogenen Daten, die Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
+Als Unternehmen legen Sie fest, welche personenbezogenen Daten Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
-Als Dienstleister unterstützt Adobe Experience Cloud Ihr Unternehmen bei der Erfüllung seiner Verpflichtungen aus dem CCPA, die für die Verwendung von Experience Cloud-Produkten und -Diensten gelten, einschließlich der Verwaltung von Anforderungen zum Zugriff auf und Löschen personenbezogener Daten.
+Als Ihr Dienstleister unterstützt Adobe Experience Cloud Ihr Unternehmen bei der Erfüllung seiner CCPA-Verpflichtungen, die für die Verwendung von Experience Cloud-Produkten und -Diensten gelten, einschließlich der Verwaltung von Anfragen zum Zugriff auf und zur Löschung personenbezogener Daten.
 
-In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die CCPA-Datenzugriff- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service API und der Benutzeroberfläche des Datenschutzdienstes unterstützen.
+In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die CCPA-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützen.
 
-Weitere Informationen zu den Datenschutzdiensten von Adobe für CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
+Weitere Informationen zu den Datenschutzdiensten von Adobe für den CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Erforderliche Einrichtung zum Senden von Anforderungen für [!UICONTROL Kundenattribute]
+## Erforderliche Einrichtung zum Senden von Anfragen für [!UICONTROL Kundenattribute]
 
-Um Anforderungen zum Zugriff auf Daten zu [!UICONTROL Kundenattributen]und zum Löschen von Daten zu stellen, müssen Sie:
+Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattributen] zu stellen, ist Folgendes erforderlich:
 
-1. Identifizieren Sie Folgendes:
+1. Sie benötigen:
 
    * Kennung der IMS-Organisation
-   * Alias-ID der CRS-Datenquelle, auf die Sie reagieren möchten
-   * CRM-ID des Profils, auf das Sie reagieren möchten
-   Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketingteam oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an den Adobe-Kundendienst unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
+   * Alias-ID der jeweiligen CRS-Datenquelle
+   * CRM-ID des jeweiligen Profils
 
-1. Im [!UICONTROL Datenschutzdienst]können Sie Anforderungen zum Zugriff und Löschen an Kundenattribute senden und den Status vorhandener Anforderungen prüfen.
+   Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketing-Team oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an die Adobe-Kundenunterstützung unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
 
-## Erforderliche Feldwerte in JSON-Anforderungen für [!UICONTROL Kundenattribute]
+1. In [!UICONTROL Privacy Service] können Sie Zugriffs- und Löschanfragen an Kundenattribute senden und den Status vorhandener Anfragen überprüfen.
 
-&quot;Kontext der Firma&quot;:
+## Erforderliche Feldwerte in JSON-Anfragen für [!UICONTROL Kundenattribute]
 
-* &quot;Namensraum&quot;: **imsOrgID**
+&quot;company context&quot;:
+
+* &quot;namespace&quot;: **imsOrgID**
 * &quot;value&quot;: &lt;*IMS-Organisations-ID-Wert*>
 
-&quot;Benutzer&quot;:
+&quot;users&quot;:
 
 * &quot;key&quot;: &lt;*gewöhnlich der Name des Kunden*>
 
-* &quot;Aktion&quot;: entweder **Zugriff** oder **Löschen**
+* &quot;action&quot;: entweder **Zugriff** oder **Löschen**
 
-* &quot;Benutzer-IDs&quot;:
+* &quot;user IDs&quot;:
 
-   * &quot;Namensraum&quot;: &lt;*Alias-ID der CRS-Datenquelle*>
+   * &quot;namespace&quot;: &lt;*Alias-ID der CRS-Datenquelle*>
 
    * &quot;type&quot;: **integrationCode**
 
    * &quot;value&quot;: &lt;*CRM-ID*>
 
-* &quot;include&quot;: **CRS** (das Adobe-Produkt, das für die Anforderung gilt)
+* &quot;include&quot;: **CRS** (das Adobe-Produkt, auf das sich die Anfrage bezieht)
 
-* &quot;Regulierung&quot;: **ccpa** (die Datenschutzverordnung, die für die Anforderung gilt)
+* &quot;regulation&quot;: **ccpa** (die Datenschutzverordnung, auf die sich die Anfrage bezieht)
 
-## Beispiel für eine JSON-Anforderung
+## Beispiel für eine JSON-Anfrage
 
 ```
 {
