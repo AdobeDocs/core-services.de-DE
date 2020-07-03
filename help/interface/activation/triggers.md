@@ -6,11 +6,11 @@ seo-title: Triggers
 solution: Marketing Cloud
 title: Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '668'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Triggers ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifiz
 
 ![](assets/trigger-abandonment-2.png)
 
-### Trigger-Typen
+### Triggers-Typen
 
 Im Allgemeinen kann ein Auslöser 15 bis 90 Minuten benötigen, um eine Marketing-Kampagne zu starten. Dies hängt von der Implementierung der Datenerfassung, der Auslastung der Pipeline, der benutzerdefinierten Konfiguration des definierten Triggers und dem Workflow in Adobe Campaign ab.
 
@@ -37,14 +37,14 @@ Im Allgemeinen kann ein Auslöser 15 bis 90 Minuten benötigen, um eine Marketin
 
 ## Experience Cloud Trigger erstellen {#task_821F37183AC045E5AC8EED20317598FE}
 
-Erstellen Sie einen Auslöser und konfigurieren Sie die Bedingungen für den Auslöser. Sie können beispielsweise die Kriterien für die Regeln eines Triggers während eines Besuchs angeben, z. B. Metriken wie Warenkorbabbruch oder Dimensionen wie den Produktnamen. Wenn die Regeln erfüllt sind, wird der Trigger ausgeführt.
+Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigger. Sie können beispielsweise die Kriterien für die Regeln eines Triggers während eines Besuchs angeben, z. B. Metriken wie Warenkorbabbruch oder Dimensionen wie den Produktnamen. Wenn die Regeln erfüllt sind, wird der Trigger ausgeführt.
 
 >[!NOTE]
 >
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
-1. In the Experience Cloud, click ![](assets/menu-icon.png), then click **[!UICONTROL Launch]**.
-2. Locate the [!UICONTROL Triggers] card, then click **[!UICONTROL Manage Triggers]**.
+1. Wählen Sie in Experience Cloud ![](assets/menu-icon.png) und dann **[!UICONTROL Launch]** aus.
+2. Wählen Sie in der Registerkarte [!UICONTROL Triggers] **[!UICONTROL Triggers verwalten]** aus.
 3. Klicken Sie auf **[!UICONTROL Neuer Trigger]** und geben Sie dann den Trigger-Typ an:
 
    ![Schritt Ergebnis](assets/add-trigger.png)
@@ -55,17 +55,17 @@ Erstellen Sie einen Auslöser und konfigurieren Sie die Bedingungen für den Aus
    |--- |--- |
    | Name | Der Anzeigename für diesen Trigger. |
    | Beschreibung | Die Beschreibung dieses Triggers, wie Sie ihn verwenden werden usw. |
-   | Report Suite | Die für diesen Trigger verwendete Analytics [Report Suite](https://docs.adobe.com/content/help/de-DE/analytics/implementation/analytics-basics/ref-reports-report-suites.html). Diese Einstellung identifiziert die zu verwendenden Berichtsdaten. |
+   | Report Suite | Die für diesen Trigger verwendete Analytics [Report Suite](https://docs.adobe.com/content/help/de-DE/analytics/admin/manage-report-suites/report-suites-admin.html). Diese Einstellung identifiziert die zu verwendenden Berichtsdaten. |
    | Besuch muss beinhalten<br>Besuch darf nicht beinhalten<br>Trigger nach ausbleibender Aktion<br>Metadaten einschließen | Sie können Kriterien oder Besucherverhalten, das auftreten soll, sowie Verhalten, das nicht auftreten soll, definieren.  Regeln für einen einfachen Warenkorbabbruchsauslöser können beispielsweise die folgenden sein:<ul><li>Besuch muss Folgendes beinhalten: „Zusatz zum Warenkorb“ (Metrik) und „Vorhanden“. (Sie können die Regel mit einer bestimmten Produktansicht oder mit Dimensionen wie „Browsertypen“ weiter verfeinern.)</li><li>Besuch darf Folgendes nicht beinhalten: Checkout.</li><li>Auslöser nach ausbleibender Aktion bei: 10 Minuten.</li><li>Metadaten einschließen: Sie können eine bestimmte Kampagnendimension oder Variablen, die für das Verhalten eines Besuchers relevant sind, hinzufügen. Dieses Feld kann für Adobe Campaign zum Verfassen der richtigen Remarketing-E-Mail nützlich sein.</li></ul><br>Sie können eine Beliebige-, Und- oder Oder-Logik innerhalb oder zwischen Behältern angeben, je nachdem, welche Kriterien Sie für die Regel für wichtig halten. |
    | Container | In Containern legen Sie Regeln, Bedingungen oder Filter zum Definieren eines Triggers fest und speichern diese. Wenn Sie Ereignisse gleichzeitig auftreten sollen, platzieren Sie sie im selben Container. Dies bedeutet, dass jeder Behälter unabhängig auf der Trefferebene arbeitet.  Wenn Sie beispielsweise zwei Behälter mit dem Operator „Und“ verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
    | Neue Sitzung starten nach | Erstellen Sie einen Trigger für die Ereignisse zum Sitzungsbeginn und Sitzungsende. |
 
 5. Klicken Sie auf **[!UICONTROL Speichern]**.
-6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) in [!DNL Adobe Campaign].
+6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://docs.adobe.com/content/help/de-DE/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) in [!DNL Adobe Campaign].
 
 ### Beispielauslöser
 
-Beispiele für Experience Cloud-Trigger:
+Beispiele für Experience Cloud-Triggers:
 
 #### Warenkorbabbruch-Trigger
 
