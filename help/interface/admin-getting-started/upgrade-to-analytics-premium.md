@@ -7,11 +7,11 @@ solution: Experience Cloud
 title: Upgrade auf Analytics Premium und die Experience Cloud
 topic: Premium
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '672'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Administratoren können mehr darüber erfahren, was sie bei einem Upgrade auf An
 
 ## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
-Durch die Aktualisierung auf Adobe Analytics Premium erhalten Sie alle verfügbaren Funktionen oder Produkte von Analytics Standard, einschließlich Data Warehouse, Ad-hoc-Analysen, Report Builder und Data Connectors. (Diese Produkte wurden mit der Point-Lösung SiteCatalyst separat an Kunden verkauft.)
+Durch die Aktualisierung auf Adobe Analytics Premium erhalten Sie alle verfügbaren Funktionen oder Produkte von Analytics Standard, einschließlich Data Warehouse, Ad Hoc Analysis, Report Builder und Data Connectors. (Diese Produkte wurden mit der Point-Lösung SiteCatalyst separat an Kunden verkauft.)
 
 Analytics Premium bietet Ihnen:
 
@@ -44,7 +44,7 @@ In Analytics Premium Complete erhalten Sie alle Funktionen von [Analytics Premiu
 
 | Produkt | Upgrades |
 |--- |--- |
-| Reports and Analytics | <ul><li>[Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[Kundenattribute](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (bis zu 200)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[Kundenattribute](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (bis zu 200)</li></ul> |
 | Data Workbench | <ul><li>Algorithmische Zuordnung</li><li>Vordefinierte Arbeitsbereiche</li></ul> |
 | Analytics Platform | [Live-Stream](https://helpx.adobe.com/de/analytics/kb/getting-started-with-livestream-api.html) (Rohdaten, Dashboards, Auslöser) |
 
@@ -54,7 +54,7 @@ Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](.
 
 | Produkt | Upgrades |
 |---|---|
-| Reports and Analytics | [Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Vorgefertigte Arbeitsbereiche für die Qualifizierung von Zielgruppen und das prädiktive Marketing |
 | Analytics Platform | Live-Stream (Dashboards und Auslöser) |
 
@@ -72,7 +72,7 @@ Ein Upgrade auf Customer 360 beinhaltet [Analytics Premium](../admin-getting-sta
 
 Advanced Attribution bietet Zugriff auf [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus Algorithmic Attribution in Data Workbench (25 % Server-Aufrufvolumen).
 
-## Data Workbench-Anforderungen  {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Data Workbench-Anforderungen {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 Die aktualisierten Benutzer können über eine E-Mail an `dwb@adobe.com` anfordern, dass alle Kundenlizenzen mit der Premium-Information aktualisiert werden. Dadurch werden Funktionen wie Algorithmic Attribution ermöglicht.
 
@@ -84,7 +84,7 @@ Sämtliche Software, die am Kundenstandort ausgeführt wird, muss deaktiviert we
 
 Experience Cloud und Hauptdienste stehen Analytics Standard- und Premium-Benutzern zur Verfügung, vorausgesetzt, die Modernisierung der Implementierung wurde wie in [Erste Schritte - ermöglichen Sie Ihre Lösungen für Hauptdienste](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) beschrieben durchgeführt. (Dieser Prozess unterstützt Sie beim Modernisieren Ihrer Implementierung und ermöglicht es Ihnen, ein Administrator in Experience Cloud zu werden.)
 
-After you join the Experience Cloud, you can log in via the Experience Cloud at [!DNL experiencecloud.adobe.com] and begin using core services (including Customer Attributes, Audiences, and Mobile app analytics).
+Nachdem Sie Mitglied der Experience Cloud geworden sind, können Sie sich über [!DNL experiencecloud.adobe.com] bei der Experience Cloud anmelden und damit beginnen, die Hauptdienste zu verwenden (einschließlich Kundenattributen, Audiences und Analysen mobiler Apps).
 
 ### Verwalten Sie Benutzer und Gruppen
 
