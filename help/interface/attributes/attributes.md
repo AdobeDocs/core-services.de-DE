@@ -1,23 +1,23 @@
 ---
-description: Übersicht und Voraussetzungen zum Hochladen von Kundenattributen in die Experience Cloud.
+description: Überblick und Voraussetzungen zum Hochladen von Kundenattributen in Experience Cloud.
 keywords: core services;Customer Attributes
-seo-description: Übersicht und Voraussetzungen zum Hochladen von Kundenattributen in die Experience Cloud.
+seo-description: Überblick und Voraussetzungen zum Hochladen von Kundenattributen in Experience Cloud.
 seo-title: Kundenattribute
 solution: Experience Cloud
 title: Kundenattribute
 uuid: 1621402d-990f-46f9-981a-473280559069
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # Kundenattribute
 
-Navigieren Sie zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**
+Navigieren Sie zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**.
 
 Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
@@ -25,15 +25,15 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 
 ## Voraussetzungen für das Hochladen von Kundenattributen {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Lösungsaktivierung:** [Aktivieren Sie Ihre Lösungen für Experience Platform-Dienste](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+* **Aktivierung der Lösung:** [Aktivieren Sie Ihre Lösungen für Experience Platform-Dienste](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
-* **Gruppenmitgliedschaft:** Um Kundenattributdaten hochzuladen, müssen Benutzer Mitglieder der Gruppe &quot; [Kundenattribute&quot;sein](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Sie müssen auch einer Adobe Analytics-Gruppe oder einer Adobe Target-Gruppe angehören.
+* **Gruppenmitgliedschaft:** Um Kundenattributdaten hochzuladen, müssen Benutzer Mitglieder der [Kundenattributgruppe](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9) sein. Sie müssen auch einer Adobe Analytics-Gruppe oder einer Adobe Target-Gruppe angehören.
 
-   To know whether your company has access to Customer Attributes, your [!DNL Experience Cloud] administrator should log into the [Experience Cloud](https://experience.adobe.com). Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin.
+   Um herauszufinden, ob Ihr Unternehmen Zugang zu Kundenattributen hat, muss sich Ihr [!DNL Experience Cloud]-Administrator bei [ Experience Cloud](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eine der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen.
 
-   Users that are added to the Customer Attributes will see the [!UICONTROL Customer Attributes] menu item on the left side of the Experience Cloud interface.
+   Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
 
-* **Adobe Target** (beliebige Version) oder [!DNL at.js] [!DNL mbox.js] Version 58 oder höher ist für Kundenattribute erforderlich.
+* **Adobe Target** [!DNL at.js] (beliebige Version) oder [!DNL mbox.js] Version 58 oder höher ist für Kundenattribute erforderlich.
 
    Siehe [Bereitstellen von at.js](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) oder [Mbox.js-Implementierung](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
