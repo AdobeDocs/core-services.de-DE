@@ -6,11 +6,11 @@ seo-title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirk
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanb
 
 ## Adobe Social
 
-* Social würde nicht betroffen sein, solange der Kunde über die neueste Version des Codes verfügt.
+* Social ist nicht betroffen, solange der Kunde über die neueste Version des Codes verfügt.
 
 ## Adobe Advertising Cloud
 
@@ -44,7 +44,7 @@ In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanb
 * Anzeigen:
 
    * Die Remarketing-Anzeige hängt heute vollständig von der Verwendung von Drittanbieter-Cookies ab.
-   * Die Anzeige ist auch stark von der Verfügbarkeit verschiedener Werbe-Netzwerk-Cookies für die Synchronisierung abhängig.
+   * Die Anzeige ist auch stark von der Verfügbarkeit verschiedener Werbenetzwerk-Cookies für die Synchronisierung abhängig.
    * Die Gesamtauswirkung ist nicht bekannt. Die Anzeige wird jedoch vom ersten Punkt an stärker beeinflusst als andere Dienste.
    * Wir arbeiten intern und mit unseren Werbepartnern zusammen, um die vollständigen Auswirkungen auf das Senden von Werbeanzeigen zu bewerten.
 
