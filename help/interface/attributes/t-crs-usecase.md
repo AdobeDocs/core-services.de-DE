@@ -6,11 +6,11 @@ seo-title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 solution: Experience Cloud
 title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
 >[!IMPORTANT]
 >
->Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigate to **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Customer Attributes* displays as one of the [!UICONTROL Product Profiles], you are ready to begin. Users that are added to the Customer Attributes group will see the [!UICONTROL Customer Attributes] menu on the left side of the Experience Cloud interface.
+>Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eine der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
 >
->Um die Funktion &quot;Kundenattribute&quot;verwenden zu können, müssen Benutzer auch zu Gruppen auf Lösungsebene gehören (Analytics oder [!DNL Target]).
+>Um die Kundenattribut-Funktion verwenden zu können, müssen Benutzer auch zu Gruppen auf Lösungsebene (Analytics oder [!DNL Target]) gehören.
 
-See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+Siehe [Verwalten von Experience Cloud-Benutzern und -produkten](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)
 
 ## Erstellen Sie eine Datendatei. {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -156,7 +156,7 @@ Suchen Sie auf der Seite [!UICONTROL Neue Kunden-Attributquelle erstellen[ oder 
 
 ![Schritt Ergebnis](assets/activate_attribute_source.png)
 
-## Use Customer Attributes in Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
+## Kundenattribute in Adobe Analytics verwenden{#task_7EB0680540CE4B65911B2C779210915D}
 
 Mit den Daten, die jetzt in Lösungen verfügbar sind, wie z. B. in
 <keyword>
@@ -167,13 +167,13 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 ![](assets/08_crs_usecase.png)
 
-Wenn Sie ein Segment in der Experience Cloud veröffentlichen, steht es in Experience Cloud-Audiencen und Audience Manager zur Verfügung.
+Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Audiences und in Audience Manager verfügbar.
 
 Weitere Informationen finden Sie unter [Bericht „Kundenattribute“](https://docs.adobe.com/help/de-DE/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in der Analytics-Hilfe.
 
-## Use Customer Attributes in Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Kundenattribute in Adobe Target verwenden{#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Bereich [!UICONTROL Besucherprofil] ein Kundenattribut auswählen. All Customer Attributes will have the prefix [!DNL crs.] in the list. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
+In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Bereich [!UICONTROL Besucherprofil] ein Kundenattribut auswählen. Alle Kundenattribute enthalten in der Liste das Präfix [!DNL crs.]. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
 
 ![](assets/crs-add-attribute-target.png)
 
