@@ -4,11 +4,11 @@ seo-description: Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Org
 seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Die Funktion für die Report Suite-Zuordnung wird im November 2020 eingestellt. Bitte ordnen Sie herausragende Report Suites in >Vorbereitung darauf zu. Wenden Sie sich bei Fragen an den Kundendienst.
+>Die Funktion für die Report Suite-Zuweisung wird im November 2020 eingestellt. Führen Sie etwaige ausstehende Report Suite-Zuweisungen in Vorbereitung darauf durch. Wenden Sie sich bei Fragen an die Kundenunterstützung.
 
 Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
 
@@ -36,7 +36,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 ## Report Suite einer Organisation zuweisen {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Navigieren Sie zu Report Suites für Datenverwaltung unter [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Datenverwaltung]** (siehe Einstellungen für die Datenverwaltung in der Report Suite [Ansicht/Verwalten](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html)
+1. Navigieren Sie zu Report Suites für Data Governance unter [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** (siehe [Einstellungen für die Data Governance in der Report Suite zeigen/verwalten](https://docs.adobe.com/help/de-DE/analytics/admin/data-governance/gdpr-view-settings.html)).
 
 1. Wenn Sie anzeigen möchten, welche Unternehmensanmeldungen Zugriff auf welche Report Suite haben, klicken Sie auf **[!UICONTROL Sichtbar für Unternehmensanmeldung]**.
 
@@ -76,7 +76,7 @@ Dies deutet darauf hin, dass Sie nicht über ausreichende Berechtigungen verfüg
 
 ![](assets/rs-mapping.png)
 
- In dieser Darstellung zeigt der blaue Schlüssel an, dass der Benutzer über Administratorrechte verfügt. Die grauen Linien geben die Sichtbarkeit an.
+In dieser Darstellung zeigt der blaue Schlüssel an, dass der Benutzer über Administratorrechte verfügt. Die grauen Linien geben die Sichtbarkeit an.
 
 Dieser Benutzer hat Zugriff auf zwei Experience Cloud-Organisationen. Er hat die folgenden Aktionen ausgeführt:
 
