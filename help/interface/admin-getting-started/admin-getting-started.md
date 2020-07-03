@@ -6,11 +6,11 @@ seo-title: Verwalten von Experience Cloud-Benutzern und -produkten
 solution: Experience Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Alternativ können Sie im Experience Cloud-Menü (![](assets/menu-icon.png)) au
 
 [Melden Sie sich an und verwalten Sie Ihre Profileinstellungen](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0), um Kennwörter, Organisationen und Benachrichtigungen zu verwalten.
 
-## Produktprofile und Gruppen  {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## Produktprofile und Gruppen {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 Die Hinzufügung von Produktprofilen stellt eine Veränderung gegenüber der bisherigen Verwaltung von Lösungsprodukten und -diensten (mithilfe von Gruppen) dar. In der Admin Console basieren die Berechtigungen auf Produktprofilen. Dabei handelt es sich um Gruppen mit Produkten und Diensten, die Sie Benutzern zuweisen können.
 
@@ -100,7 +100,7 @@ Siehe:
 
 ## Campaign – Produktprofile, Mandanten und Sicherheitsgruppen {#section_09CDF75366444CF5810CF321B7C712F3}
 
-Ein *Mandant* wird in Campaign auf der Seite „Produkte der Admin-Konsole“ als *Produkt* angezeigt.
+Ein *Mandant* wird in Campaign auf der Seite „Produkte der Admin Console“ als *Produkt* angezeigt.
 
 Die *Sicherheitsgruppe* wird als Produktprofil angezeigt.
 
@@ -114,9 +114,9 @@ Informationen zu Benutzerberechtigungen in der Admin Console und zum Einrichten 
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-Kunden werden in der Adobe Admin Console als IMS-Organisationen repräsentiert. Dieses Portal wird von Adobe-Kunden verwendet, um ihre Produktberechtigungen für ihre Benutzer und Gruppen zu verwalten. AEM-Kunden können die Adobe Admin Console verwenden, um ihre Produktberechtigungen und die IMS-Authentifizierung für AEM als Cloud-Dienst zu verwalten.
+Adobe Enterprise-Kunden werden in der Adobe Admin Console als IMS-Organisationen angezeigt. Dies ist das Portal, das Adobe-Kunden verwenden, um ihre Produktberechtigungen für ihre Benutzer und Gruppen zu verwalten. AEM-Kunden können die Adobe Admin Console verwenden, um ihre Produktberechtigungen und die IMS-Authentifizierung für AEM as a Cloud Service zu verwalten.
 
-See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
+Siehe [IMS-Unterstützung für AEM as a Cloud Service](https://docs.adobe.com/content/help/de-DE/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## Dynamischer Tag-Manager {#section_3A41CF2BD5994B9891537D063571D4ED}
 
