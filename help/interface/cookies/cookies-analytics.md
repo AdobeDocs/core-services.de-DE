@@ -6,9 +6,9 @@ seo-title: Analytics-Cookies
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics-Cookies
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
+workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -66,9 +66,9 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Datums-/Uhrzeitstempel der eindeutigen Besucher-ID. |
+| Gespeicherte Informationen | Datums-/Uhrzeitstempel der eindeutigen Besucher-ID |
 | Ablauf | 2 Jahre |
-| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  |
+| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet |
 | Position | Dieses Cookie wird in der Domäne der Bildanforderung gespeichert. Dabei handelt es sich normalerweise um eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domäne Erstanbieter-Cookies verwendet. |
 | Größe | 44 Byte |
 
@@ -82,7 +82,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 |--- |--- |
 | Gespeicherte Informationen | Fallback-Datums-/Uhrzeitstempel der Unique Visitor-ID |
 | Ablauf | 2 Jahre |
-| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet  wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
+| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domäne gespeichert. |
 | Größe | 33 Byte |
 
@@ -98,7 +98,9 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 | s_cc (Javascript) | Nein | Nein | Löschen |
 | s_sq (Javascript) | Nein | Nein | Löschen |
 
->[!NOTE] Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
+>[!NOTE]
+>
+> Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
 
 ## Von Plug-ins eingestellte Cookies  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
