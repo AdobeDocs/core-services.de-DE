@@ -6,11 +6,11 @@ seo-title: Anmelden und Profileinstellungen verwalten
 solution: Experience Cloud
 title: Anmelden und Verwalten von der Experience Cloud-Profileinstellungen
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '968'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 97%
 
 ---
 
@@ -27,14 +27,11 @@ Durch die Anmeldung bei der Experience Cloud (anstelle der Anmeldung bei einer 
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) befinden.
 
-1. Klicken Sie auf das Experience Cloud-Pulldown-Menü (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**.
+1. Click the Experience Cloud menu ( ![](assets/menu-icon.png)), then click **[!UICONTROL Administration]**.
 
-   ![](assets/admin-link.png)
-
-   Wird die Verknüpfung **[!UICONTROL Administration]** nicht angezeigt, sind Sie kein Experience Cloud-Administrator der angezeigten [Organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (in diesem Beispiel Adobe Corp). Sollten Sie mit der Zuweisung von Administratorrechten Schwierigkeiten haben, wenden Sie sich an die Kundenunterstützung oder einen bereits bestehenden Experience Cloud-Administrator in Ihrem Unternehmen.
+   If the **[!UICONTROL Administration]** link is not shown, you are not an Experience Cloud administrator for the displayed [organization](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Sollten Sie mit der Zuweisung von Administratorrechten Schwierigkeiten haben, wenden Sie sich an die Kundenunterstützung oder einen bereits bestehenden Experience Cloud-Administrator in Ihrem Unternehmen.
 1. Klicken Sie auf **[!UICONTROL Administration]**.
 
-   ![](assets/admin-landing.png)
 1. Klicken Sie auf einen der folgenden Links, um fortzufahren:
 
 | Element | Beschreibung |
