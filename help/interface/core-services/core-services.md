@@ -6,9 +6,9 @@ seo-title: Experience Cloud-Lösungen für Hauptdienste aktivieren
 solution: Experience Cloud
 title: Lösungen für Hauptdienste aktivieren
 index: true
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -84,8 +84,6 @@ In den folgenden Abschnitte wird die Modernisierung Ihrer Implementierung beschr
 Der [!UICONTROL Experience Cloud ID-Dienst] stellt eine allgemeine ID für lösungsübergreifende Integrationen bereit. Er bietet eine domänenübergreifende Besucheridentifikation und einen Pfad für geräte-/browserübergreifendes Targeting und die Personalisierung basierend auf CRM-Daten, die über [!UICONTROL Kundenattribute] hochgeladen wurden.
 
 Die einfachste Methode zur Aktivierung der zentralen Experience Cloud-Dienste besteht darin, diese über die [Experience Cloud ID-Diensterweiterung](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) in [!UICONTROL Experience Platform Launch] oder über das ECID-Tool im [!UICONTROL Dynamic Tag Management] automatisch für Analytics und Adobe Target zu aktivieren. (Experience Platform Launch wird dringend empfohlen.)
-
-![](assets/menu-activation-shell.png)
 
 Die vollständige Hilfe zum Experience Cloud ID-Dienst (früher Besucher-ID) finden Sie [hier](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
 
@@ -187,20 +185,11 @@ Siehe [Verwalten von Experience Cloud-Benutzern und -produkten](../admin-getting
 
 ### Kundenattribute
 
-<!-- <p> 
- <note type="important">
-  To use the Customer Attributes feature, users must belong to the 
-  <span class="term"> Adobe Customer Attributes</span> group, and to solution-level groups (Analytics or Adobe Target). 
- </note> </p> 
- -->
-
 Benutzer, die der Gruppe [!UICONTROL Kundenattribute] hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
 
 ## Schritt 8. Beginnen mit der Verwendung von zentralen Diensten {#section_960C06093623462E8EA247B3E97274A1}
 
 Nutzen Sie die Vorteile folgender Funktionen.
-
-![](assets/menu-audiences-shell.png)
 
 ### [!UICONTROL Personen] > [!UICONTROL Kundenattribute]
 
