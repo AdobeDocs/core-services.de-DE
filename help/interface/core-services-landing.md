@@ -5,11 +5,11 @@ seo-title: Zentrale Experience Cloud-Dienste und Benutzerverwaltung
 solution: Experience Cloud
 title: Über zentrale Experience Cloud-Dienste
 index: true
-translation-type: ht
-source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
-workflow-type: ht
-source-wordcount: '511'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Zu den Adobe Experience Cloud-Diensten zählen [!UICONTROL Personen] (Audiences und Kundenattribute), Angebote, Experience Platform Launch und Mobile Services. Sie können auch auf de Hilfe zur Benutzer- und Produktverwaltung in Experience Cloud zugreifen.
 
-Um auf diese Dienste in der Experience Cloud zuzugreifen, klicken Sie auf das Menü **[!UICONTROL Experience Platform]** ![](assets/menu-icon.png).
+To access these services in the Experience Cloud, click the **[!UICONTROL Application Selector]** ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
