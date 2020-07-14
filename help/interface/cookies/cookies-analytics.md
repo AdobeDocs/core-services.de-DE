@@ -6,9 +6,9 @@ seo-title: Analytics-Cookies
 solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Analytics-Cookies
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert |
 | Größe | 4 Byte |
 
-## Cookie-Name: s_sq  {#section-8abfff3a302d494f81a3cfb91e3b09ff}
+## Cookie-Name: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
 | Attribut | Beschreibung |
 |--- |--- |
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 >
 >Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einem Jahr Inaktivität gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
 
-## Cookie-Name: s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Cookie-Name: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Attribut | Beschreibung |
 |--- |--- |
@@ -93,16 +93,16 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 | Cookie (gesetzt von) | httpOnly | Secure | SameSite |
 |--- |--- |--- |--- |
 | s_vi (http Response) | Nein | Ja, wenn SameSite „Keine“ lautet und die Verbindung HTTPS verwendet | Bei Verwendung von CNAME wird standardmäßig „Lax“ verwendet. „Keine“ bei Verwendung von 2o7.net oder omtrdc.net. |
-| s_ecid (http-Antwort) | Nein | Nein | &quot;Nicht streng&quot; |
+| s_ecid (http-Antwort) | Nein | Nein | „Lax“ |
 | s_fid (Javascript) | Nein | Nein | Löschen |
 | s_cc (Javascript) | Nein | Nein | Löschen |
 | s_sq (Javascript) | Nein | Nein | Löschen |
 
 >[!NOTE]
 >
-> Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
+>Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
 
-## Von Plug-ins eingestellte Cookies  {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Von Plug-ins eingestellte Cookies {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins gesetzt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung in verschiedensten Situationen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Weitere Informationen zu Cookies, die von jedem Plug-in gesetzt werden, erhalten Sie von der Kundenunterstützung. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
 
