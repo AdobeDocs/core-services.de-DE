@@ -4,11 +4,11 @@ seo-description: Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Org
 seo-title: Report Suites einer Organisation zuweisen
 title: Report Suites einer Organisation zuweisen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Die Funktion für die Report Suite-Zuweisung wird im November 2020 eingestellt. Bitte ordnen Sie in Vorbereitung befindliche Report Suites zu. Wenden Sie sich bei Fragen an die Kundenunterstützung.
+>Die Funktion für die Report Suite-Zuweisung wird im November 2020 eingestellt. Führen Sie etwaige ausstehende Report Suite-Zuweisungen in Vorbereitung darauf durch. Wenden Sie sich bei Fragen an die Kundenunterstützung.
 
 Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
 
-Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTROL Personen]) sind einer Organisation und keiner einzelnen Report Suite zugeordnet. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. Der Zuordnungsprozess:
+Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTROL People]) sind einer Organisation und keiner einzelnen Report Suite zugeordnet. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. Der Zuordnungsprozess:
 
 * Legt eine Experience Cloud-Organisation als primäre Organisation für die Report Suite fest.
 * Hat keinen Einfluss darauf, wer auf die Report Suite zugreifen kann (der Zugriff wird nach wie vor über das Adobe Analytics-Anmeldekonto eines jeden Benutzers bestimmt)
