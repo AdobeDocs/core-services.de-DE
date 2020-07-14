@@ -6,9 +6,9 @@ seo-title: Experience Cloud-Lösungen für Hauptdienste aktivieren
 solution: Experience Cloud
 title: Lösungen für Hauptdienste aktivieren
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Die einfachste Methode zur Aktivierung der zentralen Experience Cloud-Dienste be
 
 Die vollständige Hilfe zum Experience Cloud ID-Dienst (früher Besucher-ID) finden Sie [hier](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
 
-**Sie verwenden nicht[!UICONTROL Experience Platform Launch]oder[!UICONTROL Dynamic Tag Management]?**
+**Sie verwenden nicht [!UICONTROL Experience Platform Launch] oder [!UICONTROL Dynamic Tag Management]?**
 
 Wenn Sie [!UICONTROL Experience Platform Launch] oder das [!UICONTROL Dynamic Tag Management] nicht verwenden, implementieren Sie den ID-Dienst über die JavaScript-Bereitstellung ([!DNL VisitorAPI.js]) wie folgt:
 
@@ -124,7 +124,7 @@ Wenden Sie sich an die Kundenunterstützung, um historische Daten zu aktivieren.
 
 ## Schritt 3. Zuweisen von Report Suites zu einer Experience Cloud-Organisation {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTROL Personen-Dienst]) sind einer Experience Cloud-Organisation und keiner einzelnen Analytics Report Suite zugeordnet. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Experience Cloud-Organisation zugeordnet werden.
+Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTROL People-Dienst]) sind einer Experience Cloud-Organisation und keiner einzelnen Analytics Report Suite zugeordnet. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Experience Cloud-Organisation zugeordnet werden.
 
 Weitere Informationen dazu finden Sie unter [Report Suites einer Organisation zuweisen](report-suite-mapping.md).
 
@@ -134,7 +134,7 @@ Vergewissern Sie sich, dass Sie die regionale Datenerfassung (RDC) verwenden. We
 
 Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktualisierung Ihrer JavaScript-Bibliotheken einschließlich der Besucher-API. Am einfachsten erreichen Sie eine solche Modernisierung durch Hinzufügen des Tools [!DNL Adobe Analytics] im Dynamic Tag Management (DTM), das *`Automatic`* als Konfigurationsmethode angibt.
 
-Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **[!UICONTROL <Web Property Name>]**>**[!UICONTROL &#x200B;Übersicht ]**>**[!UICONTROL  Tool hinzufügen ]**>**[!UICONTROL  Adobe Analytics ]**. Informationen zur Bereitstellung finden Sie unter[Adobe Analytics-Einstellungen](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html)im Dynamic Tag Management.
+Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **[!UICONTROL <Web Property Name>]** > **[!UICONTROL &#x200B;Übersicht ]** > **[!UICONTROL  Tool hinzufügen ]** > **[!UICONTROL  Adobe Analytics ]**. Informationen zur Bereitstellung finden Sie unter [Adobe Analytics-Einstellungen](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html) im Dynamic Tag Management.
 
 ## Schritt 5. (Adobe Target) Aktualisieren der Adobe Target-Implementierung {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
@@ -205,9 +205,9 @@ Weitere Informationen finden Sie unter [Zielgruppen](../audience-library/audienc
 
 ## Datenspeicherung und Datenschutz
 
-Wenn Sie Echtzeit-Zielgruppenprofile und andere Hauptdienste in der Adobe [!DNL Experience Cloud] nutzen, hat die Verwendung dieser Dienste Auswirkungen darauf, in welchem Datenzentrum (und Land) sich Ihre Daten befinden. Da die zentralen Dienste der Adobe [!DNL Experience Cloud] Adobe Audience Manager nutzen, müssen sich im [!UICONTROL Personen]-Dienst verwendete Daten auf Audience Manager-Servern in den USA befinden.
+Wenn Sie Echtzeit-Zielgruppenprofile und andere Hauptdienste in der Adobe [!DNL Experience Cloud] nutzen, hat die Verwendung dieser Dienste Auswirkungen darauf, in welchem Datenzentrum (und Land) sich Ihre Daten befinden. Da die zentralen Dienste der Adobe [!DNL Experience Cloud] Adobe Audience Manager nutzen, müssen sich im [!UICONTROL People]-Dienst verwendete Daten auf Audience Manager-Servern in den USA befinden.
 
-Wenn Sie zentrale Dienste nutzen, die über den [!UICONTROL Personen]-Dienst zur Verfügung gestellt werden, lauten von anderen Adobe-Produkten an das Zielgruppen-Management gesendeten Datentypen wie folgt:
+Wenn Sie zentrale Dienste nutzen, die über den [!UICONTROL People]-Dienst zur Verfügung gestellt werden, lauten von anderen Adobe-Produkten an das Zielgruppen-Management gesendeten Datentypen wie folgt:
 
 * Schlüssel-/Werte-Paare aus [!DNL Analytics] (Eigenschaften, eVars, Listenvariablen usw.). Standardmäßig enthalten die Protokollzeilen die IP-Adresse, inklusive des letzten Oktetts der IP (vorausgesetzt, die IP-Adresse wurde nicht durch Einstellungen zur IP-Verschleierung innerhalb von Adobe [!DNL Analytics] verändert).
 * Eigenschaften und Segmente, für die sich Besucher auf der Grundlage der in Audience Manager festgelegten Regeln qualifizieren.
