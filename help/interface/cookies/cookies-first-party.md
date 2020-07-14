@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Erstanbieter-Cookies
 index: y
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1464'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Mit Ihrer Einwilligung übernehmen wir gemeinsam mit unserer CA die Erstellung, 
 
 Das Adobe Managed Certificate Program (Adobe-Programm für verwaltete Zertifikate) ist das empfohlene Verfahren zur Implementierung eines neuen Erstanbieter-SSL-Zertifikats für Erstanbieter-Cookies.
 
-Mit dem Adobe Managed Certificate-Programm können Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Cookies ohne zusätzliche Kosten implementieren (für Ihre ersten 100 CNAMEs). Wenn Sie derzeit Ihr eigenes kundenverwaltetes SSL-Zertifikat haben, sprechen Sie mit der Adobe-Kundenunterstützung über den Umstieg zum Adobe Managed Certificate Program.
+Mit diesem Programm können Sie ohne zusätzliche Kosten ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Cookies implementieren (für Ihre ersten 100 CNAMEs). Wenn Sie derzeit Ihr eigenes kundenverwaltetes SSL-Zertifikat haben, sprechen Sie mit der Adobe-Kundenunterstützung über den Umstieg zum Adobe Managed Certificate Program.
 
 ### Implementierung
 
@@ -72,7 +72,7 @@ SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zert
 | Frage | Antwort |
 |---|---|
 | **Ist dieser Prozess sicher?** | Ja, das Adobe Managed-Programm ist sicherer als unsere frühere Methode, da weder Zertifikate noch private Schlüssel außerhalb von Adobe und der Zertifizierungsstelle ausgetauscht werden. |
-| **Wie kann Adobe ein Zertifikat für unsere Domäne erwerben?** | The certificate can only be purchased when you have pointed the specified hostname (for example, `smetrics.example.com`) to an Adobe owned hostname. Dadurch wird dieser Hostname an Adobe übertragen und Adobe kann das Zertifikat in Ihrem Namen erwerben. |
+| **Wie kann Adobe ein Zertifikat für unsere Domäne erwerben?** | Das Zertifikat kann nur gekauft werden, wenn Sie mit dem jeweiligen Hostnamen (z. B. `smetrics.example.com`) auf Hostnamen von Adobe verweisen. Dadurch wird dieser Hostname an Adobe übertragen und Adobe kann das Zertifikat in Ihrem Namen erwerben. |
 | **Kann ich verlangen, dass das Zertifikat entzogen wird?** | Ja, als Eigentümer der Domäne können Sie verlangen, dass uns das Zertifikat entzogen wird. Sie müssen dazu nur ein Ticket bei der Kundenunterstützung erstellen. |
 | **Verwendet dieses Zertifikat SHA-2-Verschlüsselung?** | Ja, Adobe gibt in Zusammenarbeit mit DigiCert ein SHA-2-Zertifikat heraus. |
 | **Verursacht dies Mehrkosten?** | Nein, Adobe stellt diesen Dienst allen aktuellen Adobe Digital Experience-Kunden kostenlos zur Verfügung. |
@@ -83,10 +83,10 @@ Das Netzwerkteam Ihres Unternehmens sollte Ihre DNS-Server konfigurieren, indem 
 
 Der FPC-Spezialist stellt Ihnen die konfigurierten Hostnamen bereit und gibt an, auf welche CNAMEs sie verweisen sollen. Beispiel:
 
-* **SSL-Hostname**:`smetrics.mysite.com`
-* **SSL-CNAME**:`mysite.com.ssl.sc.omtrdc.net`
-* **Nicht-SSL-Hostname**:`metrics.mysite.com`
-* **Nicht-SSL-CNAME**:`mysite.com.sc.omtrdc.net`
+* **SSL-Hostname**: `smetrics.mysite.com`
+* **SSL-CNAME**: `mysite.com.ssl.sc.omtrdc.net`
+* **Nicht-SSL-Hostname**: `metrics.mysite.com`
+* **Nicht-SSL-CNAME**: `mysite.com.sc.omtrdc.net`
 
 Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schritt nicht die Datensammlung und kann zu einem beliebigen Zeitpunkt nach der Aktualisierung des Implementierungscodes vorgenommen werden.
 
@@ -153,12 +153,12 @@ Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, 
 Nachdem Sie geprüft haben, dass Ihr(e) Hostname(n) reagieren und die Weiterleitung an die Adobe-Datensammlungsserver funktioniert, können Sie Ihre Implementierung ändern, damit diese zu Ihren eigenen Cookie-Domains weist.
 
 1. Öffnen Sie Ihre JavaScript-Kerndatei (`s_code.js/AppMeasurement.js`).
-1. Wenn Sie Ihre Codeversion aktualisieren möchten, ersetzen Sie die gesamte `s_code.js/AppMeasurement.js`-Datei mit der neueren Version und ersetzen Sie alle Plugins oder Einstellungen (falls vorhanden). **Oder** wenn Sie den Code aktualisieren möchten, der nur für Erstanbieter-Cookies gilt, suchen Sie die Variablen s.trackingServer und s.trackingServerSecure (falls SSL verwendet wird) und verweisen Sie sie auf Ihre neuen Datenerfassungs-Hostnamen. Verwenden von mysite.com als Beispiel:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Wenn Sie Ihre Codeversion aktualisieren möchten, ersetzen Sie die gesamte `s_code.js/AppMeasurement.js`-Datei mit der neueren Version und ersetzen Sie alle Plugins oder Einstellungen (falls vorhanden). **Oder** wenn Sie den Code aktualisieren möchten, der nur für Erstanbieter-Cookies gilt, suchen Sie die Variablen s.trackingServer und s.trackingServerSecure (falls SSL verwendet wird) und verweisen Sie sie auf Ihre neuen Datenerfassungs-Hostnamen. Verwenden von mysite.com als Beispiel: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Laden Sie die aktualisierte JavaScript-Kerndatei auf Ihre Site.
 
 1. Wenn Sie von einer älteren Implementierung zu Erstanbieter-Cookies wechseln oder zu einem anderen Hostnamen der Erstanbieter-Datensammlung wechseln, empfehlen wir, Besucher aus der vorherigen Domäne in die neue Domäne zu migrieren.
 
-Siehe [Besuchermigration](https://docs.adobe.com/content/help/de-DE/analytics/technotes/visitor-identification.html) im Analytics-Implementierungshandbuch.
+Siehe [Besuchermigration](https://docs.adobe.com/content/help/de-DE/analytics/components/metrics/unique-visitors.html) im Analytics-Implementierungshandbuch.
 
 Nachdem Sie die JavaScript-Datei hochgeladen haben, ist die Konfiguration für die Erstanbieter-Cookie-Datensammlung abgeschlossen. Es wird empfohlen, Analytics-Berichte in den nächsten Stunden zu überwachen, um sicherzustellen, dass die Datenerfassung wie üblich erfolgt. Ist dies nicht der Fall, stellen Sie sicher, dass alle oben genannten Schritte ausgeführt wurden und veranlassen Sie, dass ein unterstützter Mitarbeiter Ihrer Organisation die Kundenunterstützung kontaktiert.
