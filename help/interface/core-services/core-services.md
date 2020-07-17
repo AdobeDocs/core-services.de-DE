@@ -2,31 +2,33 @@
 description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Zielgruppen.
 keywords: core services;Customer Attributes
 seo-description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Zielgruppen.
-seo-title: Experience Cloud-Lösungen für Hauptdienste aktivieren
+seo-title: Experience Cloud-Lösungen für Kundenattribute und -Audiencen aktivieren
 solution: Experience Cloud
 title: Lösungen für Hauptdienste aktivieren
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 100%
+source-wordcount: '2402'
+ht-degree: 96%
 
 ---
 
 
-# Lösungen für Hauptdienste aktivieren
+# Implementierung für lösungsübergreifende Dienste aktivieren
 
-Lernen Sie, wie Sie für Bestandskunden Ihre Lösungsimplementierungen modernisieren und die Experience Cloud implementieren, damit Sie Funktionen wie Kundenattribute und Zielgruppen verwenden können. Dazu werden Sie:
+Wenn Sie kürzlich Experience Cloud mit Experience Platform Launch implementiert haben, sind Sie bereits für Kundenattribute und Experience Cloud-Audiencen eingerichtet. Sie können auch Benutzer und Produkte in der Admin Console verwalten.
+
+Bei Bestandskunden müssen Sie eventuell Ihre Lösungsimplementierungen modernisieren und das Experience Cloud implementieren. Auf diese Weise können Sie Kundenattribute und Funktionen zur Audience in Adobe Analytics, Audience Manager und Adobe Target nutzen. Dazu werden Sie:
 
 1. [Experience Cloud beitreten und Administrator werden](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Den Experience Cloud ID-Dienst implementieren](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Report Suites einer Experience Cloud-Organisation zuweisen](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Den Analytics-AppMeasurement-Code aktualisieren](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Die Implementierung der Adobe Target aktualisieren](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Überprüfung der Implementierung der Hauptdienste](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [Überprüfen der Implementierung](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Benutzer und Produkte verwalten](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [Mit der Verwendung von Hauptdiensten beginnen](#section_960C06093623462E8EA247B3E97274A1)
+1. [Beginn der Freigabe von Attribut- und Audiencen-Daten](#section_960C06093623462E8EA247B3E97274A1)
 
 ## Schritt 1. Experience Cloud beitreten und Administrator werden {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -187,7 +189,7 @@ Siehe [Verwalten von Experience Cloud-Benutzern und -produkten](../admin-getting
 
 Benutzer, die der Gruppe [!UICONTROL Kundenattribute] hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
 
-## Schritt 8. Beginnen mit der Verwendung von zentralen Diensten {#section_960C06093623462E8EA247B3E97274A1}
+## Schritt 8. Freigabe von Attribut- und Audiencen-Daten beginnen {#section_960C06093623462E8EA247B3E97274A1}
 
 Nutzen Sie die Vorteile folgender Funktionen.
 
