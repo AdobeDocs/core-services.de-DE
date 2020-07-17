@@ -5,10 +5,10 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 98%
 # Experience Cloud interface help {#interface}
 
 + [Experience Cloud und Produktdokumentation](experience-cloud.md)
-+ Zentrale Dienste in Experience Cloud {#about-core-services}
-   + [Übersicht über die Hauptdienste](core-services-landing.md)
-   + [Lösungen für Hauptdienste aktivieren](core-services/core-services.md)
++ Application services in Experience Cloud {#about-core-services}
+   + [Übersicht über Anwendungsdienste](core-services-landing.md)
+   + [Implementierung für lösungsübergreifende Dienste aktivieren](core-services/core-services.md)
    + [Report Suites einer Organisation zuweisen](core-services/report-suite-mapping.md)
    + [Über die neuen Cloud-Namen der Experience Cloud](solutions-core-services.md)
 + [Experience Cloud-Integrationen](marketing-cloud-integrations.md)
