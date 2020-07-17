@@ -6,10 +6,10 @@ seo-title: Experience Cloud-Lösungen für Hauptdienste aktivieren
 solution: Experience Cloud
 title: Lösungen für Hauptdienste aktivieren
 index: true
-translation-type: ht
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
-workflow-type: ht
-source-wordcount: '2358'
+translation-type: tm+mt
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+workflow-type: tm+mt
+source-wordcount: '2356'
 ht-degree: 100%
 
 ---
@@ -146,7 +146,7 @@ Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **[!UICONTROL <Web Pro
    >
    >Alle Analytics-Kunden sind bereits für zentrale Dienste wie Kundenattribute freigeschaltet. Wenn Sie kein Analytics-Kunde sind, wenden Sie sich an die Kundenunterstützung, um eine Freischaltung anzufordern.
 
-## Schritt 6. Überprüfung der Implementierung der Hauptdienste {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## Schritt 6. Überprüfen der Implementierung {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 Verwenden Sie den folgenden Prozess, um sicherzustellen, dass der Experience Cloud ID-Dienst auf Ihrer Site korrekt implementiert ist.
 
