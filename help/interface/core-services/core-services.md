@@ -2,24 +2,24 @@
 description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Zielgruppen.
 keywords: core services;Customer Attributes
 seo-description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Zielgruppen.
-seo-title: Experience Cloud-Lösungen für Kundenattribute und -Audiencen aktivieren
+seo-title: Experience Cloud-Lösungen für Kundenattribute und Audiences aktivieren
 solution: Experience Cloud
-title: Lösungen für Hauptdienste aktivieren
+title: Lösungen für zentrale Dienste aktivieren
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2402'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 
 # Implementierung für lösungsübergreifende Dienste aktivieren
 
-Wenn Sie kürzlich Experience Cloud mit Experience Platform Launch implementiert haben, sind Sie bereits für Kundenattribute und Experience Cloud-Audiencen eingerichtet. Sie können auch Benutzer und Produkte in der Admin Console verwalten.
+Wenn Sie kürzlich Experience Cloud mit Experience Platform Launch implementiert haben, sind Sie bereits für Kundenattribute und Experience Cloud-Audiences eingerichtet. Sie können auch Benutzer und Produkte in der Admin Console verwalten.
 
-Bei Bestandskunden müssen Sie eventuell Ihre Lösungsimplementierungen modernisieren und das Experience Cloud implementieren. Auf diese Weise können Sie Kundenattribute und Funktionen zur Audience in Adobe Analytics, Audience Manager und Adobe Target nutzen. Dazu werden Sie:
+Für bestehende Kunden müssen Sie möglicherweise Ihre Lösungsimplementierungen modernisieren und Experience Cloud implementieren. Auf diese Weise können Sie Kundenattribute und Audience-Funktionen in Adobe Analytics, Audience Manager und Adobe Target nutzen. Dazu werden Sie:
 
 1. [Experience Cloud beitreten und Administrator werden](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Den Experience Cloud ID-Dienst implementieren](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -28,7 +28,7 @@ Bei Bestandskunden müssen Sie eventuell Ihre Lösungsimplementierungen modernis
 1. [Die Implementierung der Adobe Target aktualisieren](#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Überprüfen der Implementierung](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Benutzer und Produkte verwalten](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [Beginn der Freigabe von Attribut- und Audiencen-Daten](#section_960C06093623462E8EA247B3E97274A1)
+1. [Freigabe von Attributen und Zielgruppendaten beginnen](#section_960C06093623462E8EA247B3E97274A1)
 
 ## Schritt 1. Experience Cloud beitreten und Administrator werden {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -41,7 +41,7 @@ Möchten Sie Experience Cloud-Mitglied werden, benötigen Sie Folgendes:
 
 >[!NOTE]
 >
->Migrieren Sie für [!DNL Target]beispielsweise von [!DNL mbox.js] zu „at.js“. Siehe [Aktualisieren von at.js 1.x auf at.js 2.x](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+>Migrieren Sie für [!DNL Target] beispielsweise von [!DNL mbox.js] zu „at.js“. Siehe [Aktualisieren von at.js 1.x auf at.js 2.x](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
 ![](assets/step2_icon.png) Modernisieren Sie Ihre Implementierung und lassen Sie sich einen Administrator bereitstellen.
 
@@ -91,7 +91,7 @@ Die vollständige Hilfe zum Experience Cloud ID-Dienst (früher Besucher-ID) fin
 
 **Sie verwenden nicht [!UICONTROL Experience Platform Launch] oder [!UICONTROL Dynamic Tag Management]?**
 
-Wenn Sie [!UICONTROL Experience Platform Launch] oder das [!UICONTROL Dynamic Tag Management] nicht verwenden, implementieren Sie den ID-Dienst über die JavaScript-Bereitstellung ([!DNL VisitorAPI.js]) wie folgt:
+Wenn Sie [!UICONTROL Experience Platform Launch] oder das [!UICONTROL Dynamic Tag Management] nicht verwenden, implementieren Sie den ID-Dienst über die JavaScript-Implementierung ([!DNL VisitorAPI.js]) wie folgt:
 
 | Aufgabe | Beschreibung |
 | -----------| ---------- |  
@@ -136,7 +136,7 @@ Vergewissern Sie sich, dass Sie die regionale Datenerfassung (RDC) verwenden. We
 
 Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktualisierung Ihrer JavaScript-Bibliotheken einschließlich der Besucher-API. Am einfachsten erreichen Sie eine solche Modernisierung durch Hinzufügen des Tools [!DNL Adobe Analytics] im Dynamic Tag Management (DTM), das *`Automatic`* als Konfigurationsmethode angibt.
 
-Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **[!UICONTROL <Web Property Name>]** > **[!UICONTROL &#x200B;Übersicht ]** > **[!UICONTROL  Tool hinzufügen ]** > **[!UICONTROL  Adobe Analytics ]**. Informationen zur Bereitstellung finden Sie unter [Adobe Analytics-Einstellungen](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html) im Dynamic Tag Management.
+Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **[!UICONTROL <Web Property Name>]** > **[!UICONTROL &#x200B;Übersicht ]** > **[!UICONTROL  Tool hinzufügen ]** > **[!UICONTROL  Adobe Analytics ]**. Informationen zur Implementierung finden Sie unter [Adobe Analytics-Einstellungen](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html) im Dynamic Tag Management.
 
 ## Schritt 5. (Adobe Target) Aktualisieren der Adobe Target-Implementierung {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
@@ -189,7 +189,7 @@ Siehe [Verwalten von Experience Cloud-Benutzern und -produkten](../admin-getting
 
 Benutzer, die der Gruppe [!UICONTROL Kundenattribute] hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
 
-## Schritt 8. Freigabe von Attribut- und Audiencen-Daten beginnen {#section_960C06093623462E8EA247B3E97274A1}
+## Schritt 8. Freigabe von Attributen und Zielgruppendaten beginnen {#section_960C06093623462E8EA247B3E97274A1}
 
 Nutzen Sie die Vorteile folgender Funktionen.
 
