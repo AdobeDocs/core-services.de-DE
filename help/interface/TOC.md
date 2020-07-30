@@ -4,20 +4,20 @@ user-guide-title: Benutzerhandbuch zur Experience Cloud-Oberfläche
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Experience Cloud interface help {#interface}
+# Hilfe zur Experience Cloud-Oberfläche {#interface}
 
 + [Experience Cloud und Produktdokumentation](experience-cloud.md)
-+ Application services in Experience Cloud {#about-core-services}
-   + [Übersicht über Anwendungsdienste](core-services-landing.md)
++ Anwendungsdienste in Experience Cloud {#about-core-services}
+   + [Übersicht über die Anwendungsdienste](core-services-landing.md)
    + [Implementierung für lösungsübergreifende Dienste aktivieren](core-services/core-services.md)
    + [Report Suites einer Organisation zuweisen](core-services/report-suite-mapping.md)
    + [Über die neuen Cloud-Namen der Experience Cloud](solutions-core-services.md)
