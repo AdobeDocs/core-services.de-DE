@@ -6,11 +6,11 @@ seo-title: Hilfe und Produktdokumentation zu Adobe Experience Cloud und den zent
 solution: Adobe Experience Cloud
 title: Hilfe für Experience Cloud und Hauptdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ Die Experience Cloud ist die integrierte Adobe-Familie mit Digital Marketing-Lö
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Diese Seite bietet Zugriff auf die Produktdokumentation für die folgenden Funktionen und Dienste:
+Auf dieser Seite können Sie auf die Produktdokumentation für die folgenden Funktionen und Dienste zugreifen:
 
-* [Audience-Bibliothek](audience-library/audience-library.md)
+* [Zielgruppenbibliothek](audience-library/audience-library.md)
 * [Kundenattribute](attributes/attributes.md)
 * [Triggers](activation/triggers.md)
 * [Experience Cloud-Assets](experience-cloud-assets/experience-cloud-assets.md)
@@ -32,7 +32,7 @@ Diese Seite bietet Zugriff auf die Produktdokumentation für die folgenden Funkt
 ## Benutzer- und Produktverwaltung
 
 * [Benutzer- und Produktverwaltung](admin-getting-started/admin-getting-started.md) (Admin Console)
-* [Lösungen für Hauptdienste aktivieren](core-services/core-services.md)
+* [Lösungen für zentrale Dienste aktivieren](core-services/core-services.md)
 * [Häufig gestellte Fragen](admin-getting-started/admin-getting-started.md)
 * [Organisationen und Kontoverknüpfung](admin-getting-started/organizations.md)
 * [Integrationen](marketing-cloud-integrations.md)
@@ -41,7 +41,7 @@ Diese Seite bietet Zugriff auf die Produktdokumentation für die folgenden Funkt
 * [Profilverwaltung in Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (Blog)
 * [DNS-Vorabruf](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Verwandte Experience Clouden - Hilfe
+## Verwandte Hilfe für Experience Cloud
 
 * [Produktdokumentation für alle Experience Cloud-Lösungen](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.html) – Hilfe finden Sie unter „Experience Cloud – Lernen und Support“
 * [Versionshinweise und Produktupdates](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
