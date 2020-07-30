@@ -2,15 +2,15 @@
 description: Fragen, die Administratoren der Experience Cloud häufig stellen, und Antworten darauf.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
 seo-description: Fragen, die Administratoren der Experience Cloud häufig stellen, und Antworten darauf.
-seo-title: Häufig gestellte Fragen zu Experience Cloud-Hauptdiensten
+seo-title: Häufig gestellte Fragen zu den zentralen Experience Cloud-Diensten.
 solution: Adobe Experience Cloud
 title: Häufig gestellte Fragen
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '731'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Fragen, die Administratoren der Experience Cloud häufig stellen, und Antworten
 
 ## Wie finde ich heraus, ob für meine Lösungen Hauptdienste aktiviert sind?
 
-Wenn Ihre Implementierung nicht für Hauptdienste bereitgestellt wurde, lesen Sie die den Abschnitt [Lösungen für Hauptdienste aktivieren](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in dem Folgendes beschrieben wird:
+Wenn Ihre Implementierung nicht für zentrale Dienste bereitgestellt wurde, lesen Sie die den Abschnitt [Lösungen für zentrale Dienste aktivieren](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in dem Folgendes beschrieben wird:
 
 1. [Experience Cloud beitreten und Administrator werden](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementieren Sie den Experience Cloud ID-Dienst mit Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html).
