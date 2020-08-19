@@ -6,11 +6,11 @@ seo-title: Experience Cloud-Integrationen
 solution: Experience Cloud
 title: Experience Cloud-Integrationen
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: ht
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
-workflow-type: ht
-source-wordcount: '1521'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '1523'
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ Hilfe: [Erste Schritte](https://docs.adobelaunch.com/getting-started)
 
 Verwenden Sie die Activation-Lösungen der Experience Cloud, um Ihre Experience Cloud-Lösungen einzurichten und zu debuggen.
 
-1. Verwenden Sie [Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) oder [Dynamic Tag Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html), um Code einzufügen, mit dessen Hilfe [Adobe Experience Cloud-Lösungen](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) auf Ihren Seiten aktiviert werden.
+1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
 1. Testen Sie Ihre Implementierungen mithilfe von [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/de-DE/auditor/using/overview.html).
 
 Mit der Erweiterung „Adobe Experience Cloud Debugger“ können Sie von Auditor gefundene Probleme beheben oder andere Informationen über Ihre Implementierungen überprüfen.
