@@ -6,11 +6,11 @@ seo-title: Gesammelte Versionshinweise
 solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-translation-type: ht
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
-workflow-type: ht
-source-wordcount: '3929'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
+workflow-type: tm+mt
+source-wordcount: '3968'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,12 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience 
 
 Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
 
+## August - 2020
+
+| Funktion | Beschreibung |
+| -----------| ---------- |
+| Admin-Tool - Richtlinien | Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtlinien in Ihrem Unternehmen. Es enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Liste suchen, sortieren und filtern. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](../admin-getting-started/admin-tool-experience-cloud.md). |
+
 ## April 2020
 
 * Die Seite „Experience Cloud- [!UICONTROL Feed]“ wurde entfernt. (EXC-8505)
@@ -32,7 +38,7 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](https://docs.adobe.com/content/help/de-DE/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html). |
+| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](../admin-getting-started/admin-tool-experience-cloud.md). |
 
 **Fehlerbehebungen**
 
