@@ -6,9 +6,9 @@ seo-title: Verwalten von Experience Cloud-Benutzern und -produkten
 solution: Experience Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 index: true
-translation-type: ht
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -94,6 +94,7 @@ Nach der Migration müssen sich Benutzer mithilfe ihrer Adobe ID (oder Enterpris
 In Adobe Target ist ein Arbeitsbereich ein Produktprofil. Er ermöglicht einer Organisation das Zuweisen bestimmter Benutzergruppen zu bestimmten Eigenschaftsgruppen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in Adobe Analytics.
 
 Siehe:
+
 * [Berechtigungen für Unternehmensbenutzer](https://docs.adobe.com/content/help/de-DE/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products-and-profiles.html)
 * Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in der Adobe Admin Console](https://helpx.adobe.com/de/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
