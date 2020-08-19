@@ -4,11 +4,11 @@ user-guide-title: Benutzerhandbuch zur Experience Cloud-Oberfläche
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
    + [Übersicht über Activation](activation/activation.md)
-   + [Launch-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html)
+   + [Benutzerhandbuch für Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html)
    + [Benutzerhandbuch zum dynamischen Tag-Manager](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud-Assets {#assets}
