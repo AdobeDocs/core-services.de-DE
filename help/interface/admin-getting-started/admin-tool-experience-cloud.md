@@ -7,23 +7,27 @@ solution: Experience Cloud
 title: 'Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails '
 index: true
 translation-type: tm+mt
-source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
 
 # Ansicht Experience Cloud-Benutzer und -Richtlinien im Admin Tool
 
-Administratoren können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details im Admin Tool Ansicht. Zu den Benutzerdetails zählen der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Profil) sowie detaillierte Informationen zu Berechtigungen und Ressourcen für die Richtlinie. (**Hinweis:** Benutzer- und Produktverwaltung werden in der [Admin Console](admin-getting-started.md) konfiguriert.)
+Administratoren können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details im Admin Tool Ansicht. Zu den Benutzerdetails zählen der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Profil) sowie detaillierte Informationen zu Berechtigungen und Ressourcen für die Richtlinie.
+
+>[!NOTE]
+>
+>User and product management is configured in the [Admin Console](admin-getting-started.md).
 
 1. Bei anmelden.`https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. Klicken Sie auf der Experience Cloud-Startseite auf **[!UICONTROL Admin Tool.]**
+1. Klicken Sie unter [!UICONTROL Schnellzugriff]auf **[!UICONTROL Admin Tool.]**
 
    (Alternativ können Sie in der Startseiten-URL _home_ durch _admin_ ersetzen.)
 
@@ -65,7 +69,7 @@ Klicken Sie auf der Seite [!UICONTROL Benutzer] auf die E-Mail-Adresse des Benut
 
 Eine detaillierte Ansicht der einzelnen Benutzer enthält wichtige Einzelheiten zum Lösungszugriff, zu den Admin- und Produktrollen sowie zu den zuletzt aufgerufenen Informationen.
 
-## Abschnitt „Info“
+## Info zu Abschnitt
 
 In diesem Abschnitt wird eine Zusammenfassung des Benutzerkontos angezeigt, einschließlich Folgendem:
 
@@ -97,6 +101,8 @@ In diesem Abschnitt wird eine vollständige Liste aller Produktprofilmitgliedsch
 
 Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtlinien in Ihrem Unternehmen. Es enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Liste suchen, sortieren und filtern.
 
+![](assets/admin-tool-policies.png)
+
 | Element | Beschreibung |
 |---|---|
 | [!UICONTROL Produktprofil] | Der Name des Profils. Die Spalte kann sortiert werden: A->Z, Z->A. Klicken Sie auf den Profil eines Produkts, um weitere Details zur Richtlinie anzuzeigen. |
@@ -122,7 +128,14 @@ Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinien-Liste
 
 Klicken Sie auf der Seite &quot; [!UICONTROL Richtlinien] &quot;auf den Produktnamen, um die Details einer Richtlinie Ansicht.
 
-Eine detaillierte Ansicht der einzelnen Profil zeigt wichtige Details zu den Themen des Profils (Benutzer, Gruppen usw.) sowie Berechtigungen und Ressourcen an, die vom Profil des Produkts aktiviert wurden.  Details des Profils können in CSV-Dateien exportiert werden.  Die Option &quot;CSV  exportieren&quot;erzeugt 2 CSV-Dateien: Themendetails (Benutzer, Benutzergruppen, Entwickler, Integrationen, Administratoren) und Elemente zu Berechtigungen und Ressourcen.
+![](assets/admin-tool-policy-detail.png)
+
+Eine detaillierte Ansicht der einzelnen Profil zeigt wichtige Details zu den Themen des Profils (Benutzer, Gruppen usw.) an. Außerdem werden Berechtigungen und Ressourcen angezeigt, die vom Profil des Produkts aktiviert wurden.
+
+Details des Profils können in CSV-Dateien exportiert werden. Bei der Option &quot;CSV  exportieren&quot;werden zwei CSV-Dateien erzeugt:
+
+* Themendetails (Benutzer, Benutzergruppen, Entwickler, Integrationen, Administratoren)
+* Elemente zu Berechtigungen und Ressourcen
 
 ## Übersichtsabschnitt
 
@@ -135,8 +148,7 @@ In diesem Abschnitt wird eine Zusammenfassung des Profils des Produkts angezeigt
 * Zugehörige Produkte
 * Instanz
 
-
-## Detaillierte Betreff-Liste
+## Detaillierte Liste
 
 Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergruppen, Entwickler, Integrationen und Administratoren, die dem Profil zugewiesen sind.
 
@@ -150,5 +162,4 @@ Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergrupp
 
 ## Detaillierte Listen zu Berechtigungen und Ressourcen
 
-Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Profil verfügbar sind. Berechtigungen und Ressourcen, die im Profil des Produkts enthalten sind, wurden mit einem ✔ gekennzeichnet.  Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten kategorisiert.  Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
-
+Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Profil verfügbar sind. Berechtigungen und Ressourcen, die im Profil des Produkts enthalten sind, wurden mit einem ✔ gekennzeichnet. Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten kategorisiert. Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
