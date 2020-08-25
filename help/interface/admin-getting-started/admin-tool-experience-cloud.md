@@ -1,7 +1,7 @@
 ---
-description: Erfahren Sie mehr über das Experience Cloud Admin Tool, um eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien Ansicht.
+description: Lernen Sie das Experience Cloud Admin-Tool kennen, um eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien anzuzeigen.
 keywords: core services
-seo-description: Erfahren Sie mehr über das Experience Cloud Admin Tool, um eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien Ansicht.
+seo-description: Lernen Sie das Experience Cloud Admin-Tool kennen, um eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien anzuzeigen.
 seo-title: Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails
 solution: Experience Cloud
 title: 'Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails '
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
 workflow-type: tm+mt
 source-wordcount: '1271'
-ht-degree: 52%
+ht-degree: 93%
 
 ---
 
 
-# Ansicht Experience Cloud-Benutzer und -Richtlinien im Admin Tool
+# Anzeigen von Experience Cloud-Benutzern und -Richtlinien im Admin-Tool
 
-Administratoren können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details im Admin Tool Ansicht. Zu den Benutzerdetails zählen der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Profil) sowie detaillierte Informationen zu Berechtigungen und Ressourcen für die Richtlinie.
+Administratoren können im Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Produktprofil) sowie detaillierte Informationen zu Berechtigungen und Ressourcen für die Richtlinie.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Sie können die Spalten suchen, sortieren oder filtern, um die Benutzerliste anz
 
 * Suchen Sie Benutzer nach Name oder E-Mail-Adresse. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
 * Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für die Spalten [!UICONTROL Name], [!UICONTROL E-Mail] und [!UICONTROL Letzte Anmeldung].
-* Klicken Sie auf das Symbol **[!UICONTROL Filtern nach]**, um mehrere Filter anzuwenden und Benutzer mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge die E-Mail-Domäne `AND`ID-Typ `AND` Lösung.
+* Klicken Sie auf das Symbol **[!UICONTROL Filtern nach]**, um mehrere Filter anzuwenden und Benutzer mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge die E-Mail-Domäne `AND` ID-Typ `AND` Lösung.
 
 | Element | Beschreibung |
 |---------|----------|
@@ -97,51 +97,51 @@ In diesem Abschnitt wird eine vollständige Liste aller Produktprofilmitgliedsch
 | [!UICONTROL Nach Gruppe zugewiesen] | Name der Benutzergruppe, die den Benutzer mit einem Produktprofil verknüpft. Leere Ergebnisse geben an, dass der Benutzer dem Produktprofil direkt und nicht über eine Gruppe zugewiesen wurde. |
 | [!UICONTROL Produktrollen] | Rollenzuweisung des Benutzers im Produktprofil. Diese Informationen gelten derzeit nur für Adobe Target-Produktprofile. |
 
-## Seite &quot;Richtlinien&quot;
+## Seite „Richtlinien“
 
-Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtlinien in Ihrem Unternehmen. Es enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Liste suchen, sortieren und filtern.
+Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtlinien in Ihrem Unternehmen. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern.
 
 ![](assets/admin-tool-policies.png)
 
 | Element | Beschreibung |
 |---|---|
-| [!UICONTROL Produktprofil] | Der Name des Profils. Die Spalte kann sortiert werden: A->Z, Z->A. Klicken Sie auf den Profil eines Produkts, um weitere Details zur Richtlinie anzuzeigen. |
-| [!UICONTROL Produkt] | Das Produkt, das mit dem Profil verknüpft ist. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
-| [!UICONTROL Instanz] | Die Instanz (z. B. Mieter- oder Anmelde-Firma), die mit dem Profil des Produkts verknüpft ist. Produkte ohne eindeutige Instanzen oder Mandanten zeigen ein &quot;-&quot;für den Wert an. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
-| [!UICONTROL Anzahl der Benutzer] | Eindeutige Anzahl der mit dem Profil verknüpften Benutzer, einschließlich direkter Zuweisung und Gruppenzuweisung. Die Spalte kann vom kleinsten bis zum größten oder vom größten bis zum kleinsten sortiert werden. |
-| [!UICONTROL Anzahl Entwickler] | Anzahl der mit dem Produkt-Profil verbundenen Entwicklerrollen. Die Spalte kann vom kleinsten bis zum größten oder vom größten bis zum kleinsten sortiert werden. |
+| [!UICONTROL Produktprofil] | Der Name des Produktprofils. Die Spalte kann sortiert werden: A->Z, Z->A. Klicken Sie auf den Namen eines Produktprofils, um weitere Details zur Richtlinie anzuzeigen. |
+| [!UICONTROL Produkt] | Das Produkt, das mit dem Produktprofil verknüpft ist. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
+| [!UICONTROL Instanz] | Die Instanz (z. B. Mandant oder angemeldetes Unternehmen), die mit dem Produktprofil verknüpft ist. Produkte ohne eindeutige Instanzen oder Mandanten haben als Wert „-“. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
+| [!UICONTROL Anzahl der Benutzer] | Eindeutige Anzahl der mit dem Produktprofil verknüpften Benutzer, einschließlich direkter Zuweisung und Gruppenzuweisung. Die Spalte kann vom Kleinsten bis zum Größten oder vom Größten bis zum Kleinsten sortiert werden. |
+| [!UICONTROL Anzahl der Entwickler] | Anzahl der mit dem Produktprofil verbundenen Entwicklerrollen. Die Spalte kann vom Kleinsten bis zum Größten oder vom Größten bis zum Kleinsten sortiert werden. |
 
-## Richtlinien anpassen - Liste Ansicht
+## Anpassen der Richtlinienlistenansicht
 
-Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinien-Liste anzupassen.
+Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste anzupassen.
 
-* Suchen Sie anhand des Namens nach Produkt-Profilen. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
-* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für [!UICONTROL Product Profil,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Anzahl der Benutzer und] Anzahl der Entwickler,  Spalten.
-* Click the **[!UICONTROL Filter By]** icon to apply multiple filters to list product profiles with specific criteria. Wenn mehrere Filter-Kategorien angewendet werden, enthalten Suchvorgänge Gruppen, die mit der `AND` Instanzlösung `AND` verknüpft sind.
+* Suchen Sie nach Produktprofilen mit dem Namen. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
+* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für [!UICONTROL Produktprofil], [!UICONTROL Produkt], [!UICONTROL Instanz], [!UICONTROL Anzahl der Benutzer], Anzahl der Entwickler und  Spalten.
+* Klicken Sie auf das Symbol **[!UICONTROL Filtern nach]**, um mehrere Filter anzuwenden und Produktprofile mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge Gruppen, die mit der `AND` Instanzlösung `AND` verknüpft sind.
 
 | Element | Beschreibung |
 |---------|----------|
-| [!UICONTROL Instanzfilter] | Suchen Sie in der Spalte &quot;Instanz&quot;nach Zeichenfolgen, um die Ergebnisse auf eine oder mehrere Instanzen zu beschränken. hinzufügen mehrere Filter durch Drücken der Eingabetaste nach jedem Suchbegriff. |
+| [!UICONTROL Instanzfilter] | Suchen Sie in der Spalte „Instanz“ nach Zeichenfolgen, um die Ergebnisse auf eine oder mehrere Instanzen zu beschränken. Sie können mehrerer Filter durch Drücken der Eingabetaste nach jedem Suchbegriff hinzufügen. |
 | Filter [!UICONTROL Lösung] | Wählen Sie aus den verfügbaren Lösungen aus. Mehrere Lösungsfilter suchen nach Ergebnissen, die Lösung 1 `OR` Lösung 2 enthalten. |
 
-## Details zur Ansicht
+## Ansicht der Richtliniendetails
 
-Klicken Sie auf der Seite &quot; [!UICONTROL Richtlinien] &quot;auf den Produktnamen, um die Details einer Richtlinie Ansicht.
+Klicken Sie auf der Seite [!UICONTROL Richtlinien] auf den Produktprofilnamen, um die Details einer Richtlinie anzuzeigen.
 
 ![](assets/admin-tool-policy-detail.png)
 
 Eine detaillierte Ansicht der einzelnen Profil zeigt wichtige Details zu den Themen des Profils (Benutzer, Gruppen usw.) an. Außerdem werden Berechtigungen und Ressourcen angezeigt, die vom Profil des Produkts aktiviert wurden.
 
-Details des Profils können in CSV-Dateien exportiert werden. Bei der Option &quot;CSV  exportieren&quot;werden zwei CSV-Dateien erzeugt:
+Details des Produktprofils können in CSV-Dateien exportiert werden. Bei der Option &quot;CSV  exportieren&quot;werden zwei CSV-Dateien erzeugt:
 
 * Themendetails (Benutzer, Benutzergruppen, Entwickler, Integrationen, Administratoren)
 * Elemente zu Berechtigungen und Ressourcen
 
 ## Übersichtsabschnitt
 
-In diesem Abschnitt wird eine Zusammenfassung des Profils des Produkts angezeigt, darunter:
+In diesem Abschnitt wird eine Zusammenfassung des Produktprofils angezeigt, einschließlich Folgendem:
 
-* Produktname Profil
+* Name des Produktprofils
 * Anzahl der Benutzer
 * Anzahl der Entwickler
 * Anzahl der Integrationen
@@ -154,12 +154,12 @@ Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergrupp
 
 | Tab | Beschreibung |
 |---------|----------|
-| [!UICONTROL Benutzer] | Liste der im Produkt-Profil enthaltenen Benutzer. Die Benutzergruppenzuordnung wird in der Spalte [!UICONTROL Zugewiesen nach Gruppe] angezeigt. |
-| [!UICONTROL Benutzergruppen] | Liste der mit dem Produkt-Profil verknüpften Benutzergruppen. |
-| [!UICONTROL Entwickler] | Liste der mit dem Produkt-Profil verbundenen Entwickler. |
-| [!UICONTROL Integrationen] | Liste von Integrationen, die mit dem Produkt-Profil verbunden sind. |
-| [!UICONTROL Administratoren] | Liste von Administratoren, die mit dem Produkt-Profil verknüpft sind. |
+| [!UICONTROL Benutzer] | Die Liste der im Produktprofil enthaltenen Benutzer. Die Benutzergruppenzuordnung wird in der Spalte [!UICONTROL Nach Gruppe zugewiesen] angezeigt. |
+| [!UICONTROL Benutzergruppen] | Die Liste der mit dem Produktprofil verknüpften Benutzergruppen. |
+| [!UICONTROL Entwickler] | Die Liste der mit dem Produktprofil verbundenen Entwickler. |
+| [!UICONTROL Integrationen] | Die Liste der mit dem Produktprofil verbundenen Integrationen. |
+| [!UICONTROL Administratoren] | Die Liste der mit dem Produktprofil verknüpften Administratoren. |
 
 ## Detaillierte Listen zu Berechtigungen und Ressourcen
 
-Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Profil verfügbar sind. Berechtigungen und Ressourcen, die im Profil des Produkts enthalten sind, wurden mit einem ✔ gekennzeichnet. Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten kategorisiert. Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
+Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Produktprofil verfügbar sind. Berechtigungen und Ressourcen, die im Produktprofil enthalten sind, sind mit einem ✔ gekennzeichnet.  Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten geordnet. Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
