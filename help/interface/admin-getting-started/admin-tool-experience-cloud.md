@@ -6,11 +6,11 @@ seo-title: Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails
 solution: Experience Cloud
 title: 'Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b0b42d8b06388e396bf2959503fe484c8b3a66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ Administratoren können im Admin-Tool eine sortierbare und filterbare Liste alle
 
 >[!NOTE]
 >
->User and product management is configured in the [Admin Console](admin-getting-started.md).
+>Benutzer- und Produktverwaltung werden in der [Admin Console](admin-getting-started.md) konfiguriert.
 
-1. Bei anmelden.`https://experience.adobe.com/.`
+1. Melden Sie sich bei `https://experience.adobe.com/.` an.
 
    ![](assets/admin-tool.png)
 
-1. Klicken Sie unter [!UICONTROL Schnellzugriff]auf **[!UICONTROL Admin Tool.]**
+1. Klicken Sie unter [!UICONTROL Schnellzugriff] auf **[!UICONTROL Admin Tool]**.
 
    (Alternativ können Sie in der Startseiten-URL _home_ durch _admin_ ersetzen.)
 
@@ -69,7 +69,7 @@ Klicken Sie auf der Seite [!UICONTROL Benutzer] auf die E-Mail-Adresse des Benut
 
 Eine detaillierte Ansicht der einzelnen Benutzer enthält wichtige Einzelheiten zum Lösungszugriff, zu den Admin- und Produktrollen sowie zu den zuletzt aufgerufenen Informationen.
 
-## Info zu Abschnitt
+## Abschnitt „Info“
 
 In diesem Abschnitt wird eine Zusammenfassung des Benutzerkontos angezeigt, einschließlich Folgendem:
 
@@ -116,7 +116,7 @@ Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtl
 Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste anzupassen.
 
 * Suchen Sie nach Produktprofilen mit dem Namen. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
-* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für [!UICONTROL Produktprofil], [!UICONTROL Produkt], [!UICONTROL Instanz], [!UICONTROL Anzahl der Benutzer], Anzahl der Entwickler und  Spalten.
+* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für [!UICONTROL Produktprofil], [!UICONTROL Produkt], [!UICONTROL Instanz], [!UICONTROL Anzahl der Benutzer], [!UICONTROL Anzahl der Entwickler] und  Spalten.
 * Klicken Sie auf das Symbol **[!UICONTROL Filtern nach]**, um mehrere Filter anzuwenden und Produktprofile mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge Gruppen, die mit der `AND` Instanzlösung `AND` verknüpft sind.
 
 | Element | Beschreibung |
@@ -130,14 +130,14 @@ Klicken Sie auf der Seite [!UICONTROL Richtlinien] auf den Produktprofilnamen, u
 
 ![](assets/admin-tool-policy-detail.png)
 
-Eine detaillierte Ansicht der einzelnen Profil zeigt wichtige Details zu den Themen des Profils (Benutzer, Gruppen usw.) an. Außerdem werden Berechtigungen und Ressourcen angezeigt, die vom Profil des Produkts aktiviert wurden.
+Eine detaillierte Ansicht der einzelnen Produktprofile enthält wichtige Details zu den Personen des Produktprofils (Benutzer, Gruppen usw.). Außerdem werden Zugriffsberechtigungen und Ressourcen angezeigt, die vom Produktprofil aktiviert wurden.
 
-Details des Produktprofils können in CSV-Dateien exportiert werden. Bei der Option &quot;CSV  exportieren&quot;werden zwei CSV-Dateien erzeugt:
+Details des Produktprofils können in CSV-Dateien exportiert werden. Bei der Option [!UICONTROL CSV  exportieren] werden zwei CSV-Dateien erzeugt:
 
-* Themendetails (Benutzer, Benutzergruppen, Entwickler, Integrationen, Administratoren)
-* Elemente zu Berechtigungen und Ressourcen
+* Personendetails (Benutzer, Benutzergruppen, Entwickler, Integrationen, Administratoren)
+* Informationen zu Berechtigungen und Ressourcen
 
-## Übersichtsabschnitt
+## Zusammenfassung
 
 In diesem Abschnitt wird eine Zusammenfassung des Produktprofils angezeigt, einschließlich Folgendem:
 
@@ -148,7 +148,7 @@ In diesem Abschnitt wird eine Zusammenfassung des Produktprofils angezeigt, eins
 * Zugehörige Produkte
 * Instanz
 
-## Detaillierte Liste
+## Detaillierte Personenliste
 
 Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergruppen, Entwickler, Integrationen und Administratoren, die dem Profil zugewiesen sind.
 
@@ -162,4 +162,4 @@ Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergrupp
 
 ## Detaillierte Listen zu Berechtigungen und Ressourcen
 
-Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Produktprofil verfügbar sind. Berechtigungen und Ressourcen, die im Produktprofil enthalten sind, sind mit einem ✔ gekennzeichnet.  Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten geordnet. Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
+Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Produktprofil verfügbar sind. Berechtigungen und Ressourcen, die im Produktprofil enthalten sind, sind mit einem ✔ gekennzeichnet. Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten geordnet. Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
