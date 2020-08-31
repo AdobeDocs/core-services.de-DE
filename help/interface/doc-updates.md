@@ -6,11 +6,11 @@ seo-title: Aktualisierungen der Dokumentation – Experience Cloud
 solution: Experience Cloud
 title: Aktualisierungen der Dokumentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation
 
 **Aktualisiert: 19.08.2020**
 
-Benutzerdetails zum [Ansicht-Experience Cloud (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md) mit Informationen zu Richtlinien aktualisiert.
+[Anzeige der Benutzerdetails von Experience Cloud (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md) wurde mit Richtlinieninformationen aktualisiert.
 
 **Aktualisiert: 19.05.2020**
 
@@ -100,9 +100,9 @@ Der Abschnitt [Experience Cloud-FAQ](admin-getting-started/faq.md#concept_13219
 
 **Aktualisiert: 22.05.2014**
 
-Hinzugefügt: Dokumentation für Zielgruppen
+Hinzugefügt: Dokumentation für Zielgruppen.
 
-Weitere Informationen finden Sie unter [Zielgruppen](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
+Weitere Informationen finden Sie unter [Zielgruppen](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7).
 
 **Aktualisiert: 22.05.2014**
 
