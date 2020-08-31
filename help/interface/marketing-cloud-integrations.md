@@ -6,11 +6,11 @@ seo-title: Experience Cloud-Integrationen
 solution: Experience Cloud
 title: Experience Cloud-Integrationen
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Erstellen und verwalten Sie Audiences in der Experience Cloud-Zielgruppenbibliot
 
 * In der [!DNL Experience Cloud] neu erstellt
 * Aus [!DNL Analytics]-Segmenten, die in der [!DNL Experience Cloud] veröffentlicht werden
-* Von [!DNL Audience Manager].
+* Von [!DNL Audience Manager]
 
 **Anwendbare Lösungen oder Dienste**
 
@@ -119,7 +119,7 @@ Hilfe: [Erste Schritte](https://docs.adobelaunch.com/getting-started)
 
 Verwenden Sie die Activation-Lösungen der Experience Cloud, um Ihre Experience Cloud-Lösungen einzurichten und zu debuggen.
 
-1. Use [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) or [Dynamic Tag Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html) to insert code that activates [Adobe Experience Cloud solutions](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) on your pages.
+1. Verwenden Sie [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) oder das [Dynamic Tag Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html), um Code einzufügen, mit dessen Hilfe [Adobe Experience Cloud-Lösungen](solutions-core-services.md#topic_BD726D3A649E4FC49063029E86B70C62) auf Ihren Seiten aktiviert werden.
 1. Testen Sie Ihre Implementierungen mithilfe von [Adobe Cloud Platform Auditor](https://docs.adobe.com/content/help/de-DE/auditor/using/overview.html).
 
 Mit der Erweiterung „Adobe Experience Cloud Debugger“ können Sie von Auditor gefundene Probleme beheben oder andere Informationen über Ihre Implementierungen überprüfen.
@@ -188,7 +188,7 @@ Hilfe (Anmeldung erforderlich): [Integration mit Adobe Experience Cloud-Lösunge
 
 **Analytics:** kann Daten zu Site-Interaktion und Konversion täglich an Media Optimizer senden, wo die Daten zur Anzeigenoptimierung und Berichterstellung zur Verfügung stehen. Außerdem kann Media Optimizer Daten zu Suchmaschinen und Traffic-Daten in sozialen Netzwerken täglich an Analytics senden, wo diese Daten dann für Berichte in Reports &amp; Analysen, Report Builder und Ad-hoc-Analysefunktionen verfügbar sind.
 
-**Dynamischer Tag-Manager:** Sie können [den dynamischen Tag-Manager zum Erstellen Media Optimizer-pixelbasierter Konversionsverfolgungstags](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/media-optimizer.html) sowie Verfolgungstags von Drittanbietern für Ihre Landing Pages in den Such-, Social- und Display-Anzeige-Bereichen verwenden. (Sie können Media Optimizer-Tags auch direkt in Media Optimizer erstellen.)
+**Dynamic Tag Manager:** Sie können [den dynamischen Tag-Manager zum Erstellen Media Optimizer-pixelbasierter Konversionsverfolgungstags](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/media-optimizer.html) sowie Verfolgungstags von Drittanbietern für Ihre Landingpages in den Such-, Social- und Display-Anzeige-Bereichen verwenden. (Sie können Media Optimizer-Tags auch direkt in Media Optimizer erstellen.)
 
 **Experience Cloud-Zielgruppen:** (Advertisers mit Display-Verwaltung) Sie können eine beliebige [Adobe Experience Cloud-Audiences](https://docs.adobe.com/content/help/de-DE/core-services/interface/audiences/audience-library.html) als Ziel für Ihre Display-Anzeigen verwenden. Sie können automatisch Audiences verwenden, die Sie in Adobe Experience Cloud erstellt haben, und Sie können Audiences aus Analytics verwenden, die Sie in Adobe Experience Cloud veröffentlicht haben. Außerdem können Sie Audiences aus Audience Manager verwenden, wenn das Media Optimizer-Konto so konfiguriert ist, dass dies zulässig ist. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie weitere Informationen zum Zugriff auf Adobe Experience Cloud, zu Profilen und Zielgruppen sowie zur Ersteinrichtung von Media Optimizer- und Adobe Experience Cloud-Audiences erhalten möchten. **Hinweis:** Wenn Sie auch Adobe Target verwenden, stehen die in Adobe Experience Cloud veröffentlichten Audiences auch für Aktivitäten in Adobe Target zur Verfügung.
 
