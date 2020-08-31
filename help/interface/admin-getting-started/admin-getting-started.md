@@ -6,9 +6,9 @@ seo-title: Verwalten von Experience Cloud-Benutzern und -produkten
 solution: Experience Cloud
 title: Verwalten von Experience Cloud-Benutzern und -produkten
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1455'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Aktion zum Anmelden bei der Admin Console:
 1. Gehen Sie zu [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Geben Sie Ihre [Adobe ID oder Enterprise ID](https://helpx.adobe.com/de/enterprise/help/identity.html) und Ihr Kennwort ein.
 
-Alternativ können Sie im Experience Cloud-Menü (![](assets/menu-icon.png)) auf **[!UICONTROL Administration]** > **[!UICONTROL Admin Console starten]** klicken.
+Alternativ können Sie im Experience Cloud-Menü ( ![](assets/menu-icon.png) ) auf **[!UICONTROL Administration]** > **[!UICONTROL Admin Console starten]** klicken.
 
 **Verwandte Hilfe**
 
@@ -61,7 +61,7 @@ Alternativ können Sie im Experience Cloud-Menü (![](assets/menu-icon.png)) au
 
 [Melden Sie sich an und verwalten Sie Ihre Profileinstellungen](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0), um Kennwörter, Organisationen und Benachrichtigungen zu verwalten.
 
-## Produktprofile und Gruppen {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## Produktprofile und Gruppen  {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 Die Hinzufügung von Produktprofilen stellt eine Veränderung gegenüber der bisherigen Verwaltung von Lösungsprodukten und -diensten (mithilfe von Gruppen) dar. In der Admin Console basieren die Berechtigungen auf Produktprofilen. Dabei handelt es sich um Gruppen mit Produkten und Diensten, die Sie Benutzern zuweisen können.
 
@@ -168,7 +168,7 @@ Sie können beispielsweise ein Produktprofil mit mehreren Analytics-Tools ([!UIC
 
 ## Delegieren von administrativen Rollen an Benutzer {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-In der Admin Console können Sie eingeschränkte Administratorrechte an andere Personen in Ihrem Unternehmen delegieren. Delegierte Rollen ermöglichen es Benutzern, den Softwarezugriff für Endbenutzer zu verwalten, Zugriffsbereitstellungsfunktionen bereitzustellen und als Stellvertreter des Supports zu fungieren.
+In der Admin Console können Sie eingeschränkte Administratorrechte an andere Personen in Ihrem Unternehmen delegieren. Delegierte Rollen ermöglichen es Benutzern, den Softwarezugriff für Endbenutzer zu verwalten, Zugriffsimplementierungsfunktionen bereitzustellen und als Stellvertreter des Supports zu fungieren.
 
 Sie können zum Beispiel:
 
