@@ -4,11 +4,11 @@ user-guide-title: Benutzerhandbuch zur Experience Cloud-Oberfläche
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 98%
    + [Erstanbieter-Cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies in Analytics](cookies/cookies-analytics.md)
    + [Cookies in Audience Manager](cookies/cookies-am.md)
-   + [Cookies in Data Connectors](cookies/cookies-dc.md)
-   + [Cookies in Data Workbench](cookies/cookies-insight.md)
+   + [[!UICONTROL Cookies in ]Data Connectors](cookies/cookies-dc.md)
+   + [[!UICONTROL Cookies in ]Data Workbench](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
    + [[!DNL Scene7] Cookies](cookies/cookies-s7.md)
@@ -45,7 +45,7 @@ ht-degree: 98%
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
    + [Übersicht über Activation](activation/activation.md)
-   + [Benutzerhandbuch für Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html)
+   + [Experience Platform Launch-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html)
    + [Benutzerhandbuch zum dynamischen Tag-Manager](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html)
    + [Triggers](activation/triggers.md)
 + Experience Cloud-Assets {#assets}
