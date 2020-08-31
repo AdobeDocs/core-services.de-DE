@@ -5,11 +5,11 @@ seo-title: Zentrale Experience Cloud-Dienste und Benutzerverwaltung
 solution: Experience Cloud
 title: Über zentrale Experience Cloud-Dienste
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Activation](activation/activation.md) | Tag-Management-Systeme (Experience Platform Launch und Dynamic Tag Management).<br>Mit Triggers können Sie auf Basis von Adobe Analytics-Einblicken in Adobe Campaign Aktionen in Echtzeit durchführen. |
 | [Administration](admin-getting-started/admin-getting-started.md) | Verwalten Sie Benutzer- und Produktberechtigungen für alle Adobe Clouds und Lösungen. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Speichern, synchronisieren und teilen Sie Ihre digitalen Assets einfach an einem zentralen Ort, um Zeit zu sparen und ein konsistenteres Kundenerlebnis zu bieten. |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] ist die nächste Generation der Datenerfassungs- und Technologieimplementierung für Sites und Apps. [!UICONTROL Experience Platform] Launch bietet Kunden eine einfache Möglichkeit zum Bereitstellen und Verwalten aller Analyse-, Marketing- und Werbe-Tags, die für relevante Kundenerlebnisse benötigt werden. |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] ist die nächste Generation der Datenerfassungs- und Technologieimplementierung für Websites und Apps. [!UICONTROL Experience Platform] Launch bietet Kunden eine einfache Möglichkeit zum Bereitstellen und Verwalten aller Analyse-, Marketing- und Werbe-Tags, die für relevante Kundenerlebnisse benötigt werden. |
 | [Journey Orchestration](https://docs.adobe.com/content/help/de-DE/journeys/using/journey-orchestration-home.html) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Dies] ist ein in Experience Platform integrierter Anwendungs-Service. |
 | [Location Service](https://docs.adobe.com/content/help/de-DE/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) ist ein Standortdienst, mit dem Apps mit Standorterkennung den Standortkontext nachvollziehen können. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit Zielpunkten (POIs) verwendet. |
 | [Exchange](exchange.md) | Suchen, Durchsuchen, Auswählen, Bezahlen und Herunterladen von Digital Marketing-Erweiterungen über Apps. |
