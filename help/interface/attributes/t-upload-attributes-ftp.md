@@ -6,11 +6,11 @@ seo-title: Optional – Hochladen der Datendatei via FTP
 solution: Experience Cloud
 title: Optional – Hochladen der Datendatei via FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-translation-type: ht
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ Datei-Uploads auf die FTP-Site für Kundenattribute können über FTP oder SFTP 
 
 1. [Erstellen einer Kundenattributquelle und Hochladen der Datendatei...](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   Vergewissern Sie sich, dass Sie unter [!DNL ftp.adobe.com/ bei Ihrer FTP-Site angemeldet sind.<sftpname>].
+   Ensure that you are logged in to your FTP site at `ftp.adobe.com/<sftpname>`.
 
 1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Datei hochladen]**.
 
