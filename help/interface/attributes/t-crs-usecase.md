@@ -6,11 +6,11 @@ seo-title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 solution: Experience Cloud
 title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+workflow-type: tm+mt
 source-wordcount: '1177'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -158,10 +158,7 @@ Suchen Sie auf der Seite [!UICONTROL Neue Kunden-Attributquelle erstellen[ oder 
 
 ## Kundenattribute in Adobe Analytics verwenden{#task_7EB0680540CE4B65911B2C779210915D}
 
-Mit den Daten, die jetzt in Lösungen verfügbar sind, wie z. B. in
-<keyword>
-Adobe Analytics
-</keyword>können Sie Berichte zu den Daten erstellen, sie analysieren und die entsprechende Aktion in Ihren Marketing-Kampagnen durchführen.
+Jetzt, wo die Daten in Lösungen wie Adobe Analytics verfügbar sind, können Sie Berichte zu den Daten erstellen, sie analysieren und die entsprechenden Maßnahmen in Ihren Marketing-Kampagnen ergreifen.
 
 Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen Attributen basiert. Dieses Segment zeigt [!DNL Photoshop Lightroom]-Abonnenten, deren am häufigsten geladenes Produkt Photoshop ist.
 
