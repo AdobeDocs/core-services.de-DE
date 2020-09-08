@@ -6,11 +6,11 @@ seo-title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 solution: Experience Cloud
 title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1177'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
 Siehe [Verwalten von Experience Cloud-Benutzern und -produkten](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)
 
-## Erstellen Sie eine Datendatei. {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
+## Erstellen Sie eine Datendatei {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
 Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können Abonnentendaten für Produkte wie Mitglieds-IDs, berechtigte Produkte, am häufigsten gestartete Produkte usw. enthalten.
 
@@ -58,7 +58,7 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
 1. Überprüfen Sie vor dem Hochladen der Datei die wichtigen Informationen in den [Datendateivoraussetzungen](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19).
 1. [Erstellen Sie eine Kundenattributquelle und laden Sie wie nachfolgend beschrieben die Daten hoch](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-## Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch. {#task_09DAC0F2B76141E491721C1E679AABC8}
+## Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch {#task_09DAC0F2B76141E491721C1E679AABC8}
 
 Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen“ der Experience Cloud aus.
 
@@ -144,7 +144,7 @@ So löschen Sie Attribute und ersetzen Attribute im Schema.
 1. Entfernen Sie auf der Seite [!UICONTROL Kunden-Attributquelle bearbeiten] das **[!UICONTROL Target]**- oder **[!UICONTROL Analytics]**-Abonnement (unter [!UICONTROL Abonnements konfigurieren]).
 1. [Laden Sie eine neue Datendatei mit aktualisierten Feldern hoch](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
 
-## Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle. {#task_1ACA21198F0E46A897A320C244DFF6EA}
+## Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
 Beim Konfigurieren eines Abonnements wird der Datenfluss zwischen Experience Cloud und Lösungen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
@@ -152,11 +152,11 @@ Siehe [Konfigurieren von Abonnements](../attributes/subscription.md#concept_ECA3
 
 **So aktivieren Sie eine Attributquelle**
 
-Suchen Sie auf der Seite [!UICONTROL Neue Kunden-Attributquelle erstellen[ oder ]Kunden-Attributquelle bearbeiten] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
+Suchen Sie auf der Seite [!UICONTROL Neue Kunden-Attributquelle erstellen [oder] Kunden-Attributquelle bearbeiten] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
 
 ![Schritt Ergebnis](assets/activate_attribute_source.png)
 
-## Kundenattribute in Adobe Analytics verwenden{#task_7EB0680540CE4B65911B2C779210915D}
+## Kundenattribute in Adobe Analytics verwenden {#task_7EB0680540CE4B65911B2C779210915D}
 
 Jetzt, wo die Daten in Lösungen wie Adobe Analytics verfügbar sind, können Sie Berichte zu den Daten erstellen, sie analysieren und die entsprechenden Maßnahmen in Ihren Marketing-Kampagnen ergreifen.
 
@@ -168,7 +168,7 @@ Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den E
 
 Weitere Informationen finden Sie unter [Bericht „Kundenattribute“](https://docs.adobe.com/help/de-DE/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in der Analytics-Hilfe.
 
-## Kundenattribute in Adobe Target verwenden{#task_FC5F9D9059114027B62DB9B1C7D9E257}
+## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
 In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Bereich [!UICONTROL Besucherprofil] ein Kundenattribut auswählen. Alle Kundenattribute enthalten in der Liste das Präfix [!DNL crs.]. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
 
