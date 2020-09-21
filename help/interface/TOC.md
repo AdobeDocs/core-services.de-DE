@@ -1,15 +1,15 @@
 ---
 audience: end-user
-user-guide-title: Benutzerhandbuch zur Experience Cloud-Oberfläche
+user-guide-title: Handbuch zur Experience Cloud-Benutzeroberfläche
 breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Erstanbieter-Cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies in Analytics](cookies/cookies-analytics.md)
    + [Cookies in Audience Manager](cookies/cookies-am.md)
-   + [Cookies in [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies in [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies in [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies in [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies in [!DNL Scene7]](cookies/cookies-s7.md)
-   + [Cookies in [!DNL Search and Promote]](cookies/cookies-snp.md)
-   + [Cookies in [!DNL Target]](cookies/cookies-target.md)
+   + Cookies in [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies in [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies in [[!DNL Target] ](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
@@ -58,8 +58,8 @@ ht-degree: 100%
    + [Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
-+ Zielgruppen in Experience Cloud {#audiences}
-   + [Überblick über Zielgruppen](audience-library/audience-library.md)
++ Experience Cloud-Zielgruppen {#audiences}
+   + [Übersicht über Experience Cloud-Audiencen](audience-library/audience-library.md)
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
 + Kundenattribute in Experience Cloud {#customer-attributes}
