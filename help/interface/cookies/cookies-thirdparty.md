@@ -3,12 +3,12 @@ description: Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr 
 keywords: cookies;privacy
 seo-description: Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr und mehr zurückgegangen. Aus diesem Grund hat Adobe an neuen Lösungen gearbeitet, die sowohl den Anforderungen der Kunden als auch dem Recht der Verbraucher auf Privatsphäre in den Adobe Experience Cloud-Lösungen in ausgewogenem Maße Rechnung tragen.
 seo-title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
-translation-type: ht
-source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
 
