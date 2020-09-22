@@ -3,11 +3,11 @@ description: Adobe Analytics verwendet Cookies, um Anforderungen von verschieden
 keywords: cookies;privacy
 seo-description: Adobe Analytics verwendet Cookies, um Anforderungen von verschiedenen Browsern zu unterscheiden und nützliche Informationen zu speichern, die eine Anwendung später verwenden kann. Sie können auch verwendet werden, um Browserinformationen Kundendatensätzen zuzuordnen.
 seo-title: Analytics-Cookies
-solution: Experience Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Analytics-Cookies
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: c9d9a69193a877c553db73d230723f1c24dbfed6
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 100%
