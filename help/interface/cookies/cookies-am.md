@@ -3,12 +3,12 @@ description: Audience Manager vertraut bei der Ausführung verschiedener Funktio
 keywords: cookies
 seo-description: Audience Manager vertraut bei der Ausführung verschiedener Funktionen auf ein einige einfache Cookies. Dazu gehören die Zuweisung von IDs, die Aufzeichnung von Datenaufrufen, die Fehlerverfolgung und Tests, um zu prüfen, ob Cookies gesetzt werden können. In diesem Abschnitt werden die verschiedenen Cookies aufgelistet und beschrieben, die von Audience Manager gesetzt werden.
 seo-title: Cookies in Audience Manager
-solution: Marketing Cloud,Audience Manager
+solution: Experience Cloud, Audience Manager
 title: Cookies in Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
 
