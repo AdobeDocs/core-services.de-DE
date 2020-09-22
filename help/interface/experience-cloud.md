@@ -7,10 +7,10 @@ solution: Adobe Experience Cloud
 title: Hilfe für Experience Cloud und Hauptdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 80%
+source-wordcount: '434'
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ Die Experience Cloud ist die integrierte Adobe-Familie mit Digital Marketing-Lö
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Dieses Handbuch enthält eine Produktdokumentation für Benutzer- und Produktverwaltung in Experience Cloud sowie Kundenattribute und Experience Cloud-Audiencen (Audience Library). Zu den Artikeln in diesem Handbuch gehören:
+Das Adobe Experience Cloud Administrationshandbuch enthält Hilfe zu Experience Cloud- und Produktverwaltung, zur Audience-Bibliothek, zu Kundenattributen und zu Experience Cloud-Assets. Zu den Artikeln in diesem Handbuch gehören:
 
 * [[!UICONTROL Zielgruppenbibliothek]](audience-library/audience-library.md)
 * [[!UICONTROL Kundenattribute]](attributes/attributes.md)
