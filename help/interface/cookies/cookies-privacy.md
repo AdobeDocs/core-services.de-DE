@@ -3,12 +3,12 @@ description: Die Wahrung der Privatsphäre und die Datensicherheit der Kunden ha
 keywords: cookies;privacy
 seo-description: Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe arbeitet mit mehreren Datenschutzbehörden und nach mehreren Selbstregulierungsgrundsätzen (wie dem Digital Advertising Alliance AdChoices-Programm), um Kunden Informationen über die Verwendung ihrer Informationen und die Wahl ihrer Verwendung zu liefern.
 seo-title: Informationen über Cookies und Datenschutz
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Informationen über Cookies und Datenschutz
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
-translation-type: ht
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
