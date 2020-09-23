@@ -1,14 +1,14 @@
 ---
 audience: admin
 user-guide-title: Experience Cloud-Verwaltung, Audiencen und Kundenattribute
-breadcrumb-title: Experience Cloud Interface Guide
+breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 94%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 94%
    + [Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud-Zielgruppen {#audiences}
++ Experience Cloud-Zielgruppenbibliothek {#audiences}
    + [Übersicht über Experience Cloud-Zielgruppen](audience-library/audience-library.md)
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
