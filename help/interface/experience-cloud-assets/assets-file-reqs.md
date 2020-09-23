@@ -3,7 +3,7 @@ description: Zulässige Dateitypen und Größeneinschränkungen für die Freigab
 keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 seo-description: Zulässige Dateitypen und Größeneinschränkungen für die Freigabe von Assets zwischen der Experience Cloud und der Creative Cloud
 seo-title: Dateivoraussetzungen für die Freigabe von Assets
-solution: Experience Cloud
+solution: Experience Cloud
 title: Dateivoraussetzungen für die Freigabe von Assets
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
