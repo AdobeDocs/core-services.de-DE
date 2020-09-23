@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 81%
+ht-degree: 94%
 
 ---
 
 
-# Handbuch zur Experience Cloud-Benutzeroberfläche
+# Handbuch zur Experience Cloud-Benutzeroberfläche
 
 Die Experience Cloud ist die integrierte Adobe-Familie mit Digital Marketing-Lösungen und -Diensten. Es handelt sich dabei zudem um eine intuitive Benutzeroberfläche, mit der Sie schnell auf Ihre Cloud-Lösungen und zentralen Dienste zugreifen können.
 
@@ -52,13 +52,13 @@ Weitere Experience Cloud-Handbücher:
 
 ## Tutorials
 
-Nutzen Sie die Vorteile von Self-Help-Lehrgängen und schnellen Anleitungen in Experience League:
+Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Experience League:
 
 * [Alle Tutorials in Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
 * [Experience Platform-Tutorials](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
 * [Echtzeit-Kundendatenplattform](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
-## Versionshinweise und zugehörige Hilfe zum Experience Cloud
+## Versionshinweise und zugehörige Experience Cloud-Hilfe
 
 * [Produktdokumentation für alle Experience Cloud-Lösungen](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.html) – Hilfe finden Sie unter „Experience Cloud – Lernen und Support“
 * [Versionshinweise und Produktupdates](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
