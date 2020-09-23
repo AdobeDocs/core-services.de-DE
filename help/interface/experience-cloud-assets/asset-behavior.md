@@ -3,7 +3,7 @@ description: Richtlinien zum Verhalten freigegebener Ordner beim Verschieben, L�
 keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 seo-description: Richtlinien zum Verhalten freigegebener Ordner beim Verschieben, Löschen und Wiederherstellen.
 seo-title: Verhalten freigegebener Ordner
-solution: Experience Cloud
+solution: Experience Cloud
 title: Verhalten freigegebener Ordner
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
