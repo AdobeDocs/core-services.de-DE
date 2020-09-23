@@ -5,18 +5,18 @@ seo-title: Übersicht über Experience Cloud-Zielgruppen
 solution: Experience Cloud
 title: Übersicht über Experience Cloud-Zielgruppen
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
-workflow-type: ht
-source-wordcount: '832'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+workflow-type: tm+mt
+source-wordcount: '837'
+ht-degree: 95%
 
 ---
 
 
 # Übersicht über Experience Cloud-Zielgruppen {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Die Zielgruppendienste von Adobe verwalten die Übersetzung von Besucherdaten in die Zielgruppensegmentierung. Auf diese Weise erfolgt die Erstellung und Verwaltung von Zielgruppen so ähnlich wie die Erstellung und Verwendung von Segmenten, mit dem zusätzlichen Vorteil, dass die Zielgruppensegmente für die [!DNL Experience Cloud] freigegeben werden können.
+Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Mit der Adobe Audience Library können Sie die Übersetzung von Besucher-Daten in die Segmentierung von Audiencen verwalten. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to products and services in [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
