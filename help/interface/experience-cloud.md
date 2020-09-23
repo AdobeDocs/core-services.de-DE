@@ -1,27 +1,27 @@
 ---
-description: Selbsthilfe, Produktdokumentation und technische Dokumentation für die Adobe Experience Cloud. Die Experience Cloud ist die integrierte Adobe-Familie mit Digital Marketing-Lösungen und -Diensten.
-keywords: core services
-seo-description: Auf dieser Seite finden Sie eine Selbsthilfe, Produktdokumentation und technische Dokumentation zur Experience Cloud.
-seo-title: Hilfe und Produktdokumentation zu Adobe Experience Cloud und den zentralen Diensten.
-solution: Experience Cloud
-title: Hilfe für Experience Cloud und Hauptdienste
+description: Selbsthilfe, Produktdokumentation und technische Dokumentation für die Adobe Experience Cloud. Enthält Benutzer- und Produktverwaltung in der Admin Console, die Aktivierung von Lösungen für Plattformdienste sowie Hilfe zur Audience-Bibliothek, zu Kundenattributen, Experience Cloud-Assets und mehr.
+keywords: platform services
+seo-description: Hilfe zur Benutzer- und Produktverwaltung in der Admin Console, Aktivierung von Lösungen für Plattformdienste und Hilfe zur Audience-Bibliothek, zu Kundenattributen, Experience Cloud-Assets und mehr.
+seo-title: Hilfe und Produktdokumentation zu Adobe Experience Cloud- und Plattformdiensten.
+solution: Adobe Experience Cloud
+title: Hilfe zu Experience Cloud- und Plattformdiensten
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 94%
+source-wordcount: '475'
+ht-degree: 75%
 
 ---
 
 
-# Handbuch zur Experience Cloud-Benutzeroberfläche
+# Experience Cloud-Verwaltung, Audiencen und Kundenattribute
 
 Die Experience Cloud ist die integrierte Adobe-Familie mit Digital Marketing-Lösungen und -Diensten. Es handelt sich dabei zudem um eine intuitive Benutzeroberfläche, mit der Sie schnell auf Ihre Cloud-Lösungen und zentralen Dienste zugreifen können.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Das Adobe Experience Cloud Administrationshandbuch enthält Hilfe zu Experience Cloud- und Produktverwaltung, zur Audience-Bibliothek, zu Kundenattributen und zu Experience Cloud-Assets. Zu den Artikeln in diesem Handbuch gehören:
+Dieses Handbuch bietet Zugriff auf Hilfe zu Experience Cloud-Benutzern und Produktverwaltung in der Admin Console und ermöglicht Lösungen für Plattformdienste. Sie können auch auf die Hilfe über die Audience-Bibliothek, Kundenattribute, Experience Cloud-Assets und mehr zugreifen:
 
 * [[!UICONTROL Zielgruppenbibliothek]](audience-library/audience-library.md)
 * [[!UICONTROL Kundenattribute]](attributes/attributes.md)
