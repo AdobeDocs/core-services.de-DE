@@ -3,7 +3,7 @@ description: Laden Sie ein Asset aus dem Creative Cloud-Browser in einen freigeg
 keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 seo-description: Laden Sie ein Asset aus dem Creative Cloud-Browser in einen freigegebenen Ordner hoch.
 seo-title: Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser
-solution: Experience Cloud
+solution: Experience Cloud
 title: Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 translation-type: tm+mt
