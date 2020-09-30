@@ -23,7 +23,7 @@ Data Workbench verwendet Cookies, um große Mengen sich schnell verändernder Da
 
 | Attribut | Beschreibung |
 |---|---|
-| Gespeicherte Informationen | Datums-/Uhrzeitstempel der eindeutigen Besucher-ID |
+| Gespeicherte Informationen | Datums-/Uhrzeitstempel der Unique-Visitor-ID |
 | Ablauf | Dies ist ein persistentes Cookie. |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
