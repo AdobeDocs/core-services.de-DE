@@ -35,7 +35,7 @@ Audience Manager vertraut bei der Ausführung verschiedener Funktionen auf ein e
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
-   <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine Unique User-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Index of IDs in Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine Unique User-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Index of IDs in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Weitere Attribute</b> </p> </td> 
