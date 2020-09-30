@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Hilfe zu Experience Cloud- und Plattformdiensten
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '476'
 ht-degree: 75%
 
 ---
@@ -42,7 +42,7 @@ Dieses Handbuch bietet Zugriff auf Hilfe zu Experience Cloud-Benutzern und Produ
 Weitere Experience Cloud-Handbücher:
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html)
-* [Device Co-op](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html)
+* [Experience Platform Co-op Graph](https://docs.adobe.com/content/help/de-DE/device-co-op/using/home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html)
