@@ -66,7 +66,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Datums-/Uhrzeitstempel der eindeutigen Besucher-ID |
+| Gespeicherte Informationen | Datums-/Uhrzeitstempel der Unique-Visitor-ID |
 | Ablauf | 2 Jahre |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet |
 | Position | Dieses Cookie wird in der Domäne der Bildanforderung gespeichert. Dabei handelt es sich normalerweise um eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domäne Erstanbieter-Cookies verwendet. |
