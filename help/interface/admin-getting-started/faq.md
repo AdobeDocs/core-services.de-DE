@@ -53,7 +53,7 @@ Bereitstellung im Sinne der Experience Cloud bedeutet:
 * Ihre Benutzer können mit der Anmeldung bei der [!DNL Experience Cloud] und der Verknüpfung von Lösungen beginnen.
 * Sie können mit der Verwendung der in der Experience Cloud verfügbaren Funktionen beginnen, z. B. „Personen“.
 * Sie können sich darauf einstellen, Ihren lösungsspezifischen Anmeldeprozess einzustellen.
-* Sie können die Zugriffskontrolle für Lösungen beibehalten.
+* Sie können die Zugangssteuerung für Lösungen beibehalten.
 
 ## Wie verwalte ich Benutzer und Produktprofile?
 
