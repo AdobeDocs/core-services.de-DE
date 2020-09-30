@@ -1,7 +1,7 @@
 ---
-description: Data Connectors verwendet Cookies, um Werbetreibenden optimierte Metriken zur Kampagnen- und Konversionsleistung über mehrere Werbekanäle hinweg bereitzustellen.
+description: Data Connectors verwendet Cookies, um Advertisern optimierte Metriken zur Kampagnen- und Konversionsleistung über mehrere Werbekanäle hinweg bereitzustellen.
 keywords: cookies;privacy
-seo-description: Data Connectors verwendet Cookies, um Werbetreibenden optimierte Metriken zur Kampagnen- und Konversionsleistung über mehrere Werbekanäle hinweg bereitzustellen.
+seo-description: Data Connectors verwendet Cookies, um Advertisern optimierte Metriken zur Kampagnen- und Konversionsleistung über mehrere Werbekanäle hinweg bereitzustellen.
 seo-title: Cookies in Data Connectors
 solution: Experience Cloud, Analytics, Target
 title: Cookies in Data Connectors
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # Cookies in Data Connectors {#data-connectors-cookies}
 
-Data Connectors verwendet Cookies, um Werbetreibenden optimierte Metriken zur Kampagnen- und Konversionsleistung über mehrere Werbekanäle hinweg bereitzustellen.
+Data Connectors verwendet Cookies, um Advertisern optimierte Metriken zur Kampagnen- und Konversionsleistung über mehrere Werbekanäle hinweg bereitzustellen.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
