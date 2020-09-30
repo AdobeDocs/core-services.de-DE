@@ -6,11 +6,11 @@ seo-title: Terminologie
 solution: Experience Cloud
 title: Terminologie
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-translation-type: ht
-source-git-commit: c00eb57a226945f71307b33afdf147c93334c083
-workflow-type: ht
-source-wordcount: '1474'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Eine Terminologiereferenz für Experience Cloud-Benutzer und Informationen dazu,
 | Kampagnen | In der Creative Cloud versteht man unter einer Kampagne eine Marketing-Kampagne, bei der Bild-Assets aus der Creative Cloud verwendet werden. | In der Experience Cloud bestimmen Kampagnen, welche Inhalte der Zielgruppe angezeigt werden. Sie bestimmen auch, wo (Position) der Inhalt angezeigt wird und wann. Eine Kampagne hat ein bestimmtes Ziel, das von Metriken verfolgt wird.<br>Die Durchführung einer Kampagne setzt voraus, dass der Besucherkontext mit dem Regelsatz der Kampagne übereinstimmt und der Inhalt gemäß den technischen Einschränkungen des Kanals der Position bereitgestellt wird.<br>In Adobe Target sind die Begriffe Kampagne und Aktivität synonym. |
 | Kanal | In der Creative Cloud können Kanäle Graustufenbilder sein, die verschiedene Arten von Informationen speichern. Es sind in diesem Fall Informationskanäle und Farbkanäle. | In der Experience Cloud ist ein Kanal ein Attribut einer Position oder eine Aktivität in einer Kampagne.<br>In Analytics werden Marketing-Kanäle zumeist verwendet, um Einblicke dazu zu bieten, wie Besucher auf Ihre Website gelangen, beispielsweise über E-Mail-Kampagnen.<br>Zu den Beispielen gehören:<ul><li>E-Mail</li><li>Display-Anzeigen</li><li>Soziale Netzwerke</li><li>Paid Search</li><li>Normale Suche</li><li>Referrerdomänen</li></ul> |
 | Kontext | Bezieht sich normalerweise auf ein Menü oder Informationen, die für eine Auswahl oder eine ausgeführte Aufgabe verfügbar sind. | Unter Kontext werden die Details der aktuellen Interaktion eines Besuchers mit einer digitalen Property beschrieben. Zu Beispielen für den Kontext zählen die Position seiner Maus, der Status eines Formularfeldes, der Wert seines Einkaufswagens oder das Gerät, das er verwendet. Das <br>[Dynamic Tag Management](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html) bietet die zuverlässigste Kontexterkennung und Dienstaktivierungsfunktion auf dem Markt und stellt die kontextabhängige Komponente von Profil- und Zielgruppendiensten bereit. |
-| Kunden-ID | Keine festgeschriebene Verwendung. | Die ID, die von einem Device Co-op-Mitglied verwendet wird, um eine Person zu erkennen. Diese Nummer wird von der Marke zugewiesen und oft in einem CRM-System gepflegt. **Hinweis:** Diese ID sollte nicht mit _setCustomerIDs_ verwechselt werden, dem Funktionsaufruf des [Experience Cloud ID-Dienstes](https://docs.adobe.com/content/help/de-DE/id-service/using/intro/about-id-service.html), der Kunden-IDs an die Experience Cloud sendet. |
+| Kunden-ID | Keine festgeschriebene Verwendung. | Die ID, die von einem Experience Platform Co-op Graph-Mitglied verwendet wird, um eine Person zu erkennen. Diese Nummer wird von der Marke zugewiesen und oft in einem CRM-System gepflegt. **Hinweis:** Diese ID sollte nicht mit _setCustomerIDs_ verwechselt werden, dem Funktionsaufruf des [Experience Cloud ID-Dienstes](https://docs.adobe.com/content/help/de-DE/id-service/using/intro/about-id-service.html), der Kunden-IDs an die Experience Cloud sendet. |
 | Inhalt | In Creative Cloud bezieht sich Inhalt auf den Text und die Bilder einer Seite. Dieser Begriff hat in der Creative Cloud und in der Experience Cloud die gleiche Bedeutung. | In der Experience Cloud bezieht sich „Inhalt“ auf Marketing-Inhalte, die im Rahmen einer Kampagne verwendet werden können, um ein bestimmtes Ziel zu unterstützen.<br>Der Inhalt wird in bestimmten Positionen verwendet und kann aus Assets bestehen. Inhalt kann strukturiert (wie Produktinformationen) oder unstrukturiert (wie eine Webseite oder ein Bildschirm einer mobilen Anwendung) sein.<br>Zu den Beispielen gehören:<ul><li>Webseiten</li><li>Banner</li><li>Statusaktualisierungen</li><li>Kommentare</li><li>Textwerbung</li><li>Produktinformationen</li><li>Produktprüfungen</li><li>Formulardaten</li><li>Dokumente in einem Suchindex</li><li>Social-Beiträge</li><li>Artikel</li><li>Veröffentlichungen</li></ul> |
 | Dashboard | Keine festgeschriebene Verwendung. | Eine Sammlung von Datenvisualisierungen, die mehrere Schlüsselmetriken in einer einzelne Ansicht überlagern. |
 | Durchsetzung der Datenverwendung | Keine festgeschriebene Verwendung. | Die Richtlinien, das Systemdesign, die Praktiken und Verfahren, die in einem System (Lösungen, Apps, Dienste, SDKs, APIs usw.) festgelegt und definiert wurden, um mithilfe von Metadaten zur Datenverwendung die Einhaltung der Datenschutzrichtlinien von Adobe, vertragliche Erwägungen und allgemeine Datenschutzgrundsätze zu ermöglichen. |
