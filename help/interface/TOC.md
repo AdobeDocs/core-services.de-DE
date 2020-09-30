@@ -1,20 +1,20 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud-Verwaltung, Zielgruppen und Kundenattribute
-breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
+user-guide-title: Experience Cloud Application Services und Administration
+breadcrumb-title: Experience Cloud Application Services and Administration
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 96%
 
 ---
 
 
-# Experience Cloud-Verwaltung, Zielgruppen und Kundenattribute {#interface}
+# Experience Cloud Application Services and Administration {#interface}
 
 + [Experience Cloud-Verwaltung, Zielgruppen und Kundenattribute](experience-cloud.md)
 + Anwendungsdienste in Experience Cloud {#about-core-services}
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Erstanbieter-Cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies in Analytics](cookies/cookies-analytics.md)
    + [Cookies in Audience Manager](cookies/cookies-am.md)
-   + [Cookies in [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies in [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies in [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies in [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies in [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies in [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies in [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies in [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies in [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies in [[!DNL Target] ](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
