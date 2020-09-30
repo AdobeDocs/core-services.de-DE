@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
 
-# Experience Cloud-Verwaltung, Audiencen und Kundenattribute
+# Experience Cloud-Verwaltung, Zielgruppen und Kundenattribute
 
 Die Experience Cloud ist die integrierte Adobe-Familie mit Digital Marketing-Lösungen und -Diensten. Es handelt sich dabei zudem um eine intuitive Benutzeroberfläche, mit der Sie schnell auf Ihre Cloud-Lösungen und zentralen Dienste zugreifen können.
 
