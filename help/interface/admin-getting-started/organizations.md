@@ -41,7 +41,7 @@ In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Lösungen un
 
 1. Befolgen Sie die Anweisungen in Ihrer E-Mail-Einladung zur Experience Cloud.
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
-1. Klicken Sie auf die Lösungsauswahl. ( ![](assets/menu-icon.png)).
+1. Klicken Sie auf die Lösungsauswahl. (![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
