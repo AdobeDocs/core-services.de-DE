@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics,Target
 title: Experience Cloud-Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '368'
+ht-degree: 79%
 
 ---
 
@@ -49,6 +49,10 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
    <td colname="col1"> <p> Größe </p> </td> 
    <td colname="col2"> <p>45 Byte </p> </td> 
   </tr> 
+  <tr> 
+   <td colname="col1"> <p> SameSite=Lax </p> </td> 
+   <td colname="col2"> <p>Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domäne mit der Domäne des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -85,6 +89,10 @@ Siehe auch [Cookies und der ID-Dienst](https://docs.adobe.com/content/help/de-DE
   <tr> 
    <td colname="col1"> <p> Größe </p> </td> 
    <td colname="col2"> <p> Variiert. Die meisten Kunden können davon ausgehen, dass dieses Cookie etwa 200 Byte lang ist. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Kein zusätzlicher Wert. Chrome wird standardmäßig auf Lax eingestellt. </p> </td> 
+   <td colname="col2"> <p> Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domäne mit der Domäne des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
