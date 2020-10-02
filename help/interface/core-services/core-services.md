@@ -6,16 +6,16 @@ seo-title: Experience Cloud-Lösungen für Kundenattribute und Audiences aktivie
 solution: Experience Cloud
 title: Lösungen für zentrale Dienste aktivieren
 index: true
-translation-type: ht
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
-workflow-type: ht
-source-wordcount: '2402'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '2403'
+ht-degree: 99%
 
 ---
 
 
-# Implementierung für lösungsübergreifende Dienste aktivieren
+# Implementierung für Experience Cloud Services aktivieren
 
 Wenn Sie kürzlich Experience Cloud mit Experience Platform Launch implementiert haben, sind Sie bereits für Kundenattribute und Experience Cloud-Audiences eingerichtet. Sie können auch Benutzer und Produkte in der Admin Console verwalten.
 
