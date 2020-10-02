@@ -1,15 +1,15 @@
 ---
 description: Lernen Sie die Benutzer und -Produktverwaltung von Adobe Experience Cloud, Personen (Audiences und Kundenattribute), Journey Orchestration, Angebote, Places, Experience Platform Launch und Mobile Services kennen.
 seo-description: Lernen Sie die Benutzer und -Produktverwaltung von Adobe Experience Cloud, Personen (Audiences und Kundenattribute), Angebote, Experience Platform Launch und Mobile Services kennen.
-seo-title: Zentrale Experience Cloud-Dienste und Benutzerverwaltung
+seo-title: Experience Cloud-Services und Benutzerverwaltung
 solution: Experience Cloud
-title: Über zentrale Experience Cloud-Dienste
+title: Informationen zu Experience Cloud-Diensten
 index: true
-translation-type: ht
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 98%
 
 ---
 
@@ -38,4 +38,4 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Location Service](https://docs.adobe.com/content/help/de-DE/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) ist ein Standortdienst, mit dem Apps mit Standorterkennung den Standortkontext nachvollziehen können. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit Zielpunkten (POIs) verwendet. |
 | [Exchange](exchange.md) | Suchen, Durchsuchen, Auswählen, Bezahlen und Herunterladen von Digital Marketing-Erweiterungen über Apps. |
 | [Mobile Services](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html) | Adobe Mobile Services führen mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud zusammen, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer mobilen Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. |
-| People | Erstellen Sie eine umfassende Ansicht einzelner Kunden, indem Sie Adobe- und Nicht-Adobe-Daten in Ihre Experience Cloud-Lösungen einbinden. Finden Sie heraus, was ihnen am wichtigsten ist, wenn sie über Berührungspunkte hinweg interagieren. Erkennen Sie vertraute Kunden bei ihrem Besuch von unbekannten Geräten aus. Für zielgerichtete Marketing-Maßnahmen können Sie sogar Benutzer in Audiences gruppieren.<br>[Audiences](audience-library/audience-library.md) – Kategorisieren verschiedener Kundentypen in Audiences und diese Audiences über Experience Cloud-Lösungen freigeben.<br>[Kundenattribute](attributes/attributes.md) – Eine Erweiterung der Zielgruppe, mit der Sie eine Verbindung mit Kundeninformationen herstellen können, die außerhalb von Experience Cloud erfasst wurden.<br>[Gerätediagramm](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Zusammenarbeit mit den weltweit beliebtesten Marken, um einen bekannten Kunden hinter einem unbekannten Gerät zu erkennen. (In der Beta-Version, nur für Experience Cloud Device Co-op-Mitglieder) |
+| People | Erstellen Sie eine umfassende Ansicht einzelner Kunden, indem Sie Adobe- und Nicht-Adobe-Daten in Ihre Experience Cloud-Lösungen einbinden. Finden Sie heraus, was ihnen am wichtigsten ist, wenn sie über Berührungspunkte hinweg interagieren. Erkennen Sie vertraute Kunden bei ihrem Besuch von unbekannten Geräten aus. Für zielgerichtete Marketing-Maßnahmen können Sie sogar Benutzer in Audiences gruppieren.<br>[Audiences](audience-library/audience-library.md) – Kategorisieren verschiedener Kundentypen in Audiences und diese Audiences über Experience Cloud-Lösungen freigeben.<br>[Kundenattribute](attributes/attributes.md) – Eine Erweiterung der Zielgruppe, mit der Sie eine Verbindung mit Kundeninformationen herstellen können, die außerhalb von Experience Cloud erfasst wurden.<br>[Gerätediagramm](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Zusammenarbeit mit den weltweit beliebtesten Marken, um einen bekannten Kunden hinter einem unbekannten Gerät zu erkennen. |
