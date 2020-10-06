@@ -1,16 +1,16 @@
 ---
-description: Selbsthilfe, Produktdokumentation und technische Dokumentation für die Adobe Experience Cloud. Enthält Benutzer- und Produktverwaltung in der Admin Console, die Aktivierung von Lösungen für Plattformdienste sowie Hilfe zur Audience-Bibliothek, zu Kundenattributen, Experience Cloud-Assets und mehr.
+description: Selbsthilfe, Produktdokumentation und technische Dokumentation für Adobe Experience Cloud. Enthält Benutzer- und Produktverwaltung in der Admin Console, die Aktivierung von Lösungen für Plattformdienste sowie Hilfe zur Zielgruppenbibliothek, zu Kundenattributen, Experience Cloud-Kreativelementen und mehr.
 keywords: platform services
-seo-description: Hilfe zur Benutzer- und Produktverwaltung in der Admin Console, Aktivierung von Lösungen für Plattformdienste und Hilfe zur Audience-Bibliothek, zu Kundenattributen, Experience Cloud-Assets und mehr.
-seo-title: Hilfe und Produktdokumentation zu Adobe Experience Cloud- und Plattformdiensten.
+seo-description: Hilfe zur Benutzer- und Produktverwaltung in der Admin Console, Aktivierung von Lösungen für Plattformdienste und Hilfe zur Zielgruppenbibliothek, zu Kundenattributen, Experience Cloud-Kreativelementen und mehr.
+seo-title: Hilfe und Produktdokumentation zu Adobe Experience Cloud und den Plattformdiensten.
 solution: Experience Cloud
-title: Hilfe zu Experience Cloud- und Plattformdiensten
+title: Hilfe für Experience Cloud und die Plattformdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 75%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ Die Experience Cloud ist die integrierte Adobe-Familie mit Digital Marketing-Lö
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Dieses Handbuch bietet Zugriff auf Hilfe zu Experience Cloud-Benutzern und Produktverwaltung in der Admin Console und ermöglicht Lösungen für Plattformdienste. Sie können auch auf die Hilfe über die Audience-Bibliothek, Kundenattribute, Experience Cloud-Assets und mehr zugreifen:
+Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -Produkten in der Admin Console und ermöglicht Lösungen für Plattformdienste. Sie können auch auf die Hilfe über die Zielgruppenbibliothek, Kundenattribute, Experience Cloud-Kreativelemente und mehr zugreifen:
 
 * [[!UICONTROL Zielgruppenbibliothek]](audience-library/audience-library.md)
 * [[!UICONTROL Kundenattribute]](attributes/attributes.md)
