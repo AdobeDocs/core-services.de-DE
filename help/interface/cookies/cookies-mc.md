@@ -6,11 +6,11 @@ seo-title: Experience Cloud-Cookies
 solution: Experience Cloud,Analytics,Target
 title: Experience Cloud-Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domäne mit der Domäne des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome.</p> </td> 
+   <td colname="col2"> <p>Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domain mit der Domain des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,8 +91,8 @@ Siehe auch [Cookies und der ID-Dienst](https://docs.adobe.com/content/help/de-DE
    <td colname="col2"> <p> Variiert. Die meisten Kunden können davon ausgehen, dass dieses Cookie etwa 200 Byte lang ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Kein zusätzlicher Wert. Chrome wird standardmäßig auf Lax eingestellt. </p> </td> 
-   <td colname="col2"> <p> Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domäne mit der Domäne des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome. </p> </td> 
+   <td colname="col1"> <p>Kein Wert hinzugefügt. Chrome wird standardmäßig auf Lax eingestellt. </p> </td> 
+   <td colname="col2"> <p> Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domain mit der Domain des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
