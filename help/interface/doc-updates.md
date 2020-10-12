@@ -1,14 +1,14 @@
 ---
-description: Informationen zu den Aktualisierungen der Experience Cloud-Hilfe
+description: Informationen zu den Aktualisierungen der Experience Cloud-Hilfe.
 keywords: Experience Cloud services
-seo-description: Informationen zu den Aktualisierungen der Experience Cloud-Hilfe
+seo-description: Informationen zu den Aktualisierungen der Experience Cloud-Hilfe.
 seo-title: Aktualisierungen der Dokumentation – Experience Cloud
 solution: Experience Cloud
 title: Aktualisierungen der Dokumentation – Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
 ht-degree: 100%
 
