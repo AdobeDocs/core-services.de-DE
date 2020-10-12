@@ -6,11 +6,11 @@ seo-title: Experience Cloud-Lösungen für Kundenattribute und Audiences aktivie
 solution: Experience Cloud
 title: Lösungen für zentrale Dienste aktivieren
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2403'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -136,7 +136,7 @@ Vergewissern Sie sich, dass Sie die regionale Datenerfassung (RDC) verwenden. We
 
 Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktualisierung Ihrer JavaScript-Bibliotheken einschließlich der Besucher-API. Am einfachsten erreichen Sie eine solche Modernisierung durch Hinzufügen des Tools [!DNL Adobe Analytics] im Dynamic Tag Management (DTM), das *`Automatic`* als Konfigurationsmethode angibt.
 
-Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **`<Web Property Name>`**  > **[!UICONTROL Übersicht]** > **[!UICONTROL Tool hinzufügen]** > **[!UICONTROL Adobe Analytics]**. Informationen zur Implementierung finden Sie unter [Adobe Analytics-Einstellungen](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html) im Dynamic Tag Management.
+Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **`<Web Property Name>`** > **[!UICONTROL Übersicht]** > **[!UICONTROL Tool hinzufügen]** > **[!UICONTROL Adobe Analytics]**. Informationen zur Implementierung finden Sie unter [Adobe Analytics-Einstellungen](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html) im Dynamic Tag Management.
 
 ## Schritt 5. (Adobe Target) Aktualisieren der Adobe Target-Implementierung {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
