@@ -1,20 +1,20 @@
 ---
-description: Verwalten Sie die Übertragung von Besucherdaten in die Zielgruppensegmentierung in der Experience Cloud-Zielgruppenbibliothek.
-seo-description: Verwalten Sie die Übertragung von Besucherdaten in die Zielgruppensegmentierung in der Experience Cloud-Zielgruppenbibliothek.
-seo-title: Übersicht über Experience Cloud-Zielgruppen
+description: Verwalten Sie die Übersetzung von Besucher-Daten in die Segmentierung von Audiencen im Experience Cloud Audience-Dienst.
+seo-description: Verwalten Sie die Übersetzung von Besucher-Daten in die Segmentierung von Audiencen im Experience Cloud Audience-Dienst.
+seo-title: Experience Cloud Audiencen-Dienst
 solution: Experience Cloud
-title: Übersicht über Experience Cloud-Zielgruppen
+title: 'Experience Cloud-Zielgruppen '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+workflow-type: tm+mt
+source-wordcount: '835'
+ht-degree: 96%
 
 ---
 
 
-# Übersicht über Experience Cloud-Zielgruppen {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud-Zielgruppen {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Über die Zielgruppenbibliothek von Adobe können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten. Auf diese Weise erfolgt die Erstellung und Verwaltung von Zielgruppen so ähnlich wie die Erstellung und Verwendung von Segmenten, mit dem zusätzlichen Vorteil, dass die Zielgruppensegmente für Produkte und Dienste in [!DNL Experience Cloud] freigegeben werden können.
 
