@@ -6,11 +6,11 @@ seo-title: Erstellen einer Zielgruppe
 solution: Experience Cloud
 title: Erstellen einer Zielgruppe
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Jeder Kreis steht für eine Regel, die die Mitgliedschaft in einer Zielgruppe de
 >
 >Die Zielgruppe ist erst nach Ablauf des für die Datenerfassung angegebenen Zeitraums vollständig definiert.
 
-Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erstellt werden. Diese Audience setzt sich zusammen aus:
+Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erstellt werden. Diese Zielgruppe umfasst Folgendes:
 
 * Abschnitt „Home &amp; Garden“, der von Seitendaten oder Analyse-Rohdaten abgeleitet wurde.
 * Chrome- und Safari-Benutzer, die einem [!DNL Adobe Analytics]-Segment entnommen wurden, das in der [!DNL Experience Cloud] [veröffentlicht](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) wurde.
@@ -43,14 +43,14 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
    ![](assets/audience_create.png)
 
 1. Klicken Sie in der [!DNL Experience Cloud] unter [!DNL Experience Platform] auf **[!UICONTROL Personen]** > **[!UICONTROL Zielgruppenbibliothek].**
-1. Klicken Sie auf der Seite [!UICONTROL „Zielgruppen“] auf **[!UICONTROL Neu]**. ![](assets/add_icon_small.png)
+1. Klicken Sie auf der Seite „[!UICONTROL Zielgruppen]“ auf **[!UICONTROL Neu]**. ![](assets/add_icon_small.png)
 
    ![Schritt Ergebnis](assets/audience_create_new.png)
 
 1. Geben Sie auf der Seite [!UICONTROL Neue Zielgruppe erstellen] einen Titel und eine Beschreibung an.
 1. Wählen Sie unter [!UICONTROL Regeln] eine Attributquelle aus:
 
-   * **[!UICONTROL Analytics-Echtzeitdaten (oder Rohdaten):]** Hierbei handelt es sich um Attributdaten, die aus Echtzeit-Bildanfragen an Analytics gewonnen werden und Daten wie eVars und Ereignisse enthalten. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
+   * **[!UICONTROL Real-Time Analytics-daten:]** Hierbei handelt es sich um Attributdaten, die aus Echtzeit-Bildanfragen an Analytics gewonnen werden und Daten wie eVars und Ereignisse enthalten. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
    >[!NOTE]
    >
    >Aufgrund der Caching-Funktion wird die Löschung von Report Suites in Analytics erst nach 12 Stunden durch Experience Cloud übernommen.
