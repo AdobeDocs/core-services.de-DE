@@ -5,11 +5,11 @@ seo-title: Experience Cloud-Zielgruppendienst
 solution: Experience Cloud
 title: 'Experience Cloud-Zielgruppen '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Zielgruppen können aus verschiedenen Quellen erstellt bzw. abgeleitet werden:
 * Aus [!DNL Analytics]-Segmenten, die in der [!DNL Experience Cloud] veröffentlicht werden
 * Aus [!DNL Audience Manager]
 
-**Real-Time versus Historische Audiencen**
+**Echtzeit- und historische Zielgruppen**
 
 Alle Zielgruppen stehen unabhängig von ihrer Quelle für Echtzeit-Targeting zur Verfügung. Zielgruppen, die in Analytics für Audience Manager freigegeben wurden, sind jedoch für Echtzeit-Targeting nicht verfügbar. Das System bewertet Zielgruppen auf zweierlei Weise:
 
