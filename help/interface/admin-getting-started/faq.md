@@ -1,31 +1,31 @@
 ---
-description: Browserunterstützung, häufig gestellte Fragen und Antworten für Administratoren im Experience Cloud.
+description: Browser-Unterstützung, Fragen, die Administratoren der Experience Cloud häufig stellen, und Antworten darauf.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Browserunterstützung, häufig gestellte Fragen und Antworten für Administratoren im Experience Cloud.
+seo-description: Browser-Unterstützung, Fragen, die Administratoren der Experience Cloud häufig stellen, und Antworten darauf.
 seo-title: Häufig gestellte Fragen zu den zentralen Experience Cloud-Diensten.
 solution: Experience Cloud
 title: Häufig gestellte Fragen
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Häufig gestellte Fragen zu Experience Cloud
 
-Erfahren Sie mehr über Browserunterstützung und häufig gestellte Fragen und Antworten für Administratoren im Experience Cloud.
+Erfahren Sie mehr über Browser-Unterstützung und häufig gestellte Fragen und Antworten für Administratoren in Experience Cloud.
 
 ## Welche Browser werden in Experience Cloud unterstützt?
 
-* Microsoft Edge (aktuelle und frühere zwei Versionen)
-* Google Chrome (aktuelle und frühere zwei Versionen)
-* Mozilla Firefox (aktuelle und frühere zwei Versionen)
-* Safari (aktuelle und frühere zwei Versionen)
-* Opera (aktuelle und frühere zwei Versionen)
+* Microsoft Edge (aktuelle und die vorherigen zwei Versionen)
+* Google Chrome (aktuelle und die vorherigen zwei Versionen)
+* Mozilla Firefox (aktuelle und die vorherigen zwei Versionen)
+* Safari (aktuelle und die vorherigen zwei Versionen)
+* Opera (aktuelle und die vorherigen zwei Versionen)
 
 ## Wie finde ich heraus, ob für meine Lösungen Hauptdienste aktiviert sind?
 
