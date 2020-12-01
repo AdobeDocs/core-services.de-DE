@@ -6,9 +6,9 @@ user-guide-description: Die Adobe Experience Cloud-Services und Administration-A
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 98%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 98%
    + [Erstanbieter-Cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies in Analytics](cookies/cookies-analytics.md)
    + [Cookies in Audience Manager](cookies/cookies-am.md)
-   + [Cookies in [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies in [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies in [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies in [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies in [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies in [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies in [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies in [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies in [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies in [[!DNL Target] ](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
@@ -59,11 +59,11 @@ ht-degree: 98%
    + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
 + Experience Cloud-Zielgruppenbibliothek {#audiences}
-   + [Experience Cloud Audiencen-Dienst](audience-library/audience-library.md)
+   + [Experience Cloud-Zielgruppendienst](audience-library/audience-library.md)
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
 + Experience Cloud-Kundenattribute {#customer-attributes}
-   + [Kundenattributdienst](attributes/attributes.md)
+   + [Kundenattribute in Adobe Experience Cloud](attributes/attributes.md)
    + [Häufig gestellte Fragen, Einschränkungen und Best Practices](attributes/faq-crs.md)
    + [Informationen zur Datendatei und zu den Datenquellen für Kundenattribute](attributes/crs-data-file.md)
    + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](attributes/t-crs-usecase.md)
