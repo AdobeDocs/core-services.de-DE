@@ -1,36 +1,36 @@
 ---
-description: Verwalten Sie die Übertragung von Besucherdaten in die Zielgruppensegmentierung im Experience Cloud-Zielgruppendienst.
+description: Erfahren Sie, wie Sie die Übersetzung von Besucher-Daten in die Segmentierung von Audiencen im Adobe Experience Cloud Audience-Dienst verwalten.
 seo-description: Verwalten Sie die Übertragung von Besucherdaten in die Zielgruppensegmentierung im Experience Cloud-Zielgruppendienst.
 seo-title: Experience Cloud-Zielgruppendienst
 solution: Experience Cloud
-title: 'Experience Cloud-Zielgruppen '
+title: 'Adobe Experience Cloud-Audiencen '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 93%
 
 ---
 
 
 # Experience Cloud-Zielgruppen {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Über die Zielgruppenbibliothek von Adobe können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten. Auf diese Weise erfolgt die Erstellung und Verwaltung von Zielgruppen so ähnlich wie die Erstellung und Verwendung von Segmenten, mit dem zusätzlichen Vorteil, dass die Zielgruppensegmente für Produkte und Dienste in [!DNL Experience Cloud] freigegeben werden können.
+Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Über die Zielgruppenbibliothek von Adobe können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten. Das Erstellen und Verwalten von Audiencen ist daher ähnlich wie das Erstellen und Verwenden von Segmenten. Sie können das Segment &quot;Audience&quot;auch für Produkte und Dienste in freigeben [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
 Zielgruppen können aus verschiedenen Quellen erstellt bzw. abgeleitet werden:
 
 * In der [!DNL Experience Cloud] neu erstellt
-* Aus [!DNL Analytics]-Segmenten, die in der [!DNL Experience Cloud] veröffentlicht werden
-* Aus [!DNL Audience Manager]
+* [!DNL Analytics] Segmente, die für [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **Echtzeit- und historische Zielgruppen**
 
 Alle Zielgruppen stehen unabhängig von ihrer Quelle für Echtzeit-Targeting zur Verfügung. Zielgruppen, die in Analytics für Audience Manager freigegeben wurden, sind jedoch für Echtzeit-Targeting nicht verfügbar. Das System bewertet Zielgruppen auf zweierlei Weise:
 
-* Historische Zielgruppen aus Analytics werden alle 4 Stunden ausgewertet. Die Gesamtdauer für die Verarbeitung und Freigabe kann bis zu 8 Stunden dauern.  Historische Zielgruppen beinhalten immer wiederkehrende Besucher.
+* Historische Zielgruppen aus Analytics werden alle 4 Stunden ausgewertet. Die Gesamtdauer für die Verarbeitung und Freigabe kann bis zu 8 Stunden dauern. Historische Zielgruppen beinhalten immer wiederkehrende Besucher.
 * Echtzeit-Zielgruppen werden in den Experience Cloud Audiences ermittelt und in Echtzeit ausgewertet.
 
 ## So werden Zielgruppen in Lösungen verwendet {#concept_01EB9345C5344597BC94A864EDD38EE1}
