@@ -1,9 +1,9 @@
 ---
 title: Veröffentlichen eines Analytics-Zielgruppensegments
 description: Für Ihre Zielgruppen-Marketingaktivitäten müssen Sie ein Analytics-Zielgruppensegment in der Experience Cloud und in Adobe Target veröffentlichen.
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 631cf29b724c6edd8027c772789df72ae2ab5eb8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '62'
 ht-degree: 100%
 
