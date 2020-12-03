@@ -6,9 +6,9 @@ seo-title: Experience Cloud-Lösungen für Kundenattribute und Audiences aktivie
 solution: Experience Cloud
 title: Lösungen für zentrale Dienste aktivieren
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 100%
 
