@@ -6,9 +6,9 @@ seo-title: Neue Funktionen in der Experience Cloud
 solution: Experience Cloud
 title: Neue Funktionen in der Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 100%
 
@@ -78,7 +78,7 @@ Viele der Wartungsbenachrichtigungen rund um geplante Wartungs-/Produktaktualisi
 | Funktion | Beschreibung |
 |--- |--- |
 | Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  <br>[Wenn Sie Report Suites](../core-services/core-services.md) einer einzelnen Organisation zuordnen, hilft Ihnen das beim Aktivieren lösungsübergreifender Funktionen und Dienste in der Experience Cloud. |
-| Aktualisierungen für Experience Cloud-Zielgruppen | **Report Suites anwenden **<br>Sie können eine Report Suite nun auf alle Ihre [Zielgruppen-Regeln](../audience-library/t-audience-create.md) anwenden. (Zuvor war es nur möglich, in jeder einzelnen Regeldefinition eine Report Suite festzulegen.)<br>**Eigenschaften und Variablen**<br>Sie können nun Analytics-Eigenschaften und Standardvariablen (zusätzlich zu eVars und Ereignissen) in Echtzeit-Zielgruppen einbeziehen. |
+| Aktualisierungen für Experience Cloud-Zielgruppen | **Report Suites anwenden**<br> Sie können eine Report Suite nun auf alle Ihre [Zielgruppen-Regeln](../audience-library/t-audience-create.md) anwenden. (Zuvor war es nur möglich, in jeder einzelnen Regeldefinition eine Report Suite festzulegen.) <br>**Eigenschaften und Variablen**<br> Sie können nun Analytics-Eigenschaften und Standardvariablen (zusätzlich zu eVars und Ereignissen) in Echtzeit-Zielgruppen einbeziehen. |
 
 ## 8. November 2016 – 16.11.1. {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
