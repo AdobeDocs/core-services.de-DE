@@ -1,9 +1,9 @@
 ---
 title: Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
 description: Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 
