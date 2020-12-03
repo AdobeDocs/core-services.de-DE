@@ -6,9 +6,9 @@ seo-title: Informationen zur Datendatei und den Datenquellen für Kundenattribut
 solution: Experience Cloud
 title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
 
