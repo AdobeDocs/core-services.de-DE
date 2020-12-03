@@ -6,9 +6,9 @@ seo-title: Hilfe und Produktdokumentation zu Adobe Experience Cloud und den Plat
 solution: Experience Cloud
 title: Hilfe für Experience Cloud und die Plattformdienste
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 100%
 
