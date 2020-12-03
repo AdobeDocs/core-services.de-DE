@@ -5,9 +5,9 @@ seo-description: Geben Sie Ordner und Assets sowohl in der Experience Cloud als
 seo-title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 solution: Experience Cloud
 title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 100%
 
