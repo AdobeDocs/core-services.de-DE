@@ -1,14 +1,14 @@
 ---
 description: Erfahren Sie, wie Sie Attributregeln verwenden, um eine Audience zu erstellen und eine Composite-Audience in Adobe Experience Cloud zu definieren.
 keywords: core services
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Audience erstellen | Adobe Experience Cloud
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
