@@ -1,16 +1,14 @@
 ---
-description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Zielgruppen.
+description: Erfahren Sie, wie Sie das Adobe Experience Cloud implementieren und Administrator werden.
 keywords: core services;Customer Attributes
-seo-description: Implementieren Sie die Experience Cloud und werden Sie Administrator. Dieser Prozess modernisiert Ihre Lösungen für Funktionen wie Kundenattribute und Zielgruppen.
-seo-title: Experience Cloud-Lösungen für Kundenattribute und Audiences aktivieren
 solution: Experience Cloud
-title: Lösungen für zentrale Dienste aktivieren
+title: Lösungen für Hauptdienste aktivieren | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 100%
+source-wordcount: '2368'
+ht-degree: 99%
 
 ---
 
