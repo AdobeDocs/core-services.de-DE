@@ -1,16 +1,14 @@
 ---
-description: Laden Sie ein Asset aus dem Creative Cloud-Browser in einen freigegebenen Ordner hoch.
+description: So laden Sie ein Asset vom Creative Cloud-Browser in ein Experience Cloud in einen freigegebenen Ordner hoch.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Laden Sie ein Asset aus dem Creative Cloud-Browser in einen freigegebenen Ordner hoch.
-seo-title: Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser
 solution: Experience Cloud
-title: Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser
+title: Hochladen eines Assets in einen freigegebenen Ordner vom Creative Cloud-Browser | Adobe Experience Cloud
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 translation-type: tm+mt
-source-git-commit: 979b2202a70e2a5362aa86a65a17d7c4279b3a1a
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 87%
+source-wordcount: '86'
+ht-degree: 47%
 
 ---
 
