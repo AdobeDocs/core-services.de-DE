@@ -1,14 +1,12 @@
 ---
-description: Viele Dienste in der Adobe Experience Cloud verwenden Cookies. Ein Cookie ist ein kleines Datenelement, das von einer Website einem Webbrowser präsentiert wird. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird bei jeder nachfolgenden Anforderung für Seiten und Bilder ausgeführt.
-seo-description: Viele Dienste in der Adobe Experience Cloud verwenden Cookies. Ein Cookie ist ein kleines Datenelement, das von einer Website einem Webbrowser präsentiert wird. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird bei jeder nachfolgenden Anforderung für Seiten und Bilder ausgeführt.
-seo-title: Cookies in Experience Cloud
-title: Cookies in Experience Cloud
+description: Erfahren Sie, wie Lösungen und Dienste in Adobe Experience Cloud Cookies verwenden.
+title: Verwendung von Cookies in Experience Cloud | Adobe Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 88%
 
 ---
 
