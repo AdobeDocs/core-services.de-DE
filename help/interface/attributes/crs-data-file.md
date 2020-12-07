@@ -1,16 +1,14 @@
 ---
-description: Datendateianforderungen und mehrere Datenquellen für das Hochladen von Kundenattributen in der Experience Cloud.
+description: Datendateianforderungen und mehrere Datenquellen zum Hochladen von Kundenattributen auf das Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Datendateianforderungen und mehrere Datenquellen für das Hochladen von Kundenattributen in der Experience Cloud.
-seo-title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
 solution: Experience Cloud
-title: Informationen zur Datendatei und den Datenquellen für Kundenattribute
+title: Informationen zu Datendateien und Datenquellen für Kundenattribute | Adobe Experience Cloud
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 100%
+source-wordcount: '1199'
+ht-degree: 97%
 
 ---
 
