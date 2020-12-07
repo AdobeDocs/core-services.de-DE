@@ -1,16 +1,14 @@
 ---
-description: Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe arbeitet mit mehreren Datenschutzbehörden und nach mehreren Selbstregulierungsgrundsätzen (wie dem Digital Advertising Alliance AdChoices-Programm), um Kunden Informationen über die Verwendung ihrer Informationen und die Wahl ihrer Verwendung zu liefern.
+description: Erfahren Sie mehr über Cookies und Datenschutz in Adobe Experience Cloud-Lösungen und -Diensten.
 keywords: cookies;privacy
-seo-description: Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe arbeitet mit mehreren Datenschutzbehörden und nach mehreren Selbstregulierungsgrundsätzen (wie dem Digital Advertising Alliance AdChoices-Programm), um Kunden Informationen über die Verwendung ihrer Informationen und die Wahl ihrer Verwendung zu liefern.
-seo-title: Informationen über Cookies und Datenschutz
 solution: Experience Cloud,Analytics,Target
-title: Informationen über Cookies und Datenschutz
+title: Cookies und Datenschutz | Adobe Experience Cloud
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 94%
 
 ---
 
