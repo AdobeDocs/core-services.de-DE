@@ -1,23 +1,21 @@
 ---
-description: Kundenattribute – häufig gestellte Fragen und Best Practices für Adobe Analytics und Adobe Target.
+description: Häufig gestellte Fragen zu Kundenattributen in Adobe Experience Cloud, für Adobe Analytics und Adobe Target.
 keywords: Customer Attributes
-seo-description: Häufig gestellte Fragen zu und Best Practices für Kundenattribute in Analytics und Target.
-seo-title: Häufig gestellte Fragen, Einschränkungen und Best Practices
-solution: Experience Cloud
-title: Kundenattribute – häufig gestellte Fragen zu Adobe Experience Cloud
+solution: Adobe Experience Cloud
+title: Antworten auf häufig gestellte Fragen zu Kundenattributen | Adobe Experience Cloud
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1236'
+ht-degree: 96%
 
 ---
 
 
 # Häufig gestellte Fragen, Einschränkungen und Best Practices
 
-Häufig gestellte Fragen zu und Best Practices für Kundenattribute in Analytics und Target.
+Häufig gestellte Fragen und Best Practices zu Kundenattributen in Adobe Analytics und Adobe Target.
 
 ## Best Practices und Einschränkungen {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
