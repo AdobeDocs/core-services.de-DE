@@ -1,15 +1,13 @@
 ---
 description: Erfahren Sie mehr über Organisationen und das Verknüpfen von Lösungskonten mit der Experience Cloud.
-keywords: core services
-seo-description: Erfahren Sie mehr über Organisationen und das Verknüpfen von Lösungskonten mit der Experience Cloud.
-seo-title: Organisationen und Kontoverknüpfung
-solution: Experience Cloud
-title: Organisationen und Kontoverknüpfung
+keywords: Adobe Experience Cloud services
+solution: Adobe Experience Cloud
+title: Organisationen und Kontoverknüpfung | Adobe Experience Cloud
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
