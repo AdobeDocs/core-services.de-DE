@@ -1,16 +1,14 @@
 ---
-description: Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von Benutzerberechtigungen und Produktprofilen für Experience Cloud und über die Browser-Unterstützung.
-keywords: core services
-seo-description: Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von Benutzerberechtigungen und Produktprofilen für Experience Cloud und über die Browser-Unterstützung.
-seo-title: Verwalten von Experience Cloud-Benutzern und -produkten
-solution: Experience Cloud
-title: Verwalten von Experience Cloud-Benutzern und -produkten
+description: Erfahren Sie mehr über die Anmeldung beim Adobe Admin Console, die Verwaltung von Experience Cloud-Benutzerberechtigungen und Produkt-Profilen sowie die Browserunterstützung.
+keywords: Experience Cloud services
+solution: Adobe Experience Cloud
+title: Erfahren Sie, wie Sie Benutzer und Produkte verwalten | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 100%
+source-wordcount: '1435'
+ht-degree: 97%
 
 ---
 
