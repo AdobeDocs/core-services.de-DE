@@ -1,15 +1,13 @@
 ---
-description: Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Lösungen und Dienste zu reduzieren.
-seo-description: Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Lösungen und Dienste zu reduzieren.
-seo-title: Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste
+description: Implementieren der DNS-Vorab-Abfrage, um die Seitenladezeit bei verschiedenen Lösungen und Diensten in Adobe Experience Cloud zu reduzieren.
 solution: Experience Cloud
-title: Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste
+title: Verwendung der DNS-Vorab-Abfrage mit verschiedenen Lösungen und Diensten | Adobe Experience Cloud
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 91%
 
 ---
 
