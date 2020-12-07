@@ -1,22 +1,20 @@
 ---
-description: Geben Sie Ordner und Assets sowohl in der Experience Cloud als auch in der Creative Cloud frei. Arbeiten Sie zusammen, kommentieren Sie freigegebene Assets und verwenden Sie sie in Experience Cloud-Lösungen wie Adobe Social und Adobe Target. Der freigegebene Ordner muss aus der Experience Cloud stammen.
+description: 'Erfahren Sie, wie Sie Ordner und Assets zwischen Experience Cloud und Creative Cloud freigeben. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Geben Sie Ordner und Assets sowohl in der Experience Cloud als auch in der Creative Cloud frei. Arbeiten Sie zusammen, kommentieren Sie freigegebene Assets und verwenden Sie sie in Experience Cloud-Lösungen wie Adobe Social und Adobe Target. Der freigegebene Ordner muss aus der Experience Cloud stammen.
-seo-title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 solution: Experience Cloud
-title: Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
+title: Freigeben von Experience Cloud-Ordnern und Assets mit Creative Cloud | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 75%
 
 ---
 
 
 # Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 
-Geben Sie Ordner und Assets sowohl in der Experience Cloud als auch in der Creative Cloud frei. Arbeiten Sie zusammen, kommentieren Sie freigegebene Assets und verwenden Sie sie in Experience Cloud-Lösungen wie Adobe Social und Adobe Target. Der freigegebene Ordner muss aus der Experience Cloud stammen.
+Freigeben von Ordnern und Assets zwischen Experience Cloud und Creative Cloud Arbeiten Sie zusammen, kommentieren Sie freigegebene Assets und verwenden Sie sie in Experience Cloud-Lösungen wie Adobe Social und Adobe Target. Der freigegebene Ordner muss von Experience Cloud stammen.
 
 ## Vorteile der Freigabe {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
