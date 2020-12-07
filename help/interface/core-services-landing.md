@@ -3,10 +3,10 @@ description: Lernen Sie die Benutzer und -Produktverwaltung von Adobe Experience
 solution: Experience Cloud
 title: Übersicht über Experience Cloud-Services | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,9 @@ ht-degree: 98%
 
 Zu den Adobe Experience Cloud-Diensten zählen [!UICONTROL People] (Audiences und Kundenattribute), Experience Platform Launch und Mobile Services. Hilfe zur Benutzer- und Produktverwaltung in Experience Cloud ist ebenfalls verfügbar.
 
-Um auf diese Dienste in Experience Cloud zuzugreifen, klicken Sie auf die **[!UICONTROL Anwendungsauswahl]** ![](assets/menu-icon.png).
+Um auf diese Dienste in Experience Cloud zuzugreifen, klicken Sie auf die **[!UICONTROL Anwendungsauswahl]**
+
+![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
