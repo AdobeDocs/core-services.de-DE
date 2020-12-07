@@ -1,16 +1,14 @@
 ---
-description: Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.). Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur Überprüfung aller zukünftigen Daten verwendet, die in diese Datenquelle hochgeladen werden. Dieser Zuordnungsprozess ändert die Originaldaten nicht.
-keywords: Customer Attributes;core services
-seo-description: Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.). Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur Überprüfung aller zukünftigen Daten verwendet, die in diese Datenquelle hochgeladen werden. Dieser Zuordnungsprozess ändert die Originaldaten nicht.
-seo-title: Prüfen des Schemas
+description: Erfahren Sie, wie Sie das Kundenattribut-Schema in Adobe Experience Cloud validieren.
+keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
-title: Prüfen des Schemas
+title: Validieren des Schemas zum Kundenattribut | Adobe Experience Cloud
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 95%
 
 ---
 
