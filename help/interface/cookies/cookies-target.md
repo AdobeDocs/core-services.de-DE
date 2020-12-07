@@ -1,16 +1,14 @@
 ---
-description: Target verwendet Cookies, um Betreibern von Websites die Möglichkeit zu geben, die Relevanz von Online-Inhalten und -Angeboten für Besucher zu testen.
+description: Erfahren Sie, wie Adobe Target Cookies verwendet, um Website-Betreibern die Möglichkeit zu geben, zu testen, welche Online-Inhalte und Angebot für Besucher relevanter sind.
 keywords: cookies;privacy
-seo-description: Target verwendet Cookies, um Betreibern von Websites die Möglichkeit zu geben, die Relevanz von Online-Inhalten und -Angeboten für Besucher zu testen.
-seo-title: Cookies in Target
 solution: Experience Cloud,Analytics,Target,Social
-title: Cookies in Target
+title: Verwendung von Adobe Target-Cookies | Adobe Experience Cloud
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 87%
 
 ---
 
