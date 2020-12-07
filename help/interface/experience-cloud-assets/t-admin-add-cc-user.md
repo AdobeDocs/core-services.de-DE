@@ -1,16 +1,14 @@
 ---
-description: 'Verwaltungstools für die Verwaltung genehmigter Creative Cloud-Benutzer '
+description: 'Erfahren Sie mehr über Verwaltungstools für die Verwaltung von Benutzern mit genehmigtem Creative Cloud in Experience Cloud. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: 'Verwaltungstools für die Verwaltung genehmigter Creative Cloud-Benutzer '
-seo-title: Verwaltung der Creative Cloud-Benutzer
 solution: Experience Cloud
-title: Verwaltung der Creative Cloud-Benutzer
+title: Verwalten von Creative Cloud-Benutzern | Adobe Experience Cloud
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 46%
+source-wordcount: '122'
+ht-degree: 28%
 
 ---
 
