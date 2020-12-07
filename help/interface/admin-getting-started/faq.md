@@ -1,16 +1,14 @@
 ---
-description: Browser-Unterstützung, Fragen, die Administratoren der Experience Cloud häufig stellen, und Antworten darauf.
+description: Erfahren Sie mehr über die Browserunterstützung und erhalten Sie Antworten auf häufig gestellte Fragen für Administratoren in der Adobe Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Browser-Unterstützung, Fragen, die Administratoren der Experience Cloud häufig stellen, und Antworten darauf.
-seo-title: Häufig gestellte Fragen zu den zentralen Experience Cloud-Diensten.
-solution: Experience Cloud
-title: Häufig gestellte Fragen
+solution: Adobe Experience Cloud
+title: Häufig gestellte Fragen zu Experience Cloud | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 96%
 
 ---
 
