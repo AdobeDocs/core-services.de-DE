@@ -1,23 +1,21 @@
 ---
-description: Zulässige Dateitypen und Größeneinschränkungen für die Freigabe von Assets zwischen der Experience Cloud und der Creative Cloud
+description: Erfahren Sie mehr zu zulässigen Dateitypen und Größenbeschränkungen für die Freigabe von Assets zwischen Adobe Experience Cloud und Creative Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Zulässige Dateitypen und Größeneinschränkungen für die Freigabe von Assets zwischen der Experience Cloud und der Creative Cloud
-seo-title: Dateivoraussetzungen für die Freigabe von Assets
 solution: Experience Cloud
-title: Dateivoraussetzungen für die Freigabe von Assets
+title: Dateianforderungen für die Freigabe von Assets | Adobe Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 67%
+source-wordcount: '125'
+ht-degree: 26%
 
 ---
 
 
-# Dateivoraussetzungen für die Freigabe von Assets
+# Dateianforderungen für die Freigabe von Assets
 
-Zulässige Dateitypen und Größeneinschränkungen für die Freigabe von Assets zwischen der Experience Cloud und der Creative Cloud
+Zulässige Dateitypen und Größenbeschränkungen für die Freigabe von Assets zwischen Experience Cloud und Creative Cloud.
 
 ## Hochladbare Dateitypen {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
