@@ -1,16 +1,14 @@
 ---
-description: Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr und mehr zurückgegangen. Aus diesem Grund hat Adobe an neuen Lösungen gearbeitet, die sowohl den Anforderungen der Kunden als auch dem Recht der Verbraucher auf Privatsphäre in den Adobe Experience Cloud-Lösungen in ausgewogenem Maße Rechnung tragen.
+description: Erfahren Sie, wie die Unterstützung für Drittanbieter-Cookies in Browsern immer eingeschränkt wird.
 keywords: cookies;privacy
-seo-description: Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr und mehr zurückgegangen. Aus diesem Grund hat Adobe an neuen Lösungen gearbeitet, die sowohl den Anforderungen der Kunden als auch dem Recht der Verbraucher auf Privatsphäre in den Adobe Experience Cloud-Lösungen in ausgewogenem Maße Rechnung tragen.
-seo-title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt
 solution: Experience Cloud,Analytics,Target
-title: Wie sich veränderter Drittanbieter-Cookie-Support auf Kunden auswirkt
+title: Auswirkungen von Änderungen an der Cookie-Unterstützung von Drittanbietern auf Kunden | Adobe Experience Cloud
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 91%
 
 ---
 
