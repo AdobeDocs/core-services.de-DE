@@ -1,23 +1,23 @@
 ---
-description: Erfahren Sie mehr über Kundenattribute im Adobe Experience Cloud.
+description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud und wie Sie die Daten zur Verwendung in Analytics und Zielgruppe hochladen.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: Kundenattributdienst | Adobe Experience Cloud
+title: Verwendung von Kundenattributen | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 96%
+source-wordcount: '487'
+ht-degree: 79%
 
 ---
 
 
-# Kundenattribute in Adobe Experience Cloud
+# Verwendung von Kundenattributen in Adobe Experience Cloud
 
-Navigieren Sie zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**.
+Mit Kundenattributen in Adobe Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute im Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
-Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
+To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
 ![](assets/custom_reports.png)
 
@@ -31,7 +31,7 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 
    Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
 
-* **Adobe Target** [!DNL at.js] (beliebige Version) oder [!DNL mbox.js] Version 58 oder höher ist für Kundenattribute erforderlich.
+* **Adobe Target** `at.js` (beliebige Version) oder `mbox.js` Version 58 oder höher ist für Kundenattribute erforderlich.
 
    Siehe [Bereitstellen von at.js](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) oder [Mbox.js-Implementierung](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
@@ -47,7 +47,7 @@ Nach Erstellung der Datendatei können Sie sie in eine Kundenattributquelle hoch
 
 Weitere Informationen zu diesem Arbeitsablauf finden Sie unter [Hochladen von Kundenattributdaten](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-## Anwendungsfälle für Lösungen {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Beispiele für Kundenattribute in Analytics und Zielgruppe {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 Nachdem sich die Daten in der Experience Cloud befinden, können Sie sie anpassen und für Lösungen für Berichte, Segmentierung, Aktivitäten und Kampagnen freigeben.
 
