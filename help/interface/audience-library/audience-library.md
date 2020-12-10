@@ -1,14 +1,13 @@
 ---
 description: Erfahren Sie, wie Sie die Übersetzung von Besucher-Daten in die Segmentierung von Audiencen im Adobe Experience Cloud Audience-Dienst verwalten.
-seo-description: Verwalten Sie die Übertragung von Besucherdaten in die Zielgruppensegmentierung im Experience Cloud-Zielgruppendienst.
-seo-title: Experience Cloud-Zielgruppendienst
 solution: Experience Cloud
+type: Documentation
 title: 'Adobe Experience Cloud-Audiencen '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
+source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '814'
 ht-degree: 93%
 
 ---
