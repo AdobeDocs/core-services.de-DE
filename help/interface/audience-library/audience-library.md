@@ -1,28 +1,28 @@
 ---
-description: Erfahren Sie, wie Sie die Übersetzung von Besucher-Daten in die Segmentierung von Audiencen im Adobe Experience Cloud Audience-Dienst verwalten.
+description: Erfahren Sie, wie Sie im Adobe Experience Cloud Audience-Dienst die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten können.
 solution: Experience Cloud
 type: Documentation
-title: 'Adobe Experience Cloud-Audiencen '
+title: 'Adobe Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
 source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud-Zielgruppen {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Über die Zielgruppenbibliothek von Adobe können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten. Das Erstellen und Verwalten von Audiencen ist daher ähnlich wie das Erstellen und Verwenden von Segmenten. Sie können das Segment &quot;Audience&quot;auch für Produkte und Dienste in freigeben [!DNL Experience Cloud].
+Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Über die Zielgruppenbibliothek von Adobe können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten. Das Erstellen und Verwalten von Audiences ist daher ähnlich wie das Erstellen und Verwenden von Segmenten. Sie können in [!DNL Experience Cloud] das Zielgruppensegment auch für Produkte und Services freigeben.
 
 ![](assets/audiences.png)
 
 Zielgruppen können aus verschiedenen Quellen erstellt bzw. abgeleitet werden:
 
 * In der [!DNL Experience Cloud] neu erstellt
-* [!DNL Analytics] Segmente, die für [!DNL Experience Cloud]
+* [!DNL Analytics]-Segmente, die in [!DNL Experience Cloud] veröffentlicht werden
 * [!DNL Audience Manager]
 
 **Echtzeit- und historische Zielgruppen**
