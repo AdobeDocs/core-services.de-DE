@@ -2,13 +2,13 @@
 description: Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die für alle Experience Cloud-Lösungen genutzt wird.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Experience Cloud-Cookies | Adobe Experience Cloud
+title: 'Experience Cloud-Cookies '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 98%
+source-wordcount: '348'
+ht-degree: 100%
 
 ---
 
