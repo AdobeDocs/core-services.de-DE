@@ -2,13 +2,13 @@
 description: Lernen Sie die verfügbaren Lösungsintegrationen in der Adobe Experience Cloud kennen.
 keywords: integrations
 solution: Experience Cloud
-title: Experience Cloud-Integrationen | Adobe Experience Cloud
+title: 'Experience Cloud-Integrationen '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 99%
+source-wordcount: '1510'
+ht-degree: 100%
 
 ---
 
