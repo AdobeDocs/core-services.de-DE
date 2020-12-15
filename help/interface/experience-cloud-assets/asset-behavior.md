@@ -2,12 +2,12 @@
 description: Erfahren Sie, wie sich freigegebene Ordner beim Verschieben, Löschen und Wiederherstellen in Experience Cloud verhalten.
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
-title: Verhalten freigegebener Ordner | Adobe Experience Cloud
+title: 'Verhalten freigegebener Ordner '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '561'
 ht-degree: 20%
 
 ---
