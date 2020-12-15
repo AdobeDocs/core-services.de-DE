@@ -2,13 +2,13 @@
 description: Erfahren Sie, wie Adobe Analytics mithilfe von Cookies Informationen zu Variablen und Komponenten bereitstellt, die nicht zwischen Bildanforderungen und Browsersitzungen bestehen bleiben.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics
-title: Verwendung von Erstanbieter-Cookies | Adobe Experience Cloud
+title: 'Verwendung von Erstanbieter-Cookies '
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1444'
 ht-degree: 97%
 
 ---
