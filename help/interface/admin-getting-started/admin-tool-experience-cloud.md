@@ -4,9 +4,9 @@ keywords: core services
 solution: Experience Cloud
 title: 'Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
 ht-degree: 100%
 
@@ -114,7 +114,7 @@ Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtl
 Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste anzupassen.
 
 * Suchen Sie nach Produktprofilen mit dem Namen. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
-* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für [!UICONTROL Produktprofil], [!UICONTROL Produkt], [!UICONTROL Instanz], [!UICONTROL Anzahl der Benutzer], [!UICONTROL Anzahl der Entwickler] und  Spalten.
+* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für [!UICONTROL Produktprofil], [!UICONTROL Produkt], [!UICONTROL Instanz], [!UICONTROL Anzahl der Benutzer], [!UICONTROL Anzahl der Entwickler] und Spalten.
 * Klicken Sie auf das Symbol **[!UICONTROL Filtern nach]**, um mehrere Filter anzuwenden und Produktprofile mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge Gruppen, die mit der `AND` Instanzlösung `AND` verknüpft sind.
 
 | Element | Beschreibung |
@@ -130,7 +130,7 @@ Klicken Sie auf der Seite [!UICONTROL Richtlinien] auf den Produktprofilnamen, u
 
 Eine detaillierte Ansicht der einzelnen Produktprofile enthält wichtige Details zu den Personen des Produktprofils (Benutzer, Gruppen usw.). Außerdem werden Zugriffsberechtigungen und Ressourcen angezeigt, die vom Produktprofil aktiviert wurden.
 
-Details des Produktprofils können in CSV-Dateien exportiert werden. Bei der Option [!UICONTROL CSV  exportieren] werden zwei CSV-Dateien erzeugt:
+Details des Produktprofils können in CSV-Dateien exportiert werden. Bei der Option [!UICONTROL CSV exportieren] werden zwei CSV-Dateien erzeugt:
 
 * Personendetails (Benutzer, Benutzergruppen, Entwickler, Integrationen, Administratoren)
 * Informationen zu Berechtigungen und Ressourcen
