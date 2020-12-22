@@ -1,12 +1,12 @@
 ---
-description: Erfahren Sie, wie Sie einer Organisation in Experience Cloud eine oder mehrere Report Suites zuordnen.
+description: Hier erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation in Experience Cloud zuweisen.
 title: 'Report Suites einer Organisation zuweisen '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
