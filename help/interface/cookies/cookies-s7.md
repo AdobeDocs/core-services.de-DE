@@ -1,5 +1,5 @@
 ---
-description: Verwendung von Cookies in Adobe Scene7 zur Speicherung hilfreicher Informationen, die zum Versand von dynamischen Medien an den Browser verwendet werden können.
+description: Einsatz von Cookies durch Adobe Scene7 zum Speichern hilfreicher Informationen, die zur Bereitstellung von Dynamic Media an den Browser verwendet werden können.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies in Scene7 '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
