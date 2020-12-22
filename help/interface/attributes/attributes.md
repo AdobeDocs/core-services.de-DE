@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud und wie Sie die Daten zur Verwendung in Analytics und Zielgruppe hochladen.
+description: Hier erfahren Sie mehr über den Kundenattribut-Service in Adobe Experience Cloud und dazu, wie Sie die Daten zur Verwendung in Analytics und Target hochladen.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
 title: 'Verwendung von Kundenattributen '
@@ -8,16 +8,16 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
 
 
-# Verwendung von Kundenattributen in Adobe Experience Cloud
+# Verwenden von Kundenattributen in Adobe Experience Cloud
 
-Mit Kundenattributen in Adobe Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute im Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
+Mit Kundenattributen in Adobe Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
-To locate this feature, navigate to **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+Um diese Funktion zu finden, navigieren Sie zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**
 
 ![](assets/custom_reports.png)
 
@@ -47,7 +47,7 @@ Nach Erstellung der Datendatei können Sie sie in eine Kundenattributquelle hoch
 
 Weitere Informationen zu diesem Arbeitsablauf finden Sie unter [Hochladen von Kundenattributdaten](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-## Beispiele für Kundenattribute in Analytics und Zielgruppe {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Beispiele für Kundenattribute in Analytics und Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 Nachdem sich die Daten in der Experience Cloud befinden, können Sie sie anpassen und für Lösungen für Berichte, Segmentierung, Aktivitäten und Kampagnen freigeben.
 
