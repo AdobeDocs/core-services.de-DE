@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die Benutzer- und Produktverwaltung in Adobe Admin Console, aktivieren Sie Lösungen für Experience Cloud-Services und lernen Sie die Audience-Bibliothek, Kundenattribute, Experience Cloud-Assets und mehr kennen.
+description: Erfahren Sie mehr über die User- und Produktadministration in Adobe Admin Console, aktivieren Sie Lösungen für Experience Cloud-Services und lernen Sie die Zielgruppenbibliothek, Kundenattribute, Experience Cloud-Assets und mehr kennen.
 keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
 title: 'Experience Cloud Services und Administration '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 
 * [Produktdokumentation für alle Experience Cloud-Lösungen](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.html) – Hilfe finden Sie unter „Experience Cloud – Lernen und Support“
 * [Versionshinweise und Produktupdates](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
-* [Übungen zur Implementierung der zentralen Dienste](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) – Videos und Übungen zu den zentralen Diensten
+* [Übungen zur Implementierung der zentralen Dienste](https://docs.adobe.com/content/help/de-DE/core-services-learn/tutorials/overview.html) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://landing.adobe.com/experience-league/) – Lernen Sie von Experten und der Community
 * [Ausbildung und Schulung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK) – Wenden Sie sich an Adobe, um sicherzustellen, dass Sie unsere Produkte optimal nutzen
 * [Customer Experience-Blog](https://theblog.adobe.com/customer-experience/) – Lesen Sie den Experience Cloud-Blog
