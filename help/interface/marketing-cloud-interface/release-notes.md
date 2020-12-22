@@ -145,7 +145,7 @@ Wenn Sie über **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** 
 >
 >Microsoft [beendet den Support](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
 
-## Version 15.10 – 14. Oktober 2015  {#section_68123833D3634BD3A473C12862BF9606}
+## Version 15.10 – 14. Oktober 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
 **Bekannte Probleme**
 
@@ -259,7 +259,7 @@ Keine Informationen verfügbar.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gruppe  Zuordnen </p> </td> 
+   <td colname="col1"> <p>Gruppe Zuordnen </p> </td> 
    <td colname="col2"> <p>Die Seite „Gruppenverwaltung“ wurde neu als Verwaltungsoberfläche konzipiert, über die Sie Gruppen erstellen, Benutzer Gruppen hinzufügen und Berechtigungen für die Experience Cloud-Lösungen zuweisen können. </p> </td> 
   </tr> 
   <tr> 
