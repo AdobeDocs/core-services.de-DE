@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Search&Promote Cookies verwenden, um die Suchabsichten von Besuchern zu verstehen und zu antizipieren.
+description: Hier erfahren Sie, wie Search&Promote Cookies verwendet, um die Suchabsichten der Visitors zu verstehen und vorauszusehen.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies in Search&Promote '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
