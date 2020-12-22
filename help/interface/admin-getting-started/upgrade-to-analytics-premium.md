@@ -52,9 +52,9 @@ Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](.
 
 | Produkt | Upgrades |
 |---|---|
-| Reports &amp; Analytics | [Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analysen | [Beitragsanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Vorgefertigte Arbeitsbereiche für die Qualifizierung von Zielgruppen und das prädiktive Marketing |
-| Analytics Platform | Live-Stream (Dashboards und Auslöser) |
+| Analytics-Plattform | Live-Stream (Dashboards und Auslöser) |
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -64,7 +64,7 @@ Ein Upgrade auf Customer 360 beinhaltet [Analytics Premium](../admin-getting-sta
 |--- |--- |
 | [Kundenattribute](../attributes/attributes.md) | Kundenattribute (Analyse und Segmentfreigabe) |
 | Data Workbench | <ul><li>Abgeleitete Kundenattribute</li><li>Vordefinierte Arbeitsbereiche für die Erkennung von Zielgruppen</li></ul> |
-| Analytics Platform | [Kundenattribute](../attributes/attributes.md) |
+| Analytics-Plattform | [Kundenattribute](../attributes/attributes.md) |
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
