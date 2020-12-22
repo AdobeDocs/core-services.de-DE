@@ -15,7 +15,7 @@ ht-degree: 98%
 ---
 
 
-# Activation
+# Aktivierung
 
 Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform Launch, Dynamic Tag Management (DTM) und Triggers.
 
