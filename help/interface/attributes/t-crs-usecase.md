@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie die Kundenattributquelle erstellen und auf das Adobe Experience Cloud hochladen.
+description: Hier erfahren Sie, wie Sie die Kundenattributquelle erstellen und auf Adobe Experience Cloud hochladen.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
 title: 'Erstellen einer Kundenattributquelle und Hochladen der Datendatei '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Audiences und in Audience Manager verfügbar.
 
-Weitere Informationen finden Sie unter [Bericht „Kundenattribute“](https://docs.adobe.com/help/de-DE/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) in der Analytics-Hilfe.
+Weitere Informationen finden Sie unter [Bericht „Kundenattribute“](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html) in der Analytics-Hilfe.
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
