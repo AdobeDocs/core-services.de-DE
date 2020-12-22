@@ -1,5 +1,5 @@
 ---
-description: So laden Sie ein Asset vom Creative Cloud-Browser in ein Experience Cloud in einen freigegebenen Ordner hoch.
+description: Hochladen eines Assets in einen freigegebenen Ordner vom Creative Cloud-Browser in Experience Cloud.
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser '
@@ -8,16 +8,16 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
 # Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser
 
-Hilfe zum Creative Cloud finden Sie unter [https://helpx.adobe.com/creative-cloud/help/sync-files.html](https://helpx.adobe.com/de/creative-cloud/help/sync-files.html) .
+Hilfe zu Creative Cloud finden Sie unter [https://helpx.adobe.com/de/creative-cloud/help/sync-files.html](https://helpx.adobe.com/de/creative-cloud/help/sync-files.html).
 
 1. Starten Sie den [!DNL Creative Cloud]-Browser und navigieren Sie zu [!UICONTROL Creative Cloud-Dateien].
 1. Öffnen Sie den freigegebenen Ordner.
-1. Click **[!UICONTROL Actions]** > **[!UICONTROL Upload]**.
+1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Upload]**.
 1. Verwenden Sie das Dateiverwaltungsprogramm Ihres Betriebssystems zur Auswahl oder zum Verschieben von Assets.
