@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über den Exchange Marketplace, ein einziges Ziel, an dem Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können.
+description: Hier erfahren Sie mehr über Exchange Marketplace, einen zentralen Ort, an dem Sie Erweiterungen für Digital Marketing über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können.
 keywords: core services
 solution: Experience Cloud
 title: 'Exchange Marketplace '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
