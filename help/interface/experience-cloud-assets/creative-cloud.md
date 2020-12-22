@@ -1,5 +1,5 @@
 ---
-description: 'Erfahren Sie, wie Sie Ordner und Assets zwischen Experience Cloud und Creative Cloud freigeben. '
+description: 'Hier erfahren Sie, wie Sie Ordner und Assets zwischen Experience Cloud und Creative Cloud freigeben. '
 keywords: asset sharing;Creative Cloud;core services
 solution: Experience Cloud
 title: 'Experience Cloud-Ordner und -Assets für Creative Cloud freigeben '
@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 
 # Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 
-Freigeben von Ordnern und Assets zwischen Experience Cloud und Creative Cloud Arbeiten Sie zusammen, kommentieren Sie freigegebene Assets und verwenden Sie sie in Experience Cloud-Lösungen wie Adobe Social und Adobe Target. Der freigegebene Ordner muss von Experience Cloud stammen.
+Geben Sie Ordner und Assets sowohl in Experience Cloud als auch in Creative Cloud frei. Arbeiten Sie zusammen, kommentieren Sie freigegebene Assets und verwenden Sie sie in Experience Cloud-Lösungen wie Adobe Social und Adobe Target. Der freigegebene Ordner muss aus Experience Cloud stammen.
 
 ## Vorteile der Freigabe {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
