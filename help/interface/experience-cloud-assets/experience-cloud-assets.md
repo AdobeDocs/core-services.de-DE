@@ -1,18 +1,18 @@
 ---
-description: Erfahren Sie mehr über Experience Cloud-Assets, die Sie lösungsübergreifend freigeben können.
+description: Hier erfahren Sie mehr über Experience Cloud-Assets, die Sie lösungsübergreifend freigeben können.
 solution: Experience Cloud
-title: 'Übersicht über Experience Cloud Assets '
+title: 'Übersicht über Experience Cloud-Assets '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
-# Übersicht über Experience Cloud Assets
+# Übersicht über Experience Cloud-Assets
 
 Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. Ein Asset ist ein digitales Dokument, Bild, Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
 
