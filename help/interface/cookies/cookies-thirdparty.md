@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie die Unterstützung für Drittanbieter-Cookies in Browsern immer eingeschränkt wird.
+description: Erfahren Sie, inwiefern die Unterstützung für Drittanbieter-Cookies in Browsern immer mehr eingeschränkt wird.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Auswirkungen von Änderungen an der Cookie-Unterstützung von Drittanbietern auf Kunden '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
