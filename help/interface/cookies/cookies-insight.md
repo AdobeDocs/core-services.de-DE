@@ -1,5 +1,5 @@
 ---
-description: Verwendung von Cookies durch die Data Workbench zur Analyse großer Mengen sich schnell entwickelnder Daten in Echtzeit.
+description: Einsatz von Cookies durch Data Workbench zum Analysieren großer Mengen sich schnell verändernder Daten in Echtzeit.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies in Data Workbench '
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Data Workbench verwendet Cookies, um große Mengen sich schnell verändernder Da
 
 | Attribut | Beschreibung |
 |---|---|
-| Gespeicherte Informationen | Datums-/Uhrzeitstempel der Unique-Visitor-ID |
+| Gespeicherte Informationen | Datums-/Uhrzeitstempel der Unique Visitor-ID |
 | Ablauf | Dies ist ein persistentes Cookie. |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
