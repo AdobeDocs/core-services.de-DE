@@ -78,7 +78,7 @@ Siehe auch [Cookies und der ID-Dienst](https://docs.adobe.com/content/help/de-DE
   </tr> 
   <tr> 
    <td colname="col1"> <p> Nutzung </p> </td> 
-   <td colname="col2"> <p> Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet </p> </td> 
+   <td colname="col2"> <p> Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Position </p> </td> 
