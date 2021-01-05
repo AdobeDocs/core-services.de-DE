@@ -1,9 +1,9 @@
 ---
 title: 'Unterstützung von Kundenattributen für den California Consumer Privacy Act '
 description: Unterstützung von Kundenattributen für den California Consumer Privacy Act
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattrib
 
 * &quot;key&quot;: &lt;*gewöhnlich der Name des Kunden*>
 
-* &quot;action&quot;: entweder **Zugriff** oder **Löschen**
+* &quot;action&quot;: entweder **Zugriff** (access) oder **Löschen** (delete)
 
 * &quot;user IDs&quot;:
 
