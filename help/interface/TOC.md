@@ -1,6 +1,6 @@
 ---
 audience: admin
-user-guide-title: 'Adobe Experience Cloud Services und Administration '
+user-guide-title: 'Dienste und Administration von Adobe Experience Cloud '
 breadcrumb-title: Experience Cloud Services und Administration
 user-guide-description: Erfahren Sie, wie Sie Benutzer und Produkte in Adobe Experience Cloud verwalten und wie Sie die Dienste „Kundenattribute“ und „Zielgruppenbibliothek“ verwenden. Erfahren Sie auch mehr über Cookies und Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
