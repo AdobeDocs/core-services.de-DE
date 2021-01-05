@@ -4,18 +4,18 @@ keywords: core services
 seo-description: Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Launch. Dynamic Tag Management (DTM) und Triggers.
 seo-title: Activation
 solution: Experience Cloud
-title: Dienstleistungen der Aktivierung in Experience Cloud
+title: Activation-Dienste in Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Aktivierung
+# Activation
 
 Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform Launch, Dynamic Tag Management (DTM) und Triggers.
 
@@ -39,7 +39,7 @@ Klicken Sie zum Starten des Dynamic Tag Managements auf **[!UICONTROL Activation
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Adobe Analytics bereitstellen </a> </p> </td> 
-   <td colname="col2"> <p> Schrittweise Anleitungen zum Hinzufügen von Adobe Analytics mithilfe des Adobe Dynamic Tag Management </p> </td> 
+   <td colname="col2"> <p> Schrittweise Anleitungen zum Hinzufügen von Adobe Analytics mithilfe des Adobe Dynamic Tag Management. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementierungshandbücher für Experience Cloud ID-Dienst </a> </p> </td> 
