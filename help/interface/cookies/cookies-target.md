@@ -2,13 +2,13 @@
 description: Hier erfahren Sie, wie Adobe Target Cookies verwendet, um Website-Betreibern die Möglichkeit zu geben, zu testen, welche Online-Inhalte und Angebote für Besucher am relevantesten sind.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target,Social
-title: 'Verwendung von Adobe Target-Cookies '
+title: 'Verwenden von Adobe Target-Cookies '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
