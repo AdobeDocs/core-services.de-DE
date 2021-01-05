@@ -1,9 +1,9 @@
 ---
 title: 'Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO) '
 description: Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattrib
 
 * &quot;key&quot;: &lt;*gewöhnlich der Name des Kunden*>
 
-* &quot;action&quot;: entweder **Zugriff** oder **Löschen**
+* &quot;action&quot;: entweder **Zugriff** (access) oder **Löschen** (delete)
 
 * &quot;user IDs&quot;:
 
