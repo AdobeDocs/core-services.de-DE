@@ -1,14 +1,14 @@
 ---
-description: Erfahren Sie, wie Sie das Adobe Experience Cloud implementieren und Administrator werden.
+description: Hier erfahren Sie, wie Sie Adobe Experience Cloud implementieren und Administrator werden.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'Lösungen für zentrale Dienste aktivieren '
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2362'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Für bestehende Kunden müssen Sie möglicherweise Ihre Lösungsimplementierunge
 
 ## Schritt 1. Experience Cloud beitreten und Administrator werden {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Was müssen Sie tun, um dem Experience Cloud beizutreten?
+Was Sie tun müssen, um Experience Cloud-Mitglied zu werden:
 
 ![](assets/step1_icon.png) Stellen Sie sicher, dass Sie über gültige SKUs für Adobe Analytics oder Adobe Target verfügen.
 
@@ -173,7 +173,7 @@ Nach der Bereitstellung des Experience Cloud ID-Dienstes erhalten neue Besucher 
 
 Wenn beispielsweise der Supportbereich Ihrer Site in einem separaten CMS verwaltet wird, haben Sie möglicherweise eine andere Analytics-JavaScript-Datei für diesen Bereich. Wenn Sie die Experience Cloud ID auf Ihrer Haupt-Site bereitstellen, bevor Sie den ID-Dienst auf der Support-Site bereitstellen, erhalten neue Besucher beim Besuch des Supportbereichs eine alte Analytics-ID. Besuche, die beide Sitebereiche umfassen, werden als unterschiedliche Besuche gemeldet.
 
-Die Bereitstellung des Experience Cloud-ID-Diensts auf Sites, die mehrere JavaScript-Dateien oder andere Technologien (z. B. Flash) verwenden, kann Koordinierungsprobleme verursachen, da Sie den Experience Cloud-ID-Dienst auf allen Sitebereichen gleichzeitig aktivieren müssen. Mit der Konfiguration einer Übergangsphase wird neuen Besuchern vom ID-Dienst weiterhin eine Analytics-Besucher-ID zugewiesen, damit sie richtig in Sitebereichen identifiziert werden, die noch nicht auf den Besucher-ID-Dienst aktualisiert wurden.
+Wird der Experience Cloud ID-Dienst auf Sites bereitgestellt, die mehrere JavaScript-Dateien oder andere Technologien (z. B. Flash) verwenden, kann dies Koordinierungsprobleme verursachen, da der Experience Cloud ID-Dienst für alle Site-Bereiche gleichzeitig aktiviert werden muss. Mit der Konfiguration einer Übergangsphase wird neuen Besuchern vom ID-Dienst weiterhin eine Analytics-Besucher-ID zugewiesen, damit sie richtig in Sitebereichen identifiziert werden, die noch nicht auf den Besucher-ID-Dienst aktualisiert wurden.
 
 ## Schritt 7. Benutzer und Produkte verwalten {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
