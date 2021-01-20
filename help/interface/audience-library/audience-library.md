@@ -1,13 +1,12 @@
 ---
-description: Erfahren Sie, wie Sie im Adobe Experience Cloud Audience-Dienst die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten können.
 solution: Experience Cloud
 type: Documentation
 title: 'Adobe Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
-translation-type: ht
-source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
-workflow-type: ht
-source-wordcount: '814'
+translation-type: tm+mt
+source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
+workflow-type: tm+mt
+source-wordcount: '796'
 ht-degree: 100%
 
 ---
@@ -55,7 +54,7 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Lösungen v
 | Hilfe mit | Ressource |
 |--- |--- |
 | Es können keine Ressourcen gefunden werden? | Stellen Sie sicher, dass Sie bereitgestellt wurden. Siehe [Erste Schritte – Aktivieren Ihrer Lösungen für zentrale Dienste](../core-services/core-services.md).<br>Klicken Sie [hier](https://www.adobe.com/go/audiences), um Zugriff auf Profiles &amp; Audiences anzufordern (Integrations-Bereitstellungsformular). |
-| Anwendungsbeispiele | Weitere Anleitungen zu der zu verwendenden Lösung finden Sie in der Knowledgebase unter [Optionen zur Zielgruppenerstellung](https://helpx.adobe.com/de/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
+| Anwendungsbeispiele | Weitere Anleitungen zu der zu verwendenden Lösung finden Sie in der Knowledgebase unter [Optionen zur Zielgruppenerstellung](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
 | Forum | Das [Zielgruppenforum](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) ist eine zusätzliche Ressource, die Hilfe bei Zielgruppen bietet. |
 
 ## Schnittstellenelemente der Zielgruppenbibliothek {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
