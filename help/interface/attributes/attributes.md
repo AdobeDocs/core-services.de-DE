@@ -1,19 +1,19 @@
 ---
-title: Verwenden von Kundenattributen
-description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud. Erfahren Sie, wie Sie die Daten zur Verwendung in Adobe Analytics und Adobe Target hochladen können.
+title: Was sind Kundenattribute und wie funktionieren sie?
+description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten zur Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Experience Cloud
-feature: Customer Attributes
+feature: Experience Cloud Customer Attributes
 role: Administrator
 translation-type: tm+mt
-source-git-commit: 654b13b2053df2c91b4c539b4d37b66c6008d759
+source-git-commit: 253ec3d13c66be792214e09616f83e8b24929c3c
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 92%
+source-wordcount: '490'
+ht-degree: 91%
 
 ---
 
 
-# Verwendung von Kundenattributen in Adobe Experience Cloud
+# Verwendung von Kundenattributen in Experience Cloud
 
 Mit Kundenattributen in Adobe Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
