@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'Lösungen für zentrale Dienste aktivieren '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2351'
-ht-degree: 96%
+source-wordcount: '2352'
+ht-degree: 95%
 
 ---
 
@@ -32,21 +32,21 @@ Für bestehende Kunden müssen Sie möglicherweise Ihre Lösungsimplementierunge
 
 Was Sie tun müssen, um Experience Cloud-Mitglied zu werden:
 
-![](assets/step1_icon.png) Stellen Sie sicher, dass Sie über gültige SKUs für Adobe Analytics oder Adobe Target verfügen.
+1. Stellen Sie sicher, dass Sie über gültige SKUs für Adobe Analytics oder Adobe Target verfügen.
 
-* **Adobe Analytics:** Standard oder Premium (nicht die ältere [!DNL SiteCatalyst]-SKU).
-* **Adobe Target:** Standard oder Premium.
+   * **Adobe Analytics:** Standard oder Premium (nicht die ältere [!DNL SiteCatalyst]-SKU).
+   * **Adobe Target:** Standard oder Premium.
 
->[!NOTE]
->
->Migrieren Sie für [!DNL Target] beispielsweise von [!DNL mbox.js] zu „at.js“. Siehe [Aktualisieren von at.js 1.x auf at.js 2.x](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+   >[!NOTE]
+   >
+   >Migrieren Sie für [!DNL Target] beispielsweise von [!DNL mbox.js] zu „at.js“. Siehe [Aktualisieren von at.js 1.x auf at.js 2.x](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
-![](assets/step2_icon.png) Modernisieren Sie Ihre Implementierung und lassen Sie sich einen Administrator bereitstellen.
+1. Modernisieren Sie Ihre Implementierung und lassen Sie sich einen Administrator bereitstellen.
 
-1. Führen Sie die Schritte unter [Bereitstellen des [!UICONTROL Experience Cloud ID-Dienstes]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) aus.
-1. Wenden Sie sich an Ihren Kundenbetreuer und starten Sie den Bereitstellungsprozess für die Experience Cloud.
+   * Gehen Sie wie unten unter [Implementieren des [!UICONTROL Experience Cloud-ID-Diensts]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) beschrieben vor.
+   * Wenden Sie sich an Ihren Kundenbetreuer und starten Sie den Bereitstellungsprozess für die Experience Cloud.
 
-![](assets/step3_icon.png) Verwalten Sie Benutzer und Produkte in der [!UICONTROL Admin Console].
+1. Verwalten Sie Benutzer und Produkte in der [!UICONTROL Admin Console].
 
 ### Administratoranmeldung
 
@@ -54,18 +54,18 @@ Sobald Sie Administrator sind, können Sie sich unter [experiencecloud.adobe.com
 
 Im Experience Cloud-Navigationsmenü wird der Link **[!UICONTROL Administration]** angezeigt.
 
-Weitere Informationen finden Sie unter [Experience Cloud – Benutzer und Produkte verwalten](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+Weitere Informationen finden Sie unter [Experience Cloud user and product administration](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ### Benutzeranmeldung
 
 Für die Anmeldung bei der Experience Cloud müssen Ihre Benutzer:
 
-1. Eine Adobe ID (oder Enterprise ID für Ihr Unternehmen) haben.
-1. Sich bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) anmelden.
-1. Zu einer Lösungsgruppe gehören, die einer Unternehmensgruppe zugeordnet ist.
-1. Verknüpfen Sie ggf. die Lösungskonten mit ihrer Adobe ID (Beschreibung unten).
+* Eine Adobe ID (oder Enterprise ID für Ihr Unternehmen) haben.
+* Sich bei [experiencecloud.adobe.com](https://experiencecloud.adobe.com) anmelden.
+* Zu einer Lösungsgruppe gehören, die einer Unternehmensgruppe zugeordnet ist.
+* Verknüpfen Sie ggf. die Lösungskonten mit ihrer Adobe ID (Beschreibung unten).
 
-![](assets/step4_icon.png) Optional: Verknüpfen Sie vorhandene Benutzerkonten.
+### Optional: Verknüpfen Sie vorhandene Benutzerkonten.
 
 Wahrscheinlich haben Sie Benutzer, die bereits Mitglied von Lösungsgruppen sind, z. B. eine Analytics-Gruppe, die Sie zuvor unter [!UICONTROL Analytics] > [!UICONTROL Admin Tools] verwaltet haben.
 
