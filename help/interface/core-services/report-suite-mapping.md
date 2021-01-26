@@ -2,11 +2,11 @@
 description: Hier erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation in Experience Cloud zuweisen.
 title: 'Report Suites einer Organisation zuweisen '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+workflow-type: tm+mt
+source-wordcount: '1163'
+ht-degree: 98%
 
 ---
 
@@ -15,9 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Die Funktion für die Report Suite-Zuweisung wird im November 2020 eingestellt. Führen Sie etwaige ausstehende Report Suite-Zuweisungen in Vorbereitung darauf durch. Wenden Sie sich bei Fragen an die Kundenunterstützung.
-
-Erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation zuweisen.
+>Die Funktion für die Report Suite-Zuordnung wurde im November 2020 eingestellt. Wenden Sie sich bei Fragen an den Kundensupport.
 
 Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTROL People]) sind einer Organisation und keiner einzelnen Report Suite zugeordnet. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. Der Zuordnungsprozess:
 
