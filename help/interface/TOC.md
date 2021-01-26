@@ -1,12 +1,12 @@
 ---
-audience: admin
+audience: administrator
 user-guide-title: 'Dienste und Administration von Adobe Experience Cloud '
 breadcrumb-title: Experience Cloud Services und Administration
 user-guide-description: Erfahren Sie, wie Sie Benutzer und Produkte in Adobe Experience Cloud verwalten und wie Sie die Dienste „Kundenattribute“ und „Zielgruppenbibliothek“ verwenden. Erfahren Sie auch mehr über Cookies und Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Erstanbieter-Cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies in Analytics](cookies/cookies-analytics.md)
    + [Cookies in Audience Manager](cookies/cookies-am.md)
-   + [Cookies in [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies in [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies in [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies in [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies in [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies in [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies in [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies in [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies in [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies in [[!DNL Target] ](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
