@@ -4,11 +4,11 @@ keywords: core services;Customer Attributes
 solution: Experience Cloud
 title: 'Lösungen für zentrale Dienste aktivieren '
 index: true
-translation-type: ht
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '2362'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+workflow-type: tm+mt
+source-wordcount: '2351'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Für bestehende Kunden müssen Sie möglicherweise Ihre Lösungsimplementierunge
 1. [Benutzer und Produkte verwalten](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Freigabe von Attributen und Zielgruppendaten beginnen](#section_960C06093623462E8EA247B3E97274A1)
 
-## Schritt 1. Experience Cloud beitreten und Administrator werden {#section_2423F0BD3DF642658103310EE5EA6154}
+## Experience Cloud beitreten und Administrator werden {#section_2423F0BD3DF642658103310EE5EA6154}
 
 Was Sie tun müssen, um Experience Cloud-Mitglied zu werden:
 
@@ -79,13 +79,13 @@ Siehe [Verknüpfen von Konten in der Experience Cloud](../admin-getting-started/
 
 In den folgenden Abschnitte wird die Modernisierung Ihrer Implementierung beschrieben. Durch die Modernisierung Ihrer Implementierung werden die zentralen Dienste in der Experience Cloud aktiviert.
 
-## Schritt 2. Implementieren Sie den [!UICONTROL Experience Cloud ID-Dienst] mithilfe von [!UICONTROL Experience Platform Launch] oder des [!UICONTROL Dynamic Tag Managements] {#section_3C9F6DF37C654D939625BB4D485E4354}
+## Implementieren des [!UICONTROL Experience Cloud-ID-Diensts] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 Der [!UICONTROL Experience Cloud ID-Dienst] stellt eine allgemeine ID für lösungsübergreifende Integrationen bereit. Er bietet eine domänenübergreifende Besucheridentifikation und einen Pfad für geräte-/browserübergreifendes Targeting und die Personalisierung basierend auf CRM-Daten, die über [!UICONTROL Kundenattribute] hochgeladen wurden.
 
-Die einfachste Methode zur Aktivierung der zentralen Experience Cloud-Dienste besteht darin, diese über die [Experience Cloud ID-Diensterweiterung](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) in [!UICONTROL Experience Platform Launch] oder über das ECID-Tool im [!UICONTROL Dynamic Tag Management] automatisch für Analytics und Adobe Target zu aktivieren. (Experience Platform Launch wird dringend empfohlen.)
+Die einfachste Methode zum Aktivieren von Experience Cloud-Core-Services besteht darin, diese automatisch für Analytics und Adobe Target über die [Experience Cloud-ID-Dienst-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref) in [!UICONTROL Experience Platform Launch] zu aktivieren.
 
-Die vollständige Hilfe zum Experience Cloud ID-Dienst (früher Besucher-ID) finden Sie [hier](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html).
+Die vollständige Hilfe zum Experience Cloud ID-Dienst (früher Besucher-ID) finden Sie [hier](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro).
 
 **Sie verwenden nicht [!UICONTROL Experience Platform Launch] oder [!UICONTROL Dynamic Tag Management]?**
 
@@ -97,9 +97,9 @@ Wenn Sie [!UICONTROL Experience Platform Launch] oder das [!UICONTROL Dynamic Ta
 | Aktualisieren Sie Ihre vorhandene [!DNL s_code] auf die Version H.27.3 oder höher, oder Ihre vorhandene [!DNL AppMeasurement.js] auf Version 1.4 oder höher. | Diese Dateien können im [Code-Manager](https://docs.adobe.com/content/help/de-DE/analytics/admin/admin-tools/code-manager-admin.html) in den Analytics Admin Tools heruntergeladen werden. (Das Handbuch für die [JavaScript-Implementierung](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/overview.html) ist verfügbar, wenn Sie weitere Informationen zu [!DNL AppMeasurement.js] benötigen.) |
 | Synchronisieren der Kunden-ID für Analytics | Siehe [Analytics – Synchronisieren der Kunden-ID](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (unten). |
 
-## Analytics und Adobe Target – Synchronisieren der Kunden-ID {#section_AD473A6A21C1446498E700363F9A8437}
+### Analytics und Adobe Target – Synchronisieren der Kunden-ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-Adobe empfiehlt im Zuge der Einrichtung des Experience Cloud ID-Dienstes für Analytics und [!DNL Target] die Synchronisierung Ihrer [Kunden-IDs](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/authenticated-state.html) mit der Experience Cloud.
+Adobe empfiehlt im Zuge der Einrichtung des Experience Cloud ID-Dienstes für Analytics und [!DNL Target] die Synchronisierung Ihrer [Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) mit der Experience Cloud.
 
 In Adobe Target muss `mbox3rdpartyid` die Kunden-ID abrufen und an [!DNL Target] senden. (Siehe [Arbeiten mit Kundenattributen](https://docs.adobe.com/content/help/de-DE/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) in [!DNL Target].)
 
@@ -122,21 +122,25 @@ Kundenattributdaten werden nach der Anmeldung durch die Besucher bereitgestellt.
 
 Wenden Sie sich an die Kundenunterstützung, um historische Daten zu aktivieren.
 
-## Schritt 3. Zuweisen von Report Suites zu einer Experience Cloud-Organisation {#section_7B08516B01BA421681DF03D0E86CE3BA}
+## Zuweisen von Report Suites zu einer Experience Cloud-Organisation {#section_7B08516B01BA421681DF03D0E86CE3BA}
+
+>[!NOTE]
+>
+>Die Funktion für die Report Suite-Zuordnung wurde im November 2020 eingestellt. Wenden Sie sich bei Fragen an den Kundensupport.
 
 Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTROL People-Dienst]) sind einer Experience Cloud-Organisation und keiner einzelnen Analytics Report Suite zugeordnet. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Experience Cloud-Organisation zugeordnet werden.
 
 Weitere Informationen dazu finden Sie unter [Report Suites einer Organisation zuweisen](report-suite-mapping.md).
 
-## Schritt 4. (Adobe Analytics) Aktualisieren des Analytics-AppMeasurement-Codes {#section_1798D9D0F05C47E29816AC4EEB9A0913}
+## Den Analytics-AppMeasurement-Code aktualisieren {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Vergewissern Sie sich, dass Sie die regionale Datenerfassung (RDC) verwenden. Wenn Ihre Datenerfassungsdomäne [!DNL omtrdc.net] lautet, oder wenn Ihr CNAME [!DNL omtrdc.net] zugeordnet ist, befinden Sie sich auf RDC. Weitere Informationen finden Sie unter [Übergang zu RDC](https://docs.adobe.com/content/help/de-DE/analytics/technotes/rdc/regional-data-collection.html). Wenn Sie Erstanbieter-Cookies verwenden, finden Sie unter [CNAME und Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/analytics-reference/cname.html) Informationen zu CNAMES für die Datenerfassung und zur domänenübergreifenden Verfolgung.
+Wenn Sie Analytics verwenden, stellen Sie sicher, dass Sie die regionale Datenerfassung (RDC) verwenden. Wenn Ihre Datenerfassungsdomäne [!DNL omtrdc.net] lautet, oder wenn Ihr CNAME [!DNL omtrdc.net] zugeordnet ist, befinden Sie sich auf RDC. Weitere Informationen finden Sie unter [Übergang zu RDC](https://docs.adobe.com/content/help/de-DE/analytics/technotes/rdc/regional-data-collection.html). Wenn Sie Erstanbieter-Cookies verwenden, finden Sie unter [CNAME und Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/analytics-reference/cname.html) Informationen zu CNAMES für die Datenerfassung und zur domänenübergreifenden Verfolgung.
 
 Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktualisierung Ihrer JavaScript-Bibliotheken einschließlich der Besucher-API. Am einfachsten erreichen Sie eine solche Modernisierung durch Hinzufügen des Tools [!DNL Adobe Analytics] im Dynamic Tag Management (DTM), das *`Automatic`* als Konfigurationsmethode angibt.
 
 Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **`<Web Property Name>`** > **[!UICONTROL Übersicht]** > **[!UICONTROL Tool hinzufügen]** > **[!UICONTROL Adobe Analytics]**. Informationen zur Implementierung finden Sie unter [Adobe Analytics-Einstellungen](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html) im Dynamic Tag Management.
 
-## Schritt 5. (Adobe Target) Aktualisieren der Adobe Target-Implementierung {#section_C2F4493C7A36406DAE2266B429A4BD24}
+## Die Implementierung der Adobe Target aktualisieren {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
 * Es wird empfohlen, eine [Adobe Target-Erweiterung](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) in [!UICONTROL Experience Platform Launch] hinzuzufügen, damit der Bibliotheksabruf automatisch erfolgt. Sie können auch die [Experience Cloud ID-Diensterweiterung](https://docs.adobe.com/content/help/de-DE/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) für Adobe Target (und andere Lösungen) mithilfe von [!UICONTROL Experience Platform Launch] einrichten. Die Aktualisierung des [!UICONTROL Experience Cloud ID-Dienstes] **ist erforderlich**, damit Adobe Target die zentralen Dienste verwenden kann. (Wenn Sie das [!UICONTROL Dynamic Tag Management] verwenden, fügen Sie ein [Adobe Target-Tool](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/target.html) hinzu. Sie können auch das [!UICONTROL Dynamic Tag Management] verwenden, um den Experience Cloud ID-Dienst für Adobe Target bereitzustellen.)
 * Wenn Sie [!UICONTROL Experience Platform Launch] oder das [!UICONTROL Dynamic Tag Management] nicht verwenden, [aktualisieren Sie Ihre mbox-Bibliothek](https://docs.adobe.com/content/help/de-DE/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manuell.
@@ -146,7 +150,7 @@ Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **`<Web Property Name>
    >
    >Alle Analytics-Kunden sind bereits für zentrale Dienste wie Kundenattribute freigeschaltet. Wenn Sie kein Analytics-Kunde sind, wenden Sie sich an die Kundenunterstützung, um eine Freischaltung anzufordern.
 
-## Schritt 6. Überprüfen der Implementierung {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## Überprüfen der Implementierung {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 Verwenden Sie den folgenden Prozess, um sicherzustellen, dass der Experience Cloud ID-Dienst auf Ihrer Site korrekt implementiert ist.
 
@@ -175,7 +179,7 @@ Wenn beispielsweise der Supportbereich Ihrer Site in einem separaten CMS verwalt
 
 Wird der Experience Cloud ID-Dienst auf Sites bereitgestellt, die mehrere JavaScript-Dateien oder andere Technologien (z. B. Flash) verwenden, kann dies Koordinierungsprobleme verursachen, da der Experience Cloud ID-Dienst für alle Site-Bereiche gleichzeitig aktiviert werden muss. Mit der Konfiguration einer Übergangsphase wird neuen Besuchern vom ID-Dienst weiterhin eine Analytics-Besucher-ID zugewiesen, damit sie richtig in Sitebereichen identifiziert werden, die noch nicht auf den Besucher-ID-Dienst aktualisiert wurden.
 
-## Schritt 7. Benutzer und Produkte verwalten {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
+## Benutzer und Produkte verwalten {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
 Navigieren Sie nach der erfolgreichen Einrichtung zur [Admin Console](https://adminconsole.adobe.com/), wo Sie Benutzer und Produktprofile verwalten können.
 
@@ -187,7 +191,7 @@ Siehe [Verwalten von Experience Cloud-Benutzern und -produkten](../admin-getting
 
 Benutzer, die der Gruppe [!UICONTROL Kundenattribute] hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
 
-## Schritt 8. Freigabe von Attributen und Zielgruppendaten beginnen {#section_960C06093623462E8EA247B3E97274A1}
+## Freigabe von Attributen und Zielgruppendaten beginnen {#section_960C06093623462E8EA247B3E97274A1}
 
 Nutzen Sie die Vorteile folgender Funktionen.
 
@@ -225,4 +229,4 @@ Wenn Sie eine geeignete Funktion zum Deaktivieren von Cookies bereitstellen möc
 
 Anweisungen finden Sie unter [Adobe Experience Cloud – Implementieren von Adobe Opt-Outs](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/opt-out.html).
 
-Informationen zum Aktivieren der domänenübergreifenden Verfolgung finden Sie unter [CNAMEs für die Datenerfassung und domänenübergreifende Verfolgung](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/analytics-reference/cname.html).
+Informationen zum Aktivieren der domänenübergreifenden Verfolgung finden Sie unter [CNAMEs für die Datenerfassung und domänenübergreifende Verfolgung](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
