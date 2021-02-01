@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
 source-wordcount: '2352'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -79,13 +79,13 @@ Siehe [Verknüpfen von Konten in der Experience Cloud](../admin-getting-started/
 
 In den folgenden Abschnitte wird die Modernisierung Ihrer Implementierung beschrieben. Durch die Modernisierung Ihrer Implementierung werden die zentralen Dienste in der Experience Cloud aktiviert.
 
-## Implementieren des [!UICONTROL Experience Cloud-ID-Diensts] {#section_3C9F6DF37C654D939625BB4D485E4354}
+## Implementieren von [!UICONTROL Experience Cloud ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 Der [!UICONTROL Experience Cloud ID-Dienst] stellt eine allgemeine ID für lösungsübergreifende Integrationen bereit. Er bietet eine domänenübergreifende Besucheridentifikation und einen Pfad für geräte-/browserübergreifendes Targeting und die Personalisierung basierend auf CRM-Daten, die über [!UICONTROL Kundenattribute] hochgeladen wurden.
 
-Die einfachste Methode zum Aktivieren von Experience Cloud-Core-Services besteht darin, diese automatisch für Analytics und Adobe Target über die [Experience Cloud-ID-Dienst-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref) in [!UICONTROL Experience Platform Launch] zu aktivieren.
+Die einfachste Methode zur Aktivierung der zentralen Experience Cloud-Dienste besteht darin, diese für Analytics und Adobe Target automatisch über die [Experience Cloud ID Service-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=de#extensions-ref) in [!UICONTROL Experience Platform Launch] zu aktivieren.
 
-Die vollständige Hilfe zum Experience Cloud ID-Dienst (früher Besucher-ID) finden Sie [hier](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro).
+Die vollständige Hilfe zum Experience Cloud ID-Dienst (früher Besucher-ID) finden Sie [hier](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de#intro).
 
 **Sie verwenden nicht [!UICONTROL Experience Platform Launch] oder [!UICONTROL Dynamic Tag Management]?**
 
@@ -126,7 +126,7 @@ Wenden Sie sich an die Kundenunterstützung, um historische Daten zu aktivieren.
 
 >[!NOTE]
 >
->Die Funktion für die Report Suite-Zuordnung wurde im November 2020 eingestellt. Wenden Sie sich bei Fragen an den Kundensupport.
+>Die Funktion für die Report Suite-Zuweisung wurde im November 2020 eingestellt. Wenden Sie sich bei Fragen an den Support.
 
 Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTROL People-Dienst]) sind einer Experience Cloud-Organisation und keiner einzelnen Analytics Report Suite zugeordnet. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Experience Cloud-Organisation zugeordnet werden.
 
@@ -134,7 +134,7 @@ Weitere Informationen dazu finden Sie unter [Report Suites einer Organisation zu
 
 ## Den Analytics-AppMeasurement-Code aktualisieren {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Wenn Sie Analytics verwenden, stellen Sie sicher, dass Sie die regionale Datenerfassung (RDC) verwenden. Wenn Ihre Datenerfassungsdomäne [!DNL omtrdc.net] lautet, oder wenn Ihr CNAME [!DNL omtrdc.net] zugeordnet ist, befinden Sie sich auf RDC. Weitere Informationen finden Sie unter [Übergang zu RDC](https://docs.adobe.com/content/help/de-DE/analytics/technotes/rdc/regional-data-collection.html). Wenn Sie Erstanbieter-Cookies verwenden, finden Sie unter [CNAME und Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/analytics-reference/cname.html) Informationen zu CNAMES für die Datenerfassung und zur domänenübergreifenden Verfolgung.
+Wenn Sie Analytics verwenden, stellen Sie sicher, dass Sie die regionale Datenerfassung (Regional Data Collection, RDC) verwenden. Wenn Ihre Datenerfassungsdomäne [!DNL omtrdc.net] lautet, oder wenn Ihr CNAME [!DNL omtrdc.net] zugeordnet ist, befinden Sie sich auf RDC. Weitere Informationen finden Sie unter [Übergang zu RDC](https://docs.adobe.com/content/help/de-DE/analytics/technotes/rdc/regional-data-collection.html). Wenn Sie Erstanbieter-Cookies verwenden, finden Sie unter [CNAME und Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/analytics-reference/cname.html) Informationen zu CNAMES für die Datenerfassung und zur domänenübergreifenden Verfolgung.
 
 Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktualisierung Ihrer JavaScript-Bibliotheken einschließlich der Besucher-API. Am einfachsten erreichen Sie eine solche Modernisierung durch Hinzufügen des Tools [!DNL Adobe Analytics] im Dynamic Tag Management (DTM), das *`Automatic`* als Konfigurationsmethode angibt.
 
@@ -216,7 +216,7 @@ Wenn Sie zentrale Dienste nutzen, die über den [!UICONTROL People]-Dienst zur V
 * Schlüssel-/Werte-Paare aus [!DNL Analytics] (Eigenschaften, eVars, Listenvariablen usw.). Standardmäßig enthalten die Protokollzeilen die IP-Adresse, inklusive des letzten Oktetts der IP (vorausgesetzt, die IP-Adresse wurde nicht durch Einstellungen zur IP-Verschleierung innerhalb von Adobe [!DNL Analytics] verändert).
 * Eigenschaften und Segmente, für die sich Besucher auf der Grundlage der in Audience Manager festgelegten Regeln qualifizieren.
 * (Optional) Eine oder mehrere Ihrer IDs. Je nach Implementierung des ID-Dienstes senden Sie möglicherweise auch eine oder mehrere Ihrer IDs, z. B. CRM-IDs oder Hash-E-Mail-Adressen. Werden diese Daten an Adobe [!DNL Analytics] gesendet, werden sie an das Adobe Zielgruppen-Management übergeben. Adobe empfiehlt, keine personenbezogenen Daten in Adobe [!DNL Analytics] bereitzustellen. Verwenden Sie stattdessen einen unidirektionalen Hash, um die Daten zu maskieren, bevor sie an Adobe gesendet werden.
-* Segmente aus [!DNL Analytics] über die Back-End-Funktion zur Segmentfreigabe
+* Segmente aus [!DNL Analytics] über die Back-End-Funktion zur Segmentfreigabe.
 * Wenn Cookies von Drittanbietern nicht blockiert werden, wird das Cookie demdex.net gesetzt. Bei Verwendung des Experience Cloud ID-Dienstes wird das Erstanbieter-Cookie `AMCV_###@AdobeOrg` immer gesetzt.
 
 Alle diese Datenelemente werden in Form von Protokolldateien an Adobe Audience Manager gesendet. Audience Manager verarbeitet und speichert diese Daten in den USA. Audience Manager bietet keine Option zum Speichern oder Verarbeiten dieser Daten außerhalb der USA.
