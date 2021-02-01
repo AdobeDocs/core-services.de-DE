@@ -2,11 +2,11 @@
 description: Hier erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation in Experience Cloud zuweisen.
 title: 'Report Suites einer Organisation zuweisen '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Die Funktion für die Report Suite-Zuordnung wurde im November 2020 eingestellt. Wenden Sie sich bei Fragen an den Kundensupport.
+>Die Funktion für die Report Suite-Zuweisung wurde im November 2020 eingestellt. Wenden Sie sich bei Fragen an den Support.
 
 Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTROL People]) sind einer Organisation und keiner einzelnen Report Suite zugeordnet. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. Der Zuordnungsprozess:
 
@@ -60,7 +60,7 @@ Dieser Abschnitt enthält Tipps zur Auswahl der Experience Cloud-Organisation, d
 
 ### Welche Organisation sollte ich wählen?
 
-Wird der Experience Cloud ID-Dienst derzeit auf der Report Suite bereitgestellt, stellen Sie sicher, dass Sie im Zuordnungs-Tool für Report Suites dieselbe Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Abschnitt zum [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) beschriebenen Anweisungen verwenden, um die Organisations-ID zu ermitteln, die vom Besucher-ID-Dienst genutzt wird.
+Wird der Experience Cloud ID-Dienst derzeit auf der Report Suite bereitgestellt, stellen Sie sicher, dass Sie im Zuordnungs-Tool für Report Suites dieselbe Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Abschnitt zum [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation-guides/test-verify.html) beschriebenen Anweisungen verwenden, um die Organisations-ID zu ermitteln, die vom Besucher-ID-Dienst genutzt wird.
 
 Wird der Besucher-ID-Dienst bisher noch nicht auf Sites eingesetzt, auf denen die Report Suite Daten erfasst, muss die Implementierung der in der Report Suite-Zuweisung ausgewählten Organisation entsprechen, wenn der Experience Cloud-Besucher-ID-Dienst zu einem späteren Zeitpunkt verwendet wird.
 
