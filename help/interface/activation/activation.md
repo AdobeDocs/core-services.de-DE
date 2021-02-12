@@ -6,22 +6,22 @@ seo-title: Activation
 solution: Experience Cloud Services
 title: Activation-Dienste in Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
 ---
 
 
-# Aktivierung
+# Activation
 
 Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform Launch, Dynamic Tag Management (DTM) und Triggers.
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
-Bereitstellung und Verwaltung von Analyse-, Marketing- und Werbe-Tags, die Sie für relevante Kundenerlebnisse benötigen
+Bereitstellung und Verwaltung von Analyse-, Marketing- und Werbe-Tags, die Sie für relevante Kundenerlebnisse benötigen.
 
 Siehe [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html).
 
