@@ -1,14 +1,14 @@
 ---
 description: Erfahren Sie mehr über die User- und Produktadministration in Adobe Admin Console, aktivieren Sie Lösungen für Experience Cloud-Services und lernen Sie die Zielgruppenbibliothek, Kundenattribute, Experience Cloud-Assets und mehr kennen.
-keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
+keywords: Adobe Experience Cloud-Dienste, Kundenattribute, Audiencen, Benutzer- und Produktverwaltung
 solution: Experience Cloud
 title: 'Experience Cloud Services und Administration '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '426'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 97%
 
 ---
 
