@@ -1,13 +1,13 @@
 ---
 description: Hier erfahren Sie mehr über Exchange Marketplace, einen zentralen Ort, an dem Sie Erweiterungen für Digital Marketing über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können.
-keywords: core services
+keywords: Hauptdienste
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '132'
+workflow-type: tm+mt
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
