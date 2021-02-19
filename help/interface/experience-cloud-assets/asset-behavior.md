@@ -1,13 +1,13 @@
 ---
 description: Hier erfahren Sie, nach welchen Regeln sich freigegebene Ordner beim Verschieben, Löschen und Wiederherstellen in Experience Cloud verhalten.
-keywords: asset sharing;Creative Cloud;core services
+keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 solution: Experience Cloud
 title: 'Verhalten freigegebener Ordner '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '561'
+workflow-type: tm+mt
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
