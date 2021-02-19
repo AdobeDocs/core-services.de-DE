@@ -1,14 +1,14 @@
 ---
 description: Hier erfahren Sie, wie Sie die Kundenattributquelle erstellen und auf Adobe Experience Cloud hochladen.
-keywords: Customer Attributes;core services
+keywords: Kundenattribute;Hauptdienste
 solution: Experience Cloud
 title: 'Erstellen einer Kundenattributquelle und Hochladen der Datendatei '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '1165'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 99%
 
 ---
 
@@ -119,7 +119,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
       ![](assets/file_upload_attributes.png)
 
-   * **[!UICONTROL Unique Customer-ID:]** Zeigt an, wie viele eindeutige IDs Sie in diese Attributquelle hochgeladen haben.
+   * **[!UICONTROL Unique-Customer-ID:]** Zeigt an, wie viele eindeutige IDs Sie in diese Attributquelle hochgeladen haben.
 
    * **[!UICONTROL Vom Kunden bereitgestellte IDs für Experience Cloud Besucher-IDs:]** Zeigt an, wie viele IDs für Experience Cloud Besucher-IDs bereitgestellt wurden.
 
