@@ -1,13 +1,13 @@
 ---
 description: Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die für alle Experience Cloud-Lösungen genutzt wird.
-keywords: cookies;privacy
+keywords: Cookies, Datenschutz
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud-Cookies '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
 
 **Cookie-Name: AMCV_###@AdobeOrg**
 
-Der [Experience Platform-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) verwendet JavaScript, um eine Unique Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domäne der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
+Der [Experience Platform-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domäne der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
 
 Siehe auch [Cookies und der ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html).
 
@@ -70,7 +70,7 @@ Siehe auch [Cookies und der ID-Dienst](https://docs.adobe.com/content/help/de-DE
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Unique Visitor-IDs, die von Experience Cloud-Lösungen verwendet werden. </p> </td> 
+   <td colname="col2"> <p> Unique-Visitor-IDs, die von Experience Cloud-Lösungen verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
