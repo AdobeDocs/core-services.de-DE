@@ -1,13 +1,13 @@
 ---
 description: Hier erfahren Sie mehr über Audience Manager-Cookies in Adobe Experience Cloud.
-keywords: cookies
+keywords: 'Cookies in '
 solution: Experience Cloud, Audience Manager
 title: 'Cookies in Audience Manager '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '608'
+workflow-type: tm+mt
+source-wordcount: '609'
 ht-degree: 100%
 
 ---
@@ -29,11 +29,11 @@ Audience Manager vertraut bei der Ausführung verschiedener Funktionen auf ein e
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Zweck</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, um Site-Besuchern eine individuelle ID zuzuweisen. Das <span class="wintitle">demdex</span>-Cookie hilft <span class="keyword">Audience Manager</span> bei der Ausführung grundlegender Funktionen wie Besucheridentifikation, ID-Synchronisierung, Segmentierung, Modellierung, Berichterstellung usw. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, um Site-Besuchern eine eindeutige ID zuzuweisen. Das <span class="wintitle">demdex</span>-Cookie hilft <span class="keyword">Audience Manager</span> bei der Ausführung grundlegender Funktionen wie Besucheridentifikation, ID-Synchronisierung, Segmentierung, Modellierung, Berichterstellung usw. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
-   <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine Unique User-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Index of IDs in Audience Manager</a>. </p> </td> 
+   <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine eindeutige Benutzer-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">Index of IDs in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Weitere Attribute</b> </p> </td> 
