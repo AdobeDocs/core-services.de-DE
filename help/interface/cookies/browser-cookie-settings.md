@@ -1,13 +1,13 @@
 ---
 description: Entfernen von Benutzern, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben. Diese Datenschutzeinstellung schließt Benutzer aus, die die Analytics-Datenerfassung abwählen.
-keywords: cookies;privacy
+keywords: Cookies, Datenschutz
 solution: Experience Cloud, Analytics, Target, Social
 title: 'Aktivieren von Datenschutzeinstellungen für Browsercookies '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '302'
+workflow-type: tm+mt
+source-wordcount: '304'
 ht-degree: 100%
 
 ---
