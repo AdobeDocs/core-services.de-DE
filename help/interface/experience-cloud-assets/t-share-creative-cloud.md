@@ -1,13 +1,13 @@
 ---
 description: Freigeben eines Ordners mit Experience Cloud-Assets für User von Creative Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 solution: Experience Cloud
 title: 'Experience Cloud-Asset-Ordner freigeben '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '307'
+workflow-type: tm+mt
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
