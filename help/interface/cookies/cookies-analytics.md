@@ -1,13 +1,13 @@
 ---
 description: Hier erfahren Sie mehr über Adobe Analytics-Cookies in Adobe Experience Cloud.
-keywords: cookies;privacy
+keywords: Cookies, Datenschutz
 solution: Experience Cloud,Analytics,Target
 title: 'Verwenden von Adobe Analytics-Cookies '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '757'
+workflow-type: tm+mt
+source-wordcount: '759'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Datums-/Uhrzeitstempel der Unique Visitor-ID. |
+| Gespeicherte Informationen | Datums-/Uhrzeitstempel der Unique-Visitor-ID. |
 | Ablauf | 2 Jahre |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. |
 | Position | Dieses Cookie wird in der Domäne der Bildanforderung gespeichert. Dabei handelt es sich normalerweise um eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domäne Erstanbieter-Cookies verwendet. |
@@ -74,11 +74,11 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 >
 >Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einem Jahr Inaktivität gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
 
-## Cookie-Name: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Cookie-Name: s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Fallback-Datums-/Uhrzeitstempel der Unique Visitor-ID. |
+| Gespeicherte Informationen | Fallback-Datums-/Uhrzeitstempel der Unique-Visitor-ID. |
 | Ablauf | 2 Jahre |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domäne gespeichert. |
@@ -100,7 +100,7 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 >
 >Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
 
-## Von Plug-ins eingestellte Cookies {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Von Plug-ins eingestellte Cookies  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins gesetzt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung in verschiedensten Situationen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Weitere Informationen zu Cookies, die von jedem Plug-in gesetzt werden, erhalten Sie von der Kundenunterstützung. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
 
