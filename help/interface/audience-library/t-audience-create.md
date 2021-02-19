@@ -1,13 +1,13 @@
 ---
 description: Hier erfahren Sie, wie Sie in Adobe Experience Cloud mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe definieren.
-keywords: core services
+keywords: Hauptdienste
 solution: Experience Cloud
 title: 'Erstellen einer Zielgruppe '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '472'
+workflow-type: tm+mt
+source-wordcount: '474'
 ht-degree: 100%
 
 ---
