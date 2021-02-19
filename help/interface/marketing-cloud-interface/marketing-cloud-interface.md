@@ -1,15 +1,15 @@
 ---
 description: Ein Überblick über neue Funktionen und Aktualisierungen in der Experience Cloud
-keywords: core services
+keywords: Hauptdienste
 seo-description: Ein Überblick über neue Funktionen und Aktualisierungen in der Experience Cloud
 seo-title: Neue Funktionen in der Experience Cloud
 solution: Experience Cloud
 title: 'Neue Funktionen in der Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '635'
+workflow-type: tm+mt
+source-wordcount: '637'
 ht-degree: 100%
 
 ---
