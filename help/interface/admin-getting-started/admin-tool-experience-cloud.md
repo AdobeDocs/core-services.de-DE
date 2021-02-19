@@ -1,13 +1,13 @@
 ---
 description: Lernen Sie das Experience Cloud Admin-Tool kennen, um eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien anzuzeigen.
-keywords: core services
+keywords: Hauptdienste
 solution: Experience Cloud
 title: 'Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails '
 index: true
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
-workflow-type: ht
-source-wordcount: '1243'
+workflow-type: tm+mt
+source-wordcount: '1245'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ In diesem Abschnitt wird eine Zusammenfassung des Benutzerkontos angezeigt, eins
 * Name
 * E-Mail
 * Benutzername (bei Konten mit Federated ID können Benutzernamen von der E-Mail-Adresse abweichen)
-* [ID-Typ](https://helpx.adobe.com/de/enterprise/using/identity.html)
+* [ID-Typ](https://helpx.adobe.com/enterprise/using/identity.html)
 * Land
 * Letzte Anmeldung
 
