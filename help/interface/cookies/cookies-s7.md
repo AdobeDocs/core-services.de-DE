@@ -1,13 +1,13 @@
 ---
 description: Einsatz von Cookies durch Adobe Scene7 zum Speichern hilfreicher Informationen, die zur Bereitstellung von Dynamic Media an den Browser verwendet werden können.
-keywords: cookies;privacy
+keywords: Cookies, Datenschutz
 solution: Experience Cloud,Analytics,Target
 title: 'Cookies in Scene7 '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
-workflow-type: ht
-source-wordcount: '411'
+workflow-type: tm+mt
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
