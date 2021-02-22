@@ -32,9 +32,9 @@ ht-degree: 100%
    + [Cookies in [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + Cookies in [[!DNL Scene7] ](cookies/cookies-s7.md)
-   + Cookies in [[!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + Cookies in [[!DNL Target] ](cookies/cookies-target.md)
+   + [Cookies in [!DNL Scene7] ](cookies/cookies-s7.md)
+   + [Cookies in [!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + [Cookies in [!DNL Target] ](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
