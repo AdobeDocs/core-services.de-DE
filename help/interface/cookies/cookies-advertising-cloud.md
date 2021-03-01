@@ -3,10 +3,10 @@ description: Hier erfahren Sie mehr über Adobe Ad Cloud-Cookies für das Zuordn
 title: 'Advertising Cloud-Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -97,7 +97,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>2 Jahre </p> </td> 
+   <td colname="col2"> <p>Cookies, die am 24. Februar 2021 oder früher eingestellt wurden, laufen nach 730 Tagen ab. Cookies, die am 25. Februar 2021 oder höher eingestellt wurden, laufen nach 364 Tagen ab.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
