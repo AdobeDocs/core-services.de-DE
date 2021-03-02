@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: 'Neue Funktionen in der Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,7 @@ Fehlerkorrekturen und Verbesserungen für August 2018
 * Verbesserte Kommentarsynchronisierung für Assets in Creative Cloud und Experience Cloud. (CORE-15971)
 * Eine Feature Flag wurde zur Steuerung der Asset-Synchronisierung zwischen der Experience Cloud und Creative Cloud hinzugefügt. (CORE-15938)
 * Die Erstellung von Zielgruppensegmenten wurde verbessert, einschließlich einer besseren Suche und Auflistung. (CORE-5833, CORE-14278)
-* Ein Problem mit hoher Priorität wurde behoben, das die Freigabe von Ordnern auf einem Mac für die Creative Cloud blockierte. (CORE-16677)
+* Es wurde ein Problem mit hoher Priorität behoben, durch das die Freigabe von Ordnern von Experience Cloud zu Creative Cloud blockiert wurde. (CORE-16677)
 
 ## 19. Juli 2018 {#section_EBB549EBABB7480884A180237ADCCD02}
 
