@@ -1,14 +1,18 @@
 ---
-description: Lernen Sie das Experience Cloud Admin-Tool kennen, um eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien anzuzeigen.
+description: Erfahren Sie mehr über das Experience Cloud Admin Tool. Ansicht einer sortierbaren und filterbaren Liste aller Experience Cloud-Benutzer und -Richtlinien.
 keywords: Hauptdienste
 solution: Experience Cloud
 title: 'Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails '
 index: true
+feature: Admin Console
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 100%
+source-wordcount: '1249'
+ht-degree: 98%
 
 ---
 
