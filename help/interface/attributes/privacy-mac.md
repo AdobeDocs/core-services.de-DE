@@ -1,14 +1,18 @@
 ---
-description: Überlegungen und Best Practices hinsichtlich persönlich identifizierbarer Informationen (PII), die in die Adobe Experience Cloud hochgeladen und darüber ausgetauscht werden.
+description: Überlegungen und Best Practices in Bezug auf persönlich identifizierbare Informationen (PII), die in Experience Cloud hochgeladen und verwendet werden.
 keywords: Kundenattribute;Hauptdienste
 solution: Experience Cloud
 title: 'Überlegungen zum Datenschutz bei Kundenattributen '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+feature: 'Kundenattribute '
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+source-wordcount: '522'
+ht-degree: 96%
 
 ---
 
