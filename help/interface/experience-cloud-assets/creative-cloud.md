@@ -3,11 +3,15 @@ description: 'Hier erfahren Sie, wie Sie Ordner und Assets zwischen Experience C
 keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 solution: Experience Cloud
 title: 'Experience Cloud-Ordner und -Assets für Creative Cloud freigeben '
+feature: Assets
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 99%
 
 ---
 
