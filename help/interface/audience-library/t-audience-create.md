@@ -5,10 +5,10 @@ solution: Experience Cloud
 title: 'Erstellen einer Zielgruppe '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -89,4 +89,4 @@ Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-B
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nach dem Speichern der Zielgruppe ist sie für andere Lösungen verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität aufnehmen.
+Nach dem Speichern der Zielgruppe ist sie für andere Lösungen verfügbar. Sie können beispielsweise eine freigegebene Audience in eine Adobe Target-Aktivität einbeziehen.
