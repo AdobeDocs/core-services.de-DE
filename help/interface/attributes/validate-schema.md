@@ -4,10 +4,14 @@ keywords: Kundenattribute;Experience Cloud-Services
 solution: Experience Cloud
 title: 'Validieren des Kundenattribut-Schemas '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
+feature: 'Kundenattribute '
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '474'
 ht-degree: 98%
 
 ---
