@@ -3,11 +3,16 @@ solution: Experience Cloud
 type: Dokumentation
 title: 'Adobe Experience Cloud Audiences '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
+description: Erfahren Sie, wie Sie im Experience Cloud Audience-Dienst die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten können.
+feature: Zielgruppenbibliothek
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 99%
 
 ---
 
