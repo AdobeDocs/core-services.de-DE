@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Lösungen für zentrale Dienste aktivieren '
 index: true
 translation-type: tm+mt
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2357'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 Wenn Sie kürzlich Experience Cloud mit Experience Platform Launch implementiert haben, sind Sie bereits für Kundenattribute und Experience Cloud-Audiences eingerichtet. Sie können auch Benutzer und Produkte in der Admin Console verwalten.
 
-Für bestehende Kunden müssen Sie möglicherweise Ihre Lösungsimplementierungen modernisieren und Experience Cloud implementieren. Auf diese Weise können Sie Kundenattribute und Audience-Funktionen in Adobe Analytics, Audience Manager und Adobe Target nutzen. Dazu werden Sie:
+Für bestehende Kunden müssen Sie möglicherweise Ihre Lösungsimplementierungen modernisieren und Experience Cloud implementieren. Auf diese Weise können Sie Kundenattribute und Audience-Funktionen in Adobe Analytics, Audience Manager und Adobe Target nutzen. Um diese Implementierung durchzuführen, führen Sie folgende Schritte durch:
 
 1. [Experience Cloud beitreten und Administrator werden](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Den Experience Cloud ID-Dienst implementieren](#section_3C9F6DF37C654D939625BB4D485E4354)
