@@ -1,13 +1,17 @@
 ---
-description: Implementieren des DNS-Vorabrufs, um die Seitenladezeit bei verschiedenen Lösungen und Services in Adobe Experience Cloud zu reduzieren.
+description: Erfahren Sie, wie Sie DNS-Prefetch implementieren, um die Seitenladezeit bei verschiedenen Lösungen und Diensten in Experience Cloud zu reduzieren.
 solution: Experience Cloud
 title: 'Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
+feature: '"Kundenattribute, Audience Library, Admin Console"'
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 93%
 
 ---
 
