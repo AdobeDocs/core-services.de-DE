@@ -4,11 +4,15 @@ keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 solution: Experience Cloud
 title: 'Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch '
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
+feature: Assets
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 100%
+source-wordcount: '75'
+ht-degree: 98%
 
 ---
 
