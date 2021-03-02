@@ -1,14 +1,18 @@
 ---
-description: Entfernen von Benutzern, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben. Diese Datenschutzeinstellung schließt Benutzer aus, die die Analytics-Datenerfassung abwählen.
+description: Erfahren Sie, wie Sie Datenschutzeinstellungen für Browser-Cookies aktivieren. Sie können Benutzer entfernen, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
 keywords: Cookies, Datenschutz
 solution: Experience Cloud, Analytics, Target, Social
-title: 'Aktivieren von Datenschutzeinstellungen für Browsercookies '
+title: 'Datenschutzeinstellungen für Browser-Cookies '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
