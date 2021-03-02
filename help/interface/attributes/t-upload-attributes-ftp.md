@@ -1,14 +1,18 @@
 ---
-description: Wenn Sie die Kundenattributdaten nicht per Drag & Drop in die Experience Cloud hochladen, können Sie die Daten auch via FTP hochladen.
+description: Erfahren Sie, wie Sie Kundenattributdaten per FTP in das Experience Cloud hochladen.
 keywords: Kundenattribute;Hauptdienste
 solution: Experience Cloud
 title: 'Upload der Datendatei für Kundenattribute über FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
+feature: 'Kundenattribute '
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 98%
+source-wordcount: '271'
+ht-degree: 93%
 
 ---
 
