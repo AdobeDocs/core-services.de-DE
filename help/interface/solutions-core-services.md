@@ -3,13 +3,17 @@ description: Hier erfahren Sie mehr über die neuesten Branding-Änderungen der 
 seo-description: Hier erfahren Sie mehr über die neuesten Branding-Änderungen der Clouds, über die Navigation mithilfe der Benutzeroberfläche sowie dazu, wo Sie Hilfestellung zu Lösungen und Hauptdiensten erhalten.
 seo-title: Über die neuen Cloud-Namen der Experience Cloud
 solution: Experience Cloud
-title: 'Über die neuen Cloud-Namen der Experience Cloud '
+title: 'Informationen zu den Cloud-Namen in Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
+feature: Admin Console
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
