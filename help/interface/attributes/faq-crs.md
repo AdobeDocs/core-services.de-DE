@@ -4,11 +4,15 @@ keywords: 'Kundenattribute '
 solution: Experience Cloud
 title: 'Antworten auf häufig gestellte Fragen zu Kundenattributen '
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
+feature: 'Kundenattribute '
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 100%
+source-wordcount: '1240'
+ht-degree: 99%
 
 ---
 
