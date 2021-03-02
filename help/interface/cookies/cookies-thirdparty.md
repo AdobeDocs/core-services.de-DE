@@ -4,11 +4,15 @@ keywords: Cookies, Datenschutz
 solution: Experience Cloud,Analytics,Target
 title: 'Auswirkungen von Änderungen an der Unterstützung von Drittanbieter-Cookies auf Kunden '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
+feature: Cookies
+topic: Administration
+role: Administrator
+level: Erfahren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 99%
 
 ---
 
