@@ -1,15 +1,15 @@
 ---
-description: '"Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Lösungen für lösungsübergreifende Dienste. Erfahren Sie, wie Sie mit den Experience Cloud-Diensten Beginn machen."'
+description: Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Lösungen für lösungsübergreifende Dienste. Erfahren Sie, wie Sie mit Experience Cloud-Diensten Beginn machen.
 keywords: Hauptdienste;Kundenattribute
 solution: Experience Cloud
-title: '"Aktivieren Sie Ihre Lösungen für lösungsübergreifende Dienste"'
+title: Lösungen für lösungsübergreifende Dienste aktivieren
 index: true
 feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Erfahren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt
 source-wordcount: '2369'
 ht-degree: 98%
