@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -101,7 +101,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>Cookies, die am 24. Februar 2021 oder früher eingestellt wurden, laufen nach 730 Tagen ab. Cookies, die am 25. Februar 2021 oder höher eingestellt wurden, laufen nach 364 Tagen ab.</p> </td> 
+   <td colname="col2"> <p>Cookies, die am 24. Februar 2021 oder früher gesetzt wurden, laufen nach 730 Tagen ab. Cookies, die am 25. Februar 2021 oder später gesetzt werden, laufen nach 364 Tagen ab.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
