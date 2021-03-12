@@ -1,18 +1,18 @@
 ---
-description: Erfahren Sie mehr über die Anforderungen und Erwartungen bei der Aktualisierung auf Analytics Premium.
+description: Erfahren Sie mehr über die Anforderungen und Möglichkeiten bei der Aktualisierung auf Analytics Premium.
 keywords: Adobe Analytics Premium-Upgrade
 solution: Experience Cloud
-title: 'Aktualisierung auf Analytics Premium und das Experience Cloud '
+title: 'Upgrade auf Analytics Premium und Experience Cloud '
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -55,9 +55,9 @@ Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](.
 
 | Produkt | Upgrades |
 |---|---|
-| Reports &amp; Analysen | [Beitragsanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Vorgefertigte Arbeitsbereiche für die Qualifizierung von Zielgruppen und das prädiktive Marketing |
-| Analytics-Plattform | Live-Stream (Dashboards und Auslöser) |
+| Analytics Platform | Live-Stream (Dashboards und Auslöser) |
 
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -67,7 +67,7 @@ Ein Upgrade auf Customer 360 beinhaltet [Analytics Premium](../admin-getting-sta
 |--- |--- |
 | [Kundenattribute](../attributes/attributes.md) | Kundenattribute (Analyse und Segmentfreigabe) |
 | Data Workbench | <ul><li>Abgeleitete Kundenattribute</li><li>Vordefinierte Arbeitsbereiche für die Erkennung von Zielgruppen</li></ul> |
-| Analytics-Plattform | [Kundenattribute](../attributes/attributes.md) |
+| Analytics Platform | [Kundenattribute](../attributes/attributes.md) |
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
