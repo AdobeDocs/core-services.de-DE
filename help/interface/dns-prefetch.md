@@ -1,17 +1,17 @@
 ---
-description: Erfahren Sie, wie Sie DNS-Prefetch implementieren, um die Seitenladezeit bei verschiedenen Lösungen und Diensten in Experience Cloud zu reduzieren.
+description: Erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seitenladezeit bei verschiedenen Lösungen und Diensten in Experience Cloud zu reduzieren.
 solution: Experience Cloud
 title: 'Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: '"Kundenattribute, Audience Library, Admin Console"'
+feature: „Kundenattribute, Zielgruppenbibliothek, Admin Console“
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
