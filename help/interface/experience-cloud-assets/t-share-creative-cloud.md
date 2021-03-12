@@ -8,11 +8,11 @@ feature: Assets
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '317'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 
    ![](assets/asset_comment_mac.png)
 
-1. Um die Freigabe eines Ordners aufzuheben, klicken Sie auf **[!UICONTROL Mit Creative Cloud teilen]** (ähnlich wie [Schritt 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), entfernen Sie die Benutzer, indem Sie auf X klicken und dann auf **[!UICONTROL Freigeben]** klicken.
+1. Zur Aufhebung der Freigabe eines Ordners klicken Sie auf **[!UICONTROL Mit Creative Cloud freigeben]** (wie in [Schritt 3](../experience-cloud-assets/t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)) und entfernen Sie dann Benutzer, indem Sie auf das X klicken. Klicken Sie dann auf **[!UICONTROL Freigeben]**.
 
 ![](assets/asset_remove_user.png)
 
-Nachdem Sie alle Creative Cloud-Benutzer entfernt haben, wird die Freigabe des Ordners aufgehoben und das Creative Cloud hat keinen Zugriff mehr.
+Wenn Sie alle Creative Cloud-Benutzer entfernt haben, wird die Freigabe des Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 
-Weitere Möglichkeiten zur Verwendung eines freigegebenen Assets:
+Ein freigegebenes Asset können Sie auch wie folgt verwenden:
 
 * Verwenden Sie Assets in der [!UICONTROL Asset-Auswahl] in [!DNL Adobe Social] für Social-Beiträge.
 * Laden oder tauschen Sie Assets in der [Angebotsbibliothek](https://docs.adobe.com/help/de-DE/target/using/experiences/offers/manage-content.html) in [!DNL Adobe Target] für Bilder in Aktivitäten.
