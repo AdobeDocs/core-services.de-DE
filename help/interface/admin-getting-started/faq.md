@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie mehr über Browser-Unterstützung und finden Sie Antworten für Administratoren auf häufig gestellte Fragen in Adobe Experience Cloud.
-keywords: Hauptdienste, Experience Cloud, Experience Platform, Analytics, Zielgruppe, Benutzerverwaltung.
+keywords: Zentrale Services, Experience Cloud, Experience Platform, Analytics, Target, Benutzerverwaltung.
 solution: Experience Cloud
 title: 'Häufig gestellte Fragen zu Experience Cloud '
 index: true
@@ -8,11 +8,11 @@ feature: Admin Console
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen n
 
 ## Wie gehe ich auf die Bedenken ein, die mein Unternehmen gegenüber einer Migration hat?
 
-[Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+[Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/de/marketing-cloud/contact-support.html).
 
 ## Was ist eine _Bereitstellung?_
 
@@ -77,7 +77,7 @@ Bereitstellung im Sinne der Experience Cloud bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://helpx.adobe.com/marketing-cloud/contact-support.html), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://helpx.adobe.com/de/marketing-cloud/contact-support.html), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 ## Wo können Benutzer die Kontoverknüpfung verwalten?
 
