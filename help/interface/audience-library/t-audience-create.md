@@ -8,11 +8,11 @@ feature: Zielgruppenbibliothek
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -93,4 +93,4 @@ Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-B
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nach dem Speichern der Zielgruppe ist sie für andere Lösungen verfügbar. Sie können beispielsweise eine freigegebene Audience in eine Adobe Target-Aktivität einbeziehen.
+Nach dem Speichern der Zielgruppe ist sie für andere Lösungen verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität aufnehmen.
