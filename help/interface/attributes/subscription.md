@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie mehr über Lösungsdatenquellen und das Konfigurieren von Abonnements. Abonnements ermöglichen den Datenfluss von Kundenattributen zwischen Experience Cloud und Lösungen (Analytics und Target).
-keywords: Kundenattribute;Hauptdienste
+keywords: Kundenattribute;zentrale Services
 solution: Experience Cloud
 title: 'Konfigurieren von Abonnements '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
@@ -8,11 +8,11 @@ feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
