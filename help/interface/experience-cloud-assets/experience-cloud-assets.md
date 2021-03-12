@@ -7,18 +7,18 @@ feature: Assets
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '336'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # Übersicht über Experience Cloud-Assets
 
-Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. Ein Asset ist ein digitales Dokument, Bild, Video oder Audio (oder ein Teil davon) mit mehreren Darstellungen und kann Teilassets aufweisen (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
+Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. Ein Asset ist ein digitales Dokument, Bild oder Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
 
 Die Asset-Dienste sind:
 
@@ -68,7 +68,7 @@ Die Bearbeitung eines Assets ermöglicht Funktionen wie:
 
 ## Nach Assets suchen {#section_50FE049010B446FC9640AA6A30E5A730}
 
-Sie können nach Schlüsselwort, Dateityp, Größe, zuletzt geänderter Größe, Veröffentlichungsstatus, Ausrichtung und Stil suchen.
+Sie können nach Keyword, Dateityp, Größe, Änderungsdatum, Veröffentlichungsstatus, Ausrichtung und Stil suchen.
 
 ![](assets/asset-search.png)
 
