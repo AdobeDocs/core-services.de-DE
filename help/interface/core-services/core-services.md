@@ -1,18 +1,18 @@
 ---
-description: Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Lösungen für lösungsübergreifende Dienste. Erfahren Sie, wie Sie mit Experience Cloud-Diensten Beginn machen.
-keywords: Hauptdienste;Kundenattribute
+description: Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Lösungen für lösungsübergreifende Services. Erfahren Sie, wie Sie Experience Cloud-Services nutzen können.
+keywords: Zentrale Services; Kundenattribute
 solution: Experience Cloud
-title: Lösungen für lösungsübergreifende Dienste aktivieren
+title: Lösungen für lösungsübergreifende Services aktivieren
 index: true
 feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2369'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 Wenn Sie kürzlich Experience Cloud mit Experience Platform Launch implementiert haben, sind Sie bereits für Kundenattribute und Experience Cloud-Audiences eingerichtet. Sie können auch Benutzer und Produkte in der Admin Console verwalten.
 
-Für bestehende Kunden müssen Sie möglicherweise Ihre Lösungsimplementierungen modernisieren und Experience Cloud implementieren. Auf diese Weise können Sie Kundenattribute und Audience-Funktionen in Adobe Analytics, Audience Manager und Adobe Target nutzen. Um diese Implementierung durchzuführen, führen Sie folgende Schritte durch:
+Für bestehende Kunden müssen Sie möglicherweise Ihre Lösungsimplementierungen modernisieren und Experience Cloud implementieren. Auf diese Weise können Sie Kundenattribute und Audience-Funktionen in Adobe Analytics, Audience Manager und Adobe Target nutzen. Für eine erfolgreiche Implementierung werden Sie:
 
 1. [Experience Cloud beitreten und Administrator werden](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Den Experience Cloud ID-Dienst implementieren](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -58,7 +58,7 @@ Sobald Sie Administrator sind, können Sie sich unter [experiencecloud.adobe.com
 
 Im Experience Cloud-Navigationsmenü wird der Link **[!UICONTROL Administration]** angezeigt.
 
-Weitere Informationen finden Sie unter  [Experience Cloud – Benutzer und Produkte verwalten](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+Weitere Informationen finden Sie unter [Experience Cloud – Benutzer und Produkte verwalten](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ### Benutzeranmeldung
 
@@ -103,7 +103,7 @@ Wenn Sie [!UICONTROL Experience Platform Launch] oder das [!UICONTROL Dynamic Ta
 
 ### Analytics und Adobe Target – Synchronisieren der Kunden-ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-Adobe empfiehlt im Zuge der Einrichtung des Experience Cloud ID-Dienstes für Analytics und [!DNL Target] die Synchronisierung Ihrer [Kunden-IDs](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) mit der Experience Cloud.
+Adobe empfiehlt im Zuge der Einrichtung des Experience Cloud ID-Dienstes für Analytics und [!DNL Target] die Synchronisierung Ihrer [Kunden-IDs](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/authenticated-state.html) mit der Experience Cloud.
 
 In Adobe Target muss `mbox3rdpartyid` die Kunden-ID abrufen und an [!DNL Target] senden. (Siehe [Arbeiten mit Kundenattributen](https://docs.adobe.com/content/help/de-DE/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) in [!DNL Target].)
 
@@ -233,4 +233,4 @@ Wenn Sie eine geeignete Funktion zum Deaktivieren von Cookies bereitstellen möc
 
 Anweisungen finden Sie unter [Adobe Experience Cloud – Implementieren von Adobe Opt-Outs](https://docs.adobe.com/content/help/de-DE/analytics/implementation/js/opt-out.html).
 
-Informationen zum Aktivieren der domänenübergreifenden Verfolgung finden Sie unter [CNAMEs für die Datenerfassung und domänenübergreifende Verfolgung](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html).
+Informationen zum Aktivieren der domänenübergreifenden Verfolgung finden Sie unter [CNAMEs für die Datenerfassung und domänenübergreifende Verfolgung](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/analytics-reference/cname.html).
