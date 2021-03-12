@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie Datenschutzeinstellungen für Browser-Cookies aktivieren. Sie können Benutzer entfernen, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
+description: Erfahren Sie, wie Sie die Datenschutzeinstellungen für Browser-Cookies aktivieren. Sie können Benutzer entfernen, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben.
 keywords: Cookies, Datenschutz
 solution: Experience Cloud, Analytics, Target, Social
 title: 'Datenschutzeinstellungen für Browser-Cookies '
@@ -8,11 +8,11 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
