@@ -1,6 +1,6 @@
 ---
 description: Hier erfahren Sie, wie Sie sich bei Adobe Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine standardmäßige Landingpage festlegen.
-keywords: Hauptdienste, Anmeldung bei Experience Cloud
+keywords: Zentrale Services, Anmeldung bei Experience Cloud
 solution: Experience Cloud
 title: 'Anmelden und Verwalten von der Experience Cloud-Profileinstellungen '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
@@ -8,11 +8,11 @@ feature: Admin Console
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation u
 
    Füllen Sie auf der Seite „Profil und Kennwörter“ die Felder und Optionen unter „Persönliche Details“ aus.
 
-## Kennwort zurücksetzen  {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Kennwort zurücksetzen {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navigieren Sie zur Anmeldeseite Ihrer Lösung.
 1. Klicken Sie auf **[!UICONTROL Kennwort vergessen]**.
@@ -152,5 +152,5 @@ Beispiel-URL:
 | Parameter | Beschreibung | Beispiel | Erforderlich/Optional |
 |--- |--- |--- |--- |
 | tenantId | Name des Mandanten, bei dem sich der Benutzer anmelden soll. | aem62tenant | Optional |
-| destURL | Die vollständige URL zu dem Ort, an den der Benutzer geleitet werden soll. | https://sc.omniture.com/x/1_7xxzf | optional |
+| destURL | Die vollständige URL zu dem Ort, an den der Benutzer geleitet werden soll. | https://sc.omniture.com/x/1_7xxzf | Optional |
 | solutionname | Name der MAC-Lösung, die Inhaber des destURL-Parameters ist. Dieser Name wird verwendet, um zu bestätigen, dass der Benutzer Zugriff auf die Lösung hat, zu der die URL gehört.  Es liegt in der Verantwortung der Lösungen sicherzustellen, dass der „solutionname“ mit dem Parameter „destURL“ übereinstimmt.  Beispiel: Wenn für die URL „solutionname“ auf „social“ angegeben wurde und die bereitgestellte destURL eine Analytics-URL ist, wird der Benutzer auch dann zu der URL umgeleitet, wenn er keinen Zugriff auf Analytics hat. MAC überprüft NICHT, ob der Eigentümer der destURL mit dem Lösungsnamen synchronisiert ist. | analytics | Erforderlich, wenn der destURL-Parameter verwendet wird. |
