@@ -3,17 +3,17 @@ description: Hier erfahren Sie mehr über die neuesten Branding-Änderungen der 
 seo-description: Hier erfahren Sie mehr über die neuesten Branding-Änderungen der Clouds, über die Navigation mithilfe der Benutzeroberfläche sowie dazu, wo Sie Hilfestellung zu Lösungen und Hauptdiensten erhalten.
 seo-title: Über die neuen Cloud-Namen der Experience Cloud
 solution: Experience Cloud
-title: 'Informationen zu den Cloud-Namen in Experience Cloud '
+title: 'Über die Cloud-Namen in Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 feature: Admin Console
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '671'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Target kann mit Analytics und anderen zentralen Experience Cloud-Diensten 
 
 Als Content Management-Lösung erleichtert Adobe Experience Manager die Verwaltung Ihrer Assets und Inhalte für Ihre Websites, mobilen Apps, Communities und Formulare.
 
-Hilfe finden Sie unter [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html).
+Hilfe finden Sie unter [Adobe Experience Manager 6.5](https://helpx.adobe.com/de/support/experience-manager/6-5.html).
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/aam-home.html)
 
@@ -106,7 +106,7 @@ Mit Adobe Campaign können Sie Kampagnen für alle Ihre Online- und Offline-Kana
 
 Adobe Primetime ist eine TV-Plattform für mehrere Bildschirme, mit der Rundfunkanbieter ansprechende TV- und Filmerlebnisse erstellen können, die beliebige Zielgruppen personalisiert sind.
 
-## Was sind Hauptdienste?  {#concept_38AC4888C3F84694AE4F60311C21B9C2}
+## Was sind Hauptdienste? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
 [Hauptdienste](https://docs.adobe.com/content/help/de-DE/core-services/interface/about-core-services/core-services-landing.html) enthalten Funktionen, die die Produktimplementierung vereinfachen und lösungsübergreifende Arbeitsabläufe – wie Zielgruppensegmentierung, Hochladen von Kundenattributen und Tools für die Zusammenarbeit – bieten.
 
