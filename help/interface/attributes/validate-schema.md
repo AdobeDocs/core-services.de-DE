@@ -1,6 +1,6 @@
 ---
 description: Hier erfahren Sie, wie Sie das Kundenattribut-Schema in Adobe Experience Cloud validieren.
-keywords: Kundenattribute;Experience Cloud-Services
+keywords: Kundenattribute; Experience Cloud-Dienste
 solution: Experience Cloud
 title: 'Validieren des Kundenattribut-Schemas '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
@@ -8,11 +8,11 @@ feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
