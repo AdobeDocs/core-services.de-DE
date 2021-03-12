@@ -10,16 +10,16 @@ feature: Admin Console
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Aktivierung
+# Activation
 
 Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform Launch, Dynamic Tag Management (DTM) und Triggers.
 
