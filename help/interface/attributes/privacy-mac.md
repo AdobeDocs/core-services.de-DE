@@ -8,16 +8,16 @@ feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '522'
+translation-type: tm+mt
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+workflow-type: tm+mt
+source-wordcount: '519'
 ht-degree: 100%
 
 ---
 
 
-# Überlegungen zum Datenschutz bei Kundenattributen in Experience Cloud
+# Überlegungen zum Datenschutz bei Kundenattributen
 
 Überlegungen und Best Practices hinsichtlich persönlich identifizierbarer Informationen (PII), die in die Adobe Experience Cloud hochgeladen und darüber ausgetauscht werden.
 
