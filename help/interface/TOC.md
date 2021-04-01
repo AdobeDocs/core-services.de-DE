@@ -6,10 +6,10 @@ user-guide-description: Erfahren Sie, wie Sie Benutzer und Produkte in Adobe Exp
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
    + [Erstanbieter-Cookies in Experience Cloud](cookies/cookies-first-party.md)
    + [Cookies in Analytics](cookies/cookies-analytics.md)
    + [Cookies in Audience Manager](cookies/cookies-am.md)
-   + [Cookies in [!UICONTROL Data Connectors]](cookies/cookies-dc.md)
-   + [Cookies in [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
+   + Cookies in [[!UICONTROL Data Connectors]](cookies/cookies-dc.md)
+   + Cookies in [[!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies in [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies in [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies in [!DNL Target] ](cookies/cookies-target.md)
+   + Cookies in [[!DNL Scene7] ](cookies/cookies-s7.md)
+   + Cookies in [[!DNL Search and Promote] ](cookies/cookies-snp.md)
+   + Cookies in [[!DNL Target] ](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
@@ -63,8 +63,8 @@ ht-degree: 100%
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
 + Experience Cloud-Kundenattribute {#customer-attributes}
-   + [Kundenattribute in Adobe Experience Cloud](attributes/attributes.md)
-   + [Häufig gestellte Fragen, Einschränkungen und Best Practices](attributes/faq-crs.md)
+   + [Übersicht über Kundenattribute](attributes/attributes.md)
+   + [Häufig gestellte Fragen zu Kundenattributen](attributes/faq-crs.md)
    + [Informationen zur Datendatei und zu den Datenquellen für Kundenattribute](attributes/crs-data-file.md)
    + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](attributes/t-crs-usecase.md)
    + [Optional – Hochladen der Datendatei via FTP](attributes/t-upload-attributes-ftp.md)
@@ -73,14 +73,12 @@ ht-degree: 100%
    + [Schema aktualisieren](attributes/t-update-schema.md)
    + [Unterstützung der Datenschutz-Grundverordnung ](attributes/gdpr.md)
    + [Unterstützung des California Consumer Privacy Act](attributes/ccpa.md)
-   + [Überlegungen zum Datenschutz – Kundenattribute](attributes/privacy-mac.md)
+   + [Überlegungen zum Datenschutz bei Kundenattributen](attributes/privacy-mac.md)
 + Versionshinweise für Experience Cloud {#release-notes}
    + [Neue Funktionen in der Experience Cloud](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html)
    + [Gesammelte Versionshinweise](marketing-cloud-interface/release-notes.md)
-+ [Exchange Marketplace](exchange.md)
-+ [Mobile Services](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html)
 + Zusätzliche Ressourcen {#more-resources}
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologie](terms.md)
    + [Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste](dns-prefetch.md)
-   + [Aktualisierungen der Dokumentation – Experience Cloud](doc-updates.md)
+   + [Dokumentationsaktualisierungen](doc-updates.md)
