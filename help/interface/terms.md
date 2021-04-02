@@ -6,14 +6,14 @@ seo-title: Terminologie
 solution: Experience Cloud
 title: 'Terminologie '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: „Kundenattribute, Zielgruppenbibliothek, Admin Console“
+feature: '"Kundenattribute"'
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1506'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '1502'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Eine Terminologiereferenz für Experience Cloud-Benutzer und Informationen dazu,
 | Portfolio | Eine Zusammenstellung aus mehreren Dateien oder Assets. | Ein Container mit Kampagnen. |
 | Produktprofil | Siehe [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products-and-profiles.html). | Damit ein Benutzer berechtigt sein kann, ein Produkt oder einen Dienst zu verwenden, muss er Teil eines Produktprofils sein. Der Produktadministrator weist einem Produktprofil Lizenzen zu, indem er es mit einem von Ihnen erworbenen Plan verknüpft.<br>Ein Benutzer kann mehreren Produktprofilen zugeordnet werden, über die er jeweils verschiedene Lizenzen erhält. Die finale Berechtigung eines Benutzers ist die Vereinigung aller Lizenzen, die er von den einzelnen Produktprofilen erhält. |
 | Zeitplan | Kann sich auf eine Folge von Szenen in Adobe Story oder auf geplante Aufgaben in ColdFusion beziehen. | In der Experience Cloud ist ein Zeitplan das Startdatum (Jahr, Monat, Tag) und Enddatum für die Aktivierung von Kampagnen, Kanälen und Aktivitäten. Zeitpläne für Aktivitäten haben eine bis auf die Minute gestaffelte Granularität. Beim Ändern eines Zeitplans wird eine Karte erstellt.<br>Zu den Beispielen gehören:<ul><li>Kampagnenzeitpläne</li><li>Kanalzeitpläne</li><li>Aktivitätszeitpläne</li></ul> |
-| Segment | K. A. | Die Ausgabe eines Regelsatzes zur Qualifizierung einer Zielgruppe. In Analytics können [Segmente](https://docs.adobe.com/content/help/de-DE/analytics/components/segmentation/seg-home.html) optional verwendet werden, um eine Zielgruppe zu definieren, die an Experience Cloud weitergeleitet werden kann. <br>In Audience Manager ist ein Segment eine Sammlung von [Eigenschaften](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/traits/traits-overview.html) und allen Kriterien, die Besucher für die Mitgliedschaft oder Aufnahme in dieses Segment qualifizieren. Es ist auch eine Sammlung von Personen, die diese allgemeinen Attribute teilen. |
+| Segment | K. A. | Die Ausgabe eines Regelsatzes zur Qualifizierung einer Zielgruppe. In Analytics können [Segmente](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) optional verwendet werden, um eine Zielgruppe zu definieren, die an Experience Cloud weitergeleitet werden kann. <br>In Audience Manager ist ein Segment eine Sammlung von [Eigenschaften](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/traits/traits-overview.html) und allen Kriterien, die Besucher für die Mitgliedschaft oder Aufnahme in dieses Segment qualifizieren. Es ist auch eine Sammlung von Personen, die diese allgemeinen Attribute teilen. |
 | Freigabe | In Creative Cloud können Dateien extern über Plattformen freigegeben werden (soziale Medien, Communitys, E-Mails usw.). | In der Experience Cloud können Assets nur schnittstellenintern als Karten auf Pinnwänden freigegeben werden. Die Freigabe steht allen Personen zur Verfügung, die bei der Site angemeldet sind. |
 | Lösung | Keine festgeschriebene Verwendung. | In Experience Cloud sind Lösungen Produkte wie Adobe Analytics, Adobe Social, Adobe Target usw.<br>Siehe [Über die neuen Cloud-Namen der Experience Cloud](solutions-core-services.md). |
-| Eigenschaft | K. A. | Ein Schlüssel-Wert-Paar, z. B. color=blue. In Audience Manager werden [Eigenschaften](https://docs.adobe.com/content/help/de-DE/audience-manager/user-guide/features/traits/traits-overview.html) zum Erstellen von Segmenten verwendet. |
+| Eigenschaft | K. A. | Ein Schlüssel-Wert-Paar, z. B. color=blue. In Audience Manager werden [Eigenschaften](https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/traits/traits-overview.html) zum Erstellen von Segmenten verwendet. |
