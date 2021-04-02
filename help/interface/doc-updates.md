@@ -4,15 +4,15 @@ keywords: Experience Cloud Services
 solution: Experience Cloud
 title: Dokumentation-Aktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: „Kundenattribute, Zielgruppenbibliothek, Admin Console, Assets“
+feature: '"Kundenattribute, Assets"'
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 98%
 
 ---
 
