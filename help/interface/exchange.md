@@ -4,15 +4,15 @@ keywords: Hauptdienste
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: „Kundenattribute, Zielgruppenbibliothek, Admin Console“
+feature: '"Kundenattribute"'
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '143'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
