@@ -3,14 +3,14 @@ description: Erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seite
 solution: Experience Cloud
 title: 'Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: „Kundenattribute, Zielgruppenbibliothek, Admin Console“
+feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '389'
+translation-type: tm+mt
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+workflow-type: tm+mt
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
