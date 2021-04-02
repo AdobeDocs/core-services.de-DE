@@ -9,11 +9,11 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Erfahren
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '1447'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,9 @@ Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfüg
 * Der ID-Dienst von Experience Platform. Der ID-Dienst kann das Cookie im Erstanbieterkontext mit JavaScript setzen.
 * DNS-Einträge auf dem DNS-Server Ihres Unternehmens, um einen CNAME-Alias für eine von Adobe gehostete Domäne zu konfigurieren. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn der Kunde mehrere Domänen kontrolliert, kann er einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Da dies jedoch Drittanbieter-Cookies für alle Domänen außerhalb der CNAME-Domäne erfordert, funktioniert dies nicht, wenn Drittanbieter-Cookies blockiert werden. Daher wird diese Vorgehensweise nicht empfohlen. Adobe-CNAMEs werden nie zur Verfolgung von Einzelpersonen oder Geräten über Domänen verschiedener Kunden hinweg verwendet.
 
-Selbst bei Verwendung der ersten Option mit dem Experience Cloud ID-Dienst sind die Erstanbieter-Cookies aufgrund der ITP von Apple kurzlebig, sodass sie am besten zusammen mit der zweiten Option verwendet werden.
+>[!NOTE]
+>
+>Für beide Optionen macht das ITP-Programm (Intelligent Tracking Prevention) von Apple die Erstanbieter-Cookies in Browsern, die von ITP gesteuert werden, kurzlebig, einschließlich Safari unter MacOS und allen Browsern unter iOS und iPadOS. Ab November 2020 laufen beide Cookie-Typen sieben Tage ab. Dieser Ablauf kann sich ändern.
 
 Bei der zweiten Option mit einem CNAME können Sie, wenn Ihre Site sichere Seiten mit dem HTTPS-Protokoll aufweist, mit Adobe ein SSL-Zertifikat abrufen, um Erstanbieter-Cookies zu implementieren. Adobe empfiehlt dringend, dass Sie ausschließlich HTTPS für die Datenerfassung verwenden, da die Unterstützung für die HTTP-Erfassung in der zweiten Jahreshälfte 2020 eingestellt wird.
 
@@ -94,7 +96,7 @@ Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schri
 
 >[!NOTE]
 >
->Der Experience Cloud-Besucher-ID-Dienst bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu aktivieren. Aufgrund kürzlich durchgeführter Apple ITP-Änderungen wird jedoch empfohlen, einen CNAME auch bei Verwendung des Experience Cloud ID-Dienstes zuzuweisen.
+>Der Experience Cloud-Besucher-ID-Dienst bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu aktivieren.
 
 ## Überprüfen der Hostnamenweiterleitung {#validate}
 
