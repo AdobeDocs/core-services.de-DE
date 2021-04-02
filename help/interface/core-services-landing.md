@@ -7,9 +7,9 @@ topic: Administration
 role: Administrator
 level: Erfahren
 translation-type: tm+mt
-source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '469'
 ht-degree: 100%
 
 ---
@@ -38,6 +38,5 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] ist die nächste Generation der Datenerfassungs- und Technologieimplementierung für Websites und Apps. [!UICONTROL Experience Platform] Launch bietet Kunden eine einfache Möglichkeit zum Bereitstellen und Verwalten aller Analyse-, Marketing- und Werbe-Tags, die für relevante Kundenerlebnisse benötigt werden. |
 | [Journey Orchestration](https://docs.adobe.com/content/help/de-DE/journeys/using/journey-orchestration-home.html) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungs-Service. |
 | [Location Service](https://docs.adobe.com/content/help/de-DE/places/using/home.html) | Der Adobe [!UICONTROL Experience Platform Location Service] ist eine Standortdienstleistung, die es Apps mit Standorterkennung ermöglicht, den Standortkontext nachzuvollziehen. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit Zielpunkten (Points of Interest, POIs) verwendet. |
-| [Exchange](exchange.md) | Suchen, Durchsuchen, Auswählen, Bezahlen und Herunterladen von Digital Marketing-Erweiterungen über Apps. |
 | [Mobile Services](https://docs.adobe.com/content/help/de-DE/mobile-services/using/home.html) | Adobe Mobile Services führen mobile Marketingfunktionen für mobile Anwendungen aus der ganzen Adobe Experience Cloud zusammen, sodass Sie Einblicke in die Benutzerinteraktionen Ihrer mobilen Anwendungen erhalten und gegebenenfalls Verbesserungen vornehmen können. |
 | People | Erstellen Sie eine umfassende Ansicht einzelner Kunden, indem Sie Adobe- und Nicht-Adobe-Daten in Ihre Experience Cloud-Lösungen einbinden. Finden Sie heraus, was ihnen am wichtigsten ist, wenn sie über Berührungspunkte hinweg interagieren. Erkennen Sie vertraute Kunden bei ihrem Besuch von unbekannten Geräten aus. Für zielgerichtete Marketing-Maßnahmen können Sie sogar Benutzer in Audiences gruppieren.<br>[Audiences](audience-library/audience-library.md) – Kategorisieren verschiedener Kundentypen in Audiences und diese Audiences über Experience Cloud-Lösungen freigeben.<br>[Kundenattribute](attributes/attributes.md) – Eine Erweiterung der Zielgruppe, mit der Sie eine Verbindung mit Kundeninformationen herstellen können, die außerhalb von Experience Cloud erfasst wurden.<br>[Gerätediagramm](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) – Zusammenarbeit mit den weltweit beliebtesten Marken, um einen bekannten Kunden hinter einem unbekannten Gerät zu erkennen. |
