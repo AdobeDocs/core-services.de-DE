@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Erfahren
 translation-type: tm+mt
-source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
+source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +109,3 @@ Weitere Informationen finden Sie unter [Zielgruppen](audience-library/audience-l
 **Aktualisiert: 22.05.2014**
 
 Zum Abschnitt [Verwalten von Experience Cloud-Benutzern und -Produkten](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) wurden Informationen hinzugefügt, wie man Administrator in der Experience Cloud wird.
-
-**Aktualisiert: 22.05.2014**
-
-[Exchange Marketplace](exchange.md#concept_E07F16F070544B82B56527A845C41D59) wurde hinzugefügt.
