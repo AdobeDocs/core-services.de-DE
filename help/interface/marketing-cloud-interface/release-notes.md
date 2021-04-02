@@ -9,9 +9,9 @@ topic: Administration
 role: Administrator
 level: Erfahren
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
-source-wordcount: '3969'
+source-wordcount: '3966'
 ht-degree: 100%
 
 ---
@@ -505,7 +505,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Hilfe</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle">Exchange</span> ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. </p> <p>Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern, Berichte und <span class="keyword">Experience Cloud</span>-Karten. </p> <p>Siehe <a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Hilfe</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle">Exchange</span> ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. </p> <p>Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern, Berichte und <span class="keyword">Experience Cloud</span>-Karten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud-Zielgruppen </p> </td> 
