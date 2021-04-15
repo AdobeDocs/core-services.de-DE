@@ -8,15 +8,15 @@ snippet: y
 feature: Cookies
 topic: Administration
 role: Administrator
-level: Erfahren
+level: Experienced
+exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 translation-type: tm+mt
-source-git-commit: 04f23f3b36b246aa1fe6d672aaeef1dc9140ef3a
+source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 95%
+source-wordcount: '1499'
+ht-degree: 86%
 
 ---
-
 
 # Informationen zu Erstanbieter-Cookies
 
@@ -49,23 +49,25 @@ Mit diesem Programm können Sie ohne zusätzliche Kosten ein neues Erstanbieter-
 
 So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Cookies:
 
-1. Füllen Sie das [Anforderungsformular für Erstanbieter-Cookies](/help/interface/cookies/assets/FPC_Request_Form.xlsx) aus und erstellen Sie ein Ticket für die Kundenunterstützung, um Erstanbieter-Cookies im Adobe Managed Program einzurichten. Bei jedem Feld finden Sie eine Beschreibung anhand von Beispielen.
+1. Füllen Sie das [Anforderungsformular für Erstanbieter-Cookies](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) aus und erstellen Sie ein Ticket für die Kundenunterstützung, um Erstanbieter-Cookies im Adobe Managed Program einzurichten. Bei jedem Feld finden Sie eine Beschreibung anhand von Beispielen.
 
-1. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten).
+2. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten).
 
-   Nach Erhalt des Tickets stellt Ihnen ein Mitarbeiter der Kundenunterstützung ein Paar CNAME-Datensätze bereit. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Die CNAMES ähneln den folgenden:
+   Nach Erhalt des Tickets sollte Ihnen ein Kundenbetreuer einen CNAME-Eintrag vorlegen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Der CNAME ähnelt dem Folgenden:
 
-   **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.ssl.d1.omtrdc.net`.
+   **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.adobedc.net`.
 
-   **Nicht sicher** – Zum Beispiel verweist der Hostname `metrics.example.com` auf: `example.com.d1.omtrdc.net`.
+>[!NOTE]
+> In der Vergangenheit haben wir Kunden empfohlen, zwei CNAME-Einträge für HTTPS und einen für HTTP einzurichten. Da es sich um eine Best Practice zur Verschlüsselung von Traffic handelt und die meisten Browser HTTP stark abschreckend wirken, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Wenn Sie es benötigen würden Sie wie folgt aussehen:
+>    **Nicht sicher** - der Hostname `metrics.example.com` verweist auf: `example.com.adobedc.net`.
 
-1. Wenn diese CNAMEs eingerichtet sind, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Produktionsservern von Adobe.
+1. Wenn der CNAME eingerichtet ist, kann mit DigiCert eine Adobe zum Erwerb und zur Installation eines Zertifikats auf den Produktionsservern der Adobe verwendet werden.
 
    Wenn Sie bereits ein Zertifikat implementiert haben, sollten Sie eine Besuchermigration erwägen, um Ihre vorhandenen Besucher beizubehalten. Nachdem das Zertifikat live in die Produktionsumgebung von Adobe übermittelt wurde, können Sie Ihre Tracking-Server-Variablen gemäß den neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (HTTP) ist, aktualisieren Sie also `s.trackingServer`. Wenn die Site sicher ist (HTTPS), aktualisieren Sie die beiden Variablen `s.trackingServer` und `s.trackingServerSecure`.
 
-1. [Validieren Sie die Weiterleitung von Hostnamen](#validate) (siehe unten).
+2. [Validieren Sie die Weiterleitung von Hostnamen](#validate) (siehe unten).
 
-1. [Aktualisieren Sie den Implementierungscode](#update) (siehe unten).
+3. [Aktualisieren Sie den Implementierungscode](#update) (siehe unten).
 
 ### Wartung und Verlängerung
 
@@ -76,7 +78,7 @@ SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zert
 | Frage | Antwort |
 |---|---|
 | **Ist dieser Prozess sicher?** | Ja, das Adobe Managed-Programm ist sicherer als unsere frühere Methode, da weder Zertifikate noch private Schlüssel außerhalb von Adobe und der Zertifizierungsstelle ausgetauscht werden. |
-| **Wie kann Adobe ein Zertifikat für unsere Domäne erwerben?** | Das Zertifikat kann nur gekauft werden, wenn Sie mit dem jeweiligen Hostnamen (z. B. `smetrics.example.com`) auf Hostnamen von Adobe verweisen. Dadurch wird dieser Hostname an Adobe übertragen und Adobe kann das Zertifikat in Ihrem Namen erwerben. |
+| **Wie kann Adobe ein Zertifikat für unsere Domäne erwerben?** | Das Zertifikat kann nur gekauft werden, wenn Sie mit dem jeweiligen Hostnamen (z. B. `telemetry.example.com`) auf Hostnamen von Adobe verweisen. Dadurch wird dieser Hostname an Adobe übertragen und Adobe kann das Zertifikat in Ihrem Namen erwerben. |
 | **Kann ich verlangen, dass das Zertifikat entzogen wird?** | Ja, als Eigentümer der Domäne können Sie verlangen, dass uns das Zertifikat entzogen wird. Sie müssen dazu nur ein Ticket bei der Kundenunterstützung erstellen. |
 | **Verwendet dieses Zertifikat SHA-2-Verschlüsselung?** | Ja, Adobe gibt in Zusammenarbeit mit DigiCert ein SHA-2-Zertifikat heraus. |
 | **Verursacht dies Mehrkosten?** | Nein, Adobe stellt diesen Dienst allen aktuellen Adobe Digital Experience-Kunden kostenlos zur Verfügung. |
@@ -85,12 +87,16 @@ SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zert
 
 Das Netzwerkteam Ihres Unternehmens sollte Ihre DNS-Server konfigurieren, indem es neue CNAME-Datensätze erstellt. Jeder Hostname leitet Daten an die Datenerfassungsserver von Adobe weiter.
 
-Der FPC-Spezialist stellt Ihnen die konfigurierten Hostnamen bereit und gibt an, auf welche CNAMEs sie verweisen sollen. Beispiel:
+Der FPC-Spezialist stellt Ihnen den konfigurierten Hostnamen und den CNAME zur Verfügung, auf den Sie verweisen sollen. Beispiel:
 
 * **SSL-Hostname**: `smetrics.mysite.com`
-* **SSL-CNAME**: `mysite.com.ssl.sc.omtrdc.net`
-* **Nicht-SSL-Hostname**: `metrics.mysite.com`
-* **Nicht-SSL-CNAME**: `mysite.com.sc.omtrdc.net`
+* **SSL-CNAME**: `mysite.com.adobedc.net`
+
+>[!NOTE]
+> Wenn Sie immer noch nicht sicher verwenden, sieht das so aus.
+> * **Nicht-SSL-Hostname**: `metrics.mysite.com`
+> * **Nicht-SSL-CNAME**: `mysite.com.adobedc.net`
+
 
 Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schritt nicht die Datensammlung und kann zu einem beliebigen Zeitpunkt nach der Aktualisierung des Implementierungscodes vorgenommen werden.
 
@@ -106,7 +112,7 @@ Die folgenden Methoden stehen zur Überprüfung zur Verfügung:
 
 Wenn Sie einen CNAME eingerichtet haben und das Zertifikat installiert ist, können Sie den Browser zur Überprüfung verwenden:
 
-`https://sstats.adobe.com/_check`
+`https://smetrics.adobe.com/_check`
 
 >[!NOTE]
 >
@@ -117,27 +123,27 @@ Wenn Sie einen CNAME eingerichtet haben und das Zertifikat installiert ist, kön
 Adobe empfiehlt die Verwendung von [[!DNL curl]](https://curl.haxx.se/) über die Befehlszeile. ([!DNL Windows]-Benutzer können [!DNL curl] über folgenden Link installieren: <https://curl.haxx.se/windows/>)
 
 Wenn Sie einen CNAME haben, aber kein Zertifikat installiert ist, führen Sie Folgendes aus:
-`curl -k https://sstats.adobe.com/_check`
+`curl -k https://smetrics.adobe.com/_check`
 Antwort: `SUCCESS`
 
 (Der `-k`-Wert deaktiviert die Sicherheitswarnung.)
 
 Wenn Sie einen CNAME eingerichtet haben und das Zertifikat installiert ist, führen Sie Folgendes aus:
-`curl https://sstats.adobe.com/_check`
+`curl https://smetrics.adobe.com/_check`
 Antwort: `SUCCESS`
 
 ### Validieren mit [!DNL nslookup]
 
-Sie können `nslookup` zur Überprüfung verwenden. Verwenden Sie `sstats.adobe.com` als Beispiel, öffnen Sie eine Eingabeaufforderung und geben Sie `nslookup sstats.adobe.com` ein.
+Sie können `nslookup` zur Überprüfung verwenden. Verwenden Sie `smetrics.adobe.com` als Beispiel, öffnen Sie eine Eingabeaufforderung und geben Sie `nslookup smetrics.adobe.com` ein.
 
 Wenn alles erfolgreich eingerichtet wurde, wird eine Rückgabe ähnlich der folgenden angezeigt:
 
 ```
-nslookup sstats.adobe.com
+nslookup smetrics.adobe.com
 Server:             10.30.7.247
 Address:     10.30.7.247#53
 
-sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+smetrics.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
 Address: 54.218.180.161
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
