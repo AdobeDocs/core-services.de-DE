@@ -5,17 +5,21 @@ solution: Experience Cloud
 feature: 'Kundenattribute '
 role: Administrator
 topic: Administration
-level: Erfahren
+level: Experienced
+exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 97%
 
 ---
 
-
 # Kundenattribute  Übersicht
+
+>[!NOTE]
+>
+>Kundenattribute sind ein älterer Hauptdienst, der jetzt unterstützt wird.
 
 Mit Kundenattributen in Adobe Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
