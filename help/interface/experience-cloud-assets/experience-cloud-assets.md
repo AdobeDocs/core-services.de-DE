@@ -6,17 +6,21 @@ uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
 role: Administrator
-level: Erfahren
-translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
-workflow-type: ht
-source-wordcount: '336'
-ht-degree: 100%
+level: Experienced
+exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
+translation-type: tm+mt
+source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 97%
 
 ---
 
-
 # Übersicht über Experience Cloud-Assets
+
+>[!NOTE]
+>
+>Assets sind ein veralteter Hauptdienst, der jetzt unterstützt wird.
 
 Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. Ein Asset ist ein digitales Dokument, Bild oder Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
 
@@ -37,12 +41,12 @@ In [!UICONTROL Experience Cloud Assets] können Sie:
 * [Zu Experience Cloud Assets navigieren](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Auf die Symbolleiste zugreifen](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [Asset bearbeiten ](../experience-cloud-assets/experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
-* [Suche nach Assets](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
+* [Nach Assets suchen](../experience-cloud-assets/experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [Anmerkungen zu Assets vornehmen](../experience-cloud-assets/experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
 * [Assets im Vollbildmodus anzeigen und zoomen](../experience-cloud-assets/experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
 * [Asset-Eigenschaften anzeigen](../experience-cloud-assets/experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Gebrauchsberichte ausführen](../experience-cloud-assets/experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
-* [Asset-Freigabe mit Experience Manager](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
+* [Assets mit Experience Manager freigeben](../experience-cloud-assets/experience-cloud-assets.md#section_45C1B72F4D274F54BC6CCB64D2580AC5)
 
 ## Zu Experience Cloud Assets navigieren {#section_3657039DD3524F2AA88753BFF4781125}
 
