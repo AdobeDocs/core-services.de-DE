@@ -2,7 +2,7 @@
 title: Verwenden von Kundenattributen
 description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Experience Cloud
-feature: 'Kundenattribute '
+feature: Customer Attributes
 role: Administrator
 topic: Administration
 level: Experienced

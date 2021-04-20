@@ -7,7 +7,7 @@ index: true
 feature: Admin Console
 topic: Administration
 role: Administrator
-level: Erfahren
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

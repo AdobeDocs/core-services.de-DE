@@ -4,10 +4,10 @@ keywords: Kundenattribute;zentrale Services
 solution: Experience Cloud
 title: 'Erstellen einer Kundenattributquelle und Hochladen der Datendatei '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: 'Kundenattribute '
+feature: Customer Attributes
 topic: Administration
 role: Administrator
-level: Erfahren
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

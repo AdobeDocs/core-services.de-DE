@@ -4,10 +4,10 @@ keywords: Adobe Experience Cloud-Services, Kundenattribute, Zielgruppen, Benutze
 solution: Experience Cloud
 title: 'Experience Cloud Services und Administration '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"Kundenattribute"'
+feature: "Customer Attributes"
 topic: Administration
 role: Administrator
-level: Erfahren
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

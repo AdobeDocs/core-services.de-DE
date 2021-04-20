@@ -4,10 +4,10 @@ keywords: Kundenattribute;zentrale Services
 solution: Experience Cloud
 title: 'Informationen zu Datendateien und Datenquellen für Kundenattribute '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: 'Kundenattribute '
+feature: Customer Attributes
 topic: Administration
 role: Administrator
-level: Erfahren
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

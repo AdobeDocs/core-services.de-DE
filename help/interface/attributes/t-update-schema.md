@@ -2,10 +2,10 @@
 description: Löschen und Ersetzen von Attributen im Schema in Adobe Experience Cloud.
 title: 'Schema aktualisieren (Attribut löschen) '
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
-feature: 'Kundenattribute '
+feature: Customer Attributes
 topic: Administration
 role: Administrator
-level: Erfahren
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

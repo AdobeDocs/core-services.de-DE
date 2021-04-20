@@ -1,10 +1,10 @@
 ---
 title: 'Veröffentlichen eines Analytics-Zielgruppensegments '
 description: Veröffentlichen eines Adobe Analytics-Zielgruppensegment in Experience Cloud und in Adobe Target für Zielgruppen-Marketing-Aktivitäten.
-feature: Zielgruppenbibliothek
+feature: Audience Library
 topic: Administration
 role: Administrator
-level: Erfahren
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht

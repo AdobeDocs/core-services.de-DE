@@ -5,7 +5,7 @@ uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
 topic: Administration
 role: Administrator
-level: Erfahren
+level: Experienced
 translation-type: ht
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: ht
