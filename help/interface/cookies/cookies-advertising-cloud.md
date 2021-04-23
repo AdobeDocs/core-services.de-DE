@@ -6,14 +6,14 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
-workflow-type: tm+mt
-source-wordcount: '542'
+exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
+translation-type: ht
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
+workflow-type: ht
+source-wordcount: '540'
 ht-degree: 100%
 
 ---
-
 
 # Advertising Cloud-Cookies {#advertising-cloud-cookies}
 
