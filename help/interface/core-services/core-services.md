@@ -4,18 +4,18 @@ keywords: Zentrale Services; Kundenattribute
 solution: Experience Cloud
 title: Lösungen für lösungsübergreifende Services aktivieren
 index: true
-feature: Customer Attributes
+feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
 translation-type: ht
-source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '2369'
+source-wordcount: '2367'
 ht-degree: 100%
 
 ---
-
 
 # Implementierung für Experience Cloud Services aktivieren
 
