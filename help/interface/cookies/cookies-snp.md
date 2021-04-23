@@ -8,14 +8,14 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '125'
+source-wordcount: '123'
 ht-degree: 100%
 
 ---
-
 
 # Cookies in Search&amp;Promote {#search-and-promote-cookies}
 
@@ -64,4 +64,3 @@ Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besuc
   </tr> 
  </tbody> 
 </table>
-
