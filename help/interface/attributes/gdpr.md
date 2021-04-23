@@ -1,18 +1,18 @@
 ---
 title: 'Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO) '
 description: Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
-feature: Customer Attributes
+feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '437'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
-
 
 # Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
 
