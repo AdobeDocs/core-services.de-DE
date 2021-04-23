@@ -10,14 +10,14 @@ feature: Admin Console
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '678'
+source-wordcount: '676'
 ht-degree: 100%
 
 ---
-
 
 # Triggers
 
@@ -61,7 +61,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
    | Beschreibung | Die Beschreibung dieses Triggers, wie Sie ihn verwenden werden usw. |
    | Report Suite | Die für diesen Trigger verwendete Analytics [Report Suite](https://docs.adobe.com/content/help/de-DE/analytics/admin/manage-report-suites/report-suites-admin.html). Diese Einstellung identifiziert die zu verwendenden Berichtsdaten. |
    | Besuch muss beinhalten<br>Besuch darf nicht beinhalten<br>Trigger nach ausbleibender Aktion<br>Metadaten einschließen | Sie können Kriterien oder Besucherverhalten, das auftreten soll, sowie Verhalten, das nicht auftreten soll, definieren.  Regeln für einen einfachen Warenkorbabbruchsauslöser können beispielsweise die folgenden sein:<ul><li>Besuch muss Folgendes beinhalten: „Zusatz zum Warenkorb“ (Metrik) und „Vorhanden“. (Sie können die Regel mit einer bestimmten Produktansicht oder mit Dimensionen wie „Browsertypen“ weiter verfeinern.)</li><li>Besuch darf Folgendes nicht beinhalten: Checkout.</li><li>Auslöser nach ausbleibender Aktion bei: 10 Minuten.</li><li>Metadaten einschließen: Sie können eine bestimmte Kampagnendimension oder Variablen, die für das Verhalten eines Besuchers relevant sind, hinzufügen. Dieses Feld kann für Adobe Campaign zum Verfassen der richtigen Remarketing-E-Mail nützlich sein.</li></ul><br>Sie können eine Beliebige-, Und- oder Oder-Logik innerhalb oder zwischen Behältern angeben, je nachdem, welche Kriterien Sie für die Regel für wichtig halten. |
-   | Container | In Containern legen Sie Regeln, Bedingungen oder Filter zum Definieren eines Triggers fest und speichern diese. Wenn Sie Ereignisse gleichzeitig auftreten sollen, platzieren Sie sie im selben Container. Dies bedeutet, dass jeder Behälter unabhängig auf der Trefferebene arbeitet.  Wenn Sie beispielsweise zwei Behälter mit dem Operator „Und“ verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
+   | Container | In Containern legen Sie Regeln, Bedingungen oder Filter zum Definieren eines Triggers fest und speichern diese. Wenn Sie Ereignisse gleichzeitig auftreten sollen, platzieren Sie sie im selben Container. Dies bedeutet, dass jeder Behälter unabhängig auf der Trefferebene arbeitet.  Wenn Sie beispielsweise zwei Behälter mit dem Operator AND verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
    | Neue Sitzung starten nach | Erstellen Sie einen Trigger für die Ereignisse zum Sitzungsbeginn und Sitzungsende. |
 
 5. Klicken Sie auf **[!UICONTROL Speichern]**.
