@@ -8,14 +8,14 @@ feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
+exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
 translation-type: ht
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
 workflow-type: ht
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 100%
 
 ---
-
 
 # Cookies in Data Workbench {#data-workbench-cookies}
 
@@ -30,4 +30,3 @@ Data Workbench verwendet Cookies, um große Mengen sich schnell verändernder Da
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet.. |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
 | Größe | 8 Byte oder 13 Byte, wenn der Teil &quot;name =&quot; (v1st=) enthalten ist. |
-
