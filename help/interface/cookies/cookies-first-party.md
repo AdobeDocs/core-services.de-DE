@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
 source-wordcount: '1499'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfüg
 
 >[!NOTE]
 >
->Für beide Optionen macht das ITP-Programm (Intelligent Tracking Prevention) von Apple die Erstanbieter-Cookies in Browsern, die von ITP gesteuert werden, kurzlebig, einschließlich Safari unter MacOS und allen Browsern unter iOS und iPadOS. Ab November 2020 laufen beide Cookie-Typen sieben Tage ab. Dieser Ablauf kann sich ändern.
+>Für beide Optionen macht das ITP-Programm (Intelligent Tracking Prevention) von Apple die Erstanbieter-Cookies in Browsern, die von ITP gesteuert werden, kurzlebig, einschließlich Safari unter macOS und allen Browsern unter iOS und iPadOS. Ab November 2020 laufen Cookies beider Typen nach sieben Tagen ab. Diese Ablaufzeit kann sich ändern.
 
 Bei der zweiten Option mit einem CNAME können Sie, wenn Ihre Site sichere Seiten mit dem HTTPS-Protokoll aufweist, mit Adobe ein SSL-Zertifikat abrufen, um Erstanbieter-Cookies zu implementieren. Adobe empfiehlt dringend, dass Sie ausschließlich HTTPS für die Datenerfassung verwenden, da die Unterstützung für die HTTP-Erfassung in der zweiten Jahreshälfte 2020 eingestellt wird.
 
@@ -102,7 +102,7 @@ Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schri
 
 >[!NOTE]
 >
->Der Experience Cloud-Besucher-ID-Dienst bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu aktivieren.
+>Hinweis: Der Besucher-ID-Dienst von Experience Cloud bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu ermöglichen.
 
 ## Überprüfen der Hostnamenweiterleitung {#validate}
 
