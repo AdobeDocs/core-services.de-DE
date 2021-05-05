@@ -8,11 +8,11 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8fa9e9dc4de694d37012f6fb45eb8d3527d49f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Assets sind ein veralteter Hauptdienst, der jetzt unterstützt wird.
+>Assets ist ein veralteter Coreservice, der jetzt überarbeitet wird.
 
 Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. Ein Asset ist ein digitales Dokument, Bild oder Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
 
@@ -31,7 +31,7 @@ Die Asset-Dienste sind:
 
 Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und beschleunigt die Markteinführung. Sie können Workflows in Lösungen optimieren:
 
-* **[!DNL Social]**: Veröffentlichen Sie in sozialen Eigenschaften, auf Facebook, in Twitter, LinkedIn und Google+.
+* **[!DNL Social]**: Veröffentlichen Sie in Social Media, auf Facebook, in Twitter, LinkedIn und Google+.
 * **[!DNL Target]**: Erstellen Sie Erfahrungen für A/B- und multivariate Tests.
 * **[!DNL Media Optimizer]**: Entwickeln Sie Werbeeinheiten für verschiedene Kanäle und Kampagnen
 * **[!DNL Campaign]**: Fügen Sie Assets in E-Mail-Newslettern und Kampagnen ein.
