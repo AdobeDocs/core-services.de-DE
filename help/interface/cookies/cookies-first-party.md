@@ -14,7 +14,7 @@ translation-type: tm+mt
 source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
 source-wordcount: '1499'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -53,15 +53,15 @@ So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Co
 
 2. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten).
 
-   Nach Erhalt des Tickets sollte Ihnen ein Kundenbetreuer einen CNAME-Eintrag vorlegen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Der CNAME ähnelt dem Folgenden:
+   Nach Erhalt des Tickets sollte Ihnen ein Mitarbeiter der Kundenunterstützung einen CNAME-Datensatz bereitstellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Der CNAME ähnelt dem folgenden:
 
    **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.adobedc.net`.
 
 >[!NOTE]
-> In der Vergangenheit haben wir Kunden empfohlen, zwei CNAME-Einträge für HTTPS und einen für HTTP einzurichten. Da es sich um eine Best Practice zur Verschlüsselung von Traffic handelt und die meisten Browser HTTP stark abschreckend wirken, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Wenn Sie es benötigen würden Sie wie folgt aussehen:
->    **Nicht sicher** - der Hostname `metrics.example.com` verweist auf: `example.com.adobedc.net`.
+> In der Vergangenheit haben wir Kunden empfohlen, zwei CNAME-Einträge einzurichten, einen für HTTPS und einen für HTTP. Da es sich um eine Best Practice zur Verschlüsselung von Traffic handelt und die meisten Browser HTTP stark ablehnen, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Falls Sie es benötigen, würde er wie folgt aussehen:
+>    **Nicht sicher** – der Hostname `metrics.example.com` verweist auf: `example.com.adobedc.net`.
 
-1. Wenn der CNAME eingerichtet ist, kann mit DigiCert eine Adobe zum Erwerb und zur Installation eines Zertifikats auf den Produktionsservern der Adobe verwendet werden.
+1. Wenn dieser CNAME eingerichtet ist, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Betreibungs-Servern von Adobe.
 
    Wenn Sie bereits ein Zertifikat implementiert haben, sollten Sie eine Besuchermigration erwägen, um Ihre vorhandenen Besucher beizubehalten. Nachdem das Zertifikat live in die Produktionsumgebung von Adobe übermittelt wurde, können Sie Ihre Tracking-Server-Variablen gemäß den neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (HTTP) ist, aktualisieren Sie also `s.trackingServer`. Wenn die Site sicher ist (HTTPS), aktualisieren Sie die beiden Variablen `s.trackingServer` und `s.trackingServerSecure`.
 
@@ -87,13 +87,13 @@ SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zert
 
 Das Netzwerkteam Ihres Unternehmens sollte Ihre DNS-Server konfigurieren, indem es neue CNAME-Datensätze erstellt. Jeder Hostname leitet Daten an die Datenerfassungsserver von Adobe weiter.
 
-Der FPC-Spezialist stellt Ihnen den konfigurierten Hostnamen und den CNAME zur Verfügung, auf den Sie verweisen sollen. Beispiel:
+Der FPC-Spezialist stellt Ihnen den konfigurierten Host-Namen bereit und gibt an, auf welchen CNAME er verweisen soll. Beispiel:
 
 * **SSL-Hostname**: `smetrics.mysite.com`
 * **SSL-CNAME**: `mysite.com.adobedc.net`
 
 >[!NOTE]
-> Wenn Sie immer noch nicht sicher verwenden, sieht das so aus.
+> Wenn Sie immer noch das nicht sichere HTTP verwenden, sieht dies so aus.
 > * **Nicht-SSL-Hostname**: `metrics.mysite.com`
 > * **Nicht-SSL-CNAME**: `mysite.com.adobedc.net`
 
