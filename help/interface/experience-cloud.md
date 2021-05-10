@@ -9,17 +9,17 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
+workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Handbuch zu Experience Cloud-Services und -Administration
 
-Die Experience Cloud ist die integrierte Adobe-Familie mit Digital Marketing-Lösungen und -Diensten. Es handelt sich dabei zudem um eine intuitive Benutzeroberfläche, mit der Sie schnell auf Ihre Cloud-Lösungen und zentralen Dienste zugreifen können.
+Experience Cloud umfasst die Digital-Marketing-Lösungen und -Services von Adobe. Es handelt sich dabei zudem um eine intuitive Benutzeroberfläche, mit der Sie schnell auf Ihre Cloud-Lösungen und zentralen Dienste zugreifen können.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
@@ -56,13 +56,13 @@ Weitere Experience Cloud-Handbücher:
 
 Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Experience League:
 
-* [Alle Tutorials in Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [Experience Platform-Tutorials](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [Echtzeit-Kundendatenplattform](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Alle Tutorials in Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
+* [Experience Platform-Tutorials](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [Echtzeit-Kundendatenplattform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Versionshinweise und zugehörige Experience Cloud-Hilfe
 
-* [Produktdokumentation für alle Experience Cloud-Lösungen](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.html) – Hilfe finden Sie unter „Experience Cloud – Lernen und Support“
+* [Versionshinweise und Produkt-Updates](https://docs.adobe.com/content/help/de-DE/experience-cloud/user-guides/home.html) – Neue Funktionen in Experience Cloud und Abonnieren von Updates
 * [Versionshinweise und Produktupdates](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
 * [Übungen zur Implementierung der zentralen Dienste](https://docs.adobe.com/content/help/de-DE/core-services-learn/tutorials/overview.html) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://landing.adobe.com/experience-league/) – Lernen Sie von Experten und der Community
