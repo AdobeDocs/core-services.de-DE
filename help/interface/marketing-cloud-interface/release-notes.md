@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '3964'
-ht-degree: 100%
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+workflow-type: tm+mt
+source-wordcount: '4111'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +23,16 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html).
+
+## Mai 2021
+
+| Funktion | Datum | Beschreibung |
+| ------- | ------- | ------- |
+| Experience Cloud-Kopfzeile und -Navigation | 20. Mai 2021 | Adobe Experience Cloud-Aktualisierungen beinhalten eine Änderung des hellen Designs für die Kopfzeile, mit der Sie einfach wieder zu dunklem Design wechseln und einen Link zur Steuerung zusätzlicher Voreinstellungen von ihrem Benutzeravatar in der Kopfzeile des Experience Cloud einfügen können. Obwohl nicht alle Anwendungen in Experience Cloud das Design unterstützen, wird durch diese Funktion die Unterstützung künftiger Designs freigeschaltet. |
+| Experience Cloud Global Search | 20. Mai 2021 | Mit dieser Version können Sie mit der globalen Experience Cloud-Suche nach allen [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Dokumentationen, -Kursen und -Tutorials suchen. (Derzeit steht die globale Suche nur Experience Platform-Benutzern zur Verfügung. Die globale Suche nach [!UICONTROL Platform] ermöglicht es Ihnen, in Experience Cloud nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
+| Experience Cloud-Spracheinstellungen | 20. Mai 2021 | Dieses Update bietet die Möglichkeit, Ihre bevorzugten Sprachen in Experience Cloud [Voreinstellungen](https://experience.adobe.com/preferences) festzulegen. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## August 2020
 
