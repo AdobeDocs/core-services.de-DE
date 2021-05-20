@@ -5,16 +5,15 @@ breadcrumb-title: Experience Cloud Services und Administration
 user-guide-description: Erfahren Sie, wie Sie Benutzer und Produkte in Adobe Experience Cloud verwalten und wie Sie die Dienste „Kundenattribute“ und „Zielgruppenbibliothek“ verwenden. Erfahren Sie auch mehr über Cookies und Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
-translation-type: ht
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
-workflow-type: ht
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 100%
 
 ---
 
 
-# Experience Cloud Services und Administration {#interface}
+# Experience Cloud-Services und -Administration {#interface}
 
 + [Experience Cloud Services und Administration](experience-cloud.md)
 + Experience Cloud Services {#about-core-services}
@@ -32,15 +31,15 @@ ht-degree: 100%
    + [Cookies in [!UICONTROL Data Workbench]](cookies/cookies-insight.md)
    + [Cookies in Experience Cloud](cookies/cookies-mc.md)
    + [Cookies in Advertising Cloud](cookies/cookies-advertising-cloud.md)
-   + [Cookies in [!DNL Scene7] ](cookies/cookies-s7.md)
-   + [Cookies in [!DNL Search and Promote] ](cookies/cookies-snp.md)
-   + [Cookies in [!DNL Target] ](cookies/cookies-target.md)
+   + [[!DNL Scene7]Cookies in ](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote]Cookies in ](cookies/cookies-snp.md)
+   + [[!DNL Target]Cookies in ](cookies/cookies-target.md)
    + [Datenschutzeinstellungen für Browser-Cookies aktivieren](cookies/browser-cookie-settings.md)
    + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies/cookies-thirdparty.md)
 + Benutzer- und Produktverwaltung {#manage-users-and-products}
    + [Verwalten der Benutzeridentität und Produkte in Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Anzeigen von Experience Cloud-Benutzerdetails (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md)
-   + [Häufig gestellte Fragen](admin-getting-started/faq.md)
+   + [Häufig gestellte Fragen ](admin-getting-started/faq.md)
    + [Anmelden und Profileinstellungen verwalten](admin-getting-started/getting-started-experience-cloud.md)
    + [Organisationen und Kontoverknüpfung](admin-getting-started/organizations.md)
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
@@ -54,7 +53,7 @@ ht-degree: 100%
    + [Experience Cloud-Ordner und -Assets für Creative Cloud freigeben](experience-cloud-assets/creative-cloud.md)
    + [Verwaltung der Creative Cloud-Benutzer](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Experience Cloud-Asset-Ordner freigeben](experience-cloud-assets/t-share-creative-cloud.md)
-   + [Laden Sie ein Asset aus dem Creative Cloud-Browser in einen freigegebenen Ordner hoch](experience-cloud-assets/t-upload-asset-cc.md)
+   + [Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser](experience-cloud-assets/t-upload-asset-cc.md)
    + [Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Dateivoraussetzungen für die Freigabe von Assets](experience-cloud-assets/assets-file-reqs.md)
    + [Verhalten freigegebener Ordner](experience-cloud-assets/asset-behavior.md)
@@ -63,9 +62,9 @@ ht-degree: 100%
    + [Erstellen einer Zielgruppe](audience-library/t-audience-create.md)
    + [Veröffentlichen eines Analytics-Zielgruppensegments](audience-library/t-publish-audience-segment.md)
 + Experience Cloud-Kundenattribute {#customer-attributes}
-   + [Übersicht über Kundenattribute](attributes/attributes.md)
+   + [Kundenattribute  Übersicht](attributes/attributes.md)
    + [Häufig gestellte Fragen zu Kundenattributen](attributes/faq-crs.md)
-   + [Informationen zur Datendatei und zu den Datenquellen für Kundenattribute](attributes/crs-data-file.md)
+   + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](attributes/crs-data-file.md)
    + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](attributes/t-crs-usecase.md)
    + [Optional – Hochladen der Datendatei via FTP](attributes/t-upload-attributes-ftp.md)
    + [Prüfen des Schemas](attributes/validate-schema.md)
@@ -81,4 +80,5 @@ ht-degree: 100%
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologie](terms.md)
    + [Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste](dns-prefetch.md)
-   + [Dokumentation-Aktualisierungen](doc-updates.md)
+   + [Dokumentationsaktualisierungen](doc-updates.md)
+
