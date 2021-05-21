@@ -10,24 +10,25 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-translation-type: tm+mt
-source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
+source-git-commit: 05548387f82e58a87d5133254da30215fbd6c827
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 100%
+source-wordcount: '1629'
+ht-degree: 83%
 
 ---
 
 # Informationen zu Erstanbieter-Cookies
 
-Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben. Diese harmlosen Cookies stammen aus einer von Adobe gehosteten Domäne und werden als Drittanbieter-Cookies bezeichnet.
+Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben. Wenn möglich, verwendet Adobe Erstanbieter-Cookies, um Aktivitäten auf Ihrer Site aufzuzeichnen. Um Aktivitäten auf verschiedenen Sites aufzuzeichnen, z. B. auf anderen Domänen, deren Inhaber Sie sind, sind Drittanbieter-Cookies erforderlich.
 
-Viele Browser und Anti-Spyware-Anwendungen sind dafür ausgelegt, Cookies von Drittanbietern abzuweisen und zu löschen, einschließlich der bei der Analytics-Datensammlung verwendeten Cookies. Um die Verfolgung der Interaktion Ihrer Besucher mit Ihrer Website zu unterstützen, können Sie Erstanbieter-Cookies implementieren.
+Viele Browser und Anti-Spyware-Anwendungen sind dafür ausgelegt, Cookies von Drittanbietern abzuweisen und zu löschen, einschließlich der bei der Analytics-Datensammlung verwendeten Cookies. Um das Tracking der Interaktion Ihrer Besucher mit Ihrer Website zu unterstützen, sollten Sie sicherstellen, dass Sie Ihre Datenerfassung für die Verwendung von Erstanbieter-Cookies konfiguriert haben:
 
 Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfügung:
 
-* Der ID-Dienst von Experience Platform. Der ID-Dienst kann das Cookie im Erstanbieterkontext mit JavaScript setzen.
-* DNS-Einträge auf dem DNS-Server Ihres Unternehmens, um einen CNAME-Alias für eine von Adobe gehostete Domäne zu konfigurieren. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn der Kunde mehrere Domänen kontrolliert, kann er einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Da dies jedoch Drittanbieter-Cookies für alle Domänen außerhalb der CNAME-Domäne erfordert, funktioniert dies nicht, wenn Drittanbieter-Cookies blockiert werden. Daher wird diese Vorgehensweise nicht empfohlen. Adobe-CNAMEs werden nie zur Verfolgung von Einzelpersonen oder Geräten über Domänen verschiedener Kunden hinweg verwendet.
+* Wenn Sie den Experience Platform Identity-Dienst (auch ECID-Dienst genannt) verwenden, werden automatisch Cookies im Erstanbieterkontext mithilfe von JavaScript gesetzt.
+* Wenn Sie ältere Analytics-IDs (auch &quot;s_vi&quot;-Cookies genannt) verwenden, hängt dies von der Konfiguration Ihres Datenerfassungsservers ab. Wenn der Datenerfassungsserver mit der Domäne Ihrer Site übereinstimmt, werden Cookies als Erstanbieter gesetzt. Wenn der Erfassungsserver nicht mit Ihrer aktuellen Domäne übereinstimmt, werden Cookies als Drittanbieter gesetzt. Wenn Drittanbieter-Cookies blockiert werden, setzt Analytics in diesem Fall eine Erstanbieter-Ausweich-ID (&quot;s_fid&quot;)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=en#section-65e33f9bfc264959ac1513e2f4b10ac7) anstelle des standardmäßigen Cookies &quot;s_vi&quot;.[
+
+Um sicherzustellen, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, mit der Cookies in einem Erstanbieterkontext gesetzt werden können. Dazu gehören Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von der Adobe gehostete Domäne verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domänen steuern, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Wenn die Site-Domäne jedoch nicht mit den CNAME-Domänen-Cookies übereinstimmt, werden sie als Drittanbieter festgelegt.
 
 >[!NOTE]
 >
