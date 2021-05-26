@@ -6,14 +6,14 @@ feature: '"Central Interface Components"'
 topic: Administration
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '436'
 ht-degree: 5%
 
 ---
 
-# Experience Cloud-Benutzeroberfläche 
+# Hilfe zur Experience Cloud-Oberfläche
 
 Die zentralen Komponenten der Benutzeroberfläche von Experience Cloud umfassen Funktionen, mit denen Sie:
 
@@ -43,11 +43,7 @@ Klicken Sie auf den Anwendungsselektor ![](assets/menu-icon.png) , um auf die vo
 
 ## Suche und Support in Experience Cloud {#search}
 
-Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen. Sie können auch nach Geschäftsobjekten wie Segmenten, Datensätzen, Schemas und mehr suchen.
-
->[!NOTE]
->
->Die Suche nach Geschäftsobjekten steht nur Experience Platformen zur Verfügung.
+Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen.
 
 ![](assets/search-menu.png)
 
@@ -69,7 +65,7 @@ Im Menü &quot;Kontovoreinstellungen&quot;haben Sie folgende Möglichkeiten:
 
 ### Experience Cloud verwalten [!UICONTROL Voreinstellungen] {#preferences}
 
-Zu den Voreinstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnungen. Sie können konfigurieren, wie
+Zu den Voreinstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnungen.
 
 Klicken Sie auf **[!UICONTROL Voreinstellungen]** im Kontomenü ![](assets/preferences-icon-sm.png), um die Voreinstellungen zu verwalten.
 
