@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '947'
-ht-degree: 100%
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +50,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 Hilfe für Benutzer, die sich nicht als Administratoren bei der Experience Cloud anmelden.
 
 
-1. Vergewissern Sie sich bei Ihrem Administrator, dass Ihre [Organisation](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) in der Experience Cloud bereitgestellt wurde.
+1. Vergewissern Sie sich bei Ihrem Administrator, dass Ihre [Organisation](../admin-getting-started/organizations.md) in der Experience Cloud bereitgestellt wurde.
 
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
@@ -115,9 +114,9 @@ Sie können die Anzeige der Benachrichtigungen nach den für Sie wichtigen Benac
 
 Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation und -Landingpage festlegen und vieles mehr.
 
-1. [In Experience Cloud anmelden](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. Melden Sie sich bei Experience Cloud an.
 
-1. Klicken Sie im Experience Cloud-Menü auf Ihr Profilbild.
+1. Klicken Sie im Experience Cloud auf Ihr Profilbild.
 
    ![](assets/edit-profile.png)
 1. Klicken Sie auf **[!UICONTROL Profil bearbeiten]**.
