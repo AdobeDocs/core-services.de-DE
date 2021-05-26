@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud Services und Administration
 user-guide-description: Erfahren Sie, wie Sie Benutzer und Produkte in Adobe Experience Cloud verwalten und wie Sie die Dienste „Kundenattribute“ und „Zielgruppenbibliothek“ verwenden. Erfahren Sie auch mehr über Cookies und Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 98%
@@ -17,6 +17,7 @@ ht-degree: 98%
 
 + [Experience Cloud Services und Administration](experience-cloud.md)
 + [Zentrale Experience Cloud-Schnittstellenkomponenten](experience-cloud-interface.md)
+   + [Anmelden und Profileinstellungen verwalten](admin-getting-started/getting-started-experience-cloud.md)
 + Experience Cloud Services {#about-core-services}
    + [Übersicht über Experience Cloud Services](core-services-landing.md)
    + [Implementierung für lösungsübergreifende Dienste aktivieren](core-services/core-services.md)
@@ -41,7 +42,7 @@ ht-degree: 98%
    + [Verwalten der Benutzeridentität und Produkte in Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Anzeigen von Experience Cloud-Benutzerdetails (Admin-Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Häufig gestellte Fragen ](admin-getting-started/faq.md)
-   + [Anmelden und Profileinstellungen verwalten](admin-getting-started/getting-started-experience-cloud.md)
+
    + [Organisationen und Kontoverknüpfung](admin-getting-started/organizations.md)
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
