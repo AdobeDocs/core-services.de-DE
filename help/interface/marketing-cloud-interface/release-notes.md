@@ -9,7 +9,7 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4111'
 ht-degree: 96%
@@ -395,7 +395,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 
 **Fehlerbehebungen und Verbesserungen**
 
-* Wenn Sie zu [!DNL experiencecloud.adobe.com] navigieren, ist die Anmeldungserfahrung nun mit der Anmeldung von Creative Cloud von Adobe konsistent.
+* Wenn Sie zu [!DNL experience.adobe.com] navigieren, ist die Anmeldungserfahrung nun mit der Anmeldung von Creative Cloud von Adobe konsistent.
 * Auf der Seite „Unternehmen verwalten“ ist das Verknüpfungserlebnis (nach dem Erhalt einer Einladung) nun für jede Lösung konsistent.
 
 **Bekannte Probleme**
