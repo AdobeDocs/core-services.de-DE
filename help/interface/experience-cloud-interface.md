@@ -6,10 +6,10 @@ feature: '"Central Interface Components"'
 topic: Administration
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 5%
+source-wordcount: '434'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ Die zentralen Komponenten der Benutzeroberfläche von Experience Cloud umfassen 
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](admin-getting-started/organizations.md) befinden.
 
-1. Navigieren Sie zu [Adobe Experience Cloud](https://experiencecloud.adobe.com/exc-content/login.html).
+1. Navigieren Sie zu [Adobe Experience Cloud](https://experience.adobe.com).
 1. Klicken Sie auf **[!UICONTROL Anmelden mit einer Adobe ID]**.
 1. Klicken Sie in Adobe Experience Cloud auf Ihr Unternehmen.
 
