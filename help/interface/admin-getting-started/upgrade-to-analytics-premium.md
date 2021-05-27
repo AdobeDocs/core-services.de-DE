@@ -9,9 +9,8 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 100%
 
@@ -55,7 +54,7 @@ Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](.
 
 | Produkt | Upgrades |
 |---|---|
-| Reports &amp; Analytics | [Beitragsanalyse](https://docs.adobe.com/content/help/de-DE/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
+| Reports &amp; Analytics | [Beitragsanalyse](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) |
 | Data Workbench | Vorgefertigte Arbeitsbereiche für die Qualifizierung von Zielgruppen und das prädiktive Marketing |
 | Analytics Platform | Live-Stream (Dashboards und Auslöser) |
 
@@ -85,7 +84,7 @@ Sämtliche Software, die am Kundenstandort ausgeführt wird, muss deaktiviert we
 
 Experience Cloud und Hauptdienste stehen Analytics Standard- und Premium-Benutzern zur Verfügung, vorausgesetzt, die Modernisierung der Implementierung wurde wie in [Erste Schritte - ermöglichen Sie Ihre Lösungen für Hauptdienste](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) beschrieben durchgeführt. (Dieser Prozess unterstützt Sie beim Modernisieren Ihrer Implementierung und ermöglicht es Ihnen, ein Administrator in Experience Cloud zu werden.)
 
-Nachdem Sie Mitglied der Experience Cloud geworden sind, können Sie sich über [!DNL experiencecloud.adobe.com] bei der Experience Cloud anmelden und damit beginnen, die Hauptdienste zu verwenden (einschließlich Kundenattributen, Audiences und Analysen mobiler Apps).
+Nachdem Sie Mitglied der Experience Cloud geworden sind, können Sie sich über [!DNL experience.adobe.com] bei der Experience Cloud anmelden und damit beginnen, die Hauptdienste zu verwenden (einschließlich Kundenattributen, Audiences und Analysen mobiler Apps).
 
 ### Verwalten Sie Benutzer und Gruppen
 
