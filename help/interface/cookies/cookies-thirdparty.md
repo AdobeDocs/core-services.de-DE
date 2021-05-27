@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 84%
 
 ---
 
@@ -25,8 +24,7 @@ In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanb
 
 ## Adobe Analytics und Adobe Target
 
-* Kunden mit [Erstanbieter-Implementierung](/help/interface/cookies/cookies-first-party.md) sind größtenteils nicht betroffen.
-* Kunden, die keine Erstanbieter-Implementierung verwenden, können den [Experience Platform-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/implementation/implementation-guides.html) implementieren, um das ID-Cookie als Erstanbieter-Cookie ohne Erstanbieter-Implementierung zu speichern.
+* Analytics und Target sind größtenteils nicht betroffen, da dieselbe Site-Aktivität nur auf Erstanbieter-Cookies angewiesen ist. Zur domänenübergreifenden Erläuterung der Benutzeraktivität sind Drittanbieter-Cookies erforderlich. Bei Browsern, in denen Drittanbieter-Cookies blockiert werden, ist ein domänenübergreifendes Tracking mit Cookies nicht möglich.
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanb
    * Die Anzeige ist auch stark von der Verfügbarkeit verschiedener Werbenetzwerk-Cookies für die Synchronisierung abhängig.
    * Die Gesamtauswirkung ist nicht bekannt. Die Anzeige wird jedoch vom ersten Punkt an stärker beeinflusst als andere Dienste.
    * Wir arbeiten intern und mit unseren Werbepartnern zusammen, um die vollständigen Auswirkungen auf das Senden von Werbeanzeigen zu bewerten.
-
-* Social:
-
-   * Es gibt keine Auswirkungen auf Facebook-Marktplatzierungen.
-   * Facebook Exchange (FBX) ist genauso betroffen wie das Senden der Display-Anzeige.
