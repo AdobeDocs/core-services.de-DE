@@ -8,10 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: dc1d672c352396f919c239bf44e2162ff1deafb6
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -81,7 +81,7 @@ Analytics-Administratoren können Benutzerkonten mithilfe des verfügbaren Analy
 
 Die Kontomigration erfolgt für Kunden stufenweise. Adobe wird Sie benachrichtigen und unterstützen, wenn Sie an der Reihe sind, Ihre bestehenden Benutzerkonten von **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** in die Admin Console zu migrieren.
 
-Nach der Migration müssen sich Benutzer mithilfe ihrer Adobe ID (oder Enterprise ID) anmelden und sich unter [experiencecloud.adobe.com](https://experiencecloud.adobe.com) für ihre Experience Cloud-Lösungen und -Dienste authentifizieren. Benutzer, die versuchen, sich über die bisherigen Anmeldedaten anzumelden ([!DNL my.omniture.com] und [!DNL sc.omniture.com]), werden an [!DNL experiencecloud.adobe.com] weitergeleitet.
+Nach der Migration melden sich Benutzer mit ihrer Adobe ID (oder Enterprise ID) an und authentifizieren sich bei ihren Experience Cloud-Lösungen und -Diensten unter [experience.adobe.com](https://experience.adobe.com). Wenn Benutzer versuchen, sich über veraltete Anmeldedaten anzumelden ([!DNL my.omniture.com], [!DNL sc.omniture.com] und [!DNL experiencecloud.adobe.com]), werden sie zu [!DNL experience.adobe.com] umgeleitet.
 
 **Verwandte Hilfe**
 
