@@ -8,10 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: c32cc6783b53cc6e57bba0810a49038561ac9dcd
+source-git-commit: 2f315b2daa4e9d73b0adb1cf75fd7ff2417fd0c2
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 47%
+source-wordcount: '1276'
+ht-degree: 48%
 
 ---
 
@@ -111,15 +111,15 @@ Sie können beispielsweise ein Produktprofil erstellen, das mehrere Analytics-To
 | Report Suite-Tools | Aktivieren Sie Benutzerberechtigungen für Webdienste, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente. |
 | Analytics-Tools | Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Rechnungsstellung, Protokolle usw.), Unternehmensverwaltung, Tools, Web Service-Zugriff, Report Builder und Data Connectors-Integration. Die Unternehmenseinstellungen aus der Kategorie „Anpassung der Admin Console“ sind nun in den Analytics-Tools zu finden. |
 
-<!-- **User Account Migration**
+**Migration von Benutzerkonten**
 
-An Analytics user ID migration tool is available to help Analytics administrators migrate user accounts from Analytics User Management to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Analytics-Administratoren können Benutzerkonten mithilfe des verfügbaren Analytics-Migrationstools für Benutzer-IDs von der Analytics-Benutzerverwaltung in die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/) migrieren.
 
-The account migration is being rolled out to customers in phases. Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
+Die Kontomigration erfolgt für Kunden stufenweise. Adobe wird Sie benachrichtigen und unterstützen, wenn Sie an der Reihe sind, Ihre bestehenden Benutzerkonten von **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** in die Admin Console zu migrieren.
 
-After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experience.adobe.com](https://experience.adobe.com). If users attempt to sign in via legacy logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] and [!DNL experiencecloud.adobe.com]) they are redirected to [!DNL experience.adobe.com].
+Nach der Migration melden sich Benutzer mit ihrer Adobe ID (oder Enterprise ID) an und authentifizieren sich bei ihren Experience Cloud-Lösungen und -Diensten unter [experience.adobe.com](https://experience.adobe.com). Wenn Benutzer versuchen, sich über veraltete Anmeldedaten anzumelden ([!DNL my.omniture.com], [!DNL sc.omniture.com] und [!DNL experiencecloud.adobe.com]), werden sie zu [!DNL experience.adobe.com] umgeleitet.
 
-**Related help**  -->
+**Verwandte Hilfe**
 
 Weitere Informationen finden Sie unter [Migration der Analytics-Benutzer-ID](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)
 
@@ -151,9 +151,9 @@ Informationen zu Benutzerberechtigungen in der Admin Console und zum Einrichten 
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-Kunden werden in der Adobe [!UICONTROL Admin Console] als Organisationen dargestellt. Experience Manager (AEM)-Kunden können die Adobe [!UICONTROL Admin Console] verwenden, um Produktberechtigungen und die IMS-Authentifizierung für Experience Manager als [!UICONTROL Cloud Service] zu verwalten.
+Adobe Enterprise-Kunden werden in der Adobe [!UICONTROL Admin Console] als Organisationen dargestellt. Experience Manager können die Adobe [!UICONTROL Admin Console] verwenden, um Produktberechtigungen und die IMS-Authentifizierung für Experience Manager als [!UICONTROL Cloud Service] zu verwalten.
 
-Siehe [IMS-Unterstützung für AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=de).
+Siehe [IMS-Unterstützung für Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=de).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
