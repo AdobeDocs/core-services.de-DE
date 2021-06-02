@@ -9,16 +9,16 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 98%
+source-wordcount: '952'
+ht-degree: 88%
 
 ---
 
 # Anmelden und Verwalten von der Experience Cloud-Profileinstellungen
 
-Durch die Anmeldung bei der Experience Cloud (anstelle der Anmeldung bei einer einzigen Lösung) wird Single Sign-on für alle Ihre Lösungen und Dienste aktiviert. In diesem Hilfethema wird beschrieben, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage angeben.
+Durch die Anmeldung in Experience Cloud (anstatt sich in einer Lösung anzumelden) wird Single Sign-on für alle Ihre Lösungen und Dienste ermöglicht. In diesem Hilfethema wird beschrieben, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage angeben.
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 | Element | Beschreibung |
 |--- |--- |
-| [Grundlagen der Admin Console](https://helpx.adobe.com/de/marketing-cloud/how-to/first-time-setup.html) | Lernen Sie die ersten Schritte kennen, die Sie für die ersten Schritte mit Experience Cloud-Lösungen ausführen müssen. |
+| [Grundlagen der Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html) | Erfahren Sie mehr über die ersten Schritte, die Sie für die ersten Schritte mit Experience Cloud-Lösungen unternehmen müssen. |
 | [Einrichten der Identität](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | Definieren Sie ein Identitätssystem, mit dem Ihre Endbenutzer authentifiziert werden und richten Sie es ein. |
 | [Benutzerverwaltung](https://helpx.adobe.com/de/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
 | [Admin Console starten](../admin-getting-started/admin-getting-started.md) | Die Admin Console ist der zentrale Ort für die Verwaltung Ihrer Adobe-Benutzer und Produktberechtigungen in Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link](https://adminconsole.adobe.com) bei der Admin Console anmelden. |
-| [Creative Cloud-Benutzer verwalten](../experience-cloud-assets/t-admin-add-cc-user.md) | Mit Experience Cloud Assets können Marketingexperten mithilfe der Creative Cloud Ordner mit Designern und anderen Kreativ-Assets gemeinsam verwenden, synchronisieren und mit ihnen zusammenarbeiten. Hier können Sie die Creative Cloud-Benutzer verwalten, die für die Zusammenarbeit mit Ihrem Unternehmen zugelassen sind. |
+| [Creative Cloud-Benutzer verwalten](../experience-cloud-assets/t-admin-add-cc-user.md) | Mit Experience Cloud Assets können Marketingexperten mithilfe des Creative Cloud Ordner mit Designern und anderen Kreativ-Assets teilen, synchronisieren und mit ihnen zusammenarbeiten. Hier können Sie die Creative Cloud-Benutzer verwalten, die für die Zusammenarbeit mit Ihrem Unternehmen zugelassen sind. |
 | [Report Suites zuordnen](../core-services/core-services.md) | (Nur Analytics) Die zentralen Experience Cloud-Dienste sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe [Analytics für Hauptdienste aktiviert wird](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [Organisations-ID](../admin-getting-started/organizations.md) | Die *Organisations-ID* befindet sich unten auf der Seite „Administration“. Diese ID ist die mit Ihrem bereitgestellten Experience Cloud-Unternehmen verknüpfte ID. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |
 
@@ -151,5 +151,5 @@ Beispiel-URL:
 | Parameter | Beschreibung | Beispiel | Erforderlich/Optional |
 |--- |--- |--- |--- |
 | tenantId | Name des Mandanten, bei dem sich der Benutzer anmelden soll. | aem62tenant | Optional |
-| destURL | Die vollständige URL zu dem Ort, an den der Benutzer geleitet werden soll. | https://sc.omniture.com/x/1_7xxzf | Optional |
+| destURL | Die vollständige URL zu dem Ort, an den der Benutzer geleitet werden soll. | https://sc.omniture.com/login?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Optional |
 | solutionname | Name der MAC-Lösung, die Inhaber des destURL-Parameters ist. Dieser Name wird verwendet, um zu bestätigen, dass der Benutzer Zugriff auf die Lösung hat, zu der die URL gehört.  Es liegt in der Verantwortung der Lösungen sicherzustellen, dass der „solutionname“ mit dem Parameter „destURL“ übereinstimmt.  Beispiel: Wenn für die URL „solutionname“ auf „social“ angegeben wurde und die bereitgestellte destURL eine Analytics-URL ist, wird der Benutzer auch dann zu der URL umgeleitet, wenn er keinen Zugriff auf Analytics hat. MAC überprüft NICHT, ob der Eigentümer der destURL mit dem Lösungsnamen synchronisiert ist. | analytics | Erforderlich, wenn der destURL-Parameter verwendet wird. |
