@@ -4,10 +4,10 @@ user-guide-title: 'Zentrale Experience Cloud-Schnittstellenkomponenten '
 breadcrumb-title: Zentrale Experience Cloud-Schnittstellenkomponenten
 user-guide-description: Erfahren Sie mehr über die Benutzeroberfläche von Experience Cloud, konfigurieren Sie Voreinstellungen, suchen Sie nach Hilfe und Geschäftsobjekten. Hier erhalten Sie Hilfe zu Benutzer- und Produktverwaltung, Kundenattributen, Zielgruppenbibliothek, Cookies und Experience Cloud-Assets.
 index: true
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 86%
+source-wordcount: '370'
+ht-degree: 77%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 86%
    + [Upgrade auf Analytics Premium und die Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Experience Cloud Activation {#activation}
    + [Übersicht über Activation](activation/activation.md)
-   + [Experience Platform Launch-Benutzerhandbuch](https://docs.adobe.com/content/help/de-DE/launch/using/overview.html)
-   + [Benutzerhandbuch zum dynamischen Tag-Manager](https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html)
+   + [Experience Platform Launch-Benutzerhandbuch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=en)
+   + [Benutzerhandbuch zum dynamischen Tag-Manager](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
    + [Triggers](activation/triggers.md)
 + Experience Cloud-Assets {#assets}
    + [Übersicht über Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md)
@@ -72,10 +72,10 @@ ht-degree: 86%
    + [Unterstützung des California Consumer Privacy Act](attributes/ccpa.md)
    + [Überlegungen zum Datenschutz bei Kundenattributen](attributes/privacy-mac.md)
 + Versionshinweise für Experience Cloud {#release-notes}
-   + [Neue Funktionen in der Experience Cloud](https://docs.adobe.com/content/help/de-DE/release-notes/experience-cloud/current.html)
+   + [Neue Funktionen in der Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
    + [Gesammelte Versionshinweise](marketing-cloud-interface/release-notes.md)
 + Zusätzliche Ressourcen {#more-resources}
-   + [Forum](https://forums.adobe.com/community/experience-cloud)
+   + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
    + [Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste](dns-prefetch.md)
    + [Dokumentationsaktualisierungen](doc-updates.md)
