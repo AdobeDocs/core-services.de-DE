@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '1172'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 90%
 
 ---
 
@@ -25,10 +24,10 @@ Erstellen Sie die Kundenattributquelle (CSV- und FIN-Dateien) und laden Sie die 
 
 ![](assets/crs.png)
 
-1. [Erstellen einer Datendatei](../attributes/t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
+1. [Erstellen Sie eine Datendatei](../attributes/t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Prüfen des Schemas](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [Konfigurieren von Abonnements und Aktivieren der Attributquelle](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
@@ -37,7 +36,7 @@ Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
 >[!IMPORTANT]
 >
->Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eine der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
+>Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eine der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe &quot;Kundenattribute&quot;hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Oberfläche das Menü [!UICONTROL Kundenattribute] .
 >
 >Um die Kundenattribut-Funktion verwenden zu können, müssen Benutzer auch zu Gruppen auf Lösungsebene (Analytics oder [!DNL Target]) gehören.
 
@@ -51,7 +50,7 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
 
    >[!NOTE]
    >
-   >Später werden Sie diese `.csv`-Datei per Drag &amp; Drop hochladen. Wenn Sie jedoch [per FTP hochladen](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), benötigen Sie auch eine `.fin`-Datei mit dem gleichen Namen wie die `.csv`.
+   >Später in diesem Prozess können Sie die `.csv`-Datei per Drag-and-Drop hochladen. Wenn Sie jedoch [per FTP hochladen](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B), benötigen Sie auch eine `.fin`-Datei mit dem gleichen Namen wie die `.csv`.
 
    Beispiel für die Kundendatendatei eines Unternehmens:
 
@@ -87,9 +86,9 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
       Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
-      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://docs.adobe.com/content/help/de-DE/dtm/using/tools/macid.html).
+      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en).
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://docs.adobe.com/content/help/de-DE/id-service/using/reference/authenticated-state.html), die Sie den einzelnen Besuchern zuordnen können.
+      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en), die Sie den einzelnen Besuchern zuordnen können.
 
          Beispiel: *„crm_ id“* in:
 
@@ -97,13 +96,13 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** Die Alias-ID entspricht *„idType“* in [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/de-DE/mobile-services/ios/overview.html).
+      * **iOS:** Die Alias-ID entspricht *„idType“* in [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en).
 
          Beispiel:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** Die Alias-ID entspricht *„idType“* in [syncIdentifiers](https://docs.adobe.com/content/help/de-DE/mobile-services/android/overview.html).
+      * **Android™:** Die Alias-ID entspricht  *&quot;idType&quot;* in  [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en).
 
          Beispiel:
 
@@ -127,7 +126,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
    * **[!UICONTROL Vom Kunden bereitgestellte IDs für Experience Cloud Besucher-IDs:]** Zeigt an, wie viele IDs für Experience Cloud Besucher-IDs bereitgestellt wurden.
 
-   * **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr bereitgestellten Experience Cloud Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 zuletzt als Alias gespeicherten Experience Cloud-Besucher-IDs, bis die Aliasanzahl 10.000 erreicht hat. Bei Erreichen dieser Anzahl erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht länger zugewiesene Attribute.
+   * **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr bereitgestellten Experience Cloud Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 zuletzt als Alias gespeicherten Experience Cloud-Besucher-IDs, bis die Aliasanzahl 10.000 erreicht hat. Anschließend macht das System die vom Kunden bereitgestellte ID ungültig und verteilt die zugewiesenen Attribute nicht mehr.
 
 
 
@@ -168,7 +167,7 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Audiences und in Audience Manager verfügbar.
 
-Weitere Informationen finden Sie unter [Bericht „Kundenattribute“](https://docs.adobe.com/content/help/de-DE/core-services/interface/customer-attributes/attributes.html) in der Analytics-Hilfe.
+Weitere Informationen finden Sie unter [Bericht „Kundenattribute“](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en) in der Analytics-Hilfe.
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -176,4 +175,4 @@ In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Bereich [!UICONT
 
 ![](assets/crs-add-attribute-target.png)
 
-Siehe [Erstellen einer neuen Zielgruppe](https://docs.adobe.com/content/help/de-DE/target/using/audiences/create-audiences/audiences.html) in der [!DNL Target]-Hilfe.
+Siehe [Erstellen einer neuen Zielgruppe](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en) in der [!DNL Target]-Hilfe.
