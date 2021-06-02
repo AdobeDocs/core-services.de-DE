@@ -9,18 +9,18 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 84%
+source-wordcount: '267'
+ht-degree: 59%
 
 ---
 
 # Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden {#how-changes-to-third-party-cookie-support-impacts-customers}
 
-Die Unterstützung für Drittanbieter-Cookies in Browsern ist mehr und mehr zurückgegangen. Aus diesem Grund hat Adobe an neuen Lösungen gearbeitet, die sowohl den Anforderungen der Kunden als auch dem Recht der Verbraucher auf Privatsphäre in den Adobe Experience Cloud-Lösungen in ausgewogenem Maße Rechnung tragen.
+Die Unterstützung für Drittanbieter-Cookies wurde Browser-übergreifend eingeschränkt. Daher hat Adobe an neuen Lösungen gearbeitet, die die Kundenanforderungen sorgfältig mit dem Recht der Verbraucher auf Privatsphäre in allen Experience Cloud-Applikationen in Einklang bringen.
 
-In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanbieter-Cookies auf aktuelle Implementierungen der Adobe Experience Cloud-Lösungen auswirkt:
+Die folgende Liste zeigt, wie sich die Unterstützung von Drittanbieter-Cookies auf aktuelle Implementierungen von Experience Cloud-Anwendungen auswirkt:
 
 ## Adobe Analytics und Adobe Target
 
@@ -46,4 +46,4 @@ In der folgenden Liste wird erläutert, wie sich die Unterstützung von Drittanb
    * Die Remarketing-Anzeige hängt heute vollständig von der Verwendung von Drittanbieter-Cookies ab.
    * Die Anzeige ist auch stark von der Verfügbarkeit verschiedener Werbenetzwerk-Cookies für die Synchronisierung abhängig.
    * Die Gesamtauswirkung ist nicht bekannt. Die Anzeige wird jedoch vom ersten Punkt an stärker beeinflusst als andere Dienste.
-   * Wir arbeiten intern und mit unseren Werbepartnern zusammen, um die vollständigen Auswirkungen auf das Senden von Werbeanzeigen zu bewerten.
+   * Adobe arbeitet intern und mit unseren Werbepartnern zusammen, um das volle Ausmaß der Auswirkungen auf die Anzeigenbereitstellung zu bewerten.
