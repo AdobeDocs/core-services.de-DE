@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '347'
+ht-degree: 96%
 
 ---
 
@@ -60,9 +59,9 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
 
 **Cookie-Name: AMCV_###@AdobeOrg**
 
-Der [Experience Platform-ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/home.html) verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domäne der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
+Der [Experience Platform-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domäne der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
 
-Siehe auch [Cookies und der ID-Dienst](https://docs.adobe.com/content/help/de-DE/id-service/using/intro/cookies.html).
+Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -93,8 +92,8 @@ Siehe auch [Cookies und der ID-Dienst](https://docs.adobe.com/content/help/de-DE
    <td colname="col2"> <p> Variiert. Die meisten Kunden können davon ausgehen, dass dieses Cookie etwa 200 Byte lang ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Kein Wert hinzugefügt. Chrome wird standardmäßig auf Lax eingestellt. </p> </td> 
-   <td colname="col2"> <p> Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domain mit der Domain des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome. </p> </td> 
+   <td colname="col1"> <p>Kein Wert hinzugefügt. Chrome verwendet standardmäßig Lax. </p> </td> 
+   <td colname="col2"> <p> Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domäne mit der Domäne des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
