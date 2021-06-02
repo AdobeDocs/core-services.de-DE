@@ -9,9 +9,8 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gr
 
 Möglicherweise müssen Sie auch Ihre Organisations-ID zu Supportzwecken suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
-![Schritt Ergebnis](assets/organization-switch.png)
+![Schrittergebnis](assets/organization-switch.png)
 
 ## Organisations-ID ermitteln {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
@@ -73,5 +72,5 @@ Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
-* [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/de/marketing-cloud/contact-support.html).
+* [Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/de/contact/enterprise-support.ec.html).
 * Greifen Sie über die Standardanmeldung auf die Lösung zu, solange das Problem nicht behoben ist.
