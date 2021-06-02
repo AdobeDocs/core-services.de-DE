@@ -11,56 +11,55 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 60%
 
 ---
 
-# Activation
+# Aktivierung
 
-Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform Launch, Dynamic Tag Management (DTM) und Triggers.
+Aktivierung enthält das neueste Tag-Management-Produkt namens Experience Platform [!UICONTROL Datenerfassung] ([!UICONTROL Launch]) und Experience Cloud [!UICONTROL Trigger].
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 Bereitstellung und Verwaltung von Analyse-, Marketing- und Werbe-Tags, die Sie für relevante Kundenerlebnisse benötigen.
 
-Siehe [Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html).
+Siehe [Experience Platform Launch-Schnellstartanleitung](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
 
-## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
+<!-- ## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Klicken Sie zum Starten des Dynamic Tag Managements auf **[!UICONTROL Activation]** und senden Sie eine Anfrage an das Adobe-Bereitstellungsteam. Sie sollten Ihre Anmeldedaten innerhalb von ein bis zwei Werktagen erhalten.
+To launch Dynamic Tag Management, click **[!UICONTROL Activation]** and send a request to the Adobe provisioning team. You should receive your login credentials within one to two business days. 
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Aufgabe </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
+   <th colname="col1" class="entry"> Task </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Adobe Analytics bereitstellen </a> </p> </td> 
-   <td colname="col2"> <p> Schrittweise Anleitungen zum Hinzufügen von Adobe Analytics mithilfe des Adobe Dynamic Tag Management. </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Deploy Adobe Analytics </a> </p> </td> 
+   <td colname="col2"> <p> Step-by-step instructions to add Adobe Analytics using Adobe Dynamic Tag Management </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementierungshandbücher für Experience Cloud ID-Dienst </a> </p> </td> 
-   <td colname="col2"> <p>Der Experience Cloud ID-Dienst ermöglicht die wichtigsten Funktionen in allen Experience Cloud-Lösungen (einschließlich Kundenattributen, Freigabe von Zielgruppen und Triggers). Adobe empfiehlt dringend, den ID-Dienst zu implementieren und die Vorteile dieser Funktionen zu nutzen. </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementation Guides for Experience Cloud ID Service </a> </p> </td> 
+   <td colname="col2"> <p>The Experience Cloud ID Service enables core functionality across Experience Cloud solutions (including Customer Attributes, audience sharing, and triggers). Adobe strongly recommends implementing the ID service and take advantage of these features. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/de-DE/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation für das Dynamic Tag Management </a> </p> </td> 
-   <td colname="col2"> <p>Erfahren Sie mehr über die Bereitstellung von Experience Cloud-Lösungen mit Dynamic Tag Management. </p> </td>
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Dynamic Tag Management Product Documentation </a> </p> </td> 
+   <td colname="col2"> <p>Learn more about deploying Experience Cloud solutions with Dynamic Tag Management. </p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Wenn Sie Hilfe bei der Implementierung des dynamischen Tag-Managements benötigen, bitten wir Sie, sich an Ihren Kundenbetreuer zu wenden, um Informationen zu Adobe Global Services-Angeboten oder den Angeboten von Implementierungspartnern zu erhalten. Sie können uns auch gerne unter [@AdobeExpCare](https://twitter.com/AdobeExpCare) und dem Hashtag #DTM kontaktieren.
+If you want help implementing dynamic tag management we encourage you to contact your Account Manager for information on Adobe Global Services offerings, or implementation partner offerings. Please also feel free to contact us at [@AdobeExpCare](https://twitter.com/AdobeExpCare) with hashtag #DTM. -->
 
-## Experience Cloud Triggers {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
+## Experience Cloud [!UICONTROL Trigger] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-*Triggers* ermöglichen es Marketingfachleuten, wichtige Verhaltensweisen von Kunden zu definieren und zu überwachen und eine lösungsübergreifende Kommunikation zu generieren, die für Entscheidungen und die Personalisierung in Echtzeit verwendet werden kann.
+[!UICONTROL Experience Cloud ] Triggerable ermöglicht es Marketing-Experten, wichtige Verhaltensweisen von Verbrauchern zu definieren und zu überwachen und anschließend eine lösungsübergreifende Kommunikation zu generieren, die bei Entscheidungen und der Personalisierung in Echtzeit verwendet werden kann.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -76,7 +75,7 @@ Wenn Sie Hilfe bei der Implementierung des dynamischen Tag-Managements benötige
   </tr>
   <tr> 
    <td colname="col1"> <p>Triggers in Adobe Campaign verwenden </p> </td> 
-   <td colname="col2"> <p> In Adobe Campaign Standard 16.7 wird eine Integration mit dem neuen Trigger-Dienst eingeführt. Dieser Dienst ermöglicht es Geschäftsbenutzern, Triggers einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Trigger definiert ist, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten zur Verfügung, die Interaktion und Konversionen fördern. Diese neue vordefinierte Funktion ermöglicht es Marketingexperten, Remarketing-Nachrichten zum richtigen Zeitpunkt und basierend auf Online-Ereignissen wie Warenkorbabbruch, Seitenansichten, angesehenen Videos usw auszulösen. </p> </td>
+   <td colname="col2"> <p> In Adobe Campaign Standard 16.7 wird eine Integration mit dem neuen Trigger-Dienst eingeführt. Dieser Dienst ermöglicht es Geschäftsbenutzern, Triggers einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Trigger definiert wurde, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten zur Verfügung, die Interaktionen und Konversionen fördern. Mit dieser neuen vordefinierten Funktion können Marketingexperten Remarketing-Nachrichten zum richtigen Zeitpunkt Trigger, basierend auf Online-Ereignissen wie Warenkorbabbruch, Seitenansichten und angesehenen Videos. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -86,4 +85,4 @@ Wenn Sie Hilfe bei der Implementierung des dynamischen Tag-Managements benötige
 
 Die Adobe Experience Cloud Debugger-Erweiterung für Chrome überprüft Ihre Webseiten und hilft Ihnen bei der Problembehebung bei der Implementierung Ihrer Experience Cloud-Lösungen.
 
-Hilfe finden Sie unter [Experience Cloud Debugger](https://docs.adobe.com/content/help/de-DE/debugger/using/experience-cloud-debugger.html).
+Hilfe finden Sie unter [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de).
