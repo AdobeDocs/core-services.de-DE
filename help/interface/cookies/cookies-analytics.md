@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '757'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 
 Adobe Analytics verwendet Cookies, um Anforderungen von verschiedenen Browsern zu unterscheiden und nützliche Informationen zu speichern, die eine Anwendung später verwenden kann. Sie können auch verwendet werden, um Browserinformationen Kundendatensätzen zuzuordnen.
 
-Analytics verwendet Cookies vor allem, um anonym neue Besucher zu definieren, Klickdaten zu analysieren und historische Aktivitäten auf der Website zu verfolgen, z. B. Reaktionen auf bestimmte Kampagnen oder die Dauer des Verkaufszyklus.
+Analytics verwendet Cookies, um anonym neue Besucher zu definieren, Clickstream-Daten zu analysieren und historische Aktivitäten auf der Website zu verfolgen, z. B. Reaktionen auf bestimmte Kampagnen oder die Dauer des Verkaufszyklus.
 
 * [Cookie-Name: s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Cookie-Name: AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -30,7 +29,7 @@ Analytics verwendet Cookies vor allem, um anonym neue Besucher zu definieren, Kl
 * [Cookie-Name: s_sq ](../cookies/cookies-analytics.md#section-8abfff3a302d494f81a3cfb91e3b09ff)
 * [Cookie-Name: s_vi](../cookies/cookies-analytics.md#section-5d50a078de444d12b7d927d68ff3b679)
 * [Cookie-Name: s_fid ](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
-* [Von Plug-ins eingestellte Cookies ](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
+* [Von Plug-ins eingestellte Cookies](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
 Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies](/help/interface/cookies/cookies-first-party.md).
 
@@ -48,7 +47,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, um zu bestimmen, ob Cookies aktiviert (auf „True“ gesetzt) sind. |
+| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, um zu bestimmen, ob Cookies aktiviert sind (auf &quot;True&quot;eingestellt). |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
@@ -78,7 +77,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 >
 >Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einem Jahr Inaktivität gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
 
-## Cookie-Name: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Cookie-Name: s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Attribut | Beschreibung |
 |--- |--- |
@@ -102,10 +101,10 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 
 >[!NOTE]
 >
->Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
+>Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Hilfe beim Ändern der Analytics-Cookie-Einstellungen erhalten Sie bei der Kundenunterstützung.
 
-## Von Plug-ins eingestellte Cookies {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Von Plug-ins eingestellte Cookies  {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins gesetzt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung in verschiedensten Situationen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Weitere Informationen zu Cookies, die von jedem Plug-in gesetzt werden, erhalten Sie von der Kundenunterstützung. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
+Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins gesetzt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung unter verschiedenen Umständen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Weitere Informationen zu Cookies, die von jedem Plug-in gesetzt werden, erhalten Sie von der Kundenunterstützung. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
 
-Konversionsvariablen (eVarX), die auf eine Bildanforderung ohne JavaScript hin weitergegeben werden, wie z. B. Code in einer E-Mail, werden nur dann richtig zugewiesen, wenn der E-Mail-Client und der Webbrowser denselben Cookie-Bereich nutzen.
+Konversionsvariablen (eVarX), die in einer Bildanforderung ohne JavaScript übergeben werden (z. B. Code in einer E-Mail), werden nur dann richtig zugeordnet, wenn der E-Mail-Client und der Webbrowser Cookie-Speicherplatz gemeinsam nutzen.
