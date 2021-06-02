@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '780'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 86%
 
 ---
 
@@ -23,7 +22,7 @@ Erfahren Sie mehr über Browser-Unterstützung und häufig gestellte Fragen und 
 
 ## Welche Browser werden in Experience Cloud unterstützt?
 
-* Microsoft Edge (aktuelle und die vorherigen zwei Versionen)
+* Microsoft® Edge (aktuelle und die vorherigen zwei Versionen)
 * Google Chrome (aktuelle und die vorherigen zwei Versionen)
 * Mozilla Firefox (aktuelle und die vorherigen zwei Versionen)
 * Safari (aktuelle und die vorherigen zwei Versionen)
@@ -34,7 +33,7 @@ Erfahren Sie mehr über Browser-Unterstützung und häufig gestellte Fragen und 
 Wenn Ihre Implementierung nicht für zentrale Dienste bereitgestellt wurde, lesen Sie die den Abschnitt [Lösungen für zentrale Dienste aktivieren](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in dem Folgendes beschrieben wird:
 
 1. [Experience Cloud beitreten und Administrator werden](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implementieren Sie den Experience Cloud ID-Dienst mit Experience Platform Launch](https://docs.adobe.com/content/help/de-DE/launch/using/intro/get-started/quick-start.html).
+1. [Implementieren Sie den Experience Cloud ID-Dienst mit Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html?lang=en).
 1. [Report Suites einer Experience Cloud-Organisation zuweisen](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(nur Analytics) Modernisierung des Analytics-AppMeasurement-Codes](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(nur Adobe Target) Modernisierung der Adobe Target-Implementierung](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
@@ -42,7 +41,7 @@ Wenn Ihre Implementierung nicht für zentrale Dienste bereitgestellt wurde, lese
 1. [Benutzer und Produkte verwalten](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Einführung in die Hauptdienste](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
-Wenden Sie sich für weitere Hilfe an den [Adobe-Support](https://helpx.adobe.com/de/marketing-cloud/contact-support.html).
+Wenden Sie sich für weitere Hilfe an den [Adobe-Support](https://helpx.adobe.com/de/contact/enterprise-support.ec.html).
 
 ## Stellt Adobe meinem Unternehmen den Zugriff auf die Experience Cloud in Rechnung?
 
@@ -50,11 +49,11 @@ Nein. Die Experience Cloud ist ohne Zusatzkosten im Preis inbegriffen. Bestimmte
 
 ## Weshalb muss sich mein Unternehmen über die Experience Cloud-Schnittstelle anmelden?
 
-Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies wird künftig auch der Standardpfad für den Zugriff auf Lösungen sein und eventuell andere individuelle Lösungsanmeldevorgänge ersetzen. Die Anmeldung über die Experience Cloud erleichtert später einen reibungsloseren Übergang.
+Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies ist auch der Standardpfad für den Zugriff auf Lösungen, der in Zukunft weitere individuelle Lösungsanmeldevorgänge ersetzen wird. Die Anmeldung über Experience Cloud erleichtert später eine reibungslosere Transition.
 
 ## Wie gehe ich auf die Bedenken ein, die mein Unternehmen gegenüber einer Migration hat?
 
-[Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/de/marketing-cloud/contact-support.html).
+[Wenden Sie sich an den Adobe Support](https://helpx.adobe.com/contact/enterprise-support.ec.html).
 
 ## Was ist eine _Bereitstellung?_
 
@@ -67,17 +66,17 @@ Bereitstellung im Sinne der Experience Cloud bedeutet:
 
 ## Wie verwalte ich Benutzer und Produktprofile?
 
-* Hilfe finden Sie im [Admin Console-Benutzerhandbuch](https://helpx.adobe.com/de/enterprise/administering/user-guide.html).
+* Hilfe finden Sie im [Admin Console-Benutzerhandbuch](https://helpx.adobe.com/de/enterprise/managing/user-guide.html).
 
-* Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
+* Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
 
-* **Wichtig:** Analytics-Administratoren finden unter [Verwalten von Analytics-Benutzern in der Admin Console](https://docs.adobe.com/content/help/de-DE/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
+* **Wichtig:** Analytics-Administratoren finden unter [Verwalten von Analytics-Benutzern in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
 
 ## Was kann ich tun, wenn sich ein Benutzer nicht bei der Experience Cloud anmelden kann?
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://helpx.adobe.com/de/marketing-cloud/contact-support.html), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://helpx.adobe.com/contact/enterprise-support.ec.html), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 ## Wo können Benutzer die Kontoverknüpfung verwalten?
 
@@ -99,13 +98,13 @@ Siehe [Suchen Ihrer Organisations-ID](organizations.md).
 
 Die Organisations-ID wird auf der Landingpage der Experience Cloud und der [Landingpage der Admin Console](https://adminconsole.adobe.com) angezeigt.
 
-Alternativ kann sich ein Administrator auch bei der Admin Console einer bestimmten Organisation anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)). Die IMS-Organisations-ID erscheint dann in der URL.
+Alternativ kann sich ein Administrator auch bei der Admin Console (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) für eine bestimmte Organisation anmelden und Ihre IMS-Organisations-ID wird in der URL angezeigt.
 
 Beispielsweise in der folgenden URL:
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-Hier lautet die ID:
+Die ID lautet:
 
 `C538193582390300A495CC9@AdobeOrg`
 
@@ -115,7 +114,7 @@ Dessen Zugang muss direkt in der Lösung entfernt werden. Sie können nicht übe
 
 ## Was ist eine Adobe ID?
 
-Siehe [Identitätstypen](https://helpx.adobe.com/de/enterprise/help/identity.html).
+Siehe [Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html).
 
 ## Kann ich für meine Benutzer Lösungskonten verknüpfen?
 
