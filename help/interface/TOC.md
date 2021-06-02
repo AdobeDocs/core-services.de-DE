@@ -1,19 +1,18 @@
 ---
 audience: administrator
-user-guide-title: 'Dienste und Administration von Adobe Experience Cloud '
-breadcrumb-title: Experience Cloud Services und Administration
-user-guide-description: Erfahren Sie, wie Sie Benutzer und Produkte in Adobe Experience Cloud verwalten und wie Sie die Dienste „Kundenattribute“ und „Zielgruppenbibliothek“ verwenden. Erfahren Sie auch mehr über Cookies und Experience Cloud Assets.
-user-guide-url: https://www.adobe.com
+user-guide-title: 'Zentrale Experience Cloud-Schnittstellenkomponenten '
+breadcrumb-title: Zentrale Experience Cloud-Schnittstellenkomponenten
+user-guide-description: Erfahren Sie mehr über die Benutzeroberfläche von Experience Cloud, konfigurieren Sie Voreinstellungen, suchen Sie nach Hilfe und Geschäftsobjekten. Hier erhalten Sie Hilfe zu Benutzer- und Produktverwaltung, Kundenattributen, Zielgruppenbibliothek, Cookies und Experience Cloud-Assets.
 index: true
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 98%
+source-wordcount: '372'
+ht-degree: 86%
 
 ---
 
 
-# Experience Cloud-Services und -Administration {#interface}
+# Zentrale Experience Cloud-Schnittstellenkomponenten {#interface}
 
 + [Zentrale Experience Cloud-Schnittstellenkomponenten](experience-cloud.md)
 + Experience Cloud Services {#about-core-services}
