@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +30,7 @@ Für AS2-Viewer, -Cookies:
 Für AS2 Flash eCatalog-Viewer, -Cookies:
 
 * Cookies speichern benutzergenerierte Inhalte (in erster Linie Inhalte, die vom Benutzer im E-Katalog-Viewer in der „Kurznotiz“-Funktion eingegeben werden). Dieser Inhalt wird wiederhergestellt, wenn der Benutzer eine Sitzung wieder aufnimmt.
-* Wenn der Benutzer eine E-Mail zur eCatalog-Freigabe für einen anderen Benutzer initiiert, wird der Inhalt der Kurznotizen des zweiten AS2-Viewers auf unsere Server kopiert, um ihn dem Empfänger bereitzustellen. Wenn der Empfänger die Viewer-Sitzung initiiert, wird der Inhalt der Kurznotizen vom Server abgerufen und in ein Cookie kopiert. Diese Funktion wird nur wenig genutzt, sodass sie nicht abläuft und alte Inhalte nicht entfernt werden. Derzeit bleiben sie auf den Servern auf unbestimmte Zeit gespeichert.
+* Wenn der Benutzer eine E-Mail zur eCatalog-Freigabe für einen anderen Benutzer initiiert, wird der Inhalt der Kurznotizen des zweiten AS2-Viewers auf unsere Server kopiert, um ihn dem Empfänger bereitzustellen. Wenn der Empfänger die Viewer-Sitzung initiiert, wird der Inhalt der Kurznotizen vom Server abgerufen und in ein Cookie kopiert. Diese Funktion wird nur wenig genutzt, sodass sie nicht abläuft und alte Inhalte nicht entfernt werden. Derzeit bleibt es auf den Servern unbegrenzt.
 
 Die neueren AS3-Viewer implementieren keine Sitzungspersistenz.
 
