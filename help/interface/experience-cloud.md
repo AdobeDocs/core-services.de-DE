@@ -8,10 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
@@ -63,11 +63,12 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 
 ## Globale Suche nach Objekten und Entitäten
 
-Mit der globalen Suche können Sie jedes durchsuchbare Geschäftsobjekt oder jede Entität in einem nahtlosen, konsistenten 1-Klick-Erlebnis finden. Diese Suche überdeckt Ihre zuletzt aufgerufenen Objekte.
+Die globale Suche ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis zu finden. Diese Suche überdeckt Ihre zuletzt aufgerufenen Objekte.
 
 ![](assets/platform-search.png)
 
-Diese Suche steht nur Experience Platform-Benutzern zur Verfügung.
+>!![NOTE]
+Die globale Suche ist nur für Experience Platform-Benutzer verfügbar.
 
 ## Kontovoreinstellungen verwalten {#preferences}
 
@@ -122,9 +123,9 @@ Weitere Experience Cloud-Handbücher:
 
 * [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
-* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Experience Platform Data Collection/Launch](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform Data Collection/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de)
 * [Datenschutz-Grundverordnung-API (DSGVO-API)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
@@ -139,10 +140,10 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 
 ## Versionshinweise und zugehörige Experience Cloud-Hilfe
 
-* [Versionshinweise und Produkt-Updates](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en) – Neue Funktionen in Experience Cloud und Abonnieren von Updates
+* [Versionshinweise und Produkt-Updates](https://experienceleague.adobe.com/docs/home.html?lang=en) – Neue Funktionen in Experience Cloud und Abonnieren von Updates
 * [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
-* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
+* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://experienceleague.adobe.com/?lang=de) – Lernen Sie von Experten und der Community
 * [Allgemeine und berufliche Bildung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)  - Engagieren Sie mit Adobe, um sicherzustellen, dass Sie die Produkte der Adobe optimal nutzen
-* [Customer Experience-Blog](https://blog.adobe.com/customer-experience/) – Lesen Sie den Experience Cloud-Blog
+* [Customer Experience-Blog](https://blog.adobe.com/en/topics/digital-transformation.html) – Lesen Sie den Experience Cloud-Blog
 * [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support) – Wenden Sie sich an die Adobe-Kundenunterstützung
