@@ -9,11 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '1247'
-ht-degree: 100%
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 87%
 
 ---
 
@@ -47,15 +46,15 @@ Auf dieser Seite wird die vollständige Liste der Benutzer mit Zugriff auf Exper
 | [!UICONTROL E-Mail] | Die mit dem Benutzer verknüpfte E-Mail-Adresse. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
 | [!UICONTROL ID-Typ] | Der Identitätstyp für das Konto des Benutzers. Es können Filter angewendet werden, um spezielle ID-Typen anzuzeigen. Weitere Informationen finden Sie unter [Verwalten von Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html). |
 | [!UICONTROL Lösungen] | Zusammenfassung der Experience Cloud-Lösungen, auf die der Benutzer zugreifen kann. Sie können Filter anwenden, um die Liste der Benutzer mit einem bestimmten Lösungszugriff einzuschränken. |
-| [!UICONTROL Letzte Anmeldung] | Uhrzeit und Datum der letzten Benutzeranmeldung bei der Experience Cloud. Diese Spalte kann nach auf- oder absteigenden Datumsangaben sortiert werden. <br> **Wichtig:** Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Aktivität bei der Anmeldung in der Experience Cloud anzeigen und sie dienen nicht als Empfehlung, vor dem 13. Januar 2020 Maßnahmen für inaktive Konten zu ergreifen. |
+| [!UICONTROL Letzte Anmeldung] | Uhrzeit und Datum der letzten Benutzeranmeldung bei der Experience Cloud. Diese Spalte kann nach auf- oder absteigenden Datumsangaben sortiert werden. <br> **Wichtig:** Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Anmeldeaktivität im Experience Cloud anzeigen und keine Empfehlung, vor dem 13. Januar 2020 Maßnahmen für inaktive Konten zu ergreifen. |
 
 ## Anpassen der Benutzerlistenansicht
 
 Sie können die Spalten suchen, sortieren oder filtern, um die Benutzerliste anzupassen.
 
 * Suchen Sie Benutzer nach Name oder E-Mail-Adresse. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
-* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für die Spalten [!UICONTROL Name], [!UICONTROL E-Mail] und [!UICONTROL Letzte Anmeldung].
-* Klicken Sie auf das Symbol **[!UICONTROL Filtern nach]**, um mehrere Filter anzuwenden und Benutzer mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge die E-Mail-Domäne `AND` ID-Typ `AND` Lösung.
+* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Diese Sortierung gilt für die Spalten [!UICONTROL Name,] [!UICONTROL E-Mail,] und [!UICONTROL Letzte Anmeldung].
+* Um mehrere Filter anzuwenden und Benutzer mit bestimmten Kriterien aufzulisten, klicken Sie auf das Symbol **[!UICONTROL Filtern nach]**. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge die E-Mail-Domäne `AND` ID-Typ `AND` Lösung.
 
 | Element | Beschreibung |
 |---------|----------|
@@ -78,8 +77,8 @@ In diesem Abschnitt wird eine Zusammenfassung des Benutzerkontos angezeigt, eins
 * Benutzeravatar und Systemadmin-Zeichen (falls zutreffend)
 * Name
 * E-Mail
-* Benutzername (bei Konten mit Federated ID können Benutzernamen von der E-Mail-Adresse abweichen)
-* [ID-Typ](https://helpx.adobe.com/de/enterprise/using/identity.html)
+* Benutzername (bei Federated ID-Konten können Benutzernamen von der E-Mail-Adresse abweichen)
+* [ID-Typ](https://helpx.adobe.com/enterprise/using/identity.html)
 * Land
 * Letzte Anmeldung
 
@@ -96,7 +95,7 @@ In diesem Abschnitt wird eine vollständige Liste aller Produktprofilmitgliedsch
 | [!UICONTROL Produkt] | Name des Produkts, das mit dem Profil verknüpft ist. |
 | [!UICONTROL Instanz] | Name der Instanz (z. B. Unternehmensanmeldung oder Mandant), die mit dem Produkt und Produktprofil verknüpft ist. |
 | [!UICONTROL Produktprofil] | Eindeutiger Name des Produktprofils. |
-| [!UICONTROL Nach Gruppe zugewiesen] | Name der Benutzergruppe, die den Benutzer mit einem Produktprofil verknüpft. Leere Ergebnisse geben an, dass der Benutzer dem Produktprofil direkt und nicht über eine Gruppe zugewiesen wurde. |
+| [!UICONTROL Nach Gruppe zugewiesen] | Name der Benutzergruppe, die den Benutzer mit einem Produktprofil verknüpft. Leere Ergebnisse zeigen an, dass der Benutzer dem Produktprofil direkt zugewiesen wurde, nicht über eine Gruppe. |
 | [!UICONTROL Produktrollen] | Rollenzuweisung des Benutzers im Produktprofil. Diese Informationen gelten derzeit nur für Adobe Target-Produktprofile. |
 
 ## Seite „Richtlinien“
@@ -107,9 +106,9 @@ Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtl
 
 | Element | Beschreibung |
 |---|---|
-| [!UICONTROL Produktprofil] | Der Name des Produktprofils. Die Spalte kann sortiert werden: A->Z, Z->A. Klicken Sie auf den Namen eines Produktprofils, um weitere Details zur Richtlinie anzuzeigen. |
+| [!UICONTROL Produktprofil] | Der Name des Produktprofils. Die Spalte kann sortiert werden: A->Z, Z->A. Um weitere Details zur Richtlinie anzuzeigen, klicken Sie auf den Namen eines Produktprofils. |
 | [!UICONTROL Produkt] | Das Produkt, das mit dem Produktprofil verknüpft ist. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
-| [!UICONTROL Instanz] | Die Instanz (z. B. Mandant oder angemeldetes Unternehmen), die mit dem Produktprofil verknüpft ist. Produkte ohne eindeutige Instanzen oder Mandanten haben als Wert „-“. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
+| [!UICONTROL Instanz] | Die Instanz (z. B. Mandant oder angemeldetes Unternehmen), die mit dem Produktprofil verknüpft ist. Produkte ohne eindeutige Instanzen oder Mandanten zeigen für den Wert &quot;-&quot;an. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
 | [!UICONTROL Anzahl der Benutzer] | Eindeutige Anzahl der mit dem Produktprofil verknüpften Benutzer, einschließlich direkter Zuweisung und Gruppenzuweisung. Die Spalte kann vom Kleinsten bis zum Größten oder vom Größten bis zum Kleinsten sortiert werden. |
 | [!UICONTROL Anzahl der Entwickler] | Anzahl der mit dem Produktprofil verbundenen Entwicklerrollen. Die Spalte kann vom Kleinsten bis zum Größten oder vom Größten bis zum Kleinsten sortiert werden. |
 
@@ -118,7 +117,7 @@ Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtl
 Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste anzupassen.
 
 * Suchen Sie nach Produktprofilen mit dem Namen. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
-* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies gilt für [!UICONTROL Produktprofil], [!UICONTROL Produkt], [!UICONTROL Instanz], [!UICONTROL Anzahl der Benutzer], [!UICONTROL Anzahl der Entwickler] und Spalten.
+* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Diese Sortierung gilt für [!UICONTROL Produktprofil,] [!UICONTROL Produkt,] [!UICONTROL Instanz,] [!UICONTROL Anzahl der Benutzer,] und [!UICONTROL Anzahl der Entwickler,] Spalten.
 * Klicken Sie auf das Symbol **[!UICONTROL Filtern nach]**, um mehrere Filter anzuwenden und Produktprofile mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge Gruppen, die mit der `AND` Instanzlösung `AND` verknüpft sind.
 
 | Element | Beschreibung |
@@ -156,7 +155,7 @@ Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergrupp
 
 | Tab | Beschreibung |
 |---------|----------|
-| [!UICONTROL Benutzer] | Die Liste der im Produktprofil enthaltenen Benutzer. Die Benutzergruppenzuordnung wird in der Spalte [!UICONTROL Nach Gruppe zugewiesen] angezeigt. |
+| [!UICONTROL Benutzer] | Die Liste der im Produktprofil enthaltenen Benutzer. Die Benutzergruppenzuordnung wird in der Spalte [!UICONTROL Zugeordnet nach Gruppe] angezeigt. |
 | [!UICONTROL Benutzergruppen] | Die Liste der mit dem Produktprofil verknüpften Benutzergruppen. |
 | [!UICONTROL Entwickler] | Die Liste der mit dem Produktprofil verbundenen Entwickler. |
 | [!UICONTROL Integrationen] | Die Liste der mit dem Produktprofil verbundenen Integrationen. |
