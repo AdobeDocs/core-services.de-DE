@@ -1,16 +1,16 @@
 ---
 title: Verwenden von Kundenattributen
-description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
+description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten zur Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Experience Cloud
 feature: 'Kundenattribute '
 role: Administrator
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 85%
+ht-degree: 73%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >[!UICONTROL Customer ] Attribution ist ein veralteter Dienst, der jetzt unterstützt wird.
 
-[!UICONTROL Mit Kundenattributen in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. ]  Sie können die Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
+[!UICONTROL Mit Kundenattributen in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. ] Sie können die Daten in eine Kundenattribut-Datenquelle im Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
 Um diese Funktion zu finden, navigieren Sie zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**
 
@@ -48,7 +48,7 @@ Das folgende Bild ist ein Beispiel für eine Datendatei mit Abonnentendaten zu P
 
 ![](assets/01_crs_usecase.png)
 
-Nach Erstellung der Datendatei können Sie sie in eine Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundenattribute]** erstellen.
+Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie in **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundenattribute]** erstellt haben.
 
 Weitere Informationen zu diesem Arbeitsablauf finden Sie unter [Hochladen von Kundenattributdaten](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
