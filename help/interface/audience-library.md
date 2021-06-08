@@ -9,14 +9,14 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# Experience Cloud-Zielgruppen {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud-Zielgruppen {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Über die Zielgruppenbibliothek von Adobe können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten. Das Erstellen und Verwalten von Audiences ist daher ähnlich wie das Erstellen und Verwenden von Segmenten. Sie können in [!DNL Experience Cloud] das Zielgruppensegment auch für Produkte und Services freigeben.
 
