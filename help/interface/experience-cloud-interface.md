@@ -6,7 +6,7 @@ feature: '"Central Interface Components"'
 topic: Administration
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 6%
@@ -23,7 +23,7 @@ Die zentralen Komponenten der Benutzeroberfläche von Experience Cloud umfassen 
 
 ## Bei Experience Cloud anmelden
 
-Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](admin-getting-started/organizations.md) befinden.
+Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
 1. Navigieren Sie zu [Adobe Experience Cloud](https://experience.adobe.com).
 1. Klicken Sie auf **[!UICONTROL Anmelden mit einer Adobe ID]**.
@@ -31,7 +31,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
    ![](assets/organizations-menu.png)
 
-   Ihr Administrator kann Ihnen dabei helfen, sicherzustellen, dass Sie sich in der richtigen [Organisation](admin-getting-started/organizations.md) befinden.
+   Ihr Administrator kann Ihnen dabei helfen, sicherzustellen, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
 ## Zugriff auf Experience Cloud-Anwendungen {#navigation}
 
@@ -59,7 +59,7 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 Im Menü &quot;Kontovoreinstellungen&quot;haben Sie folgende Möglichkeiten:
 
 * Festlegen eines dunklen Designs (nicht alle Anwendungen unterstützen dieses Design)
-* Suchen Sie nach [Organisationen](admin-getting-started/organizations.md) .
+* Suchen Sie nach [Organisationen](organizations.md) .
 * Abmelden
 * Konto [Voreinstellungen, Benachrichtigungen und Abonnements konfigurieren](#preferences)
 
@@ -75,7 +75,7 @@ Unter [!UICONTROL Experience Cloud Preferences] können Sie die folgenden Funkti
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Standard [organization](admin-getting-started/organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
+| Standard [organization](organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
 | [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-over [!UICONTROL Benachrichtigungen] und in Ihrer E-Mail. |
 | [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die als vorrangig betrachtet werden sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können für Sendungen wie Warnungen konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
