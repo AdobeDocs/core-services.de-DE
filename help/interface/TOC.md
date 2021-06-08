@@ -4,22 +4,22 @@ user-guide-title: 'Zentrale Schnittstellenkomponenten von Experience Cloud '
 breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 user-guide-description: Erfahren Sie mehr über die Benutzeroberfläche von Experience Cloud, konfigurieren Sie Voreinstellungen, suchen Sie nach Hilfe und Geschäftsobjekten. Hier erhalten Sie Hilfe zu Benutzer- und Produktverwaltung, Kundenattributen, Zielgruppenbibliothek, Cookies und Experience Cloud-Assets.
 index: true
-source-git-commit: c703868b03b3383237c3aed2c8a39434db42436c
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
 
 # Zentrale Schnittstellenkomponenten von Experience Cloud {#interface}
 
-+ [Zentrale Experience Cloud-Schnittstellenkomponenten](experience-cloud.md)
++ [Komponentenleitfaden für die zentrale Benutzeroberfläche von Experience Cloud](experience-cloud.md)
 + Experience Cloud Services {#services}
-   + [Übersicht über Experience Cloud Services](core-services-landing.md)
+   + [Experience Cloud Services](core-services-landing.md)
    + [Implementierung für lösungsübergreifende Dienste aktivieren](core-services.md)
-   + Experience Cloud-Zielgruppen {#audiences}
-      + [Experience Cloud-Zielgruppendienst](audience-library.md)
+   + Experience Cloud-Zielgruppenbibliothek {#audiences}
+      + [Experience Cloud-Zielgruppen](audience-library.md)
       + [Erstellen einer Zielgruppe](t-audience-create.md)
       + [Veröffentlichen eines Analytics-Zielgruppensegments](t-publish-audience-segment.md)
    + Experience Cloud-Kundenattribute {#customer-attributes}
