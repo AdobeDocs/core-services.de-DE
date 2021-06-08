@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '4094'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -256,7 +256,7 @@ Keine Informationen verfügbar.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Kundenattribute </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Nach dem Hochladen der Daten können Sie die Berichte <span class="uicontrol">Besucherprofil</span> &gt; <span class="uicontrol">Kundenattribute</span> in Analytics ausführen. </p> <p>Die hochgeladenen Daten können Sie in <span class="keyword">Adobe Target</span> auch als Zielgruppensegment verwenden. </p> <p>Siehe <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Produktdokumentation zu Kundenattributen</a>. </p> <p> Informationen zur Modernisierung Ihrer Lösungen für Hauptdienste finden Sie unter <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktivieren Ihrer Lösungen für Hauptdienste</a>. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie die Daten in eine Kundenattribut-Datenquelle im Experience Cloud hochladen. Nach dem Hochladen der Daten können Sie die Berichte <span class="uicontrol">Besucherprofil</span> &gt; <span class="uicontrol">Kundenattribute</span> in Analytics ausführen. </p> <p>Die hochgeladenen Daten können Sie in <span class="keyword">Adobe Target</span> auch als Zielgruppensegment verwenden. </p> <p>Siehe <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Produktdokumentation zu Kundenattributen</a>. </p> <p> Informationen zur Modernisierung Ihrer Lösungen für Hauptdienste finden Sie unter <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktivieren Ihrer Lösungen für Hauptdienste</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
