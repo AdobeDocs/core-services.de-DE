@@ -1,5 +1,5 @@
 ---
-description: Hier erfahren Sie, wie Sie die Kundenattributquelle erstellen und auf Adobe Experience Cloud hochladen.
+description: Erfahren Sie, wie Sie die Kundenattributquelle erstellen und in die Adobe Experience Cloud hochladen.
 keywords: Kundenattribute;zentrale Services
 solution: Experience Cloud
 title: 'Erstellen einer Kundenattributquelle und Hochladen der Datendatei '
@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 90%
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 Erstellen Sie die Kundenattributquelle (CSV- und FIN-Dateien) und laden Sie die Daten hoch. Sobald Sie dazu bereit sind, aktivieren Sie die Datenquelle. Geben Sie die Attributdaten nach Aktivierung der Datenquelle an Analytics und Target weiter.
 
-## Arbeitsablauf für Kundenattribute {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+## Workflow &quot;Kundenattribute&quot; {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
 ![](assets/crs.png)
 
@@ -57,7 +57,7 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
    ![](assets/01_crs_usecase.png)
 
 1. Überprüfen Sie vor dem Hochladen der Datei die wichtigen Informationen in den [Datendateivoraussetzungen](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19).
-1. [Erstellen Sie eine Kundenattributquelle und laden Sie wie nachfolgend beschrieben die Daten hoch](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
+1. [Erstellen Sie eine Kundenattributquelle und laden Sie die Daten](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) hoch, wie unten beschrieben.
 
 ## Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch {#task_09DAC0F2B76141E491721C1E679AABC8}
 
@@ -65,7 +65,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
 >[!IMPORTANT]
 >
->Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es bis zu einer Stunde, bis die IDs mit der neuen Datenquelle synchronisiert werden. Sie müssen über Administratorrechte in Audience Manager verfügen, um Kundenattributquellen zu erstellen oder zu ändern. Wenden Sie sich an die Audience Manager-Kundenunterstützung oder -Beratung, um Administratorrechte zu erhalten.
+>Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es bis zu eine Stunde, bis IDs mit der neuen Datenquelle synchronisiert werden. Sie müssen über Administratorrechte in Audience Manager verfügen, um Kundenattributquellen zu erstellen oder zu ändern. Wenden Sie sich an die Audience Manager-Kundenunterstützung oder -Beratung, um Administratorrechte zu erhalten.
 
 1. Klicken Sie in [!DNL Experience Cloud] im Menü auf das ![](assets/menu-icon.png)-Symbol.
 1. Klicken Sie unter **[!DNL Experience Platform]** auf **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**.
@@ -82,7 +82,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Quelle des Datenattributs.
 
-   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. Eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der auf der Experience Cloud-Benutzeroberfläche für eine Kundenattributquelle im Feld „Alias-ID“ eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über das dynamische Tag-Management oder JavaScript des Mobile SDK).
+   * **[!UICONTROL Alias-ID:]** Stellt eine Quelle von Kundenattributdaten dar, z. B. ein bestimmtes CRM-System. Eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der in der Experience Cloud-Benutzeroberfläche für eine Kundenattributquelle im Feld Alias-ID eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über das dynamische Tag-Management oder JavaScript des Mobile SDK).
 
       Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
@@ -169,7 +169,7 @@ Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den E
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Bereich [!UICONTROL Besucherprofil] ein Kundenattribut auswählen. Alle Kundenattribute enthalten in der Liste das Präfix `crs.`. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
+In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Abschnitt [!UICONTROL Besucherprofil] ein Kundenattribut auswählen. Alle Kundenattribute enthalten in der Liste das Präfix `crs.`. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
 
 ![](assets/crs-add-attribute-target.png)
 
