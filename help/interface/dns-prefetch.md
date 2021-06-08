@@ -8,11 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-translation-type: ht
-source-git-commit: f4add6d5e64678c6b578237c18ceda9ee2245033
-workflow-type: ht
-source-wordcount: '383'
-ht-degree: 100%
+source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +21,7 @@ Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Lösu
 
 ## Vorstellung des DNS-Vorabrufs {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit ihren entsprechenden IP-Adressen verknüpft sind, automatisch aufzulösen. Der Vorabrufprozess beginnt, wenn der Browser eine Webseite lädt. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. Lädt ein Browser diese Seite, nutzt er das [DNS-System](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/), um den verlinkten Domänennamen zu suchen und ihn in die zugehörige numerische IP-Adresse umzuwandeln. Der DNS-Vorabruf trägt zur Verbesserung der Seitenleistung bei, da der Domänenname bereits in eine IP-Adresse aufgelöst wird, bevor ein Site-Besucher auf diesen Link oder diese Schaltfläche klickt. Der DNS-Vorabrufprozess ist für die Benutzer transparent.
+Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit ihren entsprechenden IP-Adressen verknüpft sind, automatisch aufzulösen. Der Vorabrufprozess beginnt, wenn der Browser eine Webseite lädt. Angenommen, Ihre Seite enthält einen anklickbaren Link zu `www.adobe.com`. Lädt ein Browser diese Seite, nutzt er das [DNS-System](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/), um den verlinkten Domänennamen zu suchen und ihn in die zugehörige numerische IP-Adresse umzuwandeln. Der DNS-Vorabruf trägt zur Verbesserung der Seitenleistung bei, da der Domänenname bereits in eine IP-Adresse aufgelöst wird, bevor ein Site-Besucher auf diesen Link oder diese Schaltfläche klickt. Der DNS-Vorabrufprozess ist für die Benutzer transparent.
 
 ## DNS-Vorabruf und Adobe Experience Cloud-Lösungen {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
@@ -35,7 +34,7 @@ Sie können jedoch den DNS-Vorabruf manuell in Ihre Experience Cloud-Lösungen i
 
 ## Code-Beispiele für den DNS-Vorabruf {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-In den folgenden Beispielen ist dargestellt, wie Sie DNS-Vorabrufe an unterschiedliche Lösungen und Dienste der [!DNL Experience Cloud] tätigen können. Für einige Vorabrufe werden Ihre [!DNL Adobe]-Organisations-ID oder Tracking-Server-Daten benötigt. In den folgenden Beispielen steht der *kursive* Code für einen variablen Platzhalter. Diesen würden Sie durch Ihre eigene [!DNL Adobe]-Partner-ID, Kundennummer, Tracking-Server-Daten usw. ersetzen.
+In den folgenden Beispielen ist dargestellt, wie Sie DNS-Vorabrufe an unterschiedliche Lösungen und Dienste der [!DNL Experience Cloud] tätigen können. Für einige Vorabrufe werden Ihre [!DNL Adobe]-Organisations-ID oder Tracking-Server-Daten benötigt. In den folgenden Beispielen steht der *kursive* Code für einen variablen Platzhalter. Sie würden diesen Code durch Ihre eigene [!DNL Adobe] Partner-ID, Kundencode, Tracking-Server-Informationen usw. ersetzen.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -45,9 +44,9 @@ In den folgenden Beispielen ist dargestellt, wie Sie DNS-Vorabrufe an unterschie
 
 * **Experience Cloud ID-Dienst:** `<link rel="dns-prefetch" href="//fast. *`hier Partner-ID einfügen`*.demdex.net">`
 
-* **Dynamischer Tag-Manager** (DTM): nicht erforderlich. DTM-Links sind verfügbar, sobald die Seite lädt.
+* **Dynamischer Tag-Manager** (DTM): nicht erforderlich. DTM-Links sind verfügbar, wenn die Seite geladen wird.
 
-* **Media Optimizer (Ad Cloud):**
+* **Media Optimizer (Advertising Cloud):**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
