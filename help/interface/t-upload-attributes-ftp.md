@@ -1,26 +1,26 @@
 ---
-description: Erfahren Sie, wie Sie Kundenattributdaten per FTP in Experience Cloud hochladen.
+description: Erfahren Sie, wie Sie Kundenattributdaten via FTP in das Experience Cloud hochladen.
 keywords: Kundenattribute;zentrale Services
 solution: Experience Cloud
-title: 'Upload der Datendatei für Kundenattribute über FTP '
+title: 'Hochladen der Datendatei für Kundenattribute via FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 feature: 'Kundenattribute '
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 90%
+ht-degree: 67%
 
 ---
 
 # Optional – Hochladen der Datendatei via FTP
 
-Wenn Sie die Kundenattributdaten nicht per Drag &amp; Drop in die Experience Cloud hochladen, können Sie die Daten auch via FTP hochladen.
+Wenn Sie nicht per Drag &amp; Drop hochladen, können Sie Kundenattributdaten via FTP in das Experience Cloud hochladen.
 
-Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein FTP-Konto in der Experience Cloud erstellt haben. Pro Attributquelle erstellen Sie ein FTP-Konto. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im `.csv`-Format vorliegen, wobei eine zweite `.fin`-Datei angibt, dass der Upload abgeschlossen ist.
+Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein FTP-Konto im Experience Cloud erstellt haben. Pro Attributquelle erstellen Sie ein FTP-Konto. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im `.csv`-Format vorliegen, wobei eine zweite `.fin`-Datei angibt, dass der Upload abgeschlossen ist.
 
 >[!IMPORTANT]
 >
