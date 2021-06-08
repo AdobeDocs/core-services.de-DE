@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 78%
+ht-degree: 70%
 
 ---
 
@@ -85,7 +85,7 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attributbeschränkungen </p> </td> 
-   <td colname="col2"> <p>Sie können Hunderte von <span class="filepath">CSV</span>-Spalten für den Kundenattributdienst in die Experience Cloud hochladen. Bei der Konfiguration von Abonnements und der Auswahl von Attributen gelten jedoch in Abhängigkeit von den Lösungen, die Sie besitzen, die folgenden Einschränkungen: </p> <p> 
+   <td colname="col2"> <p>Sie können Hunderte von <span class="filepath"> .csv </span> -Spalten in den Kundenattributdienst im Experience Cloud hochladen. Bei der Konfiguration von Abonnements und der Auswahl von Attributen gelten jedoch in Abhängigkeit von den Lösungen, die Sie besitzen, die folgenden Einschränkungen: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 3 insgesamt </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 pro Report Suite </li> 
@@ -121,7 +121,7 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mehrere Dateien </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Kundenattributdaten in mehrere Dateien in schneller Folge hochladen möchten und die Dateien groß sind, stellen Sie sicher, dass die vorherige Datei verarbeitet wurde, bevor Sie die nächste Datei hochladen. Sie können dies überwachen, indem Sie überprüfen, wann die vorherige Datei in den Ordner mit verarbeiteten oder fehlgeschlagenen Vorgängen innerhalb Ihres FTP-Kontos mit [!UICONTROL Kundenattributen] verschoben wurde. </p> <p> Wenn Sie eine große Datei in kleinere Dateien unterteilen und diese in schneller Folge übermitteln, kann die Verarbeitung tatsächlich verlangsamt werden, es sei denn, Sie können sicherstellen, dass jede Datei verarbeitet wird, bevor Sie die nächste übermitteln. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Kundenattributdaten hochladen und mehrere Dateien in schneller Folge hochladen möchten, insbesondere wenn die Dateien groß sind, stellen Sie sicher, dass die vorherige Datei verarbeitet wurde, bevor Sie die nächste Datei hochladen. Sie können dies überwachen, indem Sie überprüfen, wann die vorherige Datei in den Ordner mit verarbeiteten oder fehlgeschlagenen Vorgängen innerhalb Ihres FTP-Kontos mit [!UICONTROL Kundenattributen] verschoben wurde. </p> <p> Wenn Sie eine große Datei in kleinere Dateien unterteilen und diese in schneller Folge übermitteln, kann die Verarbeitung tatsächlich verlangsamt werden, es sei denn, Sie können sicherstellen, dass jede Datei verarbeitet wird, bevor Sie die nächste übermitteln. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zeichenkodierung </p> </td> 
@@ -140,7 +140,7 @@ Anzeige derselben Datei in einem Texteditor:
 
 ## Verwenden verschiedener Datenquellen {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
-Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es ca. eine Stunde, bis die IDs mit der neuen Datenquelle synchronisiert werden.
+Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es etwa eine Stunde, bis IDs mit der neuen Datenquelle synchronisiert werden.
 
 Die Alias-ID für jede Kundenattributquelle muss eindeutig sein. Wenn Sie über mehrere Datenquellen verfügen, die dieselbe ID verwenden, können diese wie folgt eingerichtet werden:
 
