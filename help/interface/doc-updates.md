@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 7732fe63bdaa71446e06b3045de1cc632a844a0d
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 89%
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ Hinzufügung der [Anzeigen von Experience Cloud-Benutzerdetails (Admin Tool)](ad
 
 **Aktualisiert: 05.09.2018**
 
-Eine Beschreibung wurde hinzugefügt, wie ein Kundenattribut gelöscht werden kann. Siehe [(Optional) Aktualisieren Sie das Schema (Attribute löschen)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+Es wurde hinzugefügt, wie ein Kundenattribut gelöscht werden kann. Siehe [(Optional) Aktualisieren Sie das Schema (Attribute löschen)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **Aktualisiert: 08.06.2018**
 
