@@ -4,10 +4,10 @@ user-guide-title: 'Zentrale Schnittstellenkomponenten von Experience Cloud '
 breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 user-guide-description: Erfahren Sie mehr über die Benutzeroberfläche von Experience Cloud, konfigurieren Sie Voreinstellungen, suchen Sie nach Hilfe und Geschäftsobjekten. Hier erhalten Sie Hilfe zu Benutzer- und Produktverwaltung, Kundenattributen, Zielgruppenbibliothek, Cookies und Experience Cloud-Assets.
 index: true
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 81%
+source-wordcount: '344'
+ht-degree: 78%
 
 ---
 
@@ -70,8 +70,8 @@ ht-degree: 81%
       + [Datenschutzeinstellungen für Browser-Cookies aktivieren](browser-cookie-settings.md)
       + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden ](cookies-thirdparty.md)
 + Versionshinweise zur Experience Cloud-Benutzeroberfläche {#release-notes}
-   + [Neue Funktionen in der Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
-   + [Gesammelte Versionshinweise](release-notes.md)
+   + [Versionshinweise zu Komponenten der zentralen Benutzeroberfläche](release-notes.md)
+   + [Versionshinweise für alle Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
 + Zusätzliche Ressourcen {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
