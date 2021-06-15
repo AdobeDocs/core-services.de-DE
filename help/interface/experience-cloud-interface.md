@@ -1,15 +1,15 @@
 ---
-description: 'Erfahren Sie mehr über die zentralen Komponenten der Benutzeroberfläche in Experience Cloud, einschließlich der globalen Suche, Ihrer Kontovoreinstellungen, der Navigation in der Benutzeroberfläche und der Hilfeleistung. '
+description: 'Erfahren Sie mehr über die zentralen Komponenten der Benutzeroberfläche in Experience Cloud, einschließlich der globalen Suche, Ihrer Kontoeinstellungen, der Navigation in der Benutzeroberfläche und der Hilfe. '
 solution: Experience Cloud
 title: 'Zentrale Komponenten der Experience Cloud-Benutzeroberfläche '
-feature: '"Central Interface Components"'
-topic: Administration
+feature: „Zentrale Komponenten der Benutzeroberfläche“
+topic: Administration.
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 6%
 
 Die zentralen Komponenten der Benutzeroberfläche von Experience Cloud umfassen Funktionen, mit denen Sie:
 
-* Anmelden und Zugriff auf Ihre Anwendungen und Dienste
-* Suchen Sie mithilfe der globalen Suche nach Produkthilfe und Geschäftsobjekten.
-* Kontovoreinstellungen verwalten (Warnungen, Benachrichtigungen und Abonnements)
+* sich anmelden und auf Ihre Anwendungen und Dienste zugreifen können
+* der globalen Suche nach Produkthilfe und Geschäftsobjekten suchen können
+* Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
 
-## Bei Experience Cloud anmelden
+## Melden Sie sich bei Experience Cloud an
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
-1. Navigieren Sie zu [Adobe Experience Cloud](https://experience.adobe.com).
-1. Klicken Sie auf **[!UICONTROL Anmelden mit einer Adobe ID]**.
+1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
+1. Klicken Sie auf **[!UICONTROL Mit Adobe ID anmelden]**.
 1. Klicken Sie in Adobe Experience Cloud auf Ihr Unternehmen.
 
    ![](assets/organizations-menu.png)
@@ -37,7 +37,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Dienste und Organisationen zugreifen.
 
-Klicken Sie auf den Anwendungsselektor ![](assets/menu-icon.png) , um auf die von Ihnen verwalteten Experience Cloud-Dienste zuzugreifen.
+Klicken Sie auf den Anwendungsselektor ![](assets/menu-icon.png), um auf die von Ihnen verwalteten Experience Cloud-Dienste zuzugreifen.
 
 ![](assets/platform-core-services.png)
 
@@ -49,42 +49,42 @@ Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials 
 
 Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 
-* **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie den   Support mit Twitter.
+* **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie den [!UICONTROL Support] über Twitter.
 * **[!UICONTROL Feedback]:** Kontaktieren Sie Adobe mithilfe von Feedback und teilen Sie uns Ihre Meinung mit.
-* **[!UICONTROL Status]:** Navigieren Sie zu  `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und  [!UICONTROL Verwalten von Abonnements].
-* **[!UICONTROL Developer Connection]:** Navigation zu  `adobe.io` und Entwicklerdokumentation.
+* **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
+* **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
 
-## Kontovoreinstellungen {#account-menu}
+## Kontoeinstellungen {#account-menu}
 
-Im Menü &quot;Kontovoreinstellungen&quot;haben Sie folgende Möglichkeiten:
+Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 * Festlegen eines dunklen Designs (nicht alle Anwendungen unterstützen dieses Design)
-* Suchen Sie nach [Organisationen](organizations.md) .
+* Suchen nach [Organisationen](organizations.md)
 * Abmelden
-* Konto [Voreinstellungen, Benachrichtigungen und Abonnements konfigurieren](#preferences)
+* [Einstellungen, Benachrichtigungen und Abonnements](#preferences) für das Konto konfigurieren
 
-### Experience Cloud verwalten [!UICONTROL Voreinstellungen] {#preferences}
+### Experience Cloud[!UICONTROL -Einstellungen] verwalten {#preferences}
 
-Zu den Voreinstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnungen.
+Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
-Klicken Sie auf **[!UICONTROL Voreinstellungen]** im Kontomenü ![](assets/preferences-icon-sm.png), um die Voreinstellungen zu verwalten.
+Klicken Sie auf **[!UICONTROL Einstellungen]** im Kontomenü ![](assets/preferences-icon-sm.png), um die Einstellungen zu verwalten.
 
 ![](assets/preferences-page.png)
 
-Unter [!UICONTROL Experience Cloud Preferences] können Sie die folgenden Funktionen konfigurieren:
+Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funktionen konfigurieren:
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Standard [organization](organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
-| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-over [!UICONTROL Benachrichtigungen] und in Ihrer E-Mail. |
-| [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die als vorrangig betrachtet werden sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können für Sendungen wie Warnungen konfiguriert werden. |
+| Standard[organisation](organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
+| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-Over [!UICONTROL Benachrichtigungen] und in Ihren E-Mails. |
+| [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
-| E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich.) |
+| E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |
 
-## Benachrichtigungen und Mitteilungen
+## Benachrichtigungen und Ankündigungen
 
-Klicken Sie auf **[!UICONTROL Benachrichtigungen]** , um Benachrichtigungen, die für Sie wichtig sind, sowie Mitteilungen aus Adobe anzuzeigen.
+Klicken Sie auf **[!UICONTROL Benachrichtigungen]**, um Benachrichtigungen, die für Sie wichtig sind, sowie Ankündigungen von Adobe anzuzeigen.
 
 ![](assets/notifications-menu-small.png)
 
-Sie können Benachrichtigungen unter [Experience Cloud Preferences](#preferences) konfigurieren.
+Sie können Benachrichtigungen unter [Experience Cloud-Einstellungen](#preferences) konfigurieren.
