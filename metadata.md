@@ -1,6 +1,6 @@
 ---
-title: Komponenten und Dienste der Experience Cloud-Benutzeroberfläche
-description: Erfahren Sie mehr über Benutzeroberflächenkomponenten, Benutzer- und Produktverwaltung in Adobe Admin Console, Audience Library, Kundenattribute, Experience Cloud Assets und mehr.
+title: Komponenten und Services der Benutzeroberfläche von Experience Cloud
+description: Erfahren Sie mehr über Benutzeroberflächenkomponenten sowie die Benutzer- und Produktverwaltung in Adobe Admin Console, Audience Library, Kundenattribute, Experience Cloud Assets und mehr.
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
@@ -11,13 +11,12 @@ solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Erste Schritte
 getting-started-url: https://helpx.adobe.com/de/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
-tutorials-url: https://docs.adobe.com/content/help/de-DE/core-services-learn/tutorials/overview.html
+tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.de-DE
-translation-type: tm+mt
-source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
+source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 86%
+ht-degree: 96%
 
 ---
 
@@ -40,7 +39,7 @@ Die Datei metadata.md enthält Metadaten auf Repo-Ebene, die an die TOC.md-Datei
 
 In der Datei TOC.md
 
-| metadata | was es macht |
+| Metadaten | was es macht |
 |--- |--- |
 | user-guide-title | Wird in der Artikelkopfzeile als Link verwendet |
 | user-guide-url | Öffnet die helpx-Hub-Seite |
