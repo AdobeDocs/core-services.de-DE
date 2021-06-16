@@ -7,7 +7,7 @@ index: true
 source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 78%
       + [Erstellen einer Zielgruppe](t-audience-create.md)
       + [Veröffentlichen eines Analytics-Zielgruppensegments](t-publish-audience-segment.md)
    + Experience Cloud-Kundenattribute {#customer-attributes}
-      + [Kundenattribute  Übersicht](attributes.md)
+      + [Kundenattribute Übersicht](attributes.md)
       + [Häufig gestellte Fragen zu Kundenattributen](faq-crs.md)
       + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](crs-data-file.md)
       + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](t-crs-usecase.md)
@@ -31,12 +31,12 @@ ht-degree: 78%
       + [Prüfen des Schemas](validate-schema.md)
       + [Konfigurieren von Abonnements](subscription.md)
       + [Schema aktualisieren](t-update-schema.md)
-      + [Unterstützung der Datenschutz-Grundverordnung ](gdpr.md)
+      + [Unterstützung der Datenschutz-Grundverordnung](gdpr.md)
       + [Unterstützung des California Consumer Privacy Act](ccpa.md)
       + [Überlegungen zum Datenschutz bei Kundenattributen](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Übersicht über Activation](activation.md)
-      + [Experience Platform Launch-Benutzerhandbuch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en)
+      + [Experience Platform Launch-Benutzerhandbuch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de)
       + [Triggers](triggers.md)
    + Experience Cloud-Assets {#assets}
       + [Übersicht über Experience Cloud Assets](experience-cloud-assets.md)
@@ -44,7 +44,7 @@ ht-degree: 78%
       + [Verwaltung der Creative Cloud-Benutzer](t-admin-add-cc-user.md)
       + [Experience Cloud-Asset-Ordner freigeben](t-share-creative-cloud.md)
       + [Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser](t-upload-asset-cc.md)
-      + [Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch](t-cc-asset-upload-thor.md)
+      + [Ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hochladen](t-cc-asset-upload-thor.md)
       + [Dateivoraussetzungen für die Freigabe von Assets](assets-file-reqs.md)
       + [Verhalten freigegebener Ordner](asset-behavior.md)
 + Verwaltung von Experience Clouden {#administration}
@@ -64,9 +64,9 @@ ht-degree: 78%
       + [Cookies in [!UICONTROL Data Workbench]](cookies-insight.md)
       + [Cookies in Experience Cloud](cookies-mc.md)
       + [Cookies in Advertising Cloud](cookies-advertising-cloud.md)
-      + [[!DNL Scene7]Cookies in ](cookies-s7.md)
-      + [[!DNL Search and Promote]Cookies in ](cookies-snp.md)
-      + [[!DNL Target]Cookies in ](cookies-target.md)
+      + [Cookies in [!DNL Scene7]](cookies-s7.md)
+      + [Cookies in [!DNL Search and Promote]](cookies-snp.md)
+      + [Cookies in [!DNL Target]](cookies-target.md)
       + [Datenschutzeinstellungen für Browser-Cookies aktivieren](browser-cookie-settings.md)
       + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden ](cookies-thirdparty.md)
 + Versionshinweise zur Experience Cloud-Benutzeroberfläche {#release-notes}
