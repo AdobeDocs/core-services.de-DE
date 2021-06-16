@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 81%
+source-wordcount: '389'
+ht-degree: 82%
 
 ---
 
@@ -31,3 +31,5 @@ Ein Adobe Analytics-Abonnement ermöglicht beispielsweise Attributdaten in Beric
 | Lösung | **Adobe Analytics:**<br> Wählen Sie Analytics und die Report Suites aus, die Attributdaten erhalten sollen, sowie die einzuschließenden Attribute.<br>**Adobe Target:**<br> Sie können Kundenattribute für Targeting und die Segmentierung hochladen. Diese Funktion ist nützlich, wenn Sie einen Test auf der Grundlage von Attributdaten durchführen möchten oder die Daten für die Segmentierung in Analytics zur Verfügung stellen möchten.<br>Hochgeladene Kundenattributdaten für einen Besucher sind bei der Anmeldung unter  **[!DNL Target]** >  **Zielgruppen** verfügbar.<br>Es werden mehrere Datenquellen unterstützt. Wenn Sie [Kunden-IDs](core-services.md) auf Ihrer Website festlegen, stellen Sie sicher, dass mindestens ein Alias über ein [!DNL Target]-Abonnement verfügt. |
 | Report Suite (Analytics) | Die Report Suites von Analytics.<br>Innerhalb einer Attributquelle können Sie dem Analytics-Abonnement maximal zehn Report Suites hinzufügen. Berücksichtigen Sie bei der Auswahl der einzuschließenden Report Suites die folgenden Vorschläge:<ul><li>Wählen Sie Report Suites mit einem gemeinsamen Satz authentifizierter Kunden aus. Wenn sich die authentifizierten Kunden in einer Report Suite nicht mit den authentifizierten Kunden in einer anderen Report Suite überschneiden, teilen Sie diese Report Suites in verschiedene Attributquellen auf.</li><li>Wenn möglich, sollten die Report Suites, die in einer Attributquelle enthalten sind, ein ähnliches Traffic-Volumen aufweisen.</li></ul><br>Wenn Sie über mehr als 10 Report Suites mit einem gemeinsamen Satz authentifizierter Kunden verfügen, können Sie zusätzliche Kundenattributquellen mit jeweils bis zu 10 Report Suites konfigurieren. |
 | Einzuschließende Attribute (Analytics und [!DNL Target]) | Die Attribute, die Sie an die Lösung senden möchten. <br>Bei der Konfiguration von Abonnements und der Auswahl von Attributen gelten – abhängig von den Lösungen, die Sie besitzen – die folgenden Einschränkungen _pro Report Suite_:<ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 insgesamt</li><li>Premium: 200 pro Report Suite</li><li>[!DNL Target] Standard: 5</li><li>[!DNL Target] Premium: 200</li></ul><br>**Hinweis:** Bei einem Upgrade auf Analytics Premium dauert es 24 Stunden, bis weitere Attribute verfügbar sind. Während dieser Wartezeit wird Ihnen möglicherweise eine Fehlermeldung über einen erreichten Attributabonnement-Maximalwert angezeigt. |
+
+{style=&quot;table-layout:auto&quot;}
