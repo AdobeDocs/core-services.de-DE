@@ -1,6 +1,6 @@
 ---
 description: Hier erfahren Sie, wie Adobe Analytics Cookies verwendet, um Informationen über Variablen und Komponenten bereitzustellen, die zwischen Bildanforderungen und Browser-Sitzungen nicht bestehen bleiben.
-keywords: Cookies, Datenschutz
+keywords: Cookies;Datenschutz
 solution: Experience Cloud,Analytics
 title: '"Erstanbieter-Cookies "'
 index: y
@@ -10,25 +10,25 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 55%
+source-wordcount: '1579'
+ht-degree: 60%
 
 ---
 
 # Informationen zu Erstanbieter-Cookies
 
-Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben. Wenn möglich, verwendet Adobe Erstanbieter-Cookies, um Aktivitäten auf Ihrer Site aufzuzeichnen. Um Aktivitäten auf verschiedenen Sites aufzuzeichnen, z. B. auf anderen Domänen, deren Inhaber Sie sind, sind Drittanbieter-Cookies erforderlich.
+Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben. Wenn möglich, verwendet Adobe Erstanbieter-Cookies, um Aktivitäten auf Ihrer Website aufzuzeichnen. Um Aktivitäten auf verschiedenen Websites aufzuzeichnen, z. B. auf anderen Domains, deren Inhaber Sie sind, sind Drittanbieter-Cookies erforderlich.
 
 Viele Browser und Anti-Spyware-Anwendungen sind dafür konzipiert, Drittanbieter-Cookies abzulehnen und zu löschen, einschließlich Cookies, die in der Datenerfassung von [!DNL Analytics] verwendet werden. Um das Tracking der Interaktion Ihrer Besucher mit Ihrer Website zu unterstützen, sollten Sie sicherstellen, dass Sie Ihre Datenerfassung für die Verwendung von Erstanbieter-Cookies konfiguriert haben:
 
-Es stehen zwei Optionen zur Implementierung von Erstanbieter-Cookies zur Verfügung:
+Es stehen zwei Optionen zur Implementierung von First-Party-Cookies zur Verfügung:
 
 * Wenn Sie den Experience Platform Identity Service (ECID-Dienst) verwenden, werden Cookies mithilfe von JavaScript automatisch im Erstanbieterkontext gesetzt.
 * Wenn Sie [!DNL Analytics] Legacy-IDs (auch `s_vi`-Cookie genannt) verwenden, hängt es davon ab, wie Sie Ihren Datenerfassungsserver konfiguriert haben. Wenn der Datenerfassungsserver mit der Domäne Ihrer Site übereinstimmt, werden Cookies als Erstanbieter gesetzt. Wenn der Erfassungsserver nicht mit Ihrer aktuellen Domäne übereinstimmt, werden Cookies als Drittanbieter gesetzt. Wenn Drittanbieter-Cookies blockiert werden, setzt [!DNL Analytics] anstelle des standardmäßigen &quot;s_vi&quot;-Cookies eine Erstanbieter-Ausweich-ID (s_fid)](cookies-analytics.md).[
 
-Um sicherzustellen, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, mit der Cookies in einem Erstanbieterkontext gesetzt werden können. Dazu gehören Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von der Adobe gehostete Domäne verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen Erstanbieter-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domänen steuern, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Wenn die Site-Domäne jedoch nicht mit den CNAME-Domänen-Cookies übereinstimmt, wird sie als Drittanbieter festgelegt.
+Um sicherzustellen, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, mit der Cookies in einem Erstanbieterkontext gesetzt werden können. Dazu gehören Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von der Adobe gehostete Domain verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen First-Party-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domänen steuern, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Wenn die Site-Domäne jedoch nicht mit den CNAME-Domänen-Cookies übereinstimmt, wird sie als Drittanbieter festgelegt.
 
 >[!NOTE]
 >
@@ -84,6 +84,8 @@ SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zert
 | **Verwendet dieses Zertifikat SHA-2-Verschlüsselung?** | Ja, Adobe gibt in Zusammenarbeit mit DigiCert ein SHA-2-Zertifikat heraus. |
 | **Verursacht dies Mehrkosten?** | Nein, Adobe stellt diesen Dienst allen aktuellen Adobe Digital Experience-Kunden kostenlos zur Verfügung. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Erstellen von CNAME-Datensätzen
 
 Das Netzwerkteam Ihres Unternehmens sollte Ihre DNS-Server konfigurieren, indem es CNAME-Einträge erstellt. Jeder Hostname leitet Daten an die Datenerfassungsserver von Adobe weiter.
@@ -135,7 +137,7 @@ Antwort: `SUCCESS`
 
 ### Validieren mit [!DNL nslookup]
 
-Sie können `nslookup` zur Überprüfung verwenden. Verwenden Sie `smetrics.adobe.com` als Beispiel, öffnen Sie eine Eingabeaufforderung und geben Sie `nslookup smetrics.adobe.com` ein.
+Sie können `nslookup` zur Überprüfung verwenden. Verwenden Sie `smetrics.adobe.com` als Beispiel, öffnen Sie eine Eingabeaufforderung und geben Sie `nslookup smetrics.adobe.com` ein. 
 
 Wenn alles erfolgreich eingerichtet wurde, wird eine Rückgabe ähnlich der folgenden angezeigt:
 
