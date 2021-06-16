@@ -9,9 +9,9 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1181'
 ht-degree: 69%
 
 ---
@@ -32,6 +32,8 @@ Hinweise und Einschränkungen bei der Verwendung von [!UICONTROL Kundenattribute
 | Benutzerspezifische Analytics-ID (`s.visitorID`) | In Analytics können Besucher identifiziert werden, indem eine Kunden-ID mit `s.visitorID` festgelegt wird. Integrationen, in denen [!DNL Analytics]-Daten mithilfe des ID-Diensts exportiert oder importiert werden, funktionieren jedoch nicht, wenn ein Besucher mit `s.visitorID.`<br>identifiziert wird. Dazu gehören unter anderem freigegebene Zielgruppen, [!DNL Analytics] für Adobe Target (A4T) und [!UICONTROL Kundenattribute].<br>Bei diesen Integrationen wird die Festlegung einer benutzerdefinierten Analytics ID nicht unterstützt. |
 | Zeichenlängenbeschränkungen in [!DNL Analytics] | Beim Erstellen eines Abonnements [!DNL Analytics] werden die Feldlängen für die hochgeladenen Dateien auf 255 gekürzt. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Häufig gestellte Fragen zu Kundenattributen {#section_E47866EEA83348E09FE43CEC5E44C461}
 
 | Frage | Antwort |
@@ -49,3 +51,5 @@ Hinweise und Einschränkungen bei der Verwendung von [!UICONTROL Kundenattribute
 | **(Nur Adobe Target)** Kann ich ein Targeting für die in Kundenattribute hochgeladenen Daten vornehmen, nachdem der Besucher durch die Kunden-ID identifiziert wurde? | Ja. Beim Server-Aufruf an Adobe Target, der die Mbox-Drittanbieter-ID enthält, sind alle Kundenattributdaten verfügbar. |
 | **(Nur Adobe Target)** Was bedeutet die Spalte  **[!UICONTROL Synchronisierungsstatus]** für Dateien, die in die Kundenattributquelle hochgeladen wurden? | Die Anzahl der von Adobe Target veröffentlichten und synchronisierten Datensätze kann durch Klicken auf das Synchronisierungsstatus-Symbol für eine bestimmte Attributdatei angezeigt werden. `Sync %` ist eine Echtzeitmetrik, die den Prozentsatz der Profile angibt, die in Adobe Target synchronisiert wurden.<br> **Hinweis:** Die Synchronisierung von Attributen mit Adobe Target kann bis zu 24 Stunden dauern. |
 | Was stellen die Metriken zum Hochladen von Dateien in der Kundenattributquelle dar? | Mithilfe der folgenden Metriken können Sie den Status von Attributen überprüfen, die in Kundenattribute hochgeladen wurden: <ul><li>Datensätze: Anzahl Datensätze in der Attributdatei.</li><li>**Neue Datensätze:** Anzahl neuer Datensätze, die in der Attributdatei vorhanden sind.</li> <li>**Aktualisierte Datensätze:** Anzahl der Datensätze, die in Kundenattributen vorhanden sind, mit aktualisierten Werten in der Datei.</li><li>**Alle Daten (Datensätze):** Gesamtzahl der erfolgreich in Kundenattributen hochgeladenen Datensätze.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
