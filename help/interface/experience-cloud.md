@@ -8,10 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 30%
+source-wordcount: '914'
+ht-degree: 63%
 
 ---
 
@@ -26,14 +26,14 @@ In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 * Zugreifen auf Ihre Anwendungen und Dienste
 * Suchen Sie nach Produktdokumentation, Tutorials und Community-Posts.
 * Globale Suche nach Geschäftsobjekten mithilfe einer globalen Suche (nur Experience Platform-Benutzer)
-* Kontovoreinstellungen verwalten (Warnungen, Benachrichtigungen und Abonnements)
+* Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
 
-## Bei Experience Cloud anmelden
+## Melden Sie sich bei Experience Cloud an
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
-1. Navigieren Sie zu [Adobe Experience Cloud](https://experience.adobe.com).
-1. Klicken Sie auf **[!UICONTROL Anmelden mit einer Adobe ID]**.
+1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
+1. Klicken Sie auf **[!UICONTROL Mit Adobe ID anmelden]**.
 1. Klicken Sie in Adobe Experience Cloud auf Ihr Unternehmen.
 
    ![](assets/organizations-menu.png)
@@ -50,16 +50,16 @@ Um auf die von Ihnen verwalteten Experience Cloud-Dienste zuzugreifen, klicken S
 
 ## Hilfe und Support {#search}
 
-Einheitliche Hilfe bietet einen produktinternen Speicherort, an dem Sie nach Hilfeinhalten (Dokumentation, Tutorials und Kurse) in [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen und darauf zugreifen können. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
+Einheitliche Hilfe bietet einen produktinternen Speicherort, an dem Sie nach Hilfeinhalten (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen und darauf zugreifen können. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
 ![](assets/search-menu.png)
 
 Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 
-* **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie den   Support mit Twitter.
+* **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie den [!UICONTROL Support] über Twitter.
 * **[!UICONTROL Feedback]:** Teilen Sie Feedback zu Ihrem Experience Cloud-Erlebnis. Ihr Feedback wird verwendet, um die Produkte und Dienstleistungen der Adobe zu verbessern.
-* **[!UICONTROL Status]:** Navigieren Sie zu  `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und  [!UICONTROL Verwalten von Abonnements].
-* **[!UICONTROL Developer Connection]:** Navigation zu  `adobe.io` und Entwicklerdokumentation.
+* **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
+* **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
 
 ## Globale Suche nach Objekten und Entitäten
 
@@ -72,28 +72,30 @@ Die globale Suche ist nur für Experience Platform-Benutzer verfügbar.
 
 ## Kontovoreinstellungen verwalten {#preferences}
 
-Zu den Voreinstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnungen. Im Menü &quot;Kontovoreinstellungen&quot;haben Sie folgende Möglichkeiten:
+Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise. Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 * Festlegen eines dunklen Designs (nicht alle Anwendungen unterstützen dieses Design)
-* Suchen Sie nach [Organisationen](organizations.md) .
+* Suchen nach [Organisationen](organizations.md)
 * Abmelden
-* Kontovoreinstellungen, Benachrichtigungen und Abonnements konfigurieren
+* Einstellungen, Benachrichtigungen und Abonnements für das Konto konfigurieren
 
 Um die Voreinstellungen zu verwalten, klicken Sie im Kontomenü ![](assets/preferences-icon-sm.png)Voreinstellungen ]**auf**[!UICONTROL .
 
 ![](assets/preferences-page.png)
 
-Unter [!UICONTROL Experience Cloud Preferences] können Sie die folgenden Funktionen konfigurieren:
+Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funktionen konfigurieren:
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Standard [organization](organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
-| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-over [!UICONTROL Benachrichtigungen] und in Ihrer E-Mail. |
-| [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die als vorrangig betrachtet werden sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können für Sendungen wie Warnungen konfiguriert werden. |
+| Standard[organisation](organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
+| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-Over [!UICONTROL Benachrichtigungen] und in Ihren E-Mails. |
+| [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
-| E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich.) |
+| E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |
 
-## Benachrichtigungen und Mitteilungen {#notifications}
+{style=&quot;table-layout:auto&quot;}
+
+## Benachrichtigungen und Ankündigungen {#notifications}
 
 Klicken Sie auf **[!UICONTROL Benachrichtigungen]** , um über relevante und ausführbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen, informiert zu werden.
 
@@ -113,7 +115,7 @@ Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -
 * [Häufig gestellte Fragen](admin-getting-started.md)
 * [Organisationen und Kontoverknüpfung](organizations.md)
 * [Integrationen](marketing-cloud-integrations.md)
-* [Integrieren von Adobe Target in Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
+* [Integrieren von Adobe Target in Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
 * [Überblick über den Datenschutz und Sicherheitsmaßnahmen in Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-Vorabruf](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
@@ -121,14 +123,14 @@ Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -
 
 Weitere Experience Cloud-Handbücher:
 
-* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=de)
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
-* [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
 * [Experience Platform Data Collection/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de)
 * [Datenschutz-Grundverordnung-API (DSGVO-API)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=de)
 
 ## Tutorials
 
