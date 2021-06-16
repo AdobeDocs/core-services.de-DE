@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 81%
+source-wordcount: '939'
+ht-degree: 83%
 
 ---
 
@@ -44,6 +44,8 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 | [Creative Cloud-Benutzer verwalten](t-admin-add-cc-user.md) | Mit Experience Cloud Assets können Marketingexperten mithilfe des Creative Cloud Ordner mit Designern und anderen Kreativ-Assets teilen, synchronisieren und mit ihnen zusammenarbeiten. Hier können Sie die Creative Cloud-Benutzer verwalten, die für die Zusammenarbeit mit Ihrem Unternehmen zugelassen sind. |
 | [Report Suites zuordnen](core-services.md) | (Nur Analytics) Die zentralen Experience Cloud-Dienste sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe [Analytics für Hauptdienste aktiviert wird](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [Organisations-ID](organizations.md) | Die *Organisations-ID* befindet sich unten auf der Seite „Administration“. Diese ID ist die mit Ihrem bereitgestellten Experience Cloud-Unternehmen verknüpfte ID. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Bei der Experience Cloud anmelden (Benutzer) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -113,7 +115,7 @@ Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation u
 
 1. Melden Sie sich bei Experience Cloud an.
 
-1. Klicken Sie im Experience Cloud auf Ihr Profilbild.
+1. Klicken Sie in Experience Cloud auf Ihr Profilbild.
 
    ![](assets/edit-profile.png)
 1. Klicken Sie auf **[!UICONTROL Profil bearbeiten]**.
@@ -150,3 +152,5 @@ Beispiel-URL:
 | `tenantId` | Name des Mandanten, bei dem sich der Benutzer anmelden soll. | aem62tenant | Optional |
 | `destURL` | Die vollständige URL zu dem Ort, an den der Benutzer geleitet werden soll. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Optional |
 | `solutionname` | Name der MAC-Lösung, die Inhaber des Parameters `destURL` ist. Dieser Name wird verwendet, um zu bestätigen, dass der Benutzer Zugriff auf die Lösung hat, zu der die URL gehört.  Es liegt in der Verantwortung der Lösungen sicherzustellen, dass `solutionname` mit dem Parameter `destURL` synchronisiert ist.  Beispiel: Wenn die URL `solutionname` als Social enthält und `destURL` eine Analytics-URL ist, wird der Benutzer selbst dann zur URL umgeleitet, wenn er keinen Zugriff auf Analytics hat. MAC überprüft NICHT, ob der Eigentümer von `destURL` mit dem Lösungsnamen synchronisiert ist. | analytics | Erforderlich, wenn der Parameter `destURL` verwendet wird. |
+
+{style=&quot;table-layout:auto&quot;}
