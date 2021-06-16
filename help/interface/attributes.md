@@ -2,23 +2,23 @@
 title: Verwenden von Kundenattributen
 description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten zur Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Experience Cloud
-feature: 'Kundenattribute '
+feature: Kundenattribute
 role: Administrator
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 73%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
-# Kundenattribute  Übersicht
+# Kundenattribute Übersicht
 
 >[!IMPORTANT]
 >
->[!UICONTROL Customer ] Attribution ist ein veralteter Dienst, der jetzt unterstützt wird.
+>[!UICONTROL Kundenattribute ist ein alter Service, der sich jetzt in der Überarbeitung befindet.]
 
 [!UICONTROL Mit Kundenattributen in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. ] Sie können die Daten in eine Kundenattribut-Datenquelle im Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
@@ -62,3 +62,5 @@ Beispiel:
 |--- |--- |
 | Adobe Analytics | Marketing-Experten und Analysten können Folgendes nachvollziehen:<ul><li>Die Online-Kampagnen, die bei Ihren Gold-Kunden am effektivsten sind.</li><li>Die Produkte, nach denen Gold-Kunden suchen, im Vergleich zu Produkten, nach denen Platin-Kunden suchen.</li><li>Ob Ihre Site-Neugestaltung positive Auswirkungen auf die Konversionsraten älterer Kunden hat.</li><li>Die Produkte, die Kunden mit einem niedrigen Lebenszeitwert nutzen, neigen dazu, auf meiner Site zu recherchieren.</li></ul> |
 | Adobe Target | Attributdaten ermöglichen Benutzern von Adobe Target Folgendes:<ul><li>Anzeigen von Sonderrabatten und -angeboten für Treueclub-Mitglieder.</li><li>Senden von Empfehlungen teurerer Produkte an Luxuskunden</li><li>Anzeigen von Up-Sell-Angeboten für Kunden, die bereits E-Mails erhalten, an der Stelle, die normalerweise für E-Mail-Anmeldungen reserviert ist.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
