@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 5e8e5a0f70393460442be247b2d9bf7548a32114
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '4190'
-ht-degree: 88%
+source-wordcount: '4199'
+ht-degree: 89%
 
 ---
 
@@ -29,15 +29,17 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
 | Funktion | Datum | Beschreibung |
 | ------- | ------- | ------- |
 | Single-Sign-On-Unterstützung für Adobe Federated IDs | 17. Juni 2021 | Wenn Sie Federated IDs verwenden, können Sie sich bei Experience Cloud anmelden, ohne eine E-Mail-Adresse oder ein Passwort eingeben zu müssen. Um diese Funktion zu verwenden, fügen Sie `#/sso:@domain` zur Experience Cloud-URL hinzu. <br>Nehmen wir beispielsweise an, Sie sind der Eigentümer der Domäne  `adobecustomer.com` und möchten sich bei Adobe Analytics anmelden. Die URL lautet: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League-Suche | 1. Juni 2021 | Die Experience League-Dokumentationssuche wurde verbessert. Navigieren Sie zu [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) und verwenden Sie das Feld **[!UICONTROL Suchen]** , um Tutorials, Dokumentationen, Kurse und mehr zu finden. |
+| Experience League Search | 1. Juni 2021 | Die Suche in der Dokumentation zu Experience Leaguen wurde verbessert. Navigieren Sie zu [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) und verwenden Sie das Feld **[!UICONTROL Suchen]** , um Tutorials, Dokumentationen, Kurse und mehr zu finden. |
 
-## Mai 2021
+{style=&quot;table-layout:auto&quot;}
+
+## Mai – 2021
 
 | Funktion | Datum | Beschreibung |
 | ------- | ------- | ------- |
-| Experience Cloud – Kopfzeile und Navigation | 20. Mai 2021 | Adobe Experience Cloud-Aktualisierungen beinhalten eine Änderung des hellen Designs für die Kopfzeile, mit der Sie einfach wieder zu dunklem Design wechseln und einen Link zur Steuerung zusätzlicher Voreinstellungen von ihrem Benutzeravatar in der Kopfzeile des Experience Cloud einfügen können. Obwohl nicht alle Experience Cloud-Programme die Design-Optionen unterstützen, wird durch diese Funktion die zukünftige Unterstützung von Designs freigeschaltet. |
-| Experience Cloud – Globale Suche | 20. Mai 2021 | Mit dieser Version können Sie mit der globalen Suche von Experience Cloud nach allen Dokumentationen, Kursen und Tutorials in [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen. (Derzeit steht die globale Suche nur Experience Platform-Benutzern zur Verfügung. Die globale Suche nach [!UICONTROL Platform] ermöglicht es Ihnen, in Experience Cloud nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
-| Experience Cloud – Spracheinstellungen | 20. Mai 2021 | Dieses Update bietet die Möglichkeit, in den [Voreinstellungen](https://experience.adobe.com/preferences) von Experience Cloud die bevorzugte Sprache festzulegen. |
+| Experience Cloud-Kopfzeile und -Navigation | 20. Mai 2021 | Adobe Experience Cloud-Aktualisierungen beinhalten eine Änderung des hellen Designs für die Kopfzeile. Sie können einfach wieder zu einem dunklem Design wechseln und erhalten einen Link zur Steuerung zusätzlicher Voreinstellungen von Ihrem Benutzeravatar in der Kopfzeile von Experience Cloud. Obwohl nicht alle Anwendungen in Experience Cloud das Design unterstützen, wird durch diese Funktion die Unterstützung künftiger Designs freigeschaltet. |
+| Experience Cloud Global Search | 20. Mai 2021 | Mit dieser Version können Sie mit der globalen Experience Cloud-Suche nach allen [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Dokumentationen, -Kursen und -Tutorials suchen. (Derzeit steht die globale Suche nur Benutzern von Experience Platform zur Verfügung. Die globale Suchfunktion für die [!UICONTROL Plattform] ermöglicht es Ihnen, in Experience Cloud nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
+| Experience Cloud-Spracheinstellungen | 20. Mai 2021 | Dieses Update bietet die Möglichkeit, Ihre bevorzugten Sprachen in den Experience Cloud-[Voreinstellungen](https://experience.adobe.com/preferences) festzulegen. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -46,6 +48,8 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
 | Funktion | Beschreibung |
 | -----------| ---------- |
 | Admin-Tool – Richtlinien | Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtlinien in Ihrem Unternehmen. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](admin-tool-experience-cloud.md). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## April 2020
 
@@ -57,6 +61,8 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
 | Funktion | Beschreibung |
 | -----------| ---------- |
 | Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](admin-tool-experience-cloud.md). |
+
+{style=&quot;table-layout:auto&quot;}
 
 **Fehlerbehebungen**
 
@@ -183,7 +189,7 @@ Wenn Sie über **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** 
 
 * Es wurde ein Fehler behoben, der verhinderte, dass auf der Seite „Schema anzeigen/bearbeiten“ (in Kundenattributen) angegebene Attributbeschreibungen in Analytics-Berichten aktualisiert wurden. (MAC-25985)
 * Es wurde ein Fehler behoben, der verhinderte, dass die Miniaturansichten für hochgeladene Assets gerendert wurden. (MAC-25863)
-* Es wurde ein Problem behoben, bei dem neue Segmente, die in Reports &amp; Analysen erstellt wurden, nicht in Experience Cloud-Zielgruppen verfügbar waren. (MAC-25817)
+* Es wurde ein Problem behoben, bei dem neue Segmente, die in Reports &amp; Analytics erstellt wurden, nicht in Experience Cloud-Zielgruppen verfügbar waren. (MAC-25817)
 * Es wurde ein Fehler behoben, der bei Verwendung des Besucher-ID-Dienstes die Freigabe von Zielgruppen in Analytics verhinderte. (MAC-25788, MAC-25747)
 * Die Unterstützung für Multibyte-Zeichen in Kundenattributen wurde hinzugefügt. (MAC-25552)
 
@@ -218,7 +224,7 @@ Keine Informationen verfügbar.
 </table>
 
 * Ein Problem wurde behoben, infolge dessen die Kundenattribute einiger Kunden nicht synchronisiert werden konnten.
-* Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) nicht auf Japanisch angezeigt wurde.
+* Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) nicht auf Japanisch angezeigt wurde.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
 ## Version 15.4.1 – 8. April 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
