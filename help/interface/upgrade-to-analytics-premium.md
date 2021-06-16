@@ -9,10 +9,10 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 70%
+source-wordcount: '625'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ Durch die Aktualisierung auf Adobe Analytics Premium erhalten Sie alle verfügba
 Analytics Premium bietet Ihnen:
 
 * Zugriff auf 250 Konversionsvariablen (eVars)
-* [Mobile App Analytics](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Mobile App Analytics](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=de)
 * Data Workbench (visuelle Datenabfrage, regelbasierte Zuordnung, kanalübergreifende Analyse)
 
 >[!NOTE]
@@ -48,6 +48,8 @@ In Analytics Premium Complete erhalten Sie alle Funktionen von [Analytics Premiu
 | Data Workbench | <ul><li>Algorithmische Zuordnung</li><li>Vordefinierte Arbeitsbereiche</li></ul> |
 | Analytics Platform | [Live-Stream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md) (Rohdaten, Dashboards, Auslöser) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
 Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
@@ -58,6 +60,8 @@ Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](u
 | Data Workbench | Vorgefertigte Arbeitsbereiche für die Qualifizierung von Zielgruppen und das prädiktive Marketing |
 | Analytics Platform | Live-Stream (Dashboards und Auslöser) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Customer 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
 Ein Upgrade auf Customer 360 beinhaltet [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
@@ -67,6 +71,8 @@ Ein Upgrade auf Customer 360 beinhaltet [Analytics Premium](upgrade-to-analytics
 | [Kundenattribute](attributes.md) | Kundenattribute (Analyse und Segmentfreigabe) |
 | Data Workbench | <ul><li>Abgeleitete Kundenattribute</li><li>Vordefinierte Arbeitsbereiche für die Erkennung von Zielgruppen</li></ul> |
 | Analytics Platform | [Kundenattribute](attributes.md) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Advanced Attribution {#section_9E4986A8389946CCAA7D003268343296}
 
