@@ -1,18 +1,18 @@
 ---
 description: Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Lösungen für lösungsübergreifende Services. Erfahren Sie, wie Sie Experience Cloud-Services nutzen können.
-keywords: Zentrale Services; Kundenattribute
+keywords: Zentrale Services;Kundenattribute
 solution: Experience Cloud
 title: Lösungen für lösungsübergreifende Services aktivieren
 index: true
-feature: 'Kundenattribute '
+feature: Kundenattribute
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '2334'
-ht-degree: 71%
+source-wordcount: '2272'
+ht-degree: 72%
 
 ---
 
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [Experience Cloud – Benutzer und Prod
 Für die Anmeldung bei der Experience Cloud müssen Ihre Benutzer:
 
 * Eine Adobe ID (oder Enterprise ID für Ihr Unternehmen) haben.
-* Melden Sie sich bei [experience.adobe.com](https://experience.adobe.com) an.
+* Sich bei [experience.adobe.com](https://experience.adobe.com) anmelden.
 * Zu einer Lösungsgruppe gehören, die einer Unternehmensgruppe zugeordnet ist.
 * Verknüpfen Sie ggf. die Lösungskonten mit ihrer Adobe ID (Beschreibung unten).
 
@@ -135,17 +135,15 @@ Experience Cloud-Dienste (z. B. der Experience Cloud ID-Dienst und [!UICONTRO
 
 ## Den Analytics-AppMeasurement-Code aktualisieren {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Wenn Sie Analytics verwenden, stellen Sie sicher, dass Sie die regionale Datenerfassung (Regional Data Collection, RDC) verwenden. Wenn Ihre Datenerfassungsdomäne [!DNL omtrdc.net] lautet, oder wenn Ihr CNAME [!DNL omtrdc.net] zugeordnet ist, befinden Sie sich auf RDC. Weitere Informationen finden Sie unter [Übergang zu RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en). Wenn Sie Erstanbieter-Cookies verwenden, finden Sie unter [CNAME und Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) Informationen zu CNAMES für die Datenerfassung und zur domänenübergreifenden Verfolgung.
+Wenn Sie Analytics verwenden, stellen Sie sicher, dass Sie die regionale Datenerfassung (Regional Data Collection, RDC) verwenden. Wenn Ihre Datenerfassungsdomäne `omtrdc.net` lautet, oder wenn Ihr CNAME `omtrdc.net` zugeordnet ist, befinden Sie sich auf RDC. Weitere Informationen finden Sie unter [Übergang zu RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en). Wenn Sie Erstanbieter-Cookies verwenden, finden Sie unter [CNAME und Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) Informationen zu CNAMES für die Datenerfassung und zur domänenübergreifenden Verfolgung.
 
-Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktualisierung Ihrer JavaScript-Bibliotheken einschließlich der Besucher-API. Die einfache Möglichkeit, +632581 zu erreichen, besteht darin, ein [!DNL Adobe Analytics]-Tool im Dynamic Tag Management hinzuzufügen und *`Automatic`* als Konfigurationsmethode anzugeben.
-
-Klicken Sie unter [!UICONTROL Dynamic Tag Management] auf **`<Web Property Name>`** > **[!UICONTROL Übersicht]** > **[!UICONTROL Tool hinzufügen]** > **[!UICONTROL Adobe Analytics]**. Informationen zur Implementierung finden Sie unter [Adobe Analytics-Einstellungen](https://experienceleague.adobe.com/docs/dtm/using/tools/analytics-dtm.html?lang=en) im Dynamic Tag Management.
+Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktualisierung Ihrer JavaScript-Bibliotheken einschließlich der Besucher-API. Die einfache Möglichkeit, dies zu erreichen, besteht darin, eine [Adobe Analytics-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=de) in der Experience Platform Data Collection (Launch) hinzuzufügen.
 
 ## Die Implementierung der Adobe Target aktualisieren {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Es wird empfohlen, eine [Adobe Target-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=de) in [!UICONTROL Experience Platform Launch] hinzuzufügen, damit der Bibliotheksabruf automatisch erfolgt. Sie können auch die [Experience Cloud ID-Diensterweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) für Adobe Target (und andere Lösungen) mithilfe von [!UICONTROL Experience Platform Launch] einrichten. Die Aktualisierung des [!UICONTROL Experience Cloud ID-Dienstes] **ist erforderlich**, damit Adobe Target die zentralen Dienste verwenden kann. (Wenn Sie das [!UICONTROL Dynamic Tag Management] verwenden, fügen Sie ein [Adobe Target-Tool](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en) hinzu. Sie können auch das [!UICONTROL Dynamic Tag Management] verwenden, um den Experience Cloud ID-Dienst für Adobe Target bereitzustellen.)
-* Wenn Sie [!UICONTROL Experience Platform Launch] oder das [!UICONTROL Dynamic Tag Management] nicht verwenden, [aktualisieren Sie Ihre mbox-Bibliothek](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manuell.
-* Fordern Sie Zugriff auf Adobe Analytics als Berichtsquelle für [!DNL Adobe Target] an. [!DNL Target]- und [!DNL Analytics]-Daten werden bei der Verarbeitung bei demselben Server-Aufruf zusammengeführt, damit Besucher lösungsübergreifend verknüpft werden. Siehe [Analytics für die Target-Implementierung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
+* Es wird empfohlen, eine [Adobe Target-Erweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=de) in [!UICONTROL Experience Platform Launch] hinzuzufügen, damit der Bibliotheksabruf automatisch erfolgt. Sie können auch die [Experience Cloud ID-Diensterweiterung](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) für Adobe Target (und andere Lösungen) mithilfe von [!UICONTROL Experience Platform Launch] einrichten. Die Aktualisierung des [!UICONTROL Experience Cloud ID-Dienstes] **ist erforderlich**, damit Adobe Target die zentralen Dienste verwenden kann.
+* Wenn Sie [!UICONTROL Experience Platform Launch] nicht verwenden, aktualisieren Sie [Ihre Mbox-Bibliothek](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manuell.
+* Fordern Sie Zugriff auf Adobe Analytics als Berichtsquelle für [!DNL Adobe Target] an. [!DNL Target]- und [!DNL Analytics]-Daten werden bei der Verarbeitung bei demselben Server-Aufruf zusammengeführt, damit Besucher lösungsübergreifend verknüpft werden. Siehe [Analytics für die Target-Implementierung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de).
 
    >[!IMPORTANT]
    >
