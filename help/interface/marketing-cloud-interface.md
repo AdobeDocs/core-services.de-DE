@@ -6,10 +6,10 @@ seo-title: Neue Funktionen in der Experience Cloud
 solution: Experience Cloud
 title: 'Neue Funktionen in der Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 89%
+source-wordcount: '651'
+ht-degree: 91%
 
 ---
 
@@ -53,6 +53,8 @@ Für die Benutzeroberfläche der [!DNL Adobe Experience Cloud] gibt es folgende 
 |--- |--- |
 | Neue Landingpage für die Administration | Wenn Sie sich bei der Experience Cloud anmelden und zur Seite „Administration“ navigieren, steht eine neue intuitive Benutzeroberfläche zur Verfügung, über die Sie schnell auf Ihre Experience Cloud-Lösungen und zentralen Dienste zugreifen können. |
 
+{style=&quot;table-layout:auto&quot;}
+
 **Fehlerbehebungen**
 
 * Es wurde ein Problem behoben, bei dem das Hochladen von Bildern aufgrund eines Scene7-Updates fehlgeschlagen ist. (CORE-12746)
@@ -70,7 +72,9 @@ Viele der Wartungsbenachrichtigungen rund um geplante Wartungs-/Produktaktualisi
 |--- |--- |
 | Benachrichtigungen – Granulare Einstellungen | Sie können Benachrichtigungen für Produkt- und Lösungsereignisse/-aktivitäten aktivieren, einschließlich Benachrichtigungen über die Upload-Aktivität der [Kundenattribute](attributes.md). |
 | Benachrichtigungen – Wartungsbenachrichtigungen | In den Benachrichtigungseinstellungen können Sie Wartungsbenachrichtigungen für Produkte und Lösungen aktivieren. |
-| Admin Console für Experience Cloud-Lösungen | Neue Experience Cloud-Kunden können mit der Admin Console beginnen, einem zentralen Speicherort für die Verwaltung Ihrer Adobe-Berechtigungen in Ihrer gesamten Organisation.<br>Die Migration der Benutzerverwaltung in die Admin Console wird in mehreren Wellen durchgeführt. Adobe kontaktiert Sie (Systemadministratoren), wenn es Zeit ist zu migrieren.<br>Analytics-Administratoren, siehe [Analytics-Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en). |
+| Admin Console für Experience Cloud-Lösungen | Neue Experience Cloud-Kunden können mit der Admin Console beginnen, einem zentralen Speicherort für die Verwaltung Ihrer Adobe-Berechtigungen in Ihrer gesamten Organisation.<br>Die Migration der Benutzerverwaltung in die Admin Console wird in mehreren Wellen durchgeführt. Adobe kontaktiert Sie (Systemadministratoren), wenn es Zeit ist zu migrieren.<br>Analytics-Administratoren, siehe [Analytics-Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=de). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 22. Mai 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
@@ -79,11 +83,15 @@ Viele der Wartungsbenachrichtigungen rund um geplante Wartungs-/Produktaktualisi
 | Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  <br>[Wenn Sie Report Suites](core-services.md) einer einzelnen Organisation zuordnen, hilft Ihnen das beim Aktivieren lösungsübergreifender Funktionen und Dienste in der Experience Cloud. |
 | Aktualisierungen für Experience Cloud-Zielgruppen | **Report Suites anwenden**<br> Sie können eine Report Suite nun auf alle Ihre [Zielgruppen-Regeln](t-audience-create.md) anwenden. (Zuvor war es nur möglich, in jeder einzelnen Regeldefinition eine Report Suite festzulegen.) <br>**Eigenschaften und Variablen**<br> Sie können nun Analytics-Eigenschaften und Standardvariablen (zusätzlich zu eVars und Ereignissen) in Echtzeit-Zielgruppen einbeziehen. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 8. November 2016 - 16.11.1. {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | Funktion | Beschreibung |
 |--- |--- |
 | Aktualisierung für Profil und Kennwörter | Benutzer können unter Persönliche Informationen in Profil bearbeiten > Profil und Kennwort IMS-Benutzerprofilinformationen nicht mehr bearbeiten. Stattdessen werden Benutzer zu `accounts.adobe.com` umgeleitet. Diese Aktualisierung gilt für alle Identitätstypen (Adobe ID, Enterprise und Federated). |
+
+{style=&quot;table-layout:auto&quot;}
 
 **Fehlerbehebungen**
 
