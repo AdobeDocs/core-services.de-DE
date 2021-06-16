@@ -9,9 +9,9 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '769'
 ht-degree: 84%
 
 ---
@@ -43,6 +43,8 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Nur CNAME-Kunden. Gilt nicht für Drittanbieter-Szenarien. Cookie wird in Ihrer Domäne gespeichert; dieselbe Domäne wie die von CNAME und Ihrer Analytics-Bildanforderung verwendete. |
 | Größe | 45 Byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie-Name: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
 | Attribut | Beschreibung |
@@ -52,6 +54,8 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Nutzung | Nur ein Cookie für alle Konten |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
 | Größe | 4 Byte |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Cookie-Name: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -63,6 +67,8 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
 | Größe | Variiert je nach URL-Größe der Seite, normalerweise 100-200 Byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie-Name: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | Attribut | Beschreibung |
@@ -72,6 +78,8 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. |
 | Position | Dieses Cookie wird in der Domäne der Bildanforderung gespeichert. Dabei handelt es sich normalerweise um eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domäne Erstanbieter-Cookies verwendet. |
 | Größe | 44 Byte |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
@@ -87,6 +95,8 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domäne gespeichert. |
 | Größe | 33 Byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie-Flags
 
 In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
@@ -98,6 +108,8 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 | s_fid (Javascript) | Nein | Nein | Löschen |
 | s_cc (Javascript) | Nein | Nein | Löschen |
 | s_sq (Javascript) | Nein | Nein | Löschen |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
