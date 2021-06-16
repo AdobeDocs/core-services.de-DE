@@ -7,7 +7,7 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 68%
@@ -63,7 +63,7 @@ Dieser Abschnitt enthält Tipps zur Auswahl der Experience Cloud-Organisation, d
 
 ### Welche Organisation sollte ich wählen?
 
-Wenn der Experience Cloud-ID-Dienst in der Report Suite bereitgestellt wird, stellen Sie sicher, dass Sie im Zuordnungs-Tool für Report Suites dieselbe Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Abschnitt zum [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) beschriebenen Anweisungen verwenden, um die Organisations-ID zu ermitteln, die vom Besucher-ID-Dienst genutzt wird.
+Wenn der Experience Cloud-ID-Dienst in der Report Suite bereitgestellt wird, stellen Sie sicher, dass Sie im Zuordnungs-Tool für Report Suites dieselbe Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Abschnitt zum [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) beschriebenen Anweisungen verwenden, um die Organisations-ID zu ermitteln, die vom Besucher-ID-Dienst genutzt wird.
 
 Stellen Sie sicher, dass Ihre Bereitstellung mit der im Zuordnungs-Tool für Report Suites ausgewählten Organisation übereinstimmt.
 
