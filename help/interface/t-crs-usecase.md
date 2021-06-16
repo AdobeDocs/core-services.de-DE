@@ -4,15 +4,15 @@ keywords: Kundenattribute;zentrale Services
 solution: Experience Cloud
 title: 'Erstellen einer Kundenattributquelle und Hochladen der Datendatei '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: 'Kundenattribute '
+feature: Kundenattribute
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 76%
+source-wordcount: '1152'
+ht-degree: 75%
 
 ---
 
@@ -27,7 +27,7 @@ Erstellen Sie die Kundenattributquelle (CSV- und FIN-Dateien) und laden Sie die 
 1. [Erstellen Sie eine Datendatei](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Prüfen des Schemas](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [Konfigurieren von Abonnements und aktivieren Sie die Attributquelle](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
@@ -82,11 +82,11 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Quelle des Datenattributs.
 
-   * **[!UICONTROL Alias-ID:]** Stellt eine Quelle von Kundenattributdaten dar, z. B. ein bestimmtes CRM-System. Eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der in der Experience Cloud-Benutzeroberfläche für eine Kundenattributquelle im Feld Alias-ID eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über das dynamische Tag-Management oder JavaScript des Mobile SDK).
+   * **[!UICONTROL Alias-ID:]** Stellt eine Quelle von Kundenattributdaten dar, z. B. ein bestimmtes CRM-System. [!UICONTROL Alias-] ID ist eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der im Feld [!UICONTROL Alias-ID] für eine Kundenattributquelle in Experience Cloud eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über Datenerfassung (Launch), Dynamic Tag Management oder JavaScript des Mobile SDK.)
 
       Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
-      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en).
+      * **Dynamisches Tag-Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=de).
 
       * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en), die Sie den einzelnen Besuchern zuordnen können.
 
