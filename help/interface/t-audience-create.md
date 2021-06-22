@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 94%
+source-wordcount: '480'
+ht-degree: 95%
 
 ---
 
@@ -42,6 +42,8 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 * Chrome- und Safari-Benutzer, die einem [!DNL Adobe Analytics]-Segment entnommen wurden, das in der [!DNL Experience Cloud] [veröffentlicht](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) wurde.
 
    ![](assets/audience_create.png)
+
+**Erstellen einer Zielgruppe**
 
 1. Klicken Sie in der [!DNL Experience Cloud] unter [!DNL Experience Platform] auf **[!UICONTROL Personen]** > **[!UICONTROL Zielgruppenbibliothek].**
 1. Klicken Sie auf der Seite „[!UICONTROL Zielgruppen]“ auf **[!UICONTROL Neu]**. ![](assets/add_icon_small.png)
