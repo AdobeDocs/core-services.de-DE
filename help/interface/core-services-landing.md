@@ -7,7 +7,7 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 6a9a3068d2831be28f4cbe859d93eb1ad580897f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 56%
@@ -18,7 +18,7 @@ ht-degree: 56%
 
 Diese Dokumentation bezieht sich auf Funktionen des einheitlichen Experience Cloud-Headers, wie z. B. den Dienst [!UICONTROL Personen] (Zielgruppen und Kundenattribute), die Benutzer- und Produktverwaltung für Experience Cloud, Cookies, Kontovoreinstellungen, Benachrichtigungen usw.
 
-Um auf diese Dienste in Experience Cloud zuzugreifen, klicken Sie auf **[!UICONTROL Anwendungsauswahl]**
+Um auf diese Dienste in Experience Cloud zuzugreifen, wählen Sie **[!UICONTROL Anwendungsauswahl]** aus.
 ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
