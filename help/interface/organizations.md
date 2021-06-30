@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Möglicherweise müssen Sie auch Ihre Organisations-ID zu Supportzwecken suchen.
 
 Die **Organisations-ID** ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich).
 
-Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Landingpage oder klicken Sie auf (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**. Sie finden die Organisations-ID am unteren Rand der Seite [!UICONTROL Erste Schritte mit der Experience Cloud] oder auf der Seite [!UICONTROL Administration].
+Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Landingpage des Experience Cloud oder wählen Sie ( ![](assets/menu-icon.png)) und dann **[!UICONTROL Administration]** aus. Sie finden die Organisations-ID am unteren Rand der Seite [!UICONTROL Erste Schritte mit der Experience Cloud] oder auf der Seite [!UICONTROL Administration].
 
 ![](assets/administration-page.png)
 
@@ -42,23 +42,23 @@ In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Lösungen un
 
 1. Befolgen Sie die Anweisungen in Ihrer E-Mail-Einladung zur Experience Cloud.
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
-1. Klicken Sie auf die Lösungsauswahl. (![](assets/menu-icon.png)).
+1. Wählen Sie die Lösungsauswahl aus. ( ![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
    Die Lösungen, auf die Sie Zugriff haben, sind farbig dargestellt.
-1. Klicken Sie auf die gewünschte Option.
+1. Wählen Sie die gewünschte Lösung aus.
 
    ![](assets/analytics-link-accounts.png)
 
    Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf die Lösung verfügen), Ihre Kontodaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
-1. Klicken Sie auf **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
+1. Wählen Sie **[!UICONTROL Konto verknüpfen]** aus und geben Sie Ihre Anmeldedaten ein.
 
 ## Standardorganisation und -Landingpage festlegen {#concept_6A191B42A9874A9780882903BA18F071}
 
 Sie können bei der Anmeldung eine Standardorganisation und eine Landingpage angeben.
 
-Klicken Sie in Ihrem Profil auf **[!UICONTROL Profil bearbeiten]**.
+Wählen Sie in Ihrem Profil **[!UICONTROL Profil bearbeiten]** aus.
 
 ![](assets/edit-profile.png)
 
