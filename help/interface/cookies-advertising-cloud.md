@@ -7,14 +7,14 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 96%
+ht-degree: 84%
 
 ---
 
-# Advertising Cloud-Cookies {#advertising-cloud-cookies}
+# Advertising Cloud-Cookies{#advertising-cloud-cookies}
 
 Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigengebote zu verwenden.
 
@@ -30,7 +30,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>IDs und Zeitstempel (im Format JJJJMMTT) von Anzeigenklicks</p> </td> 
+   <td colname="col2"> <p>IDs und Zeitstempel (im Format JJJMMTT) der Anzeigeauswahl</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -38,7 +38,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Cookie, mit dem festgestellt wird, ob ein Klick-Ereignis auf einer Display-Anzeige als Adobe Analytics-Treffer gewertet werden soll </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Cookie, mit dem bestimmt wird, ob ein Auswahlereignis in einer Display-Anzeige für einen Adobe Analytics-Treffer gilt </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -96,7 +96,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Die Zeitstempel des letzten Besuchs auf der Website des Werbetreibenden und der letzte Suchklick des Surfers sowie die ef_id, die erstellt wurde, als der Benutzer auf eine Anzeige geklickt hat</p> </td> 
+   <td colname="col2"> <p>Die Zeitstempel des letzten Besuchs des Surfers auf der Website des Werbetreibenden und die letzte Suchauswahl des Surfers sowie die ef_id, die beim Auswählen einer Anzeige erstellt wurde</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
