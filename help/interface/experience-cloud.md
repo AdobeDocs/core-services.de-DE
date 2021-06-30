@@ -8,10 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 63%
+source-wordcount: '915'
+ht-degree: 62%
 
 ---
 
@@ -33,8 +33,8 @@ In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
-1. Klicken Sie auf **[!UICONTROL Mit Adobe ID anmelden]**.
-1. Klicken Sie in Adobe Experience Cloud auf Ihr Unternehmen.
+1. Wählen Sie **[!UICONTROL Anmelden mit einer Adobe ID]** aus.
+1. Wählen Sie in Adobe Experience Cloud Ihr Unternehmen aus.
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Dienste und Organisationen zugreifen.
 
-Um auf die von Ihnen verwalteten Experience Cloud-Dienste zuzugreifen, klicken Sie auf den Anwendungsselektor ![](assets/menu-icon.png).
+Um auf Ihre eigenen Experience Cloud-Dienste zuzugreifen, navigieren Sie zum Anwendungsselektor ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnement
 * Abmelden
 * Einstellungen, Benachrichtigungen und Abonnements für das Konto konfigurieren
 
-Um die Voreinstellungen zu verwalten, klicken Sie im Kontomenü ![](assets/preferences-icon-sm.png)Voreinstellungen ]**auf**[!UICONTROL .
+Um die Voreinstellungen zu verwalten, wählen Sie **[!UICONTROL Voreinstellungen]** aus dem Kontomenü ![](assets/preferences-icon-sm.png) aus.
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 
 ## Benachrichtigungen und Ankündigungen {#notifications}
 
-Klicken Sie auf **[!UICONTROL Benachrichtigungen]** , um über relevante und ausführbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen, informiert zu werden.
+Wählen Sie **[!UICONTROL Benachrichtigungen]** aus, um über relevante und umsetzbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen, benachrichtigt zu werden.
 
 ![](assets/notifications-menu-small.png)
 
@@ -142,8 +142,8 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 
 ## Versionshinweise und zugehörige Experience Cloud-Hilfe
 
-* [Versionshinweise und Produkt-Updates](https://experienceleague.adobe.com/docs/home.html?lang=en) – Neue Funktionen in Experience Cloud und Abonnieren von Updates
-* [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
+* [Versionshinweise und Produkt-Updates](https://experienceleague.adobe.com/docs/home.html?lang=de) – Neue Funktionen in Experience Cloud und Abonnieren von Updates
+* [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
 * [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://experienceleague.adobe.com/?lang=de) – Lernen Sie von Experten und der Community
 * [Allgemeine und berufliche Bildung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)  - Engagieren Sie mit Adobe, um sicherzustellen, dass Sie die Produkte der Adobe optimal nutzen
