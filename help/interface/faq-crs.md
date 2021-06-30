@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 69%
+ht-degree: 67%
 
 ---
 
@@ -49,7 +49,7 @@ Hinweise und Einschränkungen bei der Verwendung von [!UICONTROL Kundenattribute
 | **(Nur Adobe Target)**[!UICONTROL  Wie lässt sich die Funktionalität der Kundenattribute mit der Bulk-Profil-API von Adobe Target vergleichen?] | Mit der Bulk-Profil-API können Adobe Target-Profile direkt über die API aktualisiert werden – entweder für ein einzelnes Profil oder in Profilgruppen. Die Funktion ähnelt den Kundenattributen, wobei folgende wesentliche Unterschiede gelten:<ul><li>Die Profil-API ist ein REST-API-Aufruf und Kundenattribute verwenden FTP.</li><li>Die Profil-API von Adobe Target sendet nur Daten an Adobe Target und nicht an die gesamte Experience Cloud.</li><li>Kundenattribute bieten eine einfache Oberfläche zum Erstellen und Verwalten dieser externen Daten.</li></ul> |
 | **(Nur Adobe Target)** Verlängert das Hochladen von Daten aus Kundenattributen in Adobe Target die Lebensdauer des Adobe Target-Besucherprofils? | Ja. Weitere Informationen finden Sie unter [Lebensdauer von Besucherprofilen](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=en) in der Hilfe zu Adobe Target. |
 | **(Nur Adobe Target)** Kann ich ein Targeting für die in Kundenattribute hochgeladenen Daten vornehmen, nachdem der Besucher durch die Kunden-ID identifiziert wurde? | Ja. Beim Server-Aufruf an Adobe Target, der die Mbox-Drittanbieter-ID enthält, sind alle Kundenattributdaten verfügbar. |
-| **(Nur Adobe Target)** Was bedeutet die Spalte  **[!UICONTROL Synchronisierungsstatus]** für Dateien, die in die Kundenattributquelle hochgeladen wurden? | Die Anzahl der von Adobe Target veröffentlichten und synchronisierten Datensätze kann durch Klicken auf das Synchronisierungsstatus-Symbol für eine bestimmte Attributdatei angezeigt werden. `Sync %` ist eine Echtzeitmetrik, die den Prozentsatz der Profile angibt, die in Adobe Target synchronisiert wurden.<br> **Hinweis:** Die Synchronisierung von Attributen mit Adobe Target kann bis zu 24 Stunden dauern. |
+| **(Nur Adobe Target)** Was bedeutet die Spalte  **[!UICONTROL Synchronisierungsstatus]** für Dateien, die in die Kundenattributquelle hochgeladen wurden? | Die Anzahl der von Adobe Target veröffentlichten und synchronisierten Datensätze kann durch Auswahl des Symbols Synchronisierungsstatus für eine bestimmte Attributdatei angezeigt werden. `Sync %` ist eine Echtzeitmetrik, die den Prozentsatz der Profile angibt, die in Adobe Target synchronisiert wurden.<br> **Hinweis:** Die Synchronisierung von Attributen mit Adobe Target kann bis zu 24 Stunden dauern. |
 | Was stellen die Metriken zum Hochladen von Dateien in der Kundenattributquelle dar? | Mithilfe der folgenden Metriken können Sie den Status von Attributen überprüfen, die in Kundenattribute hochgeladen wurden: <ul><li>Datensätze: Anzahl Datensätze in der Attributdatei.</li><li>**Neue Datensätze:** Anzahl neuer Datensätze, die in der Attributdatei vorhanden sind.</li> <li>**Aktualisierte Datensätze:** Anzahl der Datensätze, die in Kundenattributen vorhanden sind, mit aktualisierten Werten in der Datei.</li><li>**Alle Daten (Datensätze):** Gesamtzahl der erfolgreich in Kundenattributen hochgeladenen Datensätze.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
