@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 75%
+ht-degree: 73%
 
 ---
 
@@ -67,13 +67,13 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 >
 >Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es bis zu eine Stunde, bis IDs mit der neuen Datenquelle synchronisiert werden. Sie müssen über Administratorrechte in Audience Manager verfügen, um Kundenattributquellen zu erstellen oder zu ändern. Wenden Sie sich an die Audience Manager-Kundenunterstützung oder -Beratung, um Administratorrechte zu erhalten.
 
-1. Klicken Sie in [!DNL Experience Cloud] im Menü auf das ![](assets/menu-icon.png)-Symbol.
-1. Klicken Sie unter **[!DNL Experience Platform]** auf **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**.
+1. Wählen Sie unter [!DNL Experience Cloud] das Symbol Menü ![](assets/menu-icon.png) aus.
+1. Wählen Sie unter **[!DNL Experience Platform]** **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]** aus.
 
    Auf der Seite [!UICONTROL Kundenattribute] können Sie vorhandene Datenattributquellen verwalten und bearbeiten.
 
    ![Schritt Ergebnis](assets/03_crs_usecase.png)
-1. Klicken Sie auf **[!UICONTROL Neu]**.
+1. Wählen Sie **[!UICONTROL Neu]** aus.
 
    ![Schritt Ergebnis](assets/04_crs_usecase.png)
 1. Konfigurieren Sie auf der Seite [!UICONTROL Kunden-Attributquelle bearbeiten] die folgenden Felder:
@@ -153,9 +153,9 @@ Siehe [Konfigurieren von Abonnements](subscription.md#concept_ECA3C44FA6D540C89C
 
 **So aktivieren Sie eine Attributquelle**
 
-Suchen Sie auf der Seite [!UICONTROL Neue Kunden-Attributquelle erstellen [oder] Kunden-Attributquelle bearbeiten] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
+Suchen Sie auf der Seite [!UICONTROL Neue [oder Bearbeiten] Kundenattributquelle] die Überschrift [!UICONTROL Aktivieren] und wählen Sie dann **[!UICONTROL Aktiv]** aus.
 
-![Schritt Ergebnis](assets/activate_attribute_source.png)
+![Schrittergebnis](assets/activate_attribute_source.png)
 
 ## Kundenattribute in Adobe Analytics verwenden {#task_7EB0680540CE4B65911B2C779210915D}
 
