@@ -8,10 +8,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 100%
+source-wordcount: '1275'
+ht-degree: 95%
 
 ---
 
@@ -40,10 +40,10 @@ Sie können ein Produktprofil erstellen und es einer Berechtigungsgruppe zuweise
 
 Wenn Sie einen Benutzer in eine Organisation einladen, können Sie dem Benutzer Zugriff auf Produkte und Produktprofile gewähren. Sie können auch eingeschränkte Administratorberechtigungen an einen Benutzer delegieren. Gleichermaßen können Sie Benutzergruppen erstellen und die Gruppe dann einem Produktprofil hinzufügen, um den Zugriff zu aktivieren.
 
-1. Klicken Sie in der [Admin Console](https://adminconsole.adobe.com/enterprise/) auf **[!UICONTROL Produkte]**.
-1. Klicken Sie auf den Namen Ihres Unternehmens.
-1. Klicken Sie auf **[!UICONTROL Neues Profil]**.
-1. Konfigurieren Sie die Profildetails und klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Wählen Sie in der Admin Console [a1/> **[!UICONTROL Products]** aus.](https://adminconsole.adobe.com/enterprise/)
+1. Wählen Sie den Namen Ihrer Organisation aus.
+1. Wählen Sie **[!UICONTROL Neues Profil]** aus.
+1. Konfigurieren Sie die Profildetails und wählen Sie **[!UICONTROL Speichern]** aus.
 
 Weitere Informationen (und Hilfe zur Produktverwaltung für Creative Cloud und Document Cloud) finden Sie unter [Identität](https://helpx.adobe.com/de/enterprise/admin-guide.html/de/enterprise/using/identity.ug.html) im [Administrations-Benutzerhandbuch](https://helpx.adobe.com/de/enterprise/admin-guide.html/de/enterprise/using/users.ug.html).
 
@@ -82,16 +82,16 @@ Sie können zum Beispiel:
 
 Mithilfe dieser Rollen können Sie die Verwaltung gleichzeitig an andere delegieren, ohne mehr Funktionen bereitzustellen, als benötigt werden.
 
-1. Klicken Sie in der Admin Console auf **[!UICONTROL Benutzer]** und anschließend auf den entsprechenden Benutzernamen.
+1. Wählen Sie in der Admin Console **[!UICONTROL Benutzer]** und dann den Benutzernamen aus.
 
    ![](assets/edit-admin-rights.png)
 
-1. Klicken Sie auf **[!UICONTROL Administratorrechte bearbeiten]**.
+1. Wählen Sie **[!UICONTROL Administratorrechte bearbeiten]** aus.
 
    ![](assets/edit-admin-rights-page.png)
 
 1. Legen Sie die Administratorrechte des Benutzers fest.
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
 ## Analytics-Benutzer und -Produkte verwalten {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ Sie können Zugriffsberechtigungen für Analytics-Berichte (Report Suites, Metri
 
 Sie können beispielsweise ein Produktprofil erstellen, das mehrere Analytics-Tools enthält ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] und [!UICONTROL Report Builder]). Diese Profile enthalten Berechtigungen für bestimmte Metriken und Dimensionen (einschließlich eVars) sowie Funktionen wie Segmente oder die Erstellung berechneter Metriken.
 
-1. Melden Sie sich bei [Admin Console](https://adminconsole.adobe.com/enterprise) an und klicken Sie dann auf **[!UICONTROL Produkte]**.
-1. Klicken Sie auf der Seite [!UICONTROL Produkte] auf Ihr Produkt, klicken Sie dann auf **[!UICONTROL Berechtigungen]** (nur für Administratoren verfügbar).
+1. Melden Sie sich bei [Admin Console](https://adminconsole.adobe.com/enterprise) an und wählen Sie **[!UICONTROL Produkte]** aus.
+1. Wählen Sie auf der Seite [!UICONTROL Produkte] Ihr Produkt aus und wählen Sie dann **[!UICONTROL Berechtigungen]** (nur für Administratoren verfügbar).
 1. Konfigurieren Sie die Profilberechtigungen:
 
 | Element | Beschreibung |
