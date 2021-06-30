@@ -4,15 +4,15 @@ keywords: Kundenattribute;zentrale Services
 solution: Experience Cloud
 title: 'Hochladen der Datendatei für Kundenattribute via FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: 'Kundenattribute '
+feature: Kundenattribute
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -37,7 +37,7 @@ Datei-Uploads auf die FTP-Site für Kundenattribute können über FTP oder SFTP 
 
    Vergewissern Sie sich, dass Sie unter `ftp.adobe.com/<sftpname>` bei Ihrer FTP-Site angemeldet sind.
 
-1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Datei hochladen]**.
+1. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Datei-Upload]** aus.
 
 1. Laden Sie eine `.fin`-Datei hoch, damit Ihre Datei abgerufen werden kann.
 
