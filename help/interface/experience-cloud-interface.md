@@ -6,10 +6,10 @@ feature: „Zentrale Komponenten der Benutzeroberfläche“
 topic: Administration.
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -26,8 +26,8 @@ Die zentralen Komponenten der Benutzeroberfläche von Experience Cloud umfassen 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
-1. Klicken Sie auf **[!UICONTROL Mit Adobe ID anmelden]**.
-1. Klicken Sie in Adobe Experience Cloud auf Ihr Unternehmen.
+1. Wählen Sie **[!UICONTROL Anmelden mit einer Adobe ID]** aus.
+1. Wählen Sie in Adobe Experience Cloud Ihr Unternehmen aus.
 
    ![](assets/organizations-menu.png)
 
@@ -37,7 +37,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Dienste und Organisationen zugreifen.
 
-Klicken Sie auf den Anwendungsselektor ![](assets/menu-icon.png), um auf die von Ihnen verwalteten Experience Cloud-Dienste zuzugreifen.
+Wählen Sie den Anwendungsselektor ![](assets/menu-icon.png) aus, um auf die von Ihnen verwalteten Experience Cloud-Dienste zuzugreifen.
 
 ![](assets/platform-core-services.png)
 
@@ -67,7 +67,7 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
-Klicken Sie auf **[!UICONTROL Einstellungen]** im Kontomenü ![](assets/preferences-icon-sm.png), um die Einstellungen zu verwalten.
+Wählen Sie **[!UICONTROL Voreinstellungen]** aus Ihrem Kontomenü ![](assets/preferences-icon-sm.png) aus, um die Voreinstellungen zu verwalten.
 
 ![](assets/preferences-page.png)
 
@@ -85,7 +85,7 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 
 ## Benachrichtigungen und Ankündigungen
 
-Klicken Sie auf **[!UICONTROL Benachrichtigungen]**, um Benachrichtigungen, die für Sie wichtig sind, sowie Ankündigungen von Adobe anzuzeigen.
+Wählen Sie **[!UICONTROL Benachrichtigungen]** aus, um Benachrichtigungen, die für Sie wichtig sind, sowie Mitteilungen aus Adobe anzuzeigen.
 
 ![](assets/notifications-menu-small.png)
 
