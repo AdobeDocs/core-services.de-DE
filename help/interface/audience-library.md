@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -59,7 +59,7 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Lösungen v
 
 | Hilfe mit | Ressource |
 |--- |--- |
-| Es können keine Ressourcen gefunden werden? | Stellen Sie sicher, dass Sie bereitgestellt wurden. Siehe [Erste Schritte – Aktivieren Ihrer Lösungen für zentrale Dienste](core-services.md).<br>Klicken Sie [hier](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES), um Zugriff auf Profiles &amp; Audiences anzufordern (Integrations-Bereitstellungsformular). |
+| Es können keine Ressourcen gefunden werden? | Stellen Sie sicher, dass Sie bereitgestellt wurden. Siehe [Erste Schritte – Aktivieren Ihrer Lösungen für zentrale Dienste](core-services.md).<br>Rufen Sie  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) hier den Zugriff auf Profile und Zielgruppen an (Integrations-Bereitstellungsformular). |
 | Anwendungsbeispiele | Weitere Anleitungen zu der zu verwendenden Lösung finden Sie in der Knowledgebase unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en). |
 | Forum | Das [Zielgruppen-Forum](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) ist eine weitere Ressource, die Hilfe bei Zielgruppen bietet. |
 
