@@ -9,10 +9,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 83%
+ht-degree: 74%
 
 ---
 
@@ -28,10 +28,10 @@ Durch die Anmeldung in Experience Cloud (anstatt sich in einer Lösung anzumelde
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) befinden.
 
-1. Klicken Sie auf das Experience Cloud-Menü (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**.
+1. Wählen Sie das Menü Experience Cloud ( ![](assets/menu-icon.png)) und dann **[!UICONTROL Administration]** aus.
 
    Wird die Verknüpfung **[!UICONTROL Administration]** nicht angezeigt, sind Sie kein Experience Cloud-Administrator der angezeigten [Organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Sollten Sie mit der Zuweisung von Administratorrechten Schwierigkeiten haben, wenden Sie sich an die Kundenunterstützung oder einen bereits bestehenden Experience Cloud-Administrator in Ihrem Unternehmen.
-1. Klicken Sie auf **[!UICONTROL Administration]**.
+1. Wählen Sie **[!UICONTROL Administration]** aus.
 
 1. Klicken Sie auf einen der folgenden Links, um fortzufahren:
 
@@ -56,11 +56,11 @@ Hilfe für Benutzer, die sich nicht als Administratoren bei der Experience Clou
 
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
-1. Klicken Sie auf **[!UICONTROL Mit Adobe ID anmelden]**.
+1. Wählen Sie **[!UICONTROL Mit Adobe ID anmelden]** aus.
 
    Ihr Experience Cloud-Administrator kann Ihnen bei der Bestimmung der Kontoart (Adobe ID oder Enterprise ID) behilflich sein.
 
-1. Klicken Sie auf der Landingpage auf das Auswahlsymbol, ![](assets/menu-icon.png) um das Pulldown-Menü aufzurufen.
+1. Wählen Sie auf Ihrer Landingpage das Auswahlsymbol ![](assets/menu-icon.png) aus, um auf das Pulldown-Menü zuzugreifen.
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -70,19 +70,19 @@ Hilfe für Benutzer, die sich nicht als Administratoren bei der Experience Clou
 
 Sie können persönliche Details bearbeiten und eine standardmäßige [Organisation](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) und Landingpage festlegen, die nach der Anmeldung in der Experience Cloud angezeigt werden soll.
 
-1. Melden Sie sich bei der Experience Cloud an und klicken Sie auf Ihr Profilsymbol.
+1. Melden Sie sich beim Experience Cloud an und wählen Sie dann Ihr Profilsymbol aus.
 
    ![](assets/edit-profile.png)
-1. Klicken Sie auf **[!UICONTROL Profil bearbeiten]**.
+1. Wählen Sie **[!UICONTROL Profil bearbeiten]** aus.
 
    ![](assets/default-organization.png)
-1. Fahren Sie mit der Konfiguration und Bearbeitung Ihrer persönlichen Informationen fort und klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. Fahren Sie mit der Konfiguration und Bearbeitung persönlicher Informationen fort und wählen Sie **[!UICONTROL Änderungen speichern]** aus.
 
 ## Benachrichtigungen aktivieren {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 Sie erhalten eine Benachrichtigung (per E-Mail oder im Produkt) über Systemaktualisierungen, Wartungshinweise, Beiträge, Erwähnungen und freigegebene Assets. Sie können auch die Produkte und Lösungen angeben, für die Sie Benachrichtigungen erhalten möchten, einschließlich des Upload-Status für Kundenattribute.
 
-Um zu Benachrichtigungen zu navigieren, klicken Sie auf das Symbol **[!UICONTROL Benachrichtigungen]** ![](assets/notifications-icon.png) und dann auf das Symbol **[!UICONTROL Einstellungen]** ![](assets/icon_edit_board.png).
+Um zu Benachrichtigungen zu navigieren, wählen Sie das Symbol **[!UICONTROL Benachrichtigungen]** ![](assets/notifications-icon.png) und dann das Symbol **[!UICONTROL Einstellungen]** ![](assets/icon_edit_board.png) aus.
 
 Sie können die Anzeige der Benachrichtigungen nach den für Sie wichtigen Benachrichtigungstypen sortieren und nach Benachrichtigungen suchen. Alternativ können Sie auch folgendermaßen vorgehen:
 
@@ -115,17 +115,17 @@ Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation u
 
 1. Melden Sie sich bei Experience Cloud an.
 
-1. Klicken Sie in Experience Cloud auf Ihr Profilbild.
+1. Wählen Sie im Experience Cloud Ihr Profilbild aus.
 
    ![](assets/edit-profile.png)
-1. Klicken Sie auf **[!UICONTROL Profil bearbeiten]**.
+1. Wählen Sie **[!UICONTROL Profil bearbeiten]** aus.
 
    Füllen Sie auf der Seite „Profil und Kennwörter“ die Felder und Optionen unter „Persönliche Details“ aus.
 
 ## Kennwort zurücksetzen {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Navigieren Sie zur Anmeldeseite Ihrer Lösung.
-1. Klicken Sie auf **[!UICONTROL Kennwort vergessen]**.
+1. Wählen Sie **[!UICONTROL Kennwort vergessen]** aus.
 
    Durch das Zurücksetzen des Lösungskennworts sollten sich Probleme bei der Verknüpfung des Kennworts im Zuge der Experience Cloud-Kontenverknüpfung lösen lassen.
 
