@@ -9,14 +9,14 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
-# Cookies in Analytics {#analytics-cookies}
+# Analytics-Cookies{#analytics-cookies}
 
 Adobe Analytics verwendet Cookies, um Anforderungen von verschiedenen Browsern zu unterscheiden und nützliche Informationen zu speichern, die eine Anwendung später verwenden kann. Sie können auch verwendet werden, um Browserinformationen Kundendatensätzen zuzuordnen.
 
@@ -61,7 +61,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die ClickMap-Funktion oder die Activity Map-Funktion aktiviert ist. Es enthält Informationen zum vorherigen Link, auf den der Benutzer geklickt hat |
+| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die SelectMap-Funktion oder die Activity Map-Funktion aktiviert sind. Es enthält Informationen zum vorherigen Link, der vom Benutzer ausgewählt wurde. |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
@@ -85,7 +85,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 >
 >Jede Analytics-Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugewiesen. Besucherprofile werden nach einem Jahr Inaktivität gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies.
 
-## Cookie-Name: s_fid  {#section-65e33f9bfc264959ac1513e2f4b10ac7}
+## Cookie-Name: s_fid {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
 | Attribut | Beschreibung |
 |--- |--- |
@@ -115,7 +115,7 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 >
 >Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Hilfe beim Ändern der Analytics-Cookie-Einstellungen erhalten Sie bei der Kundenunterstützung.
 
-## Von Plug-ins eingestellte Cookies  {#section-a6b1cae8454945fab9eea5c7884c40fc}
+## Von Plug-ins eingestellte Cookies {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
 Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins gesetzt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung unter verschiedenen Umständen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Weitere Informationen zu Cookies, die von jedem Plug-in gesetzt werden, erhalten Sie von der Kundenunterstützung. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
 
