@@ -9,21 +9,21 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 60%
+source-wordcount: '297'
+ht-degree: 57%
 
 ---
 
-# Datenschutzeinstellungen für Browser-Cookies aktivieren {#enable-privacy-settings-for-browser-cookies}
+# Datenschutzeinstellungen für Browser-Cookies aktivieren{#enable-privacy-settings-for-browser-cookies}
 
 Sie können Benutzer entfernen, die alle Cookies auf Desktopbrowsern und mobilen Browsern blockiert haben. Bei dieser Funktion handelt es sich um eine Datenschutzeinstellung, bei der Benutzer ausgeschlossen werden, die sich von der Datenerfassung abmelden. So können Sie die Absicht eines Benutzers respektieren, die Analytics-Verarbeitung zu stoppen.
 
 **Aktivieren der Datenschutzeinstellungen für Browser-Cookies**
 
 1. Navigieren Sie zu **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]**.
-1. Klicken Sie auf **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Datenschutzeinstellungen]**.
+1. Gehen Sie zu **[!UICONTROL Einstellungen bearbeiten]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Datenschutzeinstellungen]**.
 1. Aktivieren Sie **[!UICONTROL Datenschutzeinstellungen]** (für Desktopbrowser oder für mobile Browser).
 
 >[!IMPORTANT]
