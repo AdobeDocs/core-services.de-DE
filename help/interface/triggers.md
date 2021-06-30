@@ -11,10 +11,10 @@ topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 71%
+ht-degree: 70%
 
 ---
 
@@ -52,9 +52,9 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
-1. Klicken Sie im Experience Cloud auf ![](assets/menu-icon.png) und dann auf **[!UICONTROL Datenerfassung/Launch]**.
-2. Klicken Sie auf der Karte [!UICONTROL Trigger] auf **[!UICONTROL Trigger verwalten]**.
-3. Klicken Sie auf **[!UICONTROL Neuer Trigger]** und geben Sie dann den Trigger-Typ an:
+1. Wählen Sie im Experience Cloud ![](assets/menu-icon.png) und dann **[!UICONTROL Datenerfassung/Launch]** aus.
+2. Wählen Sie auf der Karte [!UICONTROL Trigger] die Option **[!UICONTROL Trigger verwalten]** aus.
+3. Wählen Sie **[!UICONTROL Neuer Trigger]** und geben Sie dann den Typ des Triggers an:
 
    ![Schritt Ergebnis](assets/add-trigger.png)
 
@@ -71,7 +71,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 
    {style=&quot;table-layout:auto&quot;}
 
-5. Klicken Sie auf **[!UICONTROL Speichern]**.
+5. Wählen Sie **[!UICONTROL Speichern]** aus.
 6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) in [!DNL Adobe Campaign].
 
 ### Beispielauslöser
