@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: 'Übersicht über Experience Cloud-Dienste '
 feature: Kundenattribute
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 56%
@@ -35,7 +35,7 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Activation](activation.md) | Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Data Collection (Launch) und Experience Cloud Triggers. |
 | [Assets](experience-cloud-assets.md) | Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. (Assets ist ein veralteter Dienst, der jetzt unterstützt wird.) |
 | [Administration](admin-getting-started.md) | Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von Benutzerberechtigungen und Produktprofilen für Experience Cloud und über die Browser-Unterstützung. |
-| [Cookies ](cookies-privacy.md) | Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe nimmt an mehreren Datenschutzorganisationen teil und arbeitet mit Datenschutzbehörden und Selbstregulierungsgrundsätzen zusammen. |
+| [Cookies](cookies-privacy.md) | Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe nimmt an mehreren Datenschutzorganisationen teil und arbeitet mit Datenschutzbehörden und Selbstregulierungsgrundsätzen zusammen. |
 
 {style=&quot;table-layout:auto&quot;}
 
