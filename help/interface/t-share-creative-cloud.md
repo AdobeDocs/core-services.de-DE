@@ -6,10 +6,10 @@ title: 'Experience Cloud-Asset-Ordner freigeben '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 62%
@@ -22,7 +22,7 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 
 1. Wählen Sie in einem Asset-Ordner **[!UICONTROL Mit Creative Cloud teilen]** aus.
 
-   ![Schrittergebnis](assets/asset-share-cc.png)
+   ![Ergebnis des Schritts](assets/asset-share-cc.png)
 1. Suchen Sie auf der Seite Mit Creative Cloud teilen nach dem Benutzer und wählen Sie **[!UICONTROL Hinzufügen]** aus.
 
    ![](assets/asset-share-cc-page.png)
@@ -33,7 +33,7 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
    ![](assets/cc_share_request.png)
 1. Öffnen Sie die Anforderung und wählen Sie **[!UICONTROL Accept]** aus.
 
-   ![Schrittergebnis](assets/cc_share_accept.png)
+   ![Ergebnis des Schritts](assets/cc_share_accept.png)
 1. Um auf den Ordnerinhalt zuzugreifen, wählen Sie **[!UICONTROL Ordner öffnen]** (oder **[!UICONTROL Auf Web anzeigen]**).
 
    ![Schritt Ergebnis](assets/creative_cloud_open_folder.png)
