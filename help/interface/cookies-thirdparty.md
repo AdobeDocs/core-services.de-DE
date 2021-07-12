@@ -1,18 +1,18 @@
 ---
 description: Erfahren Sie, inwiefern die Unterstützung für Drittanbieter-Cookies in Browsern immer mehr eingeschränkt wird.
-keywords: Cookies, Datenschutz
+keywords: Cookies;Datenschutz
 solution: Experience Cloud,Analytics,Target
 title: 'Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden  '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 59%
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ Die folgende Liste zeigt, wie sich die Unterstützung von Drittanbieter-Cookies 
 
 ## Adobe Analytics und Adobe Target
 
-* Analytics und Target sind größtenteils nicht betroffen, da dieselbe Site-Aktivität nur auf Erstanbieter-Cookies angewiesen ist. Zur domänenübergreifenden Erläuterung der Benutzeraktivität sind Drittanbieter-Cookies erforderlich. Bei Browsern, in denen Drittanbieter-Cookies blockiert werden, ist ein domänenübergreifendes Tracking mit Cookies nicht möglich.
+* Analytics und Target sind größtenteils nicht betroffen, da dieselbe Site-Aktivität nur auf Erstanbieter-Cookies angewiesen ist. Zum domainübergreifenden Nachvollziehen der Benutzeraktivität sind Drittanbieter-Cookies erforderlich. Bei Browsern, in denen Drittanbieter-Cookies blockiert werden, ist ein domänenübergreifendes Tracking mit Cookies nicht möglich.
 
 ## Adobe Experience Manager
 
