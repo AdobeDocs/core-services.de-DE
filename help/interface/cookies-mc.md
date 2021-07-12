@@ -6,17 +6,17 @@ title: 'Experience Cloud-Cookies '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 81%
 
 ---
 
-# Experience Cloud-Cookies{#experience-cloud-cookies}
+# Cookies in Experience Cloud{#experience-cloud-cookies}
 
 Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die in allen Experience Cloud-Anwendungen verwendet wird.
 
@@ -59,7 +59,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
 
 **Cookie-Name: AMCV_###@AdobeOrg**
 
-Der [Experience Platform-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domäne der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
+Der [Experience Platform-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domäne der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
 
 Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
 
