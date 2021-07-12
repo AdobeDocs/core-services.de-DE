@@ -6,13 +6,13 @@ title: 'Häufig gestellte Fragen zu Experience Cloud '
 index: true
 feature: Admin Console
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ Bereitstellung im Sinne der Experience Cloud bedeutet:
 
 * Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
 
-* **Wichtig:** Analytics-Administratoren finden unter [Verwalten von Analytics-Benutzern in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
+* **Wichtig:** Analytics-Administratoren finden unter [Verwalten von Analytics-Benutzern in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=de) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
 
 ## Was kann ich tun, wenn sich ein Benutzer nicht bei der Experience Cloud anmelden kann?
 
