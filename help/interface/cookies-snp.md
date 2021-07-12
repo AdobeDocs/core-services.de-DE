@@ -6,17 +6,17 @@ title: 'Cookies in Search&Promote '
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 feature: Cookies
 topic: Administration
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 97%
 
 ---
 
-# Cookies in Search &amp; Promote{#search-and-promote-cookies}
+# Cookies in Search&amp;Promote{#search-and-promote-cookies}
 
 Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besucher zu erfahren und diese vorauszuahnen.
 
