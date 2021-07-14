@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: ac15aa02eded86f4f64191e22e7cafc4bb6258ad
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '918'
 ht-degree: 62%
 
 ---
@@ -68,7 +68,7 @@ Die globale Suche ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Ent
 ![](assets/platform-search.png)
 
 >!![NOTE]
-Die globale Suche ist nur für Experience Platform-Benutzer verfügbar.
+Die globale Suche ist nur für Benutzer von Experience Platform und Journey Orchestration verfügbar.
 
 ## Kontovoreinstellungen verwalten {#preferences}
 
