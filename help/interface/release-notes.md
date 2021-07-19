@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '4199'
-ht-degree: 89%
+source-wordcount: '4224'
+ht-degree: 88%
 
 ---
 
@@ -23,6 +23,10 @@ Funktionen, Versionshinweise und bekannte Probleme bei den Komponenten der zentr
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
+
+## Juli 2021
+
+Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Angebote und Experience League verfügbar. Zuvor war diese Funktion nur für Experience Platform-Benutzer verfügbar.
 
 ## Juni 2021
 
