@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 56%
+source-wordcount: '364'
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,7 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Personen - Kundenattribute](attributes.md) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungs-Service. |
 | [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de) | Adobe [!UICONTROL Experience Platform Location Service] ist ein Standortdienst. Damit wird es Apps mit Standorterkennung ermöglicht, den Standortkontext nachzuvollziehen. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit Zielpunkten (Points of Interest, POIs) verwendet. |
 | [Activation](activation.md) | Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Data Collection (Launch) und Experience Cloud Triggers. |
-| [Assets](experience-cloud-assets.md) | Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. (Assets ist ein veralteter Dienst, der jetzt unterstützt wird.) |
+| [Assets](experience-cloud-assets.md) | Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in all Ihren Lösungen nutzen können. |
 | [Administration](admin-getting-started.md) | Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von Benutzerberechtigungen und Produktprofilen für Experience Cloud und über die Browser-Unterstützung. |
 | [Cookies](cookies-privacy.md) | Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe nimmt an mehreren Datenschutzorganisationen teil und arbeitet mit Datenschutzbehörden und Selbstregulierungsgrundsätzen zusammen. |
 
