@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1378'
 ht-degree: 79%
 
 ---
@@ -70,10 +70,6 @@ Erstellen und verwalten Sie Audiences in der Experience Cloud-Zielgruppenbibliot
 
 Hilfe: [Kundenattribute](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->Kundenattribute ist ein alter Service, der sich jetzt in der Überarbeitung befindet.
-
 Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie die Daten in eine Kundenattribut-Datenquelle im Experience Cloud hochladen. Verwenden Sie nach dem Hochladen die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
 **Anwendbare Lösungen oder Dienste**
@@ -84,10 +80,6 @@ Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relations
 ## Experience Cloud-Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 Hilfe: [Freigeben von Experience Cloud-Ordnern mit Creative Cloud](creative-cloud.md)
-
->[!NOTE]
->
->Assets ist ein veralteter Coreservice, der jetzt überarbeitet wird.
 
 Geben Sie Ordner und Assets sowohl in der Experience Cloud als auch in der Creative Cloud frei. Sie können an gemeinsamen Assets zusammenarbeiten, sie kommentieren und in Experience Cloud-Lösungen wie [!DNL Social] und [!DNL Target] verwenden.
 
