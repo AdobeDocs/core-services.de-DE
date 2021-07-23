@@ -7,20 +7,16 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 12b2758155885386cdc3e6fc7e1a77f2b8e74b6e
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 75%
+source-wordcount: '485'
+ht-degree: 74%
 
 ---
 
 # Kundenattribute Übersicht
 
->[!IMPORTANT]
->
->[!UICONTROL Kundenattribute ist ein alter Service, der sich jetzt in der Überarbeitung befindet.]
-
-[!UICONTROL Mit Kundenattributen in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. ] Sie können die Daten in eine Kundenattribut-Datenquelle im Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
+Mit Kundenattributen in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Kundenattribut-Datenquelle im Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
 Um diese Funktion zu finden, navigieren Sie zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**
 
