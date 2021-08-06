@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 60%
+source-wordcount: '1617'
+ht-degree: 45%
 
 ---
 
@@ -21,20 +21,18 @@ ht-degree: 60%
 
 Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben. Wenn möglich, verwendet Adobe Erstanbieter-Cookies, um Aktivitäten auf Ihrer Website aufzuzeichnen. Um Aktivitäten auf verschiedenen Websites aufzuzeichnen, z. B. auf anderen Domains, deren Inhaber Sie sind, sind Drittanbieter-Cookies erforderlich.
 
-Viele Browser und Anti-Spyware-Anwendungen sind dafür konzipiert, Drittanbieter-Cookies abzulehnen und zu löschen, einschließlich Cookies, die in der Datenerfassung von [!DNL Analytics] verwendet werden. Um das Tracking der Interaktion Ihrer Besucher mit Ihrer Website zu unterstützen, sollten Sie sicherstellen, dass Sie Ihre Datenerfassung für die Verwendung von Erstanbieter-Cookies konfiguriert haben:
+Viele Browser und Anti-Spyware-Anwendungen sind dafür konzipiert, Drittanbieter-Cookies abzulehnen und zu löschen. Adobe stellt sicher, dass Cookies immer gesetzt werden können, auch wenn Drittanbieter-Cookies blockiert werden. Das spezifische Verhalten variiert je nachdem, ob Sie den Experience Platform Identity Service (ECID-Dienst) oder die Legacy-IDs von Analytics (auch s_vi-Cookie genannt) verwenden:
 
-Es stehen zwei Optionen zur Implementierung von First-Party-Cookies zur Verfügung:
+* Der [Experience Platform Identity Service (ECID-Dienst)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) setzt automatisch Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungsdomäne mit Ihrer Site-Domäne übereinstimmt. Wenn sie nicht übereinstimmen, verwendet der Identity-Dienst JavaScript, um Cookies in der Domäne Ihrer Site festzulegen.
+* Wenn Sie [Legacy-IDs von Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (auch `s_vi`-Cookie genannt) verwenden, hängt es davon ab, wie Sie Ihren Datenerfassungsserver konfiguriert haben. Wenn der Datenerfassungsserver mit der Domäne Ihrer Site übereinstimmt, werden Cookies als Erstanbieter gesetzt. Wenn der Erfassungsserver nicht mit Ihrer aktuellen Domäne übereinstimmt, werden Cookies als Drittanbieter gesetzt. Wenn Drittanbieter-Cookies blockiert werden, setzt Analytics in diesem Fall eine Erstanbieter-Ausweich-ID (s_fid)](cookies-analytics.md) anstelle des standardmäßigen &quot;s_vi&quot;-Cookies.[
 
-* Wenn Sie den Experience Platform Identity Service (ECID-Dienst) verwenden, werden Cookies mithilfe von JavaScript automatisch im Erstanbieterkontext gesetzt.
-* Wenn Sie [!DNL Analytics] Legacy-IDs (auch `s_vi`-Cookie genannt) verwenden, hängt es davon ab, wie Sie Ihren Datenerfassungsserver konfiguriert haben. Wenn der Datenerfassungsserver mit der Domäne Ihrer Site übereinstimmt, werden Cookies als Erstanbieter gesetzt. Wenn der Erfassungsserver nicht mit Ihrer aktuellen Domäne übereinstimmt, werden Cookies als Drittanbieter gesetzt. Wenn Drittanbieter-Cookies blockiert werden, setzt [!DNL Analytics] anstelle des standardmäßigen &quot;s_vi&quot;-Cookies eine Erstanbieter-Ausweich-ID (s_fid)](cookies-analytics.md).[
-
-Um sicherzustellen, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, mit der Cookies in einem Erstanbieterkontext gesetzt werden können. Dazu gehören Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von der Adobe gehostete Domain verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen First-Party-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domänen steuern, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Wenn die Site-Domäne jedoch nicht mit den CNAME-Domänen-Cookies übereinstimmt, wird sie als Drittanbieter festgelegt.
+Wenn Sie sicherstellen möchten, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, die die Weiterleitung von einer in Ihrer CNAME-Implementierung angegebenen benutzerdefinierten Domäne an die Erfassungsserver der Adobe ermöglicht. Dazu gehören Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von der Adobe gehostete Domäne verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen First-Party-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domänen steuern, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Wenn die Site-Domäne jedoch nicht mit den CNAME-Domänen-Cookies übereinstimmt, wird sie als Drittanbieter festgelegt.
 
 >[!NOTE]
 >
->Für beide Optionen sorgt das ITP-Programm (Intelligent Tracking Prevention) von Apple dafür, dass die Erstanbieter-Cookies in Browsern mit kurzer Lebensdauer verwendet werden, die von ITP verwaltet werden. Dazu gehören Safari unter macOS und alle Browser unter iOS und iPadOS. Ab November 2020 laufen Cookies beider Typen nach sieben Tagen ab. Diese Ablaufzeit kann sich ändern.
+>Unabhängig davon, ob Ihre Erfassungsdomäne mit Ihrer Site-Domäne übereinstimmt, setzt das ITP-Programm (Intelligent Tracking Prevention) von Apple die von Adobe gesetzten Erstanbieter-Cookies in Browsern mit kurzer Lebensdauer, die von ITP verwaltet werden. Dazu gehören Safari unter macOS und alle Browser unter iOS und iPadOS. Ab November 2020 laufen über CNAME gesetzte Cookies genauso ab wie über JavaScript gesetzte Cookies. Diese Ablaufzeit kann sich ändern.
 
-Bei der zweiten Option mit einem CNAME können Sie, wenn Ihre Site sichere Seiten mit dem HTTPS-Protokoll aufweist, mit Adobe ein SSL-Zertifikat abrufen, um Erstanbieter-Cookies zu implementieren. Adobe empfiehlt dringend, dass Sie ausschließlich HTTPS für die Datenerfassung verwenden, da Adobe die HTTP-Erfassung in der zweiten Jahreshälfte 2020 nicht mehr unterstützt.
+Wenn Sie einen CNAME für die Datenerfassung einrichten möchten und Ihre Site sichere Seiten mit dem HTTPS-Protokoll hat, können Sie mit Adobe ein SSL-Zertifikat abrufen.
 
 Der Bereitstellungsprozess von SSL-Zertifikaten kann verwirrend und zeitraubend sein. Daher hat die Adobe eine Partnerschaft mit DigiCert, einer branchenführenden Zertifizierungsstelle (CA), aufgebaut und einen integrierten Prozess entwickelt, durch den der Erwerb und die Verwaltung dieser Zertifikate automatisiert werden.
 
@@ -42,15 +40,15 @@ Mit Ihrer Erlaubnis arbeiten wir mit CA, um ein neues SHA-2-SSL-Zertifikat für 
 
 ## Adobe-Managed Certificate Program
 
-Das Adobe Managed Certificate Program (Adobe-Programm für verwaltete Zertifikate) ist das empfohlene Verfahren zur Implementierung eines neuen Erstanbieter-SSL-Zertifikats für Erstanbieter-Cookies.
+Das Adobe Managed Certificate Program (Programm für verwaltete Zertifikate) ist der empfohlene Prozess zum Einrichten des Erstanbieter-SSL-Zertifikats, das für eine CNAME-Implementierung erforderlich ist. Dadurch wird sichergestellt, dass Ihr Adobe-Erfassungsserver mit Ihrer Site-Domäne übereinstimmt.
 
-Mit diesem Programm können Sie ohne zusätzliche Kosten ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Cookies implementieren (für Ihre ersten 100 CNAMEs). Wenn Sie derzeit über ein eigenes kundenverwaltetes SSL-Zertifikat verfügen, wenden Sie sich an die Adobe-Kundenunterstützung, um zum Adobe-Managed Certificate Program zu migrieren.
+Mit dem Adobe Managed Certificate-Programm können Sie ohne zusätzliche Kosten ein neues Erstanbieter-SSL-Zertifikat implementieren (für Ihre ersten 100 CNAMEs). Wenn Sie derzeit über ein eigenes kundenverwaltetes SSL-Zertifikat verfügen, wenden Sie sich an die Adobe-Kundenunterstützung, um zum Adobe-Managed Certificate Program zu migrieren.
 
 ### Implementierung
 
-So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für Erstanbieter-Cookies:
+So implementieren Sie ein neues Erstanbieter-SSL-Zertifikat für die Erstanbieter-Datenerfassung:
 
-1. Füllen Sie das Anforderungsformular [Erstanbieter-Cookie](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) aus und öffnen Sie ein Ticket für die Kundenunterstützung, um Erstanbieter-Cookies im Adobe-Managed Program einzurichten. Bei jedem Feld finden Sie eine Beschreibung anhand von Beispielen.
+1. Füllen Sie das Anforderungsformular [Erstanbieter-Domain](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) aus und öffnen Sie ein Ticket für die Kundenunterstützung, um die Einrichtung der Erstanbieter-Datenerfassung im Adobe-Managed Program zu beantragen. Bei jedem Feld finden Sie eine Beschreibung anhand von Beispielen.
 
 2. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten).
 
@@ -103,10 +101,6 @@ Der FPC-Spezialist stellt Ihnen den konfigurierten Host-Namen bereit und gibt an
 
 Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schritt nicht die Datensammlung und kann zu einem beliebigen Zeitpunkt nach der Aktualisierung des Implementierungscodes vorgenommen werden.
 
->[!NOTE]
->
->Hinweis: Der Besucher-ID-Dienst von Experience Cloud bietet eine Alternative zum Konfigurieren eines CNAME, um Erstanbieter-Cookies zu ermöglichen.
-
 ## Überprüfen der Hostnamenweiterleitung {#validate}
 
 Die folgenden Methoden stehen zur Überprüfung zur Verfügung:
@@ -157,7 +151,7 @@ Address: 54.187.216.46
 
 ## Aktualisierung des Implementierungscodes {#update}
 
-Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, müssen Sie die folgenden Voraussetzungen erfüllen:
+Bevor Sie Code auf Ihrer Site bearbeiten, um die Datenerfassung von Erstanbietern zu verwenden, müssen Sie die folgenden Voraussetzungen erfüllen:
 
 * Fordern Sie ein SSL-Zertifikat an, indem Sie die oben im Abschnitt *Implementieren* des [Adobe-Managed Certificate Program](#adobe-managed-certificate-program) beschriebenen Schritte befolgen.
 * Erstellen Sie CNAME-Datensätze (siehe oben).
@@ -166,12 +160,12 @@ Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, 
 Nachdem Sie überprüft haben, ob Ihre Hostnamen reagieren und an die Datenerfassungsserver der Adobe weiterleiten, können Sie Ihre Implementierung ändern, um auf Ihre eigenen Datenerfassungs-Hostnamen zu verweisen.
 
 1. Öffnen Sie Ihre JavaScript-Kerndatei (`s_code.js/AppMeasurement.js`).
-1. Wenn Sie Ihre Codeversion aktualisieren möchten, ersetzen Sie die gesamte `s_code.js/AppMeasurement.js`-Datei mit der neueren Version und ersetzen Sie alle Plugins oder Einstellungen (falls vorhanden). **Oder** wenn Sie den Code aktualisieren möchten, der nur für Erstanbieter-Cookies gilt, suchen Sie die Variablen s.trackingServer und s.trackingServerSecure (falls SSL verwendet wird) und verweisen Sie sie auf Ihre neuen Datenerfassungs-Hostnamen. Verwenden von mysite.com als Beispiel: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Wenn Sie Ihre Codeversion aktualisieren möchten, ersetzen Sie die gesamte `s_code.js/AppMeasurement.js`-Datei mit der neueren Version und ersetzen Sie alle Plugins oder Einstellungen (falls vorhanden). **Oder** Wenn Sie den Code aktualisieren möchten, der nur für die Datenerfassung von Erstanbietern gilt, suchen Sie die Variablen s.trackingServer und s.trackingServerSecure (bei Verwendung von SSL) und verweisen Sie sie auf Ihre neuen Datenerfassungshostnamen. Verwenden von mysite.com als Beispiel: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Laden Sie die aktualisierte JavaScript-Kerndatei auf Ihre Site.
 
-1. Wenn Sie von einer älteren Implementierung zu Erstanbieter-Cookies wechseln oder zu einem anderen Erstanbieter-Erfassungshostnamen wechseln, empfiehlt Adobe die Migration von Besuchern aus der vorherigen Domäne in die neue Domäne.
+1. Wenn Sie von einer älteren Implementierung zur Erstanbieter-Datenerfassung wechseln oder zu einem anderen Erstanbieter-Datenerfassungshostnamen wechseln, empfiehlt Adobe, Besucher aus der vorherigen Domäne in die neue Domäne zu migrieren.
 
 Siehe [Besuchermigration](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) im Analytics-Implementierungshandbuch.
 
-Nachdem Sie die JavaScript-Datei hochgeladen haben, ist die Konfiguration für die Erstanbieter-Cookie-Datensammlung abgeschlossen. Adobe empfiehlt, die Analytics-Berichterstellung für die nächsten Stunden zu überwachen, um sicherzustellen, dass die Datenerfassung normal fortgesetzt wird. Ist dies nicht der Fall, stellen Sie sicher, dass alle oben genannten Schritte ausgeführt wurden und veranlassen Sie, dass ein unterstützter Mitarbeiter Ihrer Organisation die Kundenunterstützung kontaktiert.
+Nachdem Sie die JavaScript-Datei hochgeladen haben, ist alles für die Erstanbieter-Datenerfassung konfiguriert. Adobe empfiehlt, die Analytics-Berichterstellung für die nächsten Stunden zu überwachen, um sicherzustellen, dass die Datenerfassung normal fortgesetzt wird. Ist dies nicht der Fall, stellen Sie sicher, dass alle oben genannten Schritte ausgeführt wurden und veranlassen Sie, dass ein unterstützter Mitarbeiter Ihrer Organisation die Kundenunterstützung kontaktiert.
