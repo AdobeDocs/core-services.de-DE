@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4224'
-ht-degree: 88%
+source-wordcount: '4279'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,12 @@ Funktionen, Versionshinweise und bekannte Probleme bei den Komponenten der zentr
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
+
+## August 2021
+
+| Funktion | Datum | Beschreibung |
+| ------- | ------- | -------|
+| [!UICONTROL Unified Recents]  - Erweiterte Unterstützung für kürzlich aufgerufene Geschäftsobjekte | 10. August 2021 | [!UICONTROL Unified ] Recentsis wurde auf zusätzliche Geschäftsobjekte in Journey Optimizer und Experience Platform erweitert. Journey Optimizer-Kunden können ihre kürzlich aufgerufenen Objekte (Nachrichten, Journey, Segmente, Schemas, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele) von der Adobe Journey Optimizer-Startseite aus finden. |
 
 ## Juli 2021
 
