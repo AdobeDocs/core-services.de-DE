@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+workflow-type: tm+mt
+source-wordcount: '1151'
+ht-degree: 99%
 
 ---
 
@@ -26,8 +26,8 @@ Erstellen Sie die Kundenattributquelle (CSV- und FIN-Dateien) und laden Sie die 
 
 1. [Erstellen Sie eine Datendatei](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [Prüfen des Schemas](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
-1. [Konfigurieren von Abonnements und aktivieren Sie die Attributquelle](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
+1. [Prüfen Sie das Schema](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
+1. [Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle](t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
 Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
@@ -86,7 +86,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
       Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
-      * **Dynamic Tag Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=de).
+      * **Dynamic Tag Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en).
 
       * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de), die Sie den einzelnen Besuchern zuordnen können.
 
