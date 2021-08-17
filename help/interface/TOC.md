@@ -4,10 +4,10 @@ user-guide-title: 'Zentrale Schnittstellenkomponenten von Experience Cloud '
 breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 user-guide-description: Erfahren Sie mehr über die Benutzeroberfläche von Experience Cloud, konfigurieren Sie Voreinstellungen, suchen Sie nach Hilfe und Geschäftsobjekten. Hier erhalten Sie Hilfe zu Benutzer- und Produktverwaltung, Kundenattributen, Zielgruppenbibliothek, Cookies und Experience Cloud-Assets.
 index: true
-source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
+source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 80%
       + [Überlegungen zum Datenschutz bei Kundenattributen](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Übersicht über Activation](activation.md)
-      + [Experience Platform Launch-Benutzerhandbuch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=de)
+      + [Experience Platform Launch-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
       + [Triggers](triggers.md)
    + Experience Cloud-Assets {#assets}
       + [Übersicht über Experience Cloud Assets](experience-cloud-assets.md)
@@ -47,7 +47,7 @@ ht-degree: 80%
       + [Ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hochladen](t-cc-asset-upload-thor.md)
       + [Dateivoraussetzungen für die Freigabe von Assets](assets-file-reqs.md)
       + [Verhalten freigegebener Ordner](asset-behavior.md)
-+ Verwaltung von Experience Clouden {#administration}
++ Experience Cloud Administration {#administration}
    + [Verwalten der Benutzeridentität und Produkte in Experience Cloud (Admin Console)](admin-getting-started.md)
    + [Anzeigen von Experience Cloud-Benutzerdetails (Admin-Tool)](admin-tool-experience-cloud.md)
    + [Häufig gestellte Fragen](faq.md)
@@ -71,7 +71,7 @@ ht-degree: 80%
       + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden ](cookies-thirdparty.md)
 + Versionshinweise zur Experience Cloud-Benutzeroberfläche {#release-notes}
    + [Versionshinweise zu Komponenten der zentralen Benutzeroberfläche](release-notes.md)
-   + [Versionshinweise für alle Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
+   + [Versionshinweise für alle Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
 + Zusätzliche Ressourcen {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
