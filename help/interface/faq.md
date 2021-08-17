@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 88%
@@ -33,7 +33,7 @@ Erfahren Sie mehr über Browser-Unterstützung und häufig gestellte Fragen und 
 Wenn Ihre Implementierung nicht für zentrale Dienste bereitgestellt wurde, lesen Sie die den Abschnitt [Lösungen für zentrale Dienste aktivieren](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in dem Folgendes beschrieben wird:
 
 1. [Experience Cloud beitreten und Administrator werden](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implementieren Sie den Experience Cloud ID-Dienst mit Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
+1. [Implementieren Sie den Experience Cloud ID-Dienst mit Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 1. [Report Suites einer Experience Cloud-Organisation zuweisen](core-services.md#concept_apg_zq2_rw)
 1. [(nur Analytics) Modernisierung des Analytics-AppMeasurement-Codes](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(nur Adobe Target) Modernisierung der Adobe Target-Implementierung](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
