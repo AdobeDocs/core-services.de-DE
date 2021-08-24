@@ -26,7 +26,7 @@ Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gr
 
 Möglicherweise müssen Sie auch Ihre Organisations-ID zu Supportzwecken suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
-![Ergebnis des Schritts](assets/organization-switch.png)
+![Schrittergebnis](assets/organization-switch.png)
 
 ## Organisations-ID ermitteln {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
