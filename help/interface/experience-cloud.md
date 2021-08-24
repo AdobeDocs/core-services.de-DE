@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 63%
@@ -89,7 +89,7 @@ Obwohl sich alle Anwendungsteams zur globalen Sprachunterstützung verpflichten,
 
 ## Erhalten Sie Hilfe und Support {#support}
 
-Greifen Sie mithilfe des Hilfesymbols (![asset](assets\help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) zu [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Anwendungen. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
+Greifen Sie mithilfe des Hilfesymbols (![asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) zu [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Anwendungen. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
 ![](assets/search-menu.png)
 
