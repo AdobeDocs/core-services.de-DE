@@ -1,8 +1,8 @@
 ---
-description: Erfahren Sie, wie der ID-Dienst in allen Experience Cloud-Applikationen gespeichert und verwendet wird.
+description: Erfahren Sie, wie das ID-Service in allen Experience Cloud-Programmen gespeichert und verwendet wird.
 keywords: Cookies, Datenschutz
 solution: Experience Cloud,Analytics,Target
-title: 'Experience Cloud-Cookies '
+title: 'Cookies in Experience Cloud '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -12,13 +12,13 @@ exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
 # Cookies in Experience Cloud{#experience-cloud-cookies}
 
-Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die in allen Experience Cloud-Anwendungen verwendet wird.
+Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die für alle Experience Cloud-Programme genutzt wird.
 
 **Cookie-Name: s_ecid**
 
@@ -52,7 +52,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
   </tr> 
   <tr> 
    <td colname="col1"> <p> SameSite=Lax </p> </td> 
-   <td colname="col2"> <p>Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domain mit der Domain des Cookies übereinstimmt. Diese Einstellung ist die neue Standardeinstellung für Cookies in Chrome.</p> </td> 
+   <td colname="col2"> <p>Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domäne mit der Domäne des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +61,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
 
 Der [Experience Platform-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domäne der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
 
-Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
+Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -92,8 +92,8 @@ Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/i
    <td colname="col2"> <p> Variiert. Die meisten Kunden können davon ausgehen, dass dieses Cookie etwa 200 Byte lang ist. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Kein Wert hinzugefügt. Chrome verwendet standardmäßig Lax. </p> </td> 
-   <td colname="col2"> <p> Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domäne mit der Domäne des Cookies übereinstimmt. Diese Einstellung ist die neue Standardeinstellung für Cookies in Chrome. </p> </td> 
+   <td colname="col1"> <p>Kein Wert hinzugefügt. Chrome ist standardmäßig auf Lax eingestellt. </p> </td> 
+   <td colname="col2"> <p> Cookies mit dieser Einstellung werden nur gesendet, wenn die in der URL des Browsers angezeigte Domäne mit der Domäne des Cookies übereinstimmt. Dies ist die neue Standardeinstellung für Cookies in Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
