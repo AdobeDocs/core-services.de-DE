@@ -12,13 +12,13 @@ exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
 workflow-type: tm+mt
 source-wordcount: '4279'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
 # Gesammelte Versionshinweise
 
-Funktionen, Versionshinweise und bekannte Probleme bei den Komponenten der zentralen Experience Cloud-Benutzeroberfläche.
+Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experience Cloud-Schnittstelle.
 
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
@@ -38,8 +38,8 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Datum | Beschreibung |
 | ------- | ------- | ------- |
-| Unterstützung von Single Sign-On für Adobe Federated IDs | 17. Juni 2021 | Wenn Sie Federated IDs verwenden, können Sie sich bei Experience Cloud anmelden, ohne eine E-Mail-Adresse oder ein Passwort eingeben zu müssen. Um diese Funktion zu verwenden, fügen Sie `#/sso:@domain` zur Experience Cloud-URL hinzu. <br>Angenommen, Sie sind Eigentümer der Domain `adobecustomer.com` und möchten sich bei Adobe Analytics anmelden: Die URL lautet: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Suche in Experience League | 1. Juni 2021 | Die Suchfunktion für Dokumentationen in Experience League wurde verbessert. Navigieren Sie zu [Experience League](https://experienceleague.adobe.com/docs/?lang=de) und verwenden Sie das Feld **[!UICONTROL Suchen]**, um Tutorials, Dokumentationen, Kurse und mehr zu finden. |
+| Single-Sign-On-Unterstützung für Adobe Federated IDs | 17. Juni 2021 | Wenn Sie Federated IDs verwenden, können Sie sich bei Experience Cloud anmelden, ohne eine E-Mail-Adresse oder ein Passwort eingeben zu müssen. Um diese Funktion zu verwenden, fügen Sie `#/sso:@domain` zur Experience Cloud-URL hinzu. <br>Nehmen wir beispielsweise an, Sie sind der Eigentümer der Domäne `adobecustomer.com` und möchten sich bei Adobe Analytics anmelden. Die URL lautet: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Experience League Search | 1. Juni 2021 | Die Suche in der Dokumentation zu Experience Leaguen wurde verbessert. Navigieren Sie zu [Experience League](https://experienceleague.adobe.com/docs/?lang=de) und verwenden Sie das Feld **[!UICONTROL Suchen]**, um Tutorials, Dokumentationen, Kurse und mehr zu finden. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -48,7 +48,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 | Funktion | Datum | Beschreibung |
 | ------- | ------- | ------- |
 | Experience Cloud-Kopfzeile und -Navigation | 20. Mai 2021 | Adobe Experience Cloud-Aktualisierungen beinhalten eine Änderung des hellen Designs für die Kopfzeile. Sie können einfach wieder zu einem dunklem Design wechseln und erhalten einen Link zur Steuerung zusätzlicher Voreinstellungen von Ihrem Benutzeravatar in der Kopfzeile von Experience Cloud. Obwohl nicht alle Anwendungen in Experience Cloud das Design unterstützen, wird durch diese Funktion die Unterstützung künftiger Designs freigeschaltet. |
-| Experience Cloud Global Search | 20. Mai 2021 | Mit dieser Version können Sie mit der globalen Experience Cloud-Suche nach allen [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Dokumentationen, -Kursen und -Tutorials suchen. (Derzeit steht die globale Suche nur Benutzern von Experience Platform zur Verfügung. Die globale Suchfunktion für die [!UICONTROL Plattform] ermöglicht es Ihnen, in Experience Cloud nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
+| Experience Cloud Global Search | 20. Mai 2021 | Mit dieser Version können Sie mit der globalen Experience Cloud-Suche nach allen [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Dokumentationen, -Kursen und -Tutorials suchen. (Derzeit steht die globale Suche nur Benutzern von Experience Platform zur Verfügung. Die globale Suchfunktion für die [!UICONTROL Platform] ermöglicht es Ihnen, in Experience Cloud nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
 | Experience Cloud-Spracheinstellungen | 20. Mai 2021 | Dieses Update bietet die Möglichkeit, Ihre bevorzugten Sprachen in den Experience Cloud-[Voreinstellungen](https://experience.adobe.com/preferences) festzulegen. |
 
 {style=&quot;table-layout:auto&quot;}
@@ -81,7 +81,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 ## Januar 2020
 
-* Die Feed-Seite wurde im Dezember 2019 eingestellt. Innerhalb des Produkts finden Sie eine Benachrichtigung zur Einstellung. (MCUI-10039)
+* Die Feed-Seite wird seit Dezember 2019 nicht mehr unterstützt. Innerhalb des Produkts finden Sie eine Benachrichtigung zur Einstellung. (MCUI-10039)
 
 ## August 2019
 
@@ -118,11 +118,11 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Vorkonfigurierte Produktkonfigurationen in der Admin Console </p> </td> 
-   <td colname="col2"> <p>Experience Cloud-Kundenadministratoren können Produktkonfigurationen verwenden, die vorab erstellt und für Analytics und das Dynamic Tag Management Standardberechtigungsgruppen zugeordnet sind. </p> <p>Diese Optimierung ist für neu bereitgestellte Organisationen verfügbar und verringert die Zeit, die Organisationen zur Verwaltung von Benutzern in der Admin Console benötigen. </p> </td> 
+   <td colname="col2"> <p>Kundenadministratoren in Experience Cloud können Produktkonfigurationen nutzen, die zuvor erstellt und Standardberechtigungsgruppen für Analytics und das Dynamic Tag Management zugeordnet wurden. </p> <p>Diese Optimierung ist für neu bereitgestellte Organisationen verfügbar und verringert die Zeit, die Organisationen zur Verwaltung von Benutzern in der Admin Console benötigen. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Feed-Verbesserung </p> </td> 
-   <td colname="col2"> <p> Beim Erstellen eines Beitrags im Experience Cloud-Feed verwendet die Zeile "An"jetzt standardmäßig das derzeit aktive Thema anstelle der Organisation.</p> </td> 
+   <td colname="col2"> <p> Beim Erstellen eines neuen Beitrags im Experience Cloud-Feed wird in der Zeile „An“ jetzt standardmäßig das derzeit aktive Thema anstelle der Organisation verwendet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,11 +143,11 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen in Experience Cloud Assets </p> </td> 
-   <td colname="col2"> <p>In Experience Cloud Assets können Sie Ihre digitalen Assets an einem zentralen Speicherort speichern, freigeben und synchronisieren. Experience Cloud Assets verwendet einige der Funktionen, die in <span class="keyword"> Adobe Experience Manager</span> (AEM) verfügbar sind. </p> <p>Weitere Informationen finden Sie unter <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
+   <td colname="col2"> <p>In Experience Cloud Assets können Sie Ihre digitalen Assets an einem zentralen Speicherort speichern, freigeben und synchronisieren. Experience Cloud Assets nutzen einige in <span class="keyword"> Adobe Experience Manager</span> (AEM) verfügbare Funktionen. </p> <p>Weitere Informationen finden Sie unter <a href="experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0" format="dita" scope="local">Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen bei der Kontoverknüpfung </p> </td> 
-   <td colname="col2"> <p>Der Arbeitsablauf für die Verknüpfung von Konten der Lösung mit der Experience Cloud (Adobe ID) wurde verbessert. Dieser neue Arbeitsablauf ermittelt alle Konten des Benutzers, die mit einem Unternehmen verbunden sind, und ermöglicht Ihnen die Auswahl des Kontos, das verknüpft werden soll. Außerdem wurde die Erfahrung bei der Kontoverknüpfung optimiert, sodass Sie nicht mehr auf die Seite "Unternehmen verwalten"zugreifen müssen, um Konten manuell zu verknüpfen. </p> </td> 
+   <td colname="col2"> <p>Der Arbeitsablauf für die Verknüpfung von Konten der Lösung mit der Experience Cloud (Adobe ID) wurde verbessert. Dieser neue Arbeitsablauf ermittelt alle Konten des Benutzers, die mit einem Unternehmen verbunden sind, und ermöglicht Ihnen die Auswahl des Kontos, das verknüpft werden soll. Außerdem wurde die Erfahrung bei der Kontoverknüpfung optimiert, sodass Sie nicht mehr auf die Seite „Unternehmen verwalten“ zugreifen müssen, um Konten manuell zu verknüpfen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -179,7 +179,7 @@ Wenn Sie über **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** 
 
 >[!NOTE]
 >
->Microsoft® ist [Endunterstützung](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
+>Microsoft® [beendet den Support](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Aus diesem Grund werden keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
 
 ## Version 15.10 – 14. Oktober 2015 {#section_68123833D3634BD3A473C12862BF9606}
 
@@ -251,7 +251,7 @@ Keine Informationen verfügbar.
    <td colname="col1"> <p>Verwaltungsverbesserungen: </p> 
     <ul id="ul_7D5FCBEFA262435D865CA1018BFB792E"> 
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
-     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise- und Federated ID-Support </li> 
+     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise und Federated ID-Unterstützung </li> 
     </ul> </td> 
    <td colname="col2"> <p>Die Funktionen zur Benutzer- und Gruppenverwaltung wurden in die Admin Console verschoben. Der neue Navigationspfad lautet: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Admin Console starten</span></p> <p> Außerdem wurde die Unterstützung für Enterprise IDs und Federated IDs hinzugefügt. Sie können Enterprise IDs, Federated IDs und Adobe-IDs in derselben Unternehmensimplementierung verwenden. Verwenden Sie beispielsweise Adobe-IDs für Benutzer, die andere Adobe-Produkte und -Dienste verwenden dürfen. Verwenden Sie Enterprise IDs oder Federated IDs für Benutzer, deren Konten Sie streng verwalten möchten. </p> </td> 
   </tr> 
@@ -264,7 +264,7 @@ Keine Informationen verfügbar.
 
 **Bekannte Probleme**
 
-* Die Verknüpfung und Aufhebung der Verknüpfung Ihres dynamischen Tag-Management-Unternehmens mit der Experience Cloud funktioniert nicht für neu erstellte Experience Cloud-Unternehmen. Adobe arbeitet daran, dies zu beheben und die normale Funktionalität mit der Mai-Version wiederherzustellen. Sollten Sie Probleme mit Single Sign-on beim Dynamic Tag Management über die Experience Cloud haben, melden Sie sich unter [!DNL dtm.adobe.com] mit Ihrem gewohnten Konto an.
+* Die Verknüpfung und Aufhebung der Verknüpfung Ihres dynamischen Tag-Management-Unternehmens mit der Experience Cloud funktioniert nicht für neu erstellte Experience Cloud-Unternehmen. Adobe arbeitet daran, dieses Problem zu beheben und die normale Funktionalität im Rahmen der Mai-Version wiederherzustellen. Sollten Sie Probleme mit Single Sign-on beim Dynamic Tag Management über die Experience Cloud haben, melden Sie sich unter [!DNL dtm.adobe.com] mit Ihrem gewohnten Konto an.
 * Ein bekanntes Problem verhindert die Freigabe von Zielgruppen aus Report Suites, die nicht dem verknüpften Analytics-Konto gehören. An einer Lösung wird bereits gearbeitet.
 
 ## Version 15.3.2 – 19. März 2015 {#section_07760FD9CA43497FA8BDCCA990A24BFD}
@@ -279,7 +279,7 @@ Keine Informationen verfügbar.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Kundenattribute </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie die Daten in eine Kundenattribut-Datenquelle im Experience Cloud hochladen. Nach dem Hochladen der Daten können Sie die Berichte <span class="uicontrol">Besucherprofil</span> &gt; <span class="uicontrol">Kundenattribute</span> in Analytics ausführen. </p> <p>Die hochgeladenen Daten können Sie in <span class="keyword">Adobe Target</span> auch als Zielgruppensegment verwenden. </p> <p>Siehe <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Produktdokumentation zu Kundenattributen</a>. </p> <p> Informationen zur Modernisierung Ihrer Lösungen für Hauptdienste finden Sie unter <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktivieren Ihrer Lösungen für Hauptdienste</a>. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Nach dem Hochladen der Daten können Sie die Berichte <span class="uicontrol">Besucherprofil</span> &gt; <span class="uicontrol">Kundenattribute</span> in Analytics ausführen. </p> <p>Die hochgeladenen Daten können Sie in <span class="keyword">Adobe Target</span> auch als Zielgruppensegment verwenden. </p> <p>Siehe <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Produktdokumentation zu Kundenattributen</a>. </p> <p> Informationen zur Modernisierung Ihrer Lösungen für Hauptdienste finden Sie unter <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktivieren Ihrer Lösungen für Hauptdienste</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -481,7 +481,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * [!DNL Exchange]-Benutzer müssen ihre Cookies löschen, um ihres Benutzererlebnis zu verbessern.
 * Die Benutzeroberfläche der [!DNL Experience Cloud] ist u. U. beeinträchtigt, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
 * Einige Benutzer werden möglicherweise feststellen, dass ihre [!DNL Creative Cloud]-Inhalte aus ihrem Ordner entfernt wurden, wenn die Inhalte in [!DNL Experience Cloud] nicht freigegeben sind.
-* Nach 15 Minuten Inaktivität werden Sie abgemeldet. Außerdem werden Sie beim Abmelden an einem Ort von [!DNL Experience Cloud] abgemeldet.
+* Nach 15 Minuten Inaktivität werden Sie abgemeldet. Zudem werden Sie, wenn Sie sich an einem Ort abmelden, von der [!DNL Experience Cloud] abgemeldet.
 * Einige Benutzer sind u. U. nicht in der Lage, ihre Audience Manager-Konten mit der [!DNL Experience Cloud] zu verknüpfen.
 * [!UICONTROL Exchange]-Benutzer können nur Englisch in der Sprachauswahl anzeigen.
 
@@ -518,7 +518,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Die [!DNL Search&Promote]-Verknüpfungen stehen auf der Seite [!UICONTROL Unternehmen und Produktzugriff] nicht zur Verfügung.
 * Filter, die auf Trendberichte aus [!DNL Analytics] angewendet werden, werden nicht auf Karten in der [!DNL Experience Cloud] angewendet.
 * Einige Benutzer können ihr Zielgruppen-Management-Konto nicht mit ihrem [!DNL Experience Cloud]-Konto verknüpfen.
-* Nach 15 Minuten Inaktivität werden Sie abgemeldet. Außerdem werden Sie beim Abmelden an einem Ort vom Experience Cloud abgemeldet.
+* Nach 15 Minuten Inaktivität werden Sie abgemeldet. Zudem werden Sie, wenn Sie sich an einem Ort abmelden, von der Experience Cloud abgemeldet.
 * Bei einigen Exchange-Benutzern wird der Name in den Kommentaren möglicherweise als lange ID anstelle des richtigen Namens angezeigt.
 
 **Fehlerbehebungen**
@@ -537,11 +537,11 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Hilfe</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle">Exchange</span> ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. </p> <p>Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittanbietern, Berichte und <span class="keyword"> Experience Cloud</span>-Karten. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Hilfe</span> &gt; <span class="uicontrol">Exchange</span></p> <p><span class="keyword">Experience Cloud</span><span class="wintitle">Exchange</span> ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. </p> <p>Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern, Berichte und <span class="keyword">Experience Cloud</span>-Karten. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud-Zielgruppen </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Zielgruppen</span></p> <p> In <span class="wintitle">Zielgruppen</span> erstellen, bearbeiten und verwalten Sie Zielgruppen in etwa so, wie Sie mit Segmenten arbeiten. Sie können beispielsweise ein Segment in Reports &amp; Analytics erstellen und es dann für <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Zielgruppen</span> freigeben. Nach der Freigabe ist die Zielgruppe in <span class="keyword">Adobe Target</span> für Kampagnenaktivitäten und in Adobe Audience Manager für die Segmentierung verfügbar. </p> <p> <p>Hinweis: Um die Aktivierung in Target anzufordern, besuchen Sie <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Zielgruppen</span></p> <p> In <span class="wintitle">Zielgruppen</span> erstellen, bearbeiten und verwalten Sie Zielgruppen in etwa so, wie Sie mit Segmenten arbeiten. Sie können z. B. ein Segment in Reports &amp; Analytics erstellen und es dann in <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Zielgruppen</span> freigeben. Nach der Freigabe ist die Zielgruppe in <span class="keyword">Adobe Target</span> für Kampagnenaktivitäten und in Adobe Audience Manager für die Segmentierung verfügbar. </p> <p> <p>Hinweis: Um die Aktivierung in Target anzufordern, besuchen Sie<a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -549,11 +549,11 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Neue Adobe-Benutzer können ihre Scene7-Konten mit Adobe ID und ihren Teammitgliedern verknüpfen. Administratoren können auch die Verknüpfung von Benutzern mit Scene7-Konten aufheben. </p> </td> 
+   <td colname="col2"> <p>Neue Benutzer von Adobe können ihre Scene7-Konten mit einer Adobe ID und ihren Team-Mitgliedern verknüpfen. Administratoren können auch die Verknüpfung von Benutzern mit Scene7-Konten aufheben. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Asset-Synchronisierung. </p> </td> 
-   <td colname="col2"> <p> Sie können Assets in Experience Manager Assets für Experience Cloud und Creative Cloud freigeben. Alle Änderungen an diesen Assets werden in den freigegebenen Kopien der Assets in Experience Cloud und Creative Cloud übernommen. </p> </td> 
+   <td colname="col2"> <p> Assets innerhalb von Experience Manager-(-)Assets können Sie über die Experience Cloud und die Creative Cloud freigeben. Alle Änderungen an diesen Assets werden in den freigegebenen Kopien der Assets in Experience Cloud und Creative Cloud übernommen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -574,7 +574,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Beim Löschen von Dateien aus [!DNL Experience Cloud] wurde dieser Vorgang bei manchen Benutzern nicht mit dem [!DNL Digital Asset Management] synchronisiert.
 * Benutzer wurden nach nur 15 Minuten Browserinaktivität abgemeldet.
 * Benutzer konnten auf Pinnwänden keine PowerPoint-Dateien freigeben.
-* Einige Benutzer hatten ein schlechtes visuelles Layout in Internet Explorer 10.
+* Bei einigen Benutzern war das visuelle Layout im Internet Explorer 10 schlecht.
 
 ## Version 14.4.1 – 22. April 2014 {#section_E2A699764E744D2E8D418E9A3D40AF6B}
 
@@ -625,7 +625,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 
 ## Version 14.3.1 – 13. März 2014 {#section_5D142E3225E3477A84DC01B8197D39BC}
 
-Version 14.3.1 ist eine Wartungsversion, die sich auf Geschwindigkeit, Stabilität und Sicherheit konzentriert. Sie enthält keine wichtigen neuen Funktionen.
+Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit, Stabilität und Sicherheit. Sie enthält keine wichtigen neuen Funktionen.
 
 **Fehlerbehebungen**
 
