@@ -12,13 +12,13 @@ exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 74%
+ht-degree: 84%
 
 ---
 
 # Verwaltung der Creative Cloud-Benutzer
 
-Experience Cloud bietet Verwaltungs-Tools für die Verwaltung von genehmigten Creative Cloud-Usern. Diese User können auf Ad-hoc-Basis zu einem Kampagnenordner eingeladen werden. Nur User, die von einem Administrator zur Liste hinzugefügt wurden, können zu einer Kampagne eingeladen werden. Die hinzugefügten Benutzer werden in der Benutzerliste für die automatische Vervollständigung im Experience Cloud angezeigt.
+Experience Cloud bietet Verwaltungs-Tools für die Verwaltung von genehmigten Creative Cloud-Usern. Diese User können auf Ad-hoc-Basis zu einem Kampagnenordner eingeladen werden. Nur User, die von einem Administrator zur Liste hinzugefügt wurden, können zu einer Kampagne eingeladen werden. Die hinzugefügten Benutzer werden in Experience Cloud in der Benutzerliste für die automatische Vervollständigung angezeigt.
 
 >[!NOTE]
 >
