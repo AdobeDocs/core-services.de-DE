@@ -7,14 +7,14 @@ index: true
 source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 81%
+ht-degree: 97%
 
 ---
 
 
 # Zentrale Schnittstellenkomponenten von Experience Cloud {#interface}
 
-+ [Komponentenleitfaden für die zentrale Benutzeroberfläche von Experience Cloud](experience-cloud.md)
++ [Handbuch für Komponenten der Experience Cloud Zentrale Schnittstelle](experience-cloud.md)
 + Experience Cloud Services {#services}
    + [Experience Cloud Services](core-services-landing.md)
    + [Implementierung für lösungsübergreifende Dienste aktivieren](core-services.md)
@@ -47,7 +47,7 @@ ht-degree: 81%
       + [Ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hochladen](t-cc-asset-upload-thor.md)
       + [Dateivoraussetzungen für die Freigabe von Assets](assets-file-reqs.md)
       + [Verhalten freigegebener Ordner](asset-behavior.md)
-+ Experience Cloud Administration {#administration}
++ Verwaltung von Experience Clouden {#administration}
    + [Verwalten der Benutzeridentität und Produkte in Experience Cloud (Admin Console)](admin-getting-started.md)
    + [Anzeigen von Experience Cloud-Benutzerdetails (Admin-Tool)](admin-tool-experience-cloud.md)
    + [Häufig gestellte Fragen](faq.md)
@@ -68,8 +68,8 @@ ht-degree: 81%
       + [Cookies in [!DNL Search and Promote]](cookies-snp.md)
       + [Cookies in [!DNL Target]](cookies-target.md)
       + [Datenschutzeinstellungen für Browser-Cookies aktivieren](browser-cookie-settings.md)
-      + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden ](cookies-thirdparty.md)
-+ Versionshinweise zur Experience Cloud-Benutzeroberfläche {#release-notes}
+      + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies-thirdparty.md)
++ Versionshinweise für Experience Cloud UI {#release-notes}
    + [Versionshinweise zu Komponenten der zentralen Benutzeroberfläche](release-notes.md)
    + [Versionshinweise für alle Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
 + Zusätzliche Ressourcen {#more-resources}
