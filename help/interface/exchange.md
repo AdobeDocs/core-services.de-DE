@@ -11,14 +11,14 @@ level: Experienced
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
 # Exchange Marketplace
 
-Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittanbietern und Berichte.
+Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Mobile Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte.
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Hilfe]** > **[!UICONTROL Exchange]**
 
