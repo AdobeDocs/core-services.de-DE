@@ -2,7 +2,7 @@
 description: Informationen zu den Aktualisierungen der Adobe Experience Cloud-Hilfe.
 keywords: Experience Cloud Services
 solution: Experience Cloud
-title: Dokumentation-Aktualisierungen
+title: Dokumentationsaktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 feature: Kundenattribute
 topic: Administration
@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -26,11 +26,11 @@ Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation
 
 **Aktualisiert: 04.06.2021**
 
-Die Struktur des Leitfadens und das Inhaltsverzeichnis wurden neu strukturiert.
+Die Struktur des Handbuchs und das Inhaltsverzeichnis wurden neu strukturiert.
 
 **Aktualisiert: 01.06.2021**
 
-[Landingpage](experience-cloud.md) wurde um eine neue Hilfe zum Zugriff auf Experience Cloud, globale Suche, Voreinstellungen und Benachrichtigungen erweitert.
+[Landingpage](experience-cloud.md) wurde aktualisiert und um eine neue Hilfe zum Zugriff auf Experience Cloud, globale Suche, Voreinstellungen und Benachrichtigungen erweitert.
 
 **Aktualisiert: 19.08.2020**
 
@@ -38,13 +38,13 @@ Die Struktur des Leitfadens und das Inhaltsverzeichnis wurden neu strukturiert.
 
 **Aktualisiert: 19.05.2020**
 
-Veraltete Dokumentation zum Angebotsmanagement.
+Veraltete Dokumentation zur Angebotverwaltung.
 
 **Aktualisiert: 15.05.2020**
 
 Die folgenden Seiten wurden hinzugefügt:
 
-* [Unterstützung der Datenschutz-Grundverordnung ](gdpr.md)
+* [Unterstützung der Datenschutz-Grundverordnung](gdpr.md)
 * [Unterstützung des California Consumer Privacy Act](ccpa.md)
 
 **Aktualisiert: 10.03.2020**
@@ -57,7 +57,7 @@ Hinzufügung der [Anzeigen von Experience Cloud-Benutzerdetails (Admin Tool)](ad
 
 **Aktualisiert: 05.09.2018**
 
-Es wurde hinzugefügt, wie ein Kundenattribut gelöscht werden kann. Siehe [(Optional) Aktualisieren Sie das Schema (Attribute löschen)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
+Eine Beschreibung wurde hinzugefügt, wie ein Kundenattribut gelöscht werden kann. Siehe [(Optional) Aktualisieren Sie das Schema (Attribute löschen)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
 **Aktualisiert: 08.06.2018**
 
