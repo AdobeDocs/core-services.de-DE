@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie das Kundenattribut-Schema in Adobe Experience Cloud überprüfen.
+description: Hier erfahren Sie, wie Sie das Kundenattribut-Schema in Adobe Experience Cloud validieren.
 keywords: Kundenattribute; Experience Cloud-Dienste
 solution: Experience Cloud
 title: 'Validieren des Kundenattribut-Schemas '
@@ -12,11 +12,11 @@ exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# Prüfen des Schemas
+# Prüfen Sie das Schema
 
 Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.). Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur Überprüfung aller zukünftigen Daten verwendet, die in diese Datenquelle hochgeladen werden. Der Zuordnungsprozess ändert die Originaldaten nicht.
 
@@ -46,7 +46,7 @@ Auf der Seite „[!UICONTROL Schema überprüfen]“ stellt jede Schemazeile ein
 
    * **[!UICONTROL AVID (Analytics-Besucher-ID):]** Zeigt an, ob Sie eine „prop“ oder „eVar“ zum Hochladen von CIDs verwenden. Wenn diese IDs an Experience Cloud weitergegeben werden, werden hier die Besucher-IDs angezeigt, die mit der von Ihnen eingegebenen CID verknüpft sind.
 
-Sie können Daten auch via FTP hochladen, nachdem Sie eine Kundenattributquelle und ein FTP-Konto im Experience Cloud erstellt haben. Pro Attributquelle erstellen Sie ein FTP-Konto. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im `.csv`-Format vorliegen, wobei eine zweite `.fin`-Datei angibt, dass der Upload abgeschlossen ist.
+Sie können Daten auch via FTP hochladen, nachdem Sie eine Kundenattributquelle und ein FTP-Konto in der Experience Cloud erstellt haben. Pro Attributquelle erstellen Sie ein FTP-Konto. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im `.csv`-Format übertragen werden, wobei eine zweite `.fin`-Datei am Ende angibt, dass das Hochladen abgeschlossen ist.
 
 Die Namen, die Sie den Zeichenfolgen, Ganzzahlen und Nummern geben, werden zur Erstellung der [!DNL Analytics]-Metriken verwendet.
 
@@ -60,6 +60,6 @@ Die Namen, die Sie den Zeichenfolgen, Ganzzahlen und Nummern geben, werden zur E
 
    * **Zahlen:** Kann bis zu zwei Dezimalstellen haben.
 
-* **[!UICONTROL Anzeigename:]** Ein benutzerfreundlicher Anzeigename für das Attribut. Sie können beispielsweise das Attribut *Kundenalter* in *Kunde seit* ändern.
+* **[!UICONTROL Anzeigename:]** Ein benutzerfreundlicher Anzeigename für das Attribut. Beispielsweise können Sie das Attribut *Kundenalter* in *Kunde seit* ändern.
 
 * **[!UICONTROL Beschreibung:]** Eine benutzerfreundliche Beschreibung des Attributs.
