@@ -1,7 +1,7 @@
 ---
 title: 'Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO) '
 description: Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
-feature: 'Kundenattribute '
+feature: Kundenattribute
 topic: Administration
 role: Admin
 level: Experienced
@@ -9,19 +9,19 @@ exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
 
-Auf dieser Seite wird beschrieben, wie [!UICONTROL Kundenattribute] die Datenschutz-Grundverordnung (DSGVO) unterstützt.
+Auf dieser Seite wird beschrieben, wie [!UICONTROL Kundenattribute] die Datenschutz-Grundverordnung (DSGVO) unterstützen.
 
 >[!IMPORTANT]
 >
 >Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Wenden Sie sich an Ihren Rechtsbeistand, um Beratung zur DSGVO zu erhalten.
 
-Die [Datenschutz-Grundverordnung](https://business.adobe.com/privacy/general-data-protection-regulation.html) ist am 25. Mai 2018 in Kraft getreten und bietet allen Personen (betroffenen Personen) innerhalb der Grenzen der Europäischen Union (EU) die Kontrolle über ihre personenbezogenen Daten. Außerdem wird das regulatorische Umfeld für internationale Geschäftsbeziehungen vereinfacht. Dieses Gesetz gilt für alle Unternehmen (Datenverantwortliche), die innerhalb der Grenzen der EU zum Zeitpunkt der Verarbeitung ihrer personenbezogenen Daten Waren oder Dienstleistungen anbieten, das Verhalten von Personen überwachen oder personenbezogene Daten von Personen sammeln, unabhängig davon, wo sich der Geschäftssitz des Datenverantwortlichen befindet.
+Die [Datenschutz-Grundverordnung](https://business.adobe.com/de/privacy/general-data-protection-regulation.html) ist am 25. Mai 2018 in Kraft getreten und bietet allen Personen (betroffenen Personen) innerhalb der Grenzen der Europäischen Union (EU) die Kontrolle über ihre personenbezogenen Daten. Außerdem wird das regulatorische Umfeld für internationale Geschäftsbeziehungen vereinfacht. Dieses Gesetz gilt für alle Unternehmen (Datenverantwortliche), die innerhalb der Grenzen der EU zum Zeitpunkt der Verarbeitung ihrer personenbezogenen Daten Waren oder Dienstleistungen anbieten, das Verhalten von Personen überwachen oder personenbezogene Daten von Personen sammeln, unabhängig davon, wo sich der Geschäftssitz des Datenverantwortlichen befindet.
 
 Adobe Experience Cloud fungiert als Auftragsverarbeiter für alle personenbezogenen Daten, die es im Auftrag seiner Kunden empfängt und speichert. Als Datenverantwortlicher legen Sie fest, welche personenbezogenen Daten Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
@@ -31,7 +31,7 @@ Weitere Informationen darüber, was die DSGVO für Ihr Unternehmen bedeutet, fin
 
 ## Erforderliche Einrichtung zum Senden von Anfragen für [!UICONTROL Kundenattribute]
 
-Um Anfragen zum Zugreifen auf und Löschen von Daten für [!UICONTROL Kundenattribute] zu stellen, müssen Sie:
+Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattributen] zu stellen, ist Folgendes erforderlich:
 
 1. Sie benötigen:
 
