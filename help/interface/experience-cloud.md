@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über zentrale Schnittstellenkomponenten für Experience Cloud. Diese Hilfe umfasst die Benutzer- und Produktverwaltung in der Admin Console, die Aktivierung von Anwendungen für Experience Cloud-Dienste und die Bereitstellung von Hilfe zu Zielgruppenbibliothek, Kundenattributen, Experience Cloud-Assets und mehr.
+description: Erfahren Sie mehr über zentrale Oberflächenkomponenten für Experience Cloud. Diese Hilfe enthält Benutzer- und Produktverwaltung in der Admin Console, die Aktivierung von Programmen für Experience Cloud-Services sowie Hilfe zur Zielgruppenbibliothek, zu Kundenattributen, Experience Cloud-Elementen und mehr.
 solution: Experience Cloud
 title: Hilfe und Dokumentation zur Experience Cloud-Oberfläche
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
@@ -11,21 +11,21 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '920'
-ht-degree: 61%
+ht-degree: 91%
 
 ---
 
-# Komponentenleitfaden für die zentrale Benutzeroberfläche von Experience Cloud
+# Handbuch für Komponenten der Experience Cloud Zentrale Schnittstelle
 
-[Die integrierte Produktpalette der Experience ](https://experience.adobe.com) Cloud-Adobe für digitale Marketinganwendungen, -produkte und -dienste. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Anwendungen, Produktfunktionen und Dienste zugreifen.
+[Experience Cloud](https://experience.adobe.com) umfasst die Digital-Marketing-Programme, -Produkte und -Services von Adobe. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Programme, Produktfunktionen und Services zugreifen.
 
 ![Experience Cloud](assets/landing.png)
 
 In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 
-* Zugreifen auf Ihre Anwendungen und Dienste
+* Greifen Sie auf Ihre Programme und Services zu.
 * Suchen Sie nach Produktdokumentation, Tutorials und Community-Posts.
-* Globale Suche nach Geschäftsobjekten mithilfe einer globalen Suche (nur Experience Platform-Benutzer)
+* Suchen Sie global nach Unternehmensobjekten mithilfe einer globalen Suche (nur Experience Platform-Benutzer)
 * Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
 
 ## Melden Sie sich bei Experience Cloud an
@@ -48,7 +48,7 @@ Um auf Ihre eigenen Experience Cloud-Dienste zuzugreifen, navigieren Sie zum Anw
 
 ![](assets/platform-core-services.png)
 
-## Hilfe und Support {#search}
+## Erhalten Sie Hilfe und Support {#search}
 
 Einheitliche Hilfe bietet einen produktinternen Speicherort, an dem Sie nach Hilfeinhalten (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen und darauf zugreifen können. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
@@ -57,7 +57,7 @@ Einheitliche Hilfe bietet einen produktinternen Speicherort, an dem Sie nach Hil
 Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 
 * **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie den [!UICONTROL Support] über Twitter.
-* **[!UICONTROL Feedback]:** Teilen Sie Feedback zu Ihrem Experience Cloud-Erlebnis. Ihr Feedback wird verwendet, um die Produkte und Dienstleistungen der Adobe zu verbessern.
+* **[!UICONTROL Feedback]:** Teilen Sie Feedback zu Ihrem Experience Cloud-Erlebnis. Ihr Feedback wird verwendet, um die Produkte und Services von Adobe zu verbessern.
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
 * **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
 
@@ -125,10 +125,10 @@ Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -
 Weitere Experience Cloud-Handbücher:
 
 * [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=de)
-* [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
+* [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=de)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
-* [Experience Platform Data Collection/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=en)
+* [ Experience Platform-Datenerfassung/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de)
 * [Datenschutz-Grundverordnung-API (DSGVO-API)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
@@ -138,8 +138,8 @@ Weitere Experience Cloud-Handbücher:
 Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Experience League:
 
 * [Alle Tutorials in Experience League](https://experienceleague.adobe.com/?lang=de#quick-how-tos)
-* [Experience Platform-Tutorials](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
-* [Echtzeit-Kundendatenplattform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Experience Platform-Tutorials](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=de)
+* [Echtzeit-Kundendatenplattform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 
 ## Versionshinweise und zugehörige Experience Cloud-Hilfe
 
@@ -147,6 +147,6 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 * [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
 * [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://experienceleague.adobe.com/?lang=de) – Lernen Sie von Experten und der Community
-* [Allgemeine und berufliche Bildung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK)  - Engagieren Sie mit Adobe, um sicherzustellen, dass Sie die Produkte der Adobe optimal nutzen
-* [Customer Experience-Blog](https://blog.adobe.com/en/topics/digital-transformation.html) – Lesen Sie den Experience Cloud-Blog
+* [Ausbildung und Schulung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK) – Wenden Sie sich an Adobe, um sicherzustellen, dass Sie die Produkte von Adobe optimal nutzen
+* [Customer Experience-Blog](https://blog.adobe.com/de/topics/digital-transformation.html) – Lesen Sie den Experience Cloud-Blog
 * [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support) – Wenden Sie sich an die Adobe-Kundenunterstützung
