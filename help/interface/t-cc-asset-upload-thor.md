@@ -2,7 +2,7 @@
 description: Hier erfahren Sie, wie Sie ein Asset in einen freigegebenen Ordner vom Creative Cloud-Desktop in Experience Cloud hochladen.
 keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 solution: Experience Cloud
-title: 'Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch '
+title: 'Ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hochladen '
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
 feature: Assets
 topic: Administration
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ---
 
-# Laden Sie ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hoch
+# Ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hochladen
 
 1. Aktivieren Sie die Freigabe.
 1. Starten Sie den [!DNL Creative Cloud]-Desktop und navigieren Sie zu [!UICONTROL **Assets**].
