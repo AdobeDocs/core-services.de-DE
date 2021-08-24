@@ -12,7 +12,7 @@ exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '1425'
-ht-degree: 71%
+ht-degree: 83%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 71%
 
 Adobe Experience Cloud ist ein umfassendes Set erstklassiger integrierter Anwendungen und Services, die auf einer gemeinsamen Datenplattform mit gemeinsamen leistungsstarken Funktionen aufbauen.
 
-## Aktivieren Ihrer Experience Cloud-Anwendungen für Plattformdienste {#section_A3D024994DA3492F8435CFCC4EF035C2}
+## Aktivieren Ihrer Experience Cloud-Anwendungen für Platform Services {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
-Hilfe: [Aktivieren Ihrer Anwendungen für Plattformdienste](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Hilfe: [Ihre Anwendung für Platform Services aktivieren](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 Beschreibt Folgendes:
 
@@ -47,8 +47,8 @@ Weitere Informationen finden Sie unter [Experience Cloud ID-Dienst](https://expe
 
 **Anwendbare Lösungen oder Dienste**
 
-* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=en)
+* [Adobe Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=de)
+* [Adobe Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html?lang=de)
 
 ## Audiences {#section_5F60D7B0833348B9A1D74663AADCB42C}
 
@@ -70,7 +70,7 @@ Erstellen und verwalten Sie Audiences in der Experience Cloud-Zielgruppenbibliot
 
 Hilfe: [Kundenattribute](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
-Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie die Daten in eine Kundenattribut-Datenquelle im Experience Cloud hochladen. Verwenden Sie nach dem Hochladen die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target].
+Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
 **Anwendbare Lösungen oder Dienste**
 
@@ -141,7 +141,7 @@ Integrieren Sie Adobe Target in Adobe Analytics und andere Experience Cloud-Lö
 
 **Anwendbare Lösungen oder Dienste**
 
-* Kundenattribute: Konfigurieren von Adobe Target [subscription](subscription.md) für Kundenattribute
+* Kundenattribute: Konfigurieren des Adobe Target- [Abonnements](subscription.md) für Kundenattribute
 * Experience Cloud-Zielgruppen: [Experience Cloud-Zielgruppenbibliothek](audience-library.md)
 * Analytics: [Adobe Analytics als Berichtsquelle für Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
 * Dynamic Tag Management: [Best Practices für die Implementierung von Adobe Target mit DTM](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
@@ -187,7 +187,7 @@ Hilfe (Anmeldung erforderlich): [Integration mit Adobe Experience Cloud-Lösunge
 
 **Analytics:** kann Daten zu Website-Interaktion und Konversion täglich an [!DNL Adobe Advertising] senden, wo die Daten zur Anzeigenoptimierung und Berichterstellung zur Verfügung stehen. Außerdem kann [!DNL Advertising] Daten zu Suchmaschinen und Traffic-Daten in Social Media täglich an Analytics senden, wo diese Daten dann für Berichte in Reports &amp; Analytics, Report Builder, Ad Hoc Analysis-Funktionen verfügbar sind.
 
-**Dynamischer Tag-Manager:** Sie können den dynamischen Tag-Manager  [verwenden, um pixelbasierte Konversions-Tracking-Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) und Tracking-Tags von Drittanbietern für Ihre Landingpages für Such-, Social- und Display-Anzeigen in der Werbung zu erstellen. (Sie können [!DNL Advertising]-Tags auch direkt in [!DNL Advertising] erstellen.)
+**Dynamic Tag Manager:** Sie können [den dynamischen Tag-Manager zum Erstellen Advertising-pixelbasierter Konversionsverfolgungstags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) sowie Verfolgungstags von Drittanbietern für Ihre Landingpages in den Such-, Social- und Display-Anzeige-Bereichen verwenden. (Sie können [!DNL Advertising]-Tags auch direkt in [!DNL Advertising] erstellen.)
 
 **Experience Cloud-Zielgruppen:** (Advertisers mit Display-Verwaltung) Sie können eine beliebige [Adobe Experience Cloud-Zielgruppen](audience-library.md) als Ziel für Ihre Display-Anzeigen verwenden. Sie können automatisch Zielgruppen verwenden, die Sie in Experience Cloud und Zielgruppen aus Analytics erstellt haben, die Sie in Adobe Experience Cloud veröffentlicht haben. Sie können auch Zielgruppen aus Audience Manager verwenden, wenn das [!DNL Adobe Advertising]-Konto so konfiguriert ist, dass es dies zulässt. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie weitere Informationen zum Zugriff auf Adobe Experience Cloud, zu Profilen und Zielgruppen sowie zur Ersteinrichtung von [!DNL Adobe Advertising]- und Adobe Experience Cloud-Zielgruppen erhalten möchten. **Hinweis:** Wenn Sie auch Adobe Target verwenden, stehen die in Adobe Experience Cloud veröffentlichten Audiences auch für Aktivitäten in Adobe Target zur Verfügung.
 
