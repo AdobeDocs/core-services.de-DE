@@ -12,11 +12,11 @@ exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
-# Cookies in Scene7{#scene-cookies}
+# Cookies in Scene7 {#scene-cookies}
 
 Scene7 verwendet Cookies, um nützliche Informationen zu speichern, die zur Bereitstellung dynamischer Medien an den Browser genutzt werden können.
 
@@ -24,13 +24,13 @@ Scene7 speichert Informationen für einige ältere AS2 Flash-basierte Viewer lok
 
 Für AS2-Viewer, -Cookies:
 
-* Verfolgen Sie den Sitzungsstatus eines Benutzers, z. B. die aktuelle Seite und das angezeigte Bild, den aktuellen Zoomfaktor usw.
+* Verfolgen Sie den Sitzungsstatus eines Benutzers, z. B. die aktuelle Seite und das angezeigte Bild, den aktuellen Zoomfaktor usw.
 * Bestimmen Sie, wie viel Zeit seit der vorherigen Sitzung des Benutzers vergangen ist. Der Viewer verwendet diese Informationen, um zu entscheiden, ob eine vorherige Sitzung fortgesetzt oder eine neue Sitzung gestartet werden soll. Diese Informationen werden auch an die Scene7-Server gesendet, jedoch nicht verwendet.
 
 Für AS2 Flash eCatalog-Viewer, -Cookies:
 
 * Cookies speichern benutzergenerierte Inhalte (in erster Linie Inhalte, die vom Benutzer im E-Katalog-Viewer in der „Kurznotiz“-Funktion eingegeben werden). Dieser Inhalt wird wiederhergestellt, wenn der Benutzer eine Sitzung wieder aufnimmt.
-* Wenn der Benutzer eine E-Mail initiiert, um den Katalog für einen anderen Benutzer freizugeben, wird der Inhalt der Kurznotizen aus dem zweiten AS2-Viewer-Aufzählungszeichen auf die Server der Adobe kopiert, um ihn dem Empfänger bereitzustellen. Wenn der Empfänger die Viewer-Sitzung initiiert, wird der Inhalt der Kurznotizen vom Server abgerufen und in ein Cookie kopiert. Diese Funktion wird nur wenig genutzt, sodass sie nicht abläuft und alte Inhalte nicht entfernt werden. Derzeit bleibt es auf den Servern unbegrenzt.
+* Wenn der Benutzer eine E-Mail zur eCatalog-Freigabe für einen anderen Benutzer initiiert, wird der Inhalt der Kurznotizen des zweiten AS2-Viewers auf die Server von Adobe kopiert, um ihn dem Empfänger bereitzustellen. Wenn der Empfänger die Viewer-Sitzung initiiert, wird der Inhalt der Kurznotizen vom Server abgerufen und in ein Cookie kopiert. Diese Funktion wird nur wenig genutzt, sodass sie nicht abläuft und alte Inhalte nicht entfernt werden. Derzeit bleibt es auf den Servern unbegrenzt.
 
 Die neueren AS3-Viewer implementieren keine Sitzungspersistenz.
 
