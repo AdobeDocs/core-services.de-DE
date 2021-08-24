@@ -1,15 +1,15 @@
 ---
-description: 'Erfahren Sie mehr über die zentralen Komponenten der Benutzeroberfläche in Experience Cloud, einschließlich der globalen Suche, Ihrer Kontoeinstellungen, der Navigation in der Benutzeroberfläche und der Hilfe. '
+description: 'Erfahren Sie, wie Sie sich anmelden und über die zentralen Komponenten der Benutzeroberfläche in Experience Cloud. Erfahren Sie mehr über die globale Suche, Ihre Kontovoreinstellungen und wie Sie in der Benutzeroberfläche navigieren und Hilfe erhalten. '
 solution: Experience Cloud
 title: 'Zentrale Komponenten der Experience Cloud-Benutzeroberfläche '
 feature: „Zentrale Komponenten der Benutzeroberfläche“
 topic: Administration.
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 88%
+source-wordcount: '718'
+ht-degree: 50%
 
 ---
 
@@ -21,17 +21,54 @@ Die zentralen Komponenten der Benutzeroberfläche von Experience Cloud umfassen 
 * der globalen Suche nach Produkthilfe und Geschäftsobjekten suchen können
 * Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
 
-## Melden Sie sich bei Experience Cloud an
+## Browserunterstützung in Experience Cloud {#browser}
+
+Für optimale Leistung wurde Experience Cloud für die beliebtesten Browser optimiert, einschließlich der neuesten Version und der beiden Vorgängerversionen.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Wenn Ihr Browser nicht aufgeführt ist, wird er möglicherweise weiterhin unterstützt. Es wird jedoch empfohlen, einen der aufgelisteten Browser zu verwenden.
+
+>[!NOTE]
+>
+>Nicht alle Anwendungen, die auf der Experience Cloud-Domäne ausgeführt werden, unterstützen alle Browser. Wenn Sie sich nicht sicher sind, lesen Sie die Dokumentation zu einer bestimmten Anwendung.
+
+## Sprachunterstützung in Experience Cloud {#languages}
+
+Experience Cloud unterstützt bevorzugte Sprachen für jeden Benutzer, wie in den Voreinstellungen Ihres Adobe-Benutzerkontos festgelegt. Derzeit werden folgende Sprachen unterstützt:
+
+* Chinesisch
+* Englisch
+* Französisch
+* Deutsch
+* Italienisch
+* Japanisch
+* Koreanisch
+* Portugiesisch
+* spanisch
+* Taiwanisch
+
+Obwohl sich alle Anwendungsteams zur globalen Sprachunterstützung verpflichten, werden nicht alle Anwendungen in allen oben genannten Sprachen angeboten. Wenn Ihre Primärsprache in einer Experience Cloud App nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter [Benutzereinstellungen für Experience Clouden](https://experience.adobe.com/preferences) durchgeführt werden.
+
+## Melden Sie sich bei Experience Cloud an {#signin}
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
 1. Wählen Sie **[!UICONTROL Anmelden mit einer Adobe ID]** aus.
-1. Wählen Sie in Adobe Experience Cloud Ihr Unternehmen aus.
+1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
    ![](assets/organizations-menu.png)
 
-   Ihr Administrator kann Ihnen dabei helfen, sicherzustellen, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
+   Um sicherzustellen, dass Sie sich bei Ihrer richtigen [Organisation](organizations.md) angemeldet haben, klicken Sie auf Ihren Profilavatar, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie rechts in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
+
+   Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit Experience Cloud beim Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie dazu `#/sso:@domain` zur Experience Cloud-URL (`https://experience.adobe.com`) hinzu.
+
+   Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domäne `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einer bestimmten Anwendung gehen, indem Sie diese URL mit einem Lesezeichen versehen, das an den Anwendungspfad angehängt ist. (Beispiel: für Adobe Analytics `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ## Zugriff auf Experience Cloud-Anwendungen {#navigation}
 
@@ -83,7 +120,7 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 
 {style=&quot;table-layout:auto&quot;}
 
-## Benachrichtigungen und Ankündigungen
+## Benachrichtigungen und Ankündigungen {#notifications}
 
 Wählen Sie **[!UICONTROL Benachrichtigungen]** aus, um Benachrichtigungen, die für Sie wichtig sind, sowie Mitteilungen aus Adobe anzuzeigen.
 
