@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Nein. Die Experience Cloud ist ohne Zusatzkosten im Preis inbegriffen. Bestimmte
 
 ## Weshalb muss sich mein Unternehmen über die Experience Cloud-Schnittstelle anmelden?
 
-Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies ist auch der Standardpfad für den Zugriff auf Lösungen, der in Zukunft weitere individuelle Lösungsanmeldevorgänge ersetzen wird. Die Anmeldung über Experience Cloud erleichtert später eine reibungslosere Transition.
+Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies wird künftig auch der Standardpfad für den Zugriff auf Lösungen sein und eventuell andere individuelle Lösungsanmeldevorgänge ersetzen. Das Anmelden über Experience Cloud erleichtert später eine reibungslosere Transition.
 
 ## Wie gehe ich auf die Bedenken ein, die mein Unternehmen gegenüber einer Migration hat?
 
@@ -68,7 +68,7 @@ Bereitstellung im Sinne der Experience Cloud bedeutet:
 
 * Hilfe finden Sie im [Admin Console-Benutzerhandbuch](https://helpx.adobe.com/de/enterprise/admin-guide.html).
 
-* Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
+* Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
 
 * **Wichtig:** Analytics-Administratoren finden unter [Verwalten von Analytics-Benutzern in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=de) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
 
@@ -98,13 +98,13 @@ Siehe [Suchen Ihrer Organisations-ID](organizations.md).
 
 Die Organisations-ID wird auf der Landingpage der Experience Cloud und der [Landingpage der Admin Console](https://adminconsole.adobe.com) angezeigt.
 
-Alternativ kann sich ein Administrator auch bei der Admin Console (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) für eine bestimmte Organisation anmelden und Ihre IMS-Organisations-ID wird in der URL angezeigt.
+Alternativ kann sich ein Administrator auch bei der Admin Console einer bestimmten Organisation anmelden (navigieren Sie zu[https://adminconsole.adobe.com](https://adminconsole.adobe.com#)). Die IMS-Organisations-ID erscheint dann in der URL.
 
 Beispielsweise in der folgenden URL:
 
 `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
 
-Die ID lautet:
+Hier lautet die ID:
 
 `C538193582390300A495CC9@AdobeOrg`
 
