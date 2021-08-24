@@ -14,23 +14,23 @@ exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 60%
+ht-degree: 96%
 
 ---
 
 # Aktivierung
 
-Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform [!UICONTROL Datenerfassung] ([!UICONTROL Launch]) und Experience Cloud [!UICONTROL Trigger].
+Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) und Experience Cloud [!UICONTROL Triggers].
 
 ## Experience Platform Launch {#section_05DF74E9EAC94518A155095C65F54568}
 
 Bereitstellung und Verwaltung von Analyse-, Marketing- und Werbe-Tags, die Sie für relevante Kundenerlebnisse benötigen.
 
-Siehe [Experience Platform Launch-Schnellstartanleitung](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
+Siehe [Schnellstartanleitung zu Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 
-## Experience Cloud [!UICONTROL Trigger] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
+## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-[!UICONTROL Experience Cloud ] Triggerable ermöglicht es Marketing-Experten, wichtige Verhaltensweisen von Verbrauchern zu definieren und zu überwachen und anschließend eine lösungsübergreifende Kommunikation zu generieren, die bei Entscheidungen und der Personalisierung in Echtzeit verwendet werden kann.
+[!UICONTROL Experience Cloud Triggers] ermöglichen es Marketing-Experten, wichtige Verhaltensweisen von Kunden zu definieren und zu überwachen und eine lösungsübergreifende Kommunikation zu generieren, die für Entscheidungen und die Personalisierung in Echtzeit verwendet werden kann.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -46,7 +46,7 @@ Siehe [Experience Platform Launch-Schnellstartanleitung](https://experienceleagu
   </tr>
   <tr> 
    <td colname="col1"> <p>Triggers in Adobe Campaign verwenden </p> </td> 
-   <td colname="col2"> <p> In Adobe Campaign Standard 16.7 wird eine Integration mit dem neuen Trigger-Dienst eingeführt. Dieser Dienst ermöglicht es Geschäftsbenutzern, Triggers einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Trigger definiert wurde, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten zur Verfügung, die Interaktionen und Konversionen fördern. Mit dieser neuen vordefinierten Funktion können Marketingexperten Remarketing-Nachrichten zum richtigen Zeitpunkt Trigger, basierend auf Online-Ereignissen wie Warenkorbabbruch, Seitenansichten und angesehenen Videos. </p> </td>
+   <td colname="col2"> <p> In Adobe Campaign Standard 16.7 wird eine Integration mit dem neuen Trigger-Dienst eingeführt. Dieser Dienst ermöglicht es Geschäftsbenutzern, Triggers einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Trigger definiert ist, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten zur Verfügung, die Interaktion und Konversionen fördern. Diese neue vordefinierte Funktion ermöglicht es Marketing-Experten, Remarketing-Nachrichten zum richtigen Zeitpunkt und basierend auf Online-Ereignissen wie Warenkorbabbruch, Seitenansichten, angesehenen Videos und mehr auszulösen. </p> </td>
   </tr>
  </tbody>
 </table>
