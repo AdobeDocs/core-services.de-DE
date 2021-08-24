@@ -12,7 +12,7 @@ exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 1. Geben Sie auf der Seite [!UICONTROL Neue Zielgruppe erstellen] einen Titel und eine Beschreibung an.
 1. Wählen Sie unter [!UICONTROL Regeln] eine Attributquelle aus:
 
-   * **[!UICONTROL Real-Time Analytics-Daten:]**  (oder Rohdaten) Dies sind Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden und Daten wie eVars und Ereignisse enthalten. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
+   * **[!UICONTROL Daten von Real-Time Analytics:]** Hierbei handelt es sich um Attributdaten, die aus Bildanfragen in Real-Time Analytics gewonnen werden und Daten wie eVars und Ereignisse enthalten. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
    >[!NOTE]
    >
    >Aufgrund der Caching-Funktion wird die Löschung von Report Suites in Analytics erst nach 12 Stunden durch Experience Cloud übernommen.
