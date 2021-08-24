@@ -36,7 +36,7 @@ Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
 >[!IMPORTANT]
 >
->Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
+>Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
 >
 >Um die Kundenattribut-Funktion verwenden zu können, müssen Benutzer auch zu Gruppen auf Lösungsebene (Analytics oder [!DNL Target]) gehören.
 
@@ -57,7 +57,7 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
    ![](assets/01_crs_usecase.png)
 
 1. Überprüfen Sie vor dem Hochladen der Datei die wichtigen Informationen in den [Datendateivoraussetzungen](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19).
-1. [Erstellen Sie eine Kundenattributquelle und laden Sie wie nachfolgend beschrieben die Daten hoch](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
+1. [rstellen Sie eine Kundenattributquelle und laden Sie wie nachfolgend beschrieben die Daten](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) hoch.
 
 ## Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch {#task_09DAC0F2B76141E491721C1E679AABC8}
 
@@ -102,7 +102,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** Die Alias-ID entspricht *„idType“* in [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=de).
+      * **Android:** Die Alias-ID entspricht *„idType“* in [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=de).
 
          Beispiel:
 
@@ -126,7 +126,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
    * **[!UICONTROL Vom Kunden bereitgestellte IDs für Experience Cloud Besucher-IDs:]** Zeigt an, wie viele IDs für Experience Cloud Besucher-IDs bereitgestellt wurden.
 
-   * **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr bereitgestellten Experience Cloud Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 zuletzt als Alias gespeicherten Experience Cloud-Besucher-IDs, bis die Aliasanzahl 10.000 erreicht hat. Bei Erreichen dieser Anzahl erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht länger zugewiesene Attribute.
+   * **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr bereitgestellten Experience Cloud Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 zuletzt als Alias gespeicherten Experience Cloud-Besucher-IDs, bis die Aliasanzahl 10.000 erreicht hat. Dann erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht länger zugewiesene Attribute.
 
 
 
@@ -169,7 +169,7 @@ Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den E
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Bereich [!UICONTROL Besucherprofil] ein Kundenattribut auswählen. Alle Kundenattribute haben das Präfix `crs.` in der Liste. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
+In [!DNL Target], können Sie beim Erstellen einer Zielgruppe im Bereich [!UICONTROL Besucherprofil] ein Kundenattribut auswählen. Alle Kundenattribute haben das Präfix `crs.` in der Liste. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
 
 ![](assets/crs-add-attribute-target.png)
 
