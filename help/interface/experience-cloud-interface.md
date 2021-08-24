@@ -63,7 +63,7 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 * Abmelden
 * [Einstellungen, Benachrichtigungen und Abonnements](#preferences) für das Konto konfigurieren
 
-### Experience Cloud[!UICONTROL -Einstellungen] verwalten {#preferences}
+### Experience Cloud [!UICONTROL -Einstellungen] verwalten {#preferences}
 
 Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
