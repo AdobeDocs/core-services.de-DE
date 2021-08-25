@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 70%
+source-wordcount: '1614'
+ht-degree: 69%
 
 ---
 
@@ -166,6 +166,6 @@ Nachdem Sie geprüft haben, dass Ihre Hostnamen reagieren und die Weiterleitung 
 
 1. Wenn Sie von einer älteren Implementierung zur Erstanbieter-Datenerfassung wechseln oder zu einem anderen Erstanbieter-Datenerfassungshostnamen wechseln, empfiehlt Adobe, Besucher aus der vorherigen Domäne in die neue Domäne zu migrieren.
 
-Siehe [Besuchermigration](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) im Analytics-Implementierungshandbuch.
+Siehe [Besuchermigration](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) im Analytics-Implementierungshandbuch.
 
 Nachdem Sie die JavaScript-Datei hochgeladen haben, ist alles für die Erstanbieter-Datenerfassung konfiguriert. Adobe empfiehlt, Analytics Reporting in den nächsten Stunden zu überwachen, um sicherzustellen, dass die Datenerfassung wie üblich erfolgt. Ist dies nicht der Fall, stellen Sie sicher, dass alle oben genannten Schritte ausgeführt wurden und veranlassen Sie, dass ein unterstützter Mitarbeiter Ihrer Organisation die Kundenunterstützung kontaktiert.
