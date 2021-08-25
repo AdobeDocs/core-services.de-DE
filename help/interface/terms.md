@@ -1,19 +1,19 @@
 ---
 description: Hier erfahren Sie mehr über Begriffe in Adobe Experience Cloud und über Unterschiede zu Begriffen in Creative Cloud.
 keywords: Asset-Freigabe; Zielgruppendienste; Creative Cloud; Hauptdienste
-seo-description: 'null'
-seo-title: Terminologie
+seo-description: null
+seo-title: Terminology
 solution: Experience Cloud
 title: 'Terminologie '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"Kundenattribute"'
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1453'
 ht-degree: 98%
 
 ---
@@ -40,7 +40,7 @@ Eine Terminologiereferenz für Experience Cloud-Benutzer und Informationen dazu,
 | [!UICONTROL Experience Platform Identity Service] | Keine festgeschriebene Verwendung. | Der Dienst, der Identitäten verknüpft. Es handelt sich dabei um den Dienst zum Verknüpfen von Geräten für das personenbasierte Erlebnis-Management. |
 | Verlinken | Keine festgeschriebene Verwendung. „Verknüpfung“ bezieht sich auf die Navigation via Hyperlinks sowie auf die Verknüpfung von Elementen wie Schriften, Eigenschaften, Ebenen usw. | In Experience Cloud bezieht sich die Verknüpfung normalerweise auf die Verknüpfung verschiedener Konten in Lösungen mit der Benutzeroberfläche.<br>Siehe [Organisationen und Kontoverknüpfung](organizations.md).<br>Verknüpfung bezieht sich auch auf die an andere Benutzer gesendeten Standard-URLs für Analytics-Berichte. |
 | Standorte | In der Creative Cloud bezieht sich der Ort auf Dateispeicherorte oder auf eine Stelle auf einem geöffneten Bild oder einem geöffneten Dokument. | In der Experience Cloud sind Orte die Positionen, an denen Inhalt von Zielgruppen angesehen wird (und zur Interaktion bereitsteht). Die Verbindung von Position und Inhalt kann mehr oder weniger statisch sein oder dynamisch gemäß den Regeln einer Kampagne verwaltet werden. Ein Standort gehört immer zu einem bestimmten Kanal, der bestimmt, wie Inhalte bereitgestellt und Metriken erfasst werden können.<br>Zu den Beispielen gehören:<ul><li>Sites</li><li>Eigenschaften (Social)</li><li>Inventar anzeigen</li><li>Landingpages</li><li>Apps</li><li>Slots (Video)</li></ul> |
-| Metriken | Wird nicht in Creative Cloud verwendet. | Gesamtzahlen zu Schlüsselkonzepten und -zielen. In Analytics sind Metriken quantitative Informationen über Besucheraktivitäten, wie Ansichten, Durchsichten, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen und Umsatz. Siehe [Metrikbeschreibungen](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=en). |
+| Metriken | Wird nicht in Creative Cloud verwendet. | Gesamtzahlen zu Schlüsselkonzepten und -zielen. In Analytics sind Metriken quantitative Informationen über Besucheraktivitäten, wie Ansichten, Durchsichten, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen und Umsatz. |
 | Organisation | Wird nicht in Creative Cloud verwendet. | Eine Organisation ist die Experience Cloud-Entität, mit der ein Administrator Benutzer und Produkte konfigurieren und Single Sign-on in der Experience Cloud steuern kann. Meistens handelt es sich bei der Organisation um das abrechnende Unternehmen. |
 | Portfolio | Eine Zusammenstellung aus mehreren Dateien oder Assets. | Ein Container mit Kampagnen. |
 | Produktprofil | Siehe [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products.html). | Damit ein Benutzer berechtigt sein kann, ein Produkt oder einen Dienst zu verwenden, muss er Teil eines Produktprofils sein. Der Produktadministrator weist einem Produktprofil Lizenzen zu, indem er es mit einem von Ihnen erworbenen Plan verknüpft.<br>Ein Benutzer kann mehreren Produktprofilen zugeordnet werden, über die er jeweils verschiedene Lizenzen erhält. Die finale Berechtigung eines Benutzers ist die Vereinigung aller Lizenzen, die er von den einzelnen Produktprofilen erhält. |
