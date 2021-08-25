@@ -9,16 +9,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 67%
+source-wordcount: '506'
+ht-degree: 64%
 
 ---
 
-# Organisationen und Kontoverknüpfung
+# Einrichtungen in Experience Cloud
 
-Erfahren Sie mehr über die Verwaltung von Organisationen und das Verknüpfen von Lösungskonten mit der Experience Cloud.
+Erfahren Sie mehr über die Verwaltung und den Wechsel von Unternehmen in Experience Cloud.
 
 ## Organisation identifizieren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
