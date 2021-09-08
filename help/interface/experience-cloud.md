@@ -3,15 +3,15 @@ description: Erfahren Sie mehr über zentrale Oberflächenkomponenten für Exper
 solution: Experience Cloud
 title: Hilfe und Dokumentation zur Experience Cloud-Oberfläche
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"Kundenattribute"'
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 63%
+source-wordcount: '1303'
+ht-degree: 66%
 
 ---
 
@@ -33,7 +33,7 @@ In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
-1. Wählen Sie **[!UICONTROL Anmelden mit einer Adobe ID]** aus.
+1. Wählen Sie **[!UICONTROL Mit Adobe ID anmelden]** aus.
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
    ![](assets/organizations-menu.png)
@@ -122,7 +122,7 @@ Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnement
 * Abmelden
 * Einstellungen, Benachrichtigungen und Abonnements für das Konto konfigurieren
 
-Um die Voreinstellungen zu verwalten, wählen Sie **[!UICONTROL Voreinstellungen]** aus dem Kontomenü ![](assets/preferences-icon-sm.png) aus.
+Um die Voreinstellungen zu verwalten, wählen Sie die Option **[!UICONTROL Voreinstellungen]** in Ihrem Kontomenü ![](assets/preferences-icon-sm.png) aus.
 
 ![](assets/preferences-page.png)
 
@@ -130,7 +130,7 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Standard[organisation](organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
+| Standard [organisation](organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
 | [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-Over [!UICONTROL Benachrichtigungen] und in Ihren E-Mails. |
 | [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
@@ -140,7 +140,7 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 
 ## Benachrichtigungen und Ankündigungen {#notifications}
 
-Wählen Sie **[!UICONTROL Benachrichtigungen]** aus, um über relevante und umsetzbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen, benachrichtigt zu werden.
+Wählen Sie die Option **[!UICONTROL Benachrichtigungen]** aus, um über relevante und ausführbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweise, freigegebene Elemente und Genehmigungsanfragen, informiert zu werden.
 
 ![](assets/notifications-menu-small.png)
 
@@ -184,7 +184,7 @@ Weitere Experience Cloud-Handbücher:
 * [ Experience Platform-Datenerfassung/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de)
 * [Datenschutz-Grundverordnung-API (DSGVO-API)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de)
 
 ## Tutorials
 
