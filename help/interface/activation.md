@@ -12,13 +12,13 @@ role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# Aktivierung
+# Activation
 
 Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) und Experience Cloud [!UICONTROL Triggers].
 
@@ -26,7 +26,7 @@ Activation beinhaltet das neueste Tag-Management-Produkt namens Experience Platf
 
 Bereitstellung und Verwaltung von Analyse-, Marketing- und Werbe-Tags, die Sie für relevante Kundenerlebnisse benötigen.
 
-Siehe [Schnellstartanleitung zu Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
+Siehe [Schnellstartanleitung zu Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=de).
 
 ## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
