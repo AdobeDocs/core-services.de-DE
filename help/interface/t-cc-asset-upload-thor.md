@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 3fd747e5-38f8-40cc-a255-7a0130b1e32f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,5 +20,5 @@ ht-degree: 95%
 
 1. Aktivieren Sie die Freigabe.
 1. Starten Sie den [!DNL Creative Cloud]-Desktop und navigieren Sie zu [!UICONTROL **Assets**].
-1. Wählen Sie **[!UICONTROL Ordner öffnen].**.
-1. Verwenden Sie das Dateiverwaltungsprogramm Ihres Betriebssystems zur Auswahl oder zum Verschieben von Assets.
+1. Wählen Sie **[!UICONTROL Ordner öffnen]** aus.
+1. Verwenden Sie zur Auswahl oder zum Verschieben von Assets das Dateiverwaltungsprogramm Ihres Betriebssystems.
