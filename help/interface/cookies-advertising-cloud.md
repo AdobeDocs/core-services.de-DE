@@ -8,19 +8,19 @@ role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Cookies in Advertising Cloud{#advertising-cloud-cookies}
+# Cookies in Advertising Cloud {#advertising-cloud-cookies}
 
 Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigengebote zu verwenden.
 
 >[!NOTE]
 >
->Das JavaScript-Tag der Beta-Advertising Cloud, das den Dienst [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) verwendet, erstellt [Erstanbieter-Experience Cloud-s_ecid-Cookies](cookies-first-party.md) und nicht Advertising Cloud-Cookies.
+>Das JavaScript-Tag der Beta-Advertising-Cloud, das den [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) verwendet, erstellt [Erstanbieter-Experience Cloud-s_ecid-Cookies](cookies-first-party.md) und nicht Advertising-Cloud-Cookies.
 
 ## Cookie-Name: _lcc
 
@@ -34,7 +34,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>IDs und Zeitstempel (im Format JJJMMTT) der Anzeigeauswahl</p> </td> 
+   <td colname="col2"> <p>IDs und Zeitstempel (im Format JJJJ-MM-TT) von Anzeigenklicks</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -42,7 +42,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Cookie, mit dem bestimmt wird, ob ein Auswahlereignis in einer Display-Anzeige für einen Adobe Analytics-Treffer gilt </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Cookie, mit dem festgestellt wird, ob ein Klick-Ereignis auf einer Display-Anzeige als Adobe Analytics-Treffer gewertet werden soll </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -100,7 +100,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Die Zeitstempel des letzten Besuchs des Surfers auf der Website des Werbetreibenden und die letzte Suchauswahl des Surfers sowie die ef_id, die beim Auswählen einer Anzeige erstellt wurde</p> </td> 
+   <td colname="col2"> <p>Die Zeitstempel des letzten Besuchs auf der Website des Werbetreibenden und der letzte Suchklick des Besuchers sowie die ef_id, die erstellt wurde, als der Benutzer auf eine Anzeige geklickt hat</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
