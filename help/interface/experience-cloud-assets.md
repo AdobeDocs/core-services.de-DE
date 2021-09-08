@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ In [!UICONTROL Experience Cloud Assets] können Sie:
 
 ## Auf die Symbolleiste zugreifen {#section_EC2E401D225148818F3753248556BE6B}
 
-Navigieren Sie zu einem Asset (oder Asset-Verzeichnis) und wählen Sie **[!UICONTROL Auswählen]** aus.
+Navigieren Sie zu einem Asset (oder Asset-Verzeichnis) und klicken Sie auf **[!UICONTROL Auswählen]**.
 
 Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche, Timeline, Darstellungen, Bearbeiten, Anmerkungen und Herunterladen.
 
@@ -73,13 +73,13 @@ Sie können nach Keyword, Dateityp, Größe, Änderungsdatum, Veröffentlichungs
 
 ## Anmerkungen zu Assets vornehmen {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Wählen Sie **[!UICONTROL Anmerken]** aus, indem Sie Kreise oder Pfeile auf ein Bild zeichnen, und kommentieren Sie das Asset zur Überprüfung durch Mitarbeiter.
+Wählen Sie die Option **[!UICONTROL Anmerken]** aus, indem Sie Kreise oder Pfeile auf ein Bild zeichnen, und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
 
 ![](assets/assets-annotate.png)
 
 ## Assets im Vollbildmodus anzeigen und Zoomen {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Wählen Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Bild]** aus, um das vollständige Asset-Bild anzuzeigen und das Zoomen zu aktivieren.
+Wählen Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Bild]** aus, wenn Sie das vollständige Bild des Assets anzeigen und das Zoomen aktivieren möchten.
 
 ![](assets/asset-zoom.png)
 
@@ -95,6 +95,6 @@ Wählen Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Eigenschaften]** aus, um 
 
 Anzahl der Benutzer, belegten Speicherplatz und Gesamtzahl der Assets anzeigen.
 
-Wählen Sie **[!UICONTROL Tools]** > **[!UICONTROL Berichte]** > **[!UICONTROL Gebrauchsbericht]**
+Wählen Sie **[!UICONTROL Werkzeuge]** > **[!UICONTROL Berichte]** > **[!UICONTROL Verwendungsberichte]** aus
 
 ![](assets/assets-usage-report.png)
