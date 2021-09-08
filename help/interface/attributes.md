@@ -8,13 +8,13 @@ topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
 ---
 
-# Kundenattribute Übersicht
+# Kundenattribute  Übersicht
 
 Mit [!UICONTROL Kundenattributen] in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
