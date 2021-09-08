@@ -5,9 +5,9 @@ breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 user-guide-description: Erfahren Sie mehr über die Benutzeroberfläche von Experience Cloud, konfigurieren Sie Voreinstellungen, suchen Sie nach Hilfe und Geschäftsobjekten. Hier erhalten Sie Hilfe zu Benutzer- und Produktverwaltung, Kundenattributen, Zielgruppenbibliothek, Cookies und Experience Cloud-Assets.
 index: true
 source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
       + [Erstellen einer Zielgruppe](t-audience-create.md)
       + [Veröffentlichen eines Analytics-Zielgruppensegments](t-publish-audience-segment.md)
    + Experience Cloud-Kundenattribute {#customer-attributes}
-      + [Kundenattribute Übersicht](attributes.md)
+      + [Kundenattribute  Übersicht](attributes.md)
       + [Häufig gestellte Fragen zu Kundenattributen](faq-crs.md)
       + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](crs-data-file.md)
       + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](t-crs-usecase.md)
@@ -36,7 +36,7 @@ ht-degree: 97%
       + [Überlegungen zum Datenschutz bei Kundenattributen](privacy-mac.md)
    + Experience Cloud Activation {#activation}
       + [Übersicht über Activation](activation.md)
-      + [Experience Platform Launch-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+      + [Experience Platform Launch-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de)
       + [Triggers](triggers.md)
    + Experience Cloud-Assets {#assets}
       + [Übersicht über Experience Cloud Assets](experience-cloud-assets.md)
