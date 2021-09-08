@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '769'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Cookies in Analytics{#analytics-cookies}
+# Cookies in Analytics {#analytics-cookies}
 
 Adobe Analytics verwendet Cookies, um Anforderungen von verschiedenen Browsern zu unterscheiden und nützliche Informationen zu speichern, die eine Anwendung später verwenden kann. Sie können auch verwendet werden, um Browserinformationen Kundendatensätzen zuzuordnen.
 
@@ -61,7 +61,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die SelectMap-Funktion oder die Activity Map-Funktion aktiviert sind. Es enthält Informationen zum vorherigen Link, der vom Benutzer ausgewählt wurde. |
+| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die SelectMap-Funktion oder die Activity Map-Funktion aktiviert ist. Es enthält Informationen zum vorherigen Link, auf den der Benutzer geklickt hat |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
 | Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
@@ -91,7 +91,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 |--- |--- |
 | Gespeicherte Informationen | Fallback-Datums-/Uhrzeitstempel der Unique-Visitor-ID. |
 | Ablauf | 2 Jahre |
-| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
+| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet.  wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domäne gespeichert. |
 | Größe | 33 Byte |
 
@@ -113,7 +113,7 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 
 >[!NOTE]
 >
->Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domänen oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
+>Bei Verwendung eines einzelnen CNAME zur Verfolgung über mehrere Domains oder Eigenschaften hinweg sollte SameSite für `s_vi` auf „Keine“ festgelegt werden. Wenden Sie sich an die Kundenunterstützung, um Hilfe beim Ändern der Cookie-Einstellungen in Analytics zu erhalten.
 
 ## Von Plug-ins eingestellte Cookies {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
