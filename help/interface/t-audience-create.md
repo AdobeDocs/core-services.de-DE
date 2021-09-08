@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '480'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -45,8 +45,8 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 
 **Erstellen einer Zielgruppe**
 
-1. Wählen Sie unter [!DNL Experience Cloud] unter [!DNL Experience Platform] **[!UICONTROL Personen]** > **[!UICONTROL Zielgruppenbibliothek].** aus.
-1. Wählen Sie auf der Seite [!UICONTROL Zielgruppen] **[!UICONTROL Neu]**. ![](assets/add_icon_small.png) aus.
+1. Wählen Sie in [!DNL Experience Cloud], unter [!DNL Experience Platform] die Option **[!UICONTROL People]** > **[!UICONTROL Zielgruppen-Bibliothek].**.
+1. Wählen Sie auf der Seite [!UICONTROL Zielgruppen] die Option **[!UICONTROL Neu]** aus. ![](assets/add_icon_small.png)
 
    ![Schritt Ergebnis](assets/audience_create_new.png)
 
@@ -60,7 +60,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 
    * **[!UICONTROL Experience Cloud:]** Aus [!DNL Experience Cloud]-Quellen abgeleitete Attributdaten. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 
-1. Definieren Sie Zielgruppenregeln und wählen Sie **[!UICONTROL Speichern].** aus.
+1. Definieren Sie Zielgruppenregeln und wählen Sie dann **[!UICONTROL Speichern] aus.**
 
 >[!NOTE]
 >
