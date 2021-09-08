@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1274'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,10 +40,10 @@ Sie können ein Produktprofil erstellen und es einer Berechtigungsgruppe zuweise
 
 Wenn Sie einen Benutzer in eine Organisation einladen, können Sie dem Benutzer Zugriff auf Produkte und Produktprofile gewähren. Sie können auch eingeschränkte Administratorberechtigungen an einen Benutzer delegieren. Gleichermaßen können Sie Benutzergruppen erstellen und die Gruppe dann einem Produktprofil hinzufügen, um den Zugriff zu aktivieren.
 
-1. Wählen Sie in der Admin Console [a1/> **[!UICONTROL Products]** aus.](https://adminconsole.adobe.com/enterprise/)
-1. Wählen Sie den Namen Ihrer Organisation aus.
+1. Klicken Sie in der [Admin Console](https://adminconsole.adobe.com/enterprise/) auf **[!UICONTROL Produkte]**.
+1. Wählen Sie den Namen Ihres Unternehmens aus.
 1. Wählen Sie **[!UICONTROL Neues Profil]** aus.
-1. Konfigurieren Sie die Profildetails und wählen Sie **[!UICONTROL Speichern]** aus.
+1. Konfigurieren Sie die Profildetails und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
 Weitere Informationen (und Hilfe zur Produktverwaltung für Creative Cloud und Document Cloud) finden Sie unter [Identität](https://helpx.adobe.com/de/enterprise/admin-guide.html/de/enterprise/using/identity.ug.html) im [Administrations-Benutzerhandbuch](https://helpx.adobe.com/de/enterprise/admin-guide.html/de/enterprise/using/users.ug.html).
 
@@ -82,11 +82,11 @@ Sie können zum Beispiel:
 
 Mithilfe dieser Rollen können Sie die Verwaltung gleichzeitig an andere delegieren, ohne mehr Funktionen bereitzustellen, als benötigt werden.
 
-1. Wählen Sie in der Admin Console **[!UICONTROL Benutzer]** und dann den Benutzernamen aus.
+1. Klicken Sie in der Admin Console auf **[!UICONTROL Benutzer]** und anschließend auf den entsprechenden Benutzernamen.
 
    ![](assets/edit-admin-rights.png)
 
-1. Wählen Sie **[!UICONTROL Administratorrechte bearbeiten]** aus.
+1. Klicken Sie auf **[!UICONTROL Administratorrechte bearbeiten]**.
 
    ![](assets/edit-admin-rights-page.png)
 
@@ -99,8 +99,8 @@ Sie können Zugriffsberechtigungen für Analytics-Berichte (Report Suites, Metri
 
 Sie können beispielsweise ein Produktprofil erstellen, das mehrere Analytics-Tools enthält ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] und [!UICONTROL Report Builder]). Diese Profile enthalten Berechtigungen für bestimmte Metriken und Dimensionen (einschließlich eVars) sowie Funktionen wie Segmente oder die Erstellung berechneter Metriken.
 
-1. Melden Sie sich bei [Admin Console](https://adminconsole.adobe.com/enterprise) an und wählen Sie **[!UICONTROL Produkte]** aus.
-1. Wählen Sie auf der Seite [!UICONTROL Produkte] Ihr Produkt aus und wählen Sie dann **[!UICONTROL Berechtigungen]** (nur für Administratoren verfügbar).
+1. Melden Sie sich bei [der Admin Console](https://adminconsole.adobe.com/enterprise) an und klicken Sie dann auf **[!UICONTROL Produkte]**.
+1. Klicken Sie auf der Seite [!UICONTROL Produkte] auf Ihr Produkt und danach auf **[!UICONTROL Berechtigungen]** (nur für Administratoren verfügbar).
 1. Konfigurieren Sie die Profilberechtigungen:
 
 | Element | Beschreibung |
@@ -129,9 +129,9 @@ In Adobe Target ist ein Arbeitsbereich ein Produktprofil. Er ermöglicht einer O
 
 Siehe:
 
-* [Berechtigungen für Unternehmensbenutzer](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [Verwalten von Produkten und Profilen](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in der Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Berechtigungen für Unternehmensbenutzer](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=de)
+* [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/admin-guide.html/de/enterprise/using/manage-products.ug.html)
+* Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in der Adobe Admin Console](https://helpx.adobe.com/de/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign – Produktprofile, Mandanten und Sicherheitsgruppen verwalten {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -147,7 +147,7 @@ Experience Platform [!UICONTROL Datenerfassung] ([!UICONTROL Launch]) wird auf d
 
 Laden Sie Benutzer zu [!UICONTROL Platform Launch] ein und weisen Sie ihnen Benutzerrollen und -rechte zu.
 
-Informationen zu Benutzerberechtigungen in der Admin Console und zum Einrichten Launch-spezifischer Optionen, einschließlich der Zuweisung von Rechten zu Profilen, finden Sie unter [Benutzerverwaltung](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en).
+Informationen zu Benutzerberechtigungen in der Admin Console und zum Einrichten Launch-spezifischer Optionen, einschließlich der Zuweisung von Rechten zu Profilen, finden Sie unter [Benutzerverwaltung](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de).
 
 ## Experience Manager as a Cloud Service
 
@@ -173,6 +173,6 @@ Siehe [Administration](https://experienceleague.adobe.com/docs/audience-manager/
 
 ### Anforderungen an Lösungen und Produkte
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=de)
 * [Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=de)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=de)
