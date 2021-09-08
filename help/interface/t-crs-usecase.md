@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
       Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
-      * **Dynamic Tag Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en).
+      * **Dynamic Tag Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de).
 
       * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de), die Sie den einzelnen Besuchern zuordnen können.
 
