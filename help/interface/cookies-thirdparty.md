@@ -10,13 +10,13 @@ role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
 ---
 
-# Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden {#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Der Support für Drittanbieter-Cookies wurde browserübergreifend immer mehr eingeschränkt. Daher hat Adobe an neuen Lösungen gearbeitet, die die Kundenanforderungen sorgfältig mit dem Recht der Verbraucher auf Datenschutz in allen Experience Cloud-Anwendungen in Einklang bringen.
 
