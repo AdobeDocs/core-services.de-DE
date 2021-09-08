@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1119'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -35,17 +35,17 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 1. Navigieren Sie zu Report Suites für Data Governance unter [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** (siehe [Einstellungen für die Data Governance in der Report Suite zeigen/verwalten](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settingss.html?lang=de)).
 
-1. Um die Anmeldeunternehmen anzuzeigen, die Zugriff auf die einzelnen Report Suites haben, wählen Sie **[!UICONTROL Sichtbar für Anmeldeunternehmen]**.
+1. Wenn Sie anzeigen möchten, welche Unternehmensanmeldungen Zugriff auf welche Report Suite haben, klicken Sie auf **[!UICONTROL Sichtbar für Unternehmensanmeldung]**.
 
-   Mithilfe dieser Ansicht können Sie Entscheidungen über die Zuweisung einfacher treffen.
+   Mithilfe dieser Ansicht können Sie einfacher Entscheidungen über die Zuweisung treffen.
 
-1. Wählen Sie das Dropdown-Menü in der Spalte **[!UICONTROL Zugeordnete Organisation]** neben einer Report Suite aus und wählen Sie die Organisation aus, der Sie die Suite zuordnen möchten.
+1. Klicken Sie auf das Dropdown-Menü in der Spalte **[!UICONTROL Zugeordnete Organisation]** neben einer Report Suite und wählen Sie die Organisation aus, der Sie die Suite zuweisen möchten.
 
    Tipps zum Auswählen einer Experience Cloud-Organisation finden Sie im nächsten Abschnitt.
 
 ## Mehrere Report Suites einer Organisation zuweisen {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Wählen Sie **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite-Zuordnung]**.
+1. Klicken Sie auf **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite-Zuweisung]**.
 
 1. Wählen Sie die Report Suites aus, die Sie zuweisen möchten.
 
@@ -55,7 +55,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
    Tipps zum Auswählen einer Experience Cloud-Organisation finden Sie im nächsten Abschnitt.
 
-1. Wählen Sie **[!UICONTROL Speicherzuordnung]** aus.
+1. Wählen Sie **[!UICONTROL Zuweisung speichern]** aus.
 
 ## Tipps für die Auswahl einer Experience Cloud-Organisation {#mapping-tips}
 
