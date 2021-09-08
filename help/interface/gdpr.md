@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '433'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Experience Cloud fungiert als Auftragsverarbeiter für alle personenbezoge
 
 In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die DSGVO-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützen.
 
-Weitere Informationen darüber, was die DSGVO für Ihr Unternehmen bedeutet, finden Sie unter [DSGVO und Ihr Unternehmen](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Weitere Informationen darüber, was die DSGVO für Ihr Unternehmen bedeutet, finden Sie unter [DSGVO und Ihr Unternehmen](https://business.adobe.com/de/privacy/general-data-protection-regulation.html).
 
 ## Erforderliche Einrichtung zum Senden von Anfragen für [!UICONTROL Kundenattribute]
 
