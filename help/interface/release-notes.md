@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: fc29feb4425d99c4e28fb1d40036dd9d93a801c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4279'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Versionshinweise zu allen Lösungen finden Sie unter [Experience Cloud-Versionsh
 
 | Funktion | Datum | Beschreibung |
 | ------- | ------- | -------|
-| [!UICONTROL Unified Recents]  - Erweiterte Unterstützung für kürzlich aufgerufene Geschäftsobjekte | 10. August 2021 | [!UICONTROL Unified ] Recentsis wurde auf zusätzliche Geschäftsobjekte in Journey Optimizer und Experience Platform erweitert. Journey Optimizer-Kunden können ihre kürzlich aufgerufenen Objekte (Nachrichten, Journey, Segmente, Schemas, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele) von der Adobe Journey Optimizer-Startseite aus finden. |
+| [!UICONTROL Unified Recents] – Erweiterte Unterstützung für kürzlich aufgerufene Geschäftsobjekte | 10. August 2021 | [!UICONTROL Unified Recents] wurde auf zusätzliche Geschäftsobjekte in Journey Optimizer und Experience Platform erweitert. Journey Optimizer-Kunden können ihre kürzlich aufgerufenen Objekte (Nachrichten, Journeys, Segmente, Schemas, Data Sources, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele) über die Adobe Journey Optimizer-Startseite finden. |
 
 ## Juli 2021
 
@@ -295,7 +295,7 @@ Keine Informationen verfügbar.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gruppe Zuordnen </p> </td> 
+   <td colname="col1"> <p>Gruppe  Zuordnen </p> </td> 
    <td colname="col2"> <p>Die Seite „Gruppenverwaltung“ wurde neu als Verwaltungsoberfläche konzipiert, über die Sie Gruppen erstellen, Benutzer Gruppen hinzufügen und Berechtigungen für die Experience Cloud-Lösungen zuweisen können. </p> </td> 
   </tr> 
   <tr> 
@@ -304,7 +304,7 @@ Keine Informationen verfügbar.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> wird nun im linken Navigationsbereich der <span class="keyword">Experience Cloud</span> angezeigt. <span class="wintitle"> </span> Activation ist ein  <span class="keyword"> Experience </span> Cloud-Dienst, der derzeit die dynamische Tag-Management-Technologie nutzt und Sie bei Auswahl dorthin weiterleitet. </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> wird nun im linken Navigationsbereich der <span class="keyword">Experience Cloud</span> angezeigt. <span class="wintitle">Activation</span> ist ein <span class="keyword">Experience Cloud</span>-Service, der die Technologie des dynamischen Tag-Managements nutzt. Bei der Auswahl dieses Services werden Sie zum dynamischen Tag-Management weiterleitet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktualisierungen der Dokumentation – Zentrale Dienste </p> </td> 
@@ -392,7 +392,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
    <td colname="col1"> <p>Bearbeiten von Benutzerberechtigungen </p> </td> 
    <td colname="col2"> <p>Inhaber einer Pinnwand können jetzt Benutzerberechtigungen auf der jeweiligen Pinnwand bearbeiten. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Wählen Sie auf der Pinnwand <span class="uicontrol"> Einstellungen</span> aus. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Wählen Sie auf der Pinnwand die Option <span class="uicontrol">Einstellungen</span> aus. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">Geben Sie neben jedem Eigentümer <span class="uicontrol">Eigentümer</span>, <span class="uicontrol">Viewer</span> oder <span class="uicontrol">Editor</span> an. </li> 
      </ol> </p> </td> 
   </tr> 
@@ -424,7 +424,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 **Bekannte Probleme**
 
 * Änderungen an Gruppen und Berechtigungen, die über die Benutzerverwaltung durchgeführt werden, werden erst bei einer erneuten Anmeldung wirksam.
-* Manche Benutzer können eine Karte nicht aus einer PDF-Datei erstellen und auf einer Pinnwand freigeben.
+* Manche Benutzer können aus einer PDF-Datei keine Karte erstellen und auf einer Pinnwand veröffentlichen.
 * Einige Benutzer haben möglicherweise Probleme beim Hochladen von Assets auf eine Pinnwand.
 * Für einige Benutzer ist das Löschen nicht mehr aktueller Assets möglich, ohne dabei eine Fehlermeldung zu empfangen.
 * Benutzer können auf Pinnwänden keine PowerPoint-Dateien freigeben.
@@ -563,7 +563,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Die [!DNL Experience Cloud] wurde nicht mit [!DNL Adobe Target] verknüpft. Dieses Problem trat auf, wenn die [!DNL Adobe Target]-Anmeldung auf mehreren [!DNL Target]-Servern zur Verfügung stand.
 * [!DNL Adobe Media Optimizer] erstellte Benutzer nicht automatisch, wenn der Benutzer in der [!DNL Experience Cloud] erstellt worden war.
 * Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer wurden bei der Eingabe vorübergehend ausgeblendet.
-* Der Link Kommentare in der Ansicht der Asset-Karte war nicht auswählbar.
+* Der Link „Kommentare“ auf der Assets-Kartenansicht konnte nicht ausgewählt werden.
 * Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, blieben keine weiteren Änderungen an den Metadaten erhalten.
 * Beim Löschen eines Bildes gibt Assets keine Warnung aus, wenn das Bild in Adobe Target Essentials verwendet wird.
 * Die Benutzeroberfläche der [!UICONTROL Experience Cloud] arbeitete langsam, wenn sie von vielen Benutzern gleichzeitig verwendet wurde.
@@ -590,9 +590,9 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
    <td colname="col1"> <p>Erstellen von Karten aus Hilfethemen </p> </td> 
    <td colname="col2"> <p>Nachdem Sie die Funktion „Mit Adobe Experience Cloud teilen“ in der Symbolleiste „Lesezeichen“ Ihres Browsers aktiviert haben, können Sie jetzt Hilfeseiten über die Microsite-URL freigeben. </p> <p> <b>Freigeben eines Hilfethemas</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Wählen Sie im Experience Cloud <span class="keyword"> </span> <span class="uicontrol"> Administration</span> aus. </p> </li> 
-     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Ziehen Sie die Schaltfläche <span class="uicontrol">Mit Adobe Experience Cloud teilen</span> in Ihre Symbolleiste „Lesezeichen“. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigieren Sie zu einer Hilfeseite (oder bleiben Sie auf dieser Seite) und wählen Sie dann <span class="uicontrol"> Mit Adobe Experience Cloud teilen</span> in der Symbolleiste "Lesezeichen"Ihres Browsers aus. </p> <p>Auf diese Weise wird eine Karte erstellt, die Sie in der <span class="wintitle">Experience Cloud</span> anzeigen können. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Wählen Sie in <span class="keyword">Experience Cloud</span> die Option <span class="uicontrol"> Administration</span> aus. </p> </li> 
+     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Ziehen Sie die Schaltfläche <span class="uicontrol">Für Adobe Experience Cloud freigeben</span> in die Symbolleiste „Lesezeichen“. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigieren Sie zu einer Hilfeseite (oder bleiben Sie auf dieser Seite) und wählen Sie dann in Ihrem Browser in der Symbolleiste „Lesezeichen“ die Option <span class="uicontrol"> Für Adobe Experience Cloud freigeben</span> aus. </p> <p>Auf diese Weise wird eine Karte erstellt, die Sie in der <span class="wintitle">Experience Cloud</span> anzeigen können. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -606,7 +606,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Die Landingpage der [!DNL Analytics]-Lösung weist Formatierungsfehler auf.
 * Benutzer müssen sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam werden.
 * Beim Löschen eines Bildes gibt [!UICONTROL Assets] keine Warnung aus, wenn das Bild in [!DNL Adobe Target Essentials] verwendet wird.
-* Der Link &quot;Kommentare&quot;in der Ansicht der Asset-Karte kann nicht ausgewählt werden.
+* Der Link „Kommentare“ auf der Asset-Kartenansicht kann nicht ausgewählt werden.
 * Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer werden bei der Eingabe vorübergehend ausgeblendet.
 * Die Anmeldung bei der [!DNL Experience Cloud] dauert länger als eine Sekunde.
 * In [!DNL Media Optimizer] freigegebene Daten werden in [!DNL Experience Cloud] falsch angezeigt.
@@ -639,7 +639,7 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 * Benutzer müssen sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam werden.
 * Wenn bei der Anmeldung *`Remember me`* nicht aktiviert ist, wird der Benutzer nach 15 Minuten abgemeldet.
 * Die Landingpage der [!DNL Analytics]-Lösung weist Formatierungsfehler auf.
-* Der Link Kommentare in der Ansicht der Asset-Karte kann nicht ausgewählt werden.
+* Der Link „Kommentare“ auf der Assets-Kartenansicht kann nicht ausgewählt werden.
 * Die Experience Cloud-Benutzeroberfläche ist u. U. beeinträchtigt, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
 * Die Experience Cloud kann nicht mit [!DNL Adobe Target] verknüpft werden, wenn die [!DNL Adobe Target]-Anmeldung auf mehreren Target-Servern verwendet werden kann.
 * Die Anmeldung bei Experience Cloud dauert länger als eine Sekunde.
@@ -683,5 +683,5 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 
 * Es wurde ein Problem behoben, das das Anwenden von Segmentfiltern bei freigegebenen [!DNL Analytics]-Berichten verhinderte.
 * Es wurde ein Problem behoben, bei dem Lösungen auf der Seite [!UICONTROL Experience Cloud-Lösungen] als zugeordnet angezeigt wurden, selbst wenn die Konten der Lösung nicht zugeordnet waren.
-* Es wurde ein Problem behoben, das verhinderte, dass [!DNL Adobe Target]-Kunden in Asien die Schaltfläche **[!UICONTROL Weiter zu Experience Cloud]** auf der Verknüpfungsseite auswählen konnten.
+* Es wurde ein Problem behoben, das [!DNL Adobe Target]-Kunden in Asien daran hinderte, auf der Verknüpfungsseite die Schaltfläche **[!UICONTROL Weiter zu Experience Cloud]** auszuwählen.
 * Es wurde ein Problem behoben, das die Freigabe von YouTube-Videos verhinderte.
