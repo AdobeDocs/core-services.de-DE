@@ -12,9 +12,9 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '705'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,9 +52,9 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
-1. Wählen Sie im Experience Cloud ![](assets/menu-icon.png) und dann **[!UICONTROL Datenerfassung/Launch]** aus.
-2. Wählen Sie auf der Karte [!UICONTROL Trigger] die Option **[!UICONTROL Trigger verwalten]** aus.
-3. Wählen Sie **[!UICONTROL Neuer Trigger]** und geben Sie dann den Typ des Triggers an:
+1. Wählen Sie in Experience Cloud ![](assets/menu-icon.png) und dann **[!UICONTROL Datenerfassung/Launch]** aus.
+2. Wählen Sie in der Karte [!UICONTROL Triggers] die Option **[!UICONTROL Triggers verwalten]** aus.
+3. Wählen Sie **[!UICONTROL Neuer Trigger]** aus und geben Sie dann den Trigger-Typ an:
 
    ![Schritt Ergebnis](assets/add-trigger.png)
 
