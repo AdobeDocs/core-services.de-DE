@@ -4,15 +4,15 @@ keywords: Experience Cloud Services
 solution: Experience Cloud
 title: Dokumentationsaktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Kundenattribute
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
-workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '272'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation
 
 **Aktualisiert: 24.08.2021**
 
-Die Seite [Zentrale Komponenten](experience-cloud.md) wurde aktualisiert (Landingpage dieses Handbuchs). Es wurden Browser- und Sprachunterstützung, Updates für Unternehmen, Anmeldung und Informationen zu Domänen hinzugefügt.
+Die Seite [Zentrale Komponenten](experience-cloud.md) wurde aktualisiert (Landingpage dieses Handbuchs). Es wurden Browser- und Sprachunterstützung, Updates für Unternehmen und Anmeldung sowie Informationen zu Domains hinzugefügt.
 
 **Aktualisiert: 06.08.2021**
 
