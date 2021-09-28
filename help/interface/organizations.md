@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# Einrichtungen in Experience Cloud
+# Organisationen in Experience Cloud
 
-Erfahren Sie mehr über die Verwaltung und den Wechsel von Unternehmen in Experience Cloud.
+Erfahren Sie mehr über das Verwalten und das Wechseln von Organisationen in Experience Cloud.
 
 ## Organisation identifizieren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
@@ -26,15 +26,15 @@ Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gr
 
 Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf Ihren Profilavatar, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie rechts in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
 
-Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit Experience Cloud beim Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie dazu `#/sso:@domain` zur Experience Cloud-URL (`https://experience.adobe.com`) hinzu.
+Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit Experience Cloud beim Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Um diese Funktion zu verwenden, fügen Sie `#/sso:@domain` zur Experience Cloud-URL hinzu (`https://experience.adobe.com`).
 
-Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domäne `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einer bestimmten Anwendung gehen, indem Sie diese URL mit einem Lesezeichen versehen, das an den Anwendungspfad angehängt ist. (Beispiel: für Adobe Analytics `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domäne `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ![Schrittergebnis](assets/organization-switch.png)
 
 ## Organisations-ID ermitteln {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Möglicherweise müssen Sie Ihre Organisations-ID zu Supportzwecken suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
+Möglicherweise müssen Sie auch zu Supportzwecken Ihre Organisations-ID suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
 Die **Organisations-ID** ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich).
 
