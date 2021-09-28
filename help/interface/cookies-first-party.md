@@ -11,9 +11,9 @@ role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1614'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Antwort: `SUCCESS`
 
 ### Validieren mit [!DNL nslookup]
 
-Sie können `nslookup` zur Überprüfung verwenden. Verwenden Sie `smetrics.adobe.com` als Beispiel, öffnen Sie eine Eingabeaufforderung und geben Sie `nslookup smetrics.adobe.com` ein.
+Sie können `nslookup` zur Überprüfung verwenden. Verwenden Sie `smetrics.adobe.com`als Beispiel, öffnen Sie eine Eingabeaufforderung und geben Sie `nslookup smetrics.adobe.com` ein.
 
 Wenn alles erfolgreich eingerichtet wurde, wird eine Rückgabe ähnlich der folgenden angezeigt:
 
@@ -160,12 +160,12 @@ Bevor Sie Code auf Ihrer Site bearbeiten, um Erstanbieter-Cookies zu verwenden, 
 Nachdem Sie geprüft haben, dass Ihre Hostnamen reagieren und die Weiterleitung an die Adobe-Datensammlungsserver funktioniert, können Sie Ihre Implementierung ändern, damit diese zu Ihren eigenen Hostnamen für die Datensammlung weist.
 
 1. Öffnen Sie Ihre JavaScript-Kerndatei (`s_code.js/AppMeasurement.js`).
-1. Wenn Sie Ihre Codeversion aktualisieren möchten, ersetzen Sie die gesamte `s_code.js/AppMeasurement.js`-Datei mit der neueren Version und ersetzen Sie alle Plugins oder Einstellungen (falls vorhanden). **Alternativ haben Sie folgende Möglichkeit:** Wenn Sie den Code nur für die Erstanbieter-Datenerfassung aktualisieren möchten, suchen Sie die Variablen s.trackingServer und s.trackingServerSecure (bei Verwendung von SSL) und verweisen Sie sie auf Ihre neuen Datenerfassungs-Host-Namen. Verwenden von mysite.com als Beispiel: `s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Wenn Sie Ihre Codeversion aktualisieren möchten, ersetzen Sie die gesamte `s_code.js/AppMeasurement.js`-Datei mit der neueren Version und ersetzen Sie alle Plugins oder Einstellungen (falls vorhanden). **Alternativ haben Sie folgende Möglichkeit:** Wenn Sie den Code nur für die Erstanbieter-Datenerfassung aktualisieren möchten, suchen Sie die Variablen s.trackingServer und s.trackingServerSecure (bei Verwendung von SSL) und verweisen Sie sie auf Ihre neuen Datenerfassungs-Host-Namen. Verwenden von mysite.com als Beispiel:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Laden Sie die aktualisierte JavaScript-Kerndatei auf Ihre Site.
 
 1. Wenn Sie von einer älteren Implementierung zu einer Erstanbieter-Datenerfassung oder zu einem anderen Erstanbieter-Datenerfassungs-Host-Namen wechseln, empfiehlt Adobe, Besucher aus der vorherigen Domain in die neue Domain zu migrieren.
 
-Siehe [Besuchermigration](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) im Analytics-Implementierungshandbuch.
+Siehe [Besuchermigration](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=de) im Analytics-Implementierungshandbuch.
 
 Nachdem Sie die JavaScript-Datei hochgeladen haben, ist die Konfiguration für die Erstanbieter-Cookie-Datenerfassung abgeschlossen. Adobe empfiehlt, Analytics Reporting in den nächsten Stunden zu überwachen, um sicherzustellen, dass die Datenerfassung wie üblich erfolgt. Ist dies nicht der Fall, stellen Sie sicher, dass alle oben genannten Schritte ausgeführt wurden und veranlassen Sie, dass ein unterstützter Mitarbeiter Ihrer Organisation die Kundenunterstützung kontaktiert.
