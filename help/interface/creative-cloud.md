@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 90%
 
 ---
 
 # Experience Cloud-Ordner und -Assets für Creative Cloud freigeben
 
-Geben Sie Ordner und Assets sowohl in Experience Cloud als auch in Creative Cloud frei. Arbeiten Sie zusammen, kommentieren Sie freigegebene Assets und verwenden Sie sie in Experience Cloud-Lösungen wie Adobe Social und Adobe Target. Der freigegebene Ordner muss aus Experience Cloud stammen.
+Geben Sie Ordner und Assets sowohl in Experience Cloud als auch in Creative Cloud frei. Arbeiten Sie zusammen, kommentieren Sie freigegebene Assets und verwenden Sie sie in Experience Cloud-Anwendungen wie Adobe Social und Adobe Target. Der freigegebene Ordner muss aus Experience Cloud stammen.
 
 ## Vorteile der Freigabe {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 

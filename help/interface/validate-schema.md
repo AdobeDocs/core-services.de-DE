@@ -4,15 +4,15 @@ keywords: Kundenattribute; Experience Cloud-Dienste
 solution: Experience Cloud
 title: 'Validieren des Kundenattribut-Schemas '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Kundenattribute
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 98%
 
 ---
 
@@ -26,11 +26,11 @@ Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibung
 
 **[!UICONTROL Kunden-Attributquelle]** > **[!UICONTROL Neue Kundenattributquelle erstellen]** > **[!UICONTROL Schema anzeigen/bearbeiten]**
 
-![](assets/view_edit_schema.png)
+![Schema bearbeiten](assets/view_edit_schema.png)
 
-Auf der Seite „[!UICONTROL Schema überprüfen]“ stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
+Auf der Seite „[!UICONTROL Schema bearbeiten]“ stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
 
-![](assets/06_crs_usecase.png)
+![Validieren der Schemaseite in Experience Cloud](assets/06_crs_usecase.png)
 
 * **[!UICONTROL Daten hinzufügen:]** Lädt in diese Datenquelle neue Attributdaten hoch.
 

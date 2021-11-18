@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie, wie Sie Experience Cloud Triggers konfigurieren.
 keywords: Integrationen;Triggers
-seo-description: Konfigurieren von Experience Cloud Triggers
+seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
 title: 'Übersicht über Triggers '
@@ -11,16 +11,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '705'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 96%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Triggers] in Experience Cloud ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine lösungsübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren.
+[!UICONTROL Trigger] In Experience Cloud können Sie wichtige Verbraucherverhaltensweisen identifizieren, definieren und überwachen und dann eine anwendungsübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren.
 
 ## Übersicht über Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -30,7 +30,7 @@ Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden
 * Unvollständige Formulare und Anwendungen
 * Aktionen oder Abfolgen von Aktionen auf der Site
 
-![](assets/trigger-abandonment-2.png)
+![Trigger-Beispiel](assets/trigger-abandonment-2.png)
 
 >[!NOTE]
 >
@@ -82,10 +82,10 @@ Beispiele für Experience Cloud-Triggers:
 
 Die folgende Seite zeigt beispielsweise Regeln, die Sie für einen Trigger [!UICONTROL Warenkorbabbruch] basierend auf Produkten, die während eines Besuchs angesehen wurden, verwenden können.
 
-![](assets/abandonment-trigger.png)
+![Warenkorbabbruch - Trigger](assets/abandonment-trigger.png)
 
 #### Referrer-Trigger
 
 Der folgende Trigger wird ausgelöst, wenn ein Treffer mit dem Produkt „Herrenstiefel“ und Referrer „Facebook“ eingeht. Für die beiden Kriterien (*Produkte* und *Referrer*), die für denselben Treffer zu bewerten sind, sollten sie demselben Container hinzugefügt werden.
 
-![](assets/fb-boots-promo.png)
+![Referrer-Trigger](assets/fb-boots-promo.png)

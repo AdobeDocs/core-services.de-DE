@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,9 +24,9 @@ Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation
 
 | Funktion | Beschreibung |
 | ------- | ------- |
-| Startseite | Die Informationen zur Experience Cloud-Fußzeile wurden auf die Benutzerkarte verschoben, einschließlich Rechtlicher Hinweise und Sprachauswahl in den Voreinstellungen. |
+| Startseite | Die Fußzeilen-Informationen von Experience Cloud, einschließlich der rechtlichen Hinweise und der Sprachauswahl in den Voreinstellungen, wurden in die Benutzerprofilkarte verschoben. |
 | AEP-Dashboards | [!DNL Helios Lite] bietet Diagrammempfehlungen im Erstellungs-Workflow von Experience Platform-Widgets. Bei einer Datenauswahl (derzeit eine Auswahl einzelner Variablendaten) empfiehlt Helios eine geeignete Visualisierung, um diese Datenauswahl zu begleiten. |
-| AEP-Dashboards | [!DNL Instory] bietet einen auf ML-Basis geschriebenen Sprachkommentar und Beschriftungen für Diagramme. Er verziert Diagramme auf der Seite mit den AEP-Dashboards mit entsprechenden Aufzählungspunkten, die wichtige Änderungen und Ereignisse in den grafisch dargestellten Daten aufzeigen. |
+| AEP-Dashboards | [!DNL Instory] bietet auf ML basierende Erklärungen und Beschriftungen für Diagramme. Er verziert Diagramme auf der Seite mit den AEP-Dashboards mit entsprechenden Aufzählungspunkten, die wichtige Änderungen und Ereignisse in den grafisch dargestellten Daten aufzeigen. |
 
 **Aktualisiert: 13.10.2021**
 
@@ -118,7 +118,7 @@ Der Abschnitt [Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5
 
 **Aktualisiert: 02.03.2015**
 
-Der Abschnitt [Aktivieren Ihrer Lösungen für Hauptdienste](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) wurde hinzugefügt.
+Hinzugefügt [Anwendungen für Hauptdienste aktivieren](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **Aktualisiert: 15.01.2015**
 

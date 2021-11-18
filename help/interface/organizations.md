@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: ec724555c3799eeca350592498267d0b71b4ff04
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 76%
 
 ---
 
@@ -22,13 +22,13 @@ Erfahren Sie mehr über das Verwalten und das Wechseln von Organisationen in Exp
 
 ## Organisation identifizieren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert als zentrale Anmeldestelle, die sämtliche Experience Cloud-Produkte und -Lösungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert wie ein Anmeldeunternehmen, das alle Experience Cloud-Produkte und -Applikationen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf Ihren Profilavatar, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie rechts in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
 
 Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit Experience Cloud beim Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Um diese Funktion zu verwenden, fügen Sie `#/sso:@domain` zur Experience Cloud-URL hinzu (`https://experience.adobe.com`).
 
-Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domäne `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ![Schrittergebnis](assets/organization-switch.png)
 
@@ -42,22 +42,22 @@ Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Landing
 
 ![](assets/administration-page.png)
 
-## Lösungskonten mit einer Adobe ID verknüpfen {#task_FD389E78640848919E247AC5E95B8369}
+## Anwendungskonto mit einer Adobe ID verknüpfen {#task_FD389E78640848919E247AC5E95B8369}
 
-In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Lösungen und Dienste. In seltenen Fällen müssen Sie eventuell die Anmeldeinformationen der Lösung mit einer Adobe ID verknüpfen.
+In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Anwendungen und Dienste. In seltenen Fällen müssen Sie eventuell Anwendungsberechtigungen mit einer Adobe ID verknüpfen.
 
 1. Befolgen Sie die Anweisungen in Ihrer E-Mail-Einladung zur Experience Cloud.
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
-1. Klicken Sie auf die Lösungsauswahl. (![](assets/menu-icon.png)).
+1. Wählen Sie den Anwendungsselektor aus. ( ![](assets/menu-icon.png)).
 
-   ![](assets/solutions-active.png)
+   ![Anwendungskonto mit einer Adobe ID verknüpfen](assets/solutions-active.png)
 
-   Die Lösungen, auf die Sie Zugriff haben, sind farbig dargestellt.
-1. Wählen Sie die gewünschte Option aus.
+   Die Anwendungen, auf die Sie Zugriff haben, sind farbig dargestellt.
+1. Wählen Sie die gewünschte Anwendung aus.
 
-   ![](assets/analytics-link-accounts.png)
+   ![Wählen Sie die gewünschte Anwendung aus](assets/analytics-link-accounts.png)
 
-   Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf die Lösung verfügen), Ihre Kontodaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
+   Dieser Nachrichtentyp wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Berechtigungen für die Anwendung verfügen), Ihre Kontoanmeldeinformationen jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
 1. Klicken Sie auf **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
 
 ## Standardorganisation und -Landingpage festlegen {#concept_6A191B42A9874A9780882903BA18F071}
@@ -66,11 +66,11 @@ Sie können bei der Anmeldung eine Standardorganisation und eine Landingpage ang
 
 Klicken Sie in Ihrem Profil auf **[!UICONTROL Profil bearbeiten]**.
 
-![](assets/edit-profile.png)
+![Profil bearbeiten](assets/edit-profile.png)
 
 Unter „Standardorganisation und Landingpage“ können Sie Ihren Anmeldevorgang anpassen.
 
-![](assets/default-organization.png)
+![Standardorganisation und Landingpage](assets/default-organization.png)
 
 ## Problembehebung für Kontoverknüpfungen {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 
@@ -79,4 +79,4 @@ Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
 * [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support).
-* Greifen Sie über die Standardanmeldung auf die Lösung zu, solange das Problem nicht behoben ist.
+* Greifen Sie mithilfe der Standardanmeldung auf Ihre Anwendung zu, während das Problem bereits behoben ist.

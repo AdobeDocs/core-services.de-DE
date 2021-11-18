@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
-workflow-type: ht
-source-wordcount: '1303'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '1333'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 1. Wählen Sie **[!UICONTROL Mit Adobe ID anmelden]** aus.
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
-   ![](assets/organizations-menu.png)
+   ![Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden](assets/organizations-menu.png)
 
    **Organisation überprüfen**
 
@@ -52,7 +52,7 @@ Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Head
 
 Rufen Sie die Programmauswahl ![](assets/menu-icon.png) auf, um auf die in Ihrem Unternehmen für Sie bereitgestellten Experience Cloud-Programme und -Services zuzugreifen.
 
-![](assets/platform-core-services.png)
+![Zugriff auf Experience Cloud-Anwendungen](assets/platform-core-services.png)
 
 ## Browser-Unterstützung in Experience Cloud {#browser}
 
@@ -91,7 +91,7 @@ Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, 
 
 Greifen Sie mithilfe des Hilfesymbols (![asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) zu [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
-![](assets/search-menu.png)
+![Erhalten Sie Hilfe und Support](assets/search-menu.png)
 
 Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 
@@ -104,7 +104,7 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 
 Die globale Suche ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis zu finden. Diese Suche überdeckt Ihre zuletzt aufgerufenen Objekte.
 
-![](assets/platform-search.png)
+![Globale Suche nach Objekten und Entitäten](assets/platform-search.png)
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnement
 
 Um die Voreinstellungen zu verwalten, wählen Sie die Option **[!UICONTROL Voreinstellungen]** in Ihrem Kontomenü ![](assets/preferences-icon-sm.png) aus.
 
-![](assets/preferences-page.png)
+![Benutzerprofil- und Kontovoreinstellungen](assets/preferences-page.png)
 
 Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funktionen konfigurieren:
 
@@ -142,7 +142,7 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 
 Wählen Sie die Option **[!UICONTROL Benachrichtigungen]** aus, um über relevante und ausführbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweise, freigegebene Elemente und Genehmigungsanfragen, informiert zu werden.
 
-![](assets/notifications-menu-small.png)
+![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png)
 
 ## Experience Cloud-Domains {#domains}
 
@@ -157,7 +157,7 @@ Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen,
 
 ## Hilfe zu Administrations- und anwendungsübergreifenden Diensten
 
-Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -Produkten in der Admin Console und ermöglicht Lösungen für Plattformdienste. Sie können auch auf die Hilfe über die Zielgruppenbibliothek, Kundenattribute, Experience Cloud-Kreativelemente und mehr zugreifen:
+Dieses Handbuch bietet Zugriff auf Hilfe zur Experience Cloud-Benutzer- und Produktverwaltung in der Admin Console und ermöglicht so Anwendungen für Plattformdienste. Sie können auch auf die Hilfe über die Zielgruppenbibliothek, Kundenattribute, Experience Cloud-Kreativelemente und mehr zugreifen:
 
 * [[!UICONTROL Zielgruppenbibliothek]](audience-library.md)
 * [[!UICONTROL Kundenattribute]](attributes.md)
@@ -165,7 +165,7 @@ Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -
 * [Experience Cloud-[!UICONTROL Assets]](experience-cloud-assets.md)
 * [Cookies in Experience Cloud](cookies-privacy.md)
 * [Benutzer- und Produktverwaltung](admin-getting-started.md) (Admin Console)
-* [Lösungen für zentrale Dienste aktivieren](core-services.md)
+* [Anwendungen für Hauptdienste aktivieren](core-services.md)
 * [Häufig gestellte Fragen](admin-getting-started.md)
 * [Organisationen und Kontoverknüpfung](organizations.md)
 * [Integrationen](marketing-cloud-integrations.md)
@@ -196,9 +196,9 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 
 ## Versionshinweise und zugehörige Experience Cloud-Hilfe
 
-* [Versionshinweise und Produkt-Updates](https://experienceleague.adobe.com/docs/home.html?lang=de) – Neue Funktionen in Experience Cloud und Abonnieren von Updates
+* [Produktdokumentation für alle Experience Cloud-Anwendungen](https://experienceleague.adobe.com/docs/home.html?lang=de) - Hilfe im Experience Cloud Lernmaterialien und Support
 * [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
-* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=de) – Videos und Übungen zu den zentralen Diensten
+* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://experienceleague.adobe.com/?lang=de) – Lernen Sie von Experten und der Community
 * [Ausbildung und Schulung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK) – Wenden Sie sich an Adobe, um sicherzustellen, dass Sie die Produkte von Adobe optimal nutzen
 * [Customer Experience-Blog](https://blog.adobe.com/de/topics/digital-transformation.html) – Lesen Sie den Experience Cloud-Blog

@@ -4,15 +4,15 @@ keywords: Kundenattribute;zentrale Services
 solution: Experience Cloud
 title: 'Erstellen einer Kundenattributquelle und Hochladen der Datendatei '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: Kundenattribute
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '1151'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Erstellen Sie die Kundenattributquelle (CSV- und FIN-Dateien) und laden Sie die 
 
 ## Arbeitsablauf für Kundenattribute {#concept_BF0AF88E9EF841219ED4D10754CD7154}
 
-![](assets/crs.png)
+![Arbeitsablauf für Kundenattribute](assets/crs.png)
 
 1. [Erstellen Sie eine Datendatei](t-crs-usecase.md#task_B5FB8C0649374C7A94C45DCF2878EA1A)
 1. [Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch](t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
@@ -38,7 +38,7 @@ Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 >
 >Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
 >
->Um die Kundenattribut-Funktion verwenden zu können, müssen Benutzer auch zu Gruppen auf Lösungsebene (Analytics oder [!DNL Target]) gehören.
+>Um die Funktion &quot;Kundenattribute&quot;verwenden zu können, müssen Benutzer auch zu Gruppen auf Anwendungsebene (Analytics oder [!DNL Target]).
 
 Siehe [Verwalten von Experience Cloud-Benutzern und -produkten](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
@@ -54,7 +54,7 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
 
    Beispiel für die Kundendatendatei eines Unternehmens:
 
-   ![](assets/01_crs_usecase.png)
+   ![Beispiel für die Kundendatendatei eines Unternehmens](assets/01_crs_usecase.png)
 
 1. Überprüfen Sie vor dem Hochladen der Datei die wichtigen Informationen in den [Datendateivoraussetzungen](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19).
 1. [rstellen Sie eine Kundenattributquelle und laden Sie wie nachfolgend beschrieben die Daten](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) hoch.
@@ -108,7 +108,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
          `identifiers.put(`**`"idType"`**`, "idValue");`
 
-         Zusätzliche Informationen zur Datenverarbeitung des Alias-ID-Feldes und von Kunden-IDs finden Sie unter [Nutzen mehrerer Data Sources](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB).
+         Zusätzliche Informationen zur Datenverarbeitung des Alias-ID-Feldes und von Kunden-IDs finden Sie unter [Nutzen mehrerer Datenquellen](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB).
    * **[!UICONTROL Hochladen einer Datei:]** Die `.csv`-Datendatei kann per Drag &amp; Drop oder per FTP hochgeladen werden. (Beim Upload via FTP ist zusätzlich eine `.fin`-Datei erforderlich.) Siehe [Hochladen der Daten via FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
       >[!IMPORTANT]
@@ -129,12 +129,11 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
    * **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr bereitgestellten Experience Cloud Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 zuletzt als Alias gespeicherten Experience Cloud-Besucher-IDs, bis die Aliasanzahl 10.000 erreicht hat. Dann erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht länger zugewiesene Attribute.
 
 
-
 ## Prüfen Sie das Schema {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 
 Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.). Sie können Attribute auch löschen, indem Sie das Schema aktualisieren.
 
-Siehe [Prüfen des Schemas](validate-schema.md#concept_B3A01A15D04E4F998118E09B3A9B5043).
+Siehe [Prüfen Sie das Schema](validate-schema.md#concept_B3A01A15D04E4F998118E09B3A9B5043).
 
 Informationen zum Löschen von Attributen finden Sie unter [Schema aktualisieren (Attribute löschen)](t-crs-usecase.md#task_6568898BB7C44A42ABFB86532B89063C).
 
@@ -147,7 +146,7 @@ So löschen Sie Attribute und ersetzen Attribute im Schema.
 
 ## Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-Beim Konfigurieren eines Abonnements wird der Datenfluss zwischen Experience Cloud und Lösungen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Lösungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
+Durch die Konfiguration eines Abonnements wird der Datenfluss zwischen dem Experience Cloud und den Anwendungen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an abonnierte Anwendungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
 Siehe [Konfigurieren von Abonnements](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -159,11 +158,11 @@ Suchen Sie auf der Seite [!UICONTROL „Neue Kunden-Attributquelle erstellen“[
 
 ## Kundenattribute in Adobe Analytics verwenden {#task_7EB0680540CE4B65911B2C779210915D}
 
-Jetzt, wo die Daten in Lösungen wie Adobe Analytics verfügbar sind, können Sie Berichte zu den Daten erstellen, sie analysieren und die entsprechenden Maßnahmen in Ihren Marketing-Kampagnen ergreifen.
+Jetzt, wo die Daten in Anwendungen wie Adobe Analytics verfügbar sind, können Sie Berichte zu den Daten erstellen, sie analysieren und die entsprechenden Maßnahmen in Ihren Marketing-Kampagnen ergreifen.
 
 Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen Attributen basiert. Dieses Segment zeigt [!DNL Photoshop Lightroom]-Abonnenten, deren am häufigsten geladenes Produkt Photoshop ist.
 
-![](assets/08_crs_usecase.png)
+![Analytics-Segment basierend auf den hochgeladenen Attributen](assets/08_crs_usecase.png)
 
 Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Audiences und in Audience Manager verfügbar.
 
@@ -171,6 +170,6 @@ Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den E
 
 In [!DNL Target], können Sie beim Erstellen einer Zielgruppe im Bereich [!UICONTROL Besucherprofil] ein Kundenattribut auswählen. Alle Kundenattribute haben das Präfix `crs.` in der Liste. Sie können die Attribute beim Aufbau von Zielgruppen beliebig mit anderen Datenattributen kombinieren.
 
-![](assets/crs-add-attribute-target.png)
+![Kundenattribute in Adobe Target verwenden](assets/crs-add-attribute-target.png)
 
 Siehe [Erstellen einer neuen Zielgruppe](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=de) in der [!DNL Target]-Hilfe.

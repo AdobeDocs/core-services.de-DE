@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '1119'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Organisationen werden ausgegraut, wenn Sie in Analytics keine Administratorrecht
 
 1. Wählen Sie die Report Suites aus, die Sie zuweisen möchten.
 
-   ![](assets/rs-mapping-multiple.png)
+   ![Wählen Sie die Report Suites aus, die Sie zuweisen möchten](assets/rs-mapping-multiple.png)
 
 1. Wählen Sie die Organisation aus (hier Outdoors Inc) und klicken Sie auf **[!UICONTROL Auswählen]**.
 
@@ -71,7 +71,7 @@ Stellen Sie sicher, dass Ihre Implementierung mit der im Zuordnungs-Tool für Re
 
 Das Ausgrauen einer Organisation deutet darauf hin, dass Sie nicht über ausreichende Berechtigungen verfügen, um die ausgegraute Report Suite zuzuordnen. Siehe folgendes Beispiel:
 
-![](assets/rs-mapping.png)
+![Warum sind einige Organisationen ausgegraut?](assets/rs-mapping.png)
 
 In dieser Darstellung zeigt der blaue Schlüssel an, dass der Benutzer über Administratorrechte verfügt. Die grauen Linien geben die Sichtbarkeit an.
 

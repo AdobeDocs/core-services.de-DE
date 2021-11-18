@@ -4,10 +4,10 @@ user-guide-title: 'Zentrale Schnittstellenkomponenten von Experience Cloud '
 breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 user-guide-description: Erfahren Sie mehr über die Benutzeroberfläche von Experience Cloud, konfigurieren Sie Voreinstellungen, suchen Sie nach Hilfe und Geschäftsobjekten. Hier erhalten Sie Hilfe zu Benutzer- und Produktverwaltung, Kundenattributen, Zielgruppenbibliothek, Cookies und Experience Cloud-Assets.
 index: true
-source-git-commit: 21701779b0a502b39791a59104182fc5d3323f7b
-workflow-type: ht
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 + [Handbuch für Komponenten der Experience Cloud Zentrale Schnittstelle](experience-cloud.md)
 + Experience Cloud Services {#services}
    + [Experience Cloud Services](core-services-landing.md)
-   + [Implementierung für lösungsübergreifende Dienste aktivieren](core-services.md)
+   + [Implementierung für anwendungsübergreifende Dienste aktivieren](core-services.md)
    + Experience Cloud-Zielgruppenbibliothek {#audiences}
       + [Experience Cloud-Zielgruppen](audience-library.md)
       + [Erstellen einer Zielgruppe](t-audience-create.md)
@@ -28,7 +28,7 @@ ht-degree: 100%
       + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](crs-data-file.md)
       + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](t-crs-usecase.md)
       + [Optional – Hochladen der Datendatei via FTP](t-upload-attributes-ftp.md)
-      + [Prüfen des Schemas](validate-schema.md)
+      + [Prüfen Sie das Schema](validate-schema.md)
       + [Konfigurieren von Abonnements](subscription.md)
       + [Schema aktualisieren](t-update-schema.md)
       + [Unterstützung der Datenschutz-Grundverordnung](gdpr.md)
@@ -54,7 +54,7 @@ ht-degree: 100%
    + [Organisationen und Kontoverknüpfung](organizations.md)
    + [Upgrade auf Analytics Premium und die Experience Cloud](upgrade-to-analytics-premium.md)
    + [Experience Cloud-Integrationen](marketing-cloud-integrations.md)
-   + [Verwendung des DNS-Vorabrufs für verschiedene Lösungen und Dienste](dns-prefetch.md)
+   + [Verwendung des DNS-Vorabrufs für verschiedene Anwendungen und Dienste](dns-prefetch.md)
    + Experience Cloud-Cookies {#ec-cookies}
       + [Übersicht über Cookies in Experience Cloud](cookies-privacy.md)
       + [Erstanbieter-Cookies in Experience Cloud](cookies-first-party.md)

@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie mehr über das neueste Tag-Management-Produkt namens Experience Platform Launch.
 keywords: Hauptdienste
-seo-description: Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Launch. Dynamic Tag Management (DTM) und Triggers.
+seo-description: Activation includes the latest tag management product called Experience Platform Launch. Dynamic Tag Management (DTM);and Triggers.
 seo-title: Activation
 solution: Experience Cloud Services
 title: Activation-Dienste in Experience Cloud
@@ -11,10 +11,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
-workflow-type: ht
-source-wordcount: '266'
-ht-degree: 100%
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Siehe [Schnellstartanleitung zu Experience Platform Launch](https://experiencele
 
 ## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-[!UICONTROL Experience Cloud Triggers] ermöglichen es Marketing-Experten, wichtige Verhaltensweisen von Kunden zu definieren und zu überwachen und eine lösungsübergreifende Kommunikation zu generieren, die für Entscheidungen und die Personalisierung in Echtzeit verwendet werden kann.
+[!UICONTROL Experience Cloud Trigger] ermöglicht es Marketing-Experten, wichtige Verhaltensweisen von Verbrauchern zu definieren und zu überwachen und anschließend eine anwendungsübergreifende Kommunikation zu generieren, die für Entscheidungen und Personalisierung in Echtzeit verwendet werden kann.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -46,7 +46,7 @@ Siehe [Schnellstartanleitung zu Experience Platform Launch](https://experiencele
   </tr>
   <tr> 
    <td colname="col1"> <p>Triggers in Adobe Campaign verwenden </p> </td> 
-   <td colname="col2"> <p> In Adobe Campaign Standard 16.7 wird eine Integration mit dem neuen Trigger-Dienst eingeführt. Dieser Dienst ermöglicht es Geschäftsbenutzern, Triggers einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Trigger definiert ist, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten zur Verfügung, die Interaktion und Konversionen fördern. Diese neue vordefinierte Funktion ermöglicht es Marketing-Experten, Remarketing-Nachrichten zum richtigen Zeitpunkt und basierend auf Online-Ereignissen wie Warenkorbabbruch, Seitenansichten, angesehenen Videos und mehr auszulösen. </p> </td>
+   <td colname="col2"> <p> In Adobe Campaign Standard 16.7 wird eine Integration mit dem neuen Trigger-Dienst eingeführt. Dieser Service ermöglicht es Geschäftsbenutzern, Triggers einfach anhand von in Adobe Analytics erfassten Online-Verhaltensdaten zu definieren. Sobald der Trigger definiert ist, steht er in Adobe Campaign zur Unterstützung von Remarketing-Nachrichten zur Verfügung, die Interaktion und Konversionen fördern. Diese neue vordefinierte Funktion ermöglicht es Marketing-Experten, Remarketing-Nachrichten zum richtigen Zeitpunkt und basierend auf Online-Ereignissen wie Warenkorbabbruch, Seitenansichten, angesehenen Videos und mehr auszulösen. </p> </td>
   </tr>
  </tbody>
 </table>
@@ -54,6 +54,6 @@ Siehe [Schnellstartanleitung zu Experience Platform Launch](https://experiencele
 
 ## Experience Cloud Debugger {#section_682FCF8A22ED47D0ACF94204AB94B444}
 
-Die Adobe Experience Cloud Debugger-Erweiterung für Chrome überprüft Ihre Webseiten und hilft Ihnen bei der Problembehebung bei der Implementierung Ihrer Experience Cloud-Lösungen.
+Die Adobe Experience Cloud Debugger-Erweiterung für Chrome überprüft Ihre Webseiten und unterstützt Sie dabei, Probleme bei der Implementierung Ihrer Experience Cloud-Anwendungen zu finden.
 
 Hilfe finden Sie unter [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de).

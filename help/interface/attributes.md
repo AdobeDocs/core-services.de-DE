@@ -2,14 +2,14 @@
 title: Verwenden von Kundenattributen
 description: Erfahren Sie mehr über den Kundenattributdienst in Adobe Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Experience Cloud
-feature: Kundenattribute
+feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a19887e3160faa0ef91bd975fc6e1e08a0a9d948
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Mit [!UICONTROL Kundenattributen] in Experience Cloud können Sie Ihre erfassten
 
 Um diese Funktion zu finden, navigieren Sie zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**
 
-![](assets/custom_reports.png)
+![Übersicht über Kundenattribute](assets/custom_reports.png)
 
 ## Voraussetzungen für das Hochladen von Kundenattributen {#section_BD38693AFBF34926BA28E964963B4EA0}
 
@@ -42,7 +42,7 @@ Enterprise-Daten befinden sich in anderen Systemen. Sie können komplex sein und
 
 Das folgende Bild ist ein Beispiel für eine Datendatei mit Abonnentendaten zu Produkten, einschließlich Mitglieds-IDs, Produkten mit Berechtigung, den am häufigsten gestarteten Produkten usw.
 
-![](assets/01_crs_usecase.png)
+![Was sind Enterprise-Kundendaten?](assets/01_crs_usecase.png)
 
 Nach Erstellung der Datendatei können Sie sie in eine Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundenattribute]** erstellen.
 

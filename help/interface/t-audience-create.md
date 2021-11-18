@@ -4,15 +4,15 @@ keywords: Hauptdienste
 solution: Experience Cloud
 title: 'Erstellen einer Zielgruppe '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: Zielgruppenbibliothek
+feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '480'
-ht-degree: 100%
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ In diesem Artikel lernen Sie Folgendes:
 
 Die folgende Grafik stellt zwei Regeln in einer gemischten Zielgruppe dar.
 
-![](assets/audience_sharing.png)
+![Zwei Regeln in einer gemischten Zielgruppe](assets/audience_sharing.png)
 
 Jeder Kreis steht für eine Regel, die die Mitgliedschaft in einer Zielgruppe definiert. Besucher, die sich in beiden Zielgruppenregeln qualifizieren, überschneiden sich und werden so zur gemischten, definierten Zielgruppe.
 
@@ -41,7 +41,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 * Abschnitt „Home &amp; Garden“, der von Seitendaten oder Analyse-Rohdaten abgeleitet wurde.
 * Chrome- und Safari-Benutzer, die einem [!DNL Adobe Analytics]-Segment entnommen wurden, das in der [!DNL Experience Cloud] [veröffentlicht](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) wurde.
 
-   ![](assets/audience_create.png)
+   ![Erstellen der Regeln für eine gemischte Zielgruppe](assets/audience_create.png)
 
 **Erstellen einer Zielgruppe**
 
@@ -72,26 +72,26 @@ Definieren Sie unter [!UICONTROL Regeln] die *`Home & Garden`*-Attributauswahl:
 * **[!UICONTROL Report Suite:]** Report Suite 31
 * Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Entspricht]** > **[!UICONTROL Home &amp; Garden]**
 
-![](assets/home_garden.png)
+![Attributauswahlen in der Zielgruppenbibliothek](assets/home_garden.png)
 
 Die *Besucher von Chrome und Safari* sind ein in Analytics freigegebenes Zielgruppensegment:
 
 * **[!UICONTROL Attributquelle:]** Experience Cloud
 * **[!UICONTROL Dimension:]** Besucher von Chrome &amp; Safari
 
-![](assets/chrome_safari.png)
+![Besucher von Chrome &amp; Safari](assets/chrome_safari.png)
 
 Zum Vergleich können Sie eine *OR*-Regel hinzufügen, um alle Besucher eines Site-Bereichs wie „Patio &amp; Furniture“ anzuzeigen.
 
-![](assets/audiences_rule_patio.png)
+![ODER-Regel für eine Zielgruppe](assets/audiences_rule_patio.png)
 
 Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-Benutzern, die Home &amp; Garden besucht haben. Der Abschnitt „Patio &amp; Furniture“ bietet zusätzliche Einblicke in alle Besucher, die diesen Site-Abschnitt besuchen.
 
-![](assets/defined_audience.png)
+![Definierte Audience in Experience Cloud](assets/defined_audience.png)
 
 * **Historische Schätzdaten:** (Gepunkteter Kreis) Stellt Regeln dar, die basierend auf [!DNL Analytics]-Daten erstellt wurden.
 * **Tatsächliche Zielgruppe:** (Durchgehender Kreis) Eine erstellte Regel, die 30 Tage lang Daten aus Audience Manager enthält. Wenn die Audience Manager-Daten 30 Tage erreichen, ist die Zeile durchgehend gefüllt und stellt die tatsächlichen Zahlen dar.
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nach dem Speichern der Zielgruppe ist sie für andere Lösungen verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität aufnehmen.
+Nachdem die Audience gespeichert wurde, ist sie für andere Anwendungen verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität aufnehmen.
