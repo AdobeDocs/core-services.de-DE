@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4276'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
-Versionshinweise zu allen Anwendungen finden Sie unter [Experience Cloud - Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
+Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
 ## August 2021
 
@@ -92,7 +92,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 ## April 2019
 
-* Aktualisierung des App-Switchers, um Marketo in die Experience Cloud-Anwendungs-Suite und Branding-Updates in Experience Platform aufzunehmen. (MCUI-6529)
+* Aktualisierung des Programm-Switchers durch das Aufnehmen von Marketo in die Experience Cloud-Programmsuite und durch Branding-Updates in Experience Platform. (MCUI-6529)
 * Aktualisierung der Experience Cloud-Startseite mit Navigationslinks zur Feed- und Admin-Seite. (MCUI-6682)
 * Es wurde ein Problem in der [!UICONTROL Auslöserdefinition] behoben, damit der „like“-Satz korrekt verwendet wird. (MCUI-6611)
 * Verbesserungen an den Kundenattributen zur besseren Anmeldung im Abonnementdienst. (MCUI-6519)
@@ -147,7 +147,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
   </tr> 
   <tr> 
    <td colname="col1"> <p>Verbesserungen bei der Kontoverknüpfung </p> </td> 
-   <td colname="col2"> <p>Der Arbeitsablauf für die Verknüpfung von Anwendungskonten mit dem Experience Cloud (Adobe ID) wurde verbessert. Dieser neue Arbeitsablauf ermittelt alle Konten des Benutzers, die mit einem Unternehmen verbunden sind, und ermöglicht Ihnen die Auswahl des Kontos, das verknüpft werden soll. Außerdem wurde die Erfahrung bei der Kontoverknüpfung optimiert, sodass Sie nicht mehr auf die Seite „Unternehmen verwalten“ zugreifen müssen, um Konten manuell zu verknüpfen. </p> </td> 
+   <td colname="col2"> <p>Der Arbeitsablauf für die Verknüpfung von Programmkonten mit Experience Cloud (Adobe ID) wurde verbessert. Dieser neue Arbeitsablauf ermittelt alle Konten des Benutzers, die mit einem Unternehmen verbunden sind, und ermöglicht Ihnen die Auswahl des Kontos, das verknüpft werden soll. Außerdem wurde die Erfahrung bei der Kontoverknüpfung optimiert, sodass Sie nicht mehr auf die Seite „Unternehmen verwalten“ zugreifen müssen, um Konten manuell zu verknüpfen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -223,11 +223,11 @@ Keine Informationen verfügbar.
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Die linken Navigationsmenüs wurden aktualisiert und wurden so gestaltet, dass sie Zugriff auf alle Hauptdienste und Anwendungen bieten. Wichtige Änderungen umfassen Folgendes: </p> 
+   <td colname="col2"> <p>Die linken Navigationsmenüs wurden aktualisiert und so angeordnet, dass nun Zugang zu allen zentralen Services und Programmen besteht. Wichtige Änderungen umfassen Folgendes: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
      <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Die Menüauswahlmöglichkeiten für die <span class="term">Zielgruppenbibliothek</span> und die <span class="term">Kundenattribute</span> sind nun unter <span class="term">Zielgruppen</span> zu finden. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">Die <span class="term">Exchange</span>-Menüauswahl wurde vom Dropdown-Menü „Hilfe“ zur linken Navigationsleiste verlegt. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Lösungen</span> wurde entfernt. Sie können alle Anwendungen von der unteren Hälfte der Navigationsleiste aus starten. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term">Lösungen</span> wurde entfernt. Sie können alle Programme von der unteren Hälfte der Navigationsleiste aus starten. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -279,7 +279,7 @@ Keine Informationen verfügbar.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Kundenattribute </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Nach dem Hochladen der Daten können Sie die Berichte <span class="uicontrol">Besucherprofil</span> &gt; <span class="uicontrol">Kundenattribute</span> in Analytics ausführen. </p> <p>Die hochgeladenen Daten können Sie in <span class="keyword">Adobe Target</span> auch als Zielgruppensegment verwenden. </p> <p>Siehe <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Produktdokumentation zu Kundenattributen</a>. </p> <p> Informationen zur Modernisierung Ihrer Anwendungen für Hauptdienste finden Sie unter <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Anwendungen für Hauptdienste aktivieren</a>. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in die Experience Cloud hochladen. Nach dem Hochladen der Daten können Sie die Berichte <span class="uicontrol">Besucherprofil</span> &gt; <span class="uicontrol">Kundenattribute</span> in Analytics ausführen. </p> <p>Die hochgeladenen Daten können Sie in <span class="keyword">Adobe Target</span> auch als Zielgruppensegment verwenden. </p> <p>Siehe <a href="attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1" format="dita" scope="local">Produktdokumentation zu Kundenattributen</a>. </p> <p> Informationen zur Modernisierung Ihrer Programme für zentrale Services finden Sie unter <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Aktivieren Ihrer Programme für zentrale Services</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -295,20 +295,20 @@ Keine Informationen verfügbar.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gruppe  Zuordnen </p> </td> 
-   <td colname="col2"> <p>Die Seite "Gruppenverwaltung"wurde neu als Verwaltungsoberfläche konzipiert, über die Sie Gruppen erstellen, Experience Cloud-Benutzer Gruppen hinzufügen und Berechtigungen für mehrere Anwendungen zuweisen können. </p> </td> 
+   <td colname="col1"> <p>Gruppe Zuordnen </p> </td> 
+   <td colname="col2"> <p>Die Seite „Gruppenverwaltung“ wurde neu als Verwaltungsoberfläche konzipiert, über die Sie Gruppen erstellen, Benutzer zu Gruppen hinzufügen und Berechtigungen für die Experience Cloud-Programme zuweisen können. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Eins-zu-viele-Zuordnung </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Anwendungskonten im Experience Cloud verknüpfen und mehrere Anwendungen und Organisationen verwenden, können Sie jetzt mehrere Produkte und Dienste einer Organisation zuordnen. </p> </td> 
+   <td colname="col2"> <p>Bei der Verknüpfung von Programmkonten in Experience Cloud können Sie einer bestimmten Organisation nun mehrere Produkte und Services zuordnen, wenn mehrere Programme und Organisationen vorhanden sind. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activation </p> </td> 
    <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> wird nun im linken Navigationsbereich der <span class="keyword">Experience Cloud</span> angezeigt. <span class="wintitle">Activation</span> ist ein <span class="keyword">Experience Cloud</span>-Service, der die Technologie des dynamischen Tag-Managements nutzt. Bei der Auswahl dieses Services werden Sie zum dynamischen Tag-Management weiterleitet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Aktualisierungen der Dokumentation – Zentrale Dienste </p> </td> 
-   <td colname="col2"> <p>Thema hinzugefügt <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Anwendungen für Hauptdienste aktivieren</a> , um Sie bei der Implementierung der Hauptdienste zu unterstützen. </p> </td> 
+   <td colname="col1"> <p>Aktualisierungen der Dokumentation – Zentrale Services </p> </td> 
+   <td colname="col2"> <p>Der neu hinzugefügte Artikel <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Aktivieren Ihrer Programme für zentrale Services</a> unterstützt Sie bei der Implementierung von zentralen Services. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,7 +419,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 **Fehlerbehebungen und Verbesserungen**
 
 * Wenn Sie zu [!DNL experience.adobe.com] navigieren, ist die Anmeldungserfahrung nun mit der Anmeldung von Creative Cloud von Adobe konsistent.
-* Auf der Seite &quot;Unternehmen verwalten&quot;ist das Verknüpfungserlebnis (nach Erhalt einer Einladung) nun für jede Anwendung konsistent.
+* Auf der Seite „Organisationsverwaltung“ ist das Verknüpfungserlebnis (nach dem Erhalt einer Einladung) nun für jedes Programm konsistent.
 
 **Bekannte Probleme**
 
@@ -603,7 +603,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, können keine weiteren Änderungen an den Metadaten gespeichert bleiben.
 * Die Benutzer müssen die Pinnwand aktualisieren, damit die gelöschten Karten nicht mehr in der Ansicht angezeigt werden.
 * Wenn die Option **[!UICONTROL Angaben speichern]** nicht während des Anmeldevorgangs ausgewählt wird, wird der Benutzer nach 15 Minuten abgemeldet.
-* [!DNL Analytics] Auf der Landingpage der Anwendung werden Formatierungsfehler angezeigt.
+* Die Landingpage des Programms [!DNL Analytics] weist Formatierungsfehler auf.
 * Benutzer müssen sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam werden.
 * Beim Löschen eines Bildes gibt [!UICONTROL Assets] keine Warnung aus, wenn das Bild in [!DNL Adobe Target Essentials] verwendet wird.
 * Der Link „Kommentare“ auf der Asset-Kartenansicht kann nicht ausgewählt werden.
@@ -638,7 +638,7 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 * Das Aktualisieren einer Karte aus [!DNL Analytics] kann in der erweiterten Karte gelegentlich zu einem leeren Diagramm führen.
 * Benutzer müssen sich ab- und wieder anmelden, damit alle Änderungen an Berechtigungen wirksam werden.
 * Wenn bei der Anmeldung *`Remember me`* nicht aktiviert ist, wird der Benutzer nach 15 Minuten abgemeldet.
-* [!DNL Analytics] Auf der Landingpage der Anwendung werden Formatierungsfehler angezeigt.
+* Die Landingpage des Programms [!DNL Analytics] weist Formatierungsfehler auf.
 * Der Link „Kommentare“ auf der Assets-Kartenansicht kann nicht ausgewählt werden.
 * Die Experience Cloud-Benutzeroberfläche ist u. U. beeinträchtigt, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
 * Die Experience Cloud kann nicht mit [!DNL Adobe Target] verknüpft werden, wenn die [!DNL Adobe Target]-Anmeldung auf mehreren Target-Servern verwendet werden kann.
@@ -674,7 +674,7 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
   <tr> 
    <td colname="col1"> <p>Daten aktualisieren </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->Die <span class="uicontrol"> Daten aktualisieren</span> -Symbol für ein Diagramm auf einer Karte ist jetzt ausgeblendet, wenn das Programm keine Aktualisierung von Daten zulässt. </p> </td> 
+     <!--MAC-18174-->Das Symbol <span class="uicontrol">Daten aktualisieren</span> für ein Diagramm auf einer Karte ist nun ausgeblendet, wenn das Programm keine Aktualisierung von Daten zulässt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -682,6 +682,6 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 **Fehlerbehebungen**
 
 * Es wurde ein Problem behoben, das das Anwenden von Segmentfiltern bei freigegebenen [!DNL Analytics]-Berichten verhinderte.
-* Es wurde ein Fehler behoben, der dazu führte, dass Anwendungen im [!UICONTROL Experience Cloud Solutions] -Seite als verknüpft, auch wenn die Anwendungskonten nicht verknüpft waren.
+* Es wurde ein Problem behoben, bei dem Programme auf der Seite [!UICONTROL Experience Cloud-Lösungen] als verknüpft angezeigt wurden, selbst wenn die Programmkonten nicht verknüpft waren.
 * Es wurde ein Problem behoben, das [!DNL Adobe Target]-Kunden in Asien daran hinderte, auf der Verknüpfungsseite die Schaltfläche **[!UICONTROL Weiter zu Experience Cloud]** auszuwählen.
 * Es wurde ein Problem behoben, das die Freigabe von YouTube-Videos verhinderte.
