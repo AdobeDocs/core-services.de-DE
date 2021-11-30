@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibung
 
 ![Schema bearbeiten](assets/view_edit_schema.png)
 
-Auf der Seite „[!UICONTROL Schema bearbeiten]“ stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
+Auf der Seite [!UICONTROL Schema bearbeiten] stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
 
 ![Validieren der Schemaseite in Experience Cloud](assets/06_crs_usecase.png)
 
