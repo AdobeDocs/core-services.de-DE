@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](u
 
 | Produkt | Upgrades |
 |---|---|
-| Reports &amp; Analytics | [Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=de) |
 | Data Workbench | Vorgefertigte Arbeitsbereiche für die Qualifizierung von Zielgruppen und das prädiktive Marketing |
 | Analytics Platform | Live-Stream (Dashboards und Auslöser) |
 
@@ -88,7 +88,7 @@ Sämtliche Software, die am Kundenstandort ausgeführt wird, muss deaktiviert we
 
 ## Experience Cloud – Benutzer und Produkte verwalten {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud- und Hauptdienste stehen Benutzern von Analytics Standard und Premium zur Verfügung, wenn Sie die Modernisierung der Implementierung befolgt haben, die unter [Erste Schritte - Aktivieren Ihrer Anwendungen für Hauptdienste](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Dieser Prozess unterstützt Sie beim Modernisieren Ihrer Implementierung und ermöglicht es Ihnen, ein Administrator in Experience Cloud zu werden.)
+Experience Cloud und zentrale Services stehen Analytics Standard- und Premium-Benutzern zur Verfügung, vorausgesetzt, die Modernisierung der Implementierung wurde so durchgeführt wie in [Erste Schritte – Aktivieren Ihrer Programme für zentrale Services](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) beschrieben. (Dieser Prozess unterstützt Sie beim Modernisieren Ihrer Implementierung und ermöglicht es Ihnen, ein Administrator in Experience Cloud zu werden.)
 
 Nachdem Sie Mitglied der Experience Cloud geworden sind, können Sie sich über [!DNL experience.adobe.com] bei der Experience Cloud anmelden und damit beginnen, die Hauptdienste zu verwenden (einschließlich Kundenattributen, Audiences und Analysen mobiler Apps).
 
@@ -96,8 +96,8 @@ Nachdem Sie Mitglied der Experience Cloud geworden sind, können Sie sich über
 
 Die Benutzerverwaltung erfolgt in der [Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html) (Produktlink).
 
-Sie können eine 1:1-Zuordnung zwischen einer in der Adobe Admin Console erstellten Gruppe und einer Lösungsgruppe (z. B. Adobe Analytics) einrichten. Danach wird für einen neuen Benutzer, der der zugeordneten Admin Console hinzugefügt wird, automatisch ein Analytics-Anwendungskonto erstellt und mit der Adobe ID des Benutzers verknüpft. (Vorhandene Benutzer müssen ihre Anmeldeinformationen für das Anwendungskonto manuell verknüpfen, um über die Anmeldung des Experience Cloud auf Anwendungen zuzugreifen.)
+Sie können eine 1:1-Zuordnung zwischen einer in der Adobe Admin Console erstellten Gruppe und einer Lösungsgruppe (z. B. Adobe Analytics) einrichten. Danach wird für einen neuen Benutzer, der zur zugeordneten Admin Console-Gruppe hinzugefügt wird, automatisch ein Analytics-Programmkonto erstellt und mit der Adobe ID des Benutzers verknüpft. (Vorhandene Benutzer müssen ihre Anmeldeinformationen für das Programmkonto manuell verknüpfen, um über die Experience Cloud-Anmeldung auf Programme zuzugreifen.)
 
 >[!NOTE]
 >
->Sie können mehrere Anwendungsgruppen einer Admin Console zuordnen. Adobe empfiehlt jedoch die 1:1-Zuordnung. Durch die vorzeitige Zuordnung der Gruppen können Sie mehrere Benutzer einladen, erstellen, berechtigen und hinzufügen, indem Sie eine CSV-Datei hochladen.
+>Sie können einer Admin Console-Gruppe mehrere Programmgruppen zuordnen. Adobe empfiehlt jedoch die 1:1-Zuordnung. Durch die vorzeitige Zuordnung der Gruppen können Sie mehrere Benutzer einladen, erstellen, berechtigen und hinzufügen, indem Sie eine CSV-Datei hochladen.
