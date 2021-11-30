@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über Experience Cloud-Assets, die Sie in verschiedenen Anwendungen freigeben können.
+description: Hier erfahren Sie mehr über Experience Cloud-Assets, die Sie programmübergreifend freigeben können.
 solution: Experience Cloud
 title: Übersicht über Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -9,25 +9,25 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Übersicht über Experience Cloud-Assets
 
-Experience Cloud Assets bietet ein zentrales Repository marketingfähiger Assets, die Sie in verschiedenen Anwendungen freigeben können. Ein Asset ist ein digitales Dokument, Bild oder Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
+Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. Ein Asset ist ein digitales Dokument, Bild oder Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
 
-Die Asset-Dienste sind:
+Zu den Asset-Services gehören:
 
-* Asset-Speicher, Verwaltungsoberfläche, eingebettete Auswahlschnittstelle (Zugriff erfolgt über Anwendungen).
-* Integrationen mit Creative Cloud-, Experience Cloud- und Experience Cloud-Anwendungen.
+* Asset-Speicherung, Verwaltungsschnittstelle, eingebettete Auswahlschnittstelle (Zugriff erfolgt über Programme).
+* Integrationen mit Creative Cloud, Experience Cloud-Zusammenarbeit und Experience Cloud-Programmen.
 
-Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und beschleunigt die Markteinführung. Sie können Workflows in Anwendungen optimieren:
+Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und beschleunigt die Markteinführung. Sie können Workflows in Programmen optimieren:
 
-* **[!DNL Social]**: Veröffentlichen Sie in Social Media, auf Facebook, in Twitter, LinkedIn und Google+.
-* **[!DNL Target]**: Erstellen Sie Erfahrungen für A/B- und multivariate Tests.
+* **[!DNL Social]**: Veröffentlichen Sie in Social Media, auf Facebook, in Twitter, LinkedIn und Google+
+* **[!DNL Target]**: Erstellen Sie Erfahrungen für A/B- und multivariate Tests
 * **[!DNL Media Optimizer]**: Entwickeln Sie Werbeeinheiten für verschiedene Kanäle und Kampagnen
 * **[!DNL Campaign]**: Fügen Sie Assets in E-Mail-Newslettern und Kampagnen ein.
 
@@ -35,7 +35,7 @@ In [!UICONTROL Experience Cloud Assets] können Sie:
 
 * [Zu Experience Cloud Assets navigieren](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Auf die Symbolleiste zugreifen](experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
-* [Asset bearbeiten](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
+* [Assets bearbeiten](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Nach Assets suchen](experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
 * [Anmerkungen zu Assets vornehmen](experience-cloud-assets.md#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A)
 * [Assets im Vollbildmodus anzeigen und zoomen](experience-cloud-assets.md#section_A9F50D7D6BE341A2AB8244A4E42A4EF7)
@@ -55,7 +55,7 @@ Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche,
 
 ![Auf die Symbolleiste zugreifen](assets/asset-tools.png)
 
-## Asset bearbeiten {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Assets bearbeiten {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
 Die Bearbeitung eines Assets ermöglicht Funktionen wie:
 
@@ -63,7 +63,7 @@ Die Bearbeitung eines Assets ermöglicht Funktionen wie:
 * Drehen
 * Spiegeln
 
-![Asset bearbeiten ](assets/asset-edit.png)
+![Assets bearbeiten](assets/asset-edit.png)
 
 ## Nach Assets suchen {#section_50FE049010B446FC9640AA6A30E5A730}
 
