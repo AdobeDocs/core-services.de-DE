@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '774'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Erfahren Sie mehr über Browser-Unterstützung und häufig gestellte Fragen und 
 * Safari (aktuelle und die vorherigen zwei Versionen)
 * Opera (aktuelle und die vorherigen zwei Versionen)
 
-## Woher weiß ich, ob meine Anwendungen für Hauptdienste aktiviert sind?
+## Wie finde ich heraus, ob meine Programme für zentrale Services aktiviert sind?
 
-Wenn Ihre Implementierung nicht für Hauptdienste bereitgestellt wurde, lesen Sie [Anwendungen für Hauptdienste aktivieren](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), der beschreibt, wie:
+Wenn Ihre Implementierung nicht für zentrale Services bereitgestellt wurde, lesen Sie den Abschnitt [Aktivieren Ihrer Programme für zentrale Services](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in dem Folgendes beschrieben wird:
 
 1. [Experience Cloud beitreten und Administrator werden](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementieren Sie den Experience Cloud ID-Dienst mit Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=de).
@@ -49,20 +49,20 @@ Nein. Die Experience Cloud ist ohne Zusatzkosten im Preis inbegriffen. Bestimmte
 
 ## Weshalb muss sich mein Unternehmen über die Experience Cloud-Schnittstelle anmelden?
 
-Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies ist auch der Standardpfad für den Zugriff auf Anwendungen, der in Zukunft weitere individuelle Anmeldungs-Workflows für die Anwendung ersetzt. Das Anmelden über Experience Cloud erleichtert später eine reibungslosere Transition.
+Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies wird künftig auch der Standardpfad für den Zugriff auf Programme sein und letztlich andere individuelle Programmanmeldevorgänge ersetzen. Das Anmelden über Experience Cloud erleichtert später eine reibungslosere Transition.
 
 ## Wie gehe ich auf die Bedenken ein, die mein Unternehmen gegenüber einer Migration hat?
 
-[Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General#support).
+[Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support).
 
 ## Was ist eine _Bereitstellung?_
 
-Bereitstellung im Sinne der Experience Cloud bedeutet:
+Bereitstellung in Experience Cloud bedeutet:
 
-* Ihre Benutzer können mit der Anmeldung bei der [!DNL Experience Cloud] und Verknüpfen von Anwendungen.
-* Sie können mit der Verwendung der in der Experience Cloud verfügbaren Funktionen beginnen, z. B. „Personen“.
-* Sie können sich darauf einstellen, Ihren anwendungsspezifischen Anmeldeprozess einzustellen.
-* Sie können die Zugriffskontrolle für Anwendungen beibehalten.
+* Ihre Benutzer können mit der Anmeldung bei [!DNL Experience Cloud] und der Verknüpfung von Programmen beginnen.
+* Sie können mit der Verwendung der in Experience Cloud verfügbaren Funktionen beginnen, z. B. „Personen“.
+* Sie können sich darauf vorbereiten, Ihren programmspezifischen Anmeldeprozess aufzugeben.
+* Sie können die Zugangssteuerung für Programme beibehalten.
 
 ## Wie verwalte ich Benutzer und Produktprofile?
 
@@ -76,13 +76,13 @@ Bereitstellung im Sinne der Experience Cloud bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 ## Wo können Benutzer die Kontoverknüpfung verwalten?
 
-Einige Benutzer müssen möglicherweise ihr Anwendungskonto (Analytics) mit der Adobe ID oder Enterprise ID verknüpfen.
+Einige Benutzer müssen unter Umständen ihr Programmkonto (Analytics) mit der Adobe ID oder Enterprise ID verknüpfen.
 
-Siehe [Anwendungskonto mit einer Adobe ID verknüpfen](organizations.md#task_FD389E78640848919E247AC5E95B8369).
+Siehe [Verknüpfen von Programmkonten mit einer Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 
 ## Wie verwalte ich Benutzerkontoprofile und Organisationen?
 
@@ -90,7 +90,7 @@ Siehe [Verwalten von Benutzerkonten](organizations.md#topic_C31CB834F109465A82ED
 
 ## Was ist eine Organisation?
 
-Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert wie ein Anmeldeunternehmen, das alle Experience Cloud-Produkte und -Applikationen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 ## Wo finde ich meine IMS-Organisations-ID?
 
@@ -108,18 +108,18 @@ Hier lautet die ID:
 
 `C538193582390300A495CC9@AdobeOrg`
 
-## Was muss ich tun, wenn einer meiner Benutzer das Unternehmen verlässt?
+## Was muss ich tun, wenn einer meiner Benutzer meine Organisation verlässt?
 
-Ihr Zugriff sollte aus der Anwendung selbst entfernt werden. Sie können nicht über die Experience Cloud oder die direkte Anmeldung auf das Produkt zugreifen. Sie sollten sie auch auf Ebene von Experience Cloud entfernen.
+Dessen Zugang sollte direkt im Programm entfernt werden. Sie können nicht über die Experience Cloud oder die direkte Anmeldung auf das Produkt zugreifen. Sie sollten sie auch auf Ebene von Experience Cloud entfernen.
 
 ## Was ist eine Adobe ID?
 
 Siehe [Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html).
 
-## Kann ich Anwendungskonten für meine Benutzer verknüpfen?
+## Kann ich für meine Benutzer Programmkonten verknüpfen?
 
-Nein. Benutzer müssen ihre eigenen Anwendungen mit ihren Benutzernamen und Kennwörtern verknüpfen.
+Nein. Benutzer müssen ihre eigenen Programme mit ihren Benutzernamen und Kennwörtern verknüpfen.
 
 ## Warum wird mir Social angezeigt, wenn mein Unternehmen diesen Service gar nicht erworben hat?
 
-Adobe Social ist ein Produkt, das mit Analytics verkauft werden kann. Wenn Sie über Analytics verfügen, sehen Sie daher diese Anwendung, jedoch nur dann, wenn Sie sie erworben haben.
+Adobe Social ist ein Produkt, das mit Analytics verkauft werden kann. Daher sehen Sie dieses Programm, wenn Sie Analytics besitzen. Sie haben jedoch nur dann Zugriff darauf, wenn Sie es gekauft haben.
