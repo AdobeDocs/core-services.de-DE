@@ -12,15 +12,15 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Trigger] In Experience Cloud können Sie wichtige Verbraucherverhaltensweisen identifizieren, definieren und überwachen und dann eine anwendungsübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren.
+[!UICONTROL Triggers] in Experience Cloud ermöglichen es Ihnen, wichtige Kundenverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren.
 
 ## Übersicht über Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
@@ -82,7 +82,7 @@ Beispiele für Experience Cloud-Triggers:
 
 Die folgende Seite zeigt beispielsweise Regeln, die Sie für einen Trigger [!UICONTROL Warenkorbabbruch] basierend auf Produkten, die während eines Besuchs angesehen wurden, verwenden können.
 
-![Warenkorbabbruch - Trigger](assets/abandonment-trigger.png)
+![Warenkorbabbruch-Trigger](assets/abandonment-trigger.png)
 
 #### Referrer-Trigger
 
