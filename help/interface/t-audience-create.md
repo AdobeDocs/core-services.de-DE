@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -79,19 +79,19 @@ Die *Besucher von Chrome und Safari* sind ein in Analytics freigegebenes Zielgru
 * **[!UICONTROL Attributquelle:]** Experience Cloud
 * **[!UICONTROL Dimension:]** Besucher von Chrome &amp; Safari
 
-![Besucher von Chrome &amp; Safari](assets/chrome_safari.png)
+![Besucher von Chrome und Safari](assets/chrome_safari.png)
 
-Zum Vergleich können Sie eine *OR*-Regel hinzufügen, um alle Besucher eines Site-Bereichs wie „Patio &amp; Furniture“ anzuzeigen.
+Zum Vergleich können Sie eine *OR*-Regel hinzufügen, um alle Besucher eines Site-Bereichs wie „Terrasse &amp; Möbel“ anzuzeigen.
 
 ![ODER-Regel für eine Zielgruppe](assets/audiences_rule_patio.png)
 
 Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-Benutzern, die Home &amp; Garden besucht haben. Der Abschnitt „Patio &amp; Furniture“ bietet zusätzliche Einblicke in alle Besucher, die diesen Site-Abschnitt besuchen.
 
-![Definierte Audience in Experience Cloud](assets/defined_audience.png)
+![Definierte Zielgruppe in Experience Cloud](assets/defined_audience.png)
 
 * **Historische Schätzdaten:** (Gepunkteter Kreis) Stellt Regeln dar, die basierend auf [!DNL Analytics]-Daten erstellt wurden.
 * **Tatsächliche Zielgruppe:** (Durchgehender Kreis) Eine erstellte Regel, die 30 Tage lang Daten aus Audience Manager enthält. Wenn die Audience Manager-Daten 30 Tage erreichen, ist die Zeile durchgehend gefüllt und stellt die tatsächlichen Zahlen dar.
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nachdem die Audience gespeichert wurde, ist sie für andere Anwendungen verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität aufnehmen.
+Nach dem Speichern der Zielgruppe ist sie für andere Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität aufnehmen.
