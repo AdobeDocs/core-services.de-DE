@@ -2,7 +2,7 @@
 description: Informationen zu den Aktualisierungen der Adobe Experience Cloud-Hilfe.
 keywords: Experience Cloud Services
 solution: Experience Cloud
-title: Dokumentationsaktualisierungen
+title: Dokumentation-Aktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 feature: Customer Attributes
 topic: Administration
@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ Der Abschnitt [Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5
 
 **Aktualisiert: 02.03.2015**
 
-Hinzugefügt [Anwendungen für Hauptdienste aktivieren](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Der Abschnitt [Aktivieren Ihrer Programme für zentrale Services](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) wurde hinzugefügt.
 
 **Aktualisiert: 15.01.2015**
 
