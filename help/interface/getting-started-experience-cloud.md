@@ -10,15 +10,15 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Anmelden und Verwalten von der Experience Cloud-Profileinstellungen
 
-Durch die Anmeldung in Experience Cloud (anstatt sich in einer einzigen Anwendung anzumelden) wird Single Sign-on für alle Anwendungen und Dienste aktiviert, deren Inhaber Sie sind. In diesem Hilfethema wird beschrieben, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage angeben.
+Durch die Anmeldung bei Experience Cloud (anstelle der Anmeldung bei nur einem einzelnen Programm) wird Single Sign-on für alle Programme und Services aktiviert, die Sie besitzen. In diesem Hilfethema wird beschrieben, wie Sie sich bei der Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine Standard-Landingpage angeben.
 
 >[!IMPORTANT]
 >
@@ -37,12 +37,12 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 | Element | Beschreibung |
 |--- |--- |
-| [Grundlagen der Admin Console](experience-cloud.md) | Erfahren Sie mehr über die ersten Schritte, die Sie für die ersten Schritte mit Experience Cloud-Anwendungen durchführen müssen. |
+| [Grundlagen der Admin Console](experience-cloud.md) | Hier lernen Sie die ersten Schritte kennen, die Sie mit Experience Cloud-Programmen ausführen müssen. |
 | [Einrichten der Identität](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | Definieren Sie ein Identitätssystem, mit dem Ihre Endbenutzer authentifiziert werden und richten Sie es ein. |
 | [Benutzerverwaltung](https://helpx.adobe.com/de/enterprise/using/users.html) | Erfahren Sie mehr über die Anmeldung an der Admin Console und die Verwaltung von Benutzerberechtigungen und Produktprofilen für die Experience Cloud. |
 | [Admin Console starten](admin-getting-started.md) | Die Admin Console ist der zentrale Ort für die Verwaltung Ihrer Adobe-Benutzer und Produktberechtigungen in Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link](https://adminconsole.adobe.com) bei der Admin Console anmelden. |
 | [Creative Cloud-Benutzer verwalten](t-admin-add-cc-user.md) | Mit Experience Cloud Assets können Marketingexperten mithilfe der Creative Cloud Ordner mit Designern und anderen Kreativ-Assets gemeinsam verwenden, synchronisieren und mit ihnen zusammenarbeiten. Hier können Sie die Creative Cloud-Benutzer verwalten, die für die Zusammenarbeit mit Ihrem Unternehmen zugelassen sind. |
-| [Report Suites zuordnen](core-services.md) | (Nur Analytics) Die zentralen Experience Cloud-Dienste sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe  [Analytics für Hauptdienste aktiviert wird](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
+| [Report Suites zuordnen](core-services.md) | (Nur Analytics) Die zentralen Experience Cloud-Dienste sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe [Analytics für Hauptdienste aktiviert wird](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [Organisations-ID](organizations.md) | Die *Organisations-ID* befindet sich unten auf der Seite „Administration“. Diese ID ist die mit Ihrem bereitgestellten Experience Cloud-Unternehmen verknüpfte ID. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |
 
 {style=&quot;table-layout:auto&quot;}
@@ -64,7 +64,7 @@ Hilfe für Benutzer, die sich nicht als Administratoren bei der Experience Clou
 
    ![](assets/experience-cloud-core-services.png)
 
-   Die in diesem Menü angezeigten Anwendungen und Dienste hängen von Ihren durch Ihre [administrator](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+   Welche Programme und Services in diesem Menü angezeigt werden, hängt davon ab, welche Programmberechtigungen Ihnen von Ihrem [Administrator](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) zugewiesen wurden.
 
 ## Persönliche Standard-Kontoeinstellungen konfigurieren {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
@@ -72,15 +72,15 @@ Sie können persönliche Details bearbeiten und eine standardmäßige [Organisat
 
 1. Melden Sie sich bei Experience Cloud an und klicken Sie auf Ihr Profilsymbol.
 
-   ![Profil-Symbol auswählen](assets/edit-profile.png)
+   ![Wählen Sie Ihr Profil-Symbol aus](assets/edit-profile.png)
 1. Wählen Sie **[!UICONTROL Profil bearbeiten]** aus.
 
-   ![Standardorganisation und Landingpage im Experience Cloud](assets/default-organization.png)
+   ![Standardorganisation und Landingpage in Experience Cloud](assets/default-organization.png)
 1. Fahren Sie mit der Konfiguration und Bearbeitung Ihrer persönlichen Informationen fort und klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
 ## Benachrichtigungen aktivieren {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-Sie erhalten eine Benachrichtigung (per E-Mail oder im Produkt) über Systemaktualisierungen, Wartungshinweise, Beiträge, Erwähnungen und freigegebene Assets. Sie können auch die Produkte und Anwendungen angeben, für die Sie Benachrichtigungen erhalten möchten, einschließlich des Upload-Status für Kundenattribute.
+Sie erhalten eine Benachrichtigung (per E-Mail oder im Produkt) über Systemaktualisierungen, Wartungshinweise, Beiträge, Erwähnungen und freigegebene Assets. Sie können auch die Produkte und Programme angeben, für die Sie Benachrichtigungen erhalten möchten, einschließlich des Upload-Status für Kundenattribute.
 
 Um zu den Benachrichtigungen zu navigieren, klicken Sie auf das Symbol **[!UICONTROL Benachrichtigungen]** ![](assets/notifications-icon.png) und dann auf das Symbol **[!UICONTROL Einstellungen]**![](assets/icon_edit_board.png).
 
@@ -117,7 +117,7 @@ Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation u
 
 1. Klicken Sie in Experience Cloud auf Ihr Profilbild.
 
-   ![Experience Cloud-Profil bearbeiten](assets/edit-profile.png)
+   ![Bearbeiten Ihres Experience Cloud-Profils](assets/edit-profile.png)
 1. Wählen Sie **[!UICONTROL Profil bearbeiten]** aus.
 
    Füllen Sie auf der Seite „Profil und Kennwörter“ die Felder und Optionen unter „Persönliche Details“ aus.
@@ -131,7 +131,7 @@ Sie können Ihr Experience Cloud-Profil bearbeiten, eine Standardorganisation u
 
    Benutzer von Adobe Analytics können das Kennwort unter [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html) zurücksetzen.
 
-## App-Anmeldung über einen direkten Link konfigurieren {#concept_8BE493A08786469B88B210E13F78FF2F}
+## Konfigurieren der Anmeldung bei einem Programm über einen direkten Link {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 Optional können Sie sich mit der über die Experience Cloud-Oberfläche bereitgestellten Authentifizierung bei einer bestimmten Seite in einer Lösung anmelden.
 
@@ -151,6 +151,6 @@ Beispiel-URL:
 |--- |--- |--- |--- |
 | `tenantId` | Name des Mandanten, bei dem sich der Benutzer anmelden soll. | aem62tenant | Optional |
 | `destURL` | Die vollständige URL zu dem Ort, an den der Benutzer geleitet werden soll. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Optional |
-| `solutionname` | Name der MAC-Lösung, die Inhaber des des `destURL` Parameters ist. Sie wird verwendet, um zu überprüfen, ob der Benutzer Zugriff auf die Anwendung hat, die Eigentümer der URL ist.  Es liegt in der Verantwortung der Anträge sicherzustellen, dass die `applicationname` steht im Einklang mit der `destURL` Parameter.  Beispiel: Wenn für die URL `solutionname` auf angegeben wurde und die `destURL` bereitgestellte eine Analytics-URL ist, wird der Benutzer auch dann zu der URL umgeleitet, wenn er keinen Zugriff auf Analytics hat. Mac überprüft NICHT, ob der Eigentümer der `destURL` mit dem Anwendungsnamen synchronisiert wird. | analytics | Erforderlich, wenn `destURL` der Parameter verwendet wird. |
+| `solutionname` | Name der MAC-Lösung, die Inhaber des des `destURL` Parameters ist. Er wird verwendet, um zu bestätigen, dass der Benutzer Zugriff auf das Programm hat, zu dem die URL gehört.  Die Programme müssen sicherstellen, dass der `applicationname` mit dem Parameter `destURL` übereinstimmt.  Beispiel: Wenn die URL `solutionname` als Social enthält und die bereitgestellte `destURL` eine Analytics-URL ist, wird der Benutzer auch dann zu der URL umgeleitet, wenn er keinen Zugriff auf Analytics hat. MAC überprüft NICHT, ob der Eigentümer der `destURL` mit dem Lösungsnamen synchronisiert ist. | analytics | Erforderlich, wenn `destURL` der Parameter verwendet wird. |
 
 {style=&quot;table-layout:auto&quot;}
