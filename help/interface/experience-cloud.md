@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1333'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 96%
 
 In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 
-* Greifen Sie auf Ihre Programme und Services zu.
-* Suchen Sie nach Produktdokumentation, Tutorials und Community-Posts.
+* Greifen Sie auf Ihre Programme und Services zu
+* Suchen Sie nach Produktdokumentation, Tutorials und Community-Posts
 * Suchen Sie global nach Unternehmensobjekten mithilfe einer globalen Suche (nur Experience Platform-Benutzer)
 * Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
 
@@ -52,7 +52,7 @@ Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Head
 
 Rufen Sie die Programmauswahl ![](assets/menu-icon.png) auf, um auf die in Ihrem Unternehmen für Sie bereitgestellten Experience Cloud-Programme und -Services zuzugreifen.
 
-![Zugriff auf Experience Cloud-Anwendungen](assets/platform-core-services.png)
+![Zugriff auf Experience Cloud-Programme](assets/platform-core-services.png)
 
 ## Browser-Unterstützung in Experience Cloud {#browser}
 
@@ -155,9 +155,9 @@ Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen,
 | Experience Cloud-Schriftarten | `typekit.net` |
 | Gainsight (für Produktanleitungen und Hilfe) | `esp.aptrinsic.com` |
 
-## Hilfe zu Administrations- und anwendungsübergreifenden Diensten
+## Hilfe zu Administrations- und programmübergreifenden Services
 
-Dieses Handbuch bietet Zugriff auf Hilfe zur Experience Cloud-Benutzer- und Produktverwaltung in der Admin Console und ermöglicht so Anwendungen für Plattformdienste. Sie können auch auf die Hilfe über die Zielgruppenbibliothek, Kundenattribute, Experience Cloud-Kreativelemente und mehr zugreifen:
+Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -Produkten in Admin Console, wodurch Programme Platform-Services nutzen können. Sie können auch auf die Hilfe über die Zielgruppenbibliothek, Kundenattribute, Experience Cloud-Kreativelemente und mehr zugreifen:
 
 * [[!UICONTROL Zielgruppenbibliothek]](audience-library.md)
 * [[!UICONTROL Kundenattribute]](attributes.md)
@@ -165,7 +165,7 @@ Dieses Handbuch bietet Zugriff auf Hilfe zur Experience Cloud-Benutzer- und Prod
 * [Experience Cloud-[!UICONTROL Assets]](experience-cloud-assets.md)
 * [Cookies in Experience Cloud](cookies-privacy.md)
 * [Benutzer- und Produktverwaltung](admin-getting-started.md) (Admin Console)
-* [Anwendungen für Hauptdienste aktivieren](core-services.md)
+* [Aktivieren Ihrer Programme für zentrale Services](core-services.md)
 * [Häufig gestellte Fragen](admin-getting-started.md)
 * [Organisationen und Kontoverknüpfung](organizations.md)
 * [Integrationen](marketing-cloud-integrations.md)
@@ -196,9 +196,9 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 
 ## Versionshinweise und zugehörige Experience Cloud-Hilfe
 
-* [Produktdokumentation für alle Experience Cloud-Anwendungen](https://experienceleague.adobe.com/docs/home.html?lang=de) - Hilfe im Experience Cloud Lernmaterialien und Support
+* [Versionshinweise für alle Experience Cloud-Programme](https://experienceleague.adobe.com/docs/home.html?lang=de) – Suchen Sie nach Hilfe unter „Experience Cloud Learn &amp; Support“
 * [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
-* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
+* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=de) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://experienceleague.adobe.com/?lang=de) – Lernen Sie von Experten und der Community
 * [Ausbildung und Schulung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK) – Wenden Sie sich an Adobe, um sicherzustellen, dass Sie die Produkte von Adobe optimal nutzen
 * [Customer Experience-Blog](https://blog.adobe.com/de/topics/digital-transformation.html) – Lesen Sie den Experience Cloud-Blog
