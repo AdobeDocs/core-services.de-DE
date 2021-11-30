@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 
 1. Klicken Sie in einem Asset-Ordner auf **[!UICONTROL Für Creative Cloud freigeben]**.
 
-   ![In Creative Cloud freigeben](assets/asset-share-cc.png)
+   ![Für Creative Cloud freigeben](assets/asset-share-cc.png)
 1. Suchen Sie auf der Seite „Für Creative Cloud freigeben“ den entsprechenden Benutzer und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    ![Creative Cloud-Benutzer hinzufügen](assets/asset-share-cc-page.png)
@@ -37,7 +37,7 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 1. Klicken Sie zum Zugriff auf den Inhalt des Ordners auf **[!UICONTROL Ordner öffnen]** (oder **[!UICONTROL Im Web anzeigen]**).
 
    ![Im Web anzeigen](assets/creative_cloud_open_folder.png)
-1. Sie können dem freigegebenen Asset nun Kommentare hinzufügen:
+1. Sie können nun Kommentare zu dem freigegebenen Asset hinzufügen:
 
    Klicken Sie in Creative Cloud auf ein Bild und dann auf **[!UICONTROL Aktivität]**, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in [!DNL Creative Cloud] und in [!DNL Experience Cloud] synchronisiert.
 
@@ -58,11 +58,11 @@ Ein freigegebenes Asset können Sie auch wie folgt verwenden:
 * Verwenden Sie Assets in der [!UICONTROL Asset-Auswahl] in [!DNL Adobe Social] für Social-Beiträge.
 * Laden oder tauschen Sie Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in [!DNL Adobe Target] für Bilder in Aktivitäten.
 
-Wenn Sie einen Ordner in der Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
+Wenn Sie einen Ordner für Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 
-![Creative Cloud-Logo im Ordner](assets/asset-cc-logo.png)
+![Creative Cloud-Logo auf dem Ordner](assets/asset-cc-logo.png)
 
-Verwandte Hilfe:
+Zugehörige Hilfe:
 
 * [Creative Cloud-Hilfe – Verwalten und Synchronisieren von Dateien](https://helpx.adobe.com/de/creative-cloud/help/sync-creative-cloud-files.html)
 * [Creative Cloud-Hilfe – Zusammenarbeiten mit anderen](https://helpx.adobe.com/de/creative-cloud/help/collaboration.html)
