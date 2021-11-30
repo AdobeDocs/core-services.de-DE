@@ -8,13 +8,13 @@ topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
 ---
 
-# Kundenattribute  Übersicht
+# Kundenattribute Übersicht
 
 Mit [!UICONTROL Kundenattributen] in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen und dann die Daten in Adobe Analytics und Adobe Target verwenden.
 
@@ -42,7 +42,7 @@ Enterprise-Daten befinden sich in anderen Systemen. Sie können komplex sein und
 
 Das folgende Bild ist ein Beispiel für eine Datendatei mit Abonnentendaten zu Produkten, einschließlich Mitglieds-IDs, Produkten mit Berechtigung, den am häufigsten gestarteten Produkten usw.
 
-![Was sind Enterprise-Kundendaten?](assets/01_crs_usecase.png)
+![Was sind Unternehmens-Kundendaten?](assets/01_crs_usecase.png)
 
 Nach Erstellung der Datendatei können Sie sie in eine Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundenattribute]** erstellen.
 
