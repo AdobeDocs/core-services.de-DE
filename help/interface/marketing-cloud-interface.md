@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: 'Neue Funktionen in der Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Für die Benutzeroberfläche der [!DNL Adobe Experience Cloud] gibt es folgende 
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Neue Landingpage für die Administration | Wenn Sie sich beim Experience Cloud anmelden und zur Administrationsseite navigieren, steht eine neue intuitive Benutzeroberfläche zur Verfügung, über die Sie schnell auf Ihre Experience Cloud-Anwendungen und Core Services zugreifen können. |
+| Neue Landingpage für die Administration | Wenn Sie sich bei Experience Cloud anmelden und zur Seite „Administration“ navigieren, steht eine neue intuitive Benutzeroberfläche zur Verfügung, über die Sie schnell auf Ihre Experience Cloud-Programme und zentrale Services zugreifen können. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,8 +70,8 @@ Viele der Wartungsbenachrichtigungen rund um geplante Wartungs-/Produktaktualisi
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Benachrichtigungen – Granulare Einstellungen | Sie können Benachrichtigungen für Produkt- und Anwendungsereignisse und -aktivitäten aktivieren, einschließlich Benachrichtigungen zu [Kundenattribute](attributes.md) Upload-Aktivität. |
-| Benachrichtigungen – Wartungsbenachrichtigungen | In den Benachrichtigungseinstellungen können Sie Wartungsbenachrichtigungen für Produkte und Anwendungen aktivieren. |
+| Benachrichtigungen – Granulare Einstellungen | Sie können Benachrichtigungen für Produkt- und Programmereignisse/-aktivitäten aktivieren einschließlich Benachrichtigungen über die Upload-Aktivität der [Kundenattribute](attributes.md). |
+| Benachrichtigungen – Wartungsbenachrichtigungen | In den Benachrichtigungseinstellungen können Sie Wartungsbenachrichtigungen für Produkte und Programme aktivieren. |
 | Admin Console für Experience Cloud-Lösungen | Neue Experience Cloud-Kunden können mit der Admin Console beginnen, einem zentralen Speicherort für die Verwaltung Ihrer Adobe-Berechtigungen in Ihrer gesamten Organisation.<br>Die Migration der Benutzerverwaltung in die Admin Console wird in mehreren Wellen durchgeführt. Adobe kontaktiert Sie (die Systemadministratoren), wenn die Zeit für Ihre Migration gekommen ist.<br>Analytics-Administratoren, siehe [Analytics-Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=de). |
 
 {style=&quot;table-layout:auto&quot;}
@@ -80,7 +80,7 @@ Viele der Wartungsbenachrichtigungen rund um geplante Wartungs-/Produktaktualisi
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  <br>[Report Suites zuordnen](core-services.md) an eine einzige Organisation zu verweisen, um anwendungsübergreifende Funktionen und Dienste im Experience Cloud zu ermöglichen. |
+| Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  Wenn Sie für eine einzelne Organisation <br>[Report Suites zuordnen](core-services.md), hilft Ihnen das beim Aktivieren programmübergreifender Funktionen und Services in Experience Cloud. |
 | Aktualisierungen für Experience Cloud-Zielgruppen | **Report Suites anwenden**<br> Sie können eine Report Suite nun auf alle Ihre [Zielgruppen-Regeln](t-audience-create.md) anwenden. (Zuvor war es nur möglich, in jeder einzelnen Regeldefinition eine Report Suite festzulegen.) <br>**Eigenschaften und Variablen**<br> Sie können nun Analytics-Eigenschaften und Standardvariablen (zusätzlich zu eVars und Ereignissen) in Echtzeit-Zielgruppen einbeziehen. |
 
 {style=&quot;table-layout:auto&quot;}
