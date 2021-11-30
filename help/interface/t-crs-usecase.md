@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 >
 >Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
 >
->Um die Funktion &quot;Kundenattribute&quot;verwenden zu können, müssen Benutzer auch zu Gruppen auf Anwendungsebene (Analytics oder [!DNL Target]).
+>Um die Kundenattribut-Funktion verwenden zu können, müssen Benutzer auch zu Gruppen auf Programmebene (Analytics oder [!DNL Target]) gehören.
 
 Siehe [Verwalten von Experience Cloud-Benutzern und -produkten](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
@@ -146,7 +146,7 @@ So löschen Sie Attribute und ersetzen Attribute im Schema.
 
 ## Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-Durch die Konfiguration eines Abonnements wird der Datenfluss zwischen dem Experience Cloud und den Anwendungen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an abonnierte Anwendungen übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
+Beim Konfigurieren eines Abonnements wird der Datenfluss zwischen Experience Cloud und Programmen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Programme übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
 Siehe [Konfigurieren von Abonnements](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -158,13 +158,13 @@ Suchen Sie auf der Seite [!UICONTROL „Neue Kunden-Attributquelle erstellen“[
 
 ## Kundenattribute in Adobe Analytics verwenden {#task_7EB0680540CE4B65911B2C779210915D}
 
-Jetzt, wo die Daten in Anwendungen wie Adobe Analytics verfügbar sind, können Sie Berichte zu den Daten erstellen, sie analysieren und die entsprechenden Maßnahmen in Ihren Marketing-Kampagnen ergreifen.
+Jetzt, wo die Daten in Programmen wie Adobe Analytics verfügbar sind, können Sie Berichte zu den Daten erstellen, sie analysieren und in Ihren Marketing-Kampagnen die entsprechenden Maßnahmen ergreifen.
 
 Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen Attributen basiert. Dieses Segment zeigt [!DNL Photoshop Lightroom]-Abonnenten, deren am häufigsten geladenes Produkt Photoshop ist.
 
 ![Analytics-Segment basierend auf den hochgeladenen Attributen](assets/08_crs_usecase.png)
 
-Wenn Sie ein Segment in der Experience Cloud veröffentlichen, wird es in den Experience Cloud-Audiences und in Audience Manager verfügbar.
+Wenn Sie ein Segment in Experience Cloud veröffentlichen, wird es in den Experience Cloud-Zielgruppen und in Audience Manager verfügbar.
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
