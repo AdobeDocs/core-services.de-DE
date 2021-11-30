@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Erfahren Sie mehr über das Verwalten und das Wechseln von Organisationen in Exp
 
 ## Organisation identifizieren {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-Eine -*Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in der Experience Cloud zu steuern. Die Organisation agiert wie ein Anmeldeunternehmen, das alle Experience Cloud-Produkte und -Applikationen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+Eine *Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in Experience Cloud zu steuern. Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf Ihren Profilavatar, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie rechts in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
 
@@ -38,26 +38,26 @@ Möglicherweise müssen Sie auch zu Supportzwecken Ihre Organisations-ID suchen.
 
 Die **Organisations-ID** ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich).
 
-Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Landingpage oder klicken Sie auf (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**. Sie finden die Organisations-ID am unteren Rand der Seite [!UICONTROL Erste Schritte mit der Experience Cloud] oder auf der Seite [!UICONTROL Administration].
+Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Landingpage oder klicken Sie auf (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**. Sie finden die Organisations-ID am unteren Rand der Seite [!UICONTROL Erste Schritte mit Experience Cloud] oder auf der Seite [!UICONTROL Administration].
 
 ![](assets/administration-page.png)
 
-## Anwendungskonto mit einer Adobe ID verknüpfen {#task_FD389E78640848919E247AC5E95B8369}
+## Verknüpfen eines Programmkontos mit einer Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Anwendungen und Dienste. In seltenen Fällen müssen Sie eventuell Anwendungsberechtigungen mit einer Adobe ID verknüpfen.
+In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme und Services. In seltenen Fällen müssen Sie eventuell die Anmeldeinformationen eines Programms mit einer Adobe ID verknüpfen.
 
 1. Befolgen Sie die Anweisungen in Ihrer E-Mail-Einladung zur Experience Cloud.
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
-1. Wählen Sie den Anwendungsselektor aus. ( ![](assets/menu-icon.png)).
+1. Klicken Sie auf die Programmauswahl (![](assets/menu-icon.png)).
 
-   ![Anwendungskonto mit einer Adobe ID verknüpfen](assets/solutions-active.png)
+   ![Verknüpfen eines Programmkontos mit einer Adobe ID](assets/solutions-active.png)
 
-   Die Anwendungen, auf die Sie Zugriff haben, sind farbig dargestellt.
-1. Wählen Sie die gewünschte Anwendung aus.
+   Die Programme, auf die Sie Zugriff haben, sind farbig dargestellt.
+1. Wählen Sie das gewünschte Programm aus.
 
-   ![Wählen Sie die gewünschte Anwendung aus](assets/analytics-link-accounts.png)
+   ![Wählen Sie das gewünschte Programm aus](assets/analytics-link-accounts.png)
 
-   Dieser Nachrichtentyp wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Berechtigungen für die Anwendung verfügen), Ihre Kontoanmeldeinformationen jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
+   Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldeinformationen jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
 1. Klicken Sie auf **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
 
 ## Standardorganisation und -Landingpage festlegen {#concept_6A191B42A9874A9780882903BA18F071}
@@ -79,4 +79,4 @@ Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
 * [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support).
-* Greifen Sie mithilfe der Standardanmeldung auf Ihre Anwendung zu, während das Problem bereits behoben ist.
+* Greifen Sie über die Standardanmeldung auf das Programm zu, solange das Problem nicht behoben ist.
