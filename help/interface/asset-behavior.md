@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
 
@@ -42,9 +42,9 @@ Sie verschieben einen freigegebenen Ordner in einen nicht freigegebenen Ordner.
 
 ## Inhalt eines nicht freigegebenen Ordners in freigegebenen Ordner {#section_2941ED0DC52E4573AC1AB4C22313DD8E}
 
-Sie verschieben Inhalt aus einem nicht freigegebenen Ordner in einen freigegebenen Ordner.
+Sie verschieben Inhalte aus einem nicht freigegebenen Ordner in einen freigegebenen Ordner.
 
-![Inhalt eines nicht freigegebenen Ordners in freigegebenen Ordner](assets/03_assets_move.png)
+![Inhalte eines nicht freigegebenen Ordners in freigegebenen Ordner](assets/03_assets_move.png)
 
 **Ergebnis:** Der Inhalt wird jetzt freigegeben, und alle Mitwirkenden können ihn sehen. Der Platz für die Datenspeicherung erhöht sich um die Inhaltsgröße.
 
@@ -52,15 +52,15 @@ Sie verschieben Inhalt aus einem nicht freigegebenen Ordner in einen freigegeben
 
 Sie archivieren oder löschen Inhalte, die sich in einem freigegebenen Ordner befinden.
 
-![Archivierter und gelöschter freigegebener Inhalt](assets/04_assets_move.png)
+![Archivierte und gelöschte freigegebene Inhalte](assets/04_assets_move.png)
 
 **Ergebnis:** Der Inhalt wird für den Eigentümer des Ordners archiviert. Mitwirkende, die nicht Eigentümer des Inhalts sind, können nicht mehr darauf zugreifen.
 
 ## Eigener freigegebener Inhalt in nicht freigegebenen Ordner {#section_3810A364B67E4B8C9CA244BC52BF91BB}
 
-Sie verschieben Inhalt aus einem freigegebenen Ordner, dessen Eigentümer Sie sind, in einen nicht freigegebenen Ordner.
+Sie verschieben Inhalte aus einem freigegebenen Ordner, dessen Eigentümer Sie sind, in einen nicht freigegebenen Ordner.
 
-![Eigener freigegebener Inhalt in nicht freigegebenen Ordner](assets/05_assets_move.png)
+![Eigene freigegebene Inhalte in nicht freigegebenen Ordner](assets/05_assets_move.png)
 
 **Ergebnis:** Die Inhalte werden jetzt nicht mehr freigegeben. Die am freigegebenen Ordner Mitwirkenden haben auf den Inhalt keinen Zugriff mehr.
 
@@ -68,7 +68,7 @@ Sie verschieben Inhalt aus einem freigegebenen Ordner, dessen Eigentümer Sie si
 
 Sie verschieben Inhalte aus freigegebenen Ordnern, die Eigentum einer anderen Person sind, in einen nicht freigegebenen Ordner.
 
-![Inhalt eines anderen Benutzers in nicht freigegebenen Ordner](assets/06_assets_move.png)
+![Inhalte eines anderen Benutzers in nicht freigegebenen Ordner](assets/06_assets_move.png)
 
 **Ergebnis:** Der Inhalt wird im nicht freigegebenen Ordner angezeigt und aus dem freigegebenen Ordner entfernt. Die am freigegebenen Ordner Mitwirkenden haben auf den Inhalt keinen Zugriff mehr. Der Inhalt wird für den Eigentümer des freigegebenen Ordners archiviert.
 
@@ -78,7 +78,7 @@ Eigentümer und Editoren können Inhalte verschieben, die ihnen nicht gehören, 
 
 Sie archivieren (über das Web) oder löschen (über einen Desktop) einen freigegebenen Ordner, dessen Eigentümer Sie sind.
 
-![Archivierter oder gelöschter eigener Inhalt](assets/07_assets_move.png)
+![Archivierte oder gelöschte eigene Inhalte](assets/07_assets_move.png)
 
 **Ergebnis:** Der Ordner wird nicht freigegeben; anschließend wird er archiviert. Die Mitarbeiter haben keinen Zugriff mehr auf den Ordner.
 
@@ -94,7 +94,7 @@ Sie verschieben einen freigegebenen Ordner, dessen Eigentümer Sie sind, in eine
 
 Sie verschieben Inhalte aus einem freigegebenen Ordner in einen anderen freigegebenen Ordner.
 
-![Freigegebener Inhalt in anderen freigegebenen Ordner](assets/11_assets_move.png)
+![Freigegebene Inhalte in anderen freigegebenen Ordner](assets/11_assets_move.png)
 
 **Ergebnis:** Der Inhalt wird in Ordner 2 angezeigt und jetzt für neue Mitwirkende freigegeben. Der Inhalt wird aus dem Ordner 1 entfernt, und der Eigentümer sieht ihn als archiviert, während die anderen Mitwirkenden keinen Zugriff mehr darauf haben.
 
@@ -102,6 +102,6 @@ Sie verschieben Inhalte aus einem freigegebenen Ordner in einen anderen freigege
 
 Sie stellen Inhalte aus einem Archiv wieder her, das zu einem freigegebenen Ordner gehörte. Sie waren zum Zeitpunkt der Archivierung Eigentümer des Inhalts.
 
-![Aus Archiv wiederhergestellter Inhalt](assets/12_assets_move.png)
+![Aus Archiv wiederhergestellte Inhalte](assets/12_assets_move.png)
 
 **Ergebnis:** Der Inhalt wird im freigegebenen Ordner wiederhergestellt und alle Mitwirkenden können erneut darauf zugreifen. Wenn der freigegebene Ordner nicht mehr vorhanden ist, wird der Inhalt in eine nicht freigegebene Kopie des/der ursprünglichen übergeordneten Ordner(s) eingefügt.
