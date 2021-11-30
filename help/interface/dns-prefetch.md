@@ -1,7 +1,7 @@
 ---
-description: Erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seitenladezeiten bei verschiedenen Anwendungen und Diensten in Experience Cloud zu reduzieren.
+description: Hier erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seitenladezeit bei verschiedenen Programmen und Services in Experience Cloud zu reduzieren.
 solution: Experience Cloud
-title: 'Verwendung des DNS-Vorabrufs für verschiedene Anwendungen und Dienste '
+title: 'Verwendung des DNS-Vorabrufs für verschiedene Programme und Services '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 feature: Customer Attributes
 topic: Administration
@@ -9,32 +9,32 @@ role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Verwendung des DNS-Vorabrufs für verschiedene Anwendungen und Dienste
+# Verwendung des DNS-Vorabrufs für verschiedene Programme und Services
 
-Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten für verschiedene Anwendungen und Dienste zu reduzieren.
+Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Programme und Services zu reduzieren.
 
 ## Vorstellung des DNS-Vorabrufs {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
 Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit ihren entsprechenden IP-Adressen verknüpft sind, automatisch aufzulösen. Der Vorabrufprozess beginnt, wenn der Browser eine Webseite lädt. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. Lädt ein Browser diese Seite, nutzt er das [DNS-System](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/), um den verlinkten Domänennamen zu suchen und ihn in die zugehörige numerische IP-Adresse umzuwandeln. Der DNS-Vorabruf trägt zur Verbesserung der Seitenleistung bei, da der Domänenname bereits in eine IP-Adresse aufgelöst wird, bevor ein Site-Besucher auf diesen Link oder diese Schaltfläche klickt. Der DNS-Vorabrufprozess ist für die Benutzer transparent.
 
-## DNS-Vorabruf und Adobe Experience Cloud-Anwendungen {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
+## DNS-Vorabruf und Adobe Experience Cloud-Programme {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL Experience Cloud] Anwendungen und Dienste aus folgenden Gründen:
+Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen Programmen und Services von [!UICONTROL Experience Cloud] funktioniert, denn:
 
-* Jede Experience Cloud-Anwendung oder jeder Dienst generiert beim Laden der Seite dynamisch DNS-Aufrufe.
-* Der Browser kann Domänennamen nicht in IP-Adressen auflösen, bevor diese Aufrufe durchgeführt werden.
+* Jedes Programm und jeder Service von Experience Cloud generiert beim Laden der Seite dynamisch DNS-Aufrufe.
+* Der Browser kann Domain-Namen nicht in IP-Adressen auflösen, bevor diese Aufrufe durchgeführt werden.
 
-Sie können jedoch den DNS-Vorabruf manuell in Ihre Experience Cloud-Applikationen implementieren. Fügen Sie hierzu das HTML`<dns-prefetch>`-Tag wie unten dargestellt in den Abschnitt `<head>` Ihres Seiten-Codes ein. Wurde der DNS-Vorabruf ordnungsgemäß implementiert, verkürzt er das Laden von Seiten unter Umständen um einige Millisekunden.
+Sie können jedoch den DNS-Vorabruf manuell in Ihre Experience Cloud-Programme implementieren. Fügen Sie hierzu das HTML`<dns-prefetch>`-Tag wie unten dargestellt in den Abschnitt `<head>` Ihres Seiten-Codes ein. Wurde der DNS-Vorabruf ordnungsgemäß implementiert, verkürzt er das Laden von Seiten unter Umständen um einige Millisekunden.
 
 ## Code-Beispiele für den DNS-Vorabruf {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-Die folgenden Beispiele zeigen, wie Sie DNS-Vorabrufe an verschiedene [!DNL Experience Cloud] Anwendungen und Dienste. Für einige Vorabrufe werden Ihre [!DNL Adobe]-Organisations-ID oder Tracking-Server-Daten benötigt. In den folgenden Beispielen steht der *kursive* Code für einen variablen Platzhalter. Diesen Code würden Sie durch Ihre eigene [!DNL Adobe]-Partner-ID, Kundennummer, Tracking-Server-Information usw. ersetzen.
+In den folgenden Beispielen wird dargestellt, wie Sie DNS-Vorabrufe an unterschiedliche Programme und Services von [!DNL Experience Cloud] tätigen können. Für einige Vorabrufe werden Ihre [!DNL Adobe]-Organisations-ID oder Tracking-Server-Daten benötigt. In den folgenden Beispielen steht der *kursive* Code für einen variablen Platzhalter. Diesen Code würden Sie durch Ihre eigene [!DNL Adobe]-Partner-ID, Kundennummer, Tracking-Server-Information usw. ersetzen.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
