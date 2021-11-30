@@ -5,9 +5,9 @@ breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 user-guide-description: Erfahren Sie mehr über die Benutzeroberfläche von Experience Cloud, konfigurieren Sie Voreinstellungen, suchen Sie nach Hilfe und Geschäftsobjekten. Hier erhalten Sie Hilfe zu Benutzer- und Produktverwaltung, Kundenattributen, Zielgruppenbibliothek, Cookies und Experience Cloud-Assets.
 index: true
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 95%
 + [Handbuch für Komponenten der Experience Cloud Zentrale Schnittstelle](experience-cloud.md)
 + Experience Cloud Services {#services}
    + [Experience Cloud Services](core-services-landing.md)
-   + [Implementierung für anwendungsübergreifende Dienste aktivieren](core-services.md)
+   + [Aktivieren Ihrer Implementierung für programmübergreifende Services](core-services.md)
    + Experience Cloud-Zielgruppenbibliothek {#audiences}
       + [Experience Cloud-Zielgruppen](audience-library.md)
       + [Erstellen einer Zielgruppe](t-audience-create.md)
       + [Veröffentlichen eines Analytics-Zielgruppensegments](t-publish-audience-segment.md)
    + Experience Cloud-Kundenattribute {#customer-attributes}
-      + [Kundenattribute  Übersicht](attributes.md)
+      + [Kundenattribute Übersicht](attributes.md)
       + [Häufig gestellte Fragen zu Kundenattributen](faq-crs.md)
       + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](crs-data-file.md)
       + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](t-crs-usecase.md)
@@ -54,7 +54,7 @@ ht-degree: 95%
    + [Organisationen und Kontoverknüpfung](organizations.md)
    + [Upgrade auf Analytics Premium und die Experience Cloud](upgrade-to-analytics-premium.md)
    + [Experience Cloud-Integrationen](marketing-cloud-integrations.md)
-   + [Verwendung des DNS-Vorabrufs für verschiedene Anwendungen und Dienste](dns-prefetch.md)
+   + [Verwendung des DNS-Vorabrufs für verschiedene Programme und Services](dns-prefetch.md)
    + Experience Cloud-Cookies {#ec-cookies}
       + [Übersicht über Cookies in Experience Cloud](cookies-privacy.md)
       + [Erstanbieter-Cookies in Experience Cloud](cookies-first-party.md)
@@ -75,4 +75,4 @@ ht-degree: 95%
 + Zusätzliche Ressourcen {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologie](terms.md)
-   + [Dokumentationsaktualisierungen](doc-updates.md)
+   + [Dokumentation-Aktualisierungen](doc-updates.md)
