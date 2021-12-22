@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -53,11 +53,11 @@ Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen n
 
 ## Wie gehe ich auf die Bedenken ein, die mein Unternehmen gegenüber einer Migration hat?
 
-[Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General#support).
+[Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support).
 
-## Wie lässt sich [!DNL Adobe Support] Zugriff auf meine Adobe Cloud-Umgebung, um ein Problem zu beheben?
+## Wie kann [!DNL Adobe Support] auf meine Adobe-Cloud-Umgebung zugreifen, um ein Problem zu beheben?
 
-[!DNL Adobe Support] kann eine Identitätsanfrage einreichen, für die Sie eine E-Mail mit der Markenbezeichnung Adobe erhalten (Beispiel unten), um Ihre ausdrückliche Autorisierung anzufordern. Der Zugriff wird für eine begrenzte Zeit gewährt. Nach der Gewährung können Sie den Zugriff jederzeit widerrufen. Adobe protokolliert alle von Vertretern der Adobe getroffenen Maßnahmen.
+[!DNL Adobe Support] können eine Identitätsanfrage einreichen, für die Sie eine E-Mail mit dem Adobe-Markenlogo erhalten (Beispiel unten), in der Ihre ausdrückliche Autorisierung angefordert wird. Der Zugriff wird für eine begrenzte Zeit gewährt. Nach der Gewährung können Sie den Zugriff jederzeit widerrufen. Adobe protokolliert alle von Adobe-Mitarbeitern getroffenen Maßnahmen.
 
 ![](/help/interface/admin-getting-started/assets/support-email.png)
 
@@ -82,7 +82,7 @@ Bereitstellung in Experience Cloud bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 ## Wo können Benutzer die Kontoverknüpfung verwalten?
 
