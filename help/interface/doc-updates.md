@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '537'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 96%
 
 Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation.
 
-**Aktualisiert: 13.12.2021**
+**Aktualisiert am 13.12.2021**
 
-Die [Administrations-FAQs](faq.md) Informationen dazu, wie der Adobe-Support auf Ihre Adobe Cloud-Umgebung zugreifen kann, um ein Problem zu beheben.
+Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen darüber aktualisiert, wie der Adobe-Support auf Ihre Adobe-Cloud-Umgebung zugreifen kann, um ein Problem zu beheben.
 
 **Aktualisiert: 28.10.2021**
 
