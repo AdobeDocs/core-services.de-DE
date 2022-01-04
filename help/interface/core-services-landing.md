@@ -8,15 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
 source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Experience Cloud Services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Experience Cloud Services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Diese Dokumentation bezieht sich auf die Funktionen der einheitlichen Kopfzeile des Experience Cloud, z. B. die [!UICONTROL Personen] -Dienst (Zielgruppen und Kundenattribute), Benutzer- und Produktverwaltung für Experience Cloud, Cookies, Kontovoreinstellungen, Benachrichtigungen usw.
+Diese Dokumentation erläutert Funktionen des einheitlichen Headers in Experience Cloud, wie z. B. den Service [!UICONTROL People] (Zielgruppen und Kundenattribute), die Benutzer- und Produktverwaltung für Experience Cloud, Cookies, Kontovoreinstellungen und Benachrichtigungen.
 
 Um auf diese Services in Experience Cloud zuzugreifen, klicken Sie auf die **[!UICONTROL Programmauswahl]**
 ![Services-Auswahl](assets/menu-icon.png).
@@ -35,7 +35,7 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Activation](activation.md) | Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Data Collection (Launch) und Experience Cloud Triggers. |
 | [Assets](experience-cloud-assets.md) | Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. |
 | [Administration](admin-getting-started.md) | Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von Benutzerberechtigungen und Produktprofilen für Experience Cloud und über die Browser-Unterstützung. |
-| [Cookies ](cookies-privacy.md) | Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe beteiligt sich bei mehreren Datenschutzorganisationen und arbeitet mit Datenschutzbehörden und nach Selbstregulierungsgrundsätzen. |
+| [Cookies](cookies-privacy.md) | Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe beteiligt sich bei mehreren Datenschutzorganisationen und arbeitet mit Datenschutzbehörden und nach Selbstregulierungsgrundsätzen. |
 
 {style=&quot;table-layout:auto&quot;}
 
