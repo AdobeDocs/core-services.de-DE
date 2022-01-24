@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4525'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 | Funktion | Datum | Beschreibung |
 | ------- | ------- | -------|
-| [!UICONTROL Unified Recents] – Erweiterte Unterstützung für kürzlich aufgerufene Geschäftsobjekte | 10. August 2021 | [!UICONTROL Unified Recents] wurde auf zusätzliche Geschäftsobjekte in Journey Optimizer und Experience Platform erweitert. Journey Optimizer-Kunden können ihre kürzlich aufgerufenen Objekte (Nachrichten, Journeys, Segmente, Schemas, Data Sources, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele) über die Adobe Journey Optimizer-Startseite finden. |
+| [!UICONTROL Unified Recents] – Erweiterte Unterstützung für kürzlich aufgerufene Geschäftsobjekte | 10. August 2021 | [!UICONTROL Unified Recents] wurde auf zusätzliche Geschäftsobjekte in Journey Optimizer und Experience Platform erweitert. Journey Optimizer-Kunden können ihre kürzlich aufgerufenen Objekte (Nachrichten, Journeys, Segmente, Schemas, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele) über die Startseite von Adobe Journey Optimizer finden. |
 
 ## Juli 2021
 
@@ -64,7 +64,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 {style=&quot;table-layout:auto&quot;}
 
-## Mai – 2021
+## Mai 2021
 
 | Funktion | Datum | Beschreibung |
 | ------- | ------- | ------- |
@@ -574,7 +574,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
   </tr> 
   <tr> 
    <td colname="col1"> <p>Asset-Synchronisierung. </p> </td> 
-   <td colname="col2"> <p> Assets innerhalb von Experience Manager-(-)Assets können Sie über die Experience Cloud und die Creative Cloud freigeben. Alle Änderungen an diesen Assets werden in den freigegebenen Kopien der Assets in Experience Cloud und Creative Cloud übernommen. </p> </td> 
+   <td colname="col2"> <p> Assets in Experience Manager Assets können Sie für Experience Cloud und Creative Cloud freigeben. Alle Änderungen an diesen Assets werden in den freigegebenen Kopien der Assets in Experience Cloud und Creative Cloud übernommen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
