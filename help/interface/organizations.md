@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '524'
-ht-degree: 100%
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+workflow-type: tm+mt
+source-wordcount: '550'
+ht-degree: 87%
 
 ---
 
@@ -30,17 +30,27 @@ Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit Experience Cl
 
 Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-![Schrittergebnis](assets/organization-switch.png)
+![Ergebnis des Schritts](assets/organization-switch.png)
 
 ## Organisations-ID ermitteln {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 Möglicherweise müssen Sie auch zu Supportzwecken Ihre Organisations-ID suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
-Die **Organisations-ID** ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich).
+Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von (und muss enthalten) `@AdobeOrg`.
 
-Um Ihre Organisations-ID anzuzeigen, navigieren Sie zur Experience Cloud-Landingpage oder klicken Sie auf (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**. Sie finden die Organisations-ID am unteren Rand der Seite [!UICONTROL Erste Schritte mit Experience Cloud] oder auf der Seite [!UICONTROL Administration].
+Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithilfe des Tastaturbefehls anzeigen **Strg+i** von jeder Seite aus `https://experience.adobe.com`und klicken Sie dann auf **[!UICONTROL Zugewiesene Organisationen]** im Dialogfeld.
 
-![](assets/administration-page.png)
+![Zugewiesene Organisations-ID](assets/assigned-organization.png)
+
+Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und zeigen Sie Ihre IMS-Organisations-ID in der URL an.
+
+Beispielsweise in der folgenden URL:
+
+`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+Hier lautet die ID:
+
+`C538193582390300A495CC9@AdobeOrg`
 
 ## Verknüpfen eines Programmkontos mit einer Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 

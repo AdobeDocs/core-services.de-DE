@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1333'
-ht-degree: 100%
+source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,12 @@ In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
-1. Wählen Sie **[!UICONTROL Mit Adobe ID anmelden]** aus.
+1. Geben Sie Ihre Adobe-E-Mail-Adresse ein und wählen Sie **[!UICONTROL Weiter]**.
+
+   Administratoren, siehe [Experience Cloud-Benutzerauthentifizierung](admin-getting-started.md#migration) für wichtige Aktualisierungen an Identitätstypen (Business ID).
+
+1. Wählen Sie ein Konto aus.
+1. Geben Sie Ihr Passwort ein.
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
    ![Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden](assets/organizations-menu.png)
@@ -198,7 +203,7 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 
 * [Versionshinweise für alle Experience Cloud-Programme](https://experienceleague.adobe.com/docs/home.html?lang=de) – Suchen Sie nach Hilfe unter „Experience Cloud Learn &amp; Support“
 * [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
-* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=de) – Videos und Übungen zu den zentralen Diensten
+* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://experienceleague.adobe.com/?lang=de) – Lernen Sie von Experten und der Community
 * [Ausbildung und Schulung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK) – Wenden Sie sich an Adobe, um sicherzustellen, dass Sie die Produkte von Adobe optimal nutzen
 * [Customer Experience-Blog](https://blog.adobe.com/de/topics/digital-transformation.html) – Lesen Sie den Experience Cloud-Blog

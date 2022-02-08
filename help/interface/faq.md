@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 97%
 
 ---
 
@@ -53,13 +53,13 @@ Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen n
 
 ## Wie gehe ich auf die Bedenken ein, die mein Unternehmen gegenüber einer Migration hat?
 
-[Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support).
+[Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General#support).
 
 ## Wie kann [!DNL Adobe Support] auf meine Adobe-Cloud-Umgebung zugreifen, um ein Problem zu beheben?
 
 [!DNL Adobe Support] können eine Identitätsanfrage einreichen, für die Sie eine E-Mail mit dem Adobe-Markenlogo erhalten (Beispiel unten), in der Ihre ausdrückliche Autorisierung angefordert wird. Der Zugriff wird für eine begrenzte Zeit gewährt. Nach der Gewährung können Sie den Zugriff jederzeit widerrufen. Adobe protokolliert alle von Adobe-Mitarbeitern getroffenen Maßnahmen.
 
-![](/help/interface/admin-getting-started/assets/support-email.png)
+![Support-Fall für Adoben](assets/support-email.png)
 
 ## Was ist eine _Bereitstellung?_
 
@@ -82,7 +82,7 @@ Bereitstellung in Experience Cloud bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 ## Wo können Benutzer die Kontoverknüpfung verwalten?
 
@@ -96,23 +96,11 @@ Siehe [Verwalten von Benutzerkonten](organizations.md#topic_C31CB834F109465A82ED
 
 ## Was ist eine Organisation?
 
-Eine *Organisation* ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in Experience Cloud zu steuern. Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+Eine [Organisation](organizations.md) ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in Experience Cloud zu steuern. Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 ## Wo finde ich meine IMS-Organisations-ID?
 
-Siehe [Suchen Ihrer Organisations-ID](organizations.md).
-
-Die Organisations-ID wird auf der Landingpage der Experience Cloud und der [Landingpage der Admin Console](https://adminconsole.adobe.com) angezeigt.
-
-Alternativ kann sich ein Administrator auch bei der Admin Console einer bestimmten Organisation anmelden (navigieren Sie zu[https://adminconsole.adobe.com](https://adminconsole.adobe.com)). Die IMS-Organisations-ID erscheint dann in der URL.
-
-Beispielsweise in der folgenden URL:
-
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
-
-Hier lautet die ID:
-
-`C538193582390300A495CC9@AdobeOrg`
+Siehe [Organisations-ID ermitteln](organizations.md) für Details.
 
 ## Was muss ich tun, wenn einer meiner Benutzer meine Organisation verlässt?
 
