@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
 source-wordcount: '4606'
 ht-degree: 98%
@@ -30,7 +30,6 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 | ------- |-------|
 | Tastaturbefehle (**[!UICONTROL Letzte]**) hinzugefügt zu [Experience Cloud](https://experience.adobe.com/home) home | Sie können auf Verknüpfungen zur neuesten Journey Optimizer- und Experience Platform-Arbeit im Rahmen der neuen _Letzte_ auf der Landingpage. Diese Aktualisierung beinhaltet auch allgemeine Verbesserungen hinsichtlich Layout und Reaktionsfähigkeit. |
 | **[!UICONTROL Sandboxes]** in die Kopfzeilenleiste verschoben | Der Sandbox-Indikator ist jetzt in die Kopfzeile für alle Experience Platform-Schnittstellenanwendungen integriert. Siehe [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de) in der Experience Platform für weitere Informationen. |
-
 
 ## November 2021
 
