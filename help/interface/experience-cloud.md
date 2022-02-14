@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -105,7 +105,7 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
 * **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
 
-## Globale Suche nach Objekten und Entitäten {#search}
+## Globale Suche nach Objekten und Entitäten {#globally-search}
 
 Die globale Suche ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis zu finden. Diese Suche überdeckt Ihre zuletzt aufgerufenen Objekte.
 
