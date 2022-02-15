@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
+source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 98%
+source-wordcount: '1541'
+ht-degree: 82%
 
 ---
 
@@ -105,18 +105,59 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
 * **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
 
-## Globale Suche nach Objekten und Entitäten {#globally-search}
+## [!UICONTROL Einheitliche Suche] für Objekte und Entitäten {#globally-search}
 
-Die globale Suche ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis zu finden. Diese Suche überdeckt Ihre zuletzt aufgerufenen Objekte.
+Die [!UICONTROL Einheitliche Suche] Mit der Suche können Sie durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis finden. Diese Suche überdeckt Ihre zuletzt aufgerufenen Objekte.
 
 ![Globale Suche nach Objekten und Entitäten](assets/platform-search.png)
 
->[!NOTE]
->
->Die globale Suche ist nicht in allen Experience Cloud-Programmen verfügbar, wird aber im Rahmen der Indexierung von immer mehr Inhalten zu den wichtigeren Programmen hinzugefügt werden. Verfügbarkeit ab Juli 2021:
+### Verfügbarkeit
 
-* Experience Platform
-* Journey Optimizer
+Die einheitliche Suche wird oben auf der Seite (in der Kopfzeile des Experience Cloud) angezeigt und ist immer für unterstützte Produkte sichtbar, die derzeit sind:
+
+* Experience Platform (AEP)
+* Journey Optimizer (AJO)
+
+Wenn mehr Inhalte indiziert werden, wird diese Funktion relevanten Anwendungen hinzugefügt.
+
+### Durchsuchbare Objekte und Felder
+
+Während der Eingabe werden die passenden Ergebnisse aus den Objekten, auf die Sie Zugriff haben, angezeigt.
+
+![Einheitliche Suche in Experience Cloud](assets/unified-search-results.png)
+
+Zu den durchsuchbaren Geschäftsobjekten gehören:
+
+* Segmente (Name, Beschreibung)
+* Schema (Name, Beschreibung)
+* Datensätze (Name, Beschreibung)
+* Quellen (Name, Beschreibung)
+* Ziele (Name, Beschreibung)
+* Abfragen (Name, Beschreibung)
+* Nachrichten (Name, Beschreibung)
+* Angebote (Name, Beschreibung)
+* Komponenten (Name, Beschreibung)
+* Journey (Name, Beschreibung)
+
+Wenn ein Suchbegriff mit einer Navigationsseite übereinstimmt, können Sie einen schnellen Link zu den Beispieldatensätzen der Navigationsseite erhalten.
+
+Sie finden die Hilfeartikel auch aus Experience League und Communities. Natürliche Sprachabfragen werden unterstützt.
+
+Beispiel: _Erstellen eines Schemas_ Ergebnisse aus der Experience League unter _[!UICONTROL Lernen]_:
+
+![Einheitliche Suche in der Experience Cloud-Hilfe](assets/unified-search-learning.png)
+
+Suchalgorithmen zeigen zuerst die relevantesten Datensätze an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
+
+* Benutzerberechtigungen für den Zugriff auf Objekte
+* Übereinstimmender Prozentsatz
+* Exakte Übereinstimmungen
+* Die _[!UICONTROL Top-Ergebnisse]_ zeigt die Top-30-Ergebnisse.
+
+Um die Suche zu verfeinern, klicken Sie auf eine der folgenden Optionen:
+
+* **[!UICONTROL All Learning]**: Öffnet die Suche in Experience League
+* **[!UICONTROL Alle anzeigen...]**: Ermöglicht die weitere Verfeinerung und Filterung der Ergebnisse
 
 ## Benutzerprofil- und Kontovoreinstellungen {#preferences}
 
