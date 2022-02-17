@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
+source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 82%
+source-wordcount: '1540'
+ht-degree: 81%
 
 ---
 
@@ -118,7 +118,7 @@ Die einheitliche Suche wird oben auf der Seite (in der Kopfzeile des Experience 
 * Experience Platform (AEP)
 * Journey Optimizer (AJO)
 
-Wenn mehr Inhalte indiziert werden, wird diese Funktion relevanten Anwendungen hinzugefügt.
+Da mehr Inhalte indiziert werden, wird diese Funktion relevanten Anwendungen hinzugefügt.
 
 ### Durchsuchbare Objekte und Felder
 
@@ -139,7 +139,7 @@ Zu den durchsuchbaren Geschäftsobjekten gehören:
 * Komponenten (Name, Beschreibung)
 * Journey (Name, Beschreibung)
 
-Wenn ein Suchbegriff mit einer Navigationsseite übereinstimmt, können Sie einen schnellen Link zu den Beispieldatensätzen der Navigationsseite erhalten.
+Wenn ein Keyword mit einer Navigationsseite übereinstimmt, können Sie einen Schnellzugriff-Link zu den Beispieldatensätzen der Navigationsseite erhalten.
 
 Sie finden die Hilfeartikel auch aus Experience League und Communities. Natürliche Sprachabfragen werden unterstützt.
 
@@ -229,7 +229,7 @@ Weitere Experience Cloud-Handbücher:
 * [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
 * [ Experience Platform-Datenerfassung/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=de)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de)
-* [Datenschutz-Grundverordnung-API (DSGVO-API)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [Datenschutz-Grundverordnung-API (DSGVO-API)](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de)
 
 ## Tutorials
@@ -237,15 +237,15 @@ Weitere Experience Cloud-Handbücher:
 Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Experience League:
 
 * [Alle Tutorials in Experience League](https://experienceleague.adobe.com/?lang=de#quick-how-tos)
-* [Experience Platform-Tutorials](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=de)
+* [Experience Platform-Tutorials](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [Echtzeit-Kundendatenplattform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 
 ## Versionshinweise und zugehörige Experience Cloud-Hilfe
 
 * [Versionshinweise für alle Experience Cloud-Programme](https://experienceleague.adobe.com/docs/home.html?lang=de) – Suchen Sie nach Hilfe unter „Experience Cloud Learn &amp; Support“
 * [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
-* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
+* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://experienceleague.adobe.com/?lang=de) – Lernen Sie von Experten und der Community
 * [Ausbildung und Schulung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK) – Wenden Sie sich an Adobe, um sicherzustellen, dass Sie die Produkte von Adobe optimal nutzen
-* [Customer Experience-Blog](https://blog.adobe.com/de/topics/digital-transformation.html) – Lesen Sie den Experience Cloud-Blog
+* [Customer Experience-Blog](https://blog.adobe.com/en/topics/digital-transformation) – Lesen Sie den Experience Cloud-Blog
 * [Kundenunterstützung](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support) – Wenden Sie sich an die Adobe-Kundenunterstützung
