@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '550'
+ht-degree: 100%
 
 ---
 
@@ -32,17 +32,17 @@ Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domai
 
 ![Ergebnis des Schritts](assets/organization-switch.png)
 
-## Organisations-ID ermitteln {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Ermitteln der Organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 Möglicherweise müssen Sie auch zu Supportzwecken Ihre Organisations-ID suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
-Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von (und muss enthalten) `@AdobeOrg`.
+Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von `@AdobeOrg` (zwingend erforderlich).
 
-Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithilfe des Tastaturbefehls anzeigen **Strg+i** von jeder Seite aus `https://experience.adobe.com`und klicken Sie dann auf **[!UICONTROL Zugewiesene Organisationen]** im Dialogfeld.
+Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithilfe des Tastaturbefehls **Strg+I** von jeder Seite aus auf `https://experience.adobe.com` einsehen. Klicken Sie dann im Dialog auf die Registerkarte **[!UICONTROL Zugewiesene Organisationen]**.
 
 ![Zugewiesene Organisations-ID](assets/assigned-organization.png)
 
-Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und zeigen Sie Ihre IMS-Organisations-ID in der URL an.
+Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und Ihre IMS-Organisations-ID in der URL sehen.
 
 Beispielsweise in der folgenden URL:
 

@@ -11,7 +11,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
 1. Geben Sie Ihre Adobe-E-Mail-Adresse ein und wählen Sie **[!UICONTROL Weiter]**.
 
-   Administratoren, siehe [Experience Cloud-Benutzerauthentifizierung](admin-getting-started.md#migration) für wichtige Aktualisierungen an Identitätstypen (Business ID).
+   Als Administrator finden Sie unter [Experience Cloud-Benutzerauthentifizierung](admin-getting-started.md#migration) Informationen zu wichtigen Aktualisierungen bei den Identitätstypen (Business ID).
 
 1. Wählen Sie ein Konto aus.
 1. Geben Sie Ihr Passwort ein.
@@ -238,7 +238,7 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 
 * [Alle Tutorials in Experience League](https://experienceleague.adobe.com/?lang=de#quick-how-tos)
 * [Experience Platform-Tutorials](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
-* [Echtzeit-Kundendatenplattform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
+* [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=de)
 
 ## Versionshinweise und zugehörige Experience Cloud-Hilfe
 

@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '972'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 | [Admin Console starten](admin-getting-started.md) | Die Admin Console ist der zentrale Ort für die Verwaltung Ihrer Adobe-Benutzer und Produktberechtigungen in Ihrer gesamten Organisation.<br>Sie können sich auch über einen [direkten Link](https://adminconsole.adobe.com) bei der Admin Console anmelden. |
 | [Creative Cloud-Benutzer verwalten](t-admin-add-cc-user.md) | Mit Experience Cloud Assets können Marketingexperten mithilfe der Creative Cloud Ordner mit Designern und anderen Kreativ-Assets gemeinsam verwenden, synchronisieren und mit ihnen zusammenarbeiten. Hier können Sie die Creative Cloud-Benutzer verwalten, die für die Zusammenarbeit mit Ihrem Unternehmen zugelassen sind. |
 | [Report Suites zuordnen](core-services.md) | (Nur Analytics) Die zentralen Experience Cloud-Dienste sind mit einer Organisation anstelle einer einzelnen Report Suite verknüpft. Um sicherzustellen, dass diese Dienste ordnungsgemäß funktionieren, muss jede Analytics Report Suite einer Organisation zugeordnet werden. (Diese Aufgabe ist Teil eines längeren Arbeitsablaufs, mit dessen Hilfe [Analytics für Hauptdienste aktiviert wird](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [Organisations-ID](organizations.md) | Die *Organisations-ID* in der URL gefunden wird, wenn sie sich in der Admin Console befindet. Sie können sie auch im [!UICONTROL User Data Debugger] Popup (`ctrl+i` oder `cmd+i`) von jeder Seite unter `https://experience.adobe.com`. Diese ID ist die mit Ihrem bereitgestellten Experience Cloud-Unternehmen verknüpfte ID. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |
+| [Organisations-ID](organizations.md) | In der Admin Console ist die *Organisations-ID* in der URL zu finden. Sie können sie auch im Popup [!UICONTROL User Data Debugger] (`ctrl+i` oder `cmd+i`) von jeder Seite aus auf `https://experience.adobe.com` einsehen. Diese ID ist die mit Ihrem bereitgestellten Experience Cloud-Unternehmen verknüpfte ID. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von @AdobeOrg (erforderlich). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -82,7 +82,7 @@ Sie können persönliche Details bearbeiten und eine standardmäßige [Organisat
 
 Sie erhalten eine Benachrichtigung (per E-Mail oder im Produkt) über Systemaktualisierungen, Wartungshinweise, Beiträge, Erwähnungen und freigegebene Assets. Sie können auch die Produkte und Programme angeben, für die Sie Benachrichtigungen erhalten möchten, einschließlich des Upload-Status für Kundenattribute.
 
-Um zu den Benachrichtigungen zu navigieren, klicken Sie auf das Symbol **[!UICONTROL Benachrichtigungen]** ![](assets/notifications-icon.png) und dann auf das Symbol **[!UICONTROL Einstellungen]**![](assets/icon_edit_board.png).
+Um zu den Benachrichtigungen zu navigieren, klicken Sie auf das Symbol **[!UICONTROL Benachrichtigungen]** ![](assets/notifications-icon.png) und dann auf das Symbol **[!UICONTROL Einstellungen]** ![](assets/icon_edit_board.png).
 
 Sie können die Anzeige der Benachrichtigungen nach den für Sie wichtigen Benachrichtigungstypen sortieren und nach Benachrichtigungen suchen. Alternativ können Sie auch folgendermaßen vorgehen:
 

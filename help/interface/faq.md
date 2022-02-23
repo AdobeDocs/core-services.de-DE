@@ -12,7 +12,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen n
 
 [!DNL Adobe Support] können eine Identitätsanfrage einreichen, für die Sie eine E-Mail mit dem Adobe-Markenlogo erhalten (Beispiel unten), in der Ihre ausdrückliche Autorisierung angefordert wird. Der Zugriff wird für eine begrenzte Zeit gewährt. Nach der Gewährung können Sie den Zugriff jederzeit widerrufen. Adobe protokolliert alle von Adobe-Mitarbeitern getroffenen Maßnahmen.
 
-![Support-Fall für Adoben](assets/support-email.png)
+![Adobe Support-Fall](assets/support-email.png)
 
 ## Was ist eine _Bereitstellung?_
 
@@ -100,7 +100,7 @@ Eine [Organisation](organizations.md) ist die Einheit, die es einem Administrato
 
 ## Wo finde ich meine IMS-Organisations-ID?
 
-Siehe [Organisations-ID ermitteln](organizations.md) für Details.
+Details hierzu finden Sie unter [Ermitteln der Organisations-ID](organizations.md).
 
 ## Was muss ich tun, wenn einer meiner Benutzer meine Organisation verlässt?
 
