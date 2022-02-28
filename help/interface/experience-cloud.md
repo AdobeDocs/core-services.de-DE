@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
+source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 82%
+source-wordcount: '1285'
+ht-degree: 97%
 
 ---
 
@@ -104,60 +104,6 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 * **[!UICONTROL Feedback]:** Teilen Sie Feedback zu Ihrem Experience Cloud-Erlebnis. Ihr Feedback wird verwendet, um die Produkte und Services von Adobe zu verbessern.
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
 * **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
-
-## [!UICONTROL Einheitliche Suche] für Objekte und Entitäten {#globally-search}
-
-Die [!UICONTROL Einheitliche Suche] Mit der Suche können Sie durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis finden. Diese Suche überdeckt Ihre zuletzt aufgerufenen Objekte.
-
-![Globale Suche nach Objekten und Entitäten](assets/platform-search.png)
-
-### Verfügbarkeit
-
-Die einheitliche Suche wird oben auf der Seite (in der Kopfzeile des Experience Cloud) angezeigt und ist immer für unterstützte Produkte sichtbar, die derzeit sind:
-
-* Experience Platform (AEP)
-* Journey Optimizer (AJO)
-
-Da mehr Inhalte indiziert werden, wird diese Funktion relevanten Anwendungen hinzugefügt.
-
-### Durchsuchbare Objekte und Felder
-
-Während der Eingabe werden die passenden Ergebnisse aus den Objekten, auf die Sie Zugriff haben, angezeigt.
-
-![Einheitliche Suche in Experience Cloud](assets/unified-search-results.png)
-
-Zu den durchsuchbaren Geschäftsobjekten gehören:
-
-* Segmente (Name, Beschreibung)
-* Schema (Name, Beschreibung)
-* Datensätze (Name, Beschreibung)
-* Quellen (Name, Beschreibung)
-* Ziele (Name, Beschreibung)
-* Abfragen (Name, Beschreibung)
-* Nachrichten (Name, Beschreibung)
-* Angebote (Name, Beschreibung)
-* Komponenten (Name, Beschreibung)
-* Journey (Name, Beschreibung)
-
-Wenn ein Keyword mit einer Navigationsseite übereinstimmt, können Sie einen Schnellzugriff-Link zu den Beispieldatensätzen der Navigationsseite erhalten.
-
-Sie finden die Hilfeartikel auch aus Experience League und Communities. Natürliche Sprachabfragen werden unterstützt.
-
-Beispiel: _Erstellen eines Schemas_ Ergebnisse aus der Experience League unter _[!UICONTROL Lernen]_:
-
-![Einheitliche Suche in der Experience Cloud-Hilfe](assets/unified-search-learning.png)
-
-Suchalgorithmen zeigen zuerst die relevantesten Datensätze an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
-
-* Benutzerberechtigungen für den Zugriff auf Objekte
-* Übereinstimmender Prozentsatz
-* Exakte Übereinstimmungen
-* Die _[!UICONTROL Top-Ergebnisse]_ zeigt die Top-30-Ergebnisse.
-
-Um die Suche zu verfeinern, klicken Sie auf eine der folgenden Optionen:
-
-* **[!UICONTROL All Learning]**: Öffnet die Suche in Experience League.
-* **[!UICONTROL Alle anzeigen...]**: Ermöglicht die weitere Verfeinerung und Filterung der Ergebnisse.
 
 ## Benutzerprofil- und Kontovoreinstellungen {#preferences}
 
