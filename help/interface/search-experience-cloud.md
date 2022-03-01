@@ -7,17 +7,17 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
+source-git-commit: 7e7129fbf0c3407dac3a91b645bddc878b1a7d45
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 2%
+source-wordcount: '655'
+ht-degree: 1%
 
 ---
 
 
 # [!UICONTROL Einheitliche Suche] für Objekte und Entitäten {#globally-search}
 
-Die [!UICONTROL Einheitliche Suche] Mit der Suche können Sie durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis finden. Diese Suche überdeckt Ihre zuletzt aufgerufenen Objekte.
+Die [!UICONTROL Einheitliche Suche] Mit der Suche können Sie durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis finden. Diese Suche überdeckt auch die zuletzt aufgerufenen Objekte.
 
 ![Globale Suche nach Objekten und Entitäten](assets/platform-search.png)
 
@@ -44,16 +44,16 @@ Ihre Funktionen und Objektberechtigungen Übereinstimmung in Prozent Ob eine exa
 
 Zu den durchsuchbaren Geschäftsobjekten gehören:
 
-* Segmente (Name, Beschreibung)
-* Schema (Name, Beschreibung)
-* Datensätze (Name, Beschreibung)
-* Quellen (Name, Beschreibung)
-* Ziele (Name, Beschreibung)
-* Abfragen (Name, Beschreibung)
-* Nachrichten (Name, Beschreibung)
-* Angebote (Name, Beschreibung)
-* Komponenten (Name, Beschreibung)
-* Journey (Name, Beschreibung)
+* Segmente (Name, Beschreibung, ID)
+* Schema (Name, Beschreibung, ID)
+* Datensätze (Name, Beschreibung, ID)
+* Quellen (Name, Beschreibung, ID)
+* Ziele (Name, Beschreibung, ID)
+* Abfragen (Name, Beschreibung, ID)
+* Nachrichten (Name, Beschreibung, ID)
+* Angebote (Name, Beschreibung, ID)
+* Komponenten (Name, Beschreibung, ID)
+* Journey (Name, Beschreibung, ID)
 
 Wenn ein Keyword mit einer Navigationsseite übereinstimmt, können Sie einen Schnellzugriff-Link zu den Beispieldatensätzen der Navigationsseite erhalten. Im oberen Bereich der Ergebnisse werden die Top-30-Ergebnisse angezeigt.
 
