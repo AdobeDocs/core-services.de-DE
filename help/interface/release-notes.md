@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4606'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience 
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
-## Februar 2022
+## Februar 2022
 
 | Funktion | Beschreibung |
 | ------- |-------|
-| Tastaturbefehle (**[!UICONTROL Letzte]**) hinzugefügt zu [Experience Cloud](https://experience.adobe.com/home) home | Sie können auf Verknüpfungen zur neuesten Journey Optimizer- und Experience Platform-Arbeit im Rahmen der neuen _Letzte_ auf der Landingpage. Diese Aktualisierung beinhaltet auch allgemeine Verbesserungen hinsichtlich Layout und Reaktionsfähigkeit. |
-| **[!UICONTROL Sandboxes]** in die Kopfzeilenleiste verschoben | Der Sandbox-Indikator ist jetzt in die Kopfzeile für alle Experience Platform-Schnittstellenanwendungen integriert. Siehe [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de) in der Experience Platform für weitere Informationen. |
+| Tastaturbefehle (**[!UICONTROL Zuletzt verwendet]**) zur [Experience Cloud](https://experience.adobe.com/home?lang=de)-Startseite hinzugefügt | Unter der neuen Rubrik _Zuletzt verwendet_ auf der Landingpage können Sie auf Verknüpfungen zu Ihren letzten Arbeiten mit Journey Optimizer und Experience Platform zugreifen. Diese Aktualisierung beinhaltet auch allgemeine Verbesserungen hinsichtlich Layout und Reaktionsfähigkeit. |
+| **[!UICONTROL Sandboxes]** in die Kopfzeilenleiste verschoben | Der Sandbox-Indikator ist jetzt für alle Programme der Experience Platform-Benutzeroberfläche in die Kopfzeile integriert. Siehe [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de) in Experience Platform für weitere Informationen. |
 
 ## November 2021
 
@@ -182,7 +182,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 **Fehlerbehebungen**
 
-* Es wurde ein Fehler behoben, durch den die Verknüpfung und die einmalige Anmeldung für Analytics verhindert wurde. Bei diesem Problem wurde der Hinweis bzw. die Fehlermeldung „FEHLER IMS SSO fehlgeschlagen: Verknüpfte Firma konnte nicht gefunden werden.“ angezeigt.
+* Es wurde ein Fehler behoben, durch den die Verknüpfung und die einmalige Anmeldung für Analytics verhindert wurde. Bei diesem Problem wurde der Hinweis bzw. die Fehlermeldung „ERROR IMS SSO fehlgeschlagen: Verknüpfte Firma konnte nicht gefunden werden.“ angezeigt.
 
 **Bekanntes Problem**
 
