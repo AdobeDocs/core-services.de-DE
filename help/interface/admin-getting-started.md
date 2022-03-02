@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1567'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von 
 
 Sie können im Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Siehe [Anzeigen von Experience Cloud-Benutzern im Admin-Tool](admin-tool-experience-cloud.md).
 
-## Experience Cloud-Benutzerauthentifizierung (geplante Migration){#migration}
+## Experience Cloud-Benutzerauthentifizierung (geplante Migration) {#migration}
 
 Ab Februar 2022 aktualisiert Adobe sein Profilverwaltungssystem, damit Unternehmen ihre Unternehmensberechtigungen für einzelne Profile besser verwalten können. Daher werden alle Benutzer mit einem persönlichen Profil, das einer einzelnen Adobe ID (Type1) entspricht, in ein neues Unternehmensprofil migriert. Dieses Profil entspricht einer _Business ID_ (Type2e).
 
@@ -36,7 +36,7 @@ Weitere Informationen zu Identitätstypen finden Sie unter [Identitätstypen in 
 Wenn Ihre Migration ansteht, erhalten Ihre Organisationsadministratoren 30 Tage vor der Migration eine Benachrichtigungs-E-Mail.
 
 * Die Migration wird für entweder den Zeitraum zwischen 22 Uhr und 6 Uhr Ortszeit basierend auf der Hauptzeitzone Ihres Unternehmens oder für einen Zeitraum am Wochenende geplant.
-* Während der Migration kann der Zugriff auf die Experience Cloud-Anwendung etwa 15 Minuten lang unterbrochen werden und die Admin Console kann bis zu 30 Minuten lang nicht verfügbar sein. Abgesehen davon verläuft die Migration nahtlos.
+* Während der Migration kann der Zugriff auf das Experience Cloud-Programm bis zu etwa 15 Minuten lang unterbrochen werden und die Admin Console ist möglicherweise bis zu 30 Minuten nicht verfügbar. Abgesehen davon verläuft die Migration nahtlos.
 
 ### Änderungen nach der Migration
 
@@ -141,7 +141,7 @@ Nach der Migration müssen sich Benutzer mithilfe ihrer Adobe ID (oder Enterpris
 
 **Verwandte Hilfe.**
 
-* [Analytics in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Analytics in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de)
 * [Migration der Analytics-Benutzer-ID](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=de)
 
 ## Verwalten von Adobe Target – Produktprofile und Arbeitsbereiche im Vergleich {#section_3860AF177C9E4C7E9C390D36A414F353}
@@ -150,9 +150,9 @@ In Adobe Target ist ein Arbeitsbereich ein Produktprofil. Er ermöglicht einer O
 
 Siehe:
 
-* [Berechtigungen für Unternehmensbenutzer](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [Verwalten von Produkten und Profilen](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
-* Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in der Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Berechtigungen für Unternehmensbenutzer](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=de)
+* [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/admin-guide.html/de/enterprise/using/manage-products.ug.html)
+* Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in der Adobe Admin Console](https://helpx.adobe.com/de/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Verwalten von Campaign-Produktprofilen, Mandanten und Sicherheitsgruppen {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -194,6 +194,6 @@ Siehe [Administration](https://experienceleague.adobe.com/docs/audience-manager/
 
 ### Anforderungen an Lösungen und Produkte
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=de)
 * [Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=de)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)
+* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=de)
