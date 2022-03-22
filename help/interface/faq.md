@@ -10,7 +10,7 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen n
 
 ## Wie gehe ich auf die Bedenken ein, die mein Unternehmen gegenüber einer Migration hat?
 
-[Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General#support).
+[Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support).
 
 ## Wie kann [!DNL Adobe Support] auf meine Adobe-Cloud-Umgebung zugreifen, um ein Problem zu beheben?
 
@@ -82,7 +82,7 @@ Bereitstellung in Experience Cloud bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 ## Wo können Benutzer die Kontoverknüpfung verwalten?
 
