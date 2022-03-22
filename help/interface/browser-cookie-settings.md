@@ -11,12 +11,12 @@ level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '297'
+source-wordcount: '295'
 ht-degree: 100%
 
 ---
 
-# Datenschutzeinstellungen für Browser-Cookies aktivieren {#enable-privacy-settings-for-browser-cookies}
+# Datenschutzeinstellungen für Browser-Cookies aktivieren{#enable-privacy-settings-for-browser-cookies}
 
 Sie können Benutzer entfernen, die alle Cookies auf Desktop-Browsern und mobilen Browsern blockiert haben. Bei dieser Funktion handelt es sich um eine Datenschutzeinstellung, bei der Benutzer ausgeschlossen werden, die die Datenerfassung abwählen. Dadurch können Sie die Absicht eines Benutzers respektieren, die Verarbeitung mit Analytics zu stoppen.
 
