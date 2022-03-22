@@ -1,6 +1,6 @@
 ---
 description: Hier erfahren Sie mehr über Adobe Ad Cloud-Cookies für das Zuordnen von Werbeinteraktions-Ereignissen zu Konversionsereignissen und möglicherweise zum Verwenden dieser Informationen zur Optimierung von Anzeigenangeboten.
-title: 'Cookies in Advertising Cloud  '
+title: 'Cookies in Advertising Cloud '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ---
 
-# Cookies in Advertising Cloud {#advertising-cloud-cookies}
+# Cookies in Advertising Cloud{#advertising-cloud-cookies}
 
 Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigengebote zu verwenden.
 
