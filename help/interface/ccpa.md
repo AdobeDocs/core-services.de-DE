@@ -1,14 +1,14 @@
 ---
 title: 'Unterstützung von Kundenattributen für den California Consumer Privacy Act '
 description: Mehr über die Unterstützung von Kundenattributen für den California Consumer Privacy Act erfahren
-feature: Kundenattribute
+feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '437'
+source-wordcount: '434'
 ht-degree: 100%
 
 ---
