@@ -11,12 +11,12 @@ level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '95'
+source-wordcount: '93'
 ht-degree: 100%
 
 ---
 
-# Cookies in Data Workbench {#data-workbench-cookies}
+# Cookies in Data Workbench{#data-workbench-cookies}
 
 Data Workbench verwendet Cookies, um große Mengen sich schnell verändernder Daten in Echtzeit zu analysieren.
 
@@ -27,7 +27,7 @@ Data Workbench verwendet Cookies, um große Mengen sich schnell verändernder Da
 | Gespeicherte Informationen | Datums-/Uhrzeitstempel der Unique-Visitor-ID. |
 | Ablauf | Dieses Cookie ist persistent. |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet.. |
-| Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
+| Position | Dieses Cookie wird in der Domain der Seite gespeichert. |
 | Größe | 8 Byte oder 13 Byte, wenn der Teil &quot;name =&quot; (v1st=) enthalten ist. |
 
 {style=&quot;table-layout:auto&quot;}
