@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Informationen über Cookies und Datenschutz {#about-cookies-and-privacy}
+# Informationen über Cookies und Datenschutz{#about-cookies-and-privacy}
 
 Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe beteiligt sich bei mehreren Datenschutzorganisationen und arbeitet mit Datenschutzbehörden und nach Selbstregulierungsgrundsätzen. Diese Zusammenarbeit umfasst das Programm „Digital Advertising Alliance AdChoices“, mit dem Kunden Informationen über die Verwendung ihrer Informationen erhalten und Auswahlmöglichkeiten bezüglich der Verwendung haben.
 
