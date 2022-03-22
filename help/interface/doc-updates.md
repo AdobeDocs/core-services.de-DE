@@ -12,7 +12,7 @@ exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 98%
 
 Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation.
 
-**Aktualisiert: 28.02.2022**
+**Aktualisiert am 28.2.2022**
 
-Eine Seite für [Einheitliche Suche](search-experience-cloud.md)
+Eine Seite für [Einheitliche Suche](search-experience-cloud.md) hinzugefügt
 
 **Aktualisiert am 8.2.2022**
 
