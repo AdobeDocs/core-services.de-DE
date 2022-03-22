@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden {#how-changes-to-third-party-cookie-support-impacts-customers}
+# Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Der Support für Drittanbieter-Cookies wurde Browser-übergreifend stärker eingeschränkt. Daher hat Adobe an neuen Programmen gearbeitet, die die Kundenanforderungen sorgfältig mit dem Recht der Verbraucher auf Datenschutz in allen Experience Cloud-Programmen in Einklang bringen.
 
