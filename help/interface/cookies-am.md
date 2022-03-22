@@ -11,12 +11,12 @@ level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '611'
+source-wordcount: '609'
 ht-degree: 100%
 
 ---
 
-# Cookies in Audience Manager {#audience-manager-cookies}
+# Cookies in Audience Manager{#audience-manager-cookies}
 
 Audience Manager vertraut bei der Ausführung verschiedener Funktionen auf ein einige einfache Cookies. Dazu gehören die Zuweisung von IDs, die Aufzeichnung von Datenaufrufen, die Fehlerverfolgung und Tests, um zu prüfen, ob Cookies gesetzt werden können. In diesem Abschnitt werden die verschiedenen Cookies aufgelistet und beschrieben, die von Audience Manager gesetzt werden.
 
@@ -152,4 +152,4 @@ In der folgenden Tabelle werden die in einem `dextp`-Cookie enthaltenen Elemente
 
 **_dp-Cookie**
 
-Dieses Cookie ist temporär. [!DNL Audience Manager] versucht, das `_dp`-Cookie zu setzen, um zu ermitteln, ob in der Domäne „demdex.net“ andere Cookies in einem Drittanbieter-Kontext gesetzt werden können. Wenn `_dp` gesetzt ist, enthält es den Wert 1. [!DNL Audience Manager] liest diesen Wert und entfernt das Cookie dann sofort. Wenn das `_dp`-Cookie nicht vorhanden ist, weiß [!DNL Audience Manager], dass keinerlei Cookies gesetzt werden können.
+Dieses Cookie ist temporär. [!DNL Audience Manager] versucht, das `_dp`-Cookie zu setzen, um zu ermitteln, ob in der Domain „demdex.net“ andere Cookies in einem Drittanbieter-Kontext gesetzt werden können. Wenn `_dp` gesetzt ist, enthält es den Wert 1. [!DNL Audience Manager] liest diesen Wert und entfernt das Cookie dann sofort. Wenn das `_dp`-Cookie nicht vorhanden ist, weiß [!DNL Audience Manager], dass keinerlei Cookies gesetzt werden können.
