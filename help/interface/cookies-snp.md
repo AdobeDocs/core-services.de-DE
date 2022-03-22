@@ -11,12 +11,12 @@ level: Experienced
 exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '122'
+source-wordcount: '120'
 ht-degree: 100%
 
 ---
 
-# Cookies in Search&amp;Promote {#search-and-promote-cookies}
+# Cookies in Search&amp;Promote{#search-and-promote-cookies}
 
 Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besucher zu erfahren und diese vorauszuahnen.
 
@@ -32,7 +32,7 @@ Search&amp;Promote verwendet Cookies, um mehr über die Suchinteressen der Besuc
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Verfolgt die letzten drei Suchvorgänge, die ein Benutzer in der Domäne des Kunden durchgeführt hat. </p> </td> 
+   <td colname="col2"> <p> Verfolgt die letzten drei Suchvorgänge, die ein Benutzer in der Domain des Kunden durchgeführt hat. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
