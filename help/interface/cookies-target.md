@@ -11,12 +11,12 @@ level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 source-git-commit: f50c6c883acb9ac0d3a754e09494cf93e3f3d7c1
 workflow-type: ht
-source-wordcount: '437'
+source-wordcount: '435'
 ht-degree: 100%
 
 ---
 
-# Cookies in Adobe Target {#target-cookies}
+# Cookies in Adobe Target{#target-cookies}
 
 Adobe Target verwendet Cookies, um Betreibern von Websites die Möglichkeit zu geben, die Relevanz von Online-Inhalten und -Angeboten für Besucher zu testen.
 
@@ -29,7 +29,7 @@ Sie können diese Einstellungen bei Bedarf ändern, mit Ausnahme der Dauer der C
 | Einstellung | Information |
 | --- | --- |
 | Cookie-Name | mbox. |
-| Cookie-Domäne | Die zweite und oberste Ebene der Domänen, von denen Sie die mbox bedienen. Da die Belieferung von der Domäne Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. |
+| Cookie-Domäne | Die zweite und oberste Ebene der Domänen, von denen Sie die mbox bedienen. Da die Belieferung von der Domain Ihres Unternehmens stattfindet, handelt es sich um ein Erstanbieter-Cookie. Beispiel: `mycompany.com`. |
 | Serverdomäne | `clientcode.tt.omtrdc.net`, unter Verwendung des Kundencodes für Ihr [!DNL Adobe Target] Konto. |
 | Cookie-Dauer | Das Cookie bleibt zwei Jahre nach der letzten Anmeldung im Browser des Besuchers gespeichert. Die Dauer des Cookies kann nicht geändert werden. |
 
