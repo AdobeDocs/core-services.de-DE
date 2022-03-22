@@ -10,7 +10,7 @@ ht-degree: 100%
 ---
 
 
-# Cookies in Experience Cloud {#cookies-used-in-the-experience-cloud}
+# In Experience Cloud verwendete Cookies{#cookies-used-in-the-experience-cloud}
 
 Viele Dienste in der Adobe Experience Cloud verwenden Cookies. Ein Cookie ist ein kleines Datenelement, das von einer Website einem Webbrowser präsentiert wird. Der Browser speichert diese Dateneinheit und gibt sie dann an die Website zurück, die die Daten bereitgestellt hat. Diese Aktion wird bei jeder nachfolgenden Anforderung für Seiten und Bilder ausgeführt.
 
