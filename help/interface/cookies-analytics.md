@@ -11,12 +11,12 @@ level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
 source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: ht
-source-wordcount: '769'
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
 
-# Cookies in Analytics {#analytics-cookies}
+# Cookies in Analytics{#analytics-cookies}
 
 Adobe Analytics verwendet Cookies, um Anforderungen von verschiedenen Browsern zu unterscheiden und nützliche Informationen zu speichern, die eine Anwendung später verwenden kann. Sie können auch verwendet werden, um Browserinformationen Kundendatensätzen zuzuordnen.
 
@@ -39,8 +39,8 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 |--- |--- |
 | Gespeicherte Informationen | Enthält eine Kopie der Experience Cloud ID (ECID) oder der MID. Die MID wird in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID | `<ECID>` |
 | Ablauf | 2 Jahre |
-| Nutzung | Dieses Cookie wird durch die Domäne des Kunden festgelegt, nachdem das AMCV-Cookie vom Client festgelegt wurde. Dieses Cookie ermöglicht das durchgängige ID-Tracking als Erstanbieter und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abgelaufen ist. Weitere Details zum AMCV-Cookie finden Sie hier. |
-| Position | Nur CNAME-Kunden. Gilt nicht für Drittanbieter-Szenarien. Cookie wird in Ihrer Domäne gespeichert; dieselbe Domäne wie die von CNAME und Ihrer Analytics-Bildanforderung verwendete. |
+| Nutzung | Dieses Cookie wird durch die Domain des Kunden gesetzt, nachdem das AMCV-Cookie vom Client gesetzt wurde. Dieses Cookie ermöglicht das durchgängige ID-Tracking als Erstanbieter und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abgelaufen ist. Weitere Details zum AMCV-Cookie finden Sie hier. |
+| Position | Nur CNAME-Kunden. Gilt nicht für Drittanbieter-Szenarien. Cookie wird in Ihrer Domain gespeichert; dieselbe Domain wie die von CNAME und Ihrer Analytics-Bildanforderung verwendete. |
 | Größe | 45 Byte |
 
 {style=&quot;table-layout:auto&quot;}
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, um zu bestimmen, ob Cookies aktiviert (auf „True“ gesetzt) sind. |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
-| Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
+| Position | Dieses Cookie wird in der Domain der Seite gespeichert. |
 | Größe | 4 Byte |
 
 {style=&quot;table-layout:auto&quot;}
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die SelectMap-Funktion oder die Activity Map-Funktion aktiviert ist. Es enthält Informationen zum vorherigen Link, auf den der Benutzer geklickt hat |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
-| Position | Dieses Cookie wird in der Domäne der Seite gespeichert. |
+| Position | Dieses Cookie wird in der Domain der Seite gespeichert. |
 | Größe | Variiert je nach URL-Größe der Seite, normalerweise 100-200 Byte |
 
 {style=&quot;table-layout:auto&quot;}
@@ -76,7 +76,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Gespeicherte Informationen | Datums-/Uhrzeitstempel der Unique-Visitor-ID. |
 | Ablauf | 2 Jahre |
 | Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. |
-| Position | Dieses Cookie wird in der Domäne der Bildanforderung gespeichert. Dabei handelt es sich normalerweise um eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domäne Erstanbieter-Cookies verwendet. |
+| Position | Dieses Cookie wird in der Domain der Bildanforderung gespeichert. Dabei handelt es sich normalerweise um eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domain Erstanbieter-Cookies verwendet. |
 | Größe | 44 Byte |
 
 {style=&quot;table-layout:auto&quot;}
@@ -91,8 +91,8 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 |--- |--- |
 | Gespeicherte Informationen | Fallback-Datums-/Uhrzeitstempel der Unique-Visitor-ID. |
 | Ablauf | 2 Jahre |
-| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet.  wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
-| Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domäne gespeichert. |
+| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
+| Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domain gespeichert. |
 | Größe | 33 Byte |
 
 {style=&quot;table-layout:auto&quot;}
