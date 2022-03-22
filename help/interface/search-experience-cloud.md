@@ -1,44 +1,46 @@
 ---
-description: Erfahren Sie mehr über die Funktion "Einheitliche Suche"für bestimmte Anwendungen in Experience Cloud.
+description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Anwendungen in Experience Cloud.
 solution: Experience Cloud
-title: 'Einheitliche Suche in Experience Cloud '
+title: 'Experience Cloud – Einheitliche Suche '
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
 source-git-commit: 7e7129fbf0c3407dac3a91b645bddc878b1a7d45
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# [!UICONTROL Einheitliche Suche] für Objekte und Entitäten {#globally-search}
+# [!UICONTROL Einheitliche Suche] nach Objekten und Entitäten {#globally-search}
 
-Die [!UICONTROL Einheitliche Suche] Mit der Suche können Sie durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten 1-Klick-Erlebnis finden. Diese Suche überdeckt auch die zuletzt aufgerufenen Objekte.
+Die [!UICONTROL einheitliche Suche] ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten Erlebnis mit einem Mausklick zu finden. Diese Suche zeigt auch die Objekte an, auf die Sie zuletzt zugegriffen haben.
 
 ![Globale Suche nach Objekten und Entitäten](assets/platform-search.png)
 
 ## Zugriff auf die einheitliche Suche
 
-Einheitliche Suche ist auf jeder Seite in der Kopfzeile des Experience Cloud am oberen Seitenrand verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` , um auf die Suche zuzugreifen.
+Die einheitliche Suche ist auf jeder Seite von Experience Cloud in der Kopfzeile am oberen Seitenrand verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
 
-Diese Funktion ist nur für unterstützte Produkte verfügbar, die derzeit sind:
+Diese Funktion ist nur für unterstützte Produkte verfügbar – derzeit die folgenden:
 
 * Experience Platform (AEP)
 * Journey Optimizer (AJO)
 
-Da mehr Inhalte indiziert werden, wird diese Funktion relevanten Anwendungen hinzugefügt.
+In dem Maße, in dem mehr Inhalte indiziert werden, wird diese Funktion zu den entsprechenden Programmen hinzugefügt.
 
 ## Durchsuchbare Objekte und Felder
 
 Während der Eingabe werden die passenden Ergebnisse aus den Objekten, auf die Sie Zugriff haben, angezeigt.
 
-Unsere Algorithmen zeigen zuerst die relevantesten Datensätze. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
+Die Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 
-Ihre Funktionen und Objektberechtigungen Übereinstimmung in Prozent Ob eine exakte Übereinstimmung vorliegt
+Ihre Möglichkeiten und Objektberechtigungen
+Übereinstimmung in Prozent
+Ob es eine genaue Übereinstimmung gibt
 
 ![Einheitliche Suche in Experience Cloud](assets/unified-search-results.png)
 
@@ -53,53 +55,53 @@ Zu den durchsuchbaren Geschäftsobjekten gehören:
 * Nachrichten (Name, Beschreibung, ID)
 * Angebote (Name, Beschreibung, ID)
 * Komponenten (Name, Beschreibung, ID)
-* Journey (Name, Beschreibung, ID)
+* Journeys (Name, Beschreibung, ID)
 
-Wenn ein Keyword mit einer Navigationsseite übereinstimmt, können Sie einen Schnellzugriff-Link zu den Beispieldatensätzen der Navigationsseite erhalten. Im oberen Bereich der Ergebnisse werden die Top-30-Ergebnisse angezeigt.
+Wenn ein Keyword zu einer Navigationsseite passt, können Sie einen Schnellzugriffs-Link zu den Beispieldatensätzen der Navigationsseite erhalten. Der Abschnitt Top-Ergebnisse zeigt die 30 besten Ergebnisse.
 
-Sie finden die Hilfeartikel auch aus Experience League und Communities. Natürliche Sprachabfragen werden unterstützt.
+Sie finden die Hilfeartikel auch in Experience League und Communities. Abfragen in natürlicher Sprache werden unterstützt.
 
-Beispiel: _Erstellen eines Schemas_ Ergebnisse aus der Experience League unter _[!UICONTROL Lernen]_:
+So liefert z. B. _Wie man ein Schema erstellt_ Ergebnisse von Experience League unter _[!UICONTROL Lernen]_:
 
 ![Einheitliche Suche in der Experience Cloud-Hilfe](assets/unified-search-learning.png)
 
 Suchalgorithmen zeigen zuerst die relevantesten Datensätze an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 
 * Benutzerberechtigungen für den Zugriff auf Objekte
-* Übereinstimmender Prozentsatz
+* Prozentsatz der Übereinstimmung
 * Exakte Übereinstimmungen
-* Die _[!UICONTROL Top-Ergebnisse]_ zeigt die Top-30-Ergebnisse.
+* Der Abschnitt _[!UICONTROL Top-Ergebnisse]_ zeigt die 30 besten Ergebnisse.
 
 Um die Suche zu verfeinern, klicken Sie auf eine der folgenden Optionen:
 
-* **[!UICONTROL All Learning]**: Öffnet die Suche in Experience League.
+* **[!UICONTROL Alle Lerninhalte]**: Öffnet die Suche in Experience League.
 * **[!UICONTROL Alle anzeigen...]**: Ermöglicht die weitere Verfeinerung und Filterung der Ergebnisse.
 
-## Einheitliche Suchfunktionen
+## Funktionen der einheitlichen Suche
 
 Die folgenden Funktionen sind in der einheitlichen Suche verfügbar.
 
 | Funktion | Beschreibung |
 | ------- | ------- |
 | Globale Sprachunterstützung | Die globale Suche versteht Abfragen und liefert Ergebnisse für Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, Portugiesisch und Chinesisch. |
-| Typo-Toleranz | Einheitliche Suche bietet eine robuste Typo-Toleranz unter Verwendung erweiterter Algorithmen. Diese Algorithmen berechnen Bearbeitungen und liefern geeignete Ergebnisse. |
-| Hervorhebung | In der Suchanfrage wird der übereinstimmende Suchbegriff hervorgehoben, sodass Sie den Abschnitt und die Wörter, die Ihrer Abfrage entsprechen, einfach finden können. Die Hervorhebung funktioniert auch bei falsch geschriebenen Wörtern. |
-| Snippets | In der Suchantwort sehen Sie einen Ausschnitt des Ergebnisses. Snippets geben die entsprechenden Wörter und einige Inhalte rund um die entsprechenden Suchbegriffe zurück. |
-| Stoppwörter | Einige häufig verwendete englische Wörter werden als _Stoppwörter_. Wenn Stoppwörter in der Suchabfrage enthalten sind, wird ihnen weniger Gewicht gegeben. <br>Stoppwörter beinhalten: _a, an und sind, wie es ist, aber durch, ob es, in, in, ist, nein, nicht, auf, oder so, dass die, ihre, dann, dort, diese, dies, zu, mit_. <br>Stoppwörter werden in anderen globalen Sprachen nicht unterstützt. |
-| Natürliche Sprachabfragen | Wenn Sie in Experience League Communities nach einem Hilfeartikel oder einer Diskussion suchen, können Sie Ihre Frage in eine natürliche Sprache eingeben und die Antwort erhalten. Beispielsuche: &quot;Wie erstelle ich ein Schema?&quot; |
-| Exakte Suche in Anführungszeichen | Mithilfe von Anführungszeichen in der Abfrage können Sie eine genaue Suche durchführen. Bei exakten Übereinstimmungsabfragen wird keine Typo-Korrektur vorgenommen. Beispiel: &quot;Luma Journey 2022&quot;. |
-| Filter | Sie können Filter wie _Objekttyp_ und anderen objektspezifischen Filtern im Popup mit den vollständigen Suchergebnissen. Wenn Sie die Eingabetaste drücken, nachdem Sie die Suchabfrage angeglichen haben, wird ein Popup mit einer vollständigen Seite mit den Filtern geöffnet. |
+| Automatische Tippfehler-Korrektur | Die einheitliche Suche korrigiert Tippfehler unter Verwendung erweiterter Algorithmen automatisch. Diese Algorithmen berechnen Bearbeitungen und liefern passende Ergebnisse. |
+| Hervorhebung | In der Suchanfrage wird das Übereinstimmungs-Keyword hervorgehoben, sodass Sie den Abschnitt und die Wörter, die Ihrer Abfrage entsprechen, einfach finden können. Die Hervorhebung funktioniert auch bei falsch geschriebenen Wörtern. |
+| Snippets | In der Suchantwort sehen Sie ein Snippet, einen Ausschnitt des Ergebnisses. Snippets geben die übereinstimmenden Wörter und einige Inhalte rund um die Übereinstimmungs-Keywords zurück. |
+| Stoppwörter | Einige im Englischen häufig verwendete Wörter werden als _Stoppwörter_ definiert. Wenn Stoppwörter in der Suchabfrage enthalten sind, wird ihnen weniger Gewicht zugemessen. <br>Stoppwörter beinhalten: _a, an, and, are, as, at, be, but, by, for, if, in, into, is, it, no, not, of, on, or, such, that, the, their, then, there, these, they, this, to, was, will, with_. <br>Stoppwörter werden in anderen globalen Sprachen nicht unterstützt. |
+| Natürliche Sprachabfragen | Wenn Sie in Experience League Communitys nach einem Hilfeartikel oder einer Diskussion suchen, können Sie Ihre Frage in natürlicher Sprache eingeben und die Antwort erhalten. Beispielsuche: „Wie erstelle ich ein Schema?“ |
+| Exakte Suche in Anführungszeichen | Mithilfe von Anführungszeichen in der Abfrage können Sie eine exakte Suche durchführen. Bei Abfragen mit exakter Übereinstimmung wird keine Korrektur von Tippfehlern vorgenommen. Beispiel: „Luma Journey 2022“. |
+| Filter | Im Popup-Fenster mit den vollständigen Suchergebnissen können Sie Filter wie _Objekttyp_ und andere objektspezifische Filter anwenden. Wenn Sie die Eingabetaste drücken, nachdem Sie die Suchabfrage eingegeben haben, wird ein ganzseitiges Popup-Fenster geöffnet, das die Filter enthält. |
 
 {style=&quot;table-layout:auto&quot;}
 
-## Kann es nicht finden?
+## Es wird nicht gefunden?
 
 Probieren Sie die folgenden Tipps aus:
 
-* Spezifischere Suchbegriffe eingeben
-* Rechtschreibprüfung
+* Geben Sie einen spezifischeren Suchbegriff ein
+* Prüfen Sie die Rechtschreibung
 * Versuchen Sie, den vollständigen Suchbegriff zu schreiben
-* Stellen Sie sicher, dass Sie über Berechtigungen für Objekte verfügen, nach denen Sie suchen
+* Vergewissern Sie sich, dass Sie über Berechtigungen für Objekte verfügen, nach denen Sie suchen
 
 
 
