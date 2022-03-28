@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '4640'
 ht-degree: 99%
@@ -294,7 +294,7 @@ Keine Informationen verfügbar.
 
 **Fehlerbehebungen**
 
-* Es wurde ein Problem behoben, durch das Single Sign-On zwischen dem [!DNL Experience Cloud] und [!DNL Media Optimizer] verhindert wurde.
+* Es wurde ein Problem behoben, durch das Single Sign-On zwischen dem [!DNL Experience Cloud] und [!DNL Advertising Cloud] verhindert wurde.
 
 **Bekannte Probleme**
 
@@ -386,7 +386,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Benutzer können auf Pinnwänden keine PowerPoint-Dateien freigeben.
 * Änderungen an Gruppen und Berechtigungen, die über die Benutzerverwaltung durchgeführt werden, werden erst nach einer erneuten Anmeldung wirksam.
 * Bei einigen Benutzern treten möglicherweise Probleme beim Hochladen großer Dateitypen in Experience Cloud Assets auf.
-* Einigen Benutzern fehlen möglicherweise Links von Media Optimizer auf ihren Experience Cloud-Karten.
+* Benutzern fehlen möglicherweise Links auf ihren Experience Cloud-Karten aus Advertising Cloud.
 * Bei einigen Benutzern ohne Administratorrechte treten möglicherweise Probleme beim Verknüpfen ihrer Konten auf, nachdem sie eine Einladung zum Beitritt zur Experience Cloud angenommen haben.
 * Die Leistung der Benutzeroberfläche der Experience Cloud ist u. U. reduziert, wenn sie von mehreren Benutzern gleichzeitig verwendet wird.
 * Für einige Benutzer ist das Löschen nicht mehr aktueller Assets möglich, ohne dabei eine Fehlermeldung zu empfangen.
@@ -595,7 +595,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 **Fehlerbehebungen**
 
 * Die [!DNL Experience Cloud] wurde nicht mit [!DNL Adobe Target] verknüpft. Dieses Problem trat auf, wenn die [!DNL Adobe Target]-Anmeldung auf mehreren [!DNL Target]-Servern zur Verfügung stand.
-* [!DNL Adobe Media Optimizer] erstellte Benutzer nicht automatisch, wenn der Benutzer in der [!DNL Experience Cloud] erstellt worden war.
+* [!DNL Adobe Advertising Cloud] erstellte Benutzer nicht automatisch, wenn der Benutzer in der [!DNL Experience Cloud] erstellt worden war.
 * Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer wurden bei der Eingabe vorübergehend ausgeblendet.
 * Der Link „Kommentare“ auf der Assets-Kartenansicht konnte nicht ausgewählt werden.
 * Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, blieben keine weiteren Änderungen an den Metadaten erhalten.
@@ -643,12 +643,12 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
 * Der Link „Kommentare“ auf der Asset-Kartenansicht kann nicht ausgewählt werden.
 * Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer werden bei der Eingabe vorübergehend ausgeblendet.
 * Die Anmeldung bei der [!DNL Experience Cloud] dauert länger als eine Sekunde.
-* In [!DNL Media Optimizer] freigegebene Daten werden in [!DNL Experience Cloud] falsch angezeigt.
-* Adobe [!DNL Media Optimizer] erstellt Benutzer nicht automatisch, wenn der Benutzer in der [!DNL Experience Cloud] erstellt wurde.
+* In [!DNL Advertising Cloud] freigegebene Daten werden in [!DNL Experience Cloud] falsch angezeigt.
+* Adobe [!DNL Advertising Cloud] erstellt Benutzer nicht automatisch, wenn der Benutzer in der [!DNL Experience Cloud] erstellt wurde.
 * Die [!DNL Experience Cloud] kann nicht mit [!DNL Adobe Target] verknüpft werden, wenn die [!DNL Adobe Target]-Anmeldung auf mehreren [!DNL Target]-Servern verwendet werden kann.
 * Die Benutzeroberfläche der [!DNL Experience Cloud] ist u. U. beeinträchtigt, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
 * [!DNL Search&Promote]-Verknüpfungen stehen auf der Seite [!UICONTROL Unternehmen und Produktzugriff] nicht zur Verfügung.
-* Simulationskarten in [!DNL Adobe Media Optimizer] werden nicht ordnungsgemäß dargestellt.
+* Simulationskarten in [!DNL Adobe Advertising Cloud] werden nicht ordnungsgemäß dargestellt.
 * Filter, die auf Trendberichte aus [!DNL Analytics] angewendet werden, werden nicht auf Karten in der [!DNL Experience Cloud] angewendet.
 * Filter, die auf Trendberichte aus Analytics angewendet werden, werden nicht auf Karten in der Experience Cloud angewendet.
 * Manche Excel- oder CSV-Dateien können nicht in eine Pinnwand hochgeladen werden.
@@ -664,7 +664,7 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 **Fehlerbehebungen**
 
 * Es wurde die Möglichkeit zum Entfernen Ihres Avatar-Bildes hinzugefügt.
-* Ein Problem wurde behoben, das dazu geführt hat, dass Sie die Verknüpfung Ihrer [!DNL Adobe Media Optimizer]-Konten nicht aufheben konnten.
+* Ein Problem wurde behoben, das dazu geführt hat, dass Sie die Verknüpfung Ihrer [!DNL Adobe Advertising Cloud]-Konten nicht aufheben konnten.
 
 **Bekannte Probleme**
 
@@ -678,16 +678,16 @@ Version 14.3.1 ist ein Maintenance Release zur Verbesserung der Geschwindigkeit,
 * Die Experience Cloud kann nicht mit [!DNL Adobe Target] verknüpft werden, wenn die [!DNL Adobe Target]-Anmeldung auf mehreren Target-Servern verwendet werden kann.
 * Die Anmeldung bei Experience Cloud dauert länger als eine Sekunde.
 * Nachdem einem Asset ein benutzerdefiniertes Tag hinzugefügt wurde, können keine weiteren Änderungen an den Metadaten gespeichert bleiben.
-* [!DNL Adobe Media Optimizer] erstellt Benutzer nicht automatisch, wenn der Benutzer in der Experience Cloud erstellt wurde.
+* [!DNL Adobe Advertising Cloud] erstellt Benutzer nicht automatisch, wenn der Benutzer in der Experience Cloud erstellt wurde.
 * Optionen in Kombinationsfeldern zum Hinzufügen neuer Benutzer werden bei der Eingabe vorübergehend ausgeblendet.
-* In [!DNL Media Optimizer] freigegebene Daten werden in der Experience Cloud falsch angezeigt.
+* In [!DNL Advertising Cloud] freigegebene Daten werden in der Experience Cloud falsch angezeigt.
 * Die Freigabe von Bildern aus Flickr schlägt fehl.
 * Filter, die auf Trendberichte aus [!DNL Analytics] angewendet werden, werden nicht auf Karten in der Experience Cloud angewendet.
 * Änderungen an Gruppen und Berechtigungen, die über die Benutzerverwaltung durchgeführt werden, werden erst bei einer erneuten Anmeldung wirksam.
 * [!DNL Search&Promote]-Verknüpfungen stehen in [!UICONTROL Organisationen und Produktzugriff] nicht zur Verfügung.
 * Die Benutzer müssen die Pinnwand aktualisieren, damit die gelöschten Karten nicht mehr in der Ansicht angezeigt werden.
 * Manche Excel- oder CSV-Dateien können nicht in eine Pinnwand hochgeladen werden.
-* Simulationskarten in [!DNL Adobe Media Optimizer] werden nicht ordnungsgemäß dargestellt.
+* Simulationskarten in [!DNL Adobe Advertising Cloud] werden nicht ordnungsgemäß dargestellt.
 * Einige PNG-Dateien können nicht auf einer Karte dargestellt werden.
 * Beta-Feedback kann nicht gesendet werden.
 

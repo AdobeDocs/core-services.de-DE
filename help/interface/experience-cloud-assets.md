@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 92%
+source-wordcount: '363'
+ht-degree: 95%
 
 ---
 
 # Übersicht über Experience Cloud-Assets
 
-Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. Ein Asset ist ein digitales Dokument, Bild oder Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
+Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. Ein Asset ist ein digitales Dokument, Bild, Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
 
 Zu den Asset-Services gehören:
 
@@ -26,10 +26,9 @@ Zu den Asset-Services gehören:
 
 Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und beschleunigt die Markteinführung. Sie können Workflows in Programmen optimieren:
 
-* **[!DNL Social]**: Veröffentlichen Sie in Social Media, auf Facebook, in Twitter, LinkedIn und Google+
-* **[!DNL Target]**: Erstellen Sie Erfahrungen für A/B- und multivariate Tests
-* **[!DNL Media Optimizer]**: Entwickeln Sie Werbeeinheiten für verschiedene Kanäle und Kampagnen
-* **[!DNL Campaign]**: Fügen Sie Assets in E-Mail-Newslettern und Kampagnen ein.
+* **[!DNL Adobe Target]**: Erstellen Sie Erfahrungen für A/B- und multivariate Tests
+* **[!DNL Ad Cloud]**: Entwickeln Sie Werbeeinheiten für verschiedene Kanäle und Kampagnen
+* **[!DNL Adobe Campaign]**: Fügen Sie Assets in E-Mail-Newslettern und Kampagnen ein.
 
 In [!UICONTROL Experience Cloud Assets] können Sie:
 
@@ -55,7 +54,9 @@ Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche,
 
 ![Auf die Symbolleiste zugreifen](assets/asset-tools.png)
 
-! Beachten Sie, dass Sie zum Löschen von Assets, die in Target verwendet wurden oder verwendet werden, alle Verwendungszwecke dieses Assets entfernen müssen.
+>[!NOTE]
+>
+>Assets müssen aus Adobe Target-Aktivitäten entfernt werden, bevor Sie sie erfolgreich aus löschen können. [!DNL Target].
 
 ## Assets bearbeiten {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
