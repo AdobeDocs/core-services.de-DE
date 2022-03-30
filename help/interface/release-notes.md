@@ -28,7 +28,7 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 | Funktion | Beschreibung |
 | ------- |-------|
-| Zugriff [!UICONTROL Letzte] in Experience Platform und Journey Optimizer über die Suchleiste | Benutzer können nun über die einheitliche Suchleiste von jeder Seite von AEP und AJO aus auf zuletzt aufgerufene Objekte zugreifen. |
+| Auf [!UICONTROL Zuletzt verwendet] in Experience Platform und Journey Optimizer über die Suchleiste zugreifen | Benutzer können nun über die einheitliche Suchleiste von jeder Seite von AEP und AJO aus auf zuletzt aufgerufene Objekte zugreifen. |
 
 ## Februar 2022
 
@@ -575,7 +575,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud-Zielgruppen </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Zielgruppen</span></p> <p> In <span class="wintitle">Zielgruppen</span> erstellen, bearbeiten und verwalten Sie Zielgruppen in etwa so, wie Sie mit Segmenten arbeiten. Sie können z. B. ein Segment in Reports &amp; Analytics erstellen und es dann in <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Zielgruppen</span> freigeben. Nach der Freigabe ist die Zielgruppe in <span class="keyword">Adobe Target</span> für Kampagnenaktivitäten und in Adobe Audience Manager für die Segmentierung verfügbar. </p> <p> <p>Hinweis: Um die Aktivierung in Target anzufordern, besuchen Sie<a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Zielgruppen</span></p> <p> In <span class="wintitle">Zielgruppen</span> erstellen, bearbeiten und verwalten Sie Zielgruppen in etwa so, wie Sie mit Segmenten arbeiten. Sie können z. B. ein Segment in Reports &amp; Analytics erstellen und es dann in <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Zielgruppen</span> freigeben. Nach der Freigabe ist die Zielgruppe in <span class="keyword">Adobe Target</span> für Kampagnenaktivitäten und in Adobe Audience Manager für die Segmentierung verfügbar. </p> <p> <p>Hinweis: Um die Aktivierung in Target anzufordern, besuchen Sie <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external">https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
