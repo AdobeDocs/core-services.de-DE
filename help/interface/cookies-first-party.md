@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
-workflow-type: ht
-source-wordcount: '1614'
-ht-degree: 100%
+source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+workflow-type: tm+mt
+source-wordcount: '1616'
+ht-degree: 96%
 
 ---
 
@@ -57,8 +57,7 @@ Folgen Sie unten stehenden Schritten, um ein neues Erstanbieter-SSL-Zertifikat f
    **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.adobedc.net`.
 
 >[!NOTE]
-> In der Vergangenheit hat Adobe Kunden empfohlen, zwei CNAME-Einträge einzurichten, einen für HTTPS und einen für HTTP. Da es sich um eine Best Practice zur Verschlüsselung von Traffic handelt und die meisten Browser HTTP stark ablehnen, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Falls Sie es benötigen, würde er wie folgt aussehen:
->    **Nicht sicher** – der Hostname `metrics.example.com` verweist auf: `example.com.adobedc.net`.
+> In der Vergangenheit hat Adobe empfohlen, dass Kunden zwei CNAME einrichten: einen für HTTPS und einen für HTTP. Da es sich um eine Best Practice zur Verschlüsselung von Traffic handelt und die meisten Browser HTTP stark davon abhalten, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Wenn Sie Ihren CNAME für HTTP konfigurieren müssen, wenden Sie sich an die Kundenunterstützung von Adobe.
 
 1. Wenn dieser CNAME eingerichtet ist, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Betreibungs-Servern von Adobe.
 
