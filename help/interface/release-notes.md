@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '4640'
-ht-degree: 100%
+source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
+workflow-type: tm+mt
+source-wordcount: '4676'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +23,14 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
+
+## April 2022
+
+| Funktion | Beschreibung |
+| ------- |-------|
+| Natürliche Sprachsuche | Erhalten Sie sofortige Antworten auf alle Ihre Hilfemöglichkeiten über eine einzige Oberfläche über die einheitliche Suche. Diese Funktion steht Ihnen auf jeder Seite von [!DNL Experience Platform] und [!DNL Journey Optimizer]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## März 2022
 
