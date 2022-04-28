@@ -6,10 +6,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
@@ -37,11 +37,11 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattrib
 
 1. Sie benötigen:
 
-   * Kennung der IMS-Organisation
+   * [Organisations-ID](#organizations.md)
    * Alias-ID der jeweiligen CRS-Datenquelle
    * CRM-ID des jeweiligen Profils
 
-   Eine IMS-Organisations-ID ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Wenn Ihr Marketing-Team oder Ihr interner Adobe-Systemadministrator die IMS-Organisations-ID Ihres Unternehmens nicht kennen, wenden Sie sich an die Adobe-Kundenunterstützung unter gdprsupport@adobe.com. Sie benötigen die IMS-Organisations-ID, um Anfragen an die Datenschutz-API zu senden.
+   Ihre [Organisations-ID](#organizations.md) ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Sie benötigen die Kennung des Unternehmens, um Anfragen an die Datenschutz-API zu senden. Wenden Sie sich an die Kundenunterstützung von Adobe unter `gdprsupport@adobe.com` , wenn Sie die ID nicht finden können.
 
 1. In [!UICONTROL Privacy Service] können Sie Zugriffs- und Löschanfragen an Kundenattribute senden und den Status vorhandener Anfragen überprüfen.
 
@@ -50,7 +50,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattrib
 &quot;company context&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;value&quot;: &lt;*IMS-Organisations-ID-Wert*>
+* &quot;value&quot;: &lt;*Ihr Organisations-ID-Wert*>
 
 &quot;users&quot;:
 
