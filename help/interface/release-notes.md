@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4676'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience 
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
-## April 2022
+## April - 2022
 
 | Funktion | Beschreibung |
 | ------- |-------|
-| Natürliche Sprachsuche | Erhalten Sie sofortige Antworten auf alle Ihre Hilfemöglichkeiten über eine einzige Oberfläche über die einheitliche Suche. Diese Funktion steht Ihnen auf jeder Seite von [!DNL Experience Platform] und [!DNL Journey Optimizer]. |
+| Natürliche Sprachsuche | Erhalten Sie sofort Antworten auf all Ihre Fragen zu Hilfe – durch die einheitliche Suche über eine einzige Oberfläche. Diese Funktion steht Ihnen auf jeder Seite von [!DNL Experience Platform] und [!DNL Journey Optimizer] immer zur Verfügung. |
 
 {style=&quot;table-layout:auto&quot;}
 
