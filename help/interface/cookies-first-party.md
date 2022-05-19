@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: ec35013fd5c266db6128e370dfde4b24ccce5737
+source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
 workflow-type: tm+mt
 source-wordcount: '1616'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Wenn Sie sicherstellen möchten, dass Ihr Erfassungs-Server mit der Domain Ihrer
 
 >[!NOTE]
 >
->Unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt, sorgt das ITP-Programm (Intelligent Tracking Prevention) von Apple dafür, dass die von Adobe gesetzten Erstanbieter-Cookies in Browsern, die von ITP kontrolliert werden, kurzlebig sind. Dazu gehören Safari auf macOS und alle Browser auf iOS und iPadOS. Ab November 2020 laufen über CNAME gesetzte Cookies genauso ab wie über JavaScript gesetzte Cookies. Diese Ablaufzeit kann sich ändern.
+>Unabhängig davon, ob Ihre Erfassungsdomäne mit Ihrer Site-Domäne übereinstimmt, führt das ITP-Programm (Intelligent Tracking Prevention) von Apple dazu, dass die von Adobe festgelegten Erstanbieter-Cookies in Browsern mit kurzer Lebensdauer verwendet werden, die von ITP verwaltet werden. Dazu gehören Safari in macOS und alle Browser in iOS und iPadOS. Ab November 2020 laufen über CNAME gesetzte Cookies genauso ab wie über JavaScript gesetzte Cookies. Diese Ablaufzeit kann sich ändern.
 
 Wenn Sie einen CNAME für die Datenerfassung einrichten möchten und Ihre Website sichere Seiten hat, welche das HTTPS-Protokoll verwenden, können Sie mithilfe von Adobe ein SSL-Zertifikat beantragen.
 
