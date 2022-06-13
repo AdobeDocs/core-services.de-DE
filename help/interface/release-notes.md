@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
-workflow-type: ht
-source-wordcount: '4676'
-ht-degree: 100%
+source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
+workflow-type: tm+mt
+source-wordcount: '4750'
+ht-degree: 98%
 
 ---
 
@@ -24,11 +24,21 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience 
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
+## Juli 2022
+
+Geplante Version: **11. Juli 2022**
+
+| Funktion | Beschreibung |
+| ------- | ------- |
+| Einheitliche Startseite - Widget für Schnellzugriff | **Schnellere Navigation:** Sie können jetzt Ihr Heimerlebnis weiter personalisieren und entscheiden, welche Anwendungen Ihnen zur Verfügung stehen. Verwenden Sie die neue Seitenfunktion, um festzulegen, welche Anwendungen in der Vorderseite und Mitte Ihrer [!UICONTROL Schnellzugriff]. <br>**Bleiben Sie mit intelligentem Pinning auf dem Laufenden:** Ihre neuen Anwendungen sind jetzt einfacher zu finden. Neu zugewiesene Anwendungen zeigen eine _Neu_ Abzeichen und Auto-Pin auf [!UICONTROL Schnellzugriff]. |
+
+{style=&quot;table-layout:auto&quot;}
+
 ## April - 2022
 
 | Funktion | Beschreibung |
 | ------- |-------|
-| Natürliche Sprachsuche | Erhalten Sie sofort Antworten auf all Ihre Fragen zu Hilfe – durch die einheitliche Suche über eine einzige Oberfläche. Diese Funktion steht Ihnen auf jeder Seite von [!DNL Experience Platform] und [!DNL Journey Optimizer] immer zur Verfügung. |
+| Suche in natürlicher Sprache | Erhalten Sie sofort Antworten auf all Ihre Fragen zu Hilfe – durch die einheitliche Suche über eine einzige Oberfläche. Diese Funktion steht Ihnen auf jeder Seite von [!DNL Experience Platform] und [!DNL Journey Optimizer] immer zur Verfügung. |
 
 {style=&quot;table-layout:auto&quot;}
 
