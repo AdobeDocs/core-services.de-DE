@@ -10,9 +10,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 ## Juli 2022
 
-Geplante Version: **11. Juli 2022**
+Geplante Veröffentlichung: **11. Juli 2022**
 
 | Funktion | Beschreibung |
 | ------- | ------- |
-| Einheitliche Startseite - Widget für Schnellzugriff | **Schnellere Navigation:** Sie können jetzt Ihr Heimerlebnis weiter personalisieren und entscheiden, welche Anwendungen Ihnen zur Verfügung stehen. Verwenden Sie die neue Seitenfunktion, um festzulegen, welche Anwendungen in der Vorderseite und Mitte Ihrer [!UICONTROL Schnellzugriff]. <br>**Bleiben Sie mit intelligentem Pinning auf dem Laufenden:** Ihre neuen Anwendungen sind jetzt einfacher zu finden. Neu zugewiesene Anwendungen zeigen eine _Neu_ Abzeichen und Auto-Pin auf [!UICONTROL Schnellzugriff]. |
+| Einheitliche Startseite - Widget für Schnellzugriff | **Schnellere Navigation:** Sie können jetzt Ihr Startseiten-Erlebnis weiter personalisieren und entscheiden, welche Programme Ihnen zur Verfügung stehen. Verwenden Sie die neue Anheftfunktion, um festzulegen, welche Programme im [!UICONTROL Schnellzugriff]-Bereich vorne und in der Mitte angezeigt werden sollen. <br>**Bleiben Sie mit intelligentem Anheften auf dem Laufenden:** Ihre neuen Programme sind jetzt einfacher zu finden. Neu zugewiesene Programme sind mit dem Badge _Neu_ gekennzeichnet und werden automatisch im [!UICONTROL Schnellzugriff]-Bereich angeheftet. |
 
 {style=&quot;table-layout:auto&quot;}
 
