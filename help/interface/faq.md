@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 8cb55c6fb6f0acfb8787b0125f7c4a25bcb71e28
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ Wenden Sie sich für weitere Hilfe an den [Adobe-Support](https://experienceleag
 
 Nein. Die Experience Cloud ist ohne Zusatzkosten im Preis inbegriffen. Bestimmte zentrale Dienste könnten jedoch zusätzliche Kosten verursachen.
 
-## Weshalb muss sich mein Unternehmen über die Experience Cloud-Schnittstelle anmelden?
+## Warum muss sich mein Unternehmen über die Experience Cloud-Oberfläche anmelden?
 
 Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies wird künftig auch der Standardpfad für den Zugriff auf Programme sein und letztlich andere individuelle Programmanmeldevorgänge ersetzen. Das Anmelden über Experience Cloud erleichtert später eine reibungslosere Transition.
 
@@ -82,11 +82,11 @@ Bereitstellung in Experience Cloud bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie [Support für Adobe kontaktieren](https://experienceleague.adobe.com/?support-solution=General#support) , um zu überprüfen, ob Ihr Unternehmen vollständig bereitgestellt wurde.
 
 ## Wo können Benutzer die Kontoverknüpfung verwalten?
 
-Einige Benutzer müssen unter Umständen ihr Programmkonto (Analytics) mit der Adobe ID oder Enterprise ID verknüpfen.
+Einige Benutzer müssen möglicherweise ihr Anwendungskonto (Analytics) mit der Adobe ID oder Enterprise ID verknüpfen.
 
 Siehe [Verknüpfen von Programmkonten mit einer Adobe ID](organizations.md#task_FD389E78640848919E247AC5E95B8369).
 

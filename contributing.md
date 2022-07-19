@@ -1,6 +1,8 @@
 ---
-source-git-commit: 04d71f56f9e7147ac91a3135ac2df04cb1eea37a
-translation-type: ht
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 87%
 
 ---
 # Beitragen
@@ -19,11 +21,12 @@ Beginnen Sie mit dem Melden eines Problems. Die bereits zu diesem Projekt beitra
 
 ## Lizenzvereinbarung für Mitarbeiter
 
-Für alle Drittanbieterbeiträge zu diesem Projekt muss eine signierte Lizenzvereinbarung für Mitarbeiter vorliegen. So kann Adobe Mitarbeiter im Rahmen des Projekts neu verteilen. [Unterschreiben Sie unsere Lizenzvereinbarung für Mitarbeiter](http://opensource.adobe.com/cla.html). Sie müssen nur einmal eine Adobe-Lizenzvereinbarung für Mitarbeiter einreichen. Wenn Sie also bereits eine gesendet haben, können Sie loslegen.
+Für alle Drittanbieterbeiträge zu diesem Projekt muss eine signierte Lizenzvereinbarung für Mitarbeiter vorliegen. So kann Adobe Mitarbeiter im Rahmen des Projekts neu verteilen. [Signieren Sie unsere Lizenzvereinbarung für Mitarbeiter](http://opensource.adobe.com/cla.html). Sie senden eine Adobe-CLA nur einmal. Wenn Sie also bereits eine übermittelt haben, können Sie loslegen!
 
 ## Codeüberprüfungen
 
-Alle Übermittlungen sollten in Form von Pull-Anfragen eingehen und müssen von den Projektverantwortlichen geprüft werden. In der [GitHub-Dokumentation zu Pull-Anfragen](https://help.github.com/articles/about-pull-requests/) finden Sie weitere Informationen zum Senden von Pull-Anfragen.
+Alle Übermittlungen sollten in Form von Pull-Anfragen erfolgen und müssen von den Projektverantwortlichen geprüft werden. In der [GitHub-Dokumentation zu Pull-Anfragen](https://help.github.com/de/articles/about-pull-requests/)
+finden Sie weitere Informationen zum Senden von Pull-Anfragen.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when

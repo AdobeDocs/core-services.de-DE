@@ -10,10 +10,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 93%
+source-wordcount: '1604'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ Folgen Sie unten stehenden Schritten, um ein neues Erstanbieter-SSL-Zertifikat f
    **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.adobedc.net`.
 
 >[!NOTE]
-> In der Vergangenheit hat Adobe empfohlen, dass Kunden zwei CNAME einrichten: einen für HTTPS und einen für HTTP. Da es sich um eine Best Practice zur Verschlüsselung von Traffic handelt und die meisten Browser HTTP stark davon abhalten, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Wenn Sie Ihren CNAME für HTTP konfigurieren müssen, wenden Sie sich an die Kundenunterstützung von Adobe.
+> In der Vergangenheit hat Adobe empfohlen, dass Kunden zwei CNAME einrichten: einen für HTTPS und einen für HTTP. Da es sich um eine Best Practice zur Verschlüsselung von Traffic handelt und die meisten Browser HTTP stark davon abhalten, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Wenden Sie sich an die Kundenunterstützung von Adobe, um Ihren CNAME für HTTP zu konfigurieren.
 
 1. Wenn dieser CNAME eingerichtet ist, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Betreibungs-Servern von Adobe.
 
@@ -77,8 +77,8 @@ SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zert
 |---|---|
 | **Ist dieser Prozess sicher?** | Ja, das Adobe Managed-Programm ist sicherer als unsere frühere Methode, da weder Zertifikate noch private Schlüssel außerhalb von Adobe und der Zertifizierungsstelle ausgetauscht werden. |
 | **Wie kann Adobe ein Zertifikat für unsere Domain erwerben?** | Das Zertifikat kann nur gekauft werden, wenn Sie mit dem jeweiligen Hostnamen (z. B. `telemetry.example.com`) auf Hostnamen von Adobe verweisen. Dadurch wird dieser Hostname an Adobe übertragen und Adobe kann das Zertifikat in Ihrem Namen erwerben. |
-| **Kann ich verlangen, dass das Zertifikat entzogen wird?** | Ja, als Eigentümer der Domain können Sie verlangen, dass uns das Zertifikat entzogen wird. Sie müssen dazu nur ein Ticket bei der Kundenunterstützung erstellen. |
-| **Verwendet dieses Zertifikat SHA-2-Verschlüsselung?** | Ja, Adobe gibt in Zusammenarbeit mit DigiCert ein SHA-2-Zertifikat heraus. |
+| **Kann ich verlangen, dass das Zertifikat entzogen wird?** | Ja, als Eigentümer der Domäne sind Sie berechtigt, die Sperrung des Zertifikats anzufordern. Öffnen Sie ein Ticket bei der Kundenunterstützung, um diesen Vorgang abzuschließen. |
+| **Verwendet dieses Zertifikat SHA-2-Verschlüsselung?** | Ja, Adobe arbeitet mit DigiCert zusammen, um ein SHA-2-Zertifikat auszustellen. |
 | **Verursacht dies Mehrkosten?** | Nein, Adobe stellt diesen Service allen aktuellen Adobe Digital Experience-Kunden kostenlos zur Verfügung. |
 
 {style=&quot;table-layout:auto&quot;}
