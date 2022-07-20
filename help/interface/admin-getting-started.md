@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0175ba36d29dcbcdcfd3e8ff9d359972c19ac448
+source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 100%
+source-wordcount: '1896'
+ht-degree: 85%
 
 ---
 
@@ -25,6 +25,52 @@ Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von 
 
 Sie können im Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Siehe [Anzeigen von Experience Cloud-Benutzern im Admin-Tool](admin-tool-experience-cloud.md).
 
+## Aktualisierungshinweis zur Bereitstellung{#provisioning}
+
+Aktualisiert: **20. Juli 2022**
+
+>[!IMPORTANT]
+>
+>Beachten Sie die folgende Benachrichtigung bezüglich der Bereitstellung von Experience Clouden.
+
+Adobe aktualisiert seine Bereitstellung, um allen Experience Cloud-Kunden Zugang zu grundlegenden Funktionen zu bieten, die die Interoperabilität zwischen einigen Experience Cloud-Produkten unterstützen. Benutzern wird Adobe Experience Platform als neue Berechtigung zu ihren Experience Cloud-Organisationen hinzugefügt, mit [!UICONTROL Datenerfassung] als integrierten Dienst.
+
+Adobe Experience Platform [!UICONTROL Datenerfassung] include [tags](https://experienceleague.adobe.com/docs/tags.html?lang=en) für ein vereinfachtes universelles Tag-Management und bietet eine vertrauenswürdige, zuverlässige und vollständige Streaming-Dateninfrastruktur. Tags vereinfachen die Datenerfassung für Kundenerlebnisse und optimieren die Bereitstellung von Erlebnissen.
+
+**Veränderungen in der Admin Console**
+
+Administratoren können Änderungen oder Ergänzungen der Admin Console wie folgt anzeigen:
+
+* Die Adobe Experience Platform-Produktkarte in der Admin Console umfasst:
+
+   * Places
+   * Sicherheit
+   * ID-Namespace
+   * Sandboxes
+   * Experience-Datenmodell
+   * Schemas
+   * Datenströme
+   * Visitor ID
+
+   Für Unternehmen, die derzeit keine Experience Platform verwenden, wird jetzt die _Adobe Experience Platform_ -Produkt in der Admin Console, einschließlich der oben aufgeführten Funktionen.
+
+   Für Unternehmen, die derzeit Experience Platform verwenden: _Orte_ wird nun in der Experience Platform-Karte konsolidiert.
+
+* Adobe Experience Platform-Datenerfassung (früher Launch) und Datenschutz werden weiterhin als separate Produktkarten von den anderen Experience Platform-Funktionen angezeigt.
+
+Weitere Informationen zu den neuen Funktionen finden Sie auf den entsprechenden Seiten auf der Experience League:
+
+* [Datenerfassung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
+* [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de)
+* [Sicherheit](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html%3Flang%3Dde)
+* [ID-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de)
+* [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de)
+* [Experience-Datenmodell](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de)
+* [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de)
+* [Datenströme](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
+* [Visitor ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
+* [Datenschutz](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)
+
 ## Experience Cloud-Benutzerauthentifizierung (geplante Migration){#migration}
 
 Ab Februar 2022 aktualisiert Adobe sein Profilverwaltungssystem, damit Unternehmen ihre Unternehmensberechtigungen für einzelne Profile besser verwalten können. Daher werden alle Benutzer mit einem persönlichen Profil, das einer einzelnen Adobe ID (Type1) entspricht, in ein neues Unternehmensprofil migriert. Dieses Profil entspricht einer _Business ID_ (Type2e).
@@ -35,7 +81,7 @@ Weitere Informationen zu Identitätstypen finden Sie unter [Identitätstypen in 
 
 Wenn Ihre Migration ansteht, erhalten Ihre Organisationsadministratoren 30 Tage vor der Migration eine Benachrichtigungs-E-Mail.
 
-* Die Migration wird für entweder den Zeitraum zwischen 22 Uhr und 6 Uhr Ortszeit basierend auf der Hauptzeitzone Ihres Unternehmens oder für einen Zeitraum am Wochenende geplant.
+* Die Migration wird zwischen 22.00 Uhr geplant. - 6 Uhr, basierend auf der primären Zeitzone der Organisation oder am Wochenende.
 * Während der Migration kann der Zugriff auf das Experience Cloud-Programm bis zu etwa 15 Minuten lang unterbrochen werden und die Admin Console ist möglicherweise bis zu 30 Minuten nicht verfügbar. Abgesehen davon verläuft die Migration nahtlos.
 
 ### Änderungen nach der Migration
