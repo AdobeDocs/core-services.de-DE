@@ -1,8 +1,8 @@
 ---
 source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '426'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 # Artikel beitragen
@@ -27,13 +27,13 @@ Kleinere Korrekturen oder Erläuterungen, die Sie für Dokumentation und Codebei
 
 ### Umfangreiche Änderungen oder neue Artikel von Community-Mitgliedern
 
-Wenn Sie Mitglied der Adobe-Community sind und einen neuen Artikel erstellen oder umfangreiche Änderungen einreichen möchten, verwenden Sie die Registerkarte Probleme im Git-Repository, um ein Problem einzureichen und mit dem Dokumentationsteam zu kommunizieren. Sobald Sie einem Plan zugestimmt haben, können Sie mit einem Mitarbeiter zusammenarbeiten, um diesen neuen Inhalt durch eine Kombination aus Arbeit in den öffentlichen und privaten Repositorys zu integrieren.
+Wenn Sie Mitglied der Adobe-Community sind und einen neuen Artikel erstellen oder umfangreiche Änderungen einreichen möchten, verwenden Sie die Registerkarte Probleme im Git-Repository, um ein Problem einzureichen und mit dem Dokumentationsteam zu kommunizieren. Sobald Sie sich auf einen Plan geeinigt haben, können Sie mit einem/r Angestellten zusammenarbeiten, um diese neuen Inhalte durch eine Kombination von Aktionen in den öffentlichen und privaten Repositorys einzubringen.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Umfangreiche Änderungen von Adobe-Mitarbeitern
+### Umfangreiche Änderungen von Adobe-Mitarbeitenden
 
 Wenn Sie technischer Redakteur, Programmmanager oder Entwickler des Produktteams für eine [!UICONTROL Adobe Experience Cloud]-Lösung sind und es Ihr Auftrag ist, technische Artikel zu erstellen oder zu diesen beizutragen, sollten Sie das private Repository unter `https://git.corp.adobe.com/AdobeDocs` verwenden.
 
