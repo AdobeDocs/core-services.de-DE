@@ -2,16 +2,16 @@
 description: Hier erfahren Sie, wie Sie in Adobe Experience Cloud mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe definieren.
 keywords: Hauptdienste
 solution: Experience Cloud
-title: 'Erstellen einer Zielgruppe '
+title: Erstellen einer Zielgruppe
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '508'
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 **Erstellen einer Zielgruppe**
 
 1. Wählen Sie in [!DNL Experience Cloud], unter [!DNL Experience Platform] die Option **[!UICONTROL People]** > **[!UICONTROL Zielgruppen-Bibliothek].**.
-1. Wählen Sie auf der Seite [!UICONTROL Zielgruppen] die Option **[!UICONTROL Neu]** aus. ![](assets/add_icon_small.png)
+1. Wählen Sie auf der Seite [!UICONTROL Zielgruppen] die Option **[!UICONTROL Neu]** aus. ![add](assets/add_icon_small.png)
 
    ![Schritt Ergebnis](assets/audience_create_new.png)
 

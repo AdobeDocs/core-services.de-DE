@@ -2,17 +2,17 @@
 description: Hier erfahren Sie, wie Sie sich bei Adobe Experience Cloud anmelden, Kennwörter und Benachrichtigungen verwalten und eine standardmäßige Landingpage festlegen.
 keywords: Zentrale Services, Anmeldung bei Experience Cloud
 solution: Experience Cloud
-title: 'Anmelden und Verwalten von der Experience Cloud-Profileinstellungen '
+title: Anmelden und Verwalten von der Experience Cloud-Profileinstellungen
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+workflow-type: tm+mt
+source-wordcount: '977'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Durch die Anmeldung bei Experience Cloud (anstelle der Anmeldung bei nur einem 
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) befinden.
 
-1. Klicken Sie auf das Experience Cloud-Menü (![](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**.
+1. Wählen Sie das Menü Experience Cloud ( ![Voreinstellungen](assets/menu-icon.png)), wählen Sie **[!UICONTROL Administration]**.
 
    Wird die Verknüpfung **[!UICONTROL Administration]** nicht angezeigt, sind Sie kein Experience Cloud-Administrator der angezeigten [Organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Sollten Sie mit der Zuweisung von Administratorrechten Schwierigkeiten haben, wenden Sie sich an die Kundenunterstützung oder einen bereits bestehenden Experience Cloud-Administrator in Ihrem Unternehmen.
 1. Wählen Sie **[!UICONTROL Administration]** aus.
@@ -60,9 +60,9 @@ Hilfe für Benutzer, die sich nicht als Administratoren bei der Experience Clou
 
    Ihr Experience Cloud-Administrator kann Ihnen bei der Bestimmung der Kontoart (Adobe ID oder Enterprise ID) behilflich sein.
 
-1. Klicken Sie auf der Landingpage auf das Auswahlsymbol ![](assets/menu-icon.png), um das Pulldown-Menü aufzurufen.
+1. Wählen Sie auf Ihrer Landingpage das Auswahlsymbol aus.  ![Menü](assets/menu-icon.png) , um auf das Pulldown-Menü zuzugreifen.
 
-   ![](assets/experience-cloud-core-services.png)
+   ![Menü](assets/experience-cloud-core-services.png)
 
    Welche Programme und Services in diesem Menü angezeigt werden, hängt davon ab, welche Programmberechtigungen Ihnen von Ihrem [Administrator](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) zugewiesen wurden.
 
@@ -82,7 +82,7 @@ Sie können persönliche Details bearbeiten und eine standardmäßige [Organisat
 
 Sie erhalten eine Benachrichtigung (per E-Mail oder im Produkt) über Systemaktualisierungen, Wartungshinweise, Beiträge, Erwähnungen und freigegebene Assets. Sie können auch die Produkte und Programme angeben, für die Sie Benachrichtigungen erhalten möchten, einschließlich des Upload-Status für Kundenattribute.
 
-Um zu den Benachrichtigungen zu navigieren, klicken Sie auf das Symbol **[!UICONTROL Benachrichtigungen]** ![](assets/notifications-icon.png) und dann auf das Symbol **[!UICONTROL Einstellungen]** ![](assets/icon_edit_board.png).
+Um zu Benachrichtigungen zu navigieren, wählen Sie die **[!UICONTROL Benachrichtigungen]** icon  ![Benachrichtigungen](assets/notifications-icon.png)und wählen Sie dann die **[!UICONTROL Einstellungen]** icon  ![edit](assets/icon_edit_board.png).
 
 Sie können die Anzeige der Benachrichtigungen nach den für Sie wichtigen Benachrichtigungstypen sortieren und nach Benachrichtigungen suchen. Alternativ können Sie auch folgendermaßen vorgehen:
 

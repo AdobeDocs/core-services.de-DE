@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 99%
+source-wordcount: '1285'
+ht-degree: 96%
 
 ---
 
@@ -55,7 +55,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Dienste und Organisationen zugreifen.
 
-Rufen Sie die Programmauswahl ![](assets/menu-icon.png) auf, um auf die in Ihrem Unternehmen für Sie bereitgestellten Experience Cloud-Programme und -Services zuzugreifen.
+Rufen Sie die Anwendungsauswahl auf, um auf die in Ihrem Unternehmen für Sie bereitgestellten Experience Cloud-Anwendungen und -Dienste zuzugreifen. ![Menü](assets/menu-icon.png).
 
 ![Zugriff auf Experience Cloud-Programme](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnement
 * Abmelden
 * Einstellungen, Benachrichtigungen und Abonnements für das Konto konfigurieren
 
-Um die Voreinstellungen zu verwalten, wählen Sie die Option **[!UICONTROL Voreinstellungen]** in Ihrem Kontomenü ![](assets/preferences-icon-sm.png) aus.
+Um die Voreinstellungen zu verwalten, wählen Sie **[!UICONTROL Voreinstellungen]** über das Menü Ihres Kontos ![Voreinstellungen](assets/preferences-icon-sm.png).
 
 ![Benutzerprofil- und Kontovoreinstellungen](assets/preferences-page.png)
 
@@ -138,7 +138,7 @@ Wählen Sie die Option **[!UICONTROL Benachrichtigungen]** aus, um über relevan
 
 ## Experience Cloud-Domains {#domains}
 
-Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domains zur Zulassungsliste Ihrer Firewall hinzuzufügen, um ein optimales Erlebnis zu gewährleisten. Zusätzliche Domains können auch für bestimmte Experience Cloud-Programme wie Adobe Analytics verwendet werden. Weitere Informationen finden Sie in der Dokumentation für diese Programme.
+Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen zur Zulassungsliste Ihrer Firewall hinzuzufügen, um eine optimale Benutzererfahrung zu erzielen. Zusätzliche Domains können auch für bestimmte Experience Cloud-Programme wie Adobe Analytics verwendet werden. Weitere Informationen finden Sie in der Dokumentation für diese Programme.
 
 | Technologie | Domains |
 |--- |--- |

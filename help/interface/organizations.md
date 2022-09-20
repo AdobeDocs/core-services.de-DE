@@ -2,17 +2,17 @@
 description: Erfahren Sie mehr über Organisationen (IMS-Organisations-ID) und die Verknüpfung von Lösungskonten mit Experience Cloud.
 keywords: Adobe Experience Cloud-Dienste
 solution: Experience Cloud
-title: 'Organisationen und Kontoverknüpfung '
+title: Organisationen und Kontoverknüpfung
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '575'
+ht-degree: 78%
 
 ---
 
@@ -64,7 +64,7 @@ In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme un
 
 1. Befolgen Sie die Anweisungen in Ihrer E-Mail-Einladung zur Experience Cloud.
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
-1. Klicken Sie auf die Programmauswahl (![](assets/menu-icon.png)).
+1. Wählen Sie den Anwendungsselektor aus. ( ![Menü](assets/menu-icon.png)).
 
    ![Verknüpfen eines Programmkontos mit einer Adobe ID](assets/solutions-active.png)
 
