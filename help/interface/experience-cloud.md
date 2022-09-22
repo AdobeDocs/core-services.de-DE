@@ -145,7 +145,7 @@ Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen,
 | Adobe Experience Cloud-Domains | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Identity Management Service (IMS) | `adobelogin.com` |
 | Experience Cloud-Schriftarten | `typekit.net` |
-| Datenerfassung der Adobe (für Produktleitungen und -hilfe) | `adobedtm.com` |
+| Datenerfassung in Adobe (für Produktanleitungen und -hilfe) | `adobedtm.com` |
 | Gainsight (für Produktanleitungen und Hilfe) | `esp.aptrinsic.com` |
 
 ## Hilfe zu Administrations- und programmübergreifenden Services
