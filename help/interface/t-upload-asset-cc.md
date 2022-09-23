@@ -1,18 +1,17 @@
 ---
-description: Hochladen eines Assets in einen freigegebenen Ordner vom Creative Cloud-Browser in Experience Cloud.
-keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
+description: Laden Sie ein Asset vom Creative Cloud-Browser in Experience Cloud in einen freigegebenen Ordner hoch.
 solution: Experience Cloud
-title: 'Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser '
+title: Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser
 uuid: 701e28ed-4d1f-4109-882e-64d3b16cd2da
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '89'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 81%
 
 ---
 

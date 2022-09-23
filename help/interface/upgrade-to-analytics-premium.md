@@ -1,17 +1,16 @@
 ---
 description: Erfahren Sie mehr über die Anforderungen und Möglichkeiten bei der Aktualisierung auf Analytics Premium.
-keywords: Adobe Analytics Premium-Upgrade
 solution: Experience Cloud
-title: 'Upgrade auf Analytics Premium und Experience Cloud '
+title: Upgrade auf Analytics Premium und Experience Cloud
 topic: Administration
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '622'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
@@ -56,7 +55,7 @@ Die Aktualisierung auf Predictive Intelligence ermöglicht [Analytics Premium](u
 
 | Produkt | Upgrades |
 |---|---|
-| Reports &amp; Analytics | [Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=de) |
+| Reports &amp; Analytics | [Beitragsanalyse](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Data Workbench | Vorgefertigte Arbeitsbereiche für die Qualifizierung von Zielgruppen und das prädiktive Marketing |
 | Analytics Platform | Live-Stream (Dashboards und Auslöser) |
 

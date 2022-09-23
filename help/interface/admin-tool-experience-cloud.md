@@ -1,24 +1,23 @@
 ---
 description: Lernen Sie das Experience Cloud Admin-Tool kennen. Zeigen Sie eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien an.
-keywords: Hauptdienste
 application: Experience Cloud
-title: 'Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails '
+title: Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
-workflow-type: ht
-source-wordcount: '1270'
-ht-degree: 100%
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 94%
 
 ---
 
 # Anzeigen von Experience Cloud-Benutzern und -Richtlinien im Admin-Tool
 
-Administratoren können im Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Produktprofil) sowie detaillierte Informationen zu Berechtigungen und Ressourcen für die Richtlinie.
+Administratoren können im Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details anzeigen. Zu den Benutzerdetails gehören der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Produktprofil) sowie detaillierte Informationen zu Berechtigungen und Ressourcen für die Richtlinie.
 
 >[!NOTE]
 >
@@ -68,7 +67,7 @@ Wählen Sie auf der Seite [!UICONTROL Benutzer] die E-Mail-Adresse eines Benutze
 
 ![Anzeigen von Benutzerdetails in Admin Console](assets/admin-tool-user-details.png)
 
-Eine detaillierte Ansicht eines einzelnen Benutzers enthält wichtige Einzelheiten zu seinem Zugriff auf Programme, zu seinen Admin- und Produktrollen sowie zu seinen zuletzt aufgerufenen Informationen.
+Eine detaillierte Ansicht der einzelnen Benutzer enthält wichtige Details zum Anwendungszugriff, zu Admin- und Produktrollen sowie zu den zuletzt aufgerufenen Informationen.
 
 ## Abschnitt „Info“
 
@@ -78,7 +77,7 @@ In diesem Abschnitt wird eine Zusammenfassung des Benutzerkontos angezeigt, eins
 * Name
 * E-Mail
 * Benutzername (bei Konten mit Federated ID können Benutzernamen von der E-Mail-Adresse abweichen)
-* [ID-Typ](https://helpx.adobe.com/de/enterprise/using/identity.html)
+* [ID-Typ](https://helpx.adobe.com/enterprise/using/identity.html)
 * Land
 * Letzte Anmeldung
 
@@ -131,7 +130,7 @@ Wählen Sie auf der Seite [!UICONTROL Richtlinien] den Produktprofilnamen aus, u
 
 ![Richtliniendetails in Admin Console anzeigen](assets/admin-tool-policy-detail.png)
 
-Eine detaillierte Ansicht der einzelnen Produktprofile enthält wichtige Details zu den Personen des Produktprofils (Benutzer, Gruppen usw.). Außerdem werden Zugriffsberechtigungen und Ressourcen angezeigt, die vom Produktprofil aktiviert wurden.
+Eine detaillierte Ansicht jedes Produktprofils zeigt wichtige Details zu den Betreffen des Produktprofils (Benutzer, Gruppen usw.) an. Außerdem werden Zugriffsberechtigungen und Ressourcen angezeigt, die vom Produktprofil aktiviert wurden.
 
 Details des Produktprofils können in CSV-Dateien exportiert werden. Bei der Option [!UICONTROL CSV exportieren] werden zwei CSV-Dateien erzeugt:
 

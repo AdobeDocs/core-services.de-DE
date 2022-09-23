@@ -1,17 +1,16 @@
 ---
 description: Hier erfahren Sie mehr über zulässige Dateitypen und Größeneinschränkungen für die Freigabe von Assets zwischen Adobe Experience Cloud und Creative Cloud.
-keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 solution: Experience Cloud
-title: 'Dateianforderungen für die Freigabe von Assets '
+title: Dateianforderungen für die Freigabe von Assets
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 61bc8f52-a77e-4e85-939b-6f29963334a1
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
-workflow-type: ht
-source-wordcount: '128'
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+workflow-type: tm+mt
+source-wordcount: '122'
 ht-degree: 100%
 
 ---
@@ -33,4 +32,4 @@ Die Dateigrößeneinschränkungen kommen vom Browser und können von Browser zu 
 | Internet Explorer 6 | 2 GB | 2 GB - 4 GB bei Chunked-Übertragungen oder Übertragungen über geschlossene Verbindungen. |
 | Internet Explorer 7 | 2 GB | 4 GB |
 | Internet Explorer 8 | 2 GB | 17,592 GB |
-| Internet Explorer 9 bis 11 | 4 GB | 17,592 GB |
+| Internet Explorer 9 bis 11 | 4 GB | 17&#39;592 GB |

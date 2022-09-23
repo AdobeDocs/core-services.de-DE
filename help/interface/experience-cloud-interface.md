@@ -2,11 +2,11 @@
 description: Hier erfahren Sie, wie Sie sich anmelden, und lernen mehr über die zentralen Komponenten der Benutzeroberfläche in Experience Cloud. Erfahren Sie mehr über die globale Suche, Ihre Kontovoreinstellungen und darüber, wie Sie in der Benutzeroberfläche navigieren und Hilfe erhalten.
 solution: Experience Cloud
 title: Zentrale Komponenten der Experience Cloud-Benutzeroberfläche
-feature: "Central Interface Components"
+feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 96%

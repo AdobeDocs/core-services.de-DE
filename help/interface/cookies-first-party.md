@@ -1,8 +1,7 @@
 ---
 description: Hier erfahren Sie, wie Adobe Analytics Cookies verwendet, um Informationen über Variablen und Komponenten bereitzustellen, die zwischen Bildanforderungen und Browser-Sitzungen nicht bestehen bleiben.
-keywords: Cookies;Datenschutz
 solution: Experience Cloud,Analytics
-title: '"Erstanbieter-Cookies "'
+title: "Erstanbieter-Cookies "
 index: y
 snippet: y
 feature: Cookies
@@ -10,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 91%
+source-wordcount: '1602'
+ht-degree: 85%
 
 ---
 
@@ -21,12 +20,12 @@ ht-degree: 91%
 
 Analytics verwendet Cookies, um Informationen zu Variablen und Komponenten zu liefern, die nicht zwischen Bildanfragen und Browsersitzungen bestehen bleiben. Wenn möglich, verwendet Adobe Erstanbieter-Cookies, um Aktivitäten auf Ihrer Website aufzuzeichnen. Um Aktivitäten auf verschiedenen Websites aufzuzeichnen, z. B. auf anderen Domains, deren Inhaber Sie sind, sind Drittanbieter-Cookies erforderlich.
 
-Viele Browser und Anti-Spyware-Anwendungen sind dafür konzipiert, Drittanbieter-Cookies abzulehnen und zu löschen. Adobe stellt sicher, dass Cookies immer gesetzt werden können, auch wenn Drittanbieter-Cookies blockiert werden. Das genaue Verhalten variiert je nachdem, ob Sie Experience Platform Identity Service (ECID-Service) oder Legacy-IDs von Analytics (auch s_vi-Cookie genannt) verwenden:
+Viele Browser und Anti-Spyware-Anwendungen sind dafür konzipiert, Drittanbieter-Cookies abzulehnen und zu löschen. Adobe stellt sicher, dass Cookies immer gesetzt werden können, auch wenn Drittanbieter-Cookies blockiert werden. Das spezifische Verhalten variiert je nachdem, ob Sie den Experience Platform Identity Service (ECID-Dienst) oder die Legacy-IDs von Analytics (auch s_vi-Cookie genannt) verwenden:
 
-* [Experience Platform Identity Service (ECID-Service)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) setzt automatisch Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Wenn sie nicht übereinstimmen, verwendet Identity Service JavaScript, um Cookies in der Domain Ihrer Website festzulegen.
+* [Experience Platform Identity Service (ECID-Service)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) setzt automatisch Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Wenn sie nicht übereinstimmen, verwendet der Identity-Dienst JavaScript, um Cookies in der Domäne Ihrer Site festzulegen.
 * Wenn Sie ältere [Legacy-Identifikatoren von Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=de) (auch `s_vi`-Cookie genannt) verwenden, hängt dies von der Konfiguration Ihres Datenerfassungs-Servers ab. Wenn der Datenerfassungsserver mit der Domain Ihrer Website übereinstimmt, werden Cookies als First-Party gesetzt. Wenn der Erfassungsserver nicht mit Ihrer aktuellen Domain übereinstimmt, werden Cookies als Drittanbieter gesetzt. Wenn Drittanbieter-Cookies blockiert werden, setzt Analytics eine First-Party-[Ausweich-ID („s_fid“)](cookies-analytics.md) anstelle des standardmäßigen Cookies „s_vi“.
 
-Wenn Sie sicherstellen möchten, dass Ihr Erfassungs-Server mit der Domain Ihrer Website übereinstimmt, können Sie eine CNAME-Implementierung verwenden. Damit wird die Weiterleitung von einer in Ihrer CNAME-Implementierung spezifizierten benutzerdefinierten Domain an die Erfassungs-Server von Adobe ermöglicht. Dazu müssen Änderungen an den DNS-Einstellungen Ihres Unternehmens vorgenommen werden, um einen CNAME-Alias zu konfigurieren, der auf eine von Adobe gehostete Domain verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar die Verwendung eines CNAME unterstützen, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen First-Party-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domains kontrollieren, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domainübergreifend zu verfolgen. Wenn die Website Domain jedoch nicht mit den CNAME-Domain-Cookies übereinstimmt, werden sie als Drittanbieter festgelegt.
+Wenn Sie sicherstellen möchten, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, die die Weiterleitung von einer in Ihrer CNAME-Implementierung angegebenen benutzerdefinierten Domäne an die Erfassungsserver der Adobe ermöglicht. Dazu gehören Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von der Adobe gehostete Domain verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar die Verwendung eines CNAME unterstützen, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen First-Party-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domains kontrollieren, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domainübergreifend zu verfolgen. Wenn die Website Domain jedoch nicht mit den CNAME-Domain-Cookies übereinstimmt, werden sie als Drittanbieter festgelegt.
 
 >[!NOTE]
 >
@@ -61,7 +60,7 @@ Folgen Sie unten stehenden Schritten, um ein neues Erstanbieter-SSL-Zertifikat f
 
 1. Wenn dieser CNAME eingerichtet ist, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Betreibungs-Servern von Adobe.
 
-   Wenn Sie bereits ein Zertifikat implementiert haben, sollten Sie eine Besuchermigration erwägen, um Ihre vorhandenen Besucher beizubehalten. Nachdem das Zertifikat live in die Produktionsumgebung von Adobe übermittelt wurde, können Sie Ihre Tracking-Server-Variablen gemäß den neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (HTTP) ist, aktualisieren Sie also `s.trackingServer`. Wenn die Site sicher ist (HTTPS), aktualisieren Sie die beiden Variablen `s.trackingServer` und `s.trackingServerSecure`.
+   Wenn Sie bereits ein Zertifikat implementiert haben, sollten Sie eine Besuchermigration erwägen, um Ihre vorhandenen Besucher beizubehalten. Nachdem das Zertifikat live in die Produktionsumgebung der Adobe übertragen wurde, können Sie Ihre Tracking-Server-Variablen auf die neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (HTTP) ist, aktualisieren Sie also `s.trackingServer`. Wenn die Site sicher ist (HTTPS), aktualisieren Sie die beiden Variablen `s.trackingServer` und `s.trackingServerSecure`.
 
 2. [Validieren Sie die Weiterleitung von Hostnamen](#validate) (siehe unten).
 
