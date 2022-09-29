@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '970'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Durch die Anmeldung bei Experience Cloud (anstelle der Anmeldung bei nur einem 
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) befinden.
 
-1. Wählen Sie das Menü Experience Cloud ( ![Voreinstellungen](assets/menu-icon.png)), wählen Sie **[!UICONTROL Administration]**.
+1. Klicken Sie auf das Experience Cloud-Menü (![Voreinstellungen](assets/menu-icon.png)) und anschließend auf **[!UICONTROL Administration]**.
 
    Wird die Verknüpfung **[!UICONTROL Administration]** nicht angezeigt, sind Sie kein Experience Cloud-Administrator der angezeigten [Organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Sollten Sie mit der Zuweisung von Administratorrechten Schwierigkeiten haben, wenden Sie sich an die Kundenunterstützung oder einen bereits bestehenden Experience Cloud-Administrator in Ihrem Unternehmen.
 1. Wählen Sie **[!UICONTROL Administration]** aus.
@@ -59,7 +59,7 @@ Hilfe für Benutzer, die sich nicht als Administratoren bei der Experience Clou
 
    Ihr Experience Cloud-Administrator kann Ihnen bei der Bestimmung der Kontoart (Adobe ID oder Enterprise ID) behilflich sein.
 
-1. Wählen Sie auf Ihrer Landingpage das Auswahlsymbol aus.  ![Menü](assets/menu-icon.png) , um auf das Pulldown-Menü zuzugreifen.
+1. Klicken Sie auf der Landingpage auf das Auswahlsymbol ![Menü](assets/menu-icon.png), um das Pulldown-Menü aufzurufen.
 
    ![Menü](assets/experience-cloud-core-services.png)
 
@@ -81,7 +81,7 @@ Sie können persönliche Details bearbeiten und eine standardmäßige [Organisat
 
 Sie erhalten eine Benachrichtigung (per E-Mail oder im Produkt) über Systemaktualisierungen, Wartungshinweise, Beiträge, Erwähnungen und freigegebene Assets. Sie können auch die Produkte und Programme angeben, für die Sie Benachrichtigungen erhalten möchten, einschließlich des Upload-Status für Kundenattribute.
 
-Um zu Benachrichtigungen zu navigieren, wählen Sie die **[!UICONTROL Benachrichtigungen]** icon  ![Benachrichtigungen](assets/notifications-icon.png)und wählen Sie dann die **[!UICONTROL Einstellungen]** icon  ![edit](assets/icon_edit_board.png).
+Um zu den Benachrichtigungen zu navigieren, klicken Sie auf das Symbol ![Benachrichtigungen](assets/notifications-icon.png) unter **[!UICONTROL Benachrichtigungen]** und dann auf das Symbol ![Bearbeiten](assets/icon_edit_board.png) in den **[!UICONTROL Einstellungen]**.
 
 Sie können die Anzeige der Benachrichtigungen nach den für Sie wichtigen Benachrichtigungstypen sortieren und nach Benachrichtigungen suchen. Alternativ können Sie auch folgendermaßen vorgehen:
 
