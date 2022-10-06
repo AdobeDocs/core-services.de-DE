@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 85%
+source-wordcount: '1615'
+ht-degree: 79%
 
 ---
 
@@ -47,28 +47,32 @@ Mit dem Adobe Managed Certificate Program können Sie ohne zusätzliche Kosten e
 
 Folgen Sie unten stehenden Schritten, um ein neues Erstanbieter-SSL-Zertifikat für die Erstanbieter-Datenerfassung zu implementieren:
 
-1. Füllen Sie das [Anforderungsformular für Erstanbieter-Domains](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) aus und eröffnen Sie ein Ticket bei der Kundenunterstützung, um die Erstanbieter-Datenerfassung im Adobe-Managed Program einzurichten. Bei jedem Feld finden Sie eine Beschreibung anhand von Beispielen.
+1. Füllen Sie das [Anforderungsformular für Erstanbieter-Domains](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) aus und eröffnen Sie ein Ticket bei der Kundenunterstützung, um die Erstanbieter-Datenerfassung im Adobe-Managed Program einzurichten.
 
-2. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten).
+   Bei jedem Feld finden Sie eine Beschreibung anhand von Beispielen.
+
+1. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten).
 
    Nach Erhalt des Tickets sollte Ihnen ein Mitarbeiter der Kundenunterstützung einen CNAME-Datensatz bereitstellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Der CNAME ähnelt dem folgenden:
 
    **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.adobedc.net`.
 
->[!NOTE]
-> In der Vergangenheit hat Adobe empfohlen, dass Kunden zwei CNAME einrichten: einen für HTTPS und einen für HTTP. Da es sich um eine Best Practice zur Verschlüsselung von Traffic handelt und die meisten Browser HTTP stark davon abhalten, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Wenden Sie sich an die Kundenunterstützung von Adobe, um Ihren CNAME für HTTP zu konfigurieren.
+   >[!NOTE]
+   > In der Vergangenheit hat Adobe empfohlen, dass Kunden zwei CNAMEs einrichten: einen für HTTPS und einen für HTTP. Da es sich um eine Best Practice zur Traffic-Verschlüsselung handelt und die meisten Browser HTTP stark abhalten, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Wenden Sie sich an die Kundenunterstützung von Adobe, um Ihren CNAME für HTTP zu konfigurieren.
 
 1. Wenn dieser CNAME eingerichtet ist, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Betreibungs-Servern von Adobe.
 
    Wenn Sie bereits ein Zertifikat implementiert haben, sollten Sie eine Besuchermigration erwägen, um Ihre vorhandenen Besucher beizubehalten. Nachdem das Zertifikat live in die Produktionsumgebung der Adobe übertragen wurde, können Sie Ihre Tracking-Server-Variablen auf die neuen Hostnamen aktualisieren. Wenn die Site nicht sicher (HTTP) ist, aktualisieren Sie also `s.trackingServer`. Wenn die Site sicher ist (HTTPS), aktualisieren Sie die beiden Variablen `s.trackingServer` und `s.trackingServerSecure`.
 
-2. [Validieren Sie die Weiterleitung von Hostnamen](#validate) (siehe unten).
+1. [Validieren Sie die Weiterleitung von Hostnamen](#validate) (siehe unten).
 
-3. [Aktualisieren Sie den Implementierungscode](#update) (siehe unten).
+1. [Aktualisieren Sie den Implementierungscode](#update) (siehe unten).
 
-### Wartung und Verlängerung
+### Wartung und Erneuerung
 
-SSL-Zertifikate laufen jedes Jahr ab, d. h. Adobe muss jedes Jahr ein neues Zertifikat für jede Implementierung erwerben. Alle unterstützten Benutzer in Ihrem Unternehmen erhalten kurz von jedem Ablauf einer Implementierung eine E-Mail-Benachrichtigung. Damit Adobe Ihren Hostnamen verlängert, muss ein unterstützter Benutzer auf die E-Mail von Adobe antworten und angeben, dass der ablaufende Hostname weiterhin für die Datenerfassung verwendet werden soll. Adobe kauft dann automatisch ein neues Zertifikat und installiert es.
+Dreißig Tage vor Ablauf Ihres Erstanbieter-Zertifikats überprüft Adobe, ob der CNAME noch gültig ist und verwendet wird. Wenn dies der Fall ist, geht Adobe davon aus, dass Sie den Dienst weiterhin verwenden und das Zertifikat in Ihrem Namen automatisch verlängern möchten.
+
+Wenn der CNAME entfernt wurde und nicht mehr gültig ist, verlängert Adobe das Zertifikat derzeit nicht und der Eintrag in unserem System ist zum Entfernen markiert. Wenn der CNAME entfernt wurde, weiß Adobe, dass das Tracking nicht über diese URL stattgefunden hat und daher sicher zu entfernen ist.
 
 ### Häufig gestellte Fragen
 
