@@ -1,6 +1,6 @@
 ---
 title: Benutzer und Produkte verwalten
-description: Melden Sie sich bei der Admin Console an und verwalten Sie Benutzerberechtigungen und Experience Cloud-Produkte (Produktprofile). Erfahren Sie mehr über die Zuweisung von Administratorrechten an Experience Cloud-Benutzer und über die Browser-Unterstützung für Experience Cloud.
+description: Melden Sie sich bei der Admin Console an und verwalten Sie Experience Cloud-Benutzerberechtigungen und -Produkte (Produktprofile). Erfahren Sie mehr über die Zuweisung von Administratorrechten an Experience Cloud-Benutzer und über die Browser-Unterstützung für Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1891'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -218,7 +218,7 @@ Informationen zu Benutzerberechtigungen in der Admin Console und zum Einrichten 
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-Kunden werden in der Adobe [!UICONTROL Admin Console] als Organisationen dargestellt. Experience Manager-Kunden können die Adobe [!UICONTROL Admin Console] verwenden, um ihre Produktberechtigungen und die IMS-Authentifizierung für Experience Manager als [!UICONTROL Cloud Service] zu verwalten.
+Adobe Enterprise-Kunden werden in der Adobe [!UICONTROL Admin Console] als Organisationen dargestellt. Experience Manager-Kunden können die Adobe [!UICONTROL Admin Console] verwenden, um ihre Produktberechtigungen und die IMS-Authentifizierung für Experience Manager as a [!UICONTROL Cloud Service] zu verwalten.
 
 Siehe [IMS-Unterstützung für Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=de).
 
