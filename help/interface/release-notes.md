@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die neuesten Funktionen, Versionshinweise und bekannten Probleme für die Experience Cloud-Dienste wie Kundenattribute, Zielgruppen und Benutzerverwaltung.
+description: Informieren Sie sich über die neueste Funktionen, Versionshinweise und bekannte Probleme rund um Experience Cloud-Services, wie Kundenattribute, Zielgruppen und User Management.
 solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -125,7 +125,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Zu den Benutzerdetails gehören der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](admin-tool-experience-cloud.md). |
+| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](admin-tool-experience-cloud.md). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -149,7 +149,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 * Aktualisierung des Programm-Switchers durch das Aufnehmen von Marketo in die Experience Cloud-Programmsuite und durch Branding-Updates in Experience Platform. (MCUI-6529)
 * Aktualisierung der Experience Cloud-Startseite mit Navigationslinks zur Feed- und Admin-Seite. (MCUI-6682)
-* Es wurde ein Problem im [!UICONTROL Trigger] Definition für die korrekte Verwendung der &quot;like&quot;-Klausel. (MCUI-6611)
+* Es wurde ein Problem in der [!UICONTROL Trigger]-Definition behoben, damit der „like“-Satz korrekt verwendet wird. (MCUI-6611)
 * Verbesserungen an den Kundenattributen zur besseren Anmeldung im Abonnementdienst. (MCUI-6519)
 
 ## Version 19.1.1 – 17. Januar 2019
