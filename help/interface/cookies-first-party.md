@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 78%
+source-wordcount: '1622'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,8 @@ Folgen Sie unten stehenden Schritten, um ein neues Erstanbieter-SSL-Zertifikat f
 
 Dreißig Tage vor Ablauf Ihres Erstanbieter-Zertifikats überprüft Adobe, ob der CNAME noch gültig ist und verwendet wird. Wenn dies der Fall ist, geht Adobe davon aus, dass Sie den Dienst weiterhin verwenden und das Zertifikat in Ihrem Namen automatisch verlängern möchten.
 
-Wenn der CNAME entfernt wurde und nicht mehr gültig ist, verlängert Adobe das Zertifikat derzeit nicht und der Eintrag in unserem System ist zum Entfernen markiert. Wenn der CNAME entfernt wurde, weiß Adobe, dass das Tracking nicht über diese URL stattgefunden hat und daher sicher zu entfernen ist.
+>[!NOTE]
+> Wenn der CNAME entfernt wurde und/oder nicht mehr gültig ist (dem angegebenen Adobe-SSL-Hostnamen nicht zugeordnet ist), kann Adobe das Zertifikat nicht verlängern und der Eintrag in unserem System wird ohne weitere Kommunikation zum Entfernen markiert.
 
 ### Häufig gestellte Fragen
 
