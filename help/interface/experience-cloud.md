@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 013a05d68f3fdf0dc71e048dfa6144be08cdfe6a
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 100%
+source-wordcount: '1337'
+ht-degree: 96%
 
 ---
 
@@ -123,6 +123,8 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 | Funktion | Beschreibung |
 |--- |--- |
 | Standard [organisation](organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
+| [!UICONTROL Produktdatenerfassung] | Wählen Sie die Technologien aus, die die Adobe zur Datenerfassung über die Verwendung Ihrer Adobe-Produkte verwenden kann. |
+| [!UICONTROL Empfehlungen und Promotions für personalisiertes Lernen] | Wählen Sie aus, wo Sie personalisierte Hilfe für Ihre Adobe-Produkte erhalten möchten. Diese Hilfe ist per E-Mail, im Produkt und in den Experience League Communities verfügbar. Weitere Infos. |
 | [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-Over [!UICONTROL Benachrichtigungen] und in Ihren E-Mails. |
 | [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
