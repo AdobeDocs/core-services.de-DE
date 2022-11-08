@@ -2,11 +2,12 @@
 description: Erfahren Sie mehr über Einstellungen zu personalisierten Lerninhalten in Experience Cloud. Auf diese Weise erhalten Kundinnen und Kunden auf der Grundlage ihrer Nutzungsdaten personalisierte Hilfe und Angebote per E-Mail, in ihren Adobe Experience Cloud-Produkten und in den Adobe Experience League Communities.
 solution: Experience Cloud
 title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
-feature: "Customer Attributes"
-source-git-commit: 3e6e922978899898579ef89e3777b445539a1ade
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+feature: Customer Attributes
+exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
+source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
 
@@ -19,39 +20,94 @@ Sie können uns erlauben, Ihnen hilfreiche, auf Ihre Bedürfnisse zugeschnittene
 * Funktionen, die Sie wahrscheinlich verwenden werden
 * Und vieles mehr!
 
-[Meinen Lernstoff anpassen](https://experience.adobe.com/?shell_forceuserconsent=true#/home)
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+
 
 Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experience.adobe.com/preferences/) aktualisieren.
 
-| Personalisierte Schulungs- und Support-Empfehlungen für Ihre Adobe-Produkte und -Services |  |  |
-| Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps und Tricks, hilfreiche Anleitungen und vieles mehr, die auf der Verwendung Ihrer Adobe-Produkte basieren ... |  |  |
-|--- |--- |--- |
-| In Ihren Adobe-Produkten ... | Echtzeit-Hilfe finden Sie in Pop-up-Fenstern und QuickInfos. | Dazu können gehören ... <ul><li>Schritt-für-Schritt-Anleitungen und hilfreiche Tipps von Adobe-Fachleuten</li> <li>Video-Tutorials und anschauliche Erklärungen</li> <li>Vertiefende Trainings und Schulungen</li> <li>Empfehlungen für Videos und Beiträge</li></ul> |
-| In den E-Mails, die Adobe Ihnen schickt ... | Erhalten Sie Lerninhalte, die sich auf Ihre Arbeit mit Ihren Produkten beziehen. | ^ |
-| In den Experience League Communities ... | Erhalten Sie personalisierte Empfehlungen für Beiträge und Artikel, die sich auf Ihre aktuellen Aktivitäten beziehen. | ^ |
 
-{style=&quot;table-layout:auto&quot;}
+## Personalisierte Schulungs- und Support-Empfehlungen für Ihre Adobe-Produkte und -Services
 
-| Personalisierte Informationen zu Produkten, Services, Veranstaltungen und Promotions von Adobe |  |  |
-| Sie erhalten auf folgende drei Weisen maßgeschneiderte Angebote für Lernveranstaltungen, Expertenrunden und Integrationen, die auf Ihrer Arbeit basieren ...   |  |  |
-|--- |--- |--- |
-| In Ihren Adobe-Produkten ... | Informationen zu für Sie relevanten Einladungen und Gelegenheiten finden Sie in Pop-up-Fenstern und QuickInfos. | Dazu können gehören ... <ul><li>Einladungen zu Webinaren und Veranstaltungen zur Weiterbildung</li> <li>Gelegenheiten, künftige Versionen der von Ihnen verwendeten Funktionen zu testen und zu bewerten</li> <li>Tipps zur Verwendung von Integrationen für Ihre Produkte</li> <li>Highlights der wichtigsten Sitzungen auf der Adobe Summit-Konferenz auf der Grundlage Ihrer Arbeit</li></ul> |
-| In den E-Mails, die Adobe Ihnen schickt ... | Erhalten Sie rechtzeitig Informationen von Adobe über zusätzliche Lernmöglichkeiten. | ^ |
-| In den Experience League Communities ... | Erhalten Sie personalisierte Empfehlungen für Veranstaltungen und Services, um Ihr Können zu verbessern. | ^ |
+<table>
+<thead>
+  <tr>
+    <th colspan="3">Personalisierte Schulungs- und Support-Empfehlungen für Ihre Adobe-Produkte und -Services</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="3">Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps und Tricks, hilfreiche Anleitungen und vieles mehr, die auf der Verwendung Ihrer Adobe-Produkte basieren ...</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>In Ihren Adobe-Produkten ...<br></td>
+    <td>Echtzeit-Hilfe finden Sie in Pop-up-Fenstern und QuickInfos.</td>
+    <td rowspan="3">Dazu können gehören ... <ul><li>Schritt-für-Schritt-Anleitungen und hilfreiche Tipps von Adobe-Fachleuten</li> 
+    <li>Video-Tutorials und anschauliche Erklärungen</li> 
+    <li>Vertiefende Trainings und Schulungen</li> 
+    <li>Empfehlungen für Videos und Beiträge</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td>In den E-Mails, die Adobe Ihnen schickt ...</td>
+    <td>Anzeigen von Lerninhalten, die sich auf Ihre Arbeit in Ihren Produkten beziehen</td>
+  </tr>
+  <tr>
+    <td>In den Experience League Communities..</td>
+    <td>Erhalten Sie personalisierte Empfehlungen für Beiträge und Artikel, die sich auf Ihre aktuellen Aktivitäten beziehen.</td>
+  </tr>
+</tbody>
+</table>
 
-{style=&quot;table-layout:auto&quot;}
+
+## Personalisierte Informationen zu Produkten, Services, Veranstaltungen und Promotions von Adobe
+
+<table>
+<thead>
+  <tr>
+    <th colspan="3">Personalisierte Informationen zu Produkten, Services, Veranstaltungen und Promotions von Adobe</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td colspan="3">Sie erhalten maßgeschneiderte Möglichkeiten für Lernveranstaltungen, Forschungssitzungen und Integrationen, die auf Ihrer Arbeit basieren...</td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>In Ihren Adobe-Produkten ...<br></td>
+    <td>Informationen zu für Sie relevanten Einladungen und Gelegenheiten finden Sie in Pop-up-Fenstern und QuickInfos.</td>
+    <td rowspan="3">Dazu können gehören ... <ul>
+    <li>Einladungen zu Webinaren und Veranstaltungen zur Weiterbildung</li> 
+    <li>Gelegenheiten, künftige Versionen der von Ihnen verwendeten Funktionen zu testen und zu bewerten</li>
+    <li>Tipps zur Verwendung von Integrationen für Ihre Produkte</li> 
+    <li>Highlights der wichtigsten Sitzungen auf der Adobe Summit-Konferenz auf der Grundlage Ihrer Arbeit</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <td>In den E-Mails, die Adobe Ihnen schickt ...</td>
+    <td>Erhalten Sie rechtzeitig Informationen von Adobe über zusätzliche Lernmöglichkeiten.</td>
+  </tr>
+  <tr>
+    <td>In den Experience League Communities..</td>
+    <td>Erhalten Sie personalisierte Empfehlungen für Veranstaltungen und Services, um Ihr Können zu verbessern.</td>
+  </tr>
+</tbody>
+</table>
+
 
 ## Sehen Sie sich Beispiele an, wie diese maßgeschneiderten Lerninformationen aussehen könnten.
 
 
 ### In Ihren Adobe-Produkten
 
-![](assets/personalized-learning-in-product.gif)
+![](assets/personalized-learning-in-product.gif){width="800"}
 
 ### In den E-Mails, die Sie von Adobe erhalten
 
-![](assets/personalized-learning-email.png)
+![](assets/personalized-learning-email.png){width="400"}
 
 ### In den Experience League Communities
 
-![](assets/personalized-learning-communities.png)
+![](assets/personalized-learning-communities.png){width="800"}
