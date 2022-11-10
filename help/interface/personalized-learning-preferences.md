@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 91%
+source-wordcount: '410'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ Sie können uns erlauben, Ihnen hilfreiche, auf Ihre Bedürfnisse zugeschnittene
 * Funktionen, die Sie wahrscheinlich verwenden werden
 * Und vieles mehr!
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experience.adobe.com/preferences/) aktualisieren.
@@ -37,8 +37,6 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
 <tbody>
   <tr>
     <td colspan="3">Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps und Tricks, hilfreiche Anleitungen und vieles mehr, die auf der Verwendung Ihrer Adobe-Produkte basieren ...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>In Ihren Adobe-Produkten ...<br></td>
@@ -51,7 +49,7 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
   </tr>
   <tr>
     <td>In den E-Mails, die Adobe Ihnen schickt ...</td>
-    <td>Anzeigen von Lerninhalten, die sich auf Ihre Arbeit in Ihren Produkten beziehen</td>
+    <td>Erhalten Sie Lerninhalte, die sich auf Ihre Arbeit mit Ihren Produkten beziehen.</td>
   </tr>
   <tr>
     <td>In den Experience League Communities..</td>
@@ -72,8 +70,6 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
 <tbody>
   <tr>
     <td colspan="3">Sie erhalten maßgeschneiderte Möglichkeiten für Lernveranstaltungen, Forschungssitzungen und Integrationen, die auf Ihrer Arbeit basieren...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>In Ihren Adobe-Produkten ...<br></td>
@@ -97,6 +93,9 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## Sehen Sie sich Beispiele an, wie diese maßgeschneiderten Lerninformationen aussehen könnten.
 
 
@@ -111,3 +110,5 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
 ### In den Experience League Communities
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
