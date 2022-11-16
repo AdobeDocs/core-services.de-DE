@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
+source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 95%
+source-wordcount: '390'
+ht-degree: 94%
 
 ---
 
@@ -26,18 +26,15 @@ Sie können uns erlauben, Ihnen hilfreiche, auf Ihre Bedürfnisse zugeschnittene
 Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experience.adobe.com/preferences/) aktualisieren.
 
 
+
+
+
 ## Personalisierte Schulungs- und Support-Empfehlungen für Ihre Adobe-Produkte und -Services
 
+Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps und Tricks, hilfreiche Anleitungen und vieles mehr, die auf der Verwendung Ihrer Adobe-Produkte basieren ...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Personalisierte Schulungs- und Support-Empfehlungen für Ihre Adobe-Produkte und -Services</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps und Tricks, hilfreiche Anleitungen und vieles mehr, die auf der Verwendung Ihrer Adobe-Produkte basieren ...</td>
-  </tr>
   <tr>
     <td>In Ihren Adobe-Produkten ...<br></td>
     <td>Echtzeit-Hilfe finden Sie in Pop-up-Fenstern und QuickInfos.</td>
@@ -59,18 +56,13 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
 </table>
 
 
+
 ## Personalisierte Informationen zu Produkten, Services, Veranstaltungen und Promotions von Adobe
 
+Sie erhalten maßgeschneiderte Möglichkeiten für Lernveranstaltungen, Forschungssitzungen und Integrationen, die auf Ihrer Arbeit basieren...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Personalisierte Informationen zu Produkten, Services, Veranstaltungen und Promotions von Adobe</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Sie erhalten maßgeschneiderte Möglichkeiten für Lernveranstaltungen, Forschungssitzungen und Integrationen, die auf Ihrer Arbeit basieren...</td>
-  </tr>
   <tr>
     <td>In Ihren Adobe-Produkten ...<br></td>
     <td>Informationen zu für Sie relevanten Einladungen und Gelegenheiten finden Sie in Pop-up-Fenstern und QuickInfos.</td>
@@ -96,6 +88,9 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
 [![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
+
+
+
 ## Sehen Sie sich Beispiele an, wie diese maßgeschneiderten Lerninformationen aussehen könnten.
 
 
@@ -103,9 +98,13 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
+
+
 ### In den E-Mails, die Sie von Adobe erhalten
 
 ![](assets/personalized-learning-email.png){width="400"}
+
+
 
 ### In den Experience League Communities
 
