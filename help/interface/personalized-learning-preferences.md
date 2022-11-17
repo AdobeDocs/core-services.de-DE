@@ -5,9 +5,9 @@ title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
-workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -31,25 +31,25 @@ Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experi
 
 ## Personalisierte Schulungs- und Support-Empfehlungen für Ihre Adobe-Produkte und -Services
 
-Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps und Tricks, hilfreiche Anleitungen und vieles mehr, die auf der Verwendung Ihrer Adobe-Produkte basieren ...
+Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps und Tricks, hilfreiche Anleitungen &amp; vieles mehr, die auf der Verwendung Ihrer Adobe-Produkte basieren...
 
 <table>
 <tbody>
   <tr>
-    <td>In Ihren Adobe-Produkten ...<br></td>
+    <td>In Ihren Adobe-Produkten...<br></td>
     <td>Echtzeit-Hilfe finden Sie in Pop-up-Fenstern und QuickInfos.</td>
-    <td rowspan="3">Dazu können gehören ... <ul><li>Schritt-für-Schritt-Anleitungen und hilfreiche Tipps von Adobe-Fachleuten</li> 
+    <td rowspan="3">Dazu können gehören... <ul><li>Schritt-für-Schritt-Anleitungen und hilfreiche Tipps von Adobe-Fachleuten</li> 
     <li>Video-Tutorials und anschauliche Erklärungen</li> 
     <li>Vertiefende Trainings und Schulungen</li> 
     <li>Empfehlungen für Videos und Beiträge</li>
     </ul></td>
   </tr>
   <tr>
-    <td>In den E-Mails, die Adobe Ihnen schickt ...</td>
+    <td>In den E-Mails, die Adobe Ihnen schickt...</td>
     <td>Erhalten Sie Lerninhalte, die sich auf Ihre Arbeit mit Ihren Produkten beziehen.</td>
   </tr>
   <tr>
-    <td>In den Experience League Communities..</td>
+    <td>In den Experience League-Communities.</td>
     <td>Erhalten Sie personalisierte Empfehlungen für Beiträge und Artikel, die sich auf Ihre aktuellen Aktivitäten beziehen.</td>
   </tr>
 </tbody>
@@ -57,16 +57,16 @@ Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps un
 
 
 
-## Personalisierte Informationen zu Produkten, Services, Veranstaltungen und Promotions von Adobe
+## Personalisierte Informationen zu Produkten, Services, Veranstaltungen und Werbeaktionen von Adobe
 
-Sie erhalten maßgeschneiderte Möglichkeiten für Lernveranstaltungen, Forschungssitzungen und Integrationen, die auf Ihrer Arbeit basieren...
+Sie erhalten auf folgende drei Weisen maßgeschneiderte Angebote für Lernveranstaltungen, Expertenrunden und Integrationen, die auf Ihrer Arbeit basieren...
 
 <table>
 <tbody>
   <tr>
-    <td>In Ihren Adobe-Produkten ...<br></td>
+    <td>In Ihren Adobe-Produkten...<br></td>
     <td>Informationen zu für Sie relevanten Einladungen und Gelegenheiten finden Sie in Pop-up-Fenstern und QuickInfos.</td>
-    <td rowspan="3">Dazu können gehören ... <ul>
+    <td rowspan="3">Dazu können gehören... <ul>
     <li>Einladungen zu Webinaren und Veranstaltungen zur Weiterbildung</li> 
     <li>Gelegenheiten, künftige Versionen der von Ihnen verwendeten Funktionen zu testen und zu bewerten</li>
     <li>Tipps zur Verwendung von Integrationen für Ihre Produkte</li> 
@@ -74,11 +74,11 @@ Sie erhalten maßgeschneiderte Möglichkeiten für Lernveranstaltungen, Forschun
     </ul></td>
   </tr>
   <tr>
-    <td>In den E-Mails, die Adobe Ihnen schickt ...</td>
+    <td>In den E-Mails, die Adobe Ihnen schickt...</td>
     <td>Erhalten Sie rechtzeitig Informationen von Adobe über zusätzliche Lernmöglichkeiten.</td>
   </tr>
   <tr>
-    <td>In den Experience League Communities..</td>
+    <td>In den Experience League-Communities.</td>
     <td>Erhalten Sie personalisierte Empfehlungen für Veranstaltungen und Services, um Ihr Können zu verbessern.</td>
   </tr>
 </tbody>
