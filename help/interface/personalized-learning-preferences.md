@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
+source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können uns erlauben, Ihnen hilfreiche, auf Ihre Bedürfnisse zugeschnittene
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-Sie können Ihre Auswahl jederzeit in den [Benutzereinstellungen](https://experience.adobe.com/preferences/) aktualisieren.
+Sie können Ihre Auswahl jederzeit im Abschnitt Nutzung und Sammlung von Produktdaten in Ihrer [Benutzereinstellungen](https://experience.adobe.com/preferences/).
 
 
 
@@ -38,7 +38,7 @@ Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps un
   <tr>
     <td>In Ihren Adobe-Produkten...<br></td>
     <td>Echtzeit-Hilfe finden Sie in Pop-up-Fenstern und QuickInfos.</td>
-    <td rowspan="3">Dazu können gehören... <ul><li>Schritt-für-Schritt-Anleitungen und hilfreiche Tipps von Adobe-Fachleuten</li> 
+    <td rowspan="3">Dazu können gehören... <ul><li>Schrittweise Anleitungen und hilfreiche Tipps von Adobe-Experten</li> 
     <li>Video-Tutorials und anschauliche Erklärungen</li> 
     <li>Vertiefende Trainings und Schulungen</li> 
     <li>Empfehlungen für Videos und Beiträge</li>
