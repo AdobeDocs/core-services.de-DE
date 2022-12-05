@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 79%
@@ -55,7 +55,7 @@ Folgen Sie unten stehenden Schritten, um ein neues Erstanbieter-SSL-Zertifikat f
 
    Nach Erhalt des Tickets sollte Ihnen ein Mitarbeiter der Kundenunterstützung einen CNAME-Datensatz bereitstellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Der CNAME ähnelt dem folgenden:
 
-   **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `example.com.adobedc.net`.
+   **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
    > In der Vergangenheit empfahl Adobe, zwei CNAMEs einzurichten: einen für HTTPS und einen für HTTP. Da es sich um eine Best Practice zur Traffic-Verschlüsselung handelt und die meisten Browser HTTP stark abhalten, empfehlen wir nicht mehr, einen CNAME für HTTP einzurichten. Es gilt nun als Best Practice, beide `trackingServer` und `trackingServerSecure` mit demselben CNAME. Beispielsweise können beide `trackingServer` und `trackingServerSecure` auf `smetrics.example.com`. HTTP ist nur für Hostnamen von Drittanbietern zulässig.
@@ -94,12 +94,12 @@ Das Netzwerkteam Ihres Unternehmens sollte Ihre DNS-Server konfigurieren, indem 
 Der FPC-Spezialist stellt Ihnen den konfigurierten Host-Namen bereit und gibt an, auf welchen CNAME er verweisen soll. Beispiel:
 
 * **SSL-Hostname**: `smetrics.mysite.com`
-* **SSL-CNAME**: `mysite.com.adobedc.net`
+* **SSL-CNAME**: `[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Wenn Sie immer noch das nicht sichere HTTP verwenden, sieht dies so aus:
 > * **Nicht-SSL-Hostname**: `metrics.mysite.com`
-> * **Nicht-SSL-CNAME**: `mysite.com.adobedc.net`
+> * **Nicht-SSL-CNAME**: `[random-10-character-string].data.adobedc.net`
 
 
 Solange der Implementierungscode nicht verändert wird, beeinflusst dieser Schritt nicht die Datensammlung und kann zu einem beliebigen Zeitpunkt nach der Aktualisierung des Implementierungscodes vorgenommen werden.
