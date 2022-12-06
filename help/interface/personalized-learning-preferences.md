@@ -5,9 +5,9 @@ title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '397'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können uns erlauben, Ihnen hilfreiche, auf Ihre Bedürfnisse zugeschnittene
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-Sie können Ihre Auswahl jederzeit im Abschnitt Nutzung und Sammlung von Produktdaten in Ihrer [Benutzereinstellungen](https://experience.adobe.com/preferences/).
+Sie können Ihre Auswahl jederzeit im Abschnitt „Nutzung und Sammlung von Produktdaten“ in Ihren [Benutzereinstellungen](https://experience.adobe.com/preferences/) aktualisieren.
 
 
 
@@ -49,7 +49,7 @@ Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps un
     <td>Erhalten Sie Lerninhalte, die sich auf Ihre Arbeit mit Ihren Produkten beziehen.</td>
   </tr>
   <tr>
-    <td>In den Experience League-Communities.</td>
+    <td>In den Experience League-Communities..</td>
     <td>Erhalten Sie personalisierte Empfehlungen für Beiträge und Artikel, die sich auf Ihre aktuellen Aktivitäten beziehen.</td>
   </tr>
 </tbody>
@@ -78,7 +78,7 @@ Sie erhalten auf folgende drei Weisen maßgeschneiderte Angebote für Lernverans
     <td>Erhalten Sie rechtzeitig Informationen von Adobe über zusätzliche Lernmöglichkeiten.</td>
   </tr>
   <tr>
-    <td>In den Experience League-Communities.</td>
+    <td>In den Experience League-Communities..</td>
     <td>Erhalten Sie personalisierte Empfehlungen für Veranstaltungen und Services, um Ihr Können zu verbessern.</td>
   </tr>
 </tbody>
