@@ -60,7 +60,7 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Programmen 
 | Hilfe mit | Ressource |
 |--- |--- |
 | Es können keine Ressourcen gefunden werden? | Stellen Sie sicher, dass Sie bereitgestellt wurden. Siehe [Erste Schritte – Aktivieren Ihrer Programme für zentrale Services](core-services.md).<br>Klicken Sie [hier](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES), um Zugriff auf Profile und Zielgruppen anzufordern (Integrations-Bereitstellungsformular). |
-| Anwendungsfälle | Weitere Anleitungen dazu, welches Programm Sie verwenden sollten, finden Sie in der Wissensdatenbank unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en). |
+| Anwendungsfälle | Weitere Anleitungen dazu, welches Programm Sie verwenden sollten, finden Sie in der Wissensdatenbank unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=de). |
 | Forum | Das [Zielgruppenforum](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) ist eine zusätzliche Ressource, die Hilfe bei Zielgruppen bietet. |
 
 {style=&quot;table-layout:auto&quot;}
