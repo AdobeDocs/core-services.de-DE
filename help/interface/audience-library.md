@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '824'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Programmen 
 | Campaign | <ul><li>Importieren freigegebener Zielgruppen von verschiedenen Adobe Experience Cloud-Programmen in Adobe Campaign.</li><li>Exportieren Sie Empfängerlisten in Form von freigegebenen Zielgruppen. Diese freigegebenen Zielgruppen können dann in den anderen von Ihnen verwendeten Adobe Experience Cloud-Programmen genutzt werden.</li></ul> |
 | Advertising Cloud | Verwenden Sie die Zielgruppe als Ziele. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Programmen 
 | Anwendungsfälle | Weitere Anleitungen dazu, welches Programm Sie verwenden sollten, finden Sie in der Wissensdatenbank unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=de). |
 | Forum | Das [Zielgruppenforum](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) ist eine zusätzliche Ressource, die Hilfe bei Zielgruppen bietet. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Schnittstellenelemente der Zielgruppenbibliothek {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -82,4 +82,4 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Programmen 
 | Aktuelle Größe | Die aktuelle Zielgruppengröße. |
 | Aktiv | Der aktive Status des Segments. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
