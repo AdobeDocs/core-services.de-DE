@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Nur CNAME-Kunden. Gilt nicht für Drittanbieter-Szenarien. Cookie wird in Ihrer Domain gespeichert; dieselbe Domain wie die von CNAME und Ihrer Analytics-Bildanforderung verwendete. |
 | Größe | 45 Byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-Name: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Dieses Cookie wird in der Domain der Seite gespeichert. |
 | Größe | 4 Byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-Name: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Dieses Cookie wird in der Domain der Seite gespeichert. |
 | Größe | Variiert je nach URL-Größe der Seite, normalerweise 100-200 Byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-Name: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Dieses Cookie wird in der Domain der Bildanforderung gespeichert. Dabei handelt es sich normalerweise um eine kundenspezifische Subdomäne unter 2o7.net oder omtrdc.net, wenn Sie Drittanbieter-Cookies verwenden oder wenn Ihre Domain Erstanbieter-Cookies verwendet. |
 | Größe | 44 Byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domain gespeichert. |
 | Größe | 33 Byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-Flags
 
@@ -108,7 +108,7 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 | s_cc (Javascript) | Nein | Nein | Löschen |
 | s_sq (Javascript) | Nein | Nein | Löschen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -116,6 +116,8 @@ In der folgenden Tabelle werden die Flags für Analytics-Cookies beschrieben:
 
 ## Von Plug-ins eingestellte Cookies {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins gesetzt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung in verschiedensten Situationen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Weitere Informationen zu Cookies, die von jedem Plug-in gesetzt werden, erhalten Sie von der Kundenunterstützung. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
+{{plug-in}}
+
+Zusätzliche Cookies können je nach Verwendung von Analytics-Plug-Ins gesetzt werden. Diese Cookies sind Codefragmente, die dem Client zur Verwendung in verschiedensten Situationen zur Verfügung stehen. Dazu gehören: Abrufen von Werten aus der URL; Verketten von Werten, die an Analytics übergeben werden sollen; Erfassen des Formularabbruchs usw. Beispiel: das Cookie [!DNL s_vh] wird mit den Plug-ins *Set Once Per* und *Set and Get Last Value* verwendet.
 
 Konversionsvariablen (eVarX), die auf eine Bildanforderung ohne JavaScript hin weitergegeben werden, wie z. B. Code in einer E-Mail, werden nur dann richtig zugewiesen, wenn der E-Mail-Client und der Webbrowser denselben Cookie-Bereich nutzen.
