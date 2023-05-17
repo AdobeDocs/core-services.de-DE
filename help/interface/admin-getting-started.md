@@ -138,7 +138,7 @@ Weitere Informationen (und Hilfe zur Produktverwaltung für Creative Cloud und D
 
 ## Delegieren von administrativen Rollen an Benutzer {#delegate-rights}
 
-In der Admin Console können Sie eingeschränkte Administratorrechte an andere Personen in Ihrem Unternehmen delegieren. Delegierte Rollen ermöglichen es Benutzern, den Softwarezugriff für Endbenutzer zu verwalten, Zugriffsimplementierungsfunktionen bereitzustellen und als Stellvertreter des Supports zu fungieren.
+In der Admin Console können Sie eingeschränkte Administratorrechte an andere Personen in Ihrem Unternehmen delegieren. Delegierte Rollen ermöglichen es Benutzern, den Softwarezugriff für Endbenutzer zu verwalten, Zugriffsbereitstellungsfunktionen bereitzustellen und als Stellvertreter des Supports zu fungieren.
 
 Sie können zum Beispiel:
 
