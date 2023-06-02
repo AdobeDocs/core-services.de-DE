@@ -5,10 +5,10 @@ breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
       + [Erstellen einer Zielgruppe](t-audience-create.md)
       + [Veröffentlichen eines Analytics-Zielgruppensegments](t-publish-audience-segment.md)
    + Experience Cloud-Kundenattribute {#customer-attributes}
-      + [Kundenattribute Übersicht](attributes.md)
+      + [Kundenattribute in Experience Cloud](attributes.md)
       + [Häufig gestellte Fragen zu Kundenattributen](faq-crs.md)
       + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](crs-data-file.md)
       + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](t-crs-usecase.md)

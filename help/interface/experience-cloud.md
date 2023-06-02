@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 100%
+source-wordcount: '1347'
+ht-degree: 97%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 
 * Greifen Sie auf Ihre Programme und Services zu
-* Suchen Sie nach Produktdokumentation, Tutorials und Community-Posts
-* Suchen Sie global nach Unternehmensobjekten mithilfe einer globalen Suche (nur Experience Platform-Benutzer)
+* Suchen Sie im Hilfemenü nach Produktdokumentation, Tutorials und Community-Posts. Ergebnisse in Experience League anzeigen.
+* Globale Suche nach Geschäftsobjekten mithilfe einer globalen Suche (nur Experience Platform-Benutzer) im Suchfeld.
 * Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
 
 ## Melden Sie sich bei Experience Cloud an {#signin}
@@ -130,7 +130,7 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
 | E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Benachrichtigungen und Ankündigungen {#notifications}
 
@@ -192,7 +192,7 @@ Nutzen Sie die Vorteile von Selbsthilfe-Tutorials und Schnellanleitungen in Expe
 
 * [Versionshinweise für alle Experience Cloud-Programme](https://experienceleague.adobe.com/docs/home.html?lang=de) – Suchen Sie nach Hilfe unter „Experience Cloud Learn &amp; Support“
 * [Versionshinweise und Produktupdates](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de) – Neue Funktionen in der Experience Cloud und Abonnieren von Updates
-* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) – Videos und Übungen zu den zentralen Diensten
+* [Übungen zur Implementierung der zentralen Dienste](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=de) – Videos und Übungen zu den zentralen Diensten
 * [Expertenhilfe bei Experience League](https://experienceleague.adobe.com/?lang=de) – Lernen Sie von Experten und der Community
 * [Ausbildung und Schulung](https://helpx.adobe.com/de/learning.html?promoid=KAUDK) – Wenden Sie sich an Adobe, um sicherzustellen, dass Sie die Produkte von Adobe optimal nutzen
 * [Customer Experience-Blog](https://blog.adobe.com/de/topics/digital-transformation) – Lesen Sie den Experience Cloud-Blog
