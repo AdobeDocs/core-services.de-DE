@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1347'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 97%
 In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 
 * Greifen Sie auf Ihre Programme und Services zu
-* Suchen Sie im Hilfemenü nach Produktdokumentation, Tutorials und Community-Posts. Ergebnisse in Experience League anzeigen.
-* Globale Suche nach Geschäftsobjekten mithilfe einer globalen Suche (nur Experience Platform-Benutzer) im Suchfeld.
+* Suchen Sie über das Menü „Hilfe“ nach Produktdokumentationen, Tutorials und Community-Beiträgen. Lassen Sie sich Ergebnisse in Experience League anzeigen.
+* Suchen Sie global nach Geschäftsobjekten, indem Sie eine globale Suche (nur für Nutzerinnen und Nutzer der Experience Platform) im Feld „Suche“ verwenden.
 * Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
 
 ## Melden Sie sich bei Experience Cloud an {#signin}
