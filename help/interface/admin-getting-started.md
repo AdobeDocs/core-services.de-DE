@@ -1,5 +1,5 @@
 ---
-title: Benutzer und Produkte verwalten
+title: Benutzende und Produkte verwalten
 description: Melden Sie sich bei der Admin Console an und verwalten Sie Experience Cloud-Benutzerberechtigungen und -Produkte (Produktprofile). Erfahren Sie mehr über die Zuweisung von Administratorrechten an Experience Cloud-Benutzer und über die Browser-Unterstützung für Experience Cloud.
 solution: Admin
 index: true
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von 
 
 Sie können im Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Siehe [Anzeigen von Experience Cloud-Benutzern im Admin-Tool](admin-tool-experience-cloud.md).
 
-## Aktualisierungshinweis zur Bereitstellung {#provisioning}
+## Aktualisierungshinweis zur Bereitstellung{#provisioning}
 
 Aktualisiert am **20. Juli 2022**
 
@@ -52,9 +52,9 @@ Admins können Änderungen oder Ergänzungen der Admin Console wie folgt anzeige
    * Datenströme
    * Besucher-ID
 
-   Organisationen, die Experience Platform derzeit nicht verwenden, sehen jetzt _Adobe Experience Platform_ in der Admin Console, einschließlich der oben aufgeführten Funktionen.
+  Organisationen, die Experience Platform derzeit nicht verwenden, sehen jetzt _Adobe Experience Platform_ in der Admin Console, einschließlich der oben aufgeführten Funktionen.
 
-   Für Organisationen, die derzeit Experience Platform verwenden, werden _Places_ jetzt in die Experience Platform-Karte integriert.
+  Für Organisationen, die derzeit Experience Platform verwenden, werden _Places_ jetzt in die Experience Platform-Karte integriert.
 
 * Adobe Experience Platform-Datenerfassung (früher Launch) und Datenschutz werden weiterhin als separate Produktkarten neben den anderen Experience Platform-Funktionen angezeigt.
 
@@ -92,7 +92,7 @@ Admin Console
 * Benutzer mit individueller Adobe ID werden auf Business ID aktualisiert.
 * Das Business ID-Verzeichnis wird unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Identität]** > **[!UICONTROL Verzeichnisse]** hinzugefügt.
 
-   ![Admin Console-Identität – Business ID](assets/identity-home.png)
+  ![Admin Console-Identität – Business ID](assets/identity-home.png)
 
 ### Anmeldung nach der Migration
 
@@ -188,7 +188,7 @@ Nach der Migration müssen sich Benutzer mithilfe ihrer Adobe ID (oder Enterpris
 **Verwandte Hilfe.**
 
 * [Analytics in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de)
-* [Migration der Analytics-Benutzer-ID](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
+* [Migration der Analytics-Benutzer-ID](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=de)
 
 ## Verwalten von Adobe Target – Produktprofile und Arbeitsbereiche im Vergleich {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -236,9 +236,9 @@ Siehe [Administration](https://experienceleague.adobe.com/docs/audience-manager/
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Hinweis:** Obwohl die Experience Cloud-Oberfläche diese Browser unterstützt, unterstützen einzelne Anwendungen nicht alle Browser. ([Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) unterstützt beispielsweise nicht [!DNL Opera] und [!DNL Adobe Target] unterstützt nicht [!DNL Safari].)
+**Hinweis:** Obwohl die Experience Cloud-Oberfläche diese Browser unterstützt, unterstützen einzelne Anwendungen nicht alle Browser. ([Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=de) unterstützt beispielsweise nicht [!DNL Opera] und [!DNL Adobe Target] unterstützt nicht [!DNL Safari].)
 
 ### Anforderungen an Lösungen und Produkte
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en)
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=de)
 * [Report Builder ](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=de)
