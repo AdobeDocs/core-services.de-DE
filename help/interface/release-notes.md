@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
-workflow-type: ht
-source-wordcount: '4768'
-ht-degree: 100%
+source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
+workflow-type: tm+mt
+source-wordcount: '5006'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,28 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
+
+## Juli - August 2023
+
+Version: **20. Juli - 31. August 2023**
+
+Adobe aktualisiert seine Bereitstellung, um alle [!DNL Experience Cloud] -Kunden Zugang zu grundlegenden Funktionen, die die Interoperabilität zwischen einigen [!DNL Experience Cloud] Produkte. Benutzer haben [!DNL Experience Platform] als neue Berechtigung zu ihrer [!DNL Experience Cloud] Organisationen, mit [Datenerfassung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de) als integrierten Dienst. [!DNL Experience Platform] [!UICONTROL Datenerfassung] enthält Tags für das vereinfachte universelle Tag-Management und bietet eine vertrauenswürdige, zuverlässige und vollständige Streaming-Dateninfrastruktur. Diese Aktualisierung vereinfacht die Erfassung von Erlebnisdaten und optimiert die Bereitstellung von Erlebnissen.
+
+Mit dieser Aktualisierung können Administratoren Änderungen oder Ergänzungen der Admin Console sehen:
+
+* Die Adobe [!DNL Experience Platform] Produktkarte in der Admin Console umfasst: [Orte](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de), [Sicherheit](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=de), [Identitäts-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de), [Experience-Datenmodell](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de), [Datenspeicher](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de)und [Experience Cloud-ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de).
+
+   * Für Organisationen, die derzeit nicht [!DNL Experience Platform], sehen Sie nun die [!DNL Experience Platform] in [!UICONTROL Admin Console], einschließlich der oben aufgeführten Funktionen.
+
+   * Für Unternehmen, die derzeit [!DNL Experience Platform], [!UICONTROL Orte] wird in der [!DNL Experience Platform] Karte.
+
+* Adobe [!DNL Experience Platform] [Datenerfassung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de) (früher [!DNL Launch]) und [Datenschutz](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) wird weiterhin als eigene Produktkarte angezeigt, getrennt von der anderen [!DNL Experience Platform] Funktionen
+
+## Mai 2023
+
+Version: **25. Mai 2023**
+
+* Im **[!UICONTROL Hilfe]**-Menü von [!DNL Experience Cloud] wurde die Inhaltssuche aktualisiert, um in den [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Suchergebnissen nach Anwendung zu filtern.
 
 ## Juli 2022
 
@@ -35,7 +57,7 @@ Geplante Veröffentlichung: **11. Juli 2022**
 | ------- | ------- |
 | Einheitliche Startseite – Widget für Schnellzugriff | **Schnellere Navigation:** Sie können jetzt Ihre Startseite weiter personalisieren und entscheiden, welche Anwendungen immer griffbereit sein sollen. Verwenden Sie die neue Anheft-Funktion, um festzulegen, welche Anwendungen beim [!UICONTROL Schnellzugriff] im Vordergrund angezeigt werden sollen. <br>**Bleiben Sie mit der intelligenten Anheft-Funktion auf dem Laufenden:** Ihre neuen Anwendungen sind jetzt einfacher zu finden. Neu zugewiesene Anwendungen erhalten die Kennzeichnung _Neu_ und werden automatisch im [!UICONTROL Schnellzugriff] angeheftet. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## April - 2022
 
@@ -43,7 +65,7 @@ Geplante Veröffentlichung: **11. Juli 2022**
 | ------- |-------|
 | Suche in natürlicher Sprache | Erhalten Sie sofort Antworten auf all Ihre Fragen zu Hilfe – durch die einheitliche Suche über eine einzige Oberfläche. Diese Funktion steht Ihnen auf jeder Seite von [!DNL Experience Platform] und [!DNL Journey Optimizer] immer zur Verfügung. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## März 2022
 
@@ -66,7 +88,7 @@ Geplante Veröffentlichung: **11. Juli 2022**
 | AEP-Dashboards | [!DNL Helios Lite] empfiehlt während des Erstellungsprozesses von Experience Platform-Widgets Diagramme. [!DNL Helios] empfiehlt auf der Grundlage der ausgewählten Daten eine geeignete Visualisierung. |
 | AEP-Dashboards | [!DNL Instory] bietet auf ML basierende Erklärungen und Beschriftungen für Diagramme. Auf der AEP-Dashboards-Seite werden Diagramme mit relevanten Aufzählungspunkten versehen, die wichtige Veränderungen und Ereignisse in den Diagrammdaten kennzeichnen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Oktober 2021
 
@@ -77,7 +99,7 @@ Geplante Veröffentlichung: **11. Juli 2022**
 | Navigation in Experience Cloud [!UICONTROL Triggers] | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=de) sind für die direkte Navigation über den Programmumschalter in der Kopfzeile für provisionierte Anwender verfügbar. |
 | **Hinweis:** Geplante Aktualisierung der Oberflächennavigation | Im November 2021 wird die Navigationsfunktion _[!UICONTROL Go to Launch/Data Collection]_ aus <https://experience.adobe.com/implement> entfernt. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## August 2021
 
@@ -96,7 +118,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 | Single-Sign-On-Unterstützung für Adobe Federated IDs | 17. Juni 2021 | Wenn Sie Federated IDs verwenden, können Sie sich bei Experience Cloud anmelden, ohne eine E-Mail-Adresse oder ein Passwort eingeben zu müssen. Um diese Funktion zu verwenden, fügen Sie `#/sso:@domain` zur Experience Cloud-URL hinzu. <br>Nehmen wir beispielsweise an, Sie sind der Eigentümer der Domain `adobecustomer.com` und möchten sich bei Adobe Analytics anmelden. Die URL lautet: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
 | Experience League Search | 1. Juni 2021 | Die Suche in der Dokumentation zu Experience Leaguen wurde verbessert. Navigieren Sie zu [Experience League](https://experienceleague.adobe.com/docs/?lang=de) und verwenden Sie das Feld **[!UICONTROL Suchen]**, um Tutorials, Dokumentationen, Kurse und mehr zu finden. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mai 2021
 
@@ -106,7 +128,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 | Experience Cloud Global Search | 20. Mai 2021 | Mit dieser Version können Sie mit der globalen Experience Cloud-Suche nach allen [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Dokumentationen, -Kursen und -Tutorials suchen. (Derzeit steht die globale Suche nur Benutzern von Experience Platform zur Verfügung. Die globale Suchfunktion für die [!UICONTROL Platform] ermöglicht es Ihnen, in Experience Cloud nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
 | Experience Cloud-Spracheinstellungen | 20. Mai 2021 | Dieses Update bietet die Möglichkeit, Ihre bevorzugten Sprachen in den Experience Cloud-[Voreinstellungen](https://experience.adobe.com/preferences) festzulegen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## August 2020
 
@@ -114,7 +136,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 | -----------| ---------- |
 | Admin-Tool – Richtlinien | Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtlinien in Ihrem Unternehmen. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](admin-tool-experience-cloud.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## April 2020
 
@@ -127,7 +149,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 | -----------| ---------- |
 | Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Weitere Informationen finden Sie in der Hilfe zum [Experience Cloud-Admin-Tool](admin-tool-experience-cloud.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Fehlerbehebungen**
 
@@ -308,7 +330,7 @@ Keine Informationen verfügbar.
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise und Federated ID-Unterstützung </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Die Funktionen zur Benutzer- und Gruppenverwaltung wurden in die Admin Console verschoben. Der neue Navigationspfad lautet: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Admin Console starten</span></p> <p> Außerdem wurde die Unterstützung für Enterprise IDs und Federated IDs hinzugefügt. Sie können Enterprise IDs, Federated IDs und Adobe-IDs in derselben Unternehmensimplementierung verwenden. Verwenden Sie beispielsweise Adobe-IDs für Benutzer, die andere Adobe-Produkte und -Dienste verwenden dürfen. Verwenden Sie Enterprise IDs oder Federated IDs für Benutzer, deren Konten Sie streng verwalten möchten. </p> </td> 
+   <td colname="col2"> <p>Die Funktionen zur Benutzer- und Gruppenverwaltung wurden in die Admin Console verschoben. Der neue Navigationspfad lautet: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Admin Console starten</span></p> <p> Außerdem wurde die Unterstützung für Enterprise IDs und Federated IDs hinzugefügt. Sie können Enterprise IDs, Federated IDs und Adobe-IDs in derselben Unternehmensbereitstellung verwenden. Verwenden Sie beispielsweise Adobe-IDs für Benutzer, die andere Adobe-Produkte und -Dienste verwenden dürfen. Verwenden Sie Enterprise IDs oder Federated IDs für Benutzer, deren Konten Sie streng verwalten möchten. </p> </td> 
   </tr> 
  </tbody> 
 </table>
