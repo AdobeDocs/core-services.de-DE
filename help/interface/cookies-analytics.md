@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
+source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 
 | Attribut | Beschreibung |
 |--- |--- |
-| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die SelectMap-Funktion oder die Activity Map-Funktion aktiviert ist. Es enthält Informationen zum vorherigen Link, auf den der Benutzer geklickt hat |
+| Gespeicherte Informationen | Dieses Cookie wird vom JavaScript-Code gesetzt und gelesen, wenn die ClickMap-Funktion oder die Activity Map-Funktion aktiviert ist. Es enthält Informationen zum vorherigen Link, der vom Benutzer ausgewählt wurde. |
 | Ablauf | Dieses Cookie ist ein Sitzungs-Cookie und läuft ab, wenn der Browser geschlossen wird |
 | Nutzung | Nur ein Cookie für alle Konten |
 | Position | Dieses Cookie wird in der Domain der Seite gespeichert. |
