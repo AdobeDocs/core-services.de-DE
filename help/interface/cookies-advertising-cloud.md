@@ -1,26 +1,26 @@
 ---
-description: Hier erfahren Sie mehr über Adobe Ad Cloud-Cookies für das Zuordnen von Werbeinteraktions-Ereignissen zu Konversionsereignissen und möglicherweise zum Verwenden dieser Informationen zur Optimierung von Anzeigenangeboten.
-title: 'Cookies in Advertising Cloud '
+description: Erfahren Sie mehr über Adobe Advertising-Cookies für die Zuordnung von Anzeigeninteraktionsereignissen zu Konversionsereignissen und möglicherweise zur Verwendung dieser Informationen zur Optimierung von Anzeigenangeboten.
+title: Adobe Advertising-Cookies
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 5d0e02713ec4b233e06ecd3ac0234d1526b947f1
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 75%
 
 ---
 
-# Cookies in Advertising Cloud{#advertising-cloud-cookies}
+# Adobe Advertising-Cookies{#advertising-cloud-cookies}
 
-Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Konversionsereignissen zuzuordnen und diese Informationen ggf. zur Optimierung der Anzeigengebote zu verwenden.
+Adobe Advertising (ehemals Adobe Advertising Cloud) verwendet Cookies, um Interaktionsereignisse von Anzeigen Konversionsereignissen zuzuordnen und diese Informationen möglicherweise zur Optimierung von Anzeigenangeboten zu verwenden.
 
 >[!NOTE]
 >
->Das JavaScript-Tag der Beta-Advertising-Cloud, das den [Adobe Experience Cloud ID (ECID) Service](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) verwendet, erstellt [Erstanbieter-Experience Cloud-s_ecid-Cookies](cookies-first-party.md) und nicht Advertising-Cloud-Cookies.
+>Das JavaScript-Tag der Beta-Adobe Advertising, das die [Adobe Experience Cloud ID-Dienst (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) erstellt [Erstanbieter-Experience Cloud s_ecid-Cookies](cookies-first-party.md), nicht Adobe Advertising-Cookies.
 
 ## Cookie-Name: _lcc
 
@@ -67,7 +67,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>Kodierte IDs und Zeitstempel für Anzeigeninteraktionen mit Advertising Cloud DSP-Tracking </p> </td> 
+   <td colname="col2"> <p>Kodierte IDs und Zeitstempel für Anzeigeninteraktionen mit Adobe Advertising DSP-Tracking </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
@@ -104,11 +104,11 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>Cookies, die am 24. Februar 2021 oder früher gesetzt wurden, laufen nach 730 Tagen ab. Cookies, die am 25. Februar 2021 oder später gesetzt werden, laufen nach 364 Tagen ab.</p> </td> 
+   <td colname="col2"> <p>1 Jahr</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Erstanbieter-Cookie, das die Surfer-ID mit relevanten Zielgruppensegmenten und Konversionen verknüpft </p> <p> Informationen zum letzten Besuch werden zur Optimierung der Seitenladezeiten verwendet, indem unnötige Aufrufe von Adobe-Servern verhindert werden. </p> <p>Informationen zum letzten Suchklick helfen dabei festzustellen, ob ein Konversionsereignis durch einen Klick oder ein Viewthrough zustande gekommen ist (Konversion durch Impressionen, aber keine Klicks). </p> </td> 
+   <td colname="col2"> <p>Ein Erstanbieter-Cookie, das die Surfer-ID mit relevanten Zielgruppensegmenten und Konversionen verknüpft </p> <p> Informationen über den letzten Besuch werden verwendet, um die Seitenladezeiten zu optimieren, indem unnötige Anforderungen an [!DNL Adobe] Server. </p> <p>Informationen zum letzten Suchklick helfen dabei festzustellen, ob ein Konversionsereignis durch einen Klick oder ein Viewthrough zustande gekommen ist (Konversion durch Impressionen, aber keine Klicks). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -121,7 +121,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  </tbody> 
 </table>
 
-## Cookie-Name: ev_sync_*
+## Cookie-Name: ev_sync_&#42;
 
 (ev_sync_ax, ev_sync_bk, ev_sync_dd, ev_sync_fs, ev_sync_ix, ev_sync_nx, ev_sync_ox, ev_sync_pm, ev_sync_rc, ev_sync_tm, ev_sync_yh)
 
@@ -143,7 +143,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
-   <td colname="col2"> <p>Ein Drittanbieter-Cookie speziell für Anzeigenbörsen, das die Surfer-ID in Advertising Cloud mit der Partner-Anzeigenbörse synchronisiert. Das Cookie wird für neue Surfer erstellt und sendet eine Synchronisierungsanforderung, wenn es abgelaufen ist. </p> </td> 
+   <td colname="col2"> <p>Ein Drittanbieter-Cookie für Anzeigenbörsen, das die Adobe Advertising-Surfer-ID mit der Partner-Anzeigenbörse synchronisiert. Das Cookie wird für neue Surfer erstellt und sendet eine Synchronisierungsanforderung, wenn es abgelaufen ist. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Position </p> </td> 
@@ -172,7 +172,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 
-   <td colname="col2"> <p>2 Jahre </p> </td> 
+   <td colname="col2"> <p>1 Jahr </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nutzung </p> </td> 
@@ -234,7 +234,7 @@ Advertising Cloud verwendet Cookies, um Ereignisse von Anzeigeninteraktionen Kon
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p>ID der Advertising Cloud DSP (Demand Side Platform) </p> </td> 
+   <td colname="col2"> <p>Adobe Advertising DSP (Demand Side Platform)-ID </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ablauf </p> </td> 

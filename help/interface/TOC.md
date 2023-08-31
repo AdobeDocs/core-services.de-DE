@@ -5,10 +5,10 @@ breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
-workflow-type: ht
+source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
+workflow-type: tm+mt
 source-wordcount: '365'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 100%
       + [Cookies in [!UICONTROL Data Connectors]](cookies-dc.md)
       + [Cookies in [!UICONTROL Data Workbench]](cookies-insight.md)
       + [Cookies in Experience Cloud](cookies-mc.md)
-      + [Cookies in Advertising Cloud](cookies-advertising-cloud.md)
+      + [Adobe Advertising-Cookies](cookies-advertising-cloud.md)
       + [Cookies in [!DNL Scene7]](cookies-s7.md)
       + [Cookies in [!DNL Search and Promote]](cookies-snp.md)
       + [Cookies in [!DNL Target]](cookies-target.md)
