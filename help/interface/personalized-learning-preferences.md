@@ -2,9 +2,8 @@
 description: Erfahren Sie mehr über Einstellungen zu personalisierten Lerninhalten in Experience Cloud. Auf diese Weise erhalten Kundinnen und Kunden auf der Grundlage ihrer Nutzungsdaten personalisierte Hilfe und Angebote per E-Mail, in ihren Adobe Experience Cloud-Produkten und in den Adobe Experience League Communities.
 solution: Experience Cloud
 title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
-feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: ht
 source-wordcount: '397'
 ht-degree: 100%
