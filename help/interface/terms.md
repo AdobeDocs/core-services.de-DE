@@ -2,14 +2,15 @@
 description: Hier erfahren Sie mehr über Begriffe in Adobe Experience Cloud und über Unterschiede zu Begriffen in Creative Cloud.
 solution: Experience Cloud
 title: Terminologie
-feature: Customer Attributes
+feature-set: Experience Cloud Services
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: ad67ac4d64a181ba642f9314a2dc40df279c505f
 workflow-type: ht
-source-wordcount: '1445'
+source-wordcount: '1442'
 ht-degree: 100%
 
 ---
@@ -21,7 +22,7 @@ Eine Terminologiereferenz für Experience Cloud-Benutzer und Informationen dazu,
 | Begriff | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
 | Asset | In der Creative Cloud ist ein Asset normalerweise eine Bilddatei.<br>Bei Assets kann es sich um Ebenen in einer Photoshop-Datei, Folien in einer PowerPoint-Datei, Seiten in einem PDF-Dokument oder Dateien in einer ZIP-Datei handeln. | In der Experience Cloud ist ein Asset ein digitales Dokument, Bild, Video oder Audioaufzeichnungsdokument, das über mehrere Ausgabeformate und Teil-Assets verfügen kann. Zu den Beispielen gehören:<ul><li>Datei</li><li>Dokument</li><li>Bild</li><li>Video</li><li>Audio Clip</li><li>Präsentation</li><li>Bildvorlage</li><li>Videovorlage</li></ul> |
-| Attribut |  | Was Personen gemeinsam haben, wenn sie sich für ein [Segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de) qualifizieren. (Ähnlich wie eine [Eigenschaft](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=de) in Audience Manager.) |
+| Attribut | | Was Personen gemeinsam haben, wenn sie sich für ein [Segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de) qualifizieren. (Ähnlich wie eine [Eigenschaft](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=de) in Audience Manager.) |
 | Audiences | In der Creative Cloud kann eine Zielgruppe die Person sein, die ein Video aufruft. | In der Experience Cloud sind Zielgruppen Sammlungen von Menschen, auf die wir unsere Kampagnenaktivitäten ausrichten können.<br>Die Zugehörigkeit zu einer Zielgruppe kann auf Basis eines Regelsatzes im Besucherkontext ermittelt werden oder in einer Liste festgelegt sein. Beispielsweise einer Liste mit E-Mail-Abonnenten oder Mitgliedern einer Facebook-Gruppe.<br>In [Experience Cloud Zielgruppe](audience-library.md) ist das Erstellen und Verwalten von Audiences mit dem Erstellen und Verwalten von Segmenten vergleichbar, hinzu kommt jedoch die Möglichkeit, dass die Audiences für die Experience Cloud freigegeben werden können.<br>**Adobe Target:**<br> In Adobe Target, wurden Audiences zuvor als Segmente bezeichnet.<br>**Adobe Analytics:**<br> In Analytics können Audiences als Besucher einer Website betrachtet werden. Sie können Zielgruppensegmente erstellen und die Zielgruppe in der Experience Cloud veröffentlichen. |
 | Kampagnen | In der Creative Cloud versteht man unter einer Kampagne eine Marketing-Kampagne, bei der Bild-Assets aus der Creative Cloud verwendet werden. | In Experience Cloud bestimmen die Kampagnen, welche Inhalte der Zielgruppe angezeigt werden. Sie bestimmen auch, wo (Position) der Inhalt angezeigt wird und wann. Eine Kampagne hat ein bestimmtes Ziel, das von Metriken verfolgt wird.<br>Die Durchführung einer Kampagne setzt voraus, dass der Besucherkontext mit dem Regelsatz der Kampagne übereinstimmt und der Inhalt gemäß den technischen Einschränkungen des Kanals der Position bereitgestellt wird.<br>In Adobe Target sind die Begriffe Kampagne und Aktivität synonym. |
 | Channel | In der Creative Cloud können Kanäle Graustufenbilder sein, die verschiedene Arten von Informationen speichern. Es sind in diesem Fall Informationskanäle und Farbkanäle. | In der Experience Cloud ist ein Kanal ein Attribut einer Position oder eine Aktivität in einer Kampagne.<br>In Analytics werden Marketing-Kanäle zumeist verwendet, um Einblicke dazu zu bieten, wie Besucher auf Ihre Website gelangen, beispielsweise über E-Mail-Kampagnen.<br>Zu den Beispielen gehören:<ul><li>E-Mail</li><li>Display-Anzeigen</li><li>Soziale Netzwerke</li><li>Paid Search</li><li>Normale Suche</li><li>Referrerdomänen</li></ul> |
@@ -46,4 +47,4 @@ Eine Terminologiereferenz für Experience Cloud-Benutzer und Informationen dazu,
 | Lösung | Keine festgeschriebene Verwendung. | In Experience Cloud bezeichnet „Programme“ Produkte wie Adobe Analytics, Adobe Social, Adobe Target usw. |
 | Eigenschaft | K. A. | Ein Schlüssel-Wert-Paar, z. B. color=blue. In Audience Manager werden [Eigenschaften](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=de) zum Erstellen von Segmenten verwendet. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
