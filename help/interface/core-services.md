@@ -3,12 +3,12 @@ description: Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Programme 
 solution: Experience Cloud
 title: Aktivieren Ihrer Programme für programmübergreifende Services
 index: true
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '2371'
 ht-degree: 95%
@@ -118,7 +118,7 @@ Die Kunden-ID muss in jedem Aufruf an den [!DNL Analytics]-Server angegeben sein
 
 #### Analytics: Synchronisieren der Kunden-ID mit der Data Warehouse-Aufstockungsmethode
 
-Als Kundenattribute zum ersten Mal verfügbar wurden, hatten einige Kunden den Experience Cloud-ID-Dienst noch nicht implementiert und konnten Kundenattribute nicht einfach nutzen. Um dieses Problem zu beheben, hat Adobe eine Möglichkeit geschaffen, mithilfe der Adobe Analytics-Data Warehouse eine Aufstockung der ID-Synchronisationen durchzuführen. Diese Funktion wird als Aufstockung der Data Warehouse bezeichnet. Die Aufstockung der Data Warehouse ist jetzt im Allgemeinen nicht erforderlich und wird daher ab Oktober 2022 nicht mehr verfügbar sein.
+Als Kundenattribute zum ersten Mal verfügbar wurden, hatten einige Kunden den Experience Cloud ID-Dienst noch nicht implementiert und konnten Kundenattribute nicht einfach nutzen. Um dieses Problem zu beheben, hat Adobe eine Möglichkeit zur Aufstockung von ID-Synchronisierungen mithilfe der Adobe Analytics-Data Warehouse erstellt. Diese Funktion wird als Data Warehouse-Aufstockung bezeichnet. Die Data Warehouse-Aufstockung ist jetzt im Allgemeinen nicht mehr erforderlich und wird daher ab Oktober 2022 nicht mehr verfügbar sein.
 
 
 ### Mobile SDKs
@@ -151,9 +151,9 @@ Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktual
 * Wenn Sie [!UICONTROL Experience Platform Launch] nicht verwenden, [aktualisieren Sie Ihre mbox-Bibliothek](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=de) manuell.
 * Fordern Sie Zugriff auf Adobe Analytics als Berichtsquelle für [!DNL Adobe Target] an. Daten von [!DNL Target] und [!DNL Analytics] werden während der Verarbeitung bei demselben Server-Aufruf zusammengeführt, damit Besucher programmübergreifend verknüpft werden. Siehe [Analytics for Target-Implementierung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de).
 
-   >[!IMPORTANT]
-   >
-   >Alle Analytics-Kunden sind bereits für zentrale Dienste wie Kundenattribute freigeschaltet. Wenn Sie kein Analytics-Kunde sind, wenden Sie sich an die Kundenunterstützung, um eine Freischaltung anzufordern.
+  >[!IMPORTANT]
+  >
+  >Alle Analytics-Kunden sind bereits für zentrale Dienste wie Kundenattribute freigeschaltet. Wenn Sie kein Analytics-Kunde sind, wenden Sie sich an die Kundenunterstützung, um eine Freischaltung anzufordern.
 
 ## Überprüfen der Implementierung {#section_E641782A0F4F44AF8C9C91216BE330D5}
 

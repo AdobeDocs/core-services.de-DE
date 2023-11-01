@@ -3,12 +3,13 @@ description: Informieren Sie sich über die neueste Funktionen, Versionshinweise
 solution: Experience Cloud
 title: Gesammelte Versionshinweise
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: Customer Attributes
+feature-set: Experience Cloud
+feature: Release Notes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 4c3b72fb17b241208b5dea4f85cf1fd2a97ab303
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '4770'
 ht-degree: 100%
@@ -374,7 +375,7 @@ Keine Informationen verfügbar.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gruppe Zuordnen </p> </td> 
+   <td colname="col1"> <p>Gruppenzuordnung </p> </td> 
    <td colname="col2"> <p>Die Seite „Gruppenverwaltung“ wurde neu als Verwaltungsoberfläche konzipiert, über die Sie Gruppen erstellen, Benutzer zu Gruppen hinzufügen und Berechtigungen für die Experience Cloud-Programme zuweisen können. </p> </td> 
   </tr> 
   <tr> 

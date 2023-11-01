@@ -1,16 +1,16 @@
 ---
 description: Lernen Sie die Benutzer und -Produktverwaltung von Adobe Experience Cloud, Personen (Audiences und Kundenattribute), Journey Orchestration, Angebote, Places, Experience Platform Launch und Mobile Services kennen.
 solution: Experience Cloud
-title: 'Übersicht über Experience Cloud-Dienste '
-feature: Customer Attributes
+title: Übersicht über Experience Cloud-Dienste
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '361'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Administration](admin-getting-started.md) | Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von Benutzerberechtigungen und Produktprofilen für Experience Cloud und über die Browser-Unterstützung. |
 | [Cookies](cookies-privacy.md) | Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe beteiligt sich bei mehreren Datenschutzorganisationen und arbeitet mit Datenschutzbehörden und nach Selbstregulierungsgrundsätzen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >

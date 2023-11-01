@@ -1,17 +1,16 @@
 ---
 description: Hier erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seitenladezeit bei verschiedenen Programmen und Services in Experience Cloud zu reduzieren.
 solution: Experience Cloud
-title: 'Verwendung des DNS-Vorabrufs für verschiedene Programme und Services '
+title: Verwendung des DNS-Vorabrufs für verschiedene Programme und Services
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -25,7 +24,7 @@ Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit
 
 ## DNS-Vorabruf und Adobe Experience Cloud-Programme {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen Programmen und Services von [!UICONTROL Experience Cloud] funktioniert, denn:
+Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL Experience Cloud] Anwendungen und Dienste aus folgenden Gründen:
 
 * Jedes Programm und jeder Service von Experience Cloud generiert beim Laden der Seite dynamisch DNS-Aufrufe.
 * Der Browser kann Domain-Namen nicht in IP-Adressen auflösen, bevor diese Aufrufe durchgeführt werden.
@@ -38,7 +37,7 @@ In den folgenden Beispielen wird dargestellt, wie Sie DNS-Vorabrufe an unterschi
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
-   Fügen Sie jeden DNS-Namen einzeln ein, wenn Sie sichere und nicht sichere Tracking-Server nutzen.
+  Fügen Sie jeden DNS-Namen einzeln ein, wenn Sie sichere und nicht sichere Tracking-Server nutzen.
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
@@ -56,4 +55,3 @@ In den folgenden Beispielen wird dargestellt, wie Sie DNS-Vorabrufe an unterschi
 >[!MORELIKETHIS]
 >
 >* [DNS-Vorabruf](https://www.chromium.org/developers/design-documents/dns-prefetching)
-
