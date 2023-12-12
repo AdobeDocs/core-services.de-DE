@@ -5,17 +5,17 @@ breadcrumb-title: Zentrale Schnittstellenkomponenten von Experience Cloud
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
-source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
+source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 98%
 
 ---
 
 
 # Zentrale Schnittstellenkomponenten von Experience Cloud {#interface}
 
-+ [Zentrale Schnittstellenkomponenten von Experience Cloud Handbuch](experience-cloud.md)
++ [Handbuch zu den Komponenten der zentralen Experience Cloud-Benutzeroberfläche](experience-cloud.md)
 + Experience Cloud Services {#services}
    + [Experience Cloud Services](core-services-landing.md)
    + [Einheitliche Suche in Experience Cloud](search-experience-cloud.md)
@@ -37,10 +37,6 @@ ht-degree: 100%
       + [Unterstützung der Datenschutz-Grundverordnung](gdpr.md)
       + [Unterstützung des California Consumer Privacy Act](ccpa.md)
       + [Überlegungen zum Datenschutz bei Kundenattributen](privacy-mac.md)
-   + Experience Cloud Activation {#activation}
-      + [Übersicht über Activation](activation.md)
-      + [Experience Platform Launch-Benutzerhandbuch](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de)
-      + [Triggers](triggers.md)
    + Experience Cloud-Assets {#assets}
       + [Übersicht über Experience Cloud Assets](experience-cloud-assets.md)
       + [Experience Cloud-Ordner und -Assets für Creative Cloud freigeben](creative-cloud.md)
@@ -72,6 +68,7 @@ ht-degree: 100%
       + [Cookies in [!DNL Target]](cookies-target.md)
       + [Datenschutzeinstellungen für Browser-Cookies aktivieren](browser-cookie-settings.md)
       + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies-thirdparty.md)
++ [Experience Cloud Triggers](triggers.md)
 + Versionshinweise für Experience Cloud UI {#release-notes}
    + [Versionshinweise zu Komponenten der zentralen Benutzeroberfläche](release-notes.md)
    + [Versionshinweise für alle Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
