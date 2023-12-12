@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '524'
 ht-degree: 100%
 
 ---
@@ -44,8 +44,6 @@ Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen d
 | ------- | ------- |
 | Einheitliche Suche | Unified Search fügt dem Suchindex weiterhin Objekttypen hinzu. In diesem Update durchsucht die globale Suche jetzt Experience League-Inhalte und die folgenden Journey Optimizer-Objekttypen: <ul><li>Datensätze</li><li>Ziele</li><li>Abfragen</li><li>Schemas</li><li>Segmente</li><li>Quellen</li><li>Angebote</li><li>Komponenten</li><li>Nachrichten</li><li>Journeys</li></ul> |
 | Zustimmung zu den Produktverwendungsdaten | Nach der ersten Anmeldung werden Sie aufgefordert, Voreinstellungen einzureichen, um zu erfahren, wie Adobe Sie mithilfe von hilfreichen, personalisierten Inhalten wie Tutorials, Handbücher, Quick Tipps, Empfehlungen, Lernvideos und mehr versorgen kann. Diese basieren auf den Nutzungsdaten Ihres Experience Cloud-Produkts. Diese Anfrage enthält auch eine Aktualisierung Ihrer Voreinstellungen für die Erfassung und Verwendung dieser Daten unter <https://experience.adobe.com/preferences>. |
-| Navigation in Experience Cloud [!UICONTROL Triggers] | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=de) sind für die direkte Navigation über den Programmumschalter in der Kopfzeile für provisionierte Anwender verfügbar. |
-| **Hinweis:** Geplante Aktualisierung der Oberflächennavigation | Im November 2021 wird die Navigationsfunktion _[!UICONTROL Go to Launch/Data Collection]_ aus <https://experience.adobe.com/implement> entfernt. |
 
 **Aktualisiert: 24.08.2021**
 
@@ -109,10 +107,6 @@ Umstrukturierung und Aktualisierung von Links.
 **Aktualisiert: 15.03.2017**
 
 Die Definition von Analytics-Rohdaten wurde in [Erstellen einer Zielgruppe](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737) aktualisiert.
-
-**Aktualisiert: 23.02.2017**
-
-[Experience Cloud Triggers](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB) hinzugefügt.
 
 **Aktualisiert: 01.02.2017**
 

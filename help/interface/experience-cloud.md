@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
+source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 100%
+source-wordcount: '1229'
+ht-degree: 99%
 
 ---
 
@@ -155,7 +155,6 @@ Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -
 
 * [[!UICONTROL Zielgruppenbibliothek]](audience-library.md)
 * [[!UICONTROL Kundenattribute]](attributes.md)
-* [[!UICONTROL Triggers]](triggers.md)
 * [Experience Cloud-[!UICONTROL Assets]](experience-cloud-assets.md)
 * [Cookies in Experience Cloud](cookies-privacy.md)
 * [Benutzer- und Produktverwaltung](admin-getting-started.md) (Admin Console)
@@ -175,9 +174,8 @@ Weitere Experience Cloud-Handbücher:
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=de)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
-* [ Experience Platform-Datenerfassung/Launch](https://experienceleague.adobe.com/docs/launch.html?lang=de)
+* [Experience Platform-Tags](https://experienceleague.adobe.com/docs/tags.html?lang=de)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=de)
-* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de)
 
 ## Tutorials
 
