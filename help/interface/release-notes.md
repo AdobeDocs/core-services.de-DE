@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
-workflow-type: ht
-source-wordcount: '4770'
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
+workflow-type: tm+mt
+source-wordcount: '4743'
 ht-degree: 100%
 
 ---
@@ -99,8 +99,6 @@ Geplante Veröffentlichung: **11. Juli 2022**
 | ------- | ------- |
 | Einheitliche Suche | Unified Search fügt dem Suchindex weiterhin Objekttypen hinzu. In diesem Update durchsucht die globale Suche jetzt Experience League-Inhalte und die folgenden Journey Optimizer-Objekttypen: <ul><li>Datensätze</li><li>Ziele</li><li>Abfragen</li><li>Schemas</li><li>Segmente</li><li>Quellen</li><li>Angebote</li><li>Komponenten</li><li>Nachrichten</li><li>Journeys</li></ul> |
 | Zustimmung zu den Produktverwendungsdaten | Nach der ersten Anmeldung werden Sie aufgefordert, Voreinstellungen einzureichen, um zu erfahren, wie Adobe Sie mithilfe von hilfreichen, personalisierten Inhalten wie Tutorials, Handbücher, Quick Tipps, Empfehlungen, Lernvideos und mehr versorgen kann. Diese basieren auf den Nutzungsdaten Ihres Experience Cloud-Produkts. Diese Anfrage enthält auch eine Aktualisierung Ihrer Voreinstellungen für die Erfassung und Verwendung dieser Daten unter <https://experience.adobe.com/preferences>. |
-| Navigation in Experience Cloud [!UICONTROL Triggers] | [Experience Cloud Triggers](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=de) sind für die direkte Navigation über den Programmumschalter in der Kopfzeile für provisionierte Anwender verfügbar. |
-| **Hinweis:** Geplante Aktualisierung der Oberflächennavigation | Im November 2021 wird die Navigationsfunktion _[!UICONTROL Go to Launch/Data Collection]_ aus <https://experience.adobe.com/implement> entfernt. |
 
 {style="table-layout:auto"}
 
@@ -235,10 +233,6 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 **Fehlerbehebungen**
 
 * Es wurde ein Fehler behoben, durch den die Verknüpfung und die einmalige Anmeldung für Analytics verhindert wurde. Bei diesem Problem wurde der Hinweis bzw. die Fehlermeldung „ERROR IMS SSO fehlgeschlagen: Verknüpfte Firma konnte nicht gefunden werden.“ angezeigt.
-
-**Bekanntes Problem**
-
-Wenn Sie über **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** auf das Dynamic Tag Management zugreifen, Ihr Konto für das Dynamic Tag Management jedoch nicht mit der Experience Cloud (Adobe ID) verknüpft ist, können Sie sich nicht beim Dynamic Tag Management anmelden. Um dieses Problem zu umgehen, müssen Sie in einem neuen Browser-Tab direkt zu `dtm.adobe.com` navigieren.
 
 ## Version 16.1 – 21. Januar 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -382,11 +376,7 @@ Keine Informationen verfügbar.
    <td colname="col1"> <p>Eins-zu-viele-Zuordnung </p> </td> 
    <td colname="col2"> <p>Bei der Verknüpfung von Programmkonten in Experience Cloud können Sie einer bestimmten Organisation nun mehrere Produkte und Services zuordnen, wenn mehrere Programme und Organisationen vorhanden sind. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>Activation </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Activation</a> wird nun im linken Navigationsbereich der <span class="keyword">Experience Cloud</span> angezeigt. <span class="wintitle">Activation</span> ist ein <span class="keyword">Experience Cloud</span>-Service, der die Technologie des dynamischen Tag-Managements nutzt. Bei der Auswahl dieses Services werden Sie zum dynamischen Tag-Management weiterleitet. </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>Aktualisierungen der Dokumentation – Zentrale Services </p> </td> 
    <td colname="col2"> <p>Der neu hinzugefügte Artikel <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local">Aktivieren Ihrer Programme für zentrale Services</a> unterstützt Sie bei der Implementierung von zentralen Services. </p> </td> 
   </tr> 
@@ -584,7 +574,7 @@ Neue Funktionen und Fehlerbehebungen in der Benutzeroberfläche für die Zusamme
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> Schaltfläche <span class="wintitle">Speichern</span> in Audiences </p> </td> 
+   <td colname="col1"> <p> Schaltfläche <span class="wintitle">Speichern</span> in Zielgruppen </p> </td> 
    <td colname="col2"> <p>Beim Erstellen einer Zielgruppe ist die Schaltfläche <span class="wintitle">Speichern</span> auf der Seite <span class="wintitle">Neue Zielgruppe erstellen</span> nun deaktiviert, bis alle erforderlichen Felder ausgefüllt wurden. 
      <!--MAC-19712 --></p> </td> 
   </tr> 
