@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
-workflow-type: ht
-source-wordcount: '1863'
-ht-degree: 100%
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+workflow-type: tm+mt
+source-wordcount: '1634'
+ht-degree: 96%
 
 ---
 
@@ -208,13 +208,13 @@ Die *Sicherheitsgruppe* wird als Produktprofil angezeigt.
 
 Informationen zu Sicherheitsgruppen und zum Zuweisen von Benutzern zu Sicherheitsgruppen finden Sie unter [Verwalten von Gruppen und Benutzern](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=de).
 
-## Verwalten der Experience Platform-Datenerfassung (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Experience Platform-Datenerfassung verwalten {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Datenerfassung] ([!UICONTROL Launch]) wird auf der Seite [!UICONTROL Produkte] in der [!UICONTROL Admin Console] angezeigt. Sie können weitere Programme und Services in ein Launch-Produktprofil aufnehmen.
+Experience Platform [!UICONTROL Datenerfassung] wird auf der [!UICONTROL Produkte] in der [!UICONTROL Admin Console]. Sie können andere Anwendungen und Dienste in ein Datenerfassungs-Produktprofil aufnehmen.
 
-Laden Sie Benutzer zu [!UICONTROL Platform Launch] ein und weisen Sie ihnen Benutzerrollen und -rechte zu.
+Benutzer einladen zu [!UICONTROL Platform-Datenerfassung] und weisen Sie Benutzerrollen und -rechte zu.
 
-Informationen zu Benutzerberechtigungen in der Admin Console und zum Einrichten Launch-spezifischer Optionen, einschließlich der Zuweisung von Rechten zu Profilen, finden Sie unter [Benutzerverwaltung](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de).
+Siehe [Benutzerberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de) für Informationen zu Benutzerberechtigungen in der Admin Console und zum Einrichten von Profilberechtigungen.
 
 ## Experience Manager as a Cloud Service
 
@@ -224,7 +224,7 @@ Siehe [IMS-Unterstützung für Experience Manager as a Cloud Service](https://ex
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Erstellen Sie Audience Manager-Benutzer und weisen Sie sie Gruppen zu. Sie können auch Einschränkungen anzeigen (Eigenschaften, Segmente, Ziele und [!DNL AlgoModel]).
+Erstellen Sie Audience Manager-Benutzer und weisen Sie sie Gruppen zu. Sie können auch Einschränkungen anzeigen (Merkmale, Segmente, Ziele und [!DNL AlgoModel]).
 
 Siehe [Administration](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de) in der Hilfe zu Audience Manager.
 

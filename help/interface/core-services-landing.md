@@ -1,5 +1,5 @@
 ---
-description: Lernen Sie die Benutzer und -Produktverwaltung von Adobe Experience Cloud, Personen (Audiences und Kundenattribute), Journey Orchestration, Angebote, Places, Experience Platform Launch und Mobile Services kennen.
+description: Erfahren Sie mehr über Experience Cloud-Benutzer- und Produktverwaltung, Personen (Zielgruppen und Kundenattribute), Journey Orchestration, Angebote, Orte, Experience Platform und Mobile Services.
 solution: Experience Cloud
 title: Übersicht über Experience Cloud-Dienste
 feature: Central Interface Components
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 96%
+source-wordcount: '325'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,6 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Personen – Zielgruppenbibliothek](audience-library.md) | Zielgruppen sind Sammlungen von Besuchern (eine Liste von Besucher-IDs). Über die Zielgruppenbibliothek von Adobe können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten.   |
 | [Personen – Kundenattribute](attributes.md) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungs-Service. |
 | [Location Service](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de) | Adobe [!UICONTROL Experience Platform Location Service] ist ein Standortdienst. Damit wird es Apps mit Standorterkennung ermöglicht, den Standortkontext nachzuvollziehen. Dazu werden umfangreiche und benutzerfreundliche SDK-Schnittstellen sowie eine flexible Datenbank mit Zielpunkten (Points of Interest, POIs) verwendet. |
-| [Activation](activation.md) | Activation umfasst das neueste Tag-Management-Produkt namens Experience Platform Data Collection (Launch) und Experience Cloud Triggers. |
 | [Assets](experience-cloud-assets.md) | Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. |
 | [Administration](admin-getting-started.md) | Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von Benutzerberechtigungen und Produktprofilen für Experience Cloud und über die Browser-Unterstützung. |
 | [Cookies](cookies-privacy.md) | Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe oberste Priorität. Adobe beteiligt sich bei mehreren Datenschutzorganisationen und arbeitet mit Datenschutzbehörden und nach Selbstregulierungsgrundsätzen. |
