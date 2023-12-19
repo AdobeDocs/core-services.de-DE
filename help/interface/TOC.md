@@ -8,14 +8,14 @@ index: true
 source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Zentrale Schnittstellenkomponenten von Experience Cloud {#interface}
 
-+ [Handbuch zu den Komponenten der zentralen Experience Cloud-Benutzeroberfläche](experience-cloud.md)
++ [Handbuch zu zentralen Schnittstellenkomponenten für Experience Cloud](experience-cloud.md)
 + Experience Cloud Services {#services}
    + [Experience Cloud Services](core-services-landing.md)
    + [Einheitliche Suche in Experience Cloud](search-experience-cloud.md)
