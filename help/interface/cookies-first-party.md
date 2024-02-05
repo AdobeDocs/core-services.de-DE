@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
+source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
 workflow-type: tm+mt
-source-wordcount: '1616'
-ht-degree: 79%
+source-wordcount: '1594'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ Viele Browser und Anti-Spyware-Anwendungen sind dafür konzipiert, Drittanbieter
 * [Experience Platform Identity Service (ECID-Service)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) setzt automatisch Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Wenn sie nicht übereinstimmen, verwendet der Identity-Dienst JavaScript, um Cookies in der Domäne Ihrer Site festzulegen.
 * Wenn Sie ältere [Legacy-Identifikatoren von Analytics](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=de) (auch `s_vi`-Cookie genannt) verwenden, hängt dies von der Konfiguration Ihres Datenerfassungs-Servers ab. Wenn der Datenerfassungsserver mit der Domain Ihrer Website übereinstimmt, werden Cookies als First-Party gesetzt. Wenn der Erfassungsserver nicht mit Ihrer aktuellen Domain übereinstimmt, werden Cookies als Drittanbieter gesetzt. Wenn Drittanbieter-Cookies blockiert werden, setzt Analytics eine First-Party-[Ausweich-ID („s_fid“)](cookies-analytics.md) anstelle des standardmäßigen Cookies „s_vi“.
 
-Wenn Sie sicherstellen möchten, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, die die Weiterleitung von einer benutzerdefinierten Domäne ermöglicht, die in Ihrer CNAME-Implementierung an die Adobe-Erfassungsserver angegeben ist. Dazu gehören Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von der Adobe gehostete Domain verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar die Verwendung eines CNAME unterstützen, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen First-Party-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domains kontrollieren, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domainübergreifend zu verfolgen. Wenn die Website Domain jedoch nicht mit den CNAME-Domain-Cookies übereinstimmt, werden sie als Drittanbieter festgelegt.
+Wenn Sie sicherstellen möchten, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, die die Weiterleitung von einer benutzerdefinierten Domäne ermöglicht, die in Ihrer CNAME-Implementierung an die Adobe-Erfassungsserver angegeben ist. Dazu gehören Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von der Adobe gehostete Domain verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar CNAME verwenden, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen First-Party-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domänen steuern, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Wenn die Site-Domäne jedoch nicht mit den CNAME-Domänen-Cookies übereinstimmt, werden sie als Drittanbieter festgelegt.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ Wenn Sie einen CNAME für die Datenerfassung einrichten möchten und Ihre Websit
 
 Der Bereitstellungsprozess von SSL-Zertifikaten kann verwirrend und zeitraubend sein. Daher ist Adobe eine Partnerschaft mit DigiCert, einer branchenführenden Zertifizierungsstelle (CA), eingegangen und hat einen integrierten Prozess entwickelt, durch den der Kauf und die Verwaltung dieser Zertifikate automatisiert werden.
 
-Mit Ihrer Einwilligung übernehmen wir gemeinsam mit CA die Erstellung, Bereitstellung und Verwaltung eines neuen SHA-2-SSL-Zertifikats. Adobe verwaltet dieses Zertifikat und gewährleistet, dass die sichere Datenerfassung durch Ihr Unternehmen nicht durch ein unerwartetes Ablaufen der Gültigkeit, die Aberkennung oder ein Sicherheitsproblem gefährdet wird.
+Mit Ihrer Erlaubnis arbeiten wir mit einer Zertifizierungsstelle, um ein neues SHA-2-SSL-Zertifikat für Sie auszustellen, bereitzustellen und zu verwalten. Adobe verwaltet dieses Zertifikat und gewährleistet, dass die sichere Datenerfassung durch Ihr Unternehmen nicht durch ein unerwartetes Ablaufen der Gültigkeit, die Aberkennung oder ein Sicherheitsproblem gefährdet wird.
 
 ## Adobe-Managed Certificate Program
 
@@ -47,13 +47,13 @@ Mit dem Adobe Managed Certificate Program können Sie ohne zusätzliche Kosten e
 
 Folgen Sie unten stehenden Schritten, um ein neues Erstanbieter-SSL-Zertifikat für die Erstanbieter-Datenerfassung zu implementieren:
 
-1. Füllen Sie das [Anforderungsformular für Erstanbieter-Domains](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) aus und eröffnen Sie ein Ticket bei der Kundenunterstützung, um die Erstanbieter-Datenerfassung im Adobe-Managed Program einzurichten.
+1. Füllen Sie die [Anforderungsformular für die Erstanbieterdomäne](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) und öffnen Sie ein Ticket bei der Kundenunterstützung, um die Einrichtung der Erstanbieter-Datenerfassung im Adobe-Managed Program zu beantragen.
 
    Bei jedem Feld finden Sie eine Beschreibung anhand von Beispielen.
 
 1. Erstellen Sie CNAME-Datensätze (siehe Anweisungen unten).
 
-   Nach Erhalt des Tickets sollte Ihnen ein Mitarbeiter der Kundenunterstützung einen CNAME-Datensatz bereitstellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Der CNAME ähnelt dem folgenden:
+   Nach Erhalt des Tickets sollte Ihnen ein Kundenbetreuer einen CNAME-Eintrag zur Verfügung stellen. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Der CNAME ähnelt dem folgenden:
 
    **Sicher** – Zum Beispiel verweist der Hostname `smetrics.example.com` auf: `[random-10-character-string].data.adobedc.net`.
 
