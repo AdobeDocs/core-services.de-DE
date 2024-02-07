@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 8f500c7efc0bba2239d81eb9be64916d60d2ea3d
+source-git-commit: a20d51e6e7d5ec72d59e06e6a4951778a5828d9a
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 95%
+source-wordcount: '722'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,6 @@ Analytics verwendet Cookies vor allem, um anonym neue Besucher zu definieren, Kl
 
 * [Cookie-Name: s_ecid](cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Cookie-Name: AMCV_###@AdobeOrg](cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
-* [Cookie-Name: s_cc](cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Cookie-Name: s_cc](cookies-analytics.md#section-03aa90aa7e36427b8cb12dc4a0f0291e)
 * [Cookie-Name: s_sq ](cookies-analytics.md#section-8abfff3a302d494f81a3cfb91e3b09ff)
 * [Cookie-Name: s_vi](cookies-analytics.md#section-5d50a078de444d12b7d927d68ff3b679)
@@ -90,7 +89,7 @@ Weitere Informationen finden Sie in der Analytics-Hilfe zu [Erstanbieter-Cookies
 |--- |--- |
 | Gespeicherte Informationen | Fallback-Datums-/Uhrzeitstempel der Unique-Visitor-ID. |
 | Ablauf | 2 Jahre |
-| Nutzung | Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
+| Nutzung | Dieses Cookie wird verwendet, um einen Unique Visitor zu identifizieren, wenn die standardmäßige  `s_vi` aufgrund von Beschränkungen für Drittanbieter-Cookies nicht verfügbar ist. Es wird nicht für Implementierungen verwendet, die Erstanbieter-Cookies verwenden. |
 | Position | Dieses Cookie wird als Erstanbieter-Cookie in Ihrer Domain gespeichert. |
 | Größe | 33 Byte |
 
