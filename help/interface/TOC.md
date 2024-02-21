@@ -2,10 +2,10 @@
 role: User,Admin
 user-guide-title: Handbuch für Komponenten der Experience Cloud Zentrale Schnittstelle
 breadcrumb-title: Handbuch für Komponenten der Experience Cloud Zentrale Schnittstelle
-title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
+title: Handbuch für Komponenten der Experience Cloud Zentrale Schnittstelle
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
-source-git-commit: 2be11e25484bf99fc99e0b6a7c90552680354746
+source-git-commit: 6586616d6ce861daa500ad3126b0815e6f1632e0
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
