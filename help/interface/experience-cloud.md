@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 100%
+source-wordcount: '1230'
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ Rufen Sie die das ![Menü](assets/menu-icon.png) der Programmauswahl auf, um auf
 
 ## Browser-Unterstützung in Experience Cloud {#browser}
 
-Für eine optimale Leistung wurde Experience Cloud für die beliebtesten Browser optimiert, jeweils sowohl für deren neueste Version als auch für die beiden Vorgängerversionen.
+Für eine optimale Performance wurde Experience Cloud für die beliebtesten Browser optimiert, jeweils sowohl für deren neueste Version als auch für die beiden Vorgängerversionen.
 
 * Chrome
 * Edge
@@ -139,7 +139,7 @@ Wählen Sie die Option **[!UICONTROL Benachrichtigungen]** aus, um über relevan
 
 ## Experience Cloud-Domains {#domains}
 
-Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domains zur Zulassungsliste Ihrer Firewall hinzuzufügen, um ein optimales Erlebnis zu gewährleisten. Zusätzliche Domains können auch für bestimmte Experience Cloud-Programme wie Adobe Analytics verwendet werden. Weitere Informationen finden Sie in der Dokumentation für diese Programme.
+Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen, die Performance zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domains zur Zulassungsliste Ihrer Firewall hinzuzufügen, um ein optimales Erlebnis zu gewährleisten. Zusätzliche Domains können auch für bestimmte Experience Cloud-Programme wie Adobe Analytics verwendet werden. Weitere Informationen finden Sie in der Dokumentation für diese Programme.
 
 | Technologie | Domains |
 |--- |--- |
@@ -161,7 +161,7 @@ Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -
 * [Aktivieren Ihrer Programme für zentrale Services](core-services.md)
 * [Häufig gestellte Fragen](admin-getting-started.md)
 * [Organisationen und Kontoverknüpfung](organizations.md)
-* [Integrationen](marketing-cloud-integrations.md)
+* [Integrationen](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en)
 * [Integrieren von Adobe Target in Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
 * [Überblick über den Datenschutz und Sicherheitsmaßnahmen in Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-Vorabruf](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
