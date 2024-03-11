@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1230'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -161,7 +161,7 @@ Dieses Handbuch bietet Hilfe zur Verwaltung von Experience Cloud-Benutzern und -
 * [Aktivieren Ihrer Programme für zentrale Services](core-services.md)
 * [Häufig gestellte Fragen](admin-getting-started.md)
 * [Organisationen und Kontoverknüpfung](organizations.md)
-* [Integrationen](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en)
+* [Integrationen](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=de)
 * [Integrieren von Adobe Target in Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de)
 * [Überblick über den Datenschutz und Sicherheitsmaßnahmen in Experience Cloud](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-Vorabruf](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
