@@ -8,8 +8,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
-workflow-type: tm+mt
+source-git-commit: 807f8a25a58b8416b2db083434dfce84b94954b2
+workflow-type: ht
 source-wordcount: '1634'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Admins können Änderungen oder Ergänzungen der Admin Console wie folgt anzeige
    * Identity-Namespace
    * Sandboxes
    * Experience-Datenmodell
-   * Schemas
+   * Schemata
    * Datenströme
    * Besucher-ID
 
@@ -66,7 +66,7 @@ Weitere Informationen zu den neuen Funktionen finden Sie auf den entsprechenden 
 * [Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de)
 * [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de)
 * [Experience-Datenmodell](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de)
-* [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de)
+* [Schemata](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de)
 * [Datenströme](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de)
 * [Besucher-ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=de#section_3C9F6DF37C654D939625BB4D485E4354)
 * [Datenschutz](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de)
