@@ -1,17 +1,17 @@
 ---
 description: Freigeben eines Ordners mit Experience Cloud-Assets für User von Creative Cloud.
 solution: Experience Cloud
-title: Experience Cloud-Asset-Ordner freigeben
+title: Freigeben eines Experience Cloud-Asset-Ordners
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '318'
+ht-degree: 92%
 
 ---
 

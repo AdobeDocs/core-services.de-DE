@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über Einstellungen zu personalisierten Lerninhal
 solution: Experience Cloud
 title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 8d62b535e0a11879477d5310575d9cf8332b3d5f
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '380'
 ht-degree: 100%
 
 ---
@@ -21,12 +21,7 @@ Sie können uns erlauben, Ihnen hilfreiche, auf Ihre Bedürfnisse zugeschnittene
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
-
 Sie können Ihre Auswahl jederzeit im Abschnitt „Nutzung und Sammlung von Produktdaten“ in Ihren [Benutzereinstellungen](https://experience.adobe.com/preferences/) aktualisieren.
-
-
-
-
 
 ## Personalisierte Schulungs- und Support-Empfehlungen für Ihre Adobe-Produkte und -Services
 
@@ -53,8 +48,6 @@ Erhalten Sie auf drei unterschiedliche Weisen relevante Best Practices, Tipps un
   </tr>
 </tbody>
 </table>
-
-
 
 ## Personalisierte Informationen zu Produkten, Services, Veranstaltungen und Werbeaktionen von Adobe
 
@@ -85,9 +78,6 @@ Sie erhalten auf folgende drei Weisen maßgeschneiderte Angebote für Lernverans
 
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-
-
 
 ## Sehen Sie sich Beispiele an, wie diese maßgeschneiderten Lerninformationen aussehen könnten.
 

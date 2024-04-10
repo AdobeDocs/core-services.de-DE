@@ -1,5 +1,5 @@
 ---
-title: Benutzende und Produkte verwalten
+title: Verwalten von Benutzern und Produkten
 description: Melden Sie sich bei der Admin Console an und verwalten Sie Experience Cloud-Benutzerberechtigungen und -Produkte (Produktprofile). Erfahren Sie mehr über die Zuweisung von Administratorrechten an Experience Cloud-Benutzer und über die Browser-Unterstützung für Experience Cloud.
 solution: Admin
 index: true
@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 807f8a25a58b8416b2db083434dfce84b94954b2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1634'
-ht-degree: 100%
+source-wordcount: '1582'
+ht-degree: 74%
 
 ---
 
-# Verwalten von Experience Cloud-Benutzern und -Produkten
+# Verwalten von Benutzern und Produkten in [!DNL Experience Cloud]
 
 Erfahren Sie mehr über die Anmeldung bei der Admin Console, die Verwaltung von Benutzerberechtigungen und Produktprofilen für Experience Cloud und über die Browser-Unterstützung.
 
@@ -35,11 +35,11 @@ Aktualisiert am **20. Juli 2022**
 
 Adobe aktualisiert seine Bereitstellung, um allen Experience Cloud-Kundinnen und -Kunden Zugang zu grundlegenden Funktionen zu bieten, die die Interoperabilität zwischen einigen Experience Cloud-Produkten unterstützen. Adobe Experience Platform wird als neue Berechtigung den Experience Cloud-Organisationen der Benutzenden hinzugefügt, wobei [!UICONTROL Datenerfassung] als Service enthalten ist.
 
-Die [!UICONTROL Datenerfassung] von Adobe Experience Platform umfasst [Tags](https://experienceleague.adobe.com/docs/tags.html?lang=de) für ein vereinfachtes universelles Tag-Management und bietet eine zuverlässige, robuste und vollständige Infrastruktur für Streaming-Daten. Tags vereinfachen die Datenerfassung für Kundenerlebnisse und optimieren die Bereitstellung von Erlebnissen.
+Die [!UICONTROL Datenerfassung] von Adobe Experience Platform umfasst [Tags](https://experienceleague.adobe.com/en/docs/tags) für ein vereinfachtes universelles Tag-Management und bietet eine zuverlässige, robuste und vollständige Infrastruktur für Streaming-Daten. Tags vereinfachen die Erfassung von Kundenerlebnisdaten und optimieren die Bereitstellung von Erlebnissen.
 
-**Veränderungen in der Admin Console**
+**Änderungen in der[!DNL Admin Console]**
 
-Admins können Änderungen oder Ergänzungen der Admin Console wie folgt anzeigen:
+Admins können Änderungen oder Ergänzungen der Datei sehen. [!DNL Admin Console] wie folgt:
 
 * Die Adobe Experience Platform-Produktkarte in der Admin Console umfasst:
 
@@ -52,7 +52,7 @@ Admins können Änderungen oder Ergänzungen der Admin Console wie folgt anzeige
    * Datenströme
    * Besucher-ID
 
-  Organisationen, die Experience Platform derzeit nicht verwenden, sehen jetzt _Adobe Experience Platform_ in der Admin Console, einschließlich der oben aufgeführten Funktionen.
+  Für Organisationen, die derzeit kein Experience Platform verwenden, sehen Sie jetzt die _Adobe Experience Platform_ Produkt in der [!DNL Admin Console], einschließlich der oben aufgeführten Funktionen.
 
   Für Organisationen, die derzeit Experience Platform verwenden, werden _Places_ jetzt in die Experience Platform-Karte integriert.
 
@@ -60,8 +60,8 @@ Admins können Änderungen oder Ergänzungen der Admin Console wie folgt anzeige
 
 Weitere Informationen zu den neuen Funktionen finden Sie auf den entsprechenden Seiten in der Experience League:
 
-* [Datenerfassung](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de)
-* [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de)
+* [Datenerfassung](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html?lang=de)
+* [Places](https://experienceleague.adobe.com/en/docs/places/using/home)
 * [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=de)
 * [Identity-Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de)
 * [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de)
@@ -75,24 +75,24 @@ Weitere Informationen zu den neuen Funktionen finden Sie auf den entsprechenden 
 
 Ab Februar 2022 aktualisiert Adobe sein Profilverwaltungssystem, damit Unternehmen ihre Unternehmensberechtigungen für einzelne Profile besser verwalten können. Daher werden alle Benutzer mit einem persönlichen Profil, das einer einzelnen Adobe ID (Type1) entspricht, in ein neues Unternehmensprofil migriert. Dieses Profil entspricht einer _Business ID_ (Type2e).
 
-Weitere Informationen zu Identitätstypen finden Sie unter [Identitätstypen in der Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/identity.html).
+Siehe [Identitätstypen auf Adobe [!DNL Admin Console]](https://helpx.adobe.com/de/enterprise/using/identity.html) für Informationen zu Identitätstypen.
 
 ### Migrationsprozess
 
 Wenn Ihre Migration ansteht, erhalten Ihre Organisationsadministratoren 30 Tage vor der Migration eine Benachrichtigungs-E-Mail.
 
 * Die Migration wird für entweder den Zeitraum zwischen 22 Uhr und 6 Uhr Ortszeit basierend auf der Hauptzeitzone Ihres Unternehmens oder für einen Zeitraum am Wochenende geplant.
-* Während der Migration kann der Zugriff auf das Experience Cloud-Programm bis zu etwa 15 Minuten lang unterbrochen werden und die Admin Console ist möglicherweise bis zu 30 Minuten nicht verfügbar. Abgesehen davon verläuft die Migration nahtlos.
+* Während der Migration kann der Zugriff auf die Experience Cloud-Anwendung für ca. 15 Minuten unterbrochen sein. [!DNL Admin Console] kann bis zu 30 Minuten nicht zugänglich sein. Abgesehen davon verläuft die Migration nahtlos.
 
 ### Änderungen nach der Migration
 
-Admin Console
+[!DNL Admin Console]
 
-* Administratoren mit mehreren Konten sehen möglicherweise eine Profilauswahl, wenn sie sich bei der [!UICONTROL Admin Console] anmelden.
-* Benutzer mit individueller Adobe ID werden auf Business ID aktualisiert.
-* Das Business ID-Verzeichnis wird unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Identität]** > **[!UICONTROL Verzeichnisse]** hinzugefügt.
+* Administratoren mit mehreren Konten sehen möglicherweise eine Profilauswahl, wenn sie sich bei anmelden [!DNL Admin Console].
+* Einzelne Adobe ID-Benutzende werden auf Business ID aktualisiert.
+* Das Business ID-Verzeichnis wird hinzugefügt in **[!UICONTROL Einstellungen]** > **[!UICONTROL Identität]** > **[!UICONTROL Verzeichnisse]**.
 
-  ![Admin Console-Identität – Business ID](assets/identity-home.png)
+  ![[!DNL Admin Console] Identität - Business ID](assets/identity-home.png)
 
 ### Anmeldung nach der Migration
 
@@ -104,7 +104,7 @@ Ihr Anmeldeerlebnis ändert sich mit diesem Update nicht:
 
 1. Wenn Sie eine dieser Optionen wählen, gelangen Sie zu einem bereits vorhandenen Landingpage-Erlebnis.
 
-1. Jedem geschäftlichen Abonnement ist ein Adobe-Profil zugeordnet, das die Möglichkeit bietet, in zusätzlichen Adobe Cloud-Angeboten (Creative Cloud und Document Cloud) erstellte Assets zu organisieren.
+1. Jedem Geschäftsplan ist ein Adobe-Profil zugeordnet, das die Möglichkeit bietet, Assets zu organisieren, die aus zusätzlichen Adobe-Cloud-Angeboten (Creative Cloud und Document Cloud) erstellt wurden.
 
 Weitere Informationen finden Sie unter [Einführung in Adobe-Profile](https://helpx.adobe.com/de/enterprise/kb/introducing-adobe-profiles.html).
 
@@ -114,8 +114,8 @@ _[!UICONTROL Produktprofile]_ sind Gruppen von Produkten und Diensten, die Sie B
 
 In Analytics können Sie beispielsweise eine Sammlung von Reporting-Tools wie Analysis Workspace und Report Builder sowie Report Suites, Metriken und Dimensionen konfigurieren. Sie können Berechtigungen für ein Produktprofil erteilen, indem Sie Benutzer zum Profil hinzufügen.
 
-* Weitere Informationen erhalten Sie unter [Zuweisen von Analytics-Zugriffsberechtigungen zu einem Produktprofil](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) auf dieser Seite.
-* Weitere Informationen erhalten Sie unter [Delegieren von administrativen Rollen an Benutzer](#delegate-rights) auf dieser Seite.
+* Siehe [Analytics-Zugriffsberechtigungen einem Produktprofil zuweisen](admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391) auf dieser Seite.
+* Siehe [Delegieren von administrativen Rollen an Benutzer](#delegate-rights) auf dieser Seite.
 
 ## Verwalten von Experience Cloud-Produktprofilen {#task_16335111C52D40E9BAC73D0699584DBF}
 
@@ -123,7 +123,7 @@ Sie können ein Produktprofil erstellen und es einer Berechtigungsgruppe zuweise
 
 Wenn Sie einen Benutzer in eine Organisation einladen, können Sie dem Benutzer Zugriff auf Produkte und Produktprofile gewähren. Sie können auch eingeschränkte Administratorberechtigungen an einen Benutzer delegieren. Gleichermaßen können Sie Benutzergruppen erstellen und die Gruppe dann einem Produktprofil hinzufügen, um den Zugriff zu aktivieren.
 
-1. Klicken Sie in der [Admin Console](https://adminconsole.adobe.com/enterprise/) auf **[!UICONTROL Produkte]**.
+1. In der [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/), auswählen **[!UICONTROL Produkte]**.
 1. Wählen Sie den Namen Ihres Unternehmens aus.
 1. Wählen Sie **[!UICONTROL Neues Profil]** aus.
 1. Konfigurieren Sie die Profildetails und klicken Sie dann auf **[!UICONTROL Speichern]**.
@@ -132,29 +132,30 @@ Weitere Informationen (und Hilfe zur Produktverwaltung für Creative Cloud und D
 
 **Verwandte Hilfe.**
 
-* [Produkte und Profile verwalten](https://helpx.adobe.com/de/enterprise/using/manage-products.html) im Administrations-Benutzerhandbuch.
+* [Verwalten von Benutzern](https://helpx.adobe.com/de/enterprise/using/users.html) in [!DNL Admin Console]
+* [Produkte und Profile verwalten](https://helpx.adobe.com/de/enterprise/using/manage-products.html) in [!DNL Admin Console].
 * [Enterprise-Benutzerberechtigungen](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=de) in der Hilfe zu Adobe Target.
-* Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in der Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=de)
+* Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in Adobe [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=de)
 
 ## Delegieren von administrativen Rollen an Benutzer {#delegate-rights}
 
-In der Admin Console können Sie eingeschränkte Administratorrechte an andere Personen in Ihrem Unternehmen delegieren. Delegierte Rollen ermöglichen es Benutzern, den Softwarezugriff für Endbenutzer zu verwalten, Zugriffsbereitstellungsfunktionen bereitzustellen und als Stellvertreter des Supports zu fungieren.
+in [!DNL Admin Console]Alternativ können Sie eingeschränkte Administratorrechte an andere Personen in Ihrer Organisation delegieren. Delegierte Rollen ermöglichen es Benutzern, den Softwarezugriff für Endbenutzer zu verwalten, Zugriffsbereitstellungsfunktionen bereitzustellen und als Stellvertreter des Supports zu fungieren.
 
 Sie können zum Beispiel:
 
 * Ihren Creative Director Zugriff auf die Creative Cloud gewähren lassen.
-* Ihren Marketing Director Zugriff auf die Experience Cloud gewähren lassen.
+* Erlauben Sie Ihrem Marketing-Leiter, Zugriff auf Experience Cloud zu gewähren.
 * Halten Sie diese beiden Rollen getrennt, damit sie die jeweils andere Rolle nicht überschreiten können.
 
 Mithilfe dieser Rollen können Sie die Verwaltung gleichzeitig an andere delegieren, ohne mehr Funktionen bereitzustellen, als benötigt werden.
 
-1. Klicken Sie in der Admin Console auf **[!UICONTROL Benutzer]** und anschließend auf den entsprechenden Benutzernamen.
+1. In der [!DNL Admin Console], auswählen **[!UICONTROL Benutzer]** und wählen Sie dann den Namen des Benutzers aus.
 
-   ![Administratorrechte in Admin Console](assets/edit-admin-rights.png)
+   ![Administratorrechte in [!DNL Admin Console]](assets/edit-admin-rights.png)
 
 1. Klicken Sie auf **[!UICONTROL Administratorrechte bearbeiten]**.
 
-   ![Administratorrechte in Admin Console bearbeiten](assets/edit-admin-rights-page.png)
+   ![Administratorrechte in bearbeiten [!DNL Admin Console]](assets/edit-admin-rights-page.png)
 
 1. Legen Sie die Administratorrechte des Benutzers fest.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
@@ -165,7 +166,7 @@ Sie können Zugriffsberechtigungen für Analytics-Berichte (Report Suites, Metri
 
 Sie können beispielsweise ein Produktprofil erstellen, das mehrere Analytics-Tools enthält ([!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics] und [!UICONTROL Report Builder]). Diese Profile enthalten Berechtigungen für bestimmte Metriken und Dimensionen (einschließlich eVars) sowie Funktionen wie Segmente oder die Erstellung berechneter Metriken.
 
-1. Melden Sie sich bei der [Admin Console](https://adminconsole.adobe.com/enterprise) an und klicken Sie dann auf **[!UICONTROL Produkte]**.
+1. Beim anmelden [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise)und wählen Sie dann **[!UICONTROL Produkte]**.
 1. Klicken Sie auf der Seite [!UICONTROL Produkte] auf Ihr Produkt und danach auf **[!UICONTROL Berechtigungen]** (nur für Administratoren verfügbar).
 1. Konfigurieren Sie die Profilberechtigungen:
 
@@ -175,22 +176,22 @@ Sie können beispielsweise ein Produktprofil erstellen, das mehrere Analytics-To
 | Metriken | Aktivieren Sie Berechtigungen für Traffic, Konversion, benutzerspezifische Ereignisse, Programmereignisse, Inhaltsbewahrung usw. |
 | Dimensionen | Passen Sie den Benutzerzugriff auf einer granularen Ebene an, einschließlich eVars, Traffic-Berichte, Programmberichte und Pfadberichte. |
 | Report Suite-Tools | Aktivieren Sie Benutzerberechtigungen für Webdienste, Report Suite-Verwaltung, Tools und Berichte sowie Dashboard-Elemente. |
-| Analytics-Tools | Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Abrechnung, Protokolle usw.), Unternehmensverwaltung, Tools, Web-Services, Report Builder und die Data Connectors-Integration. Die Unternehmenseinstellungen aus der Kategorie „Anpassung der Admin Console“ sind nun in den Analytics-Tools zu finden. |
+| Analytics-Tools | Gewähren Sie Benutzern Zugriff auf allgemeine Elemente (Abrechnung, Protokolle usw.), Unternehmensverwaltung, Tools, Web-Services, Report Builder und die Data Connectors-Integration. Unternehmenseinstellungen in der Datei Anpassen [!DNL Admin Console] -Kategorien wurden in die Analytics-Tools verschoben. |
 
 **Migration von Benutzerkonten**
 
-Analytics-Administratoren können Benutzerkonten mithilfe des verfügbaren Analytics-Migrationstools für Benutzer-IDs von der Analytics-Benutzerverwaltung in die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/) migrieren.
+Ein Migrationswerkzeug für Analytics-Benutzer-IDs ist verfügbar, mit dem Analytics-Admins Benutzerkonten von Analytics User Management in das migrieren können [Adobe [!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/).
 
-Die Kontomigration erfolgt für Kunden stufenweise. Adobe wird Sie benachrichtigen und unterstützen, wenn Sie an der Reihe sind, Ihre bestehenden Benutzerkonten von **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** in die Admin Console zu migrieren.
+Die Kontomigration erfolgt für Kunden stufenweise. Adobe wird Sie benachrichtigen und unterstützen, wenn es an der Zeit ist, bestehende Benutzerkonten von zu migrieren. **[!UICONTROL Admin Tools]** > **[!UICONTROL Benutzerverwaltung]** in die [!DNL Admin Console].
 
 Nach der Migration müssen sich Benutzer mithilfe ihrer Adobe ID (oder Enterprise ID) anmelden und sich unter [experience.adobe.com](https://experience.adobe.com) für ihre Experience Cloud-Programme und -Services authentifizieren. Benutzer, die versuchen, sich über die bisherigen Anmeldedaten anzumelden ([!DNL my.omniture.com], [!DNL sc.omniture.com] und [!DNL experiencecloud.adobe.com]), werden an [!DNL experience.adobe.com] weitergeleitet.
 
 **Verwandte Hilfe.**
 
-* [Analytics in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de)
+* [Analytics in der [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=de)
 * [Migration der Analytics-Benutzer-ID](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=de)
 
-## Verwalten von Adobe Target – Produktprofile und Arbeitsbereiche im Vergleich {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target verwalten - Produktprofile und Arbeitsbereiche im Vergleich {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 In Adobe Target ist ein Arbeitsbereich ein Produktprofil. Er ermöglicht einer Organisation das Zuweisen bestimmter Benutzergruppen zu bestimmten Eigenschaftsgruppen. Arbeitsbereiche ähneln auf vielerlei Weise den Report Suites in Adobe Analytics.
 
@@ -198,11 +199,11 @@ Siehe:
 
 * [Berechtigungen für Unternehmensbenutzer](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=de)
 * [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products.html)
-* Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in der Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=de)
+* Video: [Konfigurieren von Adobe Target-Arbeitsbereichen in Adobe [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=de)
 
-## Verwalten von Campaign-Produktprofilen, Mandanten und Sicherheitsgruppen {#section_09CDF75366444CF5810CF321B7C712F3}
+## Campaign – Produktprofile, Mandanten und Sicherheitsgruppen verwalten {#section_09CDF75366444CF5810CF321B7C712F3}
 
-Ein *Mandant* wird in Campaign auf der Seite „Produkte“ in der Admin Console als *Produkt* angezeigt.
+Ein *Mandant* wird in Campaign auf der Seite „Produkte der Admin Console“ als *Produkt* angezeigt.
 
 Die *Sicherheitsgruppe* wird als Produktprofil angezeigt.
 
@@ -214,11 +215,11 @@ Die Experience Platform-[!UICONTROL Datenerfassung] wird auf der Seite [!UICONTR
 
 Laden Sie Benutzende zur [!UICONTROL Platform-Datenerfassung] ein und weisen Sie ihnen Benutzerrollen und -rechte zu.
 
-Informationen zu Benutzerberechtigungen in der Admin Console, einschließlich der Zuweisung von Rechten zu Profilen, finden Sie unter [Benutzerberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de).
+Siehe [Benutzerberechtigungen](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=de) Informationen zu Benutzerberechtigungen finden Sie in der [!DNL Admin Console] und über das Einrichten von Profilberechtigungen.
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-Kunden werden in der Adobe [!UICONTROL Admin Console] als Organisationen dargestellt. Experience Manager-Kunden können die Adobe [!UICONTROL Admin Console] verwenden, um ihre Produktberechtigungen und die IMS-Authentifizierung für Experience Manager as a [!UICONTROL Cloud Service] zu verwalten.
+Adobe Enterprise-Kunden werden in der Adobe als Organisationen dargestellt. [!DNL Admin Console]. Experience Manager-Kunden können die Adobe verwenden [!DNL Admin Console] Verwalten von Produktberechtigungen und IMS-Authentifizierung für Experience Manager as a [!UICONTROL Cloud Service].
 
 Siehe [IMS-Unterstützung für Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=de).
 
@@ -228,7 +229,7 @@ Erstellen Sie Audience Manager-Benutzer und weisen Sie sie Gruppen zu. Sie könn
 
 Siehe [Administration](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=de) in der Hilfe zu Audience Manager.
 
-## Unterstützte Browser in der Experience Cloud
+## Unterstützte Browser in Experience Cloud
 
 * [!DNL Microsoft® Edge] (Microsoft® hat für Internet Explorer 8, 9 und 10 den [Support beendet](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support). Aus diesem Grund werden von Adobe keine Probleme mehr behoben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.)
 * [!DNL Google Chrome]

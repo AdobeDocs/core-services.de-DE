@@ -1,11 +1,11 @@
 ---
 description: Hier erfahren Sie, wie Lösungen und Services in Adobe Experience Cloud Cookies verwenden.
-title: 'Verwenden von Cookies in Experience Cloud '
+title: Verwendung von Cookies beim Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 93%
 
 ---
 

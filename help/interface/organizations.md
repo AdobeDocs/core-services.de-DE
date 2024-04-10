@@ -3,51 +3,51 @@ description: Erfahren Sie mehr über Organisationen (IMS-Organisations-ID) und d
 solution: Experience Cloud
 title: Organisationen und Kontoverknüpfung
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
-feature: Admin Console
+feature: Organizations
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 77%
+source-wordcount: '551'
+ht-degree: 67%
 
 ---
 
 # Organisationen in Experience Cloud
 
-Erfahren Sie mehr über das Verwalten und das Wechseln von Organisationen in Experience Cloud.
+und *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzende zu konfigurieren und Single Sign-on-Experience Cloud zu steuern.
 
-## Organisation identifizieren {#concept_384D169B0B724B799D573B8ECB5C39BF}
+Das Unternehmen agiert als Anmeldeunternehmen, das alle Experience Cloud-Produkte und -Anwendungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
-Ein *Organisation* (Organisations-ID) ist die Entität, mit der ein Administrator Gruppen und Benutzer konfigurieren und Single Sign-on im Experience Cloud steuern kann. Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+![Experience Cloud-Organisationen](assets/organizations-menu.png)
 
-Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf Ihren Profilavatar, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie rechts in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
+Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf Ihren Profilavatar, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
+
+## Federated IDs
 
 Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich durch ein Single Sign-on Ihres Unternehmens bei Experience Cloud anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur Experience Cloud-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
 Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-![Ergebnis des Schritts](assets/organization-switch.png)
+## Organisations-ID anzeigen {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-## Anzeigen Ihrer Organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
-
-Sie können Ihre zugewiesene Organisations-ID zu Supportzwecken suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
+Sie können die zugewiesene Organisations-ID zu Support-Zwecken finden. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
 Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von `@AdobeOrg` (zwingend erforderlich).
 
-Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithilfe des Tastaturbefehls anzeigen **Strg+i** von jeder Seite aus `https://experience.adobe.com`.
+Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithilfe des Tastaturbefehls anzeigen **Strg+I** von jeder Seite unter `https://experience.adobe.com`.
 
 **So zeigen Sie Ihre Organisations-ID an**
 
-1. In [Experience Cloud](https://experience.adobe.com), drücken **Strg+i** auf Ihrer Tastatur.
+1. in [Experience Cloud](https://experience.adobe.com), drücken Sie **Strg+I** auf Ihrer Tastatur.
 
    ![Zugewiesene Organisations-ID](assets/assigned-organization.png)
 
-1. under **[!UICONTROL Benutzerinformationen]**, suchen Sie nach **[!UICONTROL Aktuelle Organisations-ID]** und Sie sehen die Organisations-ID.
+1. Unter **[!UICONTROL Benutzerinformationen]**, suchen Sie nach **[!UICONTROL Aktuelle Organisations-ID]** und Sie sehen die Organisations-ID.
 
-   Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und zeigen Sie Ihre Organisations-ID in der URL an.
+   Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und Ihre Organisations-ID in der URL anzeigen.
 
    Beispielsweise in der folgenden URL:
 
@@ -59,20 +59,24 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
 ## Verknüpfen eines Programmkontos mit einer Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen der Anwendung mit einer Adobe ID verknüpfen.
+In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen eines Programms mit einer Adobe ID verknüpfen.
 
-1. Befolgen Sie die Anweisungen in Ihrer E-Mail-Einladung zur Experience Cloud.
+1. Führen Sie die Schritte in Ihrer E-Mail-Einladung zum Experience Cloud aus.
+
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
-1. Wählen Sie den Anwendungsselektor aus. ( ![Menü](assets/menu-icon.png)).
+
+1. Wählen Sie die Programmauswahl aus. ( ![Menü](assets/menu-icon.png)).
 
    ![Verknüpfen eines Programmkontos mit einer Adobe ID](assets/solutions-active.png)
 
    Die Programme, auf die Sie Zugriff haben, sind farbig dargestellt.
+
 1. Wählen Sie das gewünschte Programm aus.
 
    ![Wählen Sie das gewünschte Programm aus](assets/analytics-link-accounts.png)
 
    Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldeinformationen jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
+
 1. Klicken Sie auf **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
 
 ## Standardorganisation und -Landingpage festlegen {#concept_6A191B42A9874A9780882903BA18F071}

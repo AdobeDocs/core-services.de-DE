@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '677'
 ht-degree: 97%
 
 ---
@@ -49,7 +49,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
-1. Wählen Sie im Experience Cloud ![Menü](assets/menu-icon.png), wählen Sie **[!UICONTROL Datenerfassung/Launch]**.
+1. Wählen Sie in Experience Cloud ![Menü](assets/menu-icon.png)und wählen Sie dann **[!UICONTROL Datenerfassung/Launch]**.
 2. Wählen Sie in der Karte [!UICONTROL Triggers] die Option **[!UICONTROL Triggers verwalten]** aus.
 3. Wählen Sie **[!UICONTROL Neuer Trigger]** aus und geben Sie dann den Trigger-Typ an:
 
@@ -66,7 +66,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
    | [!UICONTROL Container] | In [!UICONTROL Containern] legen Sie Regeln, Bedingungen oder Filter zum Definieren eines Triggers fest und speichern diese. Wenn Sie Ereignisse gleichzeitig auftreten sollen, platzieren Sie sie im selben Container. Dies bedeutet, dass jeder Behälter unabhängig auf der Trefferebene arbeitet. Wenn Sie beispielsweise zwei Behälter mit dem Operator AND verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
    | Neue Sitzung starten nach | Erstellen Sie einen Trigger für die Ereignisse zum Sitzungsbeginn und Sitzungsende. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. Wählen Sie **[!UICONTROL Speichern]** aus.
 6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=de) in [!DNL Adobe Campaign].
@@ -83,6 +83,6 @@ Die folgende Seite zeigt beispielsweise Regeln, die Sie für einen Trigger [!UIC
 
 #### Referrer-Trigger
 
-Der folgende Trigger wird ausgelöst, wenn ein Treffer mit dem Produkt „Herrenstiefel“ und Referrer „Facebook“ eingeht. Für die beiden Kriterien (*Produkte* und *Referrer*), die für denselben Treffer zu bewerten sind, sollten sie demselben Container hinzugefügt werden.
+Der folgende Trigger wird ausgelöst, wenn ein Treffer mit dem Produkt „Herrenstiefel“ und Referrer „Facebook“ eingeht. Für die beiden Kriterien (*Produkte* und *Referrer*), die für denselben Treffer auszuwerten sind, sollten sie demselben Container hinzugefügt werden.
 
 ![Referrer-Trigger](assets/fb-boots-promo.png)

@@ -1,21 +1,21 @@
 ---
-title: 'Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO) '
+title: '"[!DNL Customer Attributes] Unterstützung der Datenschutz-Grundverordnung“'
 description: Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 77%
 
 ---
 
-# Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
+# [!DNL Customer Attributes] Unterstützung der Datenschutz-Grundverordnung
 
-Auf dieser Seite wird beschrieben, wie [!UICONTROL Kundenattribute] die Datenschutz-Grundverordnung (DSGVO) unterstützen.
+Auf dieser Seite wird beschrieben, wie [!DNL Customer Attributes] unterstützt die Datenschutz-Grundverordnung (DSGVO).
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ Die [Datenschutz-Grundverordnung](https://business.adobe.com/de/privacy/general-
 
 Adobe Experience Cloud fungiert als Auftragsverarbeiter für alle personenbezogenen Daten, die es im Auftrag seiner Kunden empfängt und speichert. Als Datenverantwortlicher legen Sie fest, welche personenbezogenen Daten Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
-In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die DSGVO-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützen.
+In diesem Dokument wird beschrieben, wie [!DNL Customer Attributes] unterstützt die DSGVO-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Privacy Service-Benutzeroberfläche.
 
 Weitere Informationen darüber, was die DSGVO für Ihr Unternehmen bedeutet, finden Sie unter [DSGVO und Ihr Unternehmen](https://business.adobe.com/de/privacy/general-data-protection-regulation.html).
 
-## Erforderliche Einrichtung zum Senden von Anfragen für [!UICONTROL Kundenattribute]
+## Erforderliche Einrichtung zum Senden von Anfragen für [!DNL Customer Attributes]
 
-Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattributen] zu stellen, ist Folgendes erforderlich:
+So stellen Sie Anfragen zum Zugreifen auf und Löschen von Daten für [!DNL Customer Attributes], müssen Sie:
 
 1. Sie benötigen:
 
@@ -41,9 +41,9 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattrib
 
    Ihre [Organisations-ID](#organizations.md) ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Sie benötigen die Organisations-ID, um Anfragen an die Datenschutz-API zu senden. Wenden Sie sich an die Kundenunterstützung von Adobe unter `gdprsupport@adobe.com`, wenn Sie die ID nicht finden können.
 
-1. In [!UICONTROL Privacy Service] können Sie Zugriffs- und Löschanfragen an Kundenattribute senden und den Status vorhandener Anfragen überprüfen.
+1. in [!UICONTROL Privacy Service]können Sie Zugriffs- und Löschanfragen an senden. [!DNL Customer Attributes], und überprüfen Sie den Status vorhandener Anfragen.
 
-## Erforderliche Feldwerte in JSON-Anfragen für [!UICONTROL Kundenattribute]
+## Erforderliche Feldwerte in [!DNL Customer Attributes] JSON-Anfragen
 
 &quot;company context&quot;:
 
@@ -54,7 +54,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattrib
 
 * &quot;key&quot;: &lt;*gewöhnlich der Name des Kunden*>
 
-* &quot;action&quot;: entweder **Zugriff** (access) oder **Löschen** (delete)
+* &quot;action&quot;: entweder **Zugriff** oder **Löschen**
 
 * &quot;user IDs&quot;:
 
@@ -105,8 +105,8 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattrib
 ```
 attributes:
 {
-"value”:<*value*>,
-"key”:<*key*>,
-"displayName”:<*displayName*>
+"value":<*value*>,
+"key":<*key*>,
+"displayName":<*displayName*>
 }
 ```

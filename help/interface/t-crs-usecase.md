@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 94%
+source-wordcount: '1122'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Sobald die Datenquelle aktiv ist, können Sie folgende Aufgaben ausführen:
 
 >[!IMPORTANT]
 >
->Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Falls *Kundenattribute* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
+>Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil „Kundenattribute“ zugewiesen sein (Kundenattribute – Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *Kundenattribute* wird als eine der folgenden angezeigt [!UICONTROL Produktprofile], Sie sind bereit zu beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
 >
 >Um die Kundenattribut-Funktion verwenden zu können, müssen Benutzer auch zu Gruppen auf Programmebene (Analytics oder [!DNL Target]) gehören.
 
@@ -60,13 +60,13 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
 
 ## Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen“ der Experience Cloud aus.
+Führen Sie diese Schritte auf der Seite Neue Kunden-Attributquelle erstellen in Experience Cloud durch.
 
 >[!IMPORTANT]
 >
 >Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es bis zu einer Stunde, bis die IDs mit der neuen Datenquelle synchronisiert werden. Sie müssen über Administratorrechte in Audience Manager verfügen, um Kundenattributquellen zu erstellen oder zu ändern. Wenden Sie sich an die Audience Manager-Kundenunterstützung oder -Beratung, um Administratorrechte zu erhalten.
 
-1. Im [!DNL Experience Cloud], wählen Sie das Menü aus  ![Menü](assets/menu-icon.png) Symbol.
+1. In der [!DNL Experience Cloud]wählen Sie anschließend das Menü aus.  ![Menü](assets/menu-icon.png) Symbol.
 1. Klicken Sie unter **[!DNL Experience Platform]** auf **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**.
 
    Auf der Seite [!UICONTROL „Kundenattribute“] können Sie vorhandene Datenattributquellen verwalten und bearbeiten.
@@ -81,7 +81,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Quelle des Datenattributs.
 
-   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. Die [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der im [!UICONTROL Alias-ID] -Feld für eine Kundenattributquelle in Experience Cloud sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript des Mobile SDK).
+   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. Die [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der in den [!UICONTROL Alias-ID] Das Feld für eine Kundenattributquelle auf Experience Cloud sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript des Mobile SDK).
 
      Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
@@ -120,7 +120,7 @@ Führen Sie diese Schritte auf der Seite „Neue Kunden-Attributquelle erstellen
 
      **Grafik zum Datei-Upload**
 
-     ![attributes](assets/file_upload_attributes.png)
+     ![Attribute](assets/file_upload_attributes.png)
 
    * **[!UICONTROL Unique-Customer-ID:]** Zeigt an, wie viele eindeutige IDs Sie in diese Attributquelle hochgeladen haben.
 
@@ -145,7 +145,7 @@ So löschen Sie Attribute und ersetzen Attribute im Schema.
 
 ## Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-Beim Konfigurieren eines Abonnements wird der Datenfluss zwischen Experience Cloud und Programmen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Programme übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
+Durch die Konfiguration eines Abonnements wird der Datenfluss zwischen Experience Cloud und Programmen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Programme übertragen werden. Die von Ihnen hochgeladenen Kundendatensätze werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
 Siehe [Konfigurieren von Abonnements](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 
@@ -163,7 +163,7 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 ![Analytics-Segment basierend auf den hochgeladenen Attributen](assets/08_crs_usecase.png)
 
-Wenn Sie ein Segment in Experience Cloud veröffentlichen, wird es in den Experience Cloud-Zielgruppen und in Audience Manager verfügbar.
+Wenn Sie ein Segment auf Experience Cloud veröffentlichen, wird es in Experience Cloud Audiences und im Audience Manager verfügbar.
 
 ## Kundenattribute in Adobe Target verwenden {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 

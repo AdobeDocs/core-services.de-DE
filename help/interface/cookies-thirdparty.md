@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -45,4 +45,4 @@ In der folgenden Liste wird erläutert, wie sich der Support von Drittanbieter-C
    * Die Remarketing-Anzeige hängt heute vollständig von der Verwendung von Drittanbieter-Cookies ab.
    * Die Anzeige ist auch stark von der Verfügbarkeit verschiedener Werbenetzwerk-Cookies für die Synchronisierung abhängig.
    * Die Gesamtauswirkung ist nicht bekannt. Die Anzeige wird jedoch vom ersten Punkt an stärker beeinflusst als andere Dienste.
-   * Adobe arbeitet intern und mit seinen Werbepartnern zusammen, um die vollständigen Auswirkungen auf das Senden von Werbeanzeigen zu bewerten.
+   * Adobe arbeitet intern und mit seinen Werbepartnern zusammen, um die vollständigen Auswirkungen auf das Senden von Werbeanzeigen auszuwerten.

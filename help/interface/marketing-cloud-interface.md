@@ -1,19 +1,19 @@
 ---
-description: Erfahren Sie mehr über neue Funktionen und Updates im Experience Cloud.
+description: Erfahren Sie mehr über neue Funktionen und Updates in Experience Cloud.
 solution: Experience Cloud
-title: Neue Funktionen in der Experience Cloud
+title: Neue Funktionen in Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 98%
+source-wordcount: '628'
+ht-degree: 87%
 
 ---
 
 
-# Neue Funktionen in der Experience Cloud
+# Neue Funktionen in Experience Cloud
 
-Ein Überblick über neue Funktionen und Aktualisierungen in der Experience Cloud
+Eine Übersicht über neue Funktionen und Updates in Experience Cloud.
 
 ## August 2018 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
@@ -28,7 +28,7 @@ Fehlerkorrekturen und Verbesserungen für August 2018
 
 Fehlerkorrekturen und Verbesserungen für Juli 2018
 
-* Implementierung einer Backend-Lösung, um die Freigabe von Assets zwischen Experience Cloud-to-AEM und Experience Cloud-to-Creative Cloud zu steuern. (CORE-14386)
+* Bereitstellung einer Backend-Lösung, um die Freigabe von Assets zwischen Experience Cloud-to-AEM und Experience Cloud-to-Creative Cloud zu steuern. (CORE-14386)
 * Behebung eines Fehlers, aufgrund dessen die Bereitstellung neuer Mandanten in einigen Umgebungen blockiert wurde. (CORE-15509)
 * Es wurde ein Problem behoben, durch das Benutzer zu [!DNL experiencecloud.adobe.com] weitergeleitet wurden, während sie auf [!DNL experiencecloud.adobe.com] über [!DNL http] statt [!DNL https] (geschützt) zugegriffen haben. (CORE-15587)
 * Es wurde ein Problem behoben, durch das Benachrichtigungen für einige neue Mandanten blockiert wurden. (CORE-15240)
@@ -48,9 +48,9 @@ Für die Benutzeroberfläche der [!DNL Adobe Experience Cloud] gibt es folgende 
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Neue Landingpage für die Administration | Wenn Sie sich bei Experience Cloud anmelden und zur Seite „Administration“ navigieren, steht eine neue intuitive Benutzeroberfläche zur Verfügung, über die Sie schnell auf Ihre Experience Cloud-Programme und zentrale Services zugreifen können. |
+| Neue Landingpage für die Administration | Wenn Sie sich beim Experience Cloud anmelden und zur Seite Administration navigieren, steht eine neue intuitive Benutzeroberfläche zur Verfügung, über die Sie schnell auf Ihre Experience Cloud-Anwendungen und Core Services zugreifen können. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Fehlerbehebungen**
 
@@ -71,16 +71,16 @@ Viele der Wartungsbenachrichtigungen rund um geplante Wartungs-/Produktaktualisi
 | Benachrichtigungen – Wartungsbenachrichtigungen | In den Benachrichtigungseinstellungen können Sie Wartungsbenachrichtigungen für Produkte und Programme aktivieren. |
 | Admin Console für Experience Cloud-Lösungen | Neue Experience Cloud-Kunden können mit der Admin Console beginnen, einem zentralen Speicherort für die Verwaltung Ihrer Adobe-Berechtigungen in Ihrer gesamten Organisation.<br>Die Migration der Benutzerverwaltung in die Admin Console wird in mehreren Wellen durchgeführt. Adobe kontaktiert Sie (die Systemadministratoren), wenn die Zeit für Ihre Migration gekommen ist.<br>Analytics-Administratoren, siehe [Analytics-Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=de). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 22. Mai 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  Wenn Sie für eine einzelne Organisation <br>[Report Suites zuordnen](core-services.md), hilft Ihnen das beim Aktivieren programmübergreifender Funktionen und Services in Experience Cloud. |
+| Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  <br>[Zuordnen von Report Suites](core-services.md) Durch die Verwendung von in einer einzigen Organisation können programmübergreifende Funktionen und Services in Experience Cloud aktiviert werden. |
 | Aktualisierungen für Experience Cloud-Zielgruppen | **Report Suites anwenden**<br> Sie können eine Report Suite nun auf alle Ihre [Zielgruppen-Regeln](t-audience-create.md) anwenden. (Zuvor war es nur möglich, in jeder einzelnen Regeldefinition eine Report Suite festzulegen.) <br>**Eigenschaften und Variablen**<br> Sie können nun Analytics-Eigenschaften und Standardvariablen (zusätzlich zu eVars und Ereignissen) in Echtzeit-Zielgruppen einbeziehen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 8. November 2016 - 16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
@@ -88,7 +88,7 @@ Viele der Wartungsbenachrichtigungen rund um geplante Wartungs-/Produktaktualisi
 |--- |--- |
 | Aktualisierung für Profil und Kennwörter | Benutzer können unter Persönliche Informationen in Profil bearbeiten > Profil und Kennwort IMS-Benutzerprofilinformationen nicht mehr bearbeiten. Stattdessen werden Benutzer zu `accounts.adobe.com` umgeleitet. Diese Aktualisierung gilt für alle Identitätstypen (Adobe ID, Enterprise und Federated). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Fehlerbehebungen**
 

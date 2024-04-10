@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 97%
 
 ---
 
 # Aktualisierungen der Dokumentation – Experience Cloud
 
-Informationen zu den Aktualisierungen der Experience Cloud-Produktdokumentation.
+Informationen zu Aktualisierungen der Experience Cloud-Produktdokumentation.
+
+**Aktualisiert: 4/9/2024**
+
+Allgemeine Updates.
 
 **Aktualisiert am 28.2.2022**
 
@@ -42,7 +46,7 @@ Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen d
 
 | Funktion | Beschreibung |
 | ------- | ------- |
-| Einheitliche Suche | Unified Search fügt dem Suchindex weiterhin Objekttypen hinzu. In diesem Update durchsucht die globale Suche jetzt Experience League-Inhalte und die folgenden Journey Optimizer-Objekttypen: <ul><li>Datensätze</li><li>Ziele</li><li>Abfragen</li><li>Schemas</li><li>Segmente</li><li>Quellen</li><li>Angebote</li><li>Komponenten</li><li>Nachrichten</li><li>Journeys</li></ul> |
+| Einheitliche Suche | Unified Search fügt dem Suchindex weiterhin Objekttypen hinzu. In diesem Update durchsucht die globale Suche jetzt Experience League-Inhalte und die folgenden Journey Optimizer-Objekttypen: <ul><li>Datensätze</li><li>Ziele</li><li>Abfragen</li><li>Schemata</li><li>Segmente</li><li>Quellen</li><li>Angebote</li><li>Komponenten</li><li>Nachrichten</li><li>Journeys</li></ul> |
 | Zustimmung zu den Produktverwendungsdaten | Nach der ersten Anmeldung werden Sie aufgefordert, Voreinstellungen einzureichen, um zu erfahren, wie Adobe Sie mithilfe von hilfreichen, personalisierten Inhalten wie Tutorials, Handbücher, Quick Tipps, Empfehlungen, Lernvideos und mehr versorgen kann. Diese basieren auf den Nutzungsdaten Ihres Experience Cloud-Produkts. Diese Anfrage enthält auch eine Aktualisierung Ihrer Voreinstellungen für die Erfassung und Verwendung dieser Daten unter <https://experience.adobe.com/preferences>. |
 
 **Aktualisiert: 24.08.2021**

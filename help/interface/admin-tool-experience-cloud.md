@@ -1,23 +1,23 @@
 ---
-description: Lernen Sie das Experience Cloud Admin-Tool kennen. Zeigen Sie eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien an.
+title: Anzeigen von Benutzern und Benutzerdetails
+description: Erfahren Sie mehr über das Admin-Tool in Experience Cloud. Eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien anzeigen.
 application: Experience Cloud
-title: Anzeigen von Experience Cloud-Benutzern und -Benutzerdetails
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 94%
+source-wordcount: '1270'
+ht-degree: 83%
 
 ---
 
-# Anzeigen von Experience Cloud-Benutzern und -Richtlinien im Admin-Tool
+# Anzeigen von Experience Cloud-Benutzern und -Richtlinien in der [!UICONTROL Admin-Tool]
 
-Administratoren können im Admin-Tool eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details anzeigen. Zu den Benutzerdetails gehören der Produktzugriff, die Rollen und die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Produktprofil) sowie detaillierte Informationen zu Berechtigungen und Ressourcen für die Richtlinie.
+Administratoren können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details in der Datei anzeigen. [!UICONTROL Admin-Tool]. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören die Benutzenden-, Gruppen-, Entwickler-, Integrations- und Admin-Liste einer Richtlinie (Produktprofil) sowie detaillierte Berechtigungen und Ressourceninformationen für die Richtlinie.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Administratoren können im Admin-Tool eine sortierbare und filterbare Liste alle
 
    ![Zugriff auf Admin Console](assets/admin-tool.png)
 
-1. Wählen Sie unter [!UICONTROL Schnellzugriff] die Option **[!UICONTROL Admin-Werkzeug]** aus.
+1. Unter [!UICONTROL Schnellzugriff], klicken Sie auf **[!UICONTROL Admin-Tool]**.
 
    (Alternativ können Sie in der Startseiten-URL _home_ durch _admin_ ersetzen.)
 
@@ -45,7 +45,7 @@ Auf dieser Seite wird die vollständige Liste der Benutzer mit Zugriff auf Exper
 | [!UICONTROL E-Mail] | Die mit dem Benutzer verknüpfte E-Mail-Adresse. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
 | [!UICONTROL ID-Typ] | Der Identitätstyp für das Konto des Benutzers. Es können Filter angewendet werden, um spezielle ID-Typen anzuzeigen. Weitere Informationen finden Sie unter [Verwalten von Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html). |
 | [!UICONTROL Lösungen] | Zusammenfassung der Experience Cloud-Programme, auf die der Benutzer zugreifen kann. Sie können Filter anwenden, um die Liste auf Benutzer mit Zugriff auf bestimmte Programme einzuschränken. |
-| [!UICONTROL Letzte Anmeldung] | Uhrzeit und Datum der letzten Benutzeranmeldung bei der Experience Cloud. Diese Spalte kann nach auf- oder absteigenden Datumsangaben sortiert werden. <br> **Wichtig:** Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Aktivität bei der Anmeldung in Experience Cloud anzeigen und sie dienen nicht als Empfehlung, vor dem 13. Januar 2020 Maßnahmen für inaktive Konten zu ergreifen. |
+| [!UICONTROL Letzte Anmeldung] | Uhrzeit und Datum der letzten Benutzeranmeldung beim Experience Cloud. Diese Spalte kann nach auf- oder absteigenden Datumsangaben sortiert werden. <br> **Wichtig:** Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Anmeldeaktivität in Experience Cloud anzeigen und keine Empfehlung für Maßnahmen bei inaktiven Konten vor dem 13. Januar 2020 sein. |
 
 ## Anpassen der Benutzerlistenansicht
 
@@ -67,7 +67,7 @@ Wählen Sie auf der Seite [!UICONTROL Benutzer] die E-Mail-Adresse eines Benutze
 
 ![Anzeigen von Benutzerdetails in Admin Console](assets/admin-tool-user-details.png)
 
-Eine detaillierte Ansicht der einzelnen Benutzer enthält wichtige Details zum Anwendungszugriff, zu Admin- und Produktrollen sowie zu den zuletzt aufgerufenen Informationen.
+Eine detaillierte Ansicht jedes Benutzers zeigt wichtige Details zum Programmzugriff, zu den Admin- und Produktrollen sowie zu den zuletzt aufgerufenen Informationen des Benutzers an.
 
 ## Abschnitt „Info“
 
@@ -77,7 +77,7 @@ In diesem Abschnitt wird eine Zusammenfassung des Benutzerkontos angezeigt, eins
 * Name
 * E-Mail
 * Benutzername (bei Konten mit Federated ID können Benutzernamen von der E-Mail-Adresse abweichen)
-* [ID-Typ](https://helpx.adobe.com/enterprise/using/identity.html)
+* [ID-Typ](https://helpx.adobe.com/de/enterprise/using/identity.html)
 * Land
 * Letzte Anmeldung
 
@@ -116,7 +116,7 @@ Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtl
 Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste anzupassen.
 
 * Suchen Sie nach Produktprofilen mit dem Namen. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
-* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Dies Sortierung gilt für die Spalten [!UICONTROL Produktprofil], [!UICONTROL Produkt], [!UICONTROL Instanz], [!UICONTROL Anzahl der Benutzer], und [!UICONTROL Anzahl der Entwickler].
+* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Diese Sortierung gilt für [!UICONTROL Produktprofil,] [!UICONTROL Produkt,] [!UICONTROL Instance,] [!UICONTROL Anzahl der Benutzer,] und [!UICONTROL Anzahl der Entwickler,] Spalten.
 * Wählenn Sie das Symbol **[!UICONTROL Filtern nach]** aus, um mehrere Filter anzuwenden und Produktprofile mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge Gruppen, die mit der `AND` Instanzlösung `AND` verknüpft sind.
 
 | Element | Beschreibung |
@@ -130,7 +130,7 @@ Wählen Sie auf der Seite [!UICONTROL Richtlinien] den Produktprofilnamen aus, u
 
 ![Richtliniendetails in Admin Console anzeigen](assets/admin-tool-policy-detail.png)
 
-Eine detaillierte Ansicht jedes Produktprofils zeigt wichtige Details zu den Betreffen des Produktprofils (Benutzer, Gruppen usw.) an. Außerdem werden Zugriffsberechtigungen und Ressourcen angezeigt, die vom Produktprofil aktiviert wurden.
+Eine detaillierte Ansicht der einzelnen Produktprofile enthält wichtige Details zu den Themen des Produktprofils (Benutzer, Gruppen usw.). Außerdem werden Zugriffsberechtigungen und Ressourcen angezeigt, die vom Produktprofil aktiviert wurden.
 
 Details des Produktprofils können in CSV-Dateien exportiert werden. Bei der Option [!UICONTROL CSV exportieren] werden zwei CSV-Dateien erzeugt:
 
@@ -163,3 +163,7 @@ Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergrupp
 ## Detaillierte Listen zu Berechtigungen und Ressourcen
 
 Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Produktprofil verfügbar sind. Berechtigungen und Ressourcen, die im Produktprofil enthalten sind, sind mit einem ✔ gekennzeichnet. Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten geordnet. Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
+
+## Ergänzende Informationen
+
+* [Verwalten von Benutzern](https://helpx.adobe.com/de/enterprise/using/users.html) in der [!DNL Admin Console]

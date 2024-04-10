@@ -1,16 +1,16 @@
 ---
 description: Hier erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seitenladezeit bei verschiedenen Programmen und Services in Experience Cloud zu reduzieren.
 solution: Experience Cloud
-title: Verwendung des DNS-Vorabrufs für verschiedene Programme und Services
+title: Verwenden des DNS-Vorabrufs mit verschiedenen Anwendungen und Diensten
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 95%
+source-wordcount: '372'
+ht-degree: 93%
 
 ---
 
@@ -20,11 +20,11 @@ Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Progr
 
 ## Vorstellung des DNS-Vorabrufs {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit ihren entsprechenden IP-Adressen verknüpft sind, automatisch aufzulösen. Der Vorabrufprozess beginnt, wenn der Browser eine Webseite lädt. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. Lädt ein Browser diese Seite, nutzt er das [DNS-System](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/), um den verlinkten Domänennamen zu suchen und ihn in die zugehörige numerische IP-Adresse umzuwandeln. Der DNS-Vorabruf trägt zur Verbesserung der Seitenleistung bei, da der Domänenname bereits in eine IP-Adresse aufgelöst wird, bevor ein Site-Besucher auf diesen Link oder diese Schaltfläche klickt. Der DNS-Vorabrufprozess ist für die Benutzer transparent.
+Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit ihren entsprechenden IP-Adressen verknüpft sind, automatisch aufzulösen. Der Vorabrufprozess beginnt, wenn der Browser eine Webseite lädt. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. Lädt ein Browser diese Seite, nutzt er das [DNS-System](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/), um den verlinkten Domänennamen zu suchen und ihn in die zugehörige numerische IP-Adresse umzuwandeln. Der DNS-Vorabruf trägt zur Verbesserung der Seiten-Performance bei, da der Domänenname bereits in eine IP-Adresse aufgelöst wird, bevor ein Site-Besucher auf diesen Link oder diese Schaltfläche klickt. Der DNS-Vorabrufprozess ist für die Benutzer transparent.
 
 ## DNS-Vorabruf und Adobe Experience Cloud-Programme {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL Experience Cloud] Anwendungen und Dienste aus folgenden Gründen:
+Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen Inhalten funktioniert [!UICONTROL Experience Cloud] Anwendungen und Services aus folgenden Gründen:
 
 * Jedes Programm und jeder Service von Experience Cloud generiert beim Laden der Seite dynamisch DNS-Aufrufe.
 * Der Browser kann Domain-Namen nicht in IP-Adressen auflösen, bevor diese Aufrufe durchgeführt werden.
@@ -45,7 +45,7 @@ In den folgenden Beispielen wird dargestellt, wie Sie DNS-Vorabrufe an unterschi
 
 * **Dynamischer Tag-Manager** (DTM): nicht erforderlich. DTM-Links sind verfügbar, wenn die Seite geladen wird.
 
-* **Advertising Cloud:**
+* **Advertising Cloud:**
 
    * `<link rel="dns-prefetch" href="//pixel.everesttech.net">`
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`

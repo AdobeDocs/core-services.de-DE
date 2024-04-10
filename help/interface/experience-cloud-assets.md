@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '358'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche,
 
 >[!NOTE]
 >
->Assets müssen aus Adobe Target-Aktivitäten entfernt werden, bevor Sie sie erfolgreich aus löschen können. [!DNL Target].
+>Assets müssen aus Adobe Target-Aktivitäten entfernt werden, bevor sie erfolgreich aus gelöscht werden können. [!DNL Target].
 
 ## Assets bearbeiten {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

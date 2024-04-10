@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
@@ -40,12 +40,12 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 * Abschnitt „Home &amp; Garden“, der von Seitendaten oder Analyse-Rohdaten abgeleitet wurde.
 * Chrome- und Safari-Benutzer, die einem [!DNL Adobe Analytics]-Segment entnommen wurden, das in der [!DNL Experience Cloud] [veröffentlicht](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) wurde.
 
-   ![Erstellen der Regeln für eine gemischte Zielgruppe](assets/audience_create.png)
+  ![Erstellen der Regeln für eine gemischte Zielgruppe](assets/audience_create.png)
 
 **Erstellen einer Zielgruppe**
 
 1. Wählen Sie in [!DNL Experience Cloud], unter [!DNL Experience Platform] die Option **[!UICONTROL People]** > **[!UICONTROL Zielgruppen-Bibliothek].**.
-1. Wählen Sie auf der Seite [!UICONTROL Zielgruppen] die Option **[!UICONTROL Neu]** aus. ![add](assets/add_icon_small.png)
+1. Auf der [!UICONTROL Zielgruppen] Seite, auswählen **[!UICONTROL Neu]**. ![hinzufügen](assets/add_icon_small.png)
 
    ![Schritt Ergebnis](assets/audience_create_new.png)
 
@@ -55,7 +55,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
    * **[!UICONTROL Daten von Real-Time Analytics:]** Hierbei handelt es sich um Attributdaten, die aus Bildanfragen in Real-Time Analytics gewonnen werden und Daten wie eVars und Ereignisse enthalten. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
    >[!NOTE]
    >
-   >Aufgrund der Caching-Funktion wird die Löschung von Report Suites in Analytics erst nach 12 Stunden durch Experience Cloud übernommen.
+   >Aufgrund der Zwischenspeicherung benötigen gelöschte Report Suites in Analytics 12 Stunden, bevor die Löschung im Experience Cloud angezeigt wird.
 
    * **[!UICONTROL Experience Cloud:]** Aus [!DNL Experience Cloud]-Quellen abgeleitete Attributdaten. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 

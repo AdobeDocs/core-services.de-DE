@@ -1,16 +1,16 @@
 ---
 description: Hier erfahren Sie, wie Sie eine oder mehrere Report Suites einer Organisation in Experience Cloud zuweisen.
-title: 'Report Suites einer Organisation zuweisen '
+title: Report Suites einer Organisation zuordnen
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
-workflow-type: ht
-source-wordcount: '1131'
-ht-degree: 100%
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
+workflow-type: tm+mt
+source-wordcount: '1118'
+ht-degree: 89%
 
 ---
 
@@ -65,7 +65,7 @@ Dieser Abschnitt enthält Tipps zur Auswahl der Experience Cloud-Organisation, d
 
 Wird der Experience Cloud ID-Service auf der Report Suite bereitgestellt, stellen Sie sicher, dass Sie im Zuordnungs-Tool für Report Suites dieselbe Organisation auswählen, die auch in der Datei [!DNL visitorAPI.js] auf Ihrer Site angegeben ist. Sie können die im Abschnitt zum [Testen und Verifizieren des Experience Cloud ID-Dienstes](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) beschriebenen Anweisungen verwenden, um die Organisations-ID zu ermitteln, die vom Besucher-ID-Dienst genutzt wird.
 
-Stellen Sie sicher, dass Ihre Implementierung mit der im Zuordnungs-Tool für Report Suites ausgewählten Organisation übereinstimmt.
+Stellen Sie sicher, dass Ihre Bereitstellung mit der im Zuordnungs-Tool für Report Suites ausgewählten Organisation übereinstimmt.
 
 ### Warum sind einige Organisationen ausgegraut?
 
@@ -89,19 +89,19 @@ Unter den folgenden Punkten werden die Zuordnungsaktionen aufgelistet, die diese
 
 ## Häufig gestellte Fragen {#section_099E485805994C929FF9C9F75219BEE1}
 
-### Warum werden nicht alle meine Report Suites angezeigt?
+### Warum sehe ich nicht alle meine Report Suites?
 
 Einige Ihrer Report Suites werden möglicherweise unter einer anderen Unternehmensanmeldung angezeigt. Sie können die aktuelle Unternehmensanmeldung über die Dropdown-Liste am oberen Bildschirmrand ändern.
 
-### Was geschieht, wenn ich einige der in der Dropdown-Liste für eine meiner Report Suites aufgelisteten Organisationen nicht kenne?
+### Was passiert, wenn ich einige der in der Dropdown-Liste für eine meiner Report Suites aufgeführten Organisationen nicht erkenne?
 
-In der Liste sind alle *möglichen* Organisationen aufgeführt, denen die Report Suite zugewiesen werden kann, selbst wenn Sie nicht über die nötigen Berechtigungen für die Zuweisung zu all diesen Report Suites verfügen. Wenn Sie nicht sicher sind, ob die Report Suite einer der ausgegrauten Report Suites in der Liste zugeordnet werden soll, wenden Sie sich an einen Experience Cloud-Administrator in Ihrer Organisation, um die beste Auswahl zu bestimmen.
+Die Liste zeigt Ihnen alle *möglich* Organisationen, denen Ihre Report Suite zugeordnet werden kann, auch wenn Sie nicht über die Berechtigung zum Zuordnen zu all diesen Report Suites verfügen. Wenn Sie nicht sicher sind, ob die Report Suite einer der ausgegrauten Report Suites in der Liste zugeordnet werden soll, wenden Sie sich an einen Experience Cloud-Administrator in Ihrer Organisation, um die beste Auswahl zu bestimmen.
 
-### Was geschieht, wenn ich einige der aufgelisteten Unternehmensanmeldungen für eine Report Suite in der Spalte „Sichtbare Firmen bei der Anmeldung“ nicht erkenne?
+### Was passiert, wenn ich einige der für eine Report Suite in der Spalte „Sichtbar für angemeldete Unternehmen“ aufgelisteten Unternehmensanmeldungen nicht erkenne?
 
 Irgendwann wurde diese Report Suite für ein anderes Unternehmen freigegeben, die möglicherweise Teil einer anderen Experience Cloud-Organisation ist.
 
-### Was bedeutet die Fehlermeldung über einen möglichen Konflikt bei einer Report Suite, die von einer anderen Organisation generiert wurde? Warum ist das wichtig?
+### Was bedeutet dieser Fehler „Möglicher Konflikt„, wenn die Report Suite von einer anderen Organisation generiert wird? Warum ist das wichtig?
 
 Diese Benachrichtigung unterstützt Sie bei einer fundierten Entscheidung bezüglich der Zuordnung Ihrer Report Suite. Wir möchten Sie darauf hinweisen, dass die Report Suite ursprünglich unter einer anderen Organisation erstellt wurde, falls diese Organisation für diese Report Suite besser geeignet sein sollte.
 
@@ -113,6 +113,6 @@ Zugeordnete Report Suites werden in einem nicht bearbeitbaren Format angezeigt. 
 
 Sie finden Ihren Organisationsnamen unter [Organisationen und Kontoeinstellungen](organizations.md).
 
-### In der Spalte „Datum der Zuordnung“ ist ein Datum eingetragen. Wer hat diese Zuordnung vorgenommen?
+### In der Spalte „Datum zugeordnet“ wird ein Datum angezeigt. Wer hat diese Zuordnung vorgenommen?
 
-Sie können das Report Suite-Änderungsprotokoll auf der Benutzeroberfläche von Analytics verwenden, um die Benutzer-ID zu überprüfen, die die Änderung vorgenommen hat. Suchen Sie nach dem Ereignis „Suite in Verbindung mit IMS-Organisation“.
+Sie können das Report Suite-Änderungsprotokoll auf der Benutzeroberfläche von Analytics verwenden, um die Benutzer-ID zu überprüfen, die die Änderung vorgenommen hat. Suchen Sie nach dem Ereignis „Suite der IMS-Organisation zugeordnet„.

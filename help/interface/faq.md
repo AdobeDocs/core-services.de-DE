@@ -1,23 +1,23 @@
 ---
 description: Erfahren Sie mehr über Browser-Unterstützung und finden Sie Antworten für Administratoren auf häufig gestellte Fragen in Adobe Experience Cloud.
 solution: Experience Cloud
-title: Häufig gestellte Fragen zu Experience Cloud
+title: Häufig gestellte Fragen zum Experience Cloud
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 84%
 
 ---
 
 # Häufig gestellte Fragen zu Experience Cloud
 
-Erfahren Sie mehr über Browser-Unterstützung und häufig gestellte Fragen und Antworten für Administratoren in Experience Cloud.
+Erfahren Sie mehr über Browser-Unterstützung und häufige Fragen und Antworten für Administratoren in Experience Cloud.
 
 ## Welche Browser werden in Experience Cloud unterstützt?
 
@@ -31,7 +31,7 @@ Erfahren Sie mehr über Browser-Unterstützung und häufig gestellte Fragen und 
 
 Wenn Ihre Implementierung nicht für zentrale Services bereitgestellt wurde, lesen Sie den Abschnitt [Aktivieren Ihrer Programme für zentrale Services](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), in dem Folgendes beschrieben wird:
 
-1. [Experience Cloud beitreten und Admin werden](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
+1. [Experience Cloud beitreten und Administrator werden](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementieren Sie den Experience Cloud ID-Dienst mit Experience Platform Tags](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=de).
 1. [Report Suites einer Experience Cloud-Organisation zuweisen](core-services.md#concept_apg_zq2_rw)
 1. [(nur Analytics) Modernisierung des Analytics-AppMeasurement-Codes](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
@@ -62,10 +62,10 @@ Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen n
 
 ## Was ist eine _Bereitstellung?_
 
-Bereitstellung in Experience Cloud bedeutet:
+Bereitstellung in Experience Cloud bedeutet:
 
 * Ihre Benutzer können mit der Anmeldung bei [!DNL Experience Cloud] und der Verknüpfung von Programmen beginnen.
-* Sie können mit der Verwendung der in Experience Cloud verfügbaren Funktionen beginnen, z. B. „Personen“.
+* Sie können mit der Nutzung der durch Experience Cloud verfügbaren Funktionen beginnen, z. B. People.
 * Sie können sich darauf vorbereiten, Ihren programmspezifischen Anmeldeprozess aufzugeben.
 * Sie können die Zugangssteuerung für Programme beibehalten.
 
@@ -77,7 +77,7 @@ Bereitstellung in Experience Cloud bedeutet:
 
 * **Wichtig:** Analytics-Administratoren finden unter [Verwalten von Analytics-Benutzern in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=de) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
 
-## Was kann ich tun, wenn sich ein Benutzer nicht bei der Experience Cloud anmelden kann?
+## Was kann ich tun, wenn sich jemand nicht bei Experience Cloud anmelden kann?
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
@@ -95,7 +95,7 @@ Siehe [Verwalten von Benutzerkonten](organizations.md#topic_C31CB834F109465A82ED
 
 ## Was ist eine Organisation?
 
-Eine [Organisation](organizations.md) ist die Einheit, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single-Sign-on in Experience Cloud zu steuern. Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+und [Organisation](organizations.md) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzende zu konfigurieren und Single Sign-on beim Experience Cloud zu steuern. Das Unternehmen agiert als Anmeldeunternehmen, das alle Experience Cloud-Produkte und -Anwendungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 ## Wo finde ich meine IMS-Organisations-ID?
 
@@ -103,7 +103,7 @@ Details hierzu finden Sie unter [Organisations-ID anzeigen](organizations.md).
 
 ## Was muss ich tun, wenn einer meiner Benutzer meine Organisation verlässt?
 
-Dessen Zugang sollte direkt im Programm entfernt werden. Sie können nicht über die Experience Cloud oder die direkte Anmeldung auf das Produkt zugreifen. Sie sollten sie auch auf Ebene von Experience Cloud entfernen.
+Dessen Zugang sollte direkt im Programm entfernt werden. Sie können nicht von Experience Cloud oder über die direkte Anmeldung auf das Produkt zugreifen. Sie sollten sie auch auf Ebene von Experience Cloud entfernen.
 
 ## Was ist eine Adobe ID?
 
