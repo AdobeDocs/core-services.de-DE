@@ -1,13 +1,13 @@
 ---
 title: "[!DNL Customer Attributes]"
-description: Weitere Informationen zu [!DNL Customer Attributes] in Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
+description: Informationen zu [!DNL Customer Attributes] in Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
+source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 73%
@@ -16,13 +16,13 @@ ht-degree: 73%
 
 # [!DNL Customer Attributes] in Experience Cloud
 
-[!DNL Customer Attributes] Mit in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Kundenattributdatenquelle in Experience Cloud hochladen und dann die Daten in verwenden [!DNL Adobe Analytics] und [!DNL Adobe Target].
+[!DNL Customer Attributes] in Experience Cloud ermöglicht Ihnen das Hochladen Ihrer erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management). Sie können die Daten in eine Kundenattribut-Datenquelle in Experience Cloud hochladen und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
-## Suchen Sie das . [!DNL Customer Attributes] Funktion
+## Suchen Sie die [!DNL Customer Attributes] Funktion
 
 1. Melden Sie sich bei Experience Cloud an.
 
-1. Navigieren zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**.
+1. Navigieren Sie zu **[!DNL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**.
 
 ![Übersicht über Kundenattribute](assets/custom_reports.png)
 
@@ -32,13 +32,13 @@ ht-degree: 73%
 
 * **Gruppenmitgliedschaft:** Um Kundenattributdaten hochzuladen, müssen Benutzer Mitglieder der [Kundenattributgruppe](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9) sein. Sie müssen auch einer Adobe Analytics-Gruppe oder einer Adobe Target-Gruppe angehören.
 
-  Um herauszufinden, ob Ihr Unternehmen Zugang zu Kundenattributen hat, muss sich Ihr [!DNL Experience Cloud]-Administrator bei [Experience Cloud](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *[!DNL Customer Attributes]* wird als eine der folgenden angezeigt [!UICONTROL Produktprofile], Sie sind bereit zu beginnen.
+  Um herauszufinden, ob Ihr Unternehmen Zugang zu Kundenattributen hat, muss sich Ihr [!DNL Experience Cloud]-Administrator bei [Experience Cloud](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *[!DNL Customer Attributes]* wird als einer der [!UICONTROL Produktprofile], können Sie beginnen.
 
-  Benutzende, die hinzugefügt werden [!DNL Customer Attributes] Siehe [!UICONTROL Kundenattribute] Menüpunkt auf der linken Seite der Experience Cloud-Benutzeroberfläche.
+  Benutzer, die zu [!DNL Customer Attributes] die [!UICONTROL Kundenattribute] -Menüpunkt auf der linken Seite der Experience Cloud-Oberfläche.
 
 * **Adobe Target** `at.js` (beliebige Version) oder `mbox.js` Version 58 oder höher ist für Kundenattribute erforderlich.
 
-  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  Siehe [Implementieren von &quot;at.js&quot;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
 
 ## Was sind Enterprise-Kundendaten? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -54,7 +54,7 @@ Weitere Informationen zu diesem Workflow finden Sie unter [Hochladen von Kundena
 
 ## Beispiele für Kundenattribute in Analytics und Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
-Nachdem sich die Daten in Experience Cloud befinden, können Sie sie anpassen und für Lösungen für Reporting, Segmentierung, Aktivitäten und Kampagnen freigeben.
+Nachdem sich die Daten im Experience Cloud befinden, können Sie sie anpassen und für Berichterstellungs-, Segmentierungs-, Aktivitäts- und Kampagnenlösungen freigeben.
 
 Beispiel:
 
