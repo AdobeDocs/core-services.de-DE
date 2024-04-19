@@ -1,7 +1,7 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud-Benutzeroberfläche und Administrationshandbuch
-breadcrumb-title: Experience Cloud-Benutzeroberfläche und Administrationshandbuch
+user-guide-title: Handbuch zur Experience Cloud-Oberfläche und -Administration
+breadcrumb-title: Handbuch zur Experience Cloud-Oberfläche und -Administration
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
@@ -13,7 +13,7 @@ ht-degree: 94%
 ---
 
 
-# Experience Cloud-Benutzeroberfläche und Administrationshandbuch {#interface}
+# Handbuch zur Experience Cloud-Oberfläche und -Administration {#interface}
 
 + [Handbuch zu den Komponenten der zentralen Experience Cloud-Schnittstelle](experience-cloud.md)
 + Experience Cloud Services {#services}
