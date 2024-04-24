@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 169b5c67-aab6-4b2a-832e-c5998d796bf7
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Die Wahrung der Privatsphäre und die Datensicherheit der Kunden hat bei Adobe o
 
 Die meisten von Experience Cloud-Produkten gesetzten Cookies enthalten keine personenbezogenen Informationen. Diese Cookies und zugehörige Daten sind sicher und werden nur für die Berichte in Ihrem Unternehmen sowie zur Bereitstellung relevanter Inhalte und Werbeanzeigen genutzt. Die Daten werden nicht an Drittanbieter oder andere Kunden von Adobe weitergegeben, es sei denn in aggregierter Form für Branchenberichte. Beispielsweise werden im [!DNL Digital Marketing Insight Report] aggregierte und anonyme Daten mehrerer Einzelhändler analysiert.
 
-Adobe führt unternehmensübergreifend keine Informationen auf Browserebene zusammen. Um die Privatsphäre und die Sicherheit der Kundendaten zu schützen, bieten einige Services von Experience Cloud Unternehmen die Möglichkeit, für jede verfolgte Website einen separaten Satz von Cookies zu verwenden. Einige der Suite-Angebote bieten Kunden außerdem die Möglichkeit, ihren eigenen Domänennamen als Inhaber des Cookies zu verwenden. Dadurch entsteht eine zusätzliche Datenschutz- und Sicherheitsstufe, da die Experience Cloud-Cookies *Erstanbieter-Cookies* sind, die dauerhaft zur Website des Unternehmens gehören.
+Adobe führt unternehmensübergreifend keine Informationen auf Browserebene zusammen. Zum Schutz der Privatsphäre und der Sicherheit von Kundendaten ermöglichen einige Dienste innerhalb des Experience Cloud-Angebots den Unternehmen die Verwendung eines separaten Satzes mit Cookies für jede verfolgte Site. Einige der Suite-Angebote bieten Kunden außerdem die Möglichkeit, ihren eigenen Domänennamen als Inhaber des Cookies zu verwenden. Dadurch entsteht eine zusätzliche Datenschutz- und Sicherheitsstufe, da die Experience Cloud-Cookies *Erstanbieter-Cookies* sind, die dauerhaft zur Website des Unternehmens gehören.
 
 Cookies können nur die Informationen speichern und bereitstellen, die zuvor in ihnen abgelegt wurden. Sie sind nicht in der Lage, Code auszuführen oder andere auf dem Computer gespeicherte Informationen abzurufen. Darüber hinaus schränken Webbrowser den Zugriff auf Cookie-Daten ein. Browser erzwingen eine Cookie-Sicherheitsrichtlinie, die alle Cookie-Daten nur der Website zur Verfügung stellt, die die Informationen ursprünglich eingestellt hat.
 

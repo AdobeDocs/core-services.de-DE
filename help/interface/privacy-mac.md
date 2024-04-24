@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie mehr über Überlegungen und Best Practices hinsichtlich persönlich identifizierbarer Informationen (PII), die in Experience Cloud hochgeladen und verwendet werden.
 solution: Experience Cloud
-title: Datenschutzüberlegungen für Kundenattribute
+title: Überlegungen zum Datenschutz bei Kundenattributen
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 feature: Customer Attributes
 topic: Administration
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '511'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

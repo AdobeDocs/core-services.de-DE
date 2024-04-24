@@ -1,23 +1,23 @@
 ---
 role: User,Admin
-user-guide-title: Handbuch zur Experience Cloud-Oberfläche und -Administration
-breadcrumb-title: Handbuch zur Experience Cloud-Oberfläche und -Administration
+user-guide-title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
+breadcrumb-title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
 source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Handbuch zur Experience Cloud-Oberfläche und -Administration {#interface}
+# Handbuch zur Experience Cloud-Schnittstelle und -Administration {#interface}
 
 + [Handbuch zu den Komponenten der zentralen Experience Cloud-Schnittstelle](experience-cloud.md)
 + Experience Cloud Services {#services}
-   + [Experience Cloud Services](core-services-landing.md)
+   + [Experience Cloud-Services](core-services-landing.md)
    + [Einheitliche Suche in Experience Cloud](search-experience-cloud.md)
    + [Aktivieren Ihrer Implementierung für programmübergreifende Services](core-services.md)
    + [Voreinstellungen für personalisierte Lerninhalte in Experience Cloud](personalized-learning-preferences.md)

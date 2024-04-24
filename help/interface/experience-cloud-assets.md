@@ -1,5 +1,5 @@
 ---
-description: Hier erfahren Sie mehr über Experience Cloud-Assets, die Sie programmübergreifend freigeben können.
+description: Hier erfahren Sie mehr über Experience Cloud-Assets, die Sie programmübergreifend gemeinsam verwenden können.
 solution: Experience Cloud
 title: Übersicht über Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und b
 
 In [!UICONTROL Experience Cloud Assets] können Sie:
 
-* [Zu Experience Cloud Assets navigieren](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
+* [Navigieren zu Experience Cloud-Assets](experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Auf die Symbolleiste zugreifen](experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
 * [Assets bearbeiten](experience-cloud-assets.md#section_CD3C55A9D4574455B94D0955391C8FEC)
 * [Nach Assets suchen](experience-cloud-assets.md#section_50FE049010B446FC9640AA6A30E5A730)
@@ -41,7 +41,7 @@ In [!UICONTROL Experience Cloud Assets] können Sie:
 * [Asset-Eigenschaften anzeigen](experience-cloud-assets.md#section_FED28711DAB14E1BBEEA7CA890EE9573)
 * [Gebrauchsberichte ausführen](experience-cloud-assets.md#section_15D782FFB8D74CF4A735116CC03AD902)
 
-## Zu Experience Cloud Assets navigieren {#section_3657039DD3524F2AA88753BFF4781125}
+## Navigieren zu Experience Cloud-Assets {#section_3657039DD3524F2AA88753BFF4781125}
 
 ![Zu Experience Cloud Assets navigieren](assets/asset-nav.png)
 
@@ -55,7 +55,7 @@ Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche,
 
 >[!NOTE]
 >
->Assets müssen aus Adobe Target-Aktivitäten entfernt werden, bevor sie erfolgreich aus gelöscht werden können. [!DNL Target].
+>Assets müssen aus Adobe Target-Aktivitäten entfernt werden, bevor Sie sie erfolgreich aus [!DNL Target] löschen können.
 
 ## Assets bearbeiten {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
