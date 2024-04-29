@@ -1,0 +1,105 @@
+---
+title: IP-Adressen von Adobe Experience Cloud
+description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
+source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 27%
+
+---
+
+# IP-Adressen und Domänen von Adobe Experience Cloud
+
+Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datenerfassungs-Servern oder -Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Bereichsliste verwenden, um die Firewall-Einstellungen Ihres Unternehmens zu ändern und den Zugriff auf und das Senden von Daten aus Ihrem Unternehmen zu ermöglichen. Diese Seite enthält sowohl eingehende Systeme (z. B. Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds in Adobe Analytics), die von Adobe verwendet werden.
+
+>[!IMPORTANT]
+>
+>Adobe versucht zwar nach besten Kräften, dieses Dokument aktuell zu halten, kann aber nicht garantieren, dass die Liste der IP-Bereiche unverändert bleibt. Zu den möglichen Änderungen gehören das Wachstum und die Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen an der IP-Adresszeile von Adobe oder ein Internetdienstanbieter funktioniert nicht mehr.
+
+Zusätzlich zu den unten aufgeführten IP-Adressblöcken haben einzelne Adobe Experience Cloud-Produkte ihre eigenen Domänen, die sie verwenden:
+
+* [Adobe Experience Cloud](domains.md)
+* Adobe Analytics
+* Customer Journey Analytics
+
+## Alle Adobe-IP-Adressblöcke
+
+Die folgende Tabelle enthält alle Adobe-eigenen IP-Adressen. Diese Tabelle enthält alle Adobe-Mitarbeiterbüros und Rechenzentren, die von Adobe global betrieben werden. Sie umfasst keine Dienste, die in öffentlichen Clouds gehostet werden.
+
+| IP-Block (CIDR-Notation) |
+| --- |
+| `63.140.32.0/19` |
+| `66.117.16.0/20` |
+| `66.235.128.0/19` |
+| `130.248.0.0/16` |
+| `172.82.192.0/18` |
+| `185.34.188.0/22` |
+| `192.243.240.0/22` |
+
+{style="table-layout:auto"}
+
+## Adobe Experience Cloud-Datenerfassungs- und FTP-IP-Adressblöcke
+
+Wenn Ihr Unternehmen bestimmte IP-Adressbereiche zulassen möchte, können Sie auf die folgende Tabelle verweisen. Zu diesem Service gehören:
+
+* Datenerfassungsserver für alle Experience Cloud-Produkte
+* FTP-Server für alle Experience Cloud-Produkte
+
+Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
+
+| Standort | IP-Bereich (CIDR-Notation) |
+| --- | --- |
+| Australien | `63.140.55.0/24` |
+| Australien | `63.140.56.0/23` |
+| Kalifornien | `63.140.32.0/23` |
+| Kalifornien | `63.140.34.0/24` |
+| Frankreich | `63.140.62.0/23` |
+| Indien | `66.117.20.0/24` |
+| Indien | `66.117.22.0/23` |
+| Japan | `130.248.169.0/23` |
+| Japan | `63.140.50.0/23` |
+| Japan | `66.117.31.0/24` |
+| London | `66.235.156.0/24` |
+| London | `185.34.188.0/22` |
+| London | `130.248.152.0/22` |
+| London | `130.248.244.0/23` |
+| Oregon | `66.235.132.0/22` |
+| Oregon | `130.248.130.0/23` |
+| Oregon | `130.248.150.0/24` |
+| Oregon | `130.248.160.0/21` |
+| Oregon | `192.243.242.0/24` |
+| Singapur | `130.248.170.0/23` |
+| Singapur | `130.248.240.0/24` |
+| Singapur | `63.140.44.0/22` |
+| Singapur | `63.140.48.0/23` |
+| Singapur | `66.117.30.0/24` |
+| Singapur | `172.82.240.8/29` |
+| Singapur | `172.82.240.88/29` |
+| Virginia | `63.140.38.0/23` |
+| Virginia | `63.140.54.0/24` |
+
+{style="table-layout:auto"}
+
+Die Adobe Experience Cloud unterstützt IPv6 auch in begrenztem Umfang. Diese IP-Blöcke dienen zu ähnlichen Datenerfassungszwecken wie die oben genannten IPv4-Entsprechungen, enthalten jedoch kein FTP.
+
+| Standort | Host |
+| --- | --- |
+| Australien | `2406:da1c:406:1a00::/56` |
+| Australien | `2406:da1c:ce5:b400::/56` |
+| Kalifornien | `2600:1f1c:366:d900::/56` |
+| Frankreich | `2a05:d012:706:d000::/56` |
+| Indien | `2406:da1a:f34:6a00::/56` |
+| Irland | `2a05:d018:309:600::/56` |
+| Japan | `2406:da14:b07:ab00::/56` |
+| Oregon | `2600:1f14:1eb:7d00::/56` |
+| Oregon | `2600:1f14:9d3:2b00::/56` |
+| Singapur | `2406:da18:6e8:1e00::/56` |
+| Virginia | `2600:1f18:1a20:e800::/56` |
+| Virginia | `2600:1f18:4fd:6000::/56` |
+| Virginia | `2600:1f18:b00:e100::/56` |
+| Virginia | `2600:1f18:d1f:bd00::/56` |
+
+>[!TIP]
+>
+>FTP-Verbindungen für Adobe Analytics-Exportfunktionen (einschließlich Data Warehouse und Daten-Feeds) stammen nur von IPv4-Adressen in London, Oregon und Singapur.

@@ -5,10 +5,10 @@ breadcrumb-title: Handbuch zur Experience Cloud-Schnittstelle und -Administratio
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
-source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
+source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 85%
 
 ---
 
@@ -16,63 +16,64 @@ ht-degree: 100%
 # Handbuch zur Experience Cloud-Schnittstelle und -Administration {#interface}
 
 + [Handbuch zu den Komponenten der zentralen Experience Cloud-Schnittstelle](experience-cloud.md)
+
 + Experience Cloud Services {#services}
-   + [Experience Cloud-Services](core-services-landing.md)
-   + [Einheitliche Suche in Experience Cloud](search-experience-cloud.md)
-   + [Aktivieren Ihrer Implementierung für programmübergreifende Services](core-services.md)
-   + [Voreinstellungen für personalisierte Lerninhalte in Experience Cloud](personalized-learning-preferences.md)
-   + Experience Cloud-Zielgruppenbibliothek {#audiences}
-      + [Experience Cloud-Zielgruppen](audience-library.md)
-      + [Erstellen einer Zielgruppe](t-audience-create.md)
-      + [Veröffentlichen eines Analytics-Zielgruppensegments](t-publish-audience-segment.md)
-   + Experience Cloud-Kundenattribute {#customer-attributes}
-      + [Kundenattribute in Experience Cloud](attributes.md)
-      + [Häufig gestellte Fragen zu Kundenattributen](faq-crs.md)
-      + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](crs-data-file.md)
-      + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](t-crs-usecase.md)
-      + [Optional – Hochladen der Datendatei via FTP](t-upload-attributes-ftp.md)
-      + [Prüfen Sie das Schema](validate-schema.md)
-      + [Konfigurieren von Abonnements](subscription.md)
-      + [Schema aktualisieren](t-update-schema.md)
-      + [Unterstützung der Datenschutz-Grundverordnung](gdpr.md)
-      + [Unterstützung des California Consumer Privacy Act](ccpa.md)
-      + [Überlegungen zum Datenschutz bei Kundenattributen](privacy-mac.md)
-   + Experience Cloud-Assets {#assets}
-      + [Übersicht über Experience Cloud Assets](experience-cloud-assets.md)
-      + [Experience Cloud-Ordner und -Assets für Creative Cloud freigeben](creative-cloud.md)
-      + [Verwaltung der Creative Cloud-Benutzer](t-admin-add-cc-user.md)
-      + [Experience Cloud-Asset-Ordner freigeben](t-share-creative-cloud.md)
-      + [Hochladen eines Assets in einen freigegebenen Ordner aus dem Creative Cloud-Browser](t-upload-asset-cc.md)
-      + [Ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hochladen](t-cc-asset-upload-thor.md)
-      + [Dateivoraussetzungen für die Freigabe von Assets](assets-file-reqs.md)
-      + [Verhalten freigegebener Ordner](asset-behavior.md)
+   + [Experience Cloud-Services](services/overview.md)
+   + [Erste Schritte](services/getting-started.md)
+   + Assets {#assets}
+      + [Übersicht über Experience Cloud Assets](services/assets/experience-cloud-assets.md)
+      + [Experience Cloud-Ordner und -Assets für Creative Cloud freigeben](services/assets/creative-cloud.md)
+      + [Verwaltung der Creative Cloud-Benutzer](services/assets/manage-cc-users.md)
+      + [Experience Cloud-Asset-Ordner freigeben](services/assets/share.md)
+      + [Hochladen eines Assets in einen freigegebenen Ordner](services/assets/upload.md)
+      + [Dateivoraussetzungen für die Freigabe von Assets](services/assets/file-reqs.md)
+      + [Verhalten freigegebener Ordner](services/assets/behavior.md)
+   + Zielgruppenbibliothek {#audiences}
+      + [Übersicht](services/audiences/overview.md)
+      + [Erstellen einer Zielgruppe](services/audiences/create.md)
+   + [Exchange](services/exchange.md)
+   + Kundenattribute {#customer-attributes}
+      + [Übersicht](services/customer-attributes/attributes.md)
+      + [Häufig gestellte Fragen zu Kundenattributen](services/customer-attributes/faq-crs.md)
+      + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](services/customer-attributes/crs-data-file.md)
+      + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](services/customer-attributes/t-crs-usecase.md)
+      + [Optional – Hochladen der Datendatei via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Prüfen Sie das Schema](services/customer-attributes/validate-schema.md)
+      + [Konfigurieren von Abonnements](services/customer-attributes/subscription.md)
+      + [Schema aktualisieren](services/customer-attributes/t-update-schema.md)
+      + [Unterstützung der Datenschutz-Grundverordnung](services/customer-attributes/gdpr.md)
+      + [Unterstützung des California Consumer Privacy Act](services/customer-attributes/ccpa.md)
+      + [Überlegungen zum Datenschutz bei Kundenattributen](services/customer-attributes/privacy-mac.md)
+   + [Trigger](services/triggers.md)
+
++ Experience Cloud-Funktionen {#features}
+   + [Kontoeinstellungen](features/account-preferences.md)
+   + [Einheitliche Suche](features/search.md)
+   + [Personalisiertes Lernen](features/personalized-learning.md)
+
 + Verwaltung von Experience Clouden {#administration}
-   + [Verwalten der Benutzeridentität und Produkte in Experience Cloud (Admin Console)](admin-getting-started.md)
-   + [Anzeigen von Experience Cloud-Benutzerdetails (Admin-Tool)](admin-tool-experience-cloud.md)
-   + [Häufig gestellte Fragen](faq.md)
-   + [Organisationen und Kontoverknüpfung](organizations.md)
-   + [Upgrade auf Analytics Premium und die Experience Cloud](upgrade-to-analytics-premium.md)
-   + [Experience Cloud-Integrationen](marketing-cloud-integrations.md)
-   + [Verwendung des DNS-Vorabrufs für verschiedene Programme und Services](dns-prefetch.md)
-   + Experience Cloud-Cookies {#ec-cookies}
-      + [Übersicht über Cookies in Experience Cloud](cookies-privacy.md)
-      + [Erstanbieter-Cookies in Experience Cloud](cookies-first-party.md)
-      + [Cookies in Analytics](cookies-analytics.md)
-      + [Cookies in Audience Manager](cookies-am.md)
-      + [Cookies in [!UICONTROL Data Connectors]](cookies-dc.md)
-      + [Cookies in [!UICONTROL Data Workbench]](cookies-insight.md)
-      + [Cookies in Experience Cloud](cookies-mc.md)
-      + [Adobe Advertising-Cookies](cookies-advertising-cloud.md)
-      + [Cookies in [!DNL Scene7]](cookies-s7.md)
-      + [Cookies in [!DNL Search and Promote]](cookies-snp.md)
-      + [Cookies in [!DNL Target]](cookies-target.md)
-      + [Datenschutzeinstellungen für Browser-Cookies aktivieren](browser-cookie-settings.md)
-      + [Auswirkungen der geänderten Unterstützung von Drittanbieter-Cookies auf Kunden](cookies-thirdparty.md)
-+ [Experience Cloud Triggers](triggers.md)
-+ Versionshinweise für Experience Cloud UI {#release-notes}
-   + [Versionshinweise zu Komponenten der zentralen Benutzeroberfläche](release-notes.md)
-   + [Versionshinweise für alle Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de)
+   + [Anzeigen von Experience Cloud-Benutzerdetails (Admin-Tool)](administration/admin-tool-experience-cloud.md)
+   + [Organisationen und Kontoverknüpfung](administration/organizations.md)
+   + [Experience Cloud-Integrationen](administration/integrations.md)
+
++ Experience Cloud-Datenerfassung {#data-collection}
+   + [Adobe-verwaltetes Zertifikatprogramm](data-collection/adobe-managed-cert.md)
+   + [IP-Adressen](data-collection/ip-addresses.md)
+   + [Domains](data-collection/domains.md)
+   + Cookies {#cookies}
+      + [Übersicht über Cookies](data-collection/cookies/overview.md)
+      + [Werbe-Cookies](data-collection/cookies/advertising.md)
+      + [Cookies in Analytics](data-collection/cookies/analytics.md)
+      + [Cookies in Audience Manager](data-collection/cookies/audience-manager.md)
+      + [Cookies in Experience Cloud](data-collection/cookies/experience-cloud.md)
+      + [Cookies in Target](data-collection/cookies/target.md)
+      + [Web SDK-Cookies](data-collection/cookies/web-sdk.md)
+   + [Regionale Datenerfassung](data-collection/rdc.md)
+   + [DNS-Vorabruf verwenden](data-collection/dns-prefetch.md)
+
 + Zusätzliche Ressourcen {#more-resources}
-   + [Forum](https://experienceleaguecommunities.adobe.com/)
-   + [Terminologie](terms.md)
-   + [Dokumentation-Aktualisierungen](doc-updates.md)
+   + [Versionshinweise](more-resources/release-notes.md)
+   + [Dokumentationsaktualisierungen](more-resources/doc-updates.md)
+   + [Häufig gestellte Fragen](more-resources/faq.md)
+   + [Terminologie](more-resources/terms.md)
+
