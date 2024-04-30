@@ -2,10 +2,10 @@
 title: Regionale Datenerfassung
 description: Informationen zur regionalen Datenerfassung
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 01851c4d66cbaf1a68961b86926e8cc2c310d1ec
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 23%
+source-wordcount: '291'
+ht-degree: 21%
 
 ---
 
@@ -25,7 +25,7 @@ RDC enthält derzeit die folgenden Speicherorte (kann sich ändern):
 | RDC-Typ | Datenerfassungszentren |
 | --- | --- |
 | Global (Standard) | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
-| Global + China* | China*, Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
+| Global + China* | Peking*, Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 | Nur Amerika | Oregon, Virginia |
 | Nur Europa | Irland, Paris |
 | Nur Asien | Mumbai, Singapur, Tokio, Sydney |
@@ -41,6 +41,7 @@ Die Datenerfassung von Drittanbietern umfasst Cookie-Domänen, die nicht mit Ihr
 
 | RDC-Typ | Datenerfassungszentren |
 | --- | --- |
-| Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney, China* |
+| Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
+| Standard + China* | Peking*, Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 
 {style="table-layout:auto"}
