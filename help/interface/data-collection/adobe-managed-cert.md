@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 10%
 
 ---
@@ -155,7 +155,7 @@ Es ist bekannt, dass die folgenden Clients keine Verbindung mit der Sicherheitsf
 
 ++ Welche HTTPS-Zertifikatstypen werden unterstützt?
 
-Adobe unterstützt sowohl RSA- als auch ECC-Zertifikatstypen, um unterschiedlichen Kundenanforderungen gerecht zu werden. RSA-Zertifikate werden für Clients häufiger unterstützt, ECC-Zertifikate verwenden jedoch weniger Verarbeitung auf Server- und Client-Seite. Für Adobe-verwaltete Zertifikate werden sowohl RSA als auch ECC bereitgestellt. Für kundenverwaltete Zertifikate werden sowohl RSA als auch ECC empfohlen. Moderne Kunden unterstützen sowohl RSA als auch ECC. Die folgenden Clients unterstützen normalerweise nur RSA-Zertifikate:
+Adobe unterstützt sowohl RSA- als auch ECC-Zertifikatstypen, um unterschiedlichen Kundenanforderungen gerecht zu werden. RSA-Zertifikate werden für Clients häufiger unterstützt, ECC-Zertifikate verwenden jedoch weniger Verarbeitung auf Server- und Client-Seite. Für Adobe-verwaltete Zertifikate werden sowohl RSA als auch ECC bereitgestellt. Für kundenverwaltete Zertifikate ist RSA erforderlich und ECC wird empfohlen. Moderne Kunden unterstützen sowohl RSA als auch ECC. Die folgenden Clients unterstützen normalerweise nur RSA-Zertifikate:
 
 * Windows Vista und früher (zuletzt aktualisiert 2012)
 * Windows Phone 8.0 und niedriger (zuletzt aktualisiert 2014)
