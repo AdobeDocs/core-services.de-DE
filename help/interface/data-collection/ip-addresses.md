@@ -2,9 +2,9 @@
 title: Von der Adobe Experience Cloud verwendete IP-Adressen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: df91266d6a15c74e3f110050338498062cc34058
+source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datene
 Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adobe Experience Cloud-Produkte über eigene IP-Adressen, die sie verwenden:
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
-* Customer Journey Analytics
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
 ## Alle Adobe-IP-Adressblöcke
 
