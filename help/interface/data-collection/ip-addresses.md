@@ -1,26 +1,25 @@
 ---
-title: IP-Adressen von Adobe Experience Cloud
+title: Von der Adobe Experience Cloud verwendete IP-Adressen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 27%
+source-wordcount: '373'
+ht-degree: 24%
 
 ---
 
-# IP-Adressen und Domänen von Adobe Experience Cloud
+# Von der Adobe Experience Cloud verwendete IP-Adressen
 
 Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Adobe-Datenerfassungs-Servern oder -Servern stammen, die für den Datenzugriff zuständig sind. Sie können diese Bereichsliste verwenden, um die Firewall-Einstellungen Ihres Unternehmens zu ändern und den Zugriff auf und das Senden von Daten aus Ihrem Unternehmen zu ermöglichen. Diese Seite enthält sowohl eingehende Systeme (z. B. Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds in Adobe Analytics), die von Adobe verwendet werden.
 
 >[!IMPORTANT]
 >
->Adobe versucht zwar nach besten Kräften, dieses Dokument aktuell zu halten, kann aber nicht garantieren, dass die Liste der IP-Bereiche unverändert bleibt. Zu den möglichen Änderungen gehören das Wachstum und die Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen an der IP-Adresszeile von Adobe oder ein Internetdienstanbieter funktioniert nicht mehr.
+>Adobe versucht zwar nach besten Kräften, dieses Dokument aktuell zu halten, kann aber nicht garantieren, dass die Liste der IP-Bereiche unverändert bleibt. Zu den möglichen Änderungen gehören das Wachstum und die Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen an der Adobe IP-Adresszeile oder ein Internetdienstanbieter funktioniert nicht mehr.
 
-Zusätzlich zu den unten aufgeführten IP-Adressblöcken haben einzelne Adobe Experience Cloud-Produkte ihre eigenen Domänen, die sie verwenden:
+Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adobe Experience Cloud-Produkte über eigene IP-Adressen, die sie verwenden:
 
-* [Adobe Experience Cloud](domains.md)
-* Adobe Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * Customer Journey Analytics
 
 ## Alle Adobe-IP-Adressblöcke
