@@ -8,7 +8,7 @@ index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 80%
+ht-degree: 92%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 80%
 + Funktionen {#features}
    + [Kontoeinstellungen](features/account-preferences.md)
    + [Einheitliche Suche](features/search.md)
-   + [Personalisiertes Lernen](features/personalized-learning.md)
+   + [Personalisierte Lerninhalte](features/personalized-learning.md)
 
 + Administration {#administration}
    + [Anzeigen von Benutzerdetails (Admin Tool)](administration/admin-tool-experience-cloud.md)
@@ -57,19 +57,19 @@ ht-degree: 80%
    + [Integrationen](administration/integrations.md)
 
 + Datenerfassung {#data-collection}
-   + [Adobe-verwaltetes Zertifikatprogramm](data-collection/adobe-managed-cert.md)
+   + [Adobe Managed Certificate Program](data-collection/adobe-managed-cert.md)
    + [IP-Adressen](data-collection/ip-addresses.md)
    + [Domains](data-collection/domains.md)
    + Cookies {#cookies}
       + [Übersicht über Cookies](data-collection/cookies/overview.md)
-      + [Werbe-Cookies](data-collection/cookies/advertising.md)
+      + [Cookies in Advertising](data-collection/cookies/advertising.md)
       + [Cookies in Analytics](data-collection/cookies/analytics.md)
       + [Cookies in Audience Manager](data-collection/cookies/audience-manager.md)
       + [Cookies in Experience Cloud](data-collection/cookies/experience-cloud.md)
       + [Cookies in Target](data-collection/cookies/target.md)
-      + [Web SDK-Cookies](data-collection/cookies/web-sdk.md)
+      + [Cookies im Web SDK](data-collection/cookies/web-sdk.md)
    + [Regionale Datenerfassung](data-collection/rdc.md)
-   + [DNS-Vorabruf verwenden](data-collection/dns-prefetch.md)
+   + [Verwenden des DNS-Vorabrufs](data-collection/dns-prefetch.md)
 
 + Zusätzliche Ressourcen {#more-resources}
    + [Versionshinweise](more-resources/release-notes.md)
