@@ -8,13 +8,13 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Übersicht über die zentrale Benutzeroberfläche von Experience Cloud
+# Übersicht über die zentrale Schnittstelle von Experience Cloud
 
 [Experience Cloud](https://experience.adobe.com) umfasst die Digital-Marketing-Programme, -Produkte und -Services von Adobe. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Programme, Produktfunktionen und Services zugreifen.
 
