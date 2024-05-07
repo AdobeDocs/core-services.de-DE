@@ -6,9 +6,9 @@ title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
 source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 92%
    + [Erste Schritte](services/getting-started.md)
    + Assets {#assets}
       + [Übersicht](services/assets/experience-cloud-assets.md)
-      + [Freigeben von Ordnern und Assets mit Creative Cloud](services/assets/creative-cloud.md)
-      + [Verwaltung der Creative Cloud-Benutzer](services/assets/manage-cc-users.md)
-      + [Asset-Ordner freigeben](services/assets/share.md)
+      + [Freigeben von Ordnern und Assets für Creative Cloud](services/assets/creative-cloud.md)
+      + [Verwaltung der Creative Cloud-Benutzenden](services/assets/manage-cc-users.md)
+      + [Freigeben eines Asset-Ordners](services/assets/share.md)
       + [Hochladen eines Assets in einen freigegebenen Ordner](services/assets/upload.md)
       + [Dateivoraussetzungen für die Freigabe von Assets](services/assets/file-reqs.md)
       + [Verhalten freigegebener Ordner](services/assets/behavior.md)
@@ -52,7 +52,7 @@ ht-degree: 92%
    + [Personalisierte Lerninhalte](features/personalized-learning.md)
 
 + Administration {#administration}
-   + [Anzeigen von Benutzerdetails (Admin Tool)](administration/admin-tool-experience-cloud.md)
+   + [Anzeigen von Benutzerdetails (Admin-Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationen und Kontoverknüpfung](administration/organizations.md)
    + [Integrationen](administration/integrations.md)
 
