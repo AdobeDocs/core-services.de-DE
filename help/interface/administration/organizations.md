@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 69%
+ht-degree: 64%
 
 ---
 
@@ -37,7 +37,7 @@ Sie können Ihre zugewiesene Organisations-ID zu Supportzwecken suchen. Mit dem 
 
 Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von `@AdobeOrg` (zwingend erforderlich).
 
-Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithilfe des Tastaturbefehls anzeigen **Strg+i** von jeder Seite aus `https://experience.adobe.com`.
+Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen über den Tastaturbefehl anzeigen **Strg+i** von jeder Seite aus `https://experience.adobe.com`.
 
 **Anzeigen Ihrer Organisations-ID**
 
@@ -45,7 +45,7 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
    ![Zugewiesene Organisations-ID](../assets/assigned-organization.png)
 
-1. under **[!UICONTROL Benutzerinformationen]**, suchen Sie nach **[!UICONTROL Aktuelle Organisations-ID]** und Sie sehen die Organisations-ID.
+1. under **[!UICONTROL Benutzerinformationen]**, suchen Sie nach **[!UICONTROL Aktuelle Organisations-ID]** und Sie können die Organisations-ID ermitteln.
 
    Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und zeigen Sie Ihre Organisations-ID in der URL an.
 
@@ -87,7 +87,7 @@ Klicken Sie in Ihrem Profil auf **[!UICONTROL Profil bearbeiten]**.
 
 ![Profil bearbeiten](../assets/edit-profile.png)
 
-Unter „Standardorganisation und Landingpage“ können Sie Ihren Anmeldevorgang anpassen.
+under **[!UICONTROL Standardorganisation und Landingpage]**, können Sie Ihr Anmeldeerlebnis anpassen.
 
 ![Standardorganisation und Landingpage](../assets/default-organization.png)
 
