@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '379'
 ht-degree: 16%
 
 ---
@@ -28,6 +28,7 @@ Analytics verwendet Cookies, um anonym neue Besucher zu definieren, Clickstream-
 | **`s_sq`** | Session | 100-200 Byte | Erstanbieter | Wird von Activity Map verwendet. Er enthält Informationen zum vorherigen Link, auf den der Besucher geklickt hat. Festgelegt durch JavaScript. |
 | **`s_vi`** | 2 Jahre | 44 Byte | Erstanbieter oder `*.omtrdc.net` (Drittanbieter) | Speichert eine eindeutige Besucher-ID und einen Zeitstempel. Wird durch HTTP-Antwort festgelegt. Jede Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugeordnet. Besucherprofile werden nach einem Jahr Inaktivität gelöscht, unabhängig vom Ablauf der Besucher-ID-Cookies. Die `Secure` Markierung gesetzt, wenn `SameSite` ist &quot;Keine&quot;und die Verbindung HTTPS. `SameSite` ist bei Erstanbieter-Cookies standardmäßig &quot;Lax&quot;. `SameSite` bei Verwendung von Drittanbieter-Cookies, z. B. auf `omtrdc.net` oder `2o7.net`. Satz `SameSite` bei Verwendung eines einzelnen CNAME zur Verfolgung mehrerer Domänen oder Eigenschaften auf &quot;Keine&quot;. |
 | **`s_fid`** | 2 Jahre | 33 Byte | Erstanbieter | Speichert die Fallback-Unique Visitor-ID und den Zeitstempel. Wird von JavaScript eingestellt, wenn der Standard `s_vi` -Cookie kann aufgrund von Beschränkungen für Drittanbieter-Cookies nicht gesetzt werden. Wird nicht für Erstanbieter-Cookie-Implementierungen verwendet. |
+| **`s_ac`** | Unmittelbar | 1 Byte | Erstanbieter | Hilft bei der Bestimmung der richtigen Domäne für AppMeasurement-Cookies. Enthält den statischen Wert `"1"`. Sobald dieses Cookie gesetzt ist, wird es sofort gelöscht. |
 
 {style="table-layout:auto"}
 
