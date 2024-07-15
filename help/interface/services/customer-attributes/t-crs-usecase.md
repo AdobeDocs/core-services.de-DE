@@ -1,7 +1,7 @@
 ---
 description: Erstellen Sie eine Kundenattributquelle und laden Sie sie in die Adobe Experience Cloud hoch.
 solution: Experience Cloud
-title: Erstellen einer Kundenattributquelle und Hochladen der Datendatei
+title: Erstellen einer Kundenattribut-Source und Hochladen der Datendatei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
@@ -25,7 +25,7 @@ Erstellen Sie die Kundenattributquelle (CSV- und FIN-Dateien) und laden Sie die 
 
 >[!IMPORTANT]
 >
->Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil &quot;Kundenattribute&quot;zugewiesen sein (Kundenattribute - Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *Kundenattribute* wird als einer der [!UICONTROL Produktprofile], können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
+>Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil &quot;Kundenattribute&quot;zugewiesen sein (Kundenattribute - Standardzugriff). Navigieren Sie zu **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *Kundenattribute* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden, sehen auf der linken Seite der linken Seite der Experience Cloud-Benutzeroberfläche das Menü [!UICONTROL Kundenattribute].
 >
 >Um die Kundenattribut-Funktion verwenden zu können, müssen Benutzer auch zu Gruppen auf Programmebene (Analytics oder [!DNL Target]) gehören.
 
@@ -48,13 +48,13 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
 
 ## Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch {#task_09DAC0F2B76141E491721C1E679AABC8}
 
-Führen Sie diese Schritte auf der Seite &quot;Neue Kunden-Attributquelle erstellen&quot;im Experience Cloud aus.
+Führen Sie diese Schritte auf der Seite Neues Kundenattribut-Source erstellen in Experience Cloud aus.
 
 >[!IMPORTANT]
 >
 >Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es bis zu einer Stunde, bis die IDs mit der neuen Datenquelle synchronisiert werden. Sie müssen über Administratorrechte in Audience Manager verfügen, um Kundenattributquellen zu erstellen oder zu ändern. Wenden Sie sich an die Audience Manager-Kundenunterstützung oder -Beratung, um Administratorrechte zu erhalten.
 
-1. Im [!DNL Experience Cloud], wählen Sie das Menü aus  ![Menü](assets/menu-icon.png) Symbol.
+1. Wählen Sie in &quot;[!DNL Experience Cloud]&quot;das Menü-Symbol ![menu](assets/menu-icon.png) aus.
 1. Klicken Sie unter **[!DNL Experience Platform]** auf **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**.
 
    Auf der Seite [!UICONTROL „Kundenattribute“] können Sie vorhandene Datenattributquellen verwalten und bearbeiten.
@@ -71,13 +71,13 @@ Führen Sie diese Schritte auf der Seite &quot;Neue Kunden-Attributquelle erstel
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Quelle des Datenattributs.
 
-   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. Die [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der im [!UICONTROL Alias-ID] -Feld für eine Kundenattributquelle in Experience Cloud sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript des Mobile SDK).
+   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. Die [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der im Feld [!UICONTROL Alias-ID] für eine Kundenattributquelle unter Experience Cloud eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript des Mobile SDK).
 
      Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
       * **Dynamic Tag Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de), die Sie den einzelnen Besuchern zuordnen können.
+      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html), die Sie den einzelnen Besuchern zuordnen können.
 
         Beispiel: *„crm_ id“* in:
 
@@ -110,7 +110,7 @@ Führen Sie diese Schritte auf der Seite &quot;Neue Kunden-Attributquelle erstel
 
      **Grafik zum Datei-Upload**
 
-     ![attributes](assets/file_upload_attributes.png)
+     ![attribute](assets/file_upload_attributes.png)
 
    * **[!UICONTROL Unique-Customer-ID:]** Zeigt an, wie viele eindeutige IDs Sie in diese Attributquelle hochgeladen haben.
 
@@ -141,7 +141,7 @@ Siehe [Konfigurieren von Abonnements](subscription.md).
 
 **So aktivieren Sie eine Attributquelle**
 
-Im [!UICONTROL Neue Kunden-Attributquelle erstellen oder bearbeiten] Seite, suchen Sie die [!UICONTROL Aktivieren] Überschrift und wählen Sie **[!UICONTROL Aktiv]**.
+Suchen Sie auf der Seite [!UICONTROL Neues Kundenattribut erstellen oder Source bearbeiten] die Überschrift [!UICONTROL Aktivieren] und wählen Sie dann **[!UICONTROL Aktiv]** aus.
 
 ![Ergebnis des Schritts](assets/activate_attribute_source.png)
 

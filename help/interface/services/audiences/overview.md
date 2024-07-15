@@ -74,6 +74,6 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Programmen 
 
 {style="table-layout:auto"}
 
-## Veröffentlichen von Zielgruppen aus Adobe Analytics
+## Publish-Zielgruppen aus Adobe Analytics
 
-Siehe [Veröffentlichen von Segmenten auf Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) in der Dokumentation zu Adobe Analytics .
+Weitere Informationen finden Sie unter [Publish-Segmente zu Experience Cloud](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) in der Adobe Analytics-Dokumentation.

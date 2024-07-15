@@ -17,7 +17,7 @@ ht-degree: 64%
 
 # Organisationen in Experience Cloud
 
-Ein *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single Sign-on in Experience Cloud zu steuern.
+Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single Sign-on im Experience Cloud zu steuern.
 
 Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
@@ -37,17 +37,17 @@ Sie können Ihre zugewiesene Organisations-ID zu Supportzwecken suchen. Mit dem 
 
 Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von `@AdobeOrg` (zwingend erforderlich).
 
-Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen über den Tastaturbefehl anzeigen **Strg+i** von jeder Seite aus `https://experience.adobe.com`.
+Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen über den Tastaturbefehl **Strg+i** von jeder Seite unter `https://experience.adobe.com` anzeigen.
 
 **Anzeigen Ihrer Organisations-ID**
 
-1. In [Experience Cloud](https://experience.adobe.com), drücken **Strg+i** auf Ihrer Tastatur.
+1. Drücken Sie in [Experience Cloud](https://experience.adobe.com) die Tastenkombination **Strg+i**.
 
    ![Zugewiesene Organisations-ID](../assets/assigned-organization.png)
 
-1. under **[!UICONTROL Benutzerinformationen]**, suchen Sie nach **[!UICONTROL Aktuelle Organisations-ID]** und Sie können die Organisations-ID ermitteln.
+1. Suchen Sie unter &quot;**[!UICONTROL Benutzerinformationen]**&quot;nach &quot;**[!UICONTROL Aktuelle Organisations-ID]**&quot;. Suchen Sie dann nach der Organisations-ID.
 
-   Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und zeigen Sie Ihre Organisations-ID in der URL an.
+   Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu &quot;[https://adminconsole.adobe.com](https://adminconsole.adobe.com)&quot;) und Ihre Organisations-ID in der URL anzeigen.
 
    Beispielsweise in der folgenden URL:
 
@@ -65,7 +65,7 @@ In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme un
 
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
 
-1. Wählen Sie den Anwendungsselektor aus. ( ![Menü](../assets/menu-icon.png)).
+1. Wählen Sie den Anwendungsselektor aus. ( ![menu](../assets/menu-icon.png)).
 
    ![Verknüpfen eines Programmkontos mit einer Adobe ID](../assets/solutions-active.png)
 
@@ -87,7 +87,7 @@ Klicken Sie in Ihrem Profil auf **[!UICONTROL Profil bearbeiten]**.
 
 ![Profil bearbeiten](../assets/edit-profile.png)
 
-under **[!UICONTROL Standardorganisation und Landingpage]**, können Sie Ihr Anmeldeerlebnis anpassen.
+Unter **[!UICONTROL Standardorganisation und Landingpage]** können Sie Ihr Anmeldeerlebnis anpassen.
 
 ![Standardorganisation und Landingpage](../assets/default-organization.png)
 

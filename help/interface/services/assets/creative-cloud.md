@@ -10,7 +10,7 @@ exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -32,4 +32,4 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in der Exper
 
 Bei der Erstellung von Aktivitäten in [!DNL Adobe Target] können Sie beim Austausch von Bildern in der [!UICONTROL Angebotsbibliothek] ein freigegebenes Bild-Asset verwenden.
 
-Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in der [!DNL Target]-Hilfe.
+Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in der [!DNL Target]-Hilfe.

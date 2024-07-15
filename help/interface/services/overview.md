@@ -28,7 +28,7 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | Zentraler Service | Beschreibung |
 |--- |--- |
 | [Zentrale Komponenten der Benutzeroberfläche](../experience-cloud.md) | Zugriff auf Kontovoreinstellungen, Suche nach Produkthilfe und Zugriff auf Anwendungen und Services. |
-| [Personen –  [!DNL Audience Library]](audiences/overview.md) | Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von Besucher-IDs). Adobe [!DNL Audience Library] können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten. |
+| [Personen –  [!DNL Audience Library]](audiences/overview.md) | Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von Besucher-IDs). Mit Adobe [!DNL Audience Library] können Sie die Übersetzung von Besucherdaten in die Zielgruppensegmentierung verwalten. |
 | [Personen – Kundenattribute](customer-attributes/attributes.md) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungs-Service. |
 | [Assets](assets/experience-cloud-assets.md) | Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. |
 
@@ -36,4 +36,4 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 
 >[!NOTE]
 >
->Produktdokumentation für [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de) ist verfügbar. Die technische Dokumentation für [!UICONTROL Experience Platform]-Entwickelnde finden Sie unter [Adobe Developer](https://developer.adobe.com/apis).
+>Die Produktdokumentation für [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=de) ist verfügbar. Die technische Dokumentation für [!UICONTROL Experience Platform]-Entwickelnde finden Sie unter [Adobe Developer](https://developer.adobe.com/apis).

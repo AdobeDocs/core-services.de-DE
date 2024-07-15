@@ -20,7 +20,7 @@ ht-degree: 96%
 
 Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experience Cloud-Schnittstelle.
 
-Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Dokumentationsaktualisierungen](doc-updates.md).
+Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Aktualisierungen der Dokumentation](doc-updates.md).
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
@@ -191,7 +191,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 * Bereitstellung einer Backend-Lösung, um die Freigabe von Assets zwischen Experience Cloud-to-AEM und Experience Cloud-to-Creative Cloud zu steuern. (CORE-14386)
 * Behebung eines Fehlers, aufgrund dessen die Bereitstellung neuer Mandanten in einigen Umgebungen blockiert wurde. (CORE-15509)
-* Es wurde ein Problem behoben, durch das Benutzer zu `experiencecloud.adobe.com` using `http` anstelle von `https`. (CORE-15587)
+* Es wurde ein Problem behoben, bei dem Benutzer mit `http` anstelle von `https` zu `experiencecloud.adobe.com` umgeleitet wurden. (CORE-15587)
 * Es wurde ein Problem behoben, durch das Benachrichtigungen für einige neue Mandanten blockiert wurden. (CORE-15240)
 
 ## Juni 2018
@@ -232,7 +232,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  <br>Wenn Sie Report Suites einer einzelnen Organisation zuordnen, hilft Ihnen das beim Aktivieren anwendungsübergreifender Funktionen und Dienste im Experience Cloud. |
+| Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  <br>Die Zuordnung von Report Suites zu einer Organisation hilft beim Aktivieren von anwendungsübergreifenden Funktionen und Diensten im Experience Cloud. |
 | Aktualisierungen für Experience Cloud-Zielgruppen | **Report Suites anwenden**<br> Sie können eine Report Suite nun auf alle Ihre [Zielgruppen-Regeln](../services/audiences/create.md) anwenden. (Zuvor war es nur möglich, in jeder einzelnen Regeldefinition eine Report Suite festzulegen.) <br>**Eigenschaften und Variablen**<br> Sie können nun Analytics-Eigenschaften und Standardvariablen (zusätzlich zu eVars und Ereignissen) in Echtzeit-Zielgruppen einbeziehen. |
 
 {style="table-layout:auto"}
@@ -368,7 +368,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 </table>
 
 * Ein Problem wurde behoben, infolge dessen die Kundenattribute einiger Kunden nicht synchronisiert werden konnten.
-* Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) nicht auf Japanisch angezeigt wurde.
+* Es wurde ein Problem behoben, durch das die Seite [Adobe Target-Produktdokumentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) nicht auf Japanisch angezeigt wurde.
 * Es wurde ein Problem behoben, das die Verwendung von japanischem Text in Kommentaren zwischen dem [!DNL Creative Cloud] und dem [!DNL Experience Cloud] verhinderte.
 
 ## April 2015

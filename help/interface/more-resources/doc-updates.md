@@ -20,7 +20,7 @@ Informationen über Aktualisierungen der Experience Cloud-Produktdokumentation.
 
 **26. April 2024**
 
-Vollständige Überarbeitung der Dokumentationsarchitektur. Auch hinzugefügt [IP-Adressen von Adobe Experience Cloud](../data-collection/ip-addresses.md) und [Regionale Datenerfassung](../data-collection/rdc.md).
+Vollständige Überarbeitung der Dokumentationsarchitektur. Außerdem wurden [IP-Adressen der Adobe Experience Cloud](../data-collection/ip-addresses.md) und [Regionale Datenerfassung](../data-collection/rdc.md) hinzugefügt.
 
 **9. April 2024**
 
@@ -34,7 +34,7 @@ Eine Seite für [Einheitliche Suche](../features/search.md) hinzugefügt
 
 Aktualisierungen, wie Sie Ihre [Organisations-ID](../administration/organizations.md) finden können.
 
-**Dezember 2022**
+**12. Dezember 2022**
 
 Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen darüber aktualisiert, wie der Adobe-Support auf Ihre Adobe-Cloud-Umgebung zugreifen kann, um ein Problem zu beheben.
 
@@ -134,4 +134,4 @@ Der Abschnitt [Experience Cloud-FAQ](faq.md) für Administratoren wurde hinzuge
 
 **22. Mai 2014**
 
-Die Dokumentation wurde hinzugefügt für [Zielgruppen](../services/audiences/overview.md)
+Dokumentation für [Zielgruppen](../services/audiences/overview.md) hinzugefügt

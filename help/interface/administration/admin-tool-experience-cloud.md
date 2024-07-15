@@ -17,13 +17,13 @@ ht-degree: 85%
 
 # Anzeigen von Experience Cloud-Benutzern und -Richtlinien im [!UICONTROL Admin-Tool]
 
-Administratoren können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details im [!UICONTROL Admin-Tool]. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Produktprofil) sowie detaillierte Berechtigungen und Ressourceninformationen für die Richtlinie.
+Administratoren können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details im [!UICONTROL Admin-Tool] anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören der Benutzer, die Gruppe, der Entwickler, die Integration und die Admin-Liste einer Richtlinie (Produktprofil) sowie detaillierte Berechtigungen und Ressourceninformationen für die Richtlinie.
 
 1. Melden Sie sich bei `https://experience.adobe.com/.` an.
 
    ![Zugriff auf Admin Console](../assets/admin-tool.png)
 
-1. under [!UICONTROL Schnellzugriff]klicken **[!UICONTROL Admin-Tool]**.
+1. Klicken Sie unter [!UICONTROL Schnellzugriff] auf **[!UICONTROL Admin-Tool]**.
 
    (Alternativ können Sie in der Startseiten-URL _home_ durch _admin_ ersetzen.)
 
@@ -112,7 +112,7 @@ Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtl
 Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste anzupassen.
 
 * Suchen Sie nach Produktprofilen mit dem Namen. Die Suchvorgänge entsprechen der von Ihnen eingegebenen Textzeichenfolge.
-* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Diese Sortierung gilt für [!UICONTROL Produktprofil,] [!UICONTROL Produkt,] [!UICONTROL Instanz,] [!UICONTROL Anzahl der Benutzer,] und [!UICONTROL Anzahl der Entwickler,] Spalten.
+* Sortieren Sie die Spalte nach auf- oder absteigenden Werten. Diese Sortierung gilt für [!UICONTROL Produktprofil, ] [!UICONTROL Produkt, ] [!UICONTROL Instanz, ] [!UICONTROL Anzahl der Benutzer, ] und [!UICONTROL Anzahl der Entwickler,] Spalten.
 * Wählenn Sie das Symbol **[!UICONTROL Filtern nach]** aus, um mehrere Filter anzuwenden und Produktprofile mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge Gruppen, die mit der `AND` Instanzlösung `AND` verknüpft sind.
 
 | Element | Beschreibung |
@@ -162,4 +162,4 @@ Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressou
 
 ## Verwandte Informationen
 
-* [Benutzer verwalten](https://helpx.adobe.com/de/enterprise/using/users.html) im [!DNL Admin Console]
+* [Verwalten von Benutzern](https://helpx.adobe.com/de/enterprise/using/users.html) im [!DNL Admin Console]

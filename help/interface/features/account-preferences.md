@@ -6,7 +6,8 @@ feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 72%
@@ -32,9 +33,9 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 |--- |--- |
 | Standard [organisation](../administration/organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
 | [!UICONTROL Erfassung von Produktdaten] | Wählen Sie aus, welche Technologien Adobe verwenden kann, um Daten darüber zu sammeln, wie Sie Ihre Adobe-Produkte verwenden. |
-| [!UICONTROL Personalisierte Empfehlungen und Angebote von Lerninhalten] | Wählen Sie aus, wo Sie Folgendes erhalten möchten [personalisierte Hilfe](personalized-learning.md) für Ihre Adobe-Produkte. Diese Hilfe ist per E-Mail, im Produkt und in den Experience League Communities verfügbar. |
-| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen in der [!UICONTROL Benachrichtigungen] und in Ihrer E-Mail angezeigt. |
-| [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit einer [!UICONTROL Hoch] und für Sendungen wie Warnungen konfiguriert werden können. |
+| [!UICONTROL Personalisierte Empfehlungen und Angebote von Lerninhalten] | Wählen Sie aus, wo Sie [personalisierte Hilfe](personalized-learning.md) für Ihre Adobe-Produkte erhalten möchten. Diese Hilfe ist per E-Mail, im Produkt und in den Experience League Communities verfügbar. |
+| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Popup-Fenster [!UICONTROL Benachrichtigungen] und in Ihrer E-Mail. |
+| [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag [!UICONTROL Hoch] markiert und können für Sendungen wie Warnungen konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
 | E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |
 

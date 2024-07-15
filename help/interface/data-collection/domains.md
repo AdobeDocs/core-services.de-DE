@@ -9,7 +9,7 @@ exl-id: a15918f0-c03b-4d32-a254-47f46023b127
 source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
 source-wordcount: '103'
-ht-degree: 18%
+ht-degree: 17%
 
 ---
 
@@ -26,6 +26,6 @@ Zusätzlich zu den unten aufgeführten Domänen haben einzelne Adobe Experience 
 | --- | --- |
 | Adobe-Domänen | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Identity Management Service (IMS) | `adobelogin.com` |
-| Schriften | `typekit.net` |
+| Schriftarten | `typekit.net` |
 | Datenerfassung (für Produktleistung und -nutzung) | `adobedtm.com` |
 | Gainsight (für Produktanleitungen und Hilfe) | `esp.aptrinsic.com` |

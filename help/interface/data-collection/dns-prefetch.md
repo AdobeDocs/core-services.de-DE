@@ -1,7 +1,7 @@
 ---
 description: Hier erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seitenladezeit bei verschiedenen Programmen und Services in Experience Cloud zu reduzieren.
 solution: Experience Cloud
-title: DNS-Vorabruf verwenden
+title: Verwenden des DNS-Vorabrufs
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
@@ -10,11 +10,11 @@ exl-id: caf2ff76-2076-436d-a5a7-aff531464480
 source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
-# DNS-Vorabruf verwenden
+# Verwenden des DNS-Vorabrufs
 
 Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Programme und Services zu reduzieren.
 
@@ -24,7 +24,7 @@ Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit
 
 ## DNS-Vorabruf und Adobe Experience Cloud-Programme
 
-Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL Experience Cloud] Anwendungen und Dienste aus folgenden Gründen:
+Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL Experience Cloud]-Anwendungen und -Diensten funktioniert, da:
 
 * Jedes Programm und jeder Service von Experience Cloud generiert beim Laden der Seite dynamisch DNS-Aufrufe.
 * Der Browser kann Domain-Namen nicht in IP-Adressen auflösen, bevor diese Aufrufe durchgeführt werden.
@@ -52,4 +52,4 @@ In den folgenden Beispielen wird dargestellt, wie Sie DNS-Vorabrufe an unterschi
 
 >[!MORELIKETHIS]
 >
->* [DNS-Vorabruf](https://www.chromium.org/developers/design-documents/dns-prefetching) Chromium
+>* [DNS-Vorabruf](https://www.chromium.org/developers/design-documents/dns-prefetching) in Chromium

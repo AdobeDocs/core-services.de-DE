@@ -2,13 +2,13 @@
 description: Hier erfahren Sie, wie Lösungen und Services in Adobe Experience Cloud Cookies verwenden.
 title: Verwendung von Cookies in Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 58%
 
 ---
-
 
 # In Experience Cloud verwendete Cookies
 
@@ -22,10 +22,10 @@ Aufgrund von Gesetzen, Regulierungen und Selbstregulierungsvorschriften sind Sie
 
 Adobe Experience Cloud-Dienste verwenden Cookies, um Informationen zu Variablen und Komponenten bereitzustellen, die nicht zwischen Bildanforderungen und Browsersitzungen bestehen bleiben. Adobe verwendet nach Möglichkeit Erstanbieter-Cookies, um Aktivitäten auf Ihrer Site aufzuzeichnen. Um Aktivitäten auf verschiedenen Websites aufzuzeichnen, z. B. auf anderen Domains, deren Inhaber Sie sind, sind Drittanbieter-Cookies erforderlich.
 
-Viele Browser und Anti-Spyware-Anwendungen sind dafür konzipiert, Drittanbieter-Cookies abzulehnen und zu löschen. Adobe stellt sicher, dass Cookies immer gesetzt werden können, auch wenn Drittanbieter-Cookies blockiert werden. Das spezifische Verhalten variiert je nachdem, ob Sie den Experience Platform Identity Service (ECID-Dienst) oder die Legacy-IDs von Analytics (z. B. die `s_vi` -Cookie):
+Viele Browser und Anti-Spyware-Anwendungen sind dafür konzipiert, Drittanbieter-Cookies abzulehnen und zu löschen. Adobe stellt sicher, dass Cookies immer gesetzt werden können, auch wenn Drittanbieter-Cookies blockiert werden. Das spezifische Verhalten variiert je nachdem, ob Sie den Experience Platform Identity Service (ECID-Dienst) oder die Legacy-IDs von Analytics (z. B. das `s_vi` -Cookie) verwenden:
 
-* Die [Experience Platform Identity Service (ECID-Dienst)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) setzt automatisch Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungsdomäne mit Ihrer Site-Domäne übereinstimmt. Wenn sie nicht übereinstimmen, verwendet der Identity-Dienst JavaScript, um Cookies in der Domäne Ihrer Site festzulegen.
-* Wenn Sie [Legacy-IDs von Analytics](analytics.md) (z. B. `s_vi` -Cookie), hängt es von der Konfiguration Ihres Datenerfassungsservers ab. Wenn der Datenerfassungsserver mit der Domain Ihrer Website übereinstimmt, werden Cookies als First-Party gesetzt. Wenn der Erfassungsserver nicht mit Ihrer aktuellen Domäne übereinstimmt, werden Cookies als Drittanbieter gesetzt. Wenn Drittanbieter-Cookies blockiert werden, setzt Analytics eine Erstanbieter-Ausweich-ID (`s_fid`) anstelle des Standards `s_vi` Cookie.
+* Der [Experience Platform Identity-Dienst (ECID-Dienst)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) setzt Erstanbieter-Cookies automatisch, unabhängig davon, ob Ihre Erfassungsdomäne mit Ihrer Site-Domäne übereinstimmt. Wenn sie nicht übereinstimmen, verwendet der Identitätsdienst JavaScript, um Cookies in der Domäne Ihrer Site zu setzen.
+* Wenn Sie [Legacy-IDs von Analytics](analytics.md) verwenden (z. B. das Cookie `s_vi` ), hängt es davon ab, wie Sie Ihren Datenerfassungsserver konfiguriert haben. Wenn der Datenerfassungsserver mit der Domain Ihrer Website übereinstimmt, werden Cookies als First-Party gesetzt. Wenn der Erfassungsserver nicht mit Ihrer aktuellen Domäne übereinstimmt, werden Cookies als Drittanbieter gesetzt. Wenn Drittanbieter-Cookies blockiert werden, setzt Analytics in diesem Fall eine Erstanbieter-Ausweich-ID (`s_fid`) anstelle des standardmäßigen `s_vi` -Cookies.
 
 Wenn Sie sicherstellen möchten, dass Ihr Erfassungsserver mit der Domäne Ihrer Site übereinstimmt, können Sie eine CNAME-Implementierung verwenden, die die Weiterleitung von einer benutzerdefinierten Domäne ermöglicht, die in Ihrer CNAME-Implementierung an Adobe-Erfassungsserver angegeben ist. Diese Aufgabe umfasst Änderungen an den DNS-Einstellungen Ihres Unternehmens, um einen CNAME-Alias zu konfigurieren, der auf eine von Adobe gehostete Domäne verweist. Beachten Sie, dass verschiedene Adobe-Produkte zwar die Verwendung eines CNAME unterstützen, der CNAME jedoch in allen Fällen zum Erstellen eines vertrauenswürdigen First-Party-Endpunkts für einen bestimmten Kunden verwendet wird und sich im Besitz dieses Kunden befindet. Wenn Sie mehrere Domänen steuern, können sie einen einzelnen CNAME-Endpunkt verwenden, um Benutzer domänenübergreifend zu verfolgen. Wenn die Site-Domäne jedoch nicht mit den CNAME-Domänen-Cookies übereinstimmt, werden sie als Drittanbieter festgelegt.
 

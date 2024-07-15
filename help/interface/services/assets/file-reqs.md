@@ -1,5 +1,5 @@
 ---
-title: Dateianforderungen für die Freigabe von Assets
+title: Dateivoraussetzungen für die Freigabe von Assets
 description: Hier erfahren Sie mehr über zulässige Dateitypen und Größeneinschränkungen für die Freigabe von Assets zwischen Adobe Experience Cloud und Creative Cloud.
 solution: Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0

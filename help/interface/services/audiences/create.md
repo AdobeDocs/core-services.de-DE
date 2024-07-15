@@ -45,7 +45,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 **Erstellen einer Zielgruppe**
 
 1. Wählen Sie in [!DNL Experience Cloud], unter [!DNL Experience Platform] die Option **[!UICONTROL People]** > **[!UICONTROL Zielgruppen-Bibliothek].**.
-1. Im [!UICONTROL Zielgruppen] Seite, auswählen **[!UICONTROL Neu]**. ![add](assets/add_icon_small.png)
+1. Wählen Sie auf der Seite [!UICONTROL Zielgruppen] die Option **[!UICONTROL Neu]** aus. ![add](assets/add_icon_small.png)
 
    ![Schritt Ergebnis](assets/audience_create_new.png)
 
