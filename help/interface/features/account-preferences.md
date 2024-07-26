@@ -1,16 +1,16 @@
 ---
 title: Kontovoreinstellungen und Benachrichtigungen
-description: Informationen zu Benutzerprofilen und Kontovoreinstellungen finden Sie unter Experience Cloud. Abonnieren Sie Produktbenachrichtigungen und erhalten Sie Produktwarnungen.
+description: Informationen zu Benutzerprofilen und Kontovoreinstellungen finden Sie unter Experience Cloud. Abonnieren Sie Produktbenachrichtigungen und erhalten Sie Produktwarnungen. Erfahren Sie mehr über Browser- und Sprachunterstützung.
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 79%
+source-wordcount: '448'
+ht-degree: 81%
 
 ---
 
@@ -46,6 +46,22 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 Wählen Sie die Option **[!UICONTROL Benachrichtigungen]** aus, um über relevante und ausführbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweise, freigegebene Elemente und Genehmigungsanfragen, informiert zu werden.
 
 ![Benachrichtigungen und Ankündigungen](../assets/notifications-menu-small.png)
+
+## Browser-Unterstützung in Experience Cloud {#browser}
+
+Für eine optimale Performance wurde Experience Cloud für die beliebtesten Browser optimiert, jeweils sowohl für deren neueste Version als auch für die beiden Vorgängerversionen.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Wenn Ihr Browser nicht aufgeführt ist, wird er möglicherweise trotzdem unterstützt. Es wird jedoch empfohlen, einen der aufgelisteten Browser zu verwenden.
+
+>[!NOTE]
+>
+>Nicht alle Anwendungen, die auf der Experience Cloud-Domain ausgeführt werden, unterstützen alle Browser. Wenn Sie sich nicht sicher sind, lesen Sie die Dokumentation zu einem bestimmten Programm.
 
 ## Sprachunterstützung in Experience Cloud {#languages}
 
