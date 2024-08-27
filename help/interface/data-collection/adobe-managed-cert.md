@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie, wie Sie sichere Zertifikate für die Verwendung mit Erstanbieter-Cookies von Adobe Experience Cloud einrichten.
 solution: Experience Cloud,Analytics
-title: Adobe Managed Certificate Program
+title: Adobe-Managed Certificate Program
 index: y
 snippet: y
 feature: Cookies
@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 4%
@@ -40,7 +40,7 @@ Nachdem das Zertifikat von Adobe installiert wurde, können Sie eine der folgend
 
 +++**Browservalidierung**
 
-Sie können jeden Browser verwenden, um zu überprüfen, ob ein Zertifikat ordnungsgemäß installiert ist. Geben Sie Ihren CNAME mit `_check` als Pfad in die Adressleiste ein. Beispiel:
+Sie können jeden Browser verwenden, um zu überprüfen, ob ein Zertifikat ordnungsgemäß installiert ist. Geben Sie Ihren CNAME mit `_check` als Pfad in die Adressleiste ein. Zum Beispiel:
 
 `data.example.com/_check`
 
