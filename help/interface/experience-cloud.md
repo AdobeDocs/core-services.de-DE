@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über zentrale Oberflächenkomponenten für Experience Cloud. Erhalten Sie Hilfe zur Benutzer- und Produktverwaltung in der Admin Console, aktivieren Sie Anwendungen für Experience Cloud-Services. Hier erhalten Sie Hilfe zu Zielgruppenbibliothek, Kundenattributen, Experience Cloud Assets und mehr.
+description: Erfahren Sie mehr über zentrale Oberflächenkomponenten für Experience Cloud. Erhalten Sie Hilfe zur Benutzer- und Produktverwaltung in der Admin Console und aktivieren Sie Anwendungen für Experience Cloud-Services. Erhalten Sie Hilfe zur Zielgruppenbibliothek, zu Kundenattributen, zu Experience Cloud-Assets und mehr.
 title: Dokumentation zur Experience Cloud-Benutzeroberfläche
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '714'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
