@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 22%
+source-wordcount: '677'
+ht-degree: 21%
 
 ---
 
@@ -73,27 +73,15 @@ Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-B
 
 **Abonnieren von Slack-Benachrichtigungen**
 
-1. Navigieren Sie zu Experience Cloud [Voreinstellungen](https://experience.adobe.com/preferences) .
+1. Navigieren Sie zu Experience Cloud [Voreinstellungen](https://experience.adobe.com/preferences).
 
 1. Suchen Sie [!DNL Slack] und klicken Sie dann auf **[!UICONTROL Zu Slack hinzufügen]**.
 
    ![Zu Slack hinzufügen](../assets/add-to-slack.png)
 
-   Wenn [!DNL Slack] installiert ist, wird die Anwendung geöffnet und eine Meldung mit einer Berechtigungsanforderung angezeigt.
+   Wenn [!DNL Slack] installiert ist, wird die Anwendung geöffnet und eine Meldung mit einer Berechtigungsanforderung angezeigt. Wenn Slack nicht installiert ist, müssen Sie [die Berechtigung anfordern](#slack-troubleshoot).
 
-   * Klicken Sie auf **[!UICONTROL Allow]**.
-
-   Wenn [!DNL Slack] nicht installiert ist, wird die Meldung _Installationsanfrage_ angezeigt:
-
-   ![Slack-Integration anfordern](../assets/slack-request.png)
-
-   * Wählen Sie unter Slack den Arbeitsbereich oben rechts im Programm aus.
-
-   * Um die Anwendungsgenehmigung für den Slack Workspace-Manager anzufordern, klicken Sie auf **[!UICONTROL Senden]**.
-
-   * Sie erhalten eine Benachrichtigung in [!DNL Slack] , nachdem die Anwendungsanforderung genehmigt wurde.
-
-   * Nachdem Sie die [!DNL Slack]-Genehmigung erhalten haben, kehren Sie zu Experience Cloud **[!UICONTROL Benachrichtigungen]** zurück und klicken Sie dann auf **[!UICONTROL Zu Slack hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Allow]**.
 
 1. Aktivieren Sie unter **[!UICONTROL Benachrichtigungen]** die Option [!DNL Slack] Benachrichtigungen für Ihre gewünschten Produkte und Kategorien.
 
@@ -101,9 +89,25 @@ Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-B
 
    Aktualisierungen der Benachrichtigungen werden automatisch gespeichert.
 
+### Anfrageberechtigung in Slack {#slack-troubleshoot}
+
+Wenn [!DNL Slack] nicht installiert ist, wird beim Öffnen der Slack nach dem Klicken auf **[!UICONTROL Zu Slack hinzufügen]** die Meldung _Installationsanfrage_ angezeigt.
+
+![Slack-Integration anfordern](../assets/slack-request.png)
+
+**So fordern Sie Berechtigungen in Slack** an
+
+1. Wählen Sie unter Slack den Arbeitsbereich oben rechts im Programm aus.
+
+1. Um die Anwendungsgenehmigung für den Slack Workspace-Manager anzufordern, klicken Sie auf **[!UICONTROL Senden]**.
+
+1. Sie erhalten eine Benachrichtigung in [!DNL Slack] , nachdem die Anwendungsanforderung genehmigt wurde.
+
+1. Nachdem Sie die [!DNL Slack]-Genehmigung erhalten haben, kehren Sie zu Experience Cloud **[!UICONTROL Benachrichtigungen]** und [Abonnieren Sie Slack](#slack-notifications) zurück (siehe oben).
+
 ### Was Sie in [!DNL Slack] sehen werden
 
-Slack-Benachrichtigungen enthalten die folgenden Informationen:
+Nach erfolgreicher Integration von Slack zeigen die Slack-Benachrichtigungen die folgenden Informationen an:
 
 * Die persönliche Nachricht wird vom Anwendungsnamen _Adobe Experience Cloud_ empfangen.
 * Die Nachricht enthält das Produktlogo für die jeweilige Anwendung, z. B. Adobe Experience Platform, Adobe Experience Manager usw.
