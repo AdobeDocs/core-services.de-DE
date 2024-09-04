@@ -5,10 +5,10 @@ breadcrumb-title: Handbuch zur Experience Cloud-Schnittstelle und -Administratio
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
 index: true
-source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -47,14 +47,15 @@ ht-degree: 100%
    + [Trigger](services/triggers.md)
 
 + Funktionen {#features}
-   + [Kontoeinstellungen](features/account-preferences.md)
+   + [Benachrichtigungen und Kontovoreinstellungen](features/account-preferences.md)
    + [Einheitliche Suche](features/search.md)
    + [Personalisierte Lerninhalte](features/personalized-learning.md)
+   + [Browser- und Sprachunterstützung](browser-language.md)
 
 + Administration {#administration}
    + [Anzeigen von Benutzerdetails (Admin-Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationen und Kontoverknüpfung](administration/organizations.md)
-   + [Integrationen](administration/integrations.md)
+   + [Experience Cloud-Integrationen](administration/integrations.md)
 
 + Datenerfassung {#data-collection}
    + [Adobe Managed Certificate Program](data-collection/adobe-managed-cert.md)

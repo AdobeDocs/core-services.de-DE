@@ -1,31 +1,33 @@
 ---
 title: Kontovoreinstellungen und Benachrichtigungen
-description: Informationen zu Benutzerprofilen und Kontovoreinstellungen finden Sie unter Experience Cloud. Abonnieren Sie Produktbenachrichtigungen und erhalten Sie Produktwarnungen. Erfahren Sie mehr über Browser- und Sprachunterstützung.
+description: Informationen zu Benutzerprofilen und Kontovoreinstellungen finden Sie unter Experience Cloud. Abonnieren Sie Produktbenachrichtigungen für E-Mails und  [!DNL Slack] und richten Sie Produktwarnungen ein.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 331bdbb210849085f7c525e6cc14f2e1388d9484
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 69%
+source-wordcount: '644'
+ht-degree: 22%
 
 ---
 
 # Kontovoreinstellungen und Benachrichtigungen {#preferences}
 
-Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise. Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
+Zu den Experience Cloud [Voreinstellungen](https://experience.adobe.com/preferences) gehören Benachrichtigungen (In-App, E-Mail und [!DNL Slack]), Abonnements und Warnungen.
 
-* Festlegen eines dunklen Designs (nicht alle Anwendungen unterstützen dieses Design)
+In den Voreinstellungen haben Sie folgende Möglichkeiten:
+
 * Suchen nach [Organisationen](../administration/organizations.md)
-* Abmelden
-* Einstellungen, Benachrichtigungen und Abonnements für das Konto konfigurieren
+* Geben Sie ein dunkles Design an (nicht alle Anwendungen unterstützen dieses Design).
+* Konfigurieren Sie Benutzereinstellungen, Benachrichtigungen und Abonnements.
+* Melden Sie sich von der Experience Cloud ab.
+
+## Verwalten von Voreinstellungen
 
 Um die Voreinstellungen zu verwalten, wählen Sie die Option **[!UICONTROL Voreinstellungen]** im Menü ![Voreinstellungen](../assets/preferences-icon-sm.png) Ihres Kontos aus.
-
-![Benutzerprofil- und Kontovoreinstellungen](../assets/preferences-page.png)
 
 Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funktionen konfigurieren:
 
@@ -33,75 +35,87 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 |--- |--- |
 | Standard [organisation](../administration/organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
 | [!UICONTROL Erfassung von Produktdaten] | Wählen Sie aus, welche Technologien Adobe verwenden kann, um Daten darüber zu sammeln, wie Sie Ihre Adobe-Produkte verwenden. |
+| [Benachrichtigungen](#notifications-and-announcements) | Aktivieren Sie die Benachrichtigungen für [!UICONTROL In-App], [!UICONTROL E-Mail] oder [Slack](#slack-notifications). |
 | [!UICONTROL Personalisierte Empfehlungen und Angebote von Lerninhalten] | Wählen Sie aus, wo Sie [personalisierte Hilfe](personalized-learning.md) für Ihre Adobe-Produkte erhalten möchten. Diese Hilfe ist per E-Mail, im Produkt und in den Experience League Communities verfügbar. |
 | [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Popup-Fenster [!UICONTROL Benachrichtigungen] und in Ihrer E-Mail. |
 | [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag [!UICONTROL Hoch] markiert und können für Sendungen wie Warnungen konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
 | E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |
 
-## [!UICONTROL Benachrichtigungen] und [!UICONTROL Mitteilungen] {#notifications}
+## Abonnieren von Benachrichtigungen in Experience Cloud {#notifications}
 
-Wählen Sie die Option **[!UICONTROL Benachrichtigungen]** aus, um über relevante und ausführbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweise, freigegebene Elemente und Genehmigungsanfragen, informiert zu werden.
+Sie können die Produkte und Kategorien auswählen, die Sie abonnieren möchten. Benachrichtigungen werden im Popup-Fenster [!UICONTROL Benachrichtigungen] (in der App), in Ihrer E-Mail oder in [Slack](#slack-notifications) (je nach Ihren Abonnements) angezeigt.
 
-![Benachrichtigungen und Ankündigungen](../assets/notifications-menu-small.png)
+E-Mail- und Slack-Benachrichtigungen eignen sich für Situationen, in denen Sie nicht bei Experience Cloud angemeldet sind.
 
-## [!DNL Slack]-Benachrichtigungen
+### In-App- und E-Mail-Benachrichtigungen abonnieren
 
-Version: **2. September 2024**
+1. Navigieren Sie zu Experience Cloud [Voreinstellungen](https://experience.adobe.com/preferences).
 
-Sie können Ihre Kontovoreinstellungen konfigurieren, um Experience Cloud-Benachrichtigungen an Slack zu senden.
+1. Aktivieren Sie unter **[!UICONTROL Benachrichtigungen]** die Option **[!UICONTROL In-App]** oder **[!UICONTROL E-Mail]**.
 
-**Voraussetzungen**
+   Änderungen an Benachrichtigungen werden automatisch gespeichert.
 
-* Sie benötigen ein Experience Cloud-Konto.
-* Sie müssen über ein [!DNL Slack] -Konto verfügen.
-* Sie müssen mindestens einem [!DNL Slack] Arbeitsbereich angehören
-
-### So konfigurieren Sie Slack-Benachrichtigungen
-
-1. Melden Sie sich bei Experience Cloud an.
-
-1. Klicken Sie auf Ihr Kontosymbol und dann auf **[!UICONTROL Voreinstellungen]**.
-
-1. Klicken Sie unter [!DNL Slack] auf **[!UICONTROL Zu Slack hinzufügen]**.
-
-1. Wenn [!DNL Slack] geöffnet wird, klicken Sie auf **[!UICONTROL Zulassen]**.
-
-1. Navigieren Sie in den Experience Cloud-Voreinstellungen zu **[!UICONTROL Benachrichtigungen]**.
-
-   ![Slack notifications](../assets/slack.png)
-
-1. Aktivieren Sie [!DNL Slack] -Benachrichtigungen für Ihre gewünschten Produkte und Kategorien.
-
-## Browser-Unterstützung in Experience Cloud {#browser}
-
-Für eine optimale Performance wurde Experience Cloud für die beliebtesten Browser optimiert, jeweils sowohl für deren neueste Version als auch für die beiden Vorgängerversionen.
-
-* Chrome
-* Edge
-* Firefox
-* Opera
-* Safari
-
-Wenn Ihr Browser nicht aufgeführt ist, wird er möglicherweise trotzdem unterstützt. Es wird jedoch empfohlen, einen der aufgelisteten Browser zu verwenden.
+### Anmelden für [!DNL Slack] -Benachrichtigungen {#slack}
 
 >[!NOTE]
 >
->Nicht alle Anwendungen, die auf der Experience Cloud-Domain ausgeführt werden, unterstützen alle Browser. Wenn Sie sich nicht sicher sind, lesen Sie die Dokumentation zu einem bestimmten Programm.
+>Slack-Benachrichtigungen werden veröffentlicht: **11. September 2024**
 
-## Sprachunterstützung in Experience Cloud {#languages}
 
-Experience Cloud unterstützt bevorzugte Sprachen für jeden Benutzer, wie in den Voreinstellungen Ihres Adobe-Benutzerkontos festgelegt. Derzeit werden folgende Sprachen unterstützt:
+Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an einen [!DNL Slack] -Kanal gesendet werden.
 
-* Chinesisch
-* Englisch
-* Französisch
-* Deutsch
-* Italienisch
-* Japanisch
-* Koreanisch
-* Portugiesisch
-* Spanisch
-* Taiwanesisch
+**Voraussetzungen**
 
-Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre Primärsprache in einem Experience Cloud-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter [Benutzervoreinstellungen für Experience Cloud](https://experience.adobe.com/preferences) durchgeführt werden.
+* Sie müssen über ein Experience Cloud-Konto verfügen.
+* Sie müssen über ein [!DNL Slack] -Konto verfügen. Ihr Slack-Administrator aktiviert die Experience Cloud-Integration mit Slack.
+* Sie müssen mindestens einem [!DNL Slack] -Arbeitsbereich angehören.
+
+**Abonnieren von Slack-Benachrichtigungen**
+
+1. Navigieren Sie zu Experience Cloud [Voreinstellungen](https://experience.adobe.com/preferences) .
+
+1. Suchen Sie [!DNL Slack] und klicken Sie dann auf **[!UICONTROL Zu Slack hinzufügen]**.
+
+   ![Zu Slack hinzufügen](../assets/add-to-slack.png)
+
+   Wenn [!DNL Slack] installiert ist, wird die Anwendung geöffnet und eine Meldung mit einer Berechtigungsanforderung angezeigt.
+
+   * Klicken Sie auf **[!UICONTROL Allow]**.
+
+   Wenn [!DNL Slack] nicht installiert ist, wird die Meldung _Installationsanfrage_ angezeigt:
+
+   ![Slack-Integration anfordern](../assets/slack-request.png)
+
+   * Wählen Sie unter Slack den Arbeitsbereich oben rechts im Programm aus.
+
+   * Um die Anwendungsgenehmigung für den Slack Workspace-Manager anzufordern, klicken Sie auf **[!UICONTROL Senden]**.
+
+   * Sie erhalten eine Benachrichtigung in [!DNL Slack] , nachdem die Anwendungsanforderung genehmigt wurde.
+
+   * Nachdem Sie die [!DNL Slack]-Genehmigung erhalten haben, kehren Sie zu Experience Cloud **[!UICONTROL Benachrichtigungen]** zurück und klicken Sie dann auf **[!UICONTROL Zu Slack hinzufügen]**.
+
+1. Aktivieren Sie unter **[!UICONTROL Benachrichtigungen]** die Option [!DNL Slack] Benachrichtigungen für Ihre gewünschten Produkte und Kategorien.
+
+   ![Slack notifications](../assets/slack.png)
+
+   Aktualisierungen der Benachrichtigungen werden automatisch gespeichert.
+
+### Was Sie in [!DNL Slack] sehen werden
+
+Slack-Benachrichtigungen enthalten die folgenden Informationen:
+
+* Die persönliche Nachricht wird vom Anwendungsnamen _Adobe Experience Cloud_ empfangen.
+* Die Nachricht enthält das Produktlogo für die jeweilige Anwendung, z. B. Adobe Experience Platform, Adobe Experience Manager usw.
+* Ein Link zum Anzeigen aller Benachrichtigungen auf dem Experience Cloud.
+* Ein Link zur Verwaltung von Benachrichtigungseinstellungen auf dem Experience Cloud.
+
+## Anzeigen von [!UICONTROL Benachrichtigungen] und Mitteilungen in Experience Cloud {#view-notifications}
+
+In der Experience Cloud-Kopfzeile können Sie Benachrichtigungen anzeigen, für die Sie [Abonnement](#notifications) abgeschlossen haben, sowie Ankündigungen anzeigen.
+
+1. Klicken Sie auf das Glockensymbol in der Kopfzeile. ![Benachrichtigungen und Ankündigungen](../assets/bell-icon.png)
+
+1. Klicken Sie auf **[!UICONTROL Benachrichtigungen]** oder **[!UICONTROL Mitteilungen]**.
+
+   An diesem Ort erhalten Sie wichtige Informationen zu Produkten, Ihre Zusammenarbeit mit anderen Benutzern und andere relevante Updates. Zu den Aktualisierungen gehören Produktversionen, Wartungshinweise, freigegebene Elemente und Genehmigungsanfragen.
