@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
+source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 21%
@@ -91,7 +91,7 @@ Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-B
 
 ### Anfrageberechtigung in Slack {#slack-troubleshoot}
 
-Wenn [!DNL Slack] nicht installiert ist, wird beim Öffnen der Slack nach dem Klicken auf **[!UICONTROL Zu Slack hinzufügen]** die Meldung _Installationsanfrage_ angezeigt.
+Wenn [!DNL Slack] nicht installiert ist, wird beim Öffnen der Slack nach dem Klicken auf **[!UICONTROL Zu Slack hinzufügen]** die Meldung _[!UICONTROL Installationsanfrage]_ angezeigt.
 
 ![Slack-Integration anfordern](../assets/slack-request.png)
 
