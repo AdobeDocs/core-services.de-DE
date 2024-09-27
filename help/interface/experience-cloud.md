@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 100%
 
 In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 
-* Greifen Sie auf Ihre Programme und Services zu
+* Zugriff auf alle Experience Cloud-Anwendungen und -Dienste
 * Suchen Sie über das Menü „Hilfe“ nach Produktdokumentationen, Tutorials und Community-Beiträgen. Lassen Sie sich Ergebnisse in Experience League anzeigen.
 * Suchen Sie global nach Geschäftsobjekten, indem Sie eine globale Suche (nur für Nutzerinnen und Nutzer der Experience Platform) im Feld „Suche“ verwenden.
-* Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
+* Verwalten Sie Ihr Konto [Voreinstellungen](features/account-preferences.md) (Warnhinweise, Benachrichtigungen und Abonnements)
 
 ## Melden Sie sich bei Experience Cloud an {#signin}
 
@@ -68,35 +68,21 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
 * **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
 
-## Benutzerprofil- und Kontovoreinstellungen {#preferences}
+## Benutzerprofil verwalten
 
-Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise. Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
+Im Benutzerprofilmenü haben Sie folgende Möglichkeiten:
 
 * Festlegen eines dunklen Designs (nicht alle Anwendungen unterstützen dieses Design)
-* Suchen nach [Organisationen](administration/organizations.md)
+* Experience Cloud [-Einstellungen](features/account-preferences.md) verwalten
+* Auswählen oder Suchen nach einer [Organisation](administration/organizations.md)
+* Anzeigen von [!UICONTROL rechtlichen Hinweisen]
 * Abmelden
 * Einstellungen, Benachrichtigungen und Abonnements für das Konto konfigurieren
 
-Um die Voreinstellungen zu verwalten, wählen Sie die Option **[!UICONTROL Voreinstellungen]** im Menü ![Voreinstellungen](assets/preferences-icon-sm.png) Ihres Kontos aus.
+## Anzeigen von Benachrichtigungen und Mitteilungen innerhalb des Produkts {#notifications}
 
-![Benutzerprofil- und Kontovoreinstellungen](assets/preferences-page.png)
-
-Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funktionen konfigurieren:
-
-| Funktion | Beschreibung |
-|--- |--- |
-| Standard [organisation](administration/organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
-| [!UICONTROL Erfassung von Produktdaten] | Wählen Sie aus, welche Technologien Adobe verwenden kann, um Daten darüber zu sammeln, wie Sie Ihre Adobe-Produkte verwenden. |
-| [!UICONTROL Personalisierte Empfehlungen und Angebote von Lerninhalten] | Wählen Sie aus, wo Sie personalisierte Hilfe für Ihr(e) Adobe-Produkt(e) erhalten möchten. Diese Hilfe ist per E-Mail, innerhalb des Produktes und in den Experience League Communities verfügbar. [Weitere Informationen.](features/personalized-learning.md) |
-| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-Over [!UICONTROL Benachrichtigungen] und in Ihren E-Mails. |
-| [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |
-| [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
-| E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |
-
-{style="table-layout:auto"}
-
-## Benachrichtigungen und Ankündigungen {#notifications}
-
-Wählen Sie die Option **[!UICONTROL Benachrichtigungen]** aus, um über relevante und ausführbare Aktualisierungen, einschließlich Produktversionen, Wartungshinweise, freigegebene Elemente und Genehmigungsanfragen, informiert zu werden.
+Klicken Sie auf das Glockensymbol, um Benachrichtigungen und Mitteilungen anzuzeigen. Mitteilungen können relevante und umsetzbare Aktualisierungen sein, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen.
 
 ![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png)
+
+Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie unter [Kontovoreinstellungen und Benachrichtigungen](features/account-preferences.md)

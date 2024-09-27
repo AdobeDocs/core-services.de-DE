@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 22%
+source-wordcount: '632'
+ht-degree: 8%
 
 ---
 
 # Kontovoreinstellungen und Benachrichtigungen {#preferences}
 
-Zu den Experience Cloud [Voreinstellungen](https://experience.adobe.com/preferences) gehören Benachrichtigungen (In-App, E-Mail und [!DNL Slack]), Abonnements und Warnungen.
+Um Experience Cloud-Voreinstellungen zu finden, klicken Sie auf das Symbol **[!UICONTROL Benutzerkonto]** ![Voreinstellungen](../assets/preferences-icon-sm.png) und dann auf **[!UICONTROL Voreinstellungen]**.
 
-In den Voreinstellungen haben Sie folgende Möglichkeiten:
-
-* Suchen nach [Organisationen](../administration/organizations.md)
-* Geben Sie ein dunkles Design an (nicht alle Anwendungen unterstützen dieses Design).
-* Konfigurieren Sie Kontovoreinstellungen, Benachrichtigungen und Abonnements für Benutzer.
-* Melden Sie sich von der Experience Cloud ab.
-
-## Verwalten von Voreinstellungen
-
-Um die Voreinstellungen zu verwalten, wählen Sie die Option **[!UICONTROL Voreinstellungen]** im Menü ![Voreinstellungen](../assets/preferences-icon-sm.png) Ihres Kontos aus.
-
-Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funktionen konfigurieren:
+Auf der Seite [!UICONTROL Experience Cloud-Voreinstellungen] können Sie die folgenden Kontofunktionen verwalten:
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Standard [organisation](../administration/organizations.md) | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
+| Profil | Aktualisieren Sie Ihr [Adobe-Kontoprofil](https://account.adobe.com/profile). <p>Ihr Profilfoto und Ihr Profilname werden angezeigt, wenn Sie sich bei Adobe.com, Adobe-Produkten und -Diensten und auf öffentlich zugänglichen Sites wie [!DNL Behance] anmelden. |
+| Allgemein | Wählen Sie eine [Organisation](../administration/organizations.md) aus.<p>Diese Organisation wird standardmäßig bei der Anmeldung bei Experience Cloud verwendet. |
 | [!UICONTROL Erfassung von Produktdaten] | Wählen Sie aus, welche Technologien Adobe verwenden kann, um Daten darüber zu sammeln, wie Sie Ihre Adobe-Produkte verwenden. |
-| [Benachrichtigungen](#notifications-and-announcements) | Aktivieren Sie die Benachrichtigungen für [!UICONTROL In-App], [!UICONTROL E-Mail] oder [Slack](#slack-notifications). |
+| Benachrichtigungen | Konfigurieren Sie, wie und wann Sie Produkt-[Benachrichtigungen](#subscribe-to-notifications-in-experience-cloud) und Warnhinweise benötigen: <ul><li>Wählen Sie die Produkte aus, für die Sie Warnhinweise abonnieren möchten</li><li>Konfigurieren des Benachrichtigungstyps ([!UICONTROL in-app], [!UICONTROL email] oder [Slack](#slack-notifications))</li><li>Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich)</li><li>Bestimmen Sie die Priorität des Warnhinweises. In-App-Warnhinweise werden einige Sekunden oben rechts in Ihrem Fenster angezeigt. Sie können auch angeben, ob Warnhinweise angezeigt werden sollen, bis Sie sie schließen.</li></ul> |
 | [!UICONTROL Personalisierte Empfehlungen und Angebote von Lerninhalten] | Wählen Sie aus, wo Sie [personalisierte Hilfe](personalized-learning.md) für Ihre Adobe-Produkte erhalten möchten. Diese Hilfe ist per E-Mail, im Produkt und in den Experience League Communities verfügbar. |
-| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Popup-Fenster [!UICONTROL Benachrichtigungen] und in Ihrer E-Mail. |
-| [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag [!UICONTROL Hoch] markiert und können für Sendungen wie Warnungen konfiguriert werden. |
-| [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
-| E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |
 
 ## Abonnieren von Benachrichtigungen in Experience Cloud {#notifications}
 
