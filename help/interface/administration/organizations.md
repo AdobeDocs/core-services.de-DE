@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 64%
+source-wordcount: '538'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,7 @@ Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experi
 
 ![Experience Cloud-Organisationen](../assets/organizations-menu.png)
 
-Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf Ihren Profilavatar, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
+Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf **[!UICONTROL Profil]** , um den standardmäßigen Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
 
 ## Federated IDs
 
@@ -33,7 +33,7 @@ Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domai
 
 ## Anzeigen Ihrer Organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Sie können Ihre zugewiesene Organisations-ID zu Supportzwecken suchen. Mit dem Menü **[!UICONTROL Organisation]** können Sie prüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
+Sie können Ihre zugewiesene Organisations-ID zu Supportzwecken suchen. Mit dem Selektor **[!UICONTROL Organisation]** in der Kopfzeile können Sie überprüfen, ob Sie sich in der richtigen Organisation befinden, oder zwischen Organisationen wechseln.
 
 Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von `@AdobeOrg` (zwingend erforderlich).
 
@@ -65,31 +65,30 @@ In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme un
 
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
 
-1. Wählen Sie den Anwendungsselektor aus. ( ![menu](../assets/menu-icon.png)).
+1. Klicken Sie auf den **[!UICONTROL Anwendungsselektor]**. ( ![menu](../assets/menu-icon.png)).
 
    ![Verknüpfen eines Programmkontos mit einer Adobe ID](../assets/solutions-active.png)
 
    Die Programme, auf die Sie Zugriff haben, sind farbig dargestellt.
 
-1. Wählen Sie das gewünschte Programm aus.
+1. Klicken Sie auf die gewünschte Anwendung.
 
-   ![Wählen Sie das gewünschte Programm aus](../assets/analytics-link-accounts.png)
+   ![Klicken Sie auf Ihre Anwendung](../assets/analytics-link-accounts.png)
 
-   Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldeinformationen jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
+   Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldedaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
 
-1. Klicken Sie auf **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
+1. Klicken Sie auf **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldedaten ein.
 
-## Standardorganisation und -Landingpage festlegen {#concept_6A191B42A9874A9780882903BA18F071}
+## Standardorganisation angeben {#concept_6A191B42A9874A9780882903BA18F071}
 
-Sie können bei der Anmeldung eine Standardorganisation und eine Landingpage angeben.
+Sie können eine Standardorganisation angeben, die bei der Anmeldung verwendet werden soll.
 
-Klicken Sie in Ihrem Profil auf **[!UICONTROL Profil bearbeiten]**.
+1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profil]** und dann auf Voreinstellungen.
+
+1. Wählen Sie unter [!UICONTROL Allgemein] eine Standardorganisation aus.
+
 
 ![Profil bearbeiten](../assets/edit-profile.png)
-
-Unter **[!UICONTROL Standardorganisation und Landingpage]** können Sie Ihr Anmeldeerlebnis anpassen.
-
-![Standardorganisation und Landingpage](../assets/default-organization.png)
 
 ## Problembehebung für Kontoverknüpfungen {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 

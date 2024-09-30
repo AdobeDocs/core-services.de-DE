@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 69%
+source-wordcount: '700'
+ht-degree: 67%
 
 ---
 
@@ -87,7 +87,13 @@ Bereitstellung in Experience Cloud bedeutet:
 
 +++
 
-+++ Wie verwalte ich Benutzer und Produktprofile?
++++ Wie verwalte ich Benutzereinstellungen, Benachrichtigungen und Warnungen?
+
+* Siehe [Kontovoreinstellungen und Benachrichtigungen](/help/interface/features/account-preferences.md)
+
++++
+
++++ Wie verwalte ich Produktprofile und Benutzerkontoanmeldeinformationen?
 
 * Hilfe finden Sie im [Admin Console-Benutzerhandbuch](https://helpx.adobe.com/de/enterprise/admin-guide.html).
 
