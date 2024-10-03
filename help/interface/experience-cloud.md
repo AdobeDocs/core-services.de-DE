@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 77%
+ht-degree: 91%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 77%
 
 In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 
-* Zugriff auf alle Experience Cloud-Anwendungen und -Dienste
+* Zugriff auf alle Experience Cloud-Anwendungen und -Services
 * Suchen Sie über das Menü „Hilfe“ nach Produktdokumentationen, Tutorials und Community-Beiträgen. Lassen Sie sich Ergebnisse in Experience League anzeigen.
 * Suchen Sie global nach Geschäftsobjekten, indem Sie eine globale Suche (nur für Nutzerinnen und Nutzer der Experience Platform) im Feld „Suche“ verwenden.
-* Verwalten Sie Ihr Konto [Voreinstellungen](features/account-preferences.md) (Warnhinweise, Benachrichtigungen und Abonnements)
+* Verwalten der [Einstellungen](features/account-preferences.md) des Kontos (Warnhinweise, Benachrichtigungen und Abonnements)
 
 ## Melden Sie sich bei Experience Cloud an {#signin}
 
@@ -68,21 +68,21 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
 * **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
 
-## Benutzerprofil verwalten
+## Verwalten des Benutzerprofils
 
 Im Menü [!UICONTROL Profil] haben Sie folgende Möglichkeiten:
 
 * Festlegen eines dunklen Designs (nicht alle Anwendungen unterstützen dieses Design)
-* Experience Cloud [-Einstellungen](features/account-preferences.md) verwalten
-* Auswählen oder Suchen nach einer [Organisation](administration/organizations.md)
+* Verwalten von Experience Cloud [-Einstellungen](features/account-preferences.md)
+* Auswählen von oder Suchen nach [Organisationen](administration/organizations.md)
 * Anzeigen von [!UICONTROL rechtlichen Hinweisen]
 * Abmelden
 * Einstellungen, Benachrichtigungen und Abonnements für das Konto konfigurieren
 
-## Anzeigen von Benachrichtigungen und Mitteilungen innerhalb des Produkts {#notifications}
+## Anzeigen von Benachrichtigungen und Ankündigungen im Produkt {#notifications}
 
-Klicken Sie auf das Glockensymbol, um Benachrichtigungen und Mitteilungen anzuzeigen. Mitteilungen können relevante und umsetzbare Aktualisierungen sein, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen.
+Klicken Sie auf das Glockensymbol, um Benachrichtigungen und Ankündigungen anzuzeigen. Bei Ankündigungen kann es sich um relevante und umsetzbare Aktualisierungen handeln, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen.
 
 ![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png)
 
-Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie unter [Kontovoreinstellungen und Benachrichtigungen](features/account-preferences.md)
+Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](features/account-preferences.md).
