@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 breadcrumb-title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
-description: Erfahren Sie mehr über die Experience Cloud-Benutzeroberfläche und die Voreinstellungen für Benutzerkonten. Erfahren Sie, wie Sie nach Geschäftsobjekten suchen sowie Benutzer und Produkte verwalten. Konfigurieren Sie Kundenattribute, die Zielgruppenbibliothek sowie Cookies und geben Sie Experience Cloud-Assets frei.
+description: Erfahren Sie mehr über die Experience Cloud-Oberfläche, Cookies und Kontovoreinstellungen. Verwalten Sie Produkte und konfigurieren Sie den People-Dienst, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud Assets.
 index: true
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 009c387189d928d3807326939fa56461325011f1
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 88%
 
 ---
 
