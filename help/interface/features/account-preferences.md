@@ -1,6 +1,6 @@
 ---
 title: Kontovoreinstellungen und Benachrichtigungen
-description: Informationen zu Benutzerprofilen und Kontovoreinstellungen finden Sie unter Experience Cloud. Abonnieren Sie Produktbenachrichtigungen für E-Mails und  [!DNL Slack] und richten Sie Produktwarnungen ein.
+description: Erfahren Sie mehr über Voreinstellungen zu Benutzerprofilen und Konten in Experience Cloud. Abonnieren Sie Produktbenachrichtigungen für E-Mails und  [!DNL Slack] und richten Sie Produktwarnungen ein.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
@@ -10,7 +10,7 @@ exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
 source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
