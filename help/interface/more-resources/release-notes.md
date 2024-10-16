@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 27d656b3cfe614f0a5b47d8987343a4c36d9ed33
+source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
 workflow-type: tm+mt
-source-wordcount: '5104'
-ht-degree: 96%
+source-wordcount: '5162'
+ht-degree: 95%
 
 ---
 
@@ -24,11 +24,17 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Aktualisieru
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
+## 2. Oktober 2024
+
+| Funktion | Beschreibung |
+| -----------| ---------- |
+| Anpassbare Startseite | Klicken Sie auf der Experience Cloud-Landingpage auf **[!UICONTROL Bearbeiten]**. Der Modus [!UICONTROL Bearbeiten] ermöglicht es Ihnen, Ihre Experience Cloud-Startseite mit Zugriff auf eine Widget-Bibliothek und benutzerdefinierte Hintergründe zu personalisieren. Der Modus [!UICONTROL Bearbeiten] bietet nahtlose, intuitive Steuerelemente zum Verschieben, Ändern der Größe und Verwalten von Widgets, einschließlich Massenaktionen und Layoutanpassungen, und bietet ein ästhetischeres und benutzerdefiniertes Erlebnis. |
+
 ## 10. September 2024
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen konfigurieren, um Experience Cloud-Benachrichtigungen an Slack zu senden. Weitere Informationen finden Sie unter _Slack notifications_ in der Hilfe zu [Voreinstellungen](../features/account-preferences.md) . |
+| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an Slack gesendet werden. Weitere Informationen finden Sie unter _Slack notifications_ in der Hilfe zu [Voreinstellungen](../features/account-preferences.md) . |
 
 <!-- ## July - August 2023
 
