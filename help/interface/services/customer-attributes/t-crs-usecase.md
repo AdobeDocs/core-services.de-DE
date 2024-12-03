@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: d1d2e6a05ff247cf178ebe9849da53287485d44c
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 84%
+source-wordcount: '1102'
+ht-degree: 77%
 
 ---
 
@@ -71,11 +71,15 @@ Führen Sie diese Schritte auf der Seite Neues Kundenattribut-Source erstellen i
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Quelle des Datenattributs.
 
-   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. Die [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code Ihrer Kundenattributquelle verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der im Feld [!UICONTROL Alias-ID] für eine Kundenattributquelle unter Experience Cloud eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript des Mobile SDK).
+   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein spezifisches CRM-System. [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code Ihres [!UICONTROL Kundenattribut Source]-Codes verwendet wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der im Feld [!UICONTROL Alias-ID] für eine Kundenattributquelle unter Experience Cloud eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript des Mobile SDK).
+
+     >[!IMPORTANT]
+     >
+     >Durch das Löschen einer mit einer Alias-ID verknüpften Datenquelle wird diese Alias-ID nicht verfügbar, da die Alias-ID in mehreren Diensten gespeichert und zur Zuordnung von Profilen zwischen ihnen verwendet wird.
 
      Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
-      * **Dynamic Tag Management:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
+      * **Tags:** Die Alias-ID entspricht dem Wert *Integrationscode* unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud ID-Dienst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de) .
 
       * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html), die Sie den einzelnen Besuchern zuordnen können.
 
@@ -99,7 +103,7 @@ Führen Sie diese Schritte auf der Seite Neues Kundenattribut-Source erstellen i
 
         Zusätzliche Informationen zur Datenverarbeitung des Alias-ID-Feldes und von Kunden-IDs finden Sie unter [Nutzen mehrerer Datenquellen](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB).
 
-   * **[!UICONTROL Hochladen einer Datei:]** Die `.csv`-Datendatei kann per Drag &amp; Drop oder per FTP hochgeladen werden. (Beim Upload via FTP ist zusätzlich eine `.fin`-Datei erforderlich.) Siehe [Hochladen der Daten via FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+   * **[!UICONTROL Hochladen einer Datei:]** Die `.csv`-Datendatei kann per Drag &amp; Drop oder per FTP hochgeladen werden. (Für die Verwendung von FTP ist auch eine `.fin` -Datei erforderlich.) Siehe [Hochladen der Daten via FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
      >[!IMPORTANT]
      >
