@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: d1d2e6a05ff247cf178ebe9849da53287485d44c
+source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -75,7 +75,7 @@ Führen Sie diese Schritte auf der Seite Neues Kundenattribut-Source erstellen i
 
      >[!IMPORTANT]
      >
-     >Durch das Löschen einer mit einer Alias-ID verknüpften Datenquelle wird diese Alias-ID nicht verfügbar, da die Alias-ID in mehreren Diensten gespeichert und zur Zuordnung von Profilen zwischen ihnen verwendet wird.
+     >Durch das Löschen einer mit einer Alias-ID verknüpften Datenquelle wird die Alias-ID nicht verfügbar, da die Alias-ID in mehreren Diensten gespeichert und zur Zuordnung von Profilen zwischen ihnen verwendet wird.
 
      Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Kunden-ID-Werte festlegen. Beispiel:
 
