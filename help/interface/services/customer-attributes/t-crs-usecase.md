@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
+source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -108,7 +108,6 @@ Führen Sie diese Schritte auf der Seite Neues Kundenattribut-Source erstellen i
      >[!IMPORTANT]
      >
      >Für die Datendatei bestehen bestimmte Voraussetzungen. Weitere Informationen finden Sie unter [Datendateivoraussetzungen](crs-data-file.md).
-
 
      Nach dem Hochladen der Datei werden die Tabellendaten unter der Überschrift [!UICONTROL Datei-Upload] auf dieser Seite angezeigt. Sie können das Schema validieren, Abonnements konfigurieren oder den FTP einrichten.
 
