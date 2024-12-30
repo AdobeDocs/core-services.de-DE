@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ---
 
-# Erste Schritte mit Experience Cloud-Diensten
+# Erste Schritte mit Experience Cloud-Services
 
 Wenn Sie kürzlich Experience Cloud mit Experience Platform Tags implementiert haben, sind Sie bereits für Kundenattribute und Experience Cloud-Zielgruppen eingerichtet. Sie können auch Benutzende und Produkte in der Admin Console verwalten.
 
@@ -185,13 +185,13 @@ Nutzen Sie die Vorteile folgender Funktionen.
 
 Wenn Sie Daten von Unternehmenskunden in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen. Verwenden Sie die Daten nach dem Hochladen in [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
-Weitere Informationen finden Sie unter [Kundenattribute](customer-attributes/attributes.md) .
+Weitere Informationen finden [ unter ](customer-attributes/attributes.md)Kundenattribute“.
 
 ### [!UICONTROL Personen] > [!UICONTROL Zielgruppenbibliothek]
 
 In Experience Cloud-[!UICONTROL Zielgruppen] können Sie Zielgruppen erstellen, bereits vorhandene Zielgruppen zu einer gemeinsamen Zielgruppe zusammenfassen und alle freigegebenen Zielgruppen anzeigen.
 
-Weitere Informationen finden Sie unter [Zielgruppen](audiences/overview.md) .
+Weitere Informationen finden [ unter ](audiences/overview.md)Zielgruppen“.
 
 ## Datenspeicherung und Datenschutz
 

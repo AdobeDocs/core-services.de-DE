@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie mehr über die von Experience Cloud verwendeten Domänen.
-title: Von Experience Cloud verwendete Domänen
+description: Erfahren Sie mehr über die vom Experience Cloud verwendeten Domains.
+title: Von Experience Cloud verwendete Domains
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -13,11 +13,11 @@ ht-degree: 17%
 
 ---
 
-# Von der Adobe Experience Cloud verwendete Domänen
+# Von der Adobe Experience Cloud verwendete Domains
 
-Experience Cloud verwendet die folgenden Hosts, um die Anwendung bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen über das Netzwerk oder die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu erzielen.
+Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domains über das Netzwerk oder die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu gewährleisten.
 
-Zusätzlich zu den unten aufgeführten Domänen haben einzelne Adobe Experience Cloud-Produkte ihre eigenen Domänen, die sie verwenden:
+Zusätzlich zu den unten aufgeführten Domains verfügen einzelne Adobe Experience Cloud-Produkte über eigene Domains, die sie verwenden:
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
@@ -25,7 +25,7 @@ Zusätzlich zu den unten aufgeführten Domänen haben einzelne Adobe Experience 
 
 | Technologie | Domains |
 | --- | --- |
-| Adobe-Domänen | `adobe.com`, `adobe.net`, `adobe.io` |
+| Adobe-Domains | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Identity Management Service (IMS) | `adobelogin.com` |
 | Schriftarten | `typekit.net` |
 | Datenerfassung (für Produktleistung und -nutzung) | `adobedtm.com` |

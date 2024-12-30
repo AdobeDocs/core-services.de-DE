@@ -24,7 +24,7 @@ Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit
 
 ## DNS-Vorabruf und Adobe Experience Cloud-Programme
 
-Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL Experience Cloud]-Anwendungen und -Diensten funktioniert, da:
+Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL Experience Cloud]-Anwendungen und -Services funktioniert, da:
 
 * Jedes Programm und jeder Service von Experience Cloud generiert beim Laden der Seite dynamisch DNS-Aufrufe.
 * Der Browser kann Domain-Namen nicht in IP-Adressen auflösen, bevor diese Aufrufe durchgeführt werden.
@@ -41,7 +41,7 @@ In den folgenden Beispielen wird dargestellt, wie Sie DNS-Vorabrufe an unterschi
 
 * **Audience Manager:** `<link rel="dns-prefetch" href="//dpm.demdex.net">`
 
-* **Experience Cloud ID-Dienst:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
+* **Experience Cloud-ID-Dienst:** `<link rel="dns-prefetch" href="//fast.examplepartnerid.demdex.net">`
 
 * **Advertising Cloud:**
 
@@ -52,4 +52,4 @@ In den folgenden Beispielen wird dargestellt, wie Sie DNS-Vorabrufe an unterschi
 
 >[!MORELIKETHIS]
 >
->* [DNS-Vorabruf](https://www.chromium.org/developers/design-documents/dns-prefetching) in Chromium
+>* [DNS-Vorabruf](https://www.chromium.org/developers/design-documents/dns-prefetching) auf Chromium

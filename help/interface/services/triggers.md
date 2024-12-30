@@ -49,7 +49,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
-1. Wählen Sie unter Experience Cloud die Option ![menu](../assets/menu-icon.png) und dann **[!UICONTROL Datenerfassung/Launch]** aus.
+1. Klicken Sie in Experience Cloud auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Datenerfassung/Launch]**.
 2. Wählen Sie in der Karte [!UICONTROL Triggers] die Option **[!UICONTROL Triggers verwalten]** aus.
 3. Wählen Sie **[!UICONTROL Neuer Trigger]** aus und geben Sie dann den Trigger-Typ an:
 

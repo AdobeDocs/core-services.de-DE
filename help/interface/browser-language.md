@@ -32,7 +32,7 @@ Wenn Ihr Browser nicht aufgeführt ist, wird er möglicherweise trotzdem unterst
 
 ## Sprachunterstützung in Experience Cloud {#languages}
 
-Die Experience Cloud-Benutzeroberfläche ist in den folgenden Sprachen verfügbar:
+Die Benutzeroberfläche von Experience Cloud ist in den folgenden Sprachen verfügbar:
 
 * Englisch (USA)
 * Französisch (Frankreich)
@@ -42,10 +42,10 @@ Die Experience Cloud-Benutzeroberfläche ist in den folgenden Sprachen verfügba
 * Portugiesisch (Brasilien)
 * Japanisch
 * Koreanisch
-* Chinesisch traditionell
-* Chinesisch vereinfacht
+* Traditionelles Chinesisch
+* Chinesisch (vereinfacht)
 
-Darüber hinaus kann auch eine gebietsschemaspezifische Formatierung (wie Datum, Uhrzeit, Kalender, Zahlen) in verschiedenen Sprachen verfügbar sein, die von der Benutzeroberfläche unterstützt werden:
+Darüber hinaus kann die gebietsschemaspezifische Formatierung (z. B. Daten, Zeiten, Kalender, Zahlen) auch in Varianten der von der Benutzeroberfläche unterstützten Sprachen verfügbar sein:
 
 * Englisch (Israel)
 * Englisch (Vereinigtes Königreich)
@@ -53,14 +53,14 @@ Darüber hinaus kann auch eine gebietsschemaspezifische Formatierung (wie Datum,
 * Spanisch (Lateinamerika)
 * Französisch (Kanada)
 
-**So legen Sie eine Standardsprache fest**
+**So geben Sie eine Standardsprache an**
 
-1. Klicken Sie unter Experience Cloud auf **[!UICONTROL Profil]** > [Voreinstellungen](https://experience.adobe.com/preferences).
+1. Klicken Sie im Experience Cloud auf **[!UICONTROL Profil]** > [Voreinstellungen](https://experience.adobe.com/preferences).
 
-1. Klicken Sie unter **[!UICONTROL Profil]** auf den Sprach-Link.
+1. Klicken **[!UICONTROL unter &quot;]**&quot; auf den Link Sprache .
 
-1. Wählen Sie unter **[!UICONTROL Sprache auswählen]** eine Sprache aus dem Menü **[!UICONTROL Erste Sprache]** aus.
+1. Wählen **[!UICONTROL auf]** Sprache auswählen“ eine Sprache aus dem Menü **[!UICONTROL Erste Sprache]** aus.
 
-   Alle Anwendungsteams unterstützen zwar die globale Sprachunterstützung, jedoch werden nicht alle Anwendungen in allen Sprachen angeboten, die in der Benutzeroberfläche aufgeführt sind. Wenn Ihre Primärsprache in einer Experience Cloud-Anwendung nicht unterstützt wird, können Sie gegebenenfalls eine sekundäre Standardsprache festlegen.
+   Zwar verpflichten sich alle Anwendungsteams zur globalen Sprachunterstützung, doch werden nicht alle Anwendungen in allen in der Benutzeroberfläche aufgeführten Sprachen angeboten. Wenn Ihre Primärsprache in einer Experience Cloud-Anwendung nicht unterstützt wird, können Sie ggf. eine sekundäre Standardsprache festlegen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

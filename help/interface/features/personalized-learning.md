@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Empfehlungen und Angebote für personalisierte Lerninhalte
 
-Sie können es zulassen, dass Adobe Ihnen hilfreiche Inhalte anbietet, die auf Ihre Arbeit in Ihren Adobe-Produkten zugeschnitten sind. Wählen Sie aus den unten stehenden Optionen Ihre Einstellungen aus, und Sie erhalten Lerninhalte, die Folgendes berücksichtigen:
+Sie können Adobe erlauben, Ihnen hilfreiche Inhalte bereitzustellen, die basierend auf Ihrer Arbeit mit Ihren Adobe-Produkten auf Sie zugeschnitten sind. Wählen Sie aus den unten stehenden Optionen Ihre Einstellungen aus, und Sie erhalten Lerninhalte, die Folgendes berücksichtigen:
 
 * Ihr Können und die Art Ihrer Tätigkeit
 * Ihre Workflows

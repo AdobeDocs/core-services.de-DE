@@ -17,7 +17,7 @@ ht-degree: 91%
 
 # Cookies in Experience Cloud
 
-Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die in allen Experience Cloud-Applikationen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe Experience Cloud-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
+Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die für alle Experience Cloud-Programme verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe Experience Cloud-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
 
 **Cookie-Name: s_ecid**
 

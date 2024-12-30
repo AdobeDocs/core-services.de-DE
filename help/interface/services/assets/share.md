@@ -42,7 +42,7 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_cc.png)
 
-   Wählen Sie unter Experience Cloud ein Bild aus und wählen Sie dann das Zeitleistensymbol aus, um dem Bild einen Kommentar hinzuzufügen. Kommentare werden mit den Assets in Creative Cloud und Experience Cloud synchronisiert.
+   Klicken Sie in Experience Cloud auf ein Bild und dann auf das Zeitleistensymbol, um dem Bild einen Kommentar hinzuzufügen. Kommentare werden mit den Assets in Creative Cloud und Experience Cloud synchronisiert.
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_mac.png)
 
@@ -52,7 +52,7 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 
 Wenn Sie alle Creative Cloud-Benutzer entfernt haben, wird die Freigabe des Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 
-Weitere Möglichkeiten zur Verwendung eines freigegebenen Assets sind das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target für Bilder in Aktivitäten.
+Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target für Bilder in -Aktivitäten.
 
 Wenn Sie einen Ordner für Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 

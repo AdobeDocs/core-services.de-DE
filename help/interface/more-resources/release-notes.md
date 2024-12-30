@@ -28,13 +28,13 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Anpassbare Startseite | Klicken Sie auf der Experience Cloud-Landingpage auf **[!UICONTROL Bearbeiten]**. Der Modus [!UICONTROL Bearbeiten] ermöglicht es Ihnen, Ihre Experience Cloud-Startseite mit Zugriff auf eine Widget-Bibliothek und benutzerdefinierte Hintergründe zu personalisieren. Der Modus [!UICONTROL Bearbeiten] bietet nahtlose, intuitive Steuerelemente zum Verschieben, Ändern der Größe und Verwalten von Widgets, einschließlich Massenaktionen und Layoutanpassungen, und bietet ein ästhetischeres und benutzerdefiniertes Erlebnis. |
+| Anpassbare Startseite | Klicken Sie auf der Experience Cloud-Landingpage auf **[!UICONTROL Bearbeiten]**. Der Modus [!UICONTROL Bearbeiten] ermöglicht es Ihnen, Ihre Experience Cloud-Startseite mit Zugriff auf eine Widget-Bibliothek und benutzerdefinierte Hintergründe zu personalisieren. [!UICONTROL Bearbeiten]-Modus bietet nahtlose, intuitive Steuerelemente zum Verschieben, Ändern der Größe und Verwalten von Widgets, einschließlich Massenaktionen und Layout-Anpassungen, die ein ästhetischeres und maßgeschneidertes Erlebnis bieten. |
 
 ## 10. September 2024
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an Slack gesendet werden. Weitere Informationen finden Sie unter _Slack notifications_ in der Hilfe zu [Voreinstellungen](../features/account-preferences.md) . |
+| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an Slack gesendet werden. Weitere Informationen finden Sie unter _Slack_ Benachrichtigungen in [Voreinstellungen](../features/account-preferences.md)-Hilfe. |
 
 <!-- ## July - August 2023
 
@@ -203,7 +203,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 * Bereitstellung einer Backend-Lösung, um die Freigabe von Assets zwischen Experience Cloud-to-AEM und Experience Cloud-to-Creative Cloud zu steuern. (CORE-14386)
 * Behebung eines Fehlers, aufgrund dessen die Bereitstellung neuer Mandanten in einigen Umgebungen blockiert wurde. (CORE-15509)
-* Es wurde ein Problem behoben, bei dem Benutzer mit `http` anstelle von `https` zu `experiencecloud.adobe.com` umgeleitet wurden. (CORE-15587)
+* Es wurde ein Problem behoben, durch das Benutzer mithilfe von `http` statt `https` zu `experiencecloud.adobe.com` umgeleitet wurden. (CORE-15587)
 * Es wurde ein Problem behoben, durch das Benachrichtigungen für einige neue Mandanten blockiert wurden. (CORE-15240)
 
 ## Juni 2018
@@ -217,7 +217,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Neue Landingpage für die Administration | Wenn Sie sich bei Experience Cloud anmelden und zur Administrationsseite navigieren, steht eine neue intuitive Benutzeroberfläche zur Verfügung, über die Sie schnell auf Ihre Experience Cloud-Anwendungen und Core Services zugreifen können. |
+| Neue Landingpage für die Administration | Wenn Sie sich beim Experience Cloud anmelden und zur Seite Administration navigieren, steht eine neue intuitive Benutzeroberfläche zur Verfügung, über die Sie schnell auf Ihre Experience Cloud-Anwendungen und Core Services zugreifen können. |
 
 {style="table-layout:auto"}
 
@@ -228,7 +228,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 ## Oktober 2017
 
-**Bekanntes Problem**: Viele der Wartungsbenachrichtigungen rund um geplante Wartungs-/Produktaktualisierungen fehlen im Digest der Benachrichtigungs-E-Mail. Wir arbeiten daran, sicherzustellen, dass alle Wartungsbenachrichtigungen im E-Mail-Digest enthalten sind.
+**Bekanntes Problem**: Viele der Wartungsbenachrichtigungen rund um geplante Wartungen/Produktaktualisierungen fehlen im E-Mail-Digest der Benachrichtigungen. Wir arbeiten daran, sicherzustellen, dass alle Wartungsbenachrichtigungen im E-Mail-Digest enthalten sind.
 
 ## August 2017
 
@@ -244,8 +244,8 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor war es nur möglich, einzelne Report Suites zuzuordnen.)  <br>Die Zuordnung von Report Suites zu einer Organisation hilft beim Aktivieren von anwendungsübergreifenden Funktionen und Diensten im Experience Cloud. |
-| Aktualisierungen für Experience Cloud-Zielgruppen | **Report Suites anwenden**<br> Sie können eine Report Suite nun auf alle Ihre [Zielgruppen-Regeln](../services/audiences/create.md) anwenden. (Zuvor war es nur möglich, in jeder einzelnen Regeldefinition eine Report Suite festzulegen.) <br>**Eigenschaften und Variablen**<br> Sie können nun Analytics-Eigenschaften und Standardvariablen (zusätzlich zu eVars und Ereignissen) in Echtzeit-Zielgruppen einbeziehen. |
+| Report Suite-Massenzuordnung | Unter Administration > Zuordnung einer Report Suite können Sie nun mehrere Report Suites auswählen und sie dann einer Organisation zuordnen. (Zuvor mussten Sie sie einzeln zuordnen.) <br>Wenn Sie Report Suites einer einzelnen Organisation zuordnen, hilft Ihnen das beim Aktivieren programmübergreifender Funktionen und Services im Experience Cloud. |
+| Aktualisierungen für Experience Cloud-Zielgruppen | **Report Suites anwenden**<br> Sie können eine Report Suite nun auf alle Ihre [Zielgruppen-Regeln](../services/audiences/create.md) anwenden. (Zuvor mussten Sie in jeder Regeldefinition eine Report Suite angeben.) <br>**Props und Variablen**<br> Sie können jetzt Analytics-Props und Standardvariablen (zusätzlich zu eVars und Ereignissen) in Echtzeit-Zielgruppen einbeziehen. |
 
 {style="table-layout:auto"}
 
@@ -331,7 +331,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 >[!NOTE]
 >
->Microsoft® [beendet den Support](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Daher plant Adobe nicht, Probleme zu beheben, die in Verbindung mit diesen speziellen Versionen von Internet Explorer gemeldet werden.
+>Microsoft® [beendet den Support](https://www.microsoft.com/de-de/WindowsForBusiness/End-of-IE-support) für Internet Explorer 8, 9 und 10. Daher plant Adobe nicht, Probleme zu beheben, die in Bezug auf diese spezifischen Versionen von Internet Explorer gemeldet werden.
 
 ## Oktober 2015
 
@@ -355,7 +355,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 * Es wurde ein Fehler behoben, der bei Verwendung des Besucher-ID-Dienstes die Freigabe von Zielgruppen in Analytics verhinderte. (MAC-25788, MAC-25747)
 * Die Unterstützung für Multibyte-Zeichen in Kundenattributen wurde hinzugefügt. (MAC-25552)
 
-**Bekanntes Problem**: Ein bekanntes Problem verursacht die Erstellung doppelter automatisch generierter Konten in Audience Manager und die automatische Verknüpfung dieser Konten mit der Experience Cloud-Identität eines Benutzers. Dieses Problem tritt auf, wenn Sie versuchen, zu Audience Manager zu navigieren, bevor Sie Ihre Konten verknüpfen. Adobe empfiehlt Ihnen, die Verknüpfung Ihrer Audience Manager-Konten mit der Experience Cloud vorzunehmen, bevor Sie zu Audience Manager navigieren. (MAC-25640)
+**Bekanntes Problem** Ein bekanntes Problem führt dazu, dass im Audience Manager doppelte automatisch generierte Konten erstellt werden und automatisch mit der Experience Cloud-Identität eines Benutzers verknüpft werden. Dieses Problem tritt auf, wenn Sie versuchen, zu Audience Manager zu navigieren, bevor Sie Ihre Konten verknüpfen. Adobe empfiehlt Ihnen, die Verknüpfung Ihrer Audience Manager-Konten mit der Experience Cloud vorzunehmen, bevor Sie zu Audience Manager navigieren. (MAC-25640)
 
 ## Mai 2015
 
@@ -509,7 +509,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 * Änderungen an Gruppen und Berechtigungen, die über die Benutzerverwaltung durchgeführt werden, werden erst bei einer erneuten Anmeldung wirksam.
 * Administratoren müssen sich ab- und wieder anmelden, um die in den Kontoeinstellungen vorgenommenen Änderungen zu sehen.
 * Benutzer können auf Pinnwänden keine PowerPoint-Dateien freigeben.
-* Die Leistung der Experience Cloud-Oberfläche kann reduziert werden, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
+* Die Experience Cloud-Schnittstelle kann die Leistung bei gleichzeitiger Verwendung durch viele Benutzende beeinträchtigen.
 * Die Synchronisierung zwischen Adobe Experience Manager und Creative Cloud funktioniert nicht.
 
 ## Oktober 2014
@@ -545,7 +545,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 * Einige Benutzer können eine Karte möglicherweise nicht aus einer PDF-Datei erstellen und auf einer Pinnwand freigeben.
 * Für einige Benutzer ist das Löschen nicht mehr aktueller Assets möglich, ohne dabei eine Fehlermeldung zu empfangen.
 * Benutzer können auf Pinnwänden keine PowerPoint-Dateien freigeben.
-* Die Leistung der Experience Cloud-Oberfläche kann reduziert werden, wenn sie von vielen Benutzern gleichzeitig verwendet wird.
+* Die Experience Cloud-Schnittstelle kann die Leistung bei gleichzeitiger Verwendung durch viele Benutzende beeinträchtigen.
 * Die [!DNL Search&Promote]-Verknüpfungen stehen auf der Seite [!UICONTROL Unternehmen und Produktzugriff] nicht zur Verfügung.
 
 ## September 2014

@@ -31,7 +31,7 @@ Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erwe
 
 * Genehmigen Sie Anträge oder lehnen Sie sie ab.
 
-* Publish unter Experience Cloud.
+* Publish in Experience Cloud.
 
 * Suchen und filtern Sie nach Kategorie, Unternehmen, Typ, Benutzer usw.
 

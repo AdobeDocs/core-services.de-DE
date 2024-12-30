@@ -10,7 +10,7 @@ exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 source-git-commit: 5df8104d3d148cc7bda823b27bf96429ddb6018d
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 80%
+ht-degree: 95%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 80%
 
 In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 
-* Zugriff auf alle Experience Cloud-Anwendungen und -Dienste
+* Zugriff auf alle Experience Cloud-Anwendungen und -Services
 * Suchen Sie über das Menü „Hilfe“ nach Produktdokumentationen, Tutorials und Community-Beiträgen. Lassen Sie sich Ergebnisse in Experience League anzeigen.
 * Suchen Sie global nach Geschäftsobjekten, indem Sie eine globale Suche (nur für Nutzerinnen und Nutzer der Experience Platform) im Feld „Suche“ verwenden.
-* Verwalten Sie Ihr Konto [Voreinstellungen](features/account-preferences.md) (Warnhinweise, Benachrichtigungen und Abonnements)
+* Verwalten der [Einstellungen](features/account-preferences.md) des Kontos (Warnhinweise, Benachrichtigungen und Abonnements)
 
 ## Melden Sie sich bei Experience Cloud an {#signin}
 
@@ -55,9 +55,9 @@ Rufen Sie die das ![Menü](assets/menu-icon.png) der Programmauswahl auf, um auf
 
 ![Zugriff auf Experience Cloud-Programme](assets/platform-core-services.png)
 
-## Erhalten Sie Hilfe und Support {#support}
+## Hilfe und Support {#support}
 
-Greifen Sie auf Lernmaterialien und Hilfe über das **[!UICONTROL Hilfezentrum]** (![Asset](assets/help-icon.png)) in der Kopfzeile zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Anwendungen. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
+Greifen Sie über das **[!UICONTROL Hilfezentrum]** (![Asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
 ![Erhalten Sie Hilfe und Support](assets/search-menu.png)
 
@@ -68,35 +68,35 @@ Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und prüfen Sie den Betriebsstatus des Produkts und [!UICONTROL verwalten Sie Abonnements].
 * **[!UICONTROL Developer Connection]:** Navigation zu `adobe.io` und Entwicklerdokumentation.
 
-## Benutzerprofil verwalten
+## Verwalten des Benutzerprofils
 
 Im Menü [!UICONTROL Profil] haben Sie folgende Möglichkeiten:
 
 * Festlegen eines dunklen Designs (nicht alle Anwendungen unterstützen dieses Design)
-* Experience Cloud [-Einstellungen](features/account-preferences.md) verwalten
-* Auswählen oder Suchen nach einer [Organisation](administration/organizations.md)
+* Verwalten von Experience Cloud [-Einstellungen](features/account-preferences.md)
+* Auswählen von oder Suchen nach [Organisationen](administration/organizations.md)
 * Anzeigen von [!UICONTROL rechtlichen Hinweisen]
 * Abmelden
 * Einstellungen, Benachrichtigungen und Abonnements für das Konto konfigurieren
 
-## Anzeigen von Benachrichtigungen und Mitteilungen innerhalb des Produkts {#notifications}
+## Anzeigen von Benachrichtigungen und Ankündigungen im Produkt {#notifications}
 
-Klicken Sie auf das Glockensymbol, um Benachrichtigungen und Mitteilungen anzuzeigen. Mitteilungen können relevante und umsetzbare Aktualisierungen sein, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen.
+Klicken Sie auf das Glockensymbol, um Benachrichtigungen und Ankündigungen anzuzeigen. Bei Ankündigungen kann es sich um relevante und umsetzbare Aktualisierungen handeln, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen.
 
 ![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png)
 
-Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie unter [Kontovoreinstellungen und Benachrichtigungen](features/account-preferences.md)
+Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](features/account-preferences.md).
 
 
 ## Neuerungen
 
-Erfahren Sie mehr über die neuesten Verbesserungen an den Komponenten der zentralen Experience Cloud-Benutzeroberfläche.
+Erfahren Sie mehr über die neuesten Verbesserungen der zentralen Experience Cloud-Schnittstellenkomponenten.
 
 >[!BEGINTABS]
 
 >[!TAB Slack-Integration mit Experience Cloud]
 
-Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an einen [!DNL Slack] -Kanal gesendet werden.
+Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an einen [!DNL Slack] gesendet werden.
 
 [!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Informationen zum Slack"}
 
@@ -181,7 +181,7 @@ Einige wichtige Änderungen am FCM-Dienst (Android Firebase Cloud Messaging) wer
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Entwicklerressourcen</strong><br/><a href="dev/datamodel.md">Datenmodell von Campaign v8</a> - <a href="dev/schemas.md">Schemas</a> - <a href="dev/api.md">APIs</a>
+      <strong>Entwickler-Ressourcen</strong><br/><a href="dev/datamodel.md">Datenmodell von Campaign v8</a> – <a href="dev/schemas.md">Schemata</a> – <a href="dev/api.md">APIs</a>
     </td>
   </tr>
 </table>

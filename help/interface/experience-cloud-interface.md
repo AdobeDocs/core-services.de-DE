@@ -64,7 +64,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
    ![Organisation überprüfen](assets/organizations-menu.png)
 
-   Um sicherzustellen, dass Sie sich bei Ihrer korrekten [Organisation](organizations.md) angemeldet haben, klicken Sie auf **[!UICONTROL Profil]** , um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie mit dem Selektor **[!UICONTROL Organisation]** auch eine andere Organisation anzeigen und zu ihr wechseln.
+   Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation [ haben](organizations.md) klicken Sie auf **[!UICONTROL Profil]**, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie mit dem Selektor „Organisation **[!UICONTROL auch eine andere Organisation anzeigen]** zu ihr wechseln.
 
    Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich durch ein Single Sign-on Ihres Unternehmens bei Experience Cloud anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur Experience Cloud-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
@@ -74,7 +74,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Dienste und Organisationen zugreifen.
 
-Wählen Sie den Anwendungsselektor ![menu](assets/menu-icon.png) aus, um auf die Experience Cloud-Dienste zuzugreifen, deren Inhaber Sie sind.
+Klicken Sie auf die Programmauswahl ![Menü](assets/menu-icon.png), um auf die von Ihnen verwalteten Experience Cloud-Services zuzugreifen.
 
 ![Zugriff auf Experience Cloud-Programme](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
-Wählen Sie **[!UICONTROL Voreinstellungen]** aus Ihrem Kontomenü ![Voreinstellungen](assets/preferences-icon-sm.png) aus, um die Voreinstellungen zu verwalten.
+Wählen Sie **[!UICONTROL Voreinstellungen]** aus dem Kontomenü ![Voreinstellungen](assets/preferences-icon-sm.png) aus, um die Voreinstellungen zu verwalten.
 
 ![Verwalten von Experience Cloud](assets/preferences-page.png)
 

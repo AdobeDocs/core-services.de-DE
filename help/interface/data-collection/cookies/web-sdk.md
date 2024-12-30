@@ -1,6 +1,6 @@
 ---
-title: Cookies im Adobe Experience Platform Web SDK
-description: Erfahren Sie, wie das Web SDK Cookies verwendet, die für Ihre Implementierung gelten.
+title: Cookies in Adobe Experience Platform Web SDK
+description: Erfahren Sie, wie Web SDK Cookies verwendet, die für Ihre Implementierung gelten.
 solution: Experience Cloud
 feature: Cookies
 topic: Administration
@@ -14,17 +14,17 @@ ht-degree: 1%
 
 ---
 
-# Adobe Experience Platform Web SDK-Cookies
+# Cookies in Adobe Experience Platform Web SDK
 
-Das Adobe Experience Platform Web SDK verwendet Cookies, um für Ihre Implementierung spezifische Werte zu speichern.
+Adobe Experience Platform Web SDK verwendet Cookies, um implementierungsspezifische Werte zu speichern.
 
-| Name | Max. Alter | Größe | Beschreibung |
+| Name | Maximales Alter | Größe | Beschreibung |
 |---|---|---|---|
-| **kndctr_&lt;ORG_ID>_identity** | 34128000 (395 Tage) | 100-120 Byte (Variable) | Speichert die ECID sowie andere Informationen zur ECID. |
-| **kndctr_&lt;ORG_ID>_consent** | 15552000 (180 Tage) | 10-11 Byte | Speichert die Zustimmungsvoreinstellung des Benutzers für die Website. |
-| **kndctr_&lt;ORG_ID>_cluster** | 1800 (30 Minuten) | 3-5 Byte | Speichert den Edge Network-Bereich, der den Anforderungen des aktuellen Benutzers entspricht. Der Bereich wird im URL-Pfad verwendet, damit das Edge Network die Anfrage an den richtigen Bereich weiterleiten kann. Wenn ein Benutzer eine Verbindung mit einer anderen IP-Adresse oder in einer anderen Sitzung herstellt, wird die Anforderung erneut an den nächsten Bereich weitergeleitet. |
-| **mbox** | 63072000 (2 Jahre) | | Vorhanden, wenn die Target-Migrationseinstellung auf &quot;true&quot;gesetzt ist. Dadurch kann das Target-[mbox-Cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/) vom Web SDK gesetzt werden. |
-| **mboxEdgeCluster** | 1800 (30 Minuten) | | Vorhanden, wenn die Target-Migrationseinstellung auf &quot;true&quot;gesetzt ist. Dadurch kann das Web SDK den richtigen Edge-Cluster mit `at.js` kommunizieren, sodass Target-Profile synchronisiert bleiben können, wenn Benutzer auf einer Site navigieren. |
-| **AMCV_###@AdobeOrg** | 34128000 (395 Tage) | | Vorhanden, wenn [`idMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/idmigrationenabled) aktiviert ist. Dies ist beim Übergang zum Web SDK hilfreich, während einige Teile der Site weiterhin `visitor.js` verwenden. |
+| **kndctr_&lt;ORG_ID>_identity** | 34128000 (395 Tage) | 100-120 Byte (variabel) | Speichert die ECID sowie andere Informationen im Zusammenhang mit der ECID. |
+| **kndctr_&lt;ORG_ID>_consent** | 15552000 (180 Tage) | 10-11 Byte | Speichert die Einverständnisvoreinstellungen des Benutzers für die Website. |
+| **kndctr_&lt;ORG_ID>_cluster** | 1800 (30 Minuten) | 3-5 Byte | Speichert den Edge Network-Bereich, der den Anfragen des aktuellen Benutzers dient. Die Region wird im URL-Pfad verwendet, damit das Edge Network die Anfrage an die richtige Region weiterleiten kann. Wenn ein(e) Benutzende(r) eine Verbindung mit einer anderen IP-Adresse oder in einer anderen Sitzung herstellt, wird die Anfrage erneut an die nächstgelegene Region weitergeleitet. |
+| **mbox** | 63072000 (2 Jahre) | | Dies ist vorhanden, wenn die Einstellung für die Zielmigration auf „true“ festgelegt ist. Dadurch kann das Target[Mbox-Cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/) von der Web-SDK festgelegt werden. |
+| **mboxEdgeCluster** | 1800 (30 Minuten) | | Dies ist vorhanden, wenn die Einstellung für die Zielmigration auf „true“ festgelegt ist. Dadurch kann Web SDK dem `at.js` den richtigen Edge-Cluster übermitteln, damit die Zielprofile synchron bleiben, während Benutzende auf einer Site navigieren. |
+| **AMCV_##@AdobeOrg** | 34128000 (395 Tage) | | Bei aktiviertem [`idMigrationEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/idmigrationenabled) vorhanden. Dies ist hilfreich bei der Umstellung auf Web SDK, während einige Teile der Site noch `visitor.js` verwenden. |
 
-Das Edge Network setzt alle Cookies mit den Attributen `secure` und `sameSite="none"`. Wenn Ihre Website derzeit sowohl sichere als auch nicht sichere Abschnitte enthält, kann die Benutzeridentifizierung ungenau sein. Wenn ein Benutzer von einem sicheren Bereich der Site zu einem nicht sicheren Bereich navigiert, generiert das Edge Network eine neue `ECID` mit der Anforderung.
+Das Edge Network setzt alle Cookies mit den Attributen `secure` und `sameSite="none"`. Wenn Sie derzeit sowohl sichere als auch nicht sichere Abschnitte auf Ihrer Website haben, kann die Benutzeridentifizierung ungenau sein. Wenn ein(e) Benutzende(r) von einem sicheren Abschnitt der Site zu einem nicht sicheren Abschnitt navigiert, generiert das Edge Network mit der Anfrage einen neuen `ECID`.

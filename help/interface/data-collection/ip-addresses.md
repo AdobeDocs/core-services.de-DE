@@ -5,17 +5,17 @@ exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 6%
+ht-degree: 11%
 
 ---
 
 # Von Experience Cloud verwendete IP-Adressen
 
-Einige Firewall-Konfigurationen blockieren IP-Adressen, die von Adobe-Datenerfassungsservern oder -servern stammen, die für den Zugriff auf Daten verantwortlich sind. Sie können diese Bereichsliste verwenden, um die Firewall-Einstellungen Ihres Unternehmens zu ändern und den Zugriff auf und das Senden von Daten aus Ihrem Unternehmen zu ermöglichen. Diese Seite enthält sowohl eingehende Systeme (z. B. Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds in Adobe Analytics), die von Adobe verwendet werden.
+Einige Firewall-Konfigurationen blockieren IP-Adressen, die von Datenerfassungsservern oder -servern von Adobe stammen, die für den Datenzugriff verantwortlich sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihrer Organisation zu ändern, um den Zugriff zu ermöglichen und Daten von innerhalb Ihrer Organisation zu senden. Diese Seite enthält sowohl eingehende Systeme (z. B. Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds in Adobe Analytics), die von Adobe verwendet werden.
 
 >[!IMPORTANT]
 >
->Adobe versucht zwar nach besten Kräften, dieses Dokument aktuell zu halten, kann aber nicht garantieren, dass die Liste der IP-Bereiche unverändert bleibt. Zu den möglichen Änderungen gehören das Wachstum und die Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen an der Adobe IP-Adresszeile oder ein Internetdienstanbieter funktioniert nicht mehr.
+>Adobe tut sein Bestes, um dieses Dokument aktuell zu halten, kann jedoch nicht garantieren, dass die Liste der IP-Bereiche gleich bleibt. Zu den möglichen Änderungen gehören das Wachstum und die Ausweitung des Unternehmens, eine Internet-Registrierung erfordert Änderungen am IP-Adressraum der Adobe oder ein Internet-Service-Provider funktioniert nicht mehr.
 
 Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adobe Experience Cloud-Produkte über eigene IP-Adressen, die sie verwenden:
 
@@ -25,7 +25,7 @@ Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adob
 
 ## Alle Adobe-IP-Adressblöcke
 
-Die folgende Tabelle enthält alle Adobe-eigenen IP-Adressen. Diese Tabelle enthält alle Adobe-Mitarbeiterbüros und Rechenzentren, die von Adobe global betrieben werden. Sie umfasst keine Dienste, die in öffentlichen Clouds gehostet werden.
+In der folgenden Tabelle sind alle IP-Adressen aufgeführt, die sich im Besitz von Adobe befinden. Diese Tabelle enthält alle Adobe-Mitarbeiterbüros und Rechenzentren, die von Adobe global betrieben werden. Sie umfasst keine auf Public Clouds gehosteten Services.
 
 | IP-Block (CIDR-Notation) |
 | --- |
@@ -39,9 +39,9 @@ Die folgende Tabelle enthält alle Adobe-eigenen IP-Adressen. Diese Tabelle enth
 
 {style="table-layout:auto"}
 
-## Adobe Experience Cloud-Datenerfassungs- und FTP-IP-Adressblöcke
+## Adobe Experience Cloud-Datenerfassung und FTP-IP-Adressblöcke
 
-Wenn Ihr Unternehmen bestimmte IP-Adressbereiche zulassen möchte, können Sie auf die folgende Tabelle verweisen. Zu diesem Service gehören:
+Wenn Ihr Unternehmen bestimmte IP-Adressbereiche lieber zulässt, können Sie die folgende Tabelle heranziehen. Zu diesem Service gehören:
 
 * Datenerfassungsserver für alle Experience Cloud-Produkte
 * FTP-Server für alle Experience Cloud-Produkte
@@ -81,7 +81,7 @@ Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 
 {style="table-layout:auto"}
 
-Die Adobe Experience Cloud unterstützt IPv6 auch in begrenztem Umfang. Diese IP-Blöcke dienen zu ähnlichen Datenerfassungszwecken wie die oben genannten IPv4-Entsprechungen, enthalten jedoch kein FTP.
+Der Adobe Experience Cloud unterstützt auch IPv6 in begrenzter Kapazität. Diese IP-Blöcke dienen ähnlichen Datenerfassungszwecken wie ihre IPv4-Gegenstücke oben, enthalten jedoch kein FTP.
 
 | Standort | Host |
 | --- | --- |
@@ -102,4 +102,4 @@ Die Adobe Experience Cloud unterstützt IPv6 auch in begrenztem Umfang. Diese IP
 
 >[!TIP]
 >
->FTP-Verbindungen für Adobe Analytics-Exportfunktionen (einschließlich Data Warehouse und Daten-Feeds) stammen nur von IPv4-Adressen in London, Oregon und Singapur.
+>FTP-Verbindungen für Adobe Analytics-Exportfunktionen (einschließlich Data Warehouse- und Daten-Feeds) stammen nur von IPv4-Adressen in London, Oregon und Singapur.

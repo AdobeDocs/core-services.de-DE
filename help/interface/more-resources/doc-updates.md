@@ -1,5 +1,5 @@
 ---
-description: Informationen über Aktualisierungen der Experience Cloud-Hilfe.
+description: Informationen zu Aktualisierungen der Experience Cloud-Hilfe.
 solution: Experience Cloud
 title: Dokumentation – Aktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -16,17 +16,17 @@ ht-degree: 77%
 
 # Aktualisierungen der Dokumentation – Experience Cloud
 
-Informationen über Aktualisierungen der Experience Cloud-Produktdokumentation.
+Informationen zu Aktualisierungen der Experience Cloud-Produktdokumentation.
 
 **September 2024**
 
-Es wurde Hilfe zum [Abonnieren von Slack-Benachrichtigungen](../features/account-preferences.md#subscribe-to-slack-notifications) hinzugefügt.
+Es wurde Hilfe zum Abonnieren [ Slack-Benachrichtigungen ](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 
 **26. April 2024**
 
-Vollständige Überarbeitung der Dokumentationsarchitektur. Außerdem wurden [IP-Adressen der Adobe Experience Cloud](../data-collection/ip-addresses.md) und [Regionale Datenerfassung](../data-collection/rdc.md) hinzugefügt.
+Vollständige Überarbeitung der Dokumentationsarchitektur. Es wurden auch [IP-](../data-collection/ip-addresses.md) von Adobe Experience Cloud und [Regionale Datenerfassung](../data-collection/rdc.md) hinzugefügt.
 
 **9. April 2024**
 
@@ -110,11 +110,11 @@ Zum Abschnitt [Informationen zur Datendatei und den Datenquellen für Kundenattr
 
 Allgemeine Aktualisierungen von Inhalt und Bildschirmen.
 
-**17. Januar 2018**
+**17 Januar 2018**
 
 Umstrukturierung und Aktualisierung von Links.
 
-**29. Dezember 2017**
+**29 Dezember 2017**
 
 Überarbeitetes Handbuch für die neueste Version.
 
@@ -126,11 +126,11 @@ Die Definition von Analytics-Rohdaten wurde in [Erstellen einer Zielgruppe](../s
 
 [Experience Cloud-Integrationen](../administration/integrations.md) wurden hinzugefügt, eine Zusammenfassung der Dokumentation zur Integration.
 
-**11. Februar 2016**
+**11 Februar 2016**
 
 Der Abschnitt [Experience Cloud Assets](../services/assets/experience-cloud-assets.md) wurde hinzugefügt.
 
-**15. Januar 2015**
+**15 Januar 2015**
 
 Hinzugefügte Experience Cloud-Benutzer können jetzt Ordner für Creative Cloud freigeben und Assets und Kommentare zwischen beiden Clouds synchronisieren. Siehe [Asset-Freigabe](../services/assets/creative-cloud.md).
 
@@ -138,6 +138,6 @@ Hinzugefügte Experience Cloud-Benutzer können jetzt Ordner für Creative Cloud
 
 Der Abschnitt [Experience Cloud-FAQ](faq.md) für Administratoren wurde hinzugefügt.
 
-**22. Mai 2014**
+**22 Mai 2014**
 
-Dokumentation für [Zielgruppen](../services/audiences/overview.md) hinzugefügt
+Dokumentation hinzugefügt für [Zielgruppen](../services/audiences/overview.md)

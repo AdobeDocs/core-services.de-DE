@@ -6,7 +6,7 @@ title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
 source-git-commit: 009c387189d928d3807326939fa56461325011f1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%
 

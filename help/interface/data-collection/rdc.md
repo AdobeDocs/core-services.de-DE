@@ -11,14 +11,14 @@ ht-degree: 1%
 
 # Regionale Datenerfassung
 
-Die Adobe Experience Cloud verwendet die regionale Datenerfassung (Regional Data Collection, RDC), damit Interaktionen zwischen Ihren Besuchern und Adobe so nahe wie möglich an Ihren Besuchern stattfinden. Lokal an einer Edge-Site erfasste Daten werden sicher zur Verarbeitung an eine Core-Site weitergeleitet. Nach der Verarbeitung sind die Daten für Adobe Experience Cloud-Produkte und -Dienste verfügbar.
+Die Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collection, RDC), damit die Interaktionen zwischen Ihren Besuchern und dem Adobe so nah wie möglich bei Ihren Besuchern stattfinden. Lokal an einer Edge-Site erfasste Daten werden zur Verarbeitung sicher an eine Core-Site weitergeleitet. Nach der Verarbeitung stehen die Daten für Adobe Experience Cloud-Produkte und -Services zur Verfügung.
 
-Der regionale Datenerfassungs-Workflow bietet mehrere Vorteile:
+Der Workflow für die regionale Datenerfassung bietet mehrere Vorteile:
 
-* **Leistung**: Mit RDC stellen Ihre Besucher eine Verbindung zur nächsten Edge-Site her. Diese Optimierung bietet die schnellste Reaktionszeit, was zu genauerer Verfolgung und schnelleren Ladezeiten führt.
-* **Redundanz**: Wenn die Kommunikation zwischen Edge-Sites und Core-Sites unterbrochen wird, speichert die Adobe-Infrastruktur Daten lokal und leitet sie bei der Wiederherstellung der Kommunikation an die Core-Site weiter. Adobe kann auch Traffic zu anderen Edge-Sites weiterleiten, wenn bei einem bestimmten Standort Unterbrechungen auftreten.
+* **Performance**: Mit RDC stellen Ihre Besucher eine Verbindung zur nächstgelegenen Edge-Site her. Diese Optimierung bietet die schnellste Reaktionszeit, was zu einer genaueren Verfolgung und schnelleren Ladezeiten führt.
+* **Redundanz**: Bei einer Unterbrechung der Kommunikation zwischen einem Edge-Standort und einem Core-Standort speichert die Adobe-Infrastruktur die Daten lokal und leitet sie bei der Wiederherstellung der Kommunikation an den Core-Standort weiter. Adobe kann auch Traffic zu anderen Edge-Standorten leiten, wenn an einem bestimmten Standort Unterbrechungen auftreten.
 
-RDC umfasst derzeit die folgenden Speicherorte (kann geändert werden):
+RDC umfasst derzeit die folgenden Speicherorte (kann sich ändern):
 
 ## Erstanbieter-Datenerfassung
 
@@ -26,18 +26,18 @@ RDC umfasst derzeit die folgenden Speicherorte (kann geändert werden):
 | --- | --- |
 | Global (Standard) | Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 | Global + China* | Peking*, Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
-| Nur Amerika | Oregon, Virginia |
+| Nur Nord- und Südamerika | Oregon, Virginia |
 | Nur Europa | Irland, Paris |
-| Nur Asien | Mumbai, Singapur, Tokio, Sydney |
+| Nur Asien/Pazifik | Mumbai, Singapur, Tokio, Sydney |
 | Nur China* | Peking |
 
 {style="table-layout:auto"}
 
-_*China RDC erfordert das Add-On-Paket zur Leistungsoptimierung für China und gilt nur für Adobe Analytics, das die AppMeasurement-Datenerfassung verwendet. Andere Experience Cloud-Dienste und die Web SDK-Datenerfassung werden nicht unterstützt. Wenden Sie sich an Ihr Adobe Account-Team, um mehr über das Add-On-Paket zur Leistungsoptimierung für China zu erfahren._
+_*Die regionale Datenerfassung für China erfordert das Add-on-Paket „Leistungsoptimierung für China“ und gilt nur für Adobe Analytics mithilfe der AppMeasurement-Datenerfassung. Andere Experience Cloud-Services und die Web SDK-Datenerfassung werden nicht unterstützt. Wenden Sie sich an Ihr Adobe-Account-Team, um mehr über das Add-on-Paket zur Leistungsoptimierung für China zu erfahren._
 
-## Datenerfassung von Drittanbietern
+## Datenerfassung durch Dritte
 
-Die Datenerfassung von Drittanbietern umfasst Cookie-Domänen, die nicht mit Ihrer Website-Domäne übereinstimmen. Beispiele sind `adobedc.net`, `omtrdc.net` und `2o7.net`.
+Die Datenerfassung durch Dritte umfasst Cookie-Domains, die nicht mit Ihrer Website-Domain übereinstimmen. Beispiele sind `adobedc.net`, `omtrdc.net` und `2o7.net`.
 
 | RDC-Typ | Datenerfassungszentren |
 | --- | --- |

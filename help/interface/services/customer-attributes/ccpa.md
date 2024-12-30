@@ -15,13 +15,13 @@ ht-degree: 82%
 
 # Unterstützung von Kundenattributen für den California Consumer Privacy Act
 
-Auf dieser Seite wird die Unterstützung von [!UICONTROL Kundenattributen] für den California Consumer Privacy Act (CCPA) beschrieben.
+Auf dieser Seite wird [!UICONTROL  Unterstützung ] „Kundenattribute“ für den California Consumer Privacy Act (CCPA) beschrieben.
 
 >[!IMPORTANT]
 >
 >Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Wenden Sie sich an Ihren Rechtsbeistand, um Beratung zum CCPA zu erhalten.
 
-Der CCPA ist das neue kalifornische Datenschutzgesetz, das am 1. Januar 2020 in Kraft tritt. Der CCPA räumt den Einwohnern Kaliforniens neue Rechte in Bezug auf ihre personenbezogenen Daten ein und erlegt Rechtspersönlichkeiten, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf. Der CCPA bietet Verbrauchern das Recht, auf ihre personenbezogenen Daten zuzugreifen und diese zu löschen, sowie das Recht, bestimmte Aktivitäten, die als &quot;Verkauf&quot;personenbezogener Daten an Dritte gelten, abzuwählen.
+Der CCPA ist Kaliforniens neues Datenschutzgesetz, das am 1. Januar 2020 in Kraft tritt. Der CCPA räumt den Einwohnern Kaliforniens neue Rechte in Bezug auf ihre personenbezogenen Daten ein und erlegt Rechtspersönlichkeiten, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf. Der CCPA bietet Verbrauchern das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen sowie das Recht, sich gegen bestimmte Aktivitäten zu entscheiden, die als „Verkauf“ personenbezogener Daten an Dritte gelten.
 
 Als Unternehmen legen Sie fest, welche personenbezogenen Daten Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
@@ -50,7 +50,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!UICONTROL Kundenattrib
 &quot;company context&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;value&quot;: &lt;*Ihr Organisations-ID-Wert*>
+* „value“: &lt;*Wert Ihrer Organisations-ID*>
 
 &quot;users&quot;:
 

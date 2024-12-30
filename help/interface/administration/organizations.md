@@ -17,13 +17,13 @@ ht-degree: 55%
 
 # Organisationen in Experience Cloud
 
-Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und das Single Sign-on im Experience Cloud zu steuern.
+Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzende zu konfigurieren und Single Sign-on beim Experience Cloud zu steuern.
 
 Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 ![Experience Cloud-Organisationen](../assets/organizations-menu.png)
 
-Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf **[!UICONTROL Profil]** , um den standardmäßigen Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
+Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf **[!UICONTROL Profil]**, um den standardmäßigen Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
 
 ## Federated IDs
 
@@ -31,23 +31,23 @@ Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich durch ein Single 
 
 Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-## Anzeigen Ihrer Organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Organisations-ID anzeigen {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Sie können Ihre zugewiesene Organisations-ID zu Supportzwecken suchen. Mit dem Selektor **[!UICONTROL Organisation]** in der Kopfzeile können Sie überprüfen, ob Sie sich in der richtigen Organisation befinden, oder zwischen Organisationen wechseln.
+Sie können die zugewiesene Organisations-ID zu Support-Zwecken finden. Mit der Auswahl „Organisation“ in der Kopfzeile können Sie überprüfen **[!UICONTROL ob Sie sich in der richtigen]** befinden, oder zwischen Organisationen wechseln.
 
 Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von `@AdobeOrg` (zwingend erforderlich).
 
-Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen über den Tastaturbefehl **Strg+i** von jeder Seite unter `https://experience.adobe.com` anzeigen.
+Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithilfe des Tastaturbefehls **Strg+I** von jeder Seite aus auf `https://experience.adobe.com` einsehen.
 
-**Anzeigen Ihrer Organisations-ID**
+**Anzeigen der Organisations-ID**
 
-1. Drücken Sie in [Experience Cloud](https://experience.adobe.com) die Tastenkombination **Strg+i**.
+1. Drücken Sie in [Experience Cloud](https://experience.adobe.com) **Strg+I** auf der Tastatur.
 
    ![Zugewiesene Organisations-ID](../assets/assigned-organization.png)
 
-1. Suchen Sie unter &quot;**[!UICONTROL Benutzerinformationen]**&quot;nach &quot;**[!UICONTROL Aktuelle Organisations-ID]**&quot;. Suchen Sie dann nach der Organisations-ID.
+1. Suchen Sie **[!UICONTROL Benutzerinformationen]** nach **[!UICONTROL Aktuelle Organisations-ID]**, und Sie können die Organisations-ID finden.
 
-   Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu &quot;[https://adminconsole.adobe.com](https://adminconsole.adobe.com)&quot;) und Ihre Organisations-ID in der URL anzeigen.
+   Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und Ihre Organisations-ID in der URL sehen.
 
    Beispielsweise in der folgenden URL:
 
@@ -59,21 +59,21 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen über 
 
 ## Verknüpfen eines Programmkontos mit einer Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen der Anwendung mit einer Adobe ID verknüpfen.
+In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen eines Programms mit einer Adobe ID verknüpfen.
 
 1. Führen Sie die Schritte in Ihrer E-Mail-Einladung zum Experience Cloud aus.
 
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
 
-1. Klicken Sie auf den **[!UICONTROL Anwendungsselektor]**. ( ![menu](../assets/menu-icon.png)).
+1. Klicken Sie auf **[!UICONTROL Anwendungsauswahl]**. ( ![Menü](../assets/menu-icon.png)).
 
    ![Verknüpfen eines Programmkontos mit einer Adobe ID](../assets/solutions-active.png)
 
    Die Programme, auf die Sie Zugriff haben, sind farbig dargestellt.
 
-1. Klicken Sie auf die gewünschte Anwendung.
+1. Klicken Sie auf das gewünschte Programm.
 
-   ![Klicken Sie auf Ihre Anwendung](../assets/analytics-link-accounts.png)
+   ![Klicken Sie auf Ihr Programm](../assets/analytics-link-accounts.png)
 
    Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldedaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
 
@@ -81,11 +81,11 @@ In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme un
 
 ## Standardorganisation angeben {#concept_6A191B42A9874A9780882903BA18F071}
 
-Sie können eine Standardorganisation angeben, die bei der Anmeldung verwendet werden soll.
+Sie können bei der Anmeldung eine Standardorganisation angeben.
 
 1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profil]** und dann auf Voreinstellungen.
 
-1. Wählen Sie unter [!UICONTROL Allgemein] eine Standardorganisation aus.
+1. Wählen [!UICONTROL  unter ] eine Standardorganisation aus.
 
 
 ![Profil bearbeiten](../assets/edit-profile.png)

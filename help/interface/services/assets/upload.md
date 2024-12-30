@@ -1,6 +1,6 @@
 ---
 description: Laden Sie ein Asset vom Creative Cloud-Browser oder Creative Cloud-Desktop in einen freigegebenen Ordner hoch.
-title: Hochladen eines Assets in einen freigegebenen Ordner
+title: Asset in freigegebenen Ordner hochladen
 feature: Assets
 topic: Administration
 role: Admin
