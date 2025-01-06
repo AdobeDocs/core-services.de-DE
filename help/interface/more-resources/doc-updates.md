@@ -1,5 +1,5 @@
 ---
-description: Informationen zu Aktualisierungen der Experience Cloud-Hilfe.
+description: Erfahren Sie, wo Dokumentationsaktualisierungen zu den allgemeinen Schnittstellenkomponenten von Experience Cloud vorgenommen werden.
 solution: Experience Cloud
 title: Dokumentation – Aktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 77%
+source-wordcount: '580'
+ht-degree: 73%
 
 ---
 
-# Aktualisierungen der Dokumentation – Experience Cloud
+# Dokumentationsaktualisierungen für Experience Cloud
 
-Informationen zu Aktualisierungen der Experience Cloud-Produktdokumentation.
+Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und die Verwaltung von Experience Cloud vorgenommen werden.
+
+**November 2024**
+
+Aktualisierungen [Produktnutzungsdaten](../features/account-preferences.md) und [personalisiertes Lernen](../features/personalized-learning.md).
 
 **September 2024**
 

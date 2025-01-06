@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '5162'
-ht-degree: 95%
+source-wordcount: '5209'
+ht-degree: 94%
 
 ---
 
@@ -23,6 +23,10 @@ Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der Experie
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Aktualisierungen der Dokumentation](doc-updates.md).
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
+
+## November 2024
+
+Um die Kontrolle der Voreinstellungen für Experience Cloud-Produktverwendungsdaten zu vereinfachen, haben wir unsere Seite mit den Experience Cloud-Voreinstellungen optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Kunden können ihre Voreinstellungen jederzeit auf [Experience Cloud-Voreinstellungen aktualisieren](https://experience.adobe.com/preferences).
 
 ## 2. Oktober 2024
 

@@ -1,16 +1,16 @@
 ---
 title: Kontovoreinstellungen und Benachrichtigungen
-description: Erfahren Sie mehr über Voreinstellungen zu Benutzerprofilen und Konten in Experience Cloud. Abonnieren Sie Produktbenachrichtigungen für E-Mail und  [!DNL Slack] und richten Sie Produktbenachrichtigungen ein.
+description: Erfahren Sie mehr über Benutzerprofile, Kontovoreinstellungen und Produktnutzungsdaten in Experience Cloud. Abonnieren Sie Produktbenachrichtigungen für E-Mail und  [!DNL Slack] und richten Sie Produktbenachrichtigungen ein.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 10%
+source-wordcount: '825'
+ht-degree: 3%
 
 ---
 
@@ -24,11 +24,23 @@ Auf der Seite [!UICONTROL Experience Cloud]Einstellungen können Sie die folgend
 
 | Funktion | Beschreibung |
 |--- |--- |
-| Profil | [Adobe-Kontoprofil aktualisieren](https://account.adobe.com/profile). <p>Ihr Profilbild und Ihr Name werden angezeigt, wenn Sie sich bei Adobe.com, Adobe-Produkten und -Services und auf öffentlich zugänglichen Websites wie [!DNL Behance] anmelden. |
-| Allgemein | Wählen Sie eine [Organisation](../administration/organizations.md) aus.<p>Diese Organisation wird standardmäßig verwendet, wenn Sie sich bei Experience Cloud anmelden. |
-| [!UICONTROL Erfassung von Produktdaten] | Wählen Sie aus, welche Technologien Adobe verwenden kann, um Daten darüber zu sammeln, wie Sie Ihre Adobe-Produkte verwenden. |
-| Benachrichtigungen | Konfigurieren Sie, wie und wann Sie Produkt[Benachrichtigungen ](#subscribe-to-notifications-in-experience-cloud) Warnhinweise wünschen: <ul><li>Wählen Sie die Produkte aus, die Sie für Warnhinweise abonnieren möchten</li><li>Benachrichtigungstyp konfigurieren ([!UICONTROL In-App], [!UICONTROL Email] oder [Slack](#slack-notifications))</li><li>Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich)</li><li>Bestimmen Sie die Warnhinweispriorität. In-App-Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. Sie können auch festlegen, ob Warnhinweise angezeigt werden sollen, bis Sie sie schließen.</li></ul> |
-| [!UICONTROL Personalisierte Empfehlungen und Angebote von Lerninhalten] | Wählen Sie aus, wo Sie [personalisierte Hilfe](personalized-learning.md) für Ihre Adobe-Produkte erhalten möchten. Diese Hilfe ist per E-Mail, innerhalb des Produkts und in den Experience League Communities verfügbar. |
+| [!UICONTROL Profil] | [Adobe-Kontoprofil aktualisieren](https://account.adobe.com/profile). <p>Ihr Profilbild und Ihr Name werden angezeigt, wenn Sie sich bei Adobe.com, Adobe-Produkten und -Services und auf öffentlich zugänglichen Websites wie [!DNL Behance] anmelden. |
+| [!UICONTROL Allgemein] | Wählen Sie eine [Organisation](../administration/organizations.md) aus.<p>Diese Organisation wird standardmäßig verwendet, wenn Sie sich bei Experience Cloud anmelden. |
+| [!UICONTROL Produktnutzungsdaten] | Sie können steuern, welche Produktnutzungsdaten für Adobe freigegeben werden, wenn Sie Experience Cloud-Anwendungen verwenden. Hierbei handelt es sich um Daten darüber, wie Sie unsere Produkte verwenden, nicht um die Inhalte oder Daten Ihres Unternehmens selbst. Adobe verwendet diese Informationen, um unsere Produkte zu verbessern, Ihnen einen erweiterten produktinternen Support zu bieten und Ihre Erfahrungen und Mitteilungen von uns zu personalisieren. <p>Weitere Informationen finden Sie [Produktnutzungsdaten](#product-usage-data) (auf dieser Seite). |
+| [!UICONTROL Benachrichtigungen] | Konfigurieren Sie, wie und wann Sie Produkt[Benachrichtigungen ](#subscribe-to-notifications-in-experience-cloud) Warnhinweise wünschen: <ul><li>Wählen Sie die Produkte aus, die Sie für Warnhinweise abonnieren möchten</li><li>Benachrichtigungstyp konfigurieren ([!UICONTROL In-App], [!UICONTROL Email] oder [Slack](#slack-notifications))</li><li>Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich)</li><li>Bestimmen Sie die Warnhinweispriorität. In-App-Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. Sie können auch festlegen, ob Warnhinweise angezeigt werden sollen, bis Sie sie schließen.</li></ul> |
+
+## [!UICONTROL Produktnutzungsdaten] {#product-usage-data}
+
+Produktverwendungsdaten, die Sie für Adobe freigeben, enthalten die folgenden Arten von Informationen darüber, wie Sie Adobe-Anwendungen verwenden und mit ihnen interagieren:
+
+* Browser- und Geräteinformationen wie Gerätemodell und Betriebssystem, Software- und Hardwareinformationen, Browser- und Geräteeinstellungen, eindeutige Kennungen (wie IP-Adresse, Cookie-ID oder Geräte-ID), installierter Arbeitsspeicher, Spracheinstellungen und Bildschirmauflösung;
+* Interaktion mit Adobe Experience Cloud-Programmen, einschließlich der von Ihnen verwendeten Funktionen und der von Ihnen ausgewählten Optionen;
+* Adobe-Produktinformationen wie Versionsnummer;
+* Informationen über Ihre Inhalte und Dokumente, wie z. B. die Anzahl der Seiten und eindeutige Kennungen, aber nicht den Inhalt selbst;
+* Informationen zur Inhaltsnutzung, wie oft Sie auf Inhalte zugreifen und wie Sie mit Ihren Inhalten in der App interagieren;
+* Absturz- und Fehlerprotokolle.
+
+Adobe nutzt diese Informationen, um unsere Produkte zu verbessern, Sie sowohl im Produkt als auch über die Kundenunterstützung zu unterstützen und Ihre Erfahrungen und Mitteilungen von uns zu personalisieren. Weitere Informationen über [personalisierte Erlebnisse](personalized-learning.md).
 
 ## Abonnieren von Benachrichtigungen auf Experience Cloud {#notifications}
 
