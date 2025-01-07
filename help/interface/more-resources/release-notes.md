@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
 workflow-type: tm+mt
-source-wordcount: '5209'
-ht-degree: 94%
+source-wordcount: '5286'
+ht-degree: 93%
 
 ---
 
@@ -24,9 +24,12 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Aktualisieru
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
-## November 2024
+## Januar 2025
 
-Um die Kontrolle der Voreinstellungen für Experience Cloud-Produktverwendungsdaten zu vereinfachen, haben wir unsere Seite mit den Experience Cloud-Voreinstellungen optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Kunden können ihre Voreinstellungen jederzeit auf [Experience Cloud-Voreinstellungen aktualisieren](https://experience.adobe.com/preferences).
+| Datum | Funktion | Beschreibung |
+| -----------| -----------| ---------- |
+| Januar 9 | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für die Verwendung von Experience Cloud-Produktdaten zu vereinfachen, haben wir unsere Seite [Voreinstellungen](../features/account-preferences.md#product-usage-data) für Experience Cloud optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit auf [Experience Cloud-Voreinstellungen aktualisieren](https://experience.adobe.com/preferences). |
+| 30. Januar (geplantes Veröffentlichungsdatum) | Spektrum 2 | Der Experience Cloud-Anwendungsrahmen, der die Kopfzeilenleiste und die von der Kopfzeilenleiste aus zugängliche Komponente sowie die linke Navigationsleiste für bestimmte Anwendungen enthält, wird auf das neueste Design-System von Spectrum 2, Adobe, aktualisiert. Dieses überarbeitete Design enthält aktualisierte Symbolbilder, aber die gleiche Funktionalität. Einige Elemente im Header werden jedoch neu positioniert, um sie an andere Adobe-Sites und -Programme anzupassen. |
 
 ## 2. Oktober 2024
 
