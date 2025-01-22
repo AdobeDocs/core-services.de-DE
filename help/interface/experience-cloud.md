@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
-workflow-type: tm+mt
+source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
+workflow-type: ht
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Dienste und Organisationen zugreifen.
 
-Rufen Sie die das ![Menü](assets/menu-icon.png) der Programmauswahl auf, um auf die in Ihrem Unternehmen für Sie bereitgestellten Experience Cloud-Programme und -Services zuzugreifen.
+Rufen Sie die das ![Menü](assets/apps-icon.png) der Programmauswahl auf, um auf die in Ihrem Unternehmen für Sie bereitgestellten Experience Cloud-Programme und -Services zuzugreifen.
 
 ![Zugriff auf Experience Cloud-Programme](assets/platform-core-services.png)
 
