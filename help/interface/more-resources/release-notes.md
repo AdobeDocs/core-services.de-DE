@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: df8f418907c3b7044b70547ee1b7c5117d1cf8a6
+source-git-commit: dce1fe82a93cca78ea4ee2fa504947fcffb8a2c8
 workflow-type: tm+mt
 source-wordcount: '5286'
 ht-degree: 93%
@@ -29,7 +29,7 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 | Datum | Funktion | Beschreibung |
 | -----------| -----------| ---------- |
 | Januar 9 | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für die Verwendung von Experience Cloud-Produktdaten zu vereinfachen, haben wir unsere Seite [Voreinstellungen](../features/account-preferences.md#product-usage-data) für Experience Cloud optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit auf [Experience Cloud-Voreinstellungen aktualisieren](https://experience.adobe.com/preferences). |
-| 30. Januar (geplantes Veröffentlichungsdatum) | Spektrum 2 | Der Experience Cloud-Anwendungsrahmen, der die Kopfzeilenleiste und die von der Kopfzeilenleiste aus zugänglichen Komponenten sowie die linke Navigationsleiste für bestimmte Anwendungen enthält, wird auf das neueste Design-System von Spectrum 2, Adobe, aktualisiert. Dieses überarbeitete Design enthält aktualisierte Symbolbilder, aber die gleiche Funktionalität. Einige Elemente im Header werden jedoch neu positioniert, um sie an andere Adobe-Sites und -Programme anzupassen. |
+| 5. Februar (geplantes Veröffentlichungsdatum) | Spektrum 2 | Der Experience Cloud-Anwendungsrahmen, der die Kopfzeilenleiste und die von der Kopfzeilenleiste aus zugänglichen Komponenten sowie die linke Navigationsleiste für bestimmte Anwendungen enthält, wird auf das neueste Design-System von Spectrum 2, Adobe, aktualisiert. Dieses überarbeitete Design enthält aktualisierte Symbolbilder, aber die gleiche Funktionalität. Einige Elemente im Header werden jedoch neu positioniert, um sie an andere Adobe-Sites und -Programme anzupassen. |
 
 ## 2. Oktober 2024
 
