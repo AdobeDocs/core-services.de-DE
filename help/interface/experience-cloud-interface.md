@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 91%
@@ -59,7 +59,7 @@ Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](organizations.md) befinden.
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
-1. Wählen Sie **[!UICONTROL Mit Adobe ID anmelden]** aus.
+1. Klicken Sie auf **[!UICONTROL Mit Adobe ID anmelden]**.
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
    ![Organisation überprüfen](assets/organizations-menu.png)
@@ -104,7 +104,7 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
-Wählen Sie **[!UICONTROL Voreinstellungen]** aus dem Kontomenü ![Voreinstellungen](assets/preferences-icon-sm.png) aus, um die Voreinstellungen zu verwalten.
+* Klicken Sie **[!UICONTROL Voreinstellungen]** im Kontomenü ![Voreinstellungen](assets/preferences-icon-sm.png), um die Voreinstellungen zu verwalten.
 
 ![Verwalten von Experience Cloud](assets/preferences-page.png)
 
@@ -122,7 +122,7 @@ Unter [!UICONTROL Experience Cloud-Einstellungen] können Sie die folgenden Funk
 
 ## Benachrichtigungen und Ankündigungen {#notifications}
 
-Wählen Sie die Option **[!UICONTROL Benachrichtigungen]** aus, um für Sie wichtige Benachrichtigungen sowie Ankündigungen von Adobe anzuzeigen.
+Klicken Sie auf **[!UICONTROL Benachrichtigungen]**, um Benachrichtigungen, die für Sie wichtig sind, sowie Ankündigungen von Adobe anzuzeigen.
 
 ![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png)
 

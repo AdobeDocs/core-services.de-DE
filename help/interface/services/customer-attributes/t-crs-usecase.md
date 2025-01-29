@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 77%
@@ -61,7 +61,7 @@ Führen Sie diese Schritte auf der Seite Neue Kundenattribut-Source erstellen in
 
    ![Schritt Ergebnis](assets/03_crs_usecase.png)
 
-1. Wählen Sie **[!UICONTROL Neu]** aus.
+1. Klicken Sie auf **[!UICONTROL Neu]**.
 
    ![Schritt Ergebnis](assets/04_crs_usecase.png)
 

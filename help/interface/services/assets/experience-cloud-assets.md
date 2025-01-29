@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
@@ -65,13 +65,13 @@ Sie können nach Keyword, Dateityp, Größe, Änderungsdatum, Veröffentlichungs
 
 ## Anmerkungen zu Assets vornehmen {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Wählen Sie die Option **[!UICONTROL Anmerken]** aus, indem Sie Kreise oder Pfeile auf ein Bild zeichnen, und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
+Klicken Sie auf **[!UICONTROL Anmerken]** und zeichnen Sie Kreise oder Pfeile auf ein Bild und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
 
 ![Anmerkungen zu Assets vornehmen](../../assets/assets-annotate.png)
 
 ## Assets im Vollbildmodus anzeigen und Zoomen {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Wählen Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Bild]** aus, wenn Sie das vollständige Bild des Assets anzeigen und das Zoomen aktivieren möchten.
+Klicken Sie auf **[!UICONTROL Ansichten]** > **[!UICONTROL Bild]**, wenn Sie das vollständige Bild des Assets anzeigen und das Zoomen aktivieren möchten.
 
 ![Assets im Vollbildmodus anzeigen](../../assets/asset-zoom.png)
 
@@ -79,7 +79,7 @@ Wählen Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Bild]** aus, wenn Sie das
 
 Treffen Sie eine Auswahl zwischen der Kartenansicht mit Eigenschaften, der Listenansicht und der Spaltenansicht, um Ihr Asset möglichst schnell zu finden.
 
-Wählen Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Eigenschaften]** aus, um die Eigenschaften eines Assets anzuzeigen:
+Klicken Sie auf **[!UICONTROL Ansichten]** > **[!UICONTROL Eigenschaften]**, um die Eigenschaften eines Assets anzuzeigen:
 
 ![Asset-Eigenschaften anzeigen](../../assets/asset-properties.png)
 
@@ -87,6 +87,6 @@ Wählen Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Eigenschaften]** aus, um 
 
 Anzahl der Benutzer, belegten Speicherplatz und Gesamtzahl der Assets anzeigen.
 
-Wählen Sie **[!UICONTROL Werkzeuge]** > **[!UICONTROL Berichte]** > **[!UICONTROL Verwendungsberichte]** aus
+Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Berichte]** > **[!UICONTROL Gebrauchsbericht]**.
 
 ![Gebrauchsberichte ausführen](../../assets/assets-usage-report.png)

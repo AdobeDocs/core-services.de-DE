@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 84%
+ht-degree: 70%
 
 ---
 
@@ -19,26 +19,26 @@ ht-degree: 84%
 
 Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud frei.
 
-1. Klicken Sie in einem Asset-Ordner auf **[!UICONTROL Für Creative Cloud freigeben]**.
+1. Klicken Sie in einem Asset-Ordner auf **[!UICONTROL Mit Creative Cloud teilen]**.
 
    ![Für Creative Cloud freigeben](../../assets/asset-share-cc.png)
-1. Suchen Sie auf der Seite „Für Creative Cloud freigeben“ den entsprechenden Benutzer und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Suchen Sie auf der Seite „Mit Creative Cloud teilen“ den entsprechenden Benutzer und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    ![Creative Cloud-Benutzer hinzufügen](../../assets/asset-share-cc-page.png)
 
-1. Wählen Sie **[!UICONTROL Freigeben]** aus.
-1. Starten Sie den [!DNL Creative Cloud]-Desktop (oder navigieren Sie in einem Browser zur Seite [!UICONTROL Creative Cloud-Dateien]) und suchen Sie nach der Anfragebenachrichtigung.
+1. Klicken Sie auf **[!UICONTROL Freigabe]**.
+1. Starten Sie den [!DNL Creative Cloud]-Desktop (oder navigieren Sie in einem Browser zur Seite [!UICONTROL Creative Cloud-Dateien]) und suchen Sie nach der Benachrichtigung zur Anforderung.
 
    ![Benachrichtigung anfordern](../../assets/cc_share_request.png)
 1. Öffnen Sie die Anfrage und klicken Sie auf **[!UICONTROL Annehmen]**.
 
    ![Anfrage akzeptieren](../../assets/cc_share_accept.png)
-1. Klicken Sie zum Zugriff auf den Inhalt des Ordners auf **[!UICONTROL Ordner öffnen]** (oder **[!UICONTROL Im Web anzeigen]**).
+1. Zum Zugriff auf den Ordnerinhalt klicken Sie auf **[!UICONTROL Ordner öffnen]** (oder **[!UICONTROL Im Web anzeigen]**).
 
    ![Im Web anzeigen](../../assets/creative_cloud_open_folder.png)
 1. Sie können nun Kommentare zu dem freigegebenen Asset hinzufügen:
 
-   Klicken Sie in Creative Cloud auf ein Bild und dann auf **[!UICONTROL Aktivität]**, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in [!DNL Creative Cloud] und in [!DNL Experience Cloud] synchronisiert.
+   Beim Creative Cloud können Sie ein Bild auswählen und dann auf **[!UICONTROL Aktivität]** klicken, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in [!DNL Creative Cloud] und in [!DNL Experience Cloud] synchronisiert.
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_cc.png)
 
@@ -46,7 +46,7 @@ Geben Sie einen Experience Cloud-Asset-Ordner für Benutzer der Creative Cloud
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_mac.png)
 
-1. Zur Aufhebung der Freigabe eines Ordners klicken Sie auf **[!UICONTROL Mit Creative Cloud freigeben]** (wie in [Schritt 3](share.md)) und entfernen Sie dann Benutzer, indem Sie auf das X klicken. Klicken Sie dann auf **[!UICONTROL Freigeben]**.
+1. Um die Freigabe eines Ordners aufzuheben, klicken Sie auf **[!UICONTROL Freigeben mit Creative Cloud]** (ähnlich [Schritt 3](share.md)), entfernen Sie dann Benutzer, indem Sie auf das X klicken, und klicken Sie dann auf **[!UICONTROL Freigeben]**.
 
 ![Freigabe eines Ordners aufheben](../../assets/asset_remove_user.png)
 

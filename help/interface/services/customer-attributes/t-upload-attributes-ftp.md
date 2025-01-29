@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 76%
@@ -35,7 +35,7 @@ Datei-Uploads auf die FTP-Site für Kundenattribute können über FTP oder SFTP 
 
    Vergewissern Sie sich, dass Sie unter `ftp.adobe.com/<sftpname>` bei Ihrer FTP-Site angemeldet sind.
 
-1. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Datei-Upload]**.
+1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Datei hochladen]**.
 
 1. Laden Sie eine `.fin`-Datei hoch, damit Ihre Datei abgerufen werden kann.
 

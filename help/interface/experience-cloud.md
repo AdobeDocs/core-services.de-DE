@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 7bb32ff62b11cdc3fa5df9d14a9481d5ada657ab
-workflow-type: ht
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,8 +32,8 @@ In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](administration/organizations.md) befinden.
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
-1. Geben Sie Ihre Adobe-E-Mail-Adresse ein und wählen Sie **[!UICONTROL Weiter]**.
-1. Wählen Sie ein Konto aus.
+1. Geben Sie Ihre Adobe-E-Mail-Adresse ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Klicken Sie auf ein Konto.
 1. Geben Sie Ihr Passwort ein.
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 

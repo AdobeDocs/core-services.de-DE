@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e26fb61f-4a7f-4c02-ba80-87a9c0edea86
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 70%
@@ -23,12 +23,12 @@ Hilfe zu Creative Cloud finden Sie unter [https://helpx.adobe.com/de/creative-cl
 
 1. Starten Sie den [!DNL Creative Cloud]-Browser und navigieren Sie zu [!UICONTROL Creative Cloud-Dateien].
 1. Öffnen Sie den freigegebenen Ordner.
-1. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Hochladen]** aus.
-1. Verwenden Sie zur Auswahl oder zum Verschieben von Assets das Dateiverwaltungsprogramm Ihres Betriebssystems.
+1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Upload]**.
+1. Verwenden Sie das Dateiverwaltungsprogramm Ihres Betriebssystems zur Auswahl oder zum Verschieben von Assets.
 
 ## Ein Asset vom Creative Cloud-Desktop in einen freigegebenen Ordner hochladen
 
 1. Aktivieren Sie die Freigabe.
 1. Starten Sie den [!DNL Creative Cloud]-Desktop und navigieren Sie zu [!UICONTROL **Assets**].
-1. Wählen Sie **[!UICONTROL Ordner öffnen]** aus.
-1. Verwenden Sie zur Auswahl oder zum Verschieben von Assets das Dateiverwaltungsprogramm Ihres Betriebssystems.
+1. Klicken Sie auf **[!UICONTROL Ordner öffnen].**
+1. Verwenden Sie das Dateiverwaltungsprogramm Ihres Betriebssystems zur Auswahl oder zum Verschieben von Assets.
