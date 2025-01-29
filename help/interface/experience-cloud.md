@@ -7,8 +7,8 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e06568253b81742912b99bdf6e94c282abe2d429
-workflow-type: ht
+source-git-commit: 7bb32ff62b11cdc3fa5df9d14a9481d5ada657ab
+workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [Experience Cloud](https://experience.adobe.com) umfasst die Digital-Marketing-Programme, -Produkte und -Services von Adobe. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Programme, Produktfunktionen und Services zugreifen.
 
-![Experience Cloud](assets/landing.png){width="100" zoomable="yes"}
+![Experience Cloud](assets/landing.png)
 
 In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 
@@ -37,7 +37,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 1. Geben Sie Ihr Passwort ein.
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
-   ![Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden](assets/organizations-menu.png){width="100" zoomable="yes"}
+   ![Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden](assets/organizations-menu.png)
 
    **Organisation überprüfen**
 
@@ -53,13 +53,13 @@ Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Head
 
 Rufen Sie die das ![Menü](assets/apps-icon.png) der Programmauswahl auf, um auf die in Ihrem Unternehmen für Sie bereitgestellten Experience Cloud-Programme und -Services zuzugreifen.
 
-![Zugriff auf Experience Cloud-Programme](assets/platform-core-services.png){width="100" zoomable="yes"}
+![Zugriff auf Experience Cloud-Programme](assets/platform-core-services.png)
 
 ## Hilfe und Support {#support}
 
 Greifen Sie über das **[!UICONTROL Hilfezentrum]** (![Asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
-![Erhalten Sie Hilfe und Support](assets/search-menu.png){width="100" zoomable="yes"}
+![Erhalten Sie Hilfe und Support](assets/search-menu.png)
 
 Das Menü [!UICONTROL Hilfe] bietet Ihnen außerdem Zugriff auf:
 
@@ -83,6 +83,6 @@ Im Menü [!UICONTROL Profil] haben Sie folgende Möglichkeiten:
 
 Klicken Sie auf das Glockensymbol, um Benachrichtigungen und Ankündigungen anzuzeigen. Bei Ankündigungen kann es sich um relevante und umsetzbare Aktualisierungen handeln, einschließlich Produktversionen, Wartungshinweisen, freigegebenen Elementen und Genehmigungsanfragen.
 
-![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png){width="100" zoomable="yes"}
+![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png)
 
 Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](features/account-preferences.md).
