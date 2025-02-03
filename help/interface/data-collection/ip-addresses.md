@@ -2,10 +2,10 @@
 title: Von Experience Cloud verwendete IP-Adressen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 11%
+source-wordcount: '374'
+ht-degree: 12%
 
 ---
 
@@ -78,6 +78,7 @@ Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 | Singapur | `172.82.240.88/29` |
 | Virginia | `63.140.38.0/23` |
 | Virginia | `63.140.54.0/24` |
+| Virginia | `67.202.5.244` |
 
 {style="table-layout:auto"}
 
