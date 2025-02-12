@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 86%
+source-wordcount: '1200'
+ht-degree: 90%
 
 ---
 
@@ -24,12 +24,17 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Aktualisieru
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
+## Februar 2025
+
+| Datum | Funktion | Beschreibung |
+| -----------| -----------| ---------- |
+| 13. Februar (geplantes Veröffentlichungsdatum) | Spectrum 2 | Der Experience Cloud-Anwendungsrahmen, der die Kopfzeilenleiste und die von der Kopfzeilenleiste aus zugänglichen Komponenten sowie die linke Navigationsleiste für bestimmte Anwendungen enthält, wird auf Spectrum 2 aktualisiert, Adobes neuestes Design-System. Dieses überarbeitete Design enthält aktualisierte Symbolbilder, aber die gleiche Funktionalität. Einige Elemente in der Kopfzeile werden jedoch neu positioniert, um sie an andere Adobe-Sites und -Programme anzupassen. |
+
 ## Januar 2025
 
 | Datum | Funktion | Beschreibung |
 | -----------| -----------| ---------- |
-| Januar 9 | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für die Verwendung von Experience Cloud-Produktdaten zu vereinfachen, haben wir unsere Seite [Voreinstellungen](../features/account-preferences.md#product-usage-data) für Experience Cloud optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit auf [Experience Cloud-Voreinstellungen aktualisieren](https://experience.adobe.com/preferences). |
-| 5. Februar (geplantes Veröffentlichungsdatum) | Spektrum 2 | Der Experience Cloud-Anwendungsrahmen, der die Kopfzeilenleiste und die von der Kopfzeilenleiste aus zugänglichen Komponenten sowie die linke Navigationsleiste für bestimmte Anwendungen enthält, wird auf das neueste Design-System von Spectrum 2, Adobe, aktualisiert. Dieses überarbeitete Design enthält aktualisierte Symbolbilder, aber die gleiche Funktionalität. Einige Elemente im Header werden jedoch neu positioniert, um sie an andere Adobe-Sites und -Programme anzupassen. |
+| 9. Januar | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für Experience Cloud-Produktverwendungsdaten zu vereinfachen, haben wir unsere Seite [Voreinstellungen](../features/account-preferences.md#product-usage-data) von Experience Cloud optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit auf [Experience Cloud-Voreinstellungen aktualisieren](https://experience.adobe.com/preferences). |
 
 ## 2. Oktober 2024
 
@@ -41,7 +46,7 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an Slack gesendet werden. Weitere Informationen finden Sie unter _Slack_ Benachrichtigungen in [Voreinstellungen](../features/account-preferences.md)-Hilfe. |
+| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an Slack gesendet werden. Detaillierte Informationen finden Sie unter {0 _Slack[Benachrichtigungen in der ](../features/account-preferences.md)-Hilfe._ |
 
 <!-- ## July - August 2023
 
