@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 55%
@@ -17,7 +17,7 @@ ht-degree: 55%
 
 # Organisationen in Experience Cloud
 
-Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzende zu konfigurieren und Single Sign-on beim Experience Cloud zu steuern.
+Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzende zu konfigurieren und Single Sign-on in Experience Cloud zu steuern.
 
 Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experience Cloud-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
@@ -61,11 +61,11 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
 In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen eines Programms mit einer Adobe ID verknüpfen.
 
-1. Führen Sie die Schritte in Ihrer E-Mail-Einladung zum Experience Cloud aus.
+1. Führen Sie die Schritte in Ihrer E-Mail-Einladung zu Experience Cloud aus.
 
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
 
-1. Klicken Sie auf **[!UICONTROL Anwendungsauswahl]**. ( ![Menü](../assets/menu-icon.png)).
+1. Klicken Sie auf **[!UICONTROL Anwendungsauswahl]**. ( ![Menü](../assets/apps-icon.png)).
 
    ![Verknüpfen eines Programmkontos mit einer Adobe ID](../assets/solutions-active.png)
 
