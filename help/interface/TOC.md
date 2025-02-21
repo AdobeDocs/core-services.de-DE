@@ -5,8 +5,8 @@ breadcrumb-title: Handbuch zur Experience Cloud-Schnittstelle und -Administratio
 title: Handbuch zur Experience Cloud-Schnittstelle und -Administration
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
-source-git-commit: 6ec16a14407f5b41178cf5e4fdc6ee6e57bf3f80
-workflow-type: tm+mt
+source-git-commit: 3669cf6bfbc1d924f2d05ea76625bbb740a00550
+workflow-type: ht
 source-wordcount: '233'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ht-degree: 100%
    + [Browser- und Sprachunterstützung](browser-language.md)
 
 + Administration {#administration}
-   + [Benutzer- und Produktverwaltung](administration/admin-console.md)
+   + [Benutzende und Produkte verwalten](administration/admin-console.md)
    + [Anzeigen von Benutzerdetails (Admin-Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationen und Kontoverknüpfung](administration/organizations.md)
    + [Experience Cloud-Integrationen](administration/integrations.md)
