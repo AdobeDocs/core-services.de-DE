@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wo Dokumentationsaktualisierungen zu den allgemeinen Schnittstellenkomponenten von Experience Cloud vorgenommen werden.
+description: Erfahren Sie, wo Dokumentationsaktualisierungen zu den allgemeinen Komponenten der Benutzeroberfläche von Experience Cloud stattfinden.
 solution: Experience Cloud
 title: Dokumentation – Aktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
+source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 73%
+source-wordcount: '605'
+ht-degree: 70%
 
 ---
 
 # Dokumentationsaktualisierungen für Experience Cloud
 
-Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und die Verwaltung von Experience Cloud vorgenommen werden.
+Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Verwaltung von Experience Cloud stattfinden.
+
+**Februar 2025**
+
+Hinzugefügt [Verwalten von Benutzern und Produkten in Experience Cloud](../administration/admin-console.md). Auf dieser Seite finden Admins Hilfe zur Benutzer- und Produktverwaltung (Admin Console) für alle Programme.
 
 **November 2024**
 
