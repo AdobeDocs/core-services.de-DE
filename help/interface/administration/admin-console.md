@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 5%
+source-wordcount: '788'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,43 @@ Auf dieser Seite finden Sie Informationen speziell für Experience Cloud-Adminis
 Eine allgemeine Hilfe zur Identitätsverwaltung, die für alle Adobe-Programme gilt, finden Sie im [Enterprise and Teams Admin Guide](https://helpx.adobe.com/de/enterprise/admin-guide.html).
 
 In den folgenden Abschnitten finden Sie Links zu Ressourcen in der Hilfe zu Admin Console.
+
+## Administratorrollen in Admin Console
+
+Admin Console verfügt über drei primäre Administrationsrollen mit jeweils spezifischen Zugriffs- und Verantwortungsebenen:
+
+**Systemadministrator:** Vollzugriff - Verwaltet alle Aspekte der Konsole.
+
+Wichtigste Zuständigkeiten:
+
+* Hinzufügen, Entfernen und Verwalten von Benutzern.
+* Produktlizenzen zuweisen und widerrufen.
+* Konfigurieren Sie Identitäts- und Authentifizierungseinstellungen.
+* Rechnungsinformationen anzeigen und verwalten
+* Richten Sie zusätzliche Administratoren ein und delegieren Sie Rollen.
+
+  **Am besten geeignet für** IT-Administratoren oder Teamleiter, die die Adobe-Umgebung des gesamten Unternehmens überwachen.
+
+**Produktadministrator** Produktspezifische Verwaltung: Steuert den Zugriff und die Berechtigungen für bestimmte Adobe-Produkte.
+
+Wichtigste Zuständigkeiten:
+
+* Zuweisen und Verwalten von Lizenzen für ein bestimmtes Produkt.
+* Erstellen und Verwalten von Produktprofilen.
+* Hinzufügen oder Entfernen von Benutzern in zugewiesenen Produkten.
+
+  **Best for:** Teams/Benutzer, die bestimmte Software wie Marketo Engage oder Adobe Creative Cloud verwalten.
+
+**Produktprofil-Administrator** Granulare Rollenverwaltung: konzentriert sich auf die Verwaltung von Benutzergruppen und Berechtigungen innerhalb eines Produkts.
+
+* Hauptaufgaben:
+* Erstellen und Verwalten von Produktprofilen.
+* Weisen Sie Berechtigungen und Funktionszugriff innerhalb von Profilen zu.
+* Hinzufügen oder Entfernen von Benutzern innerhalb von Profilen.
+
+  **Am besten geeignet für:** Abteilungsleiter oder Teammanager, die kleinere Gruppen mit speziellen Anforderungen überwachen
+
+  Admins können je nach den Anforderungen des Unternehmens Rollen kombinieren, um eine größere Flexibilität zu erzielen.
 
 ## Einrichten von Admin Console
 
