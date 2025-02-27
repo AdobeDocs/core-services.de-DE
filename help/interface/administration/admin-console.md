@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
+source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 3%
+source-wordcount: '729'
+ht-degree: 4%
 
 ---
 
@@ -21,78 +21,46 @@ Auf dieser Seite finden Sie Informationen speziell für Experience Cloud-Adminis
 
 Eine allgemeine Hilfe zur Identitätsverwaltung, die für alle Adobe-Programme gilt, finden Sie im [Enterprise and Teams Admin Guide](https://helpx.adobe.com/de/enterprise/admin-guide.html).
 
-In den folgenden Abschnitten finden Sie Links zu Ressourcen in der Hilfe zu Admin Console.
-
 ## Administratorrollen in Admin Console
 
 Admin Console verfügt über drei primäre Administrationsrollen mit jeweils spezifischen Zugriffs- und Verantwortungsebenen:
 
-**Systemadministrator:** Vollzugriff - Verwaltet alle Aspekte der Konsole.
+| Hilfe-Link | Beschreibung |
+| ------- | ------- |
+| Systemadministrator | Vollständiger Zugriff : Verwaltet alle Aspekte der Konsole. <br>Wichtigste Zuständigkeiten: <br><ul><li>Hinzufügen, Entfernen und Verwalten von Benutzern.</li><li>Produktlizenzen zuweisen und widerrufen.</li><li>Konfigurieren von Identitäts- und Authentifizierungseinstellungen</li><li>Rechnungsinformationen anzeigen und verwalten</li><li>Richten Sie zusätzliche Administratoren ein und delegieren Sie Rollen.</li></ul> **Am besten geeignet für** IT-Administratoren oder Teamleiter, die die Adobe-Umgebung des gesamten Unternehmens überwachen. |
+| Produkt-Administrator | Produktspezifische Verwaltung - Steuert den Zugriff und die Berechtigungen für bestimmte Adobe-Produkte.<br>Wichtigste Zuständigkeiten:<ul><li>Zuweisen und Verwalten von Lizenzen für ein bestimmtes Produkt.</li><li>Erstellen und Verwalten von Produktprofilen.</li><li>Hinzufügen oder Entfernen von Benutzern in zugewiesenen Produkten.</li></ul>   **Best for:** Teams/Benutzer, die bestimmte Software wie Marketo Engage oder Adobe Creative Cloud verwalten. |
+| Produktprofil-Administrator | Granulare Rollenverwaltung: Mit Augenmerk auf die Verwaltung von Benutzergruppen und Berechtigungen innerhalb eines Produkts.<br>Hauptaufgaben:<ul><li>Erstellen und Verwalten von Produktprofilen.</li><li>Weisen Sie Berechtigungen und Funktionszugriff innerhalb von Profilen zu.</li><li>Hinzufügen oder Entfernen von Benutzern innerhalb von Profilen.</li></ul> **Am besten geeignet für:** Abteilungsleiter oder Teamleiter, die kleinere Gruppen mit speziellen Anforderungen überwachen. <br> können je nach den Anforderungen des Unternehmens Rollen kombinieren, um eine größere Flexibilität zu erzielen. |
 
-Wichtigste Zuständigkeiten:
-
-* Hinzufügen, Entfernen und Verwalten von Benutzern.
-* Produktlizenzen zuweisen und widerrufen.
-* Konfigurieren Sie Identitäts- und Authentifizierungseinstellungen.
-* Rechnungsinformationen anzeigen und verwalten
-* Richten Sie zusätzliche Administratoren ein und delegieren Sie Rollen.
-
-  **Am besten geeignet für** IT-Administratoren oder Teamleiter, die die Adobe-Umgebung des gesamten Unternehmens überwachen.
-
-**Produktadministrator** Produktspezifische Verwaltung: Steuert den Zugriff und die Berechtigungen für bestimmte Adobe-Produkte.
-
-Wichtigste Zuständigkeiten:
-
-* Zuweisen und Verwalten von Lizenzen für ein bestimmtes Produkt.
-* Erstellen und Verwalten von Produktprofilen.
-* Hinzufügen oder Entfernen von Benutzern in zugewiesenen Produkten.
-
-  **Best for:** Teams/Benutzer, die bestimmte Software wie Marketo Engage oder Adobe Creative Cloud verwalten.
-
-**Produktprofil-Administrator** Granulare Rollenverwaltung: konzentriert sich auf die Verwaltung von Benutzergruppen und Berechtigungen innerhalb eines Produkts.
-
-* Hauptaufgaben:
-* Erstellen und Verwalten von Produktprofilen.
-* Weisen Sie Berechtigungen und Funktionszugriff innerhalb von Profilen zu.
-* Hinzufügen oder Entfernen von Benutzern innerhalb von Profilen.
-
-  **Am besten geeignet für:** Abteilungsleiter oder Teammanager, die kleinere Gruppen mit speziellen Anforderungen überwachen
-
-  Admins können je nach den Anforderungen des Unternehmens Rollen kombinieren, um eine größere Flexibilität zu erzielen.
-
-## Einrichten von Admin Console
+## Admin Console für Experience Cloud
 
 Um Identitäts- und Produktlizenzen für Experience Cloud-Programme zu verwalten, navigieren Sie zu [Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-* [Einrichten von Identität und Single Sign-on](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) - Erfahren Sie, wie Sie die Konten Ihrer Benutzer mit verschiedenen ID-Typen mit oder ohne Single Sign-on (SSO) einrichten. Richten Sie SSO für die Adobe-Software ein, konfigurieren Sie SAML-Einstellungen und gehen Sie die häufigsten Fragen und Fehler durch.
+Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Administrator in Admin Console beginnen möchten:
 
-* [Organisation über Verzeichnisvertrauen einrichten](https://helpx.adobe.com/enterprise/using/directory-trust.html) - Verwenden Sie Verzeichnisvertrauen, um Ihre Benutzer gegenüber einer Domain zu authentifizieren, die bereits von einer anderen Organisation beansprucht wurde.
+### Aufgaben einrichten
 
-  Informationen [ Organisationen finden Sie unter ](organizations.md) in Experience Cloud .
+| Hilfe-Link | Beschreibung |
+| ------- | ------- |
+| [Einrichten von Identität und Single Sign-on](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Einstellungen]** <br>Erfahren Sie, wie Sie die Benutzerkonten mit verschiedenen ID-Typen einrichten, mit oder ohne Single Sign-on (SSO). Richten Sie SSO für die Adobe-Software ein, konfigurieren Sie SAML-Einstellungen und gehen Sie die häufigsten Fragen und Fehler durch. |
+| [Einrichten der Organisation über Verzeichnisvertrauen](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Authentifizieren Sie Ihre Benutzer gegenüber einer Domain, die bereits von einer anderen Organisation beansprucht wurde. Informationen zum Suchen und Wechseln von Organisationen finden Sie unter [Organisationen in Experience Cloud](organizations.md). |
+| [Authentifizierungseinstellungen (Unternehmen)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console unterstützt verschiedene Kennwortschutzstufen und -richtlinien, um Sicherheit und Schutz zu gewährleisten. Sie können festlegen, dass eine Kennwortschutzstufe für alle Benutzer in Ihrem Unternehmen gelten soll. |
+| [Datenschutz und Sicherheitskontakte](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Schützen Sie die Daten Ihrer Organisation und Benutzer. Wenn ein Sicherheitsvorfall im Zusammenhang mit unseren Softwarelösungen auftritt, werden Benachrichtigungen an die entsprechenden Compliance-Beauftragten gesendet. Unternehmen verfügen über Mitarbeiter, deren Rolle speziell auf Datenschutz, Integrität und andere Compliance-Aspekte ausgerichtet ist. Daher sind Kontaktinformationen für dieses Personal von entscheidender Bedeutung, um eine umgehende Benachrichtigung im Fall eines Sicherheitsvorfalls zu gewährleisten. |
 
-* [Authentifizierungseinstellungen (Unternehmen)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) - Admin Console unterstützt verschiedene Kennwortschutzstufen und -richtlinien, um Sicherheit zu gewährleisten. Sie können festlegen, dass eine Kennwortschutzstufe für alle Benutzer in Ihrem Unternehmen gelten soll. Die Adobe-Kundenunterstützung bietet drei Sicherheitsstufen.
+### Benutzerverwaltung
 
-* [Datenschutz und Sicherheitskontakte](https://helpx.adobe.com/enterprise/using/security-contacts.html) - Adobe legt Wert auf den Schutz der Daten Ihres Unternehmens und Ihrer Benutzer. Im Falle eines Sicherheitsvorfalls, der unsere Softwarelösungen betrifft, werden Benachrichtigungen an die entsprechenden Compliance-Beauftragten gesendet.
+| Hilfe-Link | Beschreibung |
+| ------- | ------- |
+| [Verwalten mehrerer Benutzer](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Benutzer]** <br>Erfahren Sie, wie Sie mehrere Benutzer über den CSV-Massen-Upload in die Admin Console verwalten. |
+| [Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html) | Identitätstypen ermöglichen dem Unternehmen verschiedene Ebenen der Kontrolle über die Konten und Daten der Benutzer. Die Auswahl des Identitätsmodells wirkt sich darauf aus, wie Ihr Unternehmen Assets speichert und freigibt. Während Federated ID- und Enterprise ID-Modelle vom Unternehmen erstellt und verwaltet werden, werden Adobe-IDs vom Kontakt erstellt und verwaltet. |
+| [User Sync Tool](https://helpx.adobe.com/enterprise/using/user-sync.html) (UST) | Das Adobe User Sync Tool ist ein Desktop-Programm, mit dem die Synchronisierung von Benutzerdaten zwischen dem Identitätsverwaltungssystem eines Unternehmens (z. B. Active Directory) und Adobe Admin Console automatisiert wird. Mit dem Tool können Admins die Benutzerbereitstellung, Aktualisierungen und Deaktivierung über Adobe-Produkte hinweg optimieren. |
+| [Anzeigen von Benutzerdetails (Admin-Tool)](admin-tool-experience-cloud.md) | Eine sortierbare und filterbare Liste aller Experience Cloud-Benutzenden und -Richtlinien mit Details im [!UICONTROL Admin-Tool] anzeigen. |
 
-  Unternehmen verfügen über eigenes Personal, dessen Rolle speziell für Datenschutz, Integrität und andere Compliance-Angelegenheiten zuständig ist. Daher sind Kontaktinformationen für dieses Personal von entscheidender Bedeutung, um eine umgehende Benachrichtigung im Fall eines Sicherheitsvorfalls zu gewährleisten.
+### Berichte und Protokolle
 
-## Benutzerverwaltung
+| Hilfe-Link | Beschreibung |
+| ------- |------- |
+| [Auditprotokoll](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Protokolle]** > **[!UICONTROL Auditprotokoll]** <br> alle in Admin Console vorgenommenen Änderungen verfolgen. |
 
-* [Mehrere Benutzer verwalten](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) CSV-Massen-Upload - Erfahren Sie, wie Sie mehrere Benutzer über den CSV-Massen-Upload auf der Adobe Admin Console verwalten.
-
-* [Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html) - Identitätstypen ermöglichen der Organisation verschiedene Ebenen der Kontrolle über die Konten und Daten von Benutzenden. Die Auswahl des Identitätsmodells wirkt sich darauf aus, wie Ihr Unternehmen Assets speichert und freigibt. Während Federated ID- und Enterprise ID-Modelle vom Unternehmen erstellt und verwaltet werden, werden Adobe-IDs vom Kontakt erstellt und verwaltet.
-
-* [User Sync Tool](https://helpx.adobe.com/enterprise/using/user-sync.html) (UST) - Das Adobe User Sync Tool ist ein Desktop-Programm, mit dem der Prozess der Synchronisierung von Benutzerdaten zwischen dem Identitätsverwaltungssystem eines Unternehmens (wie Active Directory) und Adobes Adobe Admin Console automatisiert wird. Mit dem Tool können Admins die Benutzerbereitstellung, Aktualisierungen und Deaktivierung über Adobe-Produkte hinweg optimieren.
-
-  Mit dem Tool zur Benutzersynchronisierung können Unternehmen die Verwaltung von Benutzerkonten und Lizenzen vereinfachen, indem Benutzerdaten (z. B. Rollen, Gruppen und Zugriffsberechtigungen) automatisch zwischen ihrem Verzeichnis-Service und Adobe-Systemen synchronisiert werden. Dieses Tool ist besonders für Unternehmen mit großen Teams nützlich. Dies trägt dazu bei, die Konsistenz und Sicherheit zu wahren und gleichzeitig sicherzustellen, dass Benutzende nur Zugriff auf die Produkte und Services haben, auf die sie Anspruch haben.
-
-* [Benutzerdetails anzeigen (Admin-Tool)](admin-tool-experience-cloud.md) - Administratoren können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details im [!UICONTROL Admin-Tool] anzeigen.
-
-## Berichte und Protokolle
-
-* [Auditprotokoll](https://helpx.adobe.com/enterprise/using/audit-logs.html) Zum Nachverfolgen aller in Admin Console vorgenommenen Änderungen.
-
-Hilfe, die oben nicht beschrieben ist, finden Sie im [Enterprise- und Team-Administratorhandbuch](https://helpx.adobe.com/de/enterprise/admin-guide.html).
 
 ## Anwendungsspezifische Ressourcen
 
@@ -140,3 +108,5 @@ Hilfe, die oben nicht beschrieben ist, finden Sie im [Enterprise- und Team-Admin
 * [Adobe Pass](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started)
 * [Zielgruppe](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
+
+Der Großteil der Admin Console-Hilfe für alle Adobe-Programme ist im [Enterprise- und Team-Administratorhandbuch“ ](https://helpx.adobe.com/de/enterprise/admin-guide.html).
