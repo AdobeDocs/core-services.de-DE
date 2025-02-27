@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
+source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '728'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Eine allgemeine Hilfe zur Identitätsverwaltung, die für alle Adobe-Programme g
 
 Admin Console verfügt über drei primäre Administrationsrollen mit jeweils spezifischen Zugriffs- und Verantwortungsebenen:
 
-| Hilfe-Link | Beschreibung |
+| Rolle | Beschreibung |
 | ------- | ------- |
 | Systemadministrator | Vollständiger Zugriff : Verwaltet alle Aspekte der Konsole. <br>Wichtigste Zuständigkeiten: <br><ul><li>Hinzufügen, Entfernen und Verwalten von Benutzern.</li><li>Produktlizenzen zuweisen und widerrufen.</li><li>Konfigurieren von Identitäts- und Authentifizierungseinstellungen</li><li>Rechnungsinformationen anzeigen und verwalten</li><li>Richten Sie zusätzliche Administratoren ein und delegieren Sie Rollen.</li></ul> **Am besten geeignet für** IT-Administratoren oder Teamleiter, die die Adobe-Umgebung des gesamten Unternehmens überwachen. |
 | Produkt-Administrator | Produktspezifische Verwaltung - Steuert den Zugriff und die Berechtigungen für bestimmte Adobe-Produkte.<br>Wichtigste Zuständigkeiten:<ul><li>Zuweisen und Verwalten von Lizenzen für ein bestimmtes Produkt.</li><li>Erstellen und Verwalten von Produktprofilen.</li><li>Hinzufügen oder Entfernen von Benutzern in zugewiesenen Produkten.</li></ul>   **Best for:** Teams/Benutzer, die bestimmte Software wie Marketo Engage oder Adobe Creative Cloud verwalten. |
@@ -37,7 +37,7 @@ Um Identitäts- und Produktlizenzen für Experience Cloud-Programme zu verwalten
 
 Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Administrator in Admin Console beginnen möchten:
 
-### Aufgaben einrichten
+### Einrichten von Ressourcen
 
 | Hilfe-Link | Beschreibung |
 | ------- | ------- |
