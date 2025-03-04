@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 77841faeb5b005e4913408edb3e9cfbbdfc8961d
+source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 5%
@@ -41,7 +41,7 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 
 | Hilfe-Link | Beschreibung |
 | ------- | ------ |
-| [Einrichten von Identität und Single Sign-on](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Einstellungen]** <br> Erfahren Sie, wie Sie die Benutzerkonten mit verschiedenen ID-Typen einrichten, mit oder ohne Single Sign-on (SSO). Richten Sie SSO für die Adobe-Software ein, konfigurieren Sie SAML-Einstellungen und gehen Sie die häufigsten Fragen und Fehler durch. |
+| [Einrichten von Identität und Single Sign-on](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Einstellungen]** <br> Erfahren Sie, wie Sie Benutzerkonten mit verschiedenen ID-Typen einrichten können, mit oder ohne Single Sign-on (SSO). Richten Sie SSO für die Adobe-Software ein, konfigurieren Sie SAML-Einstellungen und gehen Sie die häufigsten Fragen und Fehler durch. |
 | [Einrichten der Organisation über Verzeichnisvertrauen](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Authentifizieren Sie Ihre Benutzer gegenüber einer Domain, die bereits von einer anderen Organisation beansprucht wurde. Informationen zum Suchen und Wechseln von Organisationen finden Sie unter [Organisationen in Experience Cloud](organizations.md). |
 | [Authentifizierungseinstellungen (Unternehmen)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console unterstützt verschiedene Kennwortschutzstufen und -richtlinien, um Sicherheit und Schutz zu gewährleisten. Sie können festlegen, dass eine Kennwortschutzstufe für alle Benutzer in Ihrem Unternehmen gelten soll. |
 | [Datenschutz und Sicherheitskontakte](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Schützen Sie die Daten Ihrer Organisation und Benutzer. Wenn ein Sicherheitsvorfall im Zusammenhang mit unseren Softwarelösungen auftritt, werden Benachrichtigungen an die entsprechenden Compliance-Beauftragten gesendet. Unternehmen verfügen über Mitarbeiter, deren Rolle speziell auf Datenschutz, Integrität und andere Compliance-Aspekte ausgerichtet ist. Daher sind Kontaktinformationen für dieses Personal von entscheidender Bedeutung, um eine umgehende Benachrichtigung im Fall eines Sicherheitsvorfalls zu gewährleisten. |
