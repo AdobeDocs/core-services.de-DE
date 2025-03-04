@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
+source-git-commit: 77841faeb5b005e4913408edb3e9cfbbdfc8961d
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 ### Einrichten von Ressourcen
 
 | Hilfe-Link | Beschreibung |
-| ------- | ------- |
+| ------- | ------ |
 | [Einrichten von Identität und Single Sign-on](https://helpx.adobe.com/de/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Einstellungen]** <br> Erfahren Sie, wie Sie die Benutzerkonten mit verschiedenen ID-Typen einrichten, mit oder ohne Single Sign-on (SSO). Richten Sie SSO für die Adobe-Software ein, konfigurieren Sie SAML-Einstellungen und gehen Sie die häufigsten Fragen und Fehler durch. |
 | [Einrichten der Organisation über Verzeichnisvertrauen](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Authentifizieren Sie Ihre Benutzer gegenüber einer Domain, die bereits von einer anderen Organisation beansprucht wurde. Informationen zum Suchen und Wechseln von Organisationen finden Sie unter [Organisationen in Experience Cloud](organizations.md). |
 | [Authentifizierungseinstellungen (Unternehmen)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console unterstützt verschiedene Kennwortschutzstufen und -richtlinien, um Sicherheit und Schutz zu gewährleisten. Sie können festlegen, dass eine Kennwortschutzstufe für alle Benutzer in Ihrem Unternehmen gelten soll. |
