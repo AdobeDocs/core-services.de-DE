@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1232'
 ht-degree: 88%
 
 ---
@@ -28,7 +28,7 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 | Datum | Update | Beschreibung |
 | -----------| -----------| ---------- |
-| 6. März 2025 | Rechtsklick auf Menüoptionen | Fehlerkorrektur des Experience Cloud-Anwendungsrahmens für Kopfzeilennavigations-Registerkarten, um Browser-Dropdown-Menüfunktionen mit Rechtsklick zuzulassen. Damit wurde ein Problem behoben, das in der Februarversion des Spectrum 2-Designsystems eingeführt wurde. |
+| 6. März 2025 | Rechtsklick auf Menüoption beheben | Navigationsregisterkarten in der Experience Cloud-Kopfzeile ermöglichen jetzt Dropdown-Menüfunktionen mit Rechtsklick im Browser. Damit wurde ein Problem behoben, das in der Februarversion des Spectrum 2-Designsystems eingeführt wurde. |
 
 ## Februar 2025
 
