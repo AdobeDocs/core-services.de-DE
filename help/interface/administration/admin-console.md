@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Benutzer- und Produktlizenzen
-description: Verwalten Sie Benutzende und Produktlizenzen in Admin Console für Experience Cloud-Programme.
+description: Verwalten Sie Benutzende und Produktlizenzen in der Admin Console für Experience Cloud-Anwendungen.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
 source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
