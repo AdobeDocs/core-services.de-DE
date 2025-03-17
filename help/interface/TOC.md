@@ -2,13 +2,13 @@
 role: User,Admin
 user-guide-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
-title: Benutzeroberfläche und Administration von Experience Cloud
+title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
 source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
