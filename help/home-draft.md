@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 94%
+source-wordcount: '911'
+ht-degree: 82%
 
 ---
 
@@ -27,12 +27,134 @@ In der Kopfzeile von Experience Cloud haben Sie folgende Möglichkeiten:
 * Suchen Sie global nach Geschäftsobjekten, indem Sie eine globale Suche (nur für Nutzerinnen und Nutzer der Experience Platform) im Feld „Suche“ verwenden.
 * Verwalten der [Einstellungen](features/account-preferences.md) des Kontos (Warnhinweise, Benachrichtigungen und Abonnements)
 
+
+Aus GSPM abgerufen:
+
+## Funktionen erkunden
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+   <td valign="top">
+      <a href="../user-guide/effective-prompts.md">
+      <img alt="Rechter Chevron" src="../assets/icons/icon-chevronRight.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/effective-prompts.md">
+         <strong>Effektive Eingabeaufforderungen schreiben</strong>
+         </a>
+      </div>
+      <p>
+         <em> Erstellen Sie beschreibende Eingabeaufforderungen, die digitale Erlebnisse innerhalb der Marke generieren.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/create/overview.md">
+      <img alt="Pinsel" src="../assets/icons/icon-create.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/create/overview.md">
+         <strong>Erlebnisse erstellen</strong>
+         </a>
+      </div>
+      <p>
+         <em>Erstellen Sie leistungsstarke, markeninterne E-Mails und Meta-Anzeigen.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/approvals/overview.md">
+      <img alt="checkmark" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/approvals/overview.md">
+         <strong>Überprüfen und bestätigen</strong>
+         </a>
+      </div>
+      <p>
+         <em>Orchestrieren Sie die optimierte Überprüfung und Genehmigung von Marketing-Assets.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/content/overview.md">
+      <img alt="Gitter" src="../assets/icons/icon-images.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/content/overview.md">
+         <strong>Inhalt verwalten</strong>
+         </a>
+      </div>
+      <p>
+         <em>Suchen, Verwalten und Wiederverwenden von Inhalten unter Einhaltung der Markenrichtlinien.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/insights/overview.md">
+      <img alt="Diagramm" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/insights/overview.md">
+         <strong>Einblicke anzeigen</strong>
+         </a>
+      </div>
+      <p>
+         <em>Analysieren der Inhaltseffektivität von Paid-Media-Kanälen.</em>
+      </p>
+   </td>
+</tr>
+</table>
+
+## Weitere Informationen zu
+
+<table style="table-layout:fixed">
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/guidelines/add-guidelines.md">
+      <img alt="Richtlinien hinzufügen" src="../assets/card-guidelines.png">
+      <strong>Richtlinien hinzufügen</strong>
+      </a>
+   </div>
+   <p>
+      <em>Erfahren Sie, wie Sie GenStudio for Performance Marketing Richtlinien für Marken, Produkte und Rollen hinzufügen.</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-email-experience.md">
+      <img alt="Ideen, Bücher, Bleistift, Computer" src="../assets/card-create-assets.png">
+      <strong>E-Mail-Erlebnis erstellen</strong>
+      </a>
+   </div>
+   <p>
+      <em>Erfahren Sie, wie Sie ein markeninternes E-Mail-Erlebnis erstellen.</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-meta-ad.md">
+      <img alt="Personen, die Dateien in einen Ordner verschieben" src="../assets/card-manage-content.png">
+      <strong>Erstellen eines Meta-Anzeigen-Erlebnisses</strong>
+      </a>
+   </div>
+   <p>
+      <em>Erfahren Sie, wie Sie ein markenbezogenes Meta-Anzeigenerlebnis erstellen.</em>
+   </p>
+</td>
+</table>
+
+
+(Ende des GSPM)
+
+
+
+
+
+
+
 ## Melden Sie sich bei Experience Cloud an {#signin}
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organisation](administration/organizations.md) befinden.
 
 1. Navigieren Sie zur [Adobe Experience Cloud](https://experience.adobe.com).
-1. Geben Sie Ihre Adobe-E-Mail-Adresse ein und klicken Sie dann auf **[!UICONTROL Weiter]**.
+1. Geben Sie Ihre Adobe-E-Mail-Adresse ein und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Wählen Sie ein Konto aus.
 1. Geben Sie Ihr Passwort ein.
 1. Stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
@@ -90,7 +212,7 @@ Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie 
 
 ## Neuerungen
 
-Erfahren Sie mehr über die neuesten Verbesserungen der zentralen Experience Cloud-Schnittstellenkomponenten.
+Erfahren Sie mehr über die neuesten Verbesserungen der zentralen Komponenten der Experience Cloud-Benutzeroberfläche.
 
 >[!BEGINTABS]
 
@@ -98,7 +220,7 @@ Erfahren Sie mehr über die neuesten Verbesserungen der zentralen Experience Clo
 
 Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an einen [!DNL Slack] gesendet werden.
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Informationen zum Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Informationen zu Slack"}
 
 
 >[!TAB Neue Campaign Web-Benutzeroberfläche]
