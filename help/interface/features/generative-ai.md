@@ -9,9 +9,9 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: bc1f602df5a4b6f2d6eb9a3b00f2756a09d97e2b
+source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1664'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,10 @@ Alle Antworten auf das Produktwissen sind überprüfbar und werden mit Links zur
 
 ## Experience Cloud-Anwendungen, die KI verwenden
 
-Unterkopfversion (unfertig)…
+>[!TIP]
+>
+>Unterkopfversion (nur ein Start)…
+
 
 * [GenStudio for Performance Marketing](#gspm)
 * [Experience Manager Sites (Cloud Service)](#aem-sites)
@@ -83,9 +86,12 @@ Siehe [Bild generieren](https://experienceleague.adobe.com/en/docs/experience-ma
 
 
 
-Tabellenversion…
-
 ## Experience Cloud-Anwendungen, die KI verwenden
+
+>[!TIP]
+>
+>Tabellenversion…
+
 
 Erfahren Sie, wie Experience Cloud-Programme generative KI oder KI-Assistenten verwenden und ob Adobe Firefly unterstützt wird.
 
