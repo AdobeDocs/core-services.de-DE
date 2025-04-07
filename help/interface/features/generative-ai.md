@@ -9,13 +9,13 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
+exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
+source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1808'
 ht-degree: 5%
 
 ---
-
 
 # KI in Experience Cloud-Anwendungen
 
@@ -83,6 +83,26 @@ Nachdem Sie Varianten erstellt haben, können Sie den Inhalt auf Ihrer Website v
 Siehe [Bild generieren](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image).
 
 **Kompatibilität mit Adobe Firefly:** Ja
+
+## Adobe Journey Optimizer
+
+Journey Optimizer verwendet [KI-](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home)) mit zwei Fragenklassen:
+
+**Produktwissen** - Fragt Adobe-Datenspeicher (z. B. die Experience League-Produktdokumentation) nach insight ab. Diese Ausgabe ist kundenunabhängig. Beispiel:
+
+* Wie viele Live-Aktivitäten kann ich in einer Adobe Journey Optimizer-Sandbox haben?
+
+**Operational Insights (Beta)** fragt einen kundenspezifischen operativen Insights-Datenspeicher ab, der zentralisierte Betriebsdaten über Journeys enthält, die nach der Sandbox des Kunden unterteilt sind. ruft Metadaten nur aus Geschäftsobjekten ab und greift nicht auf Daten innerhalb der Sandbox zu.
+
+* Wie viele Journey wurden in den letzten sieben Tagen erstellt?
+
+Die Ausgabe von Operational Insights hängt von den Metadaten ab, die aus den Geschäftsobjekten des Kunden abgerufen werden.
+
+Journey ist das einzige für den KI-Assistenten in Journey Optimizer verfügbare Objekt, und Metadaten werden aus der aktuellen Sandbox abgerufen.
+
+Siehe [Arbeiten mit dem KI-Assistenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) und [Außenbereitschaft](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11) für weitere Informationen.
+
+**Kompatibilität mit Adobe Firefly:** Nein
 
 
 
