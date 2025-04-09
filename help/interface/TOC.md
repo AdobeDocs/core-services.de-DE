@@ -6,9 +6,9 @@ title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
 source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '243'
+ht-degree: 90%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 100%
 
 + [Benutzeroberfläche und Verwaltung von Experience Cloud](experience-cloud.md)
 
-+ Dienste {#services}
++ Dienste {#services} {#services}
    + [Übersicht](services/overview.md)
    + [Erste Schritte](services/getting-started.md)
-   + Assets {#assets}
+   + Assets {#assets} {#assets}
       + [Übersicht](services/assets/experience-cloud-assets.md)
       + [Freigeben von Ordnern und Assets für Creative Cloud](services/assets/creative-cloud.md)
       + [Verwaltung der Creative Cloud-Benutzenden](services/assets/manage-cc-users.md)
@@ -28,11 +28,11 @@ ht-degree: 100%
       + [Hochladen eines Assets in einen freigegebenen Ordner](services/assets/upload.md)
       + [Dateivoraussetzungen für die Freigabe von Assets](services/assets/file-reqs.md)
       + [Verhalten freigegebener Ordner](services/assets/behavior.md)
-   + Zielgruppenbibliothek {#audiences}
+   + Zielgruppenbibliothek {#audiences} {#audiences}
       + [Übersicht](services/audiences/overview.md)
       + [Erstellen einer Zielgruppe](services/audiences/create.md)
    + [Exchange](services/exchange.md)
-   + Kundenattribute {#customer-attributes}
+   + Kundenattribute {#customer-attributes} {#customer-attributes}
       + [Übersicht](services/customer-attributes/attributes.md)
       + [Häufig gestellte Fragen zu Kundenattributen](services/customer-attributes/faq-crs.md)
       + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](services/customer-attributes/crs-data-file.md)
@@ -46,24 +46,24 @@ ht-degree: 100%
       + [Überlegungen zum Datenschutz bei Kundenattributen](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
 
-+ Funktionen {#features}
++ Funktionen {#features} {#features}
    + [Kontovoreinstellungen und Benachrichtigungen](features/account-preferences.md)
    + [KI in Experience Cloud-Anwendungen](features/generative-ai.md)
    + [Einheitliche Suche](features/search.md)
    + [Personalisierte Lerninhalte](features/personalized-learning.md)
    + [Browser- und Sprachunterstützung](browser-language.md)
 
-+ Administration {#administration}
++ Administration {#administration} {#administration}
    + [Benutzerverwaltung und Produktlizenzen](administration/admin-console.md)
    + [Anzeigen von Benutzerdetails (Admin-Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationen und Kontoverknüpfung](administration/organizations.md)
    + [Experience Cloud-Integrationen](administration/integrations.md)
 
-+ Datenerfassung {#data-collection}
++ Datenerfassung {#data-collection} {#data-collection}
    + [Adobe Managed Certificate Program](data-collection/adobe-managed-cert.md)
    + [IP-Adressen](data-collection/ip-addresses.md)
    + [Domains](data-collection/domains.md)
-   + Cookies {#cookies}
+   + Cookies {#cookies} {#cookies}
       + [Übersicht über Cookies](data-collection/cookies/overview.md)
       + [Cookies in Advertising](data-collection/cookies/advertising.md)
       + [Cookies in Analytics](data-collection/cookies/analytics.md)
@@ -74,7 +74,7 @@ ht-degree: 100%
    + [Regionale Datenerfassung](data-collection/rdc.md)
    + [Verwenden des DNS-Vorabrufs](data-collection/dns-prefetch.md)
 
-+ Zusätzliche Ressourcen {#more-resources}
++ Weitere Ressourcen {#more-resources} {#more-resources}
    + [Versionshinweise](more-resources/release-notes.md)
    + [Dokumentationsaktualisierungen](more-resources/doc-updates.md)
    + [Häufig gestellte Fragen](more-resources/faq.md)
