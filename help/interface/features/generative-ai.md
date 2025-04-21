@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: fb9d3c45beca38e1ca372b24565946bf1a1da839
+source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 4%
+source-wordcount: '1371'
+ht-degree: 3%
 
 ---
 
@@ -44,12 +44,20 @@ Die Antworten auf Produktkenntnisse von Experience League sind überprüfbar und
 * [KI-Assistent in Journey Optimizer](#journey-optimizer)
 * [Adobe Journey Optimizer Prime und Ultimate](#ajo-prime-ultimate)
 * [Journey Optimizer B2B Edition](#ajo-b2b)
+* [KI-Assistent in Journey Optimizer Prime und Ultimate](#ajo-prime-ultimate)
+* [KI-Assistent in Journey Optimizer B2B edition](#ajo-b2b)
+* [KI-Assistent in Campaign Managed Cloud Services](#campaign-cs)
+* [KI-Assistent in Customer Journey Analytics](#cja)
+* [Intelligente Beschriftungen in Customer Journey Analytics](#cja-captions)
+* [KI-Assistent in Real-Time CDP](#rtcdp)
+* [Dynamic Chat in Marketo](#marketo)
+* [KI-Assistent in Workfront](#workfront)
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home) ist eine generative KI-gesteuerte Plattform, mit der Sie Kampagnen-Assets erstellen, bereitstellen und optimieren können. Die generativen KI-Funktionen transformieren, wie Marketing-Inhalte erstellt, geprüft, freigegeben und analysiert werden.
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home) ist keine Funktion, sondern eine generative KI-gesteuerte Plattform. Die generativen KI-Funktionen transformieren, wie Marketing-Inhalte erstellt, geprüft, freigegeben und analysiert werden.
 
-Mit der Funktion _GenStudio for Performance Marketing Create_ (oder einfach _Create_) können Marketing-Fachleute und verteilte Teams leistungsstarke On-Brand-Erlebnisse erstellen. Sie können Inhalte generieren für:
+Auf der [Erstellen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview)-Startseite können Sie leistungsstarke, markeninterne Erlebnisse erstellen. Inhalt generieren für:
 
 * E-Mails
 * Meta-Anzeigen
@@ -93,7 +101,7 @@ Beispiel:
 
 * _Wie viele Live-Aktivitäten kann ich in einer Adobe Journey Optimizer-Sandbox haben?_
 
-**Operational Insights (Beta)**: Fragt einen kundenspezifischen operativen Insights-Datenspeicher ab, der zentralisierte Betriebsdaten über Journeys enthält, die nach der Sandbox des Kunden unterteilt sind. Diese Funktion ruft Metadaten nur aus Geschäftsobjekten ab und greift nicht auf Daten innerhalb der Sandbox zu.
+**Operational Insights (Beta)** - Der KI-Assistent fragt einen kundenspezifischen operativen Insights-Datenspeicher ab, der zentralisierte Betriebsdaten über Journeys enthält, die nach der Sandbox des Kunden partitioniert sind. Diese Funktion ruft Metadaten nur aus Geschäftsobjekten ab und greift nicht auf Daten innerhalb der Sandbox zu.
 
 Beispielaufforderung:
 
@@ -105,7 +113,7 @@ _Journey_ ist das einzige Objekt, das für den KI-Assistenten in Journey Optimiz
 
 **Kompatibel mit Adobe Firefly:** Nein
 
-## Journey Optimizer Prime und Ultimate {#ajo-prime-ultimate}
+## KI-Assistent in Journey Optimizer Prime und Ultimate {#ajo-prime-ultimate}
 
 Journey Optimizer Prime und Ultimate verwenden [KI-Assistenten für Content Accelerator](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen.
 
@@ -117,33 +125,27 @@ Diese Funktion ist für die Kanäle [E](https://experienceleague.adobe.com/en/do
 
 ## KI-Assistent in Journey Optimizer B2B edition {#ajo-b2b}
 
-Journey Optimizer B2B edition verwendet [KI-](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)), um Sie anhand Ihrer Produktkenntnisse mit Produktkenntnissen zu unterstützen.
+Journey Optimizer B2B edition verwendet [KI-](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)), um Sie anhand Ihrer Produktkenntnisse mit Produktkenntnissen zu unterstützen.
 
 **Produktwissen** - Fragt Adobe-Datenspeicher (z. B. die Experience League-Produktdokumentation) nach insight ab. Diese Ausgabe ist kundenunabhängig.
 
 * **Eingabe:** Wie sende ich eine E-Mail auf einer Konto-Journey?
 
-* **Ausgabe:** Produktkenntnisse werden von Experience League abgerufen (öffentliche Dokumentation). [Weitere Infos…](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/get-started/ai-assistant)
+* **Ausgabe:** Produktkenntnisse werden von Experience League abgerufen (öffentliche Dokumentation). [Weitere Infos…](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/question-guidance)
 
 **Kompatibel mit Adobe Firefly:** Nein
 
-## Campaign Managed Cloud Services
+## KI-Assistent in Campaign Managed Cloud Services {#campaign-cs}
 
-Campaign Managed Cloud Services verwendet den [KI-Assistenten für Content Accelerator](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs), um automatisch personalisierte, ansprechende und effektive Inhalte basierend auf dem Marketing-Ziel zu generieren. Dabei werden Inhalte für Markenstile, Layouts, Ton und mehr auf Kanälen wie E-Mail, SMS und Push optimiert.
-
-* **E-**: Nur eine vollständige E-Mail, nur Text oder Bild generieren. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content)
-
-* **SMS** - Nur vollständige SMS oder Text generieren. [Weitere Infos…](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms)
-
-* **Push** - Erstellen Sie überzeugende Nachrichten und generieren Sie Inhalte. [Weitere Infos…](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push)
+Campaign Managed Cloud Services verwendet [KI-Assistent für Content Accelerator](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs). Mit dieser Funktion können Sie basierend auf Ihrem Marketing-Ziel automatisch personalisierte, ansprechende und effektive Inhalte generieren, wobei Inhalte für Markenstile, Layouts, Ton und mehr optimiert sind. Sie können sie über Kanäle wie [E-Mail](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content), [SMS](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms) und [Push](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push) verwenden.
 
 **Hinweis:** Ausgabe von Content Accelerator in Campaign Managed Cloud Services wird freigegeben.
 
 **Kompatibel mit Adobe Firefly:** Ja
 
-## Customer Journey Analytics - KI-Assistent
+## KI-Assistent in Customer Journey Analytics {#cja}
 
-CJA verwendet [KI-](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)), um Ihnen dabei zu helfen, Produktkenntnisse und Erkenntnisse aus Experience League zu entdecken.
+Customer Journey Analytics verwendet [KI-](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant)), um Ihnen dabei zu helfen, Produktkenntnisse und Erkenntnisse aus Experience League zu entdecken.
 
 **Beispielaufforderung:** Wie erstelle ich eine berechnete Metrik?
 
@@ -153,29 +155,17 @@ Erfahrene Anwender können mit dem KI-Assistenten erweiterte Anwendungsfälle od
 
 **Kompatibel mit Adobe Firefly:** Nein
 
-## Customer Journey Analytics - Intelligente Beschriftungen
+## Intelligente Beschriftungen in Customer Journey Analytics {#cja-captions}
 
-[Intelligente Beschriftungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) bietet Einblicke in natürlicher Sprache für Linienvisualisierungen in Workspace-Visualisierungen.
-
-**Beispieleingabe:** Linienvisualisierungen. Beschriftungen werden basierend auf diesen Linienvisualisierungen automatisch generiert, wenn Sie auf &quot;**Beschriftungen** klicken.
-
-**Ausgabe:** automatisch generierte Untertitel in natürlicher Sprache.
+[Intelligente Beschriftungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) in Customer Journey Analytics bieten Einblicke in die am häufigsten verwendete Workspace-Visualisierung in natürlicher Sprache.
 
 **Kompatibel mit Adobe Firefly:** Nein
 
-## Real-Time CDP
+## KI-Assistent in Real-Time CDP {#rtcdp}
 
-Real-Time CDP verwendet [KI-](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home)), um Ihnen dabei zu helfen, Produktkenntnisse und Erkenntnisse aus Experience League zu entdecken. Es fragt eine Datenbank ab und übersetzt Daten aus der Datenbank in eine für Menschen lesbare Antwort.
+Real-Time CDP verwendet [KI-](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home)), um Ihnen dabei zu helfen, Produktkenntnisse und Erkenntnisse aus Experience League zu entdecken. [Erhalten Sie Tipps](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions) wenn Sie Fragen stellen.
 
-Es stehen zwei Fragenklassen zur Verfügung:
-
-**Produktwissen** - Fragt Adobe-Datenspeicher (z. B. die Experience League-Produktdokumentation) nach insight ab. Diese Ausgabe ist kundenunabhängig.
-
-z. B.:
-
-* _Wie wird die Profilreichhaltigkeit berechnet?_
-
-**Operational Insights (Beta)** Abfragen eines kundenspezifischen operativen Insights-Datenspeichers, der zentralisierte Betriebsdaten enthält, die durch die AEP-Sandbox des Kunden partitioniert werden. ruft Metadaten nur aus Attributen, Zielgruppen, Datenflüssen, Datensätzen, Zielen, Schemas und Quellen ab und greift nicht auf Daten innerhalb der Sandbox zu.
+Es bietet auch operative Einblicke (in der Beta-Phase). Der KI-Assistent fragt einen kundenspezifischen operativen Insights-Datenspeicher ab, der zentralisierte Betriebsdaten enthält, die durch die AEP-Sandbox des Kunden partitioniert sind. Es werden nur Metadaten aus Attributen, Zielgruppen, Datenflüssen, Datensätzen, Zielen, Schemas und Quellen abgerufen und nicht auf Daten innerhalb der Sandbox zugegriffen.
 
 Bei einer Abfrage über eine Zielgruppe können [!DNL AI Assistant] beispielsweise auf den Namen der Zielgruppe und andere zugehörige Metadaten zugreifen, jedoch nicht auf die Profile innerhalb dieser Zielgruppe.
 
@@ -189,12 +179,11 @@ Weitere Beispiele finden Sie in den Eingabetabellen _Produktwissen_ und _Operati
 
 **Kompatibel mit Firefly:** Nein
 
-
-## Marketo
+## Dynamic Chat in Marketo {#marketo}
 
 [Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview) erstellt KI-unterstützte Konversationen mit benutzerdefinierten und vorab genehmigten Fragen und Antworten sowie eine Konversationszusammenfassung |<ul><li> **Fragen generieren:** Geben Sie die URLs an, aus denen Inhalte extrahiert und zum Generieren von Fragen/Antworten verwendet werden sollen. </li><li> **Konversationszusammenfassung:** Erzeugt eine Zusammenfassung einer Chat-Konversation. </li></ul> [Weitere Informationen…](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | Nein |
 
-## Workfront
+## KI-Assistent in Workfront {#workfront}
 
 [AI Assistant](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) in Workfront hilft Ihnen, Ihre Arbeit zu erledigen, indem Sie In-App-Informationen und -Vorschläge in einem Gespräch in natürlicher Sprache anbieten. Der KI-Assistent bietet die folgenden Funktionen: Fasst Projekte/Aufgaben/Probleme/Dokumente zusammen, stellt Anweisungen oder Referenzinformationen bereit, die aus der Workfront-Dokumentation in Experience League abgerufen werden, generiert oder verfeinert Formeln für berechnete benutzerdefinierte Felder.  | <ul><li>**Projekteingabe zusammenfassen** Dieses Projekt zusammenfassen </li><li> **Projektausgabe zusammenfassen** Gibt kurze Beschreibungen des Zwecks und Status des Projekts zurück, gibt Beispiele für abgeschlossene und noch ausstehende Aufgaben und liefert einige zusätzliche Details und Hinweise.</li><li> **Formeleingabe generieren/verfeinern:** „Diese Formel neu schreiben, um den Fehler wegen ungültigem Ausdruck zu entfernen.“ </li><li> **Formelausgabe generieren/verfeinern:** generierte oder verfeinerte Formel. </li></ul>**Hinweis:** KI-Assistent kann je nach Größe und Komplexität der Formel einige Minuten dauern, um die überarbeitete Formel zu erstellen. | Nein  |
 
