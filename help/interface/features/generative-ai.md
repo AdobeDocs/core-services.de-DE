@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: b94bf94368312b3ed64a559da946a1be8ccb3c18
+source-git-commit: a5d595fc8ee9b76ee1bf4a24364674a3af447b2a
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 5%
+source-wordcount: '1109'
+ht-degree: 4%
 
 ---
 
@@ -47,20 +47,18 @@ In AI Assistant, security is the priority:
 Erfahren Sie mehr über die Unterstützung für generative KI oder KI-Assistent in Experience Cloud-Produkten und darüber, ob Adobe Firefly unterstützt wird.
 
 * [GenStudio for Performance Marketing](#gspm)
-* [Erzeugen von Varianten in AEM Sites (Cloud Service)](#aem-sites)
+* [Erzeugen von Varianten in Experience Manager Sites](#aem-sites)
 * [KI-Assistent in Journey Optimizer](#journey-optimizer)
-* [Adobe Journey Optimizer Prime und Ultimate](#ajo-prime-ultimate)
-* [Journey Optimizer B2B Edition](#ajo-b2b)
 * [KI-Assistent in Journey Optimizer Prime und Ultimate](#ajo-prime-ultimate)
 * [KI-Assistent in Journey Optimizer B2B edition](#ajo-b2b)
-* [KI-Assistent in Campaign Managed Cloud Services](#campaign-cs)
+* [KI-Assistent in der Web-Benutzeroberfläche von Campaign v8](#campaign-cs)
 * [KI-Assistent in Customer Journey Analytics](#cja)
 * [Intelligente Beschriftungen in Customer Journey Analytics](#cja-captions)
 * [KI-Assistent in Real-Time CDP](#rtcdp)
 * [Dynamic Chat in Marketo](#marketo)
 * [KI-Assistent in Workfront](#workfront)
 
-### GenStudio for Performance Marketing {#gspm}
+## GenStudio for Performance Marketing {#gspm}
 
 GenStudio for Performance Marketing ist eine KI-gesteuerte Plattform, mit der Sie Marketing-Inhalte generieren und verwalten können, die Ihren Markenstandards entsprechen und Ihren Unternehmensrichtlinien entsprechen. Generieren von Inhalten für E-Mails, Meta-Anzeigen, LinkedIn-Anzeigen, Display-Anzeigen und Banner.
 
@@ -70,7 +68,7 @@ Sie können GenStudio for Performance Marketing auch in Ihrer Markendarstellung 
 
 Kompatibilität mit Adobe Firefly: **Geplant**
 
-### Erzeugen von Varianten in Experience Manager Sites {#aem-sites}
+## Erzeugen von Varianten in Experience Manager Sites {#aem-sites}
 
 Varianten generieren in AEM Sites verwendet generative KI, um Inhaltsvarianten basierend auf Eingabeaufforderungen zu erstellen. Diese Eingabeaufforderungen werden entweder von Adobe bereitgestellt oder von Ihnen erstellt und verwaltet.
 
@@ -110,7 +108,7 @@ Journey Optimizer B2B edition verwendet KI-Assistenten, um Sie mit Produktkenntn
 
 Kompatibilität mit Adobe Firefly: **Nein**
 
-## KI-Assistent in Campaign Managed Cloud Services {#campaign-cs}
+## KI-Assistent in der Web-Benutzeroberfläche von Campaign v8  {#campaign-cs}
 
 Campaign Managed Cloud Services verwendet den KI-Assistenten für den Content Accelerator. Mit dieser Funktion können Sie basierend auf Ihrem Marketing-Ziel automatisch personalisierte, ansprechende und effektive Inhalte generieren, wobei Inhalte für Markenstile, Layouts, Ton und mehr optimiert sind. Sie können sie über Kanäle wie E-Mail, SMS und Push-Benachrichtigungen verwenden.
 
