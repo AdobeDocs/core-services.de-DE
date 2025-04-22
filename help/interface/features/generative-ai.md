@@ -1,15 +1,15 @@
 ---
 title: KI in Experience Cloud-Anwendungen
-description: Erfahren Sie, wie Experience Cloud-Programme generative KI und den KI-Assistenten verwenden.
+description: Erfahren Sie mehr über generative KI und darüber, wie Experience Cloud-Programme genAI und AI Assistant verwenden.
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 7060cc75e06a00dd06475958f94b03ceaf39ae62
+source-git-commit: aad561869cdfa7ddbc66b296d0a46c8f49f83d94
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1313'
 ht-degree: 4%
 
 ---
@@ -34,6 +34,16 @@ Wenn Sie neu bei Experience Cloud sind, können Sie generative KI verwenden, um 
 
 Die Antworten auf Produktkenntnisse von Experience League sind überprüfbar und werden mit Links angegeben. Erfahren Sie mehr über die Arten [ (objektbasierten Eingabeaufforderungen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) um den KI-Assistenten optimal zu nutzen.
 
+<!-- **Your data remains yours**
+
+In AI Assistant, security is the priority:
+
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company. -->
+
 ## Anwendungen mit Funktionen, die KI unterstützen
 
 * [GenStudio for Performance Marketing](#gspm)
@@ -52,7 +62,7 @@ Die Antworten auf Produktkenntnisse von Experience League sind überprüfbar und
 
 ### GenStudio for Performance Marketing {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home) ist keine Funktion, sondern eine generative KI-gesteuerte Plattform. Die generativen KI-Funktionen transformieren, wie Marketing-Inhalte erstellt, geprüft, freigegeben und analysiert werden.
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home) ist eine generative KI-gesteuerte Plattform mit Funktionen, die die Erstellung, Überprüfung, Freigabe und Analyse von Marketing-Inhalten transformieren können.
 
 Auf der [Erstellen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview)-Startseite können Sie leistungsstarke, markeninterne Erlebnisse erstellen. Inhalt generieren für:
 
