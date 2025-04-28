@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: cadc0d7eaaa9acb868f96561c2a562d9d29fc9ac
+source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1174'
 ht-degree: 3%
 
 ---
@@ -36,15 +36,16 @@ Generative KI ist eine Art von künstlicher Intelligenz, die mehr tut, als nur F
 
 [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-**Ihre Daten bleiben Ihre**
+<!-- **Your data remains yours**
 
-In AI Assistant hat Sicherheit Priorität:
+In AI Assistant, security is the priority:
 
-* Kundendaten werden nicht zum Trainieren von Sprachmodellen verwendet.
-* Der KI-Assistent betrachtet nur die Dokumente, die Sie ihm mitteilen. Du hast die Kontrolle.
-* Ihre Mitarbeiter können den KI-Assistenten nur für Dokumente verwenden, auf die sie zugreifen können.
-* Ist Audit-bereit: Antworten sind Quelldokumenten zuzuordnen.
-* Mit Unternehmenssteuerelementen kann verwaltet werden, wer im Unternehmen über KI-Zugriff verfügt.
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company.
+ -->
 
 ## KI-Verfügbarkeit in Experience Cloud-Produkten
 
