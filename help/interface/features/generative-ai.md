@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 835bcd684384d1c8809fba062c9e9d8edd4de535
+source-git-commit: c97ace2c192517a49a01c4247d9f6b4220e0514d
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1103'
 ht-degree: 3%
 
 ---
@@ -136,7 +136,13 @@ Kompatibilität mit Adobe Firefly: **Nein**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
-Intelligente Beschriftungen in [!DNL Customer Journey Analytics] bieten Einblicke in natürlicher Sprache für die am häufigsten verwendeten Workspace-Visualisierungen. Intelligente Untertitel sind ideal für Analysten, die Erzählungen und Kontext benötigen, um sie mit anderen Benutzern zu teilen. Business-Anwender können sie verwenden, um schnell allgemeine Erkenntnisse zu gewinnen.
+Sie können _Intelligent Captions_ in [!DNL Customer Journey Analytics] verwenden, um Erkenntnisse in natürlicher Sprache für die am häufigsten verwendeten Workspace-Visualisierungen zu erhalten. Intelligente Untertitel sind ideal für Analysten, die Erzählungen und Kontext benötigen, um sie mit anderen Benutzern zu teilen. Business-Anwender können sie verwenden, um schnell allgemeine Erkenntnisse zu gewinnen.
+
+z. B.:
+
+* **Eingabe** Führen Sie in CJA eine unterstützte Visualisierung aus (einschließlich Linie, Bereich, Balkendiagramm, Fluss oder Fallout) und klicken Sie dann auf **[!UICONTROL Intelligente Beschriftungen]**.
+
+* **Ausgabe:** automatisch generierte Untertitel in natürlicher Sprache anzeigen, die Kontext und wichtige Erkenntnisse zeigen. Anschließend können Sie Aktionen für die generierten Daten durchführen, z. B. sie überprüfen, kopieren und für Ihr Unternehmen freigeben. [Siehe wie](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
