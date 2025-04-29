@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
+source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1168'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Erfahren Sie mehr über die Unterstützung für generative KI oder [!DNL AI Assi
 * [[!DNL Experience Manager Sites]](#aem-sites)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
-* [[!DNL Campaign] Managed Services (Campaign v8 Web)](#campaign-cs)
+* [[!DNL Campaign] Managed Cloud Services](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
 * [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
@@ -140,9 +140,9 @@ Beispieleingabe:
 
 Kompatibilität mit Adobe Firefly: **Nein**
 
-## [!DNL Campaign] Managed Services (Campaign v8 Web) {#campaign-cs}
+## [!DNL Campaign] Managed Cloud Services {#campaign-cs}
 
-Campaign v8 (Campaign Managed Cloud Services) verwendet [!DNL AI Assistant] für die Inhaltserstellung. Mit dieser Funktion können Sie basierend auf Ihrem Marketing-Ziel automatisch personalisierte, ansprechende und effektive Inhalte generieren, wobei Inhalte für Markenstile, Layouts, Ton und mehr optimiert sind. Sie können sie über Kanäle wie E-Mail, SMS und Push-Benachrichtigungen verwenden.
+Campaign Managed Cloud Services verwendet [!DNL AI Assistant] für die Inhaltserstellung. Mit dieser Funktion können Sie basierend auf Ihrem Marketing-Ziel automatisch personalisierte, ansprechende und effektive Inhalte generieren, wobei Inhalte für Markenstile, Layouts, Ton und mehr optimiert sind. Sie können sie über Kanäle wie E-Mail, SMS und Push-Benachrichtigungen verwenden.
 
 **Hinweis** Die Ausgabe von Inhalten aus der Inhaltserstellung in Campaign Managed Cloud Services wird entschädigt.
 
