@@ -35,7 +35,7 @@ Auf der Seite [!UICONTROL Schema bearbeiten] stellt jede Schemazeile eine Spalte
 
 * **[!UICONTROL Schema anzeigen/bearbeiten:]** Ordnet den Attributdaten wie im nächsten Schritt beschrieben Anzeigenamen zu.
 
-* **[!UICONTROL FTP-Einrichtung:]**[ Daten per FTP hochladen](t-upload-attributes-ftp.md).
+* **[!UICONTROL FTP-Einrichtung:]**&#x200B;[ Daten per FTP hochladen](t-upload-attributes-ftp.md).
 
 * **[!UICONTROL ID-Suche:]** Geben Sie eine Kunden-ID (CID) aus Ihrer `.csv` ein, um Experience Cloud-Informationen für diese ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
 

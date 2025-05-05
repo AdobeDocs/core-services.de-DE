@@ -144,7 +144,7 @@ Siehe [Konfigurieren von Abonnements](subscription.md).
 
 **So aktivieren Sie eine Attributquelle**
 
-Suchen Sie auf [!UICONTROL  Seite „Neue Kundenattribut-Source erstellen] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
+Suchen Sie auf [!UICONTROL &#x200B; Seite „Neue Kundenattribut-Source erstellen] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
 
 ![Ergebnis des Schritts](assets/activate_attribute_source.png)
 

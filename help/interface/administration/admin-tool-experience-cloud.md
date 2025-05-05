@@ -23,7 +23,7 @@ Administratoren können eine sortierbare und filterbare Liste aller Experience C
 
    ![Zugriff auf Admin Console](../assets/admin-tool.png)
 
-1. Klicken [!UICONTROL  unter &quot;]&quot; auf **[!UICONTROL Admin-Tool]**.
+1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf **[!UICONTROL Admin-Tool]**.
 
    (Alternativ können Sie in der Startseiten-URL _home_ durch _admin_ ersetzen.)
 

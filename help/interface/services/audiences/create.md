@@ -45,7 +45,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 **Erstellen einer Zielgruppe**
 
 1. Klicken Sie in der [!DNL Experience Cloud] unter [!DNL Experience Platform] auf **[!UICONTROL Personen]** > **[!UICONTROL Zielgruppenbibliothek].**
-1. Klicken Sie auf [!UICONTROL  Seite ]Zielgruppen **[!UICONTROL auf „Neu]**. ![Hinzufügen](assets/add_icon_small.png)
+1. Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Zielgruppen **[!UICONTROL auf „Neu]**. ![Hinzufügen](assets/add_icon_small.png)
 
    ![Schritt Ergebnis](assets/audience_create_new.png)
 
@@ -53,6 +53,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 1. Wählen Sie unter [!UICONTROL Regeln] eine Attributquelle aus:
 
    * **[!UICONTROL Daten von Real-Time Analytics:]** Hierbei handelt es sich um Attributdaten, die aus Bildanfragen in Real-Time Analytics gewonnen werden und Daten wie eVars und Ereignisse enthalten. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
+
    >[!NOTE]
    >
    >Aufgrund des Caching benötigen gelöschte Report Suites in Analytics 12 Stunden, bevor der Löschvorgang im Experience Cloud angezeigt wird.

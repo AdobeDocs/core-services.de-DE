@@ -131,7 +131,7 @@ Adobe Firefly-Kompatibilität: **Nein**
 
 ### KI-Assistent für die Inhalte-Generation (AJO Prime und Ultimate) {#ajo-prime}
 
-In AJO _Prime_ und _Ultimate_ können Sie Inhalte Generierung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) für Inhalte Generierung verwenden[, um proaktive Inhalte Variationsvorschläge für Text und Bilder zu machen.
+In AJO _Prime_ und _Ultimate_ können Sie Inhalte Generierung[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) für Inhalte Generierung verwenden, um proaktive Inhalte Variationsvorschläge für Text und Bilder zu machen.
 
 Diese Funktion ist für E-Mail, Push-Benachrichtigungen, Web-Seite, Inhalte- und SMS-Kanäle verfügbar. Es bietet eine sofortige Text- und Bildgenerierung. Ausgabe aus der Inhaltserstellung in AJO Prime und Ultimate wird entschädigt.
 
