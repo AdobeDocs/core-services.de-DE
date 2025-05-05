@@ -81,7 +81,7 @@ Führen Sie diese Schritte auf der Seite Neue Kundenattribut-Source erstellen in
 
       * **Tags:** Die Alias-ID entspricht dem Wert *Integrationscode* unter [!UICONTROL Kundeneinstellungen] im Tool [Experience Cloud-ID-](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html), die Sie den einzelnen Besuchern zuordnen können.
+      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de), die Sie den einzelnen Besuchern zuordnen können.
 
         Beispiel: *„crm_ id“* in:
 

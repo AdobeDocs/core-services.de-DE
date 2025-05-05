@@ -34,4 +34,4 @@ Analytics verwendet Cookies, um neue Besucher anonym zu definieren, Klickdaten z
 
 ## Von Plug-ins eingestellte Cookies
 
-Bei einigen Implementierungen werden Plug-ins verwendet, bei denen es sich um Code-Ausschnitte handelt, die zusätzliche Funktionen für Analytics bieten. Diese Plug-ins können Cookies setzen, die oben nicht aufgeführt sind. Unter [Übersicht über Analytics-Plug](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) finden Sie eine Liste der verfügbaren Plug-ins und der von ihnen gesetzten Cookies.
+Bei einigen Implementierungen werden Plug-ins verwendet, bei denen es sich um Code-Ausschnitte handelt, die zusätzliche Funktionen für Analytics bieten. Diese Plug-ins können Cookies setzen, die oben nicht aufgeführt sind. Unter [Übersicht über Analytics-Plug](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/plugins/impl-plugins) finden Sie eine Liste der verfügbaren Plug-ins und der von ihnen gesetzten Cookies.

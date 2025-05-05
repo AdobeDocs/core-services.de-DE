@@ -100,5 +100,5 @@ Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
-* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&amp;lang=de#support).
+* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/de?support-solution=General&amp;lang=de#support).
 * Greifen Sie über die Standardanmeldung auf das Programm zu, solange das Problem nicht behoben ist.
