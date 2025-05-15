@@ -2,30 +2,30 @@
 title: Von Experience Cloud verwendete IP-Adressen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
+source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 12%
 
 ---
 
 # Von Experience Cloud verwendete IP-Adressen
 
-Einige Firewall-Konfigurationen blockieren IP-Adressen, die von Datenerfassungsservern oder -servern von Adobe stammen, die für den Datenzugriff verantwortlich sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihrer Organisation zu ändern, um den Zugriff zu ermöglichen und Daten von innerhalb Ihrer Organisation zu senden. Diese Seite enthält sowohl eingehende Systeme (z. B. Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds in Adobe Analytics), die von Adobe verwendet werden.
+Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Datenerfassungs-Servern oder -Servern von Adobe stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihrer Organisation zu ändern, um den Zugriff zu ermöglichen und Daten von innerhalb Ihrer Organisation zu senden. Diese Seite enthält sowohl eingehende Systeme (z. B. Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds in Adobe Analytics), die Adobe verwendet.
 
 >[!IMPORTANT]
 >
->Adobe tut sein Bestes, um dieses Dokument aktuell zu halten, kann jedoch nicht garantieren, dass die Liste der IP-Bereiche gleich bleibt. Zu den möglichen Änderungen gehören das Wachstum und die Ausweitung des Unternehmens, eine Internet-Registrierung erfordert Änderungen am IP-Adressraum der Adobe oder ein Internet-Service-Provider funktioniert nicht mehr.
+>Adobe setzt dieses Dokument nach besten Kräften auf dem neuesten Stand, kann jedoch nicht garantieren, dass die Liste der IP-Bereiche gleich bleibt. Mögliche Änderungen umfassen das Wachstum und die Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen am IP-Adressbereich von Adobe oder ein Internet-Service-Provider funktioniert nicht mehr.
 
 Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adobe Experience Cloud-Produkte über eigene IP-Adressen, die sie verwenden:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
-## Alle Adobe-IP-Adressblöcke
+## Alle Adobe IP-Adressblöcke
 
-In der folgenden Tabelle sind alle IP-Adressen aufgeführt, die sich im Besitz von Adobe befinden. Diese Tabelle enthält alle Adobe-Mitarbeiterbüros und Rechenzentren, die von Adobe global betrieben werden. Sie umfasst keine auf Public Clouds gehosteten Services.
+Die folgende Tabelle enthält alle IP-Adressen im Besitz von Adobe. Diese Tabelle enthält alle Adobe-Mitarbeiterbüros und Rechenzentren, die von Adobe global betrieben werden. Sie umfasst keine auf Public Clouds gehosteten Services.
 
 | IP-Block (CIDR-Notation) |
 | --- |
@@ -55,7 +55,6 @@ Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 | Kalifornien | `63.140.32.0/23` |
 | Kalifornien | `63.140.34.0/24` |
 | Frankreich | `63.140.62.0/23` |
-| Indien | `66.117.20.0/24` |
 | Indien | `66.117.22.0/23` |
 | Japan | `130.248.169.0/23` |
 | Japan | `63.140.50.0/23` |
@@ -64,6 +63,7 @@ Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 | London | `185.34.188.0/22` |
 | London | `130.248.152.0/22` |
 | London | `130.248.244.0/23` |
+| Ohio | `66.117.20.0/24` |
 | Oregon | `66.235.132.0/22` |
 | Oregon | `130.248.130.0/23` |
 | Oregon | `130.248.150.0/24` |
@@ -93,6 +93,7 @@ Der Adobe Experience Cloud unterstützt auch IPv6 in begrenzter Kapazität. Dies
 | Indien | `2406:da1a:f34:6a00::/56` |
 | Irland | `2a05:d018:309:600::/56` |
 | Japan | `2406:da14:b07:ab00::/56` |
+| Ohio | `2600:1f16:130f:7d00::/56` |
 | Oregon | `2600:1f14:1eb:7d00::/56` |
 | Oregon | `2600:1f14:9d3:2b00::/56` |
 | Singapur | `2406:da18:6e8:1e00::/56` |
