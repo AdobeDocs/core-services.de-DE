@@ -23,7 +23,7 @@ ht-degree: 8%
 >
 >Die Informationen in diesem Artikel gelten nur für die [[!DNL Target] at.js-JavaScript](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}Bibliothek.
 >
->Weitere Informationen über Cookies, die in einer [!DNL Target] Implementierung mit dem [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target=_blank} verwendet werden, finden Sie unter „Verwendet der [!DNL Adobe Experience Platform Web SDK] Cookies? Wenn ja, welche Cookies werden verwendet?“ in [Häufig gestellte Fragen im Handbuch DNL Platform Web SDK - Übersicht](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
+>Weitere Informationen über Cookies, die in einer [!DNL Target] Implementierung mit dem [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=de){target=_blank} verwendet werden, finden Sie unter „Verwendet der [!DNL Adobe Experience Platform Web SDK] Cookies? Wenn ja, welche Cookies werden verwendet?“ in [[!DNL Häufig gestellte Fragen im Handbuch Platform Web SDK - Übersicht]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
 >Sie können die in diesem Artikel besprochenen Einstellungen bei Bedarf ändern, mit Ausnahme der Cookie-Dauer. [Wenden Sie sich beim Ändern ](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} Cookie-Einstellungen an Ihren Kundenbetreuer.
 >
