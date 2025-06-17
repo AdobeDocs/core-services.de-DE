@@ -5,10 +5,10 @@ breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
-source-git-commit: ed5c14269fdb1bc83b0c06107e55336c9bc2ae9e
+source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,8 @@ ht-degree: 100%
 
 + Funktionen {#features}
    + [Kontovoreinstellungen und Benachrichtigungen](features/account-preferences.md)
-   + [Generative KI in Experience Cloud-Anwendungen](features/generative-ai.md)
+   + [Generative KI](features/generative-ai.md)
+   + [Agent-KI](features/agentic-ai.md)
    + [Einheitliche Suche](features/search.md)
    + [Personalisierte Lerninhalte](features/personalized-learning.md)
    + [Browser- und Sprachunterstützung](browser-language.md)

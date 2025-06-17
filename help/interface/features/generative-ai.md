@@ -1,16 +1,16 @@
 ---
 title: Generative KI in Experience Cloud-Programmen
-description: Erfahren Sie mehr über generative KI (GenAI) und darüber, wie Experience Cloud-Anwendungen GenAI und [!UICONTROL AI Assistant) &#x200B;].
+description: Erfahren Sie mehr über generative KI (GenAI) und darüber, wie Experience Cloud-Anwendungen GenAI und [!UICONTROL AI Assistant) ].
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
-topic: Administration
-role: Admin
+topic: Artificial Intelligence
+role: Admin, User
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 2e8ce339aaf3d90b7ee6da2cdec1565c88513e3d
+source-git-commit: 5c5ecaee15114ada89b317005febb39d74cf9dae
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 3%
+source-wordcount: '1927'
+ht-degree: 5%
 
 ---
 
@@ -26,25 +26,40 @@ Generative KI ist ein Typ von KI, mit dem Originalinhalte erstellt werden könne
 
 * **Antwort generieren:** KI bietet eine Antwort oder Reaktion auf eine Eingabeaufforderung, wobei in der Regel die verfügbaren Daten und Wissens-Repositorys genutzt werden.
 
+Diese Art von KI steht im Gegensatz zu [agentischer KI](agentic-ai.md) (Adobes agentischem Framework), das sich auf KI bezieht, die autonom arbeitet.
+
 **Was ist [!UICONTROL KI-Assistent]?**
 
 [!UICONTROL AI Assistant] ist ein Dialogtool, das in Experience Platform und verwandten Programmen unterstützt wird. Nutzen Sie diese Lösung, um schnell _Produktwissen_ und _operative Erkenntnisse_ in unterstützten Produkten zu erhalten.
 
-* **Produktkenntnisse:** Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Dokumentation zu Experience League basieren. Erfahren Sie, wie Sie effektive, [objektbasierte Eingabeaufforderungen“ erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) um [!UICONTROL KI-Assistenten“ optimal &#x200B;]. Alle Antworten von Experience League sind überprüfbar und mit Links versehen.
+* **Produktkenntnisse:** Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Dokumentation zu Experience League basieren. Erfahren Sie, wie Sie effektive, [objektbasierte Eingabeaufforderungen“ erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) um [!UICONTROL KI-Assistenten“ optimal ]. Alle Antworten von Experience League sind überprüfbar und mit Links versehen.
 
-* **Operative Insights:** [Operative Insights](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/questions#objects-questions) beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] können Sie in Sekunden erreichen, was ansonsten Stunden oder Tage dauern könnte.
+* **Operative Insights:** [Operative Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] können Sie in Sekunden erreichen, was ansonsten Stunden oder Tage dauern könnte.
 
-Der KI-Assistent enthält auch KI-Funktionen für Konversationsagenten (_agentische KI_) in unterstützten Anwendungen:
+[Erfahren Sie mehr über den KI-Assistenten](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-* **Produktsupport:** Der [Produktsupportagent](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) ist eine Selbstbedienungs-Debugging- und Fehlerbehebungsfunktion von [!UICONTROL AI Assistant] die Sie für Experience Platform-Funktionen und -Programme verwenden können. Beheben Sie Support-Probleme, ohne Ihre Workflows zu verlassen, erstellen Sie Support-Tickets und verfolgen Sie den Fallfortschritt mit dem KI-Assistenten.
+## KI-Verfügbarkeit in Experience Cloud-Produkten
 
-[Erfahren Sie mehr über den KI-Assistenten](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/landing)
+Im Folgenden finden Sie eine Zusammenfassung der Experience Cloud-Programme, die GenAI, AI Assistant oder Agent AI verwenden. Die Kompatibilität mit Adobe Firefly ist angegeben.
 
-## GenAI-Verfügbarkeit in Experience Cloud-Produkten {#products}
+| **Produktname** | **Generative KI** | **KI-Assistent** | **Firefly-Kompatibilität** |
+|------------------|-------------------------|------------------|---------------------------|
+| [Adobe GenStudio for Performance Marketing](#gspm) | Ja. <br> Hilft Marketing- und Kreativ-Teams bei der Erstellung personalisierter, markeninterner Inhalte. | Nicht zutreffend | Ja |
+| [Adobe Experience Manager Sites](#aem) | Ja. <br> Verfügbar in [Varianten generieren](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor?lang=en) um Inhaltsvarianten basierend auf Eingaben zu erstellen. | Nicht zutreffend | Ja |
+| [Sites Optimizer](#aem) | Ja. <br> Hilft Ihnen bei der Analyse und Verbesserung der Leistung und Effektivität von Web-Erlebnissen. | Nicht zutreffend | Nein |
+| [Adobe Experience Manager Assets](#aem) | Ja. <br> Verfügbar in [Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) und KI-generierten [Smart-Tags](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags). | Nicht zutreffend | Ja |
+| [Adobe Journey Optimizer](#journey-optimizer) | Nicht zutreffend | Ja. <br> Verfügbar für Produktkenntnisse und operative Erkenntnisse. | Nein |
+| | | AJO Prime und Ultimate bieten [Inhaltserstellung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen. | Ja |
+| [[!DNL Adobe Journey Optimizer] B2B edition](#ajo-b2b) | Nicht zutreffend | Ja. <br>Verfügbar zur Unterstützung bei Produktkenntnissen. | Nein |
+| [[!DNL Campaign] Managed Cloud Services](#campaign-cs) | Nicht zutreffend | Ja. <br>Verwendet einen KI-Assistenten für Content Accelerator zur automatischen Generierung personalisierter, ansprechender und effektiver Inhalte basierend auf Marketing-Zielen für Kanäle wie E-Mail, SMS und Push | Ja |
+| [[!DNL Customer Journey Analytics]](#cja) | Ja. <br> GenAI wird verwendet in:<ul><li> [Intelligente Beschriftungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): Erhalten Sie Einblicke in die am häufigsten verwendeten Workspace-Visualisierungen.</li><li>[Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): Zum automatischen Zuweisen von Asset-Metadaten.</li></ul> | Ja. <br>KI-Assistent kann bei Folgendem helfen:<ul><li>[Produktkenntnisse](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) (Experience League)</li><li>[Produktsupport-Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support?lang=en) </li><li>[Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai)</li></ul> | Nein |
+| [[!DNL Real-Time CDP]](#rtcdp) | Nicht zutreffend | Ja. <br>Produktwissen von Experience League. Es bietet auch operative Einblicke (in der Beta-Phase). | Nein |
+| [[!DNL Marketo]](#marketo) | Ja. <br>Verfügbar in [Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) und [Interaktiven Webinaren](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en). | Nicht zutreffend | Nein |
+| [[!DNL Workfront]](#workfront) | Ja. <br> In-App-Informationen und -Vorschläge. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview?lang=en) | Nicht zutreffend | Ja |
 
-Die folgenden Experience Cloud-Programme unterstützen generative KI oder [!UICONTROL KI-Assistent]. Unterstützung für Adobe Firefly wird ebenfalls pro Produkt angezeigt.
+## Beispiele für die Verwendung von GenAI in Experience Cloud {#products}
 
-Aktualisiert: **9. Juni 2025**
+In den folgenden Abschnitten wird ausführlicher beschrieben, wie Sie GenAI oder AI Assistant in bestimmten Anwendungen verwenden können. Links für weitere Informationen werden bereitgestellt.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager]](#aem)
@@ -63,8 +78,6 @@ Aktualisiert: **9. Juni 2025**
 Marketing-Experten für Performance können natürliche Spracheingaben verwenden, um personalisierte, markenkonforme Assets zu generieren. GenStudio for Performance Marketing beschleunigt die Kampagnenausführung, skaliert die Inhaltserstellung ohne Beeinträchtigung der Markenintegrität und bietet Leistungsanalysen zur Verbesserung des Gesamt-ROI.
 
 [Weitere Informationen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home)
-
-Adobe Firefly-Kompatibilität: **Ja**
 
 ## [!DNL Experience Manager] {#aem}
 
@@ -88,35 +101,31 @@ Zu den Eingabefeldern gehören:
 
 Die Ausgabe ist generierter Inhalt oder eine Marktkopie.
 
-Adobe Firefly-Kompatibilität: **Ja**
-
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
 ### Sites Optimizer {#sites-optimizer}
 
-AEM Sites Optimizer verwendet generative KI, um die Leistung und Effektivität von Web-Erlebnissen zu analysieren und zu verbessern. Diese Erkenntnisse sind in wichtigen Opportunity-Bereichen gruppiert: Interaktion, Traffic-Akquise, Sicherheitslage und Site-Health. Jede Kategorie zeigt spezifische Möglichkeiten zur Verbesserung Ihrer Site auf, sei es durch eine verbesserte Besucherinteraktion, eine verbesserte Auffindbarkeit, eine erhöhte Sicherheit oder die Aufrechterhaltung der Site-Stabilität. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)
+AEM Sites Optimizer verwendet generative KI, um die Leistung und Effektivität von Web-Erlebnissen zu analysieren und zu verbessern. Diese Erkenntnisse sind in wichtigen Opportunity-Bereichen gruppiert: Interaktion, Traffic-Akquise, Sicherheitslage und Site-Health. Jede Kategorie zeigt spezifische Möglichkeiten zur Verbesserung Ihrer Site auf, sei es durch eine verbesserte Besucherinteraktion, eine verbesserte Auffindbarkeit, eine erhöhte Sicherheit oder die Aufrechterhaltung der Site-Stabilität. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunity-types/overview)
 
 ### Experience Manager Assets {#aem-assets}
 
 In AEM Assets können Sie generative KI in **Content Hub** und **KI-generierten Smart-Tags** verwenden.
 
-Adobe Firefly-Kompatibilität: **Ja**
-
 **Content Hub**
 
 [!UICONTROL Content Hub] ist als Teil der [!DNL Experience Manager Assets as a Cloud Service] für die Demokratisierung des Zugriffs auf markeninterne Inhalte für Unternehmen und ihre Geschäftspartner verfügbar. Der Schwerpunkt liegt auf der Verteilung von Assets für die Aktivierung im großen Maßstab und der Erstellung von Inhaltsvarianten für die Marke, um die Marketing-Agilität zu verbessern.
 
-In Content Hub können Sie Inhalte mit Adobe Express erstellen (wenn Sie über Adobe Express-Berechtigungen verfügen). Sie können vorhandene Inhalte mit einfachen Tools bearbeiten, markeninterne Varianten mit Vorlagen und Markenelementen erstellen und Inhalte mit den neuesten GenAI-Funktionen von [!DNL Adobe Firefly] erstellen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+In Content Hub können Sie Inhalte mit Adobe Express erstellen (wenn Sie über Adobe Express-Berechtigungen verfügen). Sie können vorhandene Inhalte mit einfachen Tools bearbeiten, markeninterne Varianten mit Vorlagen und Markenelementen erstellen und Inhalte mit den neuesten GenAI-Funktionen von [!DNL Adobe Firefly] erstellen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
 
 **Smart-Tags**
 
 Anstatt sich auf manuelle Eingaben zu verlassen, kann KI digitalen Assets automatisch beschreibende Tags zuweisen. Diese KI-generierten Tags verbessern die Metadatenqualität und erleichtern die Suche, Kategorisierung und Empfehlung von Assets.
 
-Wenn das Asset beispielsweise ein Bild ist, kann KI Objekte, Szenen, Emotionen oder sogar Markenlogos identifizieren. Es kann relevante Tags wie _Sonnenuntergang_, _Strand_, _Urlaub_ oder _Lächeln_ generieren. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags)
+Wenn das Asset beispielsweise ein Bild ist, kann KI Objekte, Szenen, Emotionen oder sogar Markenlogos identifizieren. Es kann relevante Tags wie _Sonnenuntergang_, _Strand_, _Urlaub_ oder _Lächeln_ generieren. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags)
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
-In [!DNL Journey Optimizer] (AJO) können Sie [KI-](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/ai-assistant)) verwenden, um _Produktwissen_ und _operative Erkenntnisse_ (Beta) zu erhalten.
+In [!DNL Journey Optimizer] (AJO) können Sie [KI-](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)) verwenden, um _Produktwissen_ und _operative Erkenntnisse_ (Beta) zu erhalten.
 
 ### Beispiele für die Verwendung des KI-Assistenten in AJO
 
@@ -132,19 +141,15 @@ Im Folgenden finden Sie eine Beispieleingabe für operative Einblicke:
 
   Für die Ausgabe fragt der KI-Assistent einen kundenspezifischen Datenspeicher ab. Der Datenspeicher enthält zentralisierte, betriebliche Daten zu [!UICONTROL Journey]. Diese Funktion ist kundenunabhängig und ruft Metadaten nur aus Geschäftsobjekten ab. Es greift nicht auf Daten in Ihrer Sandbox zu.
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/get-started/ai-assistant)
-
-Adobe Firefly-Kompatibilität: **Nein**
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant)
 
 ### KI-Assistent für die Inhaltserstellung (AJO Prime und Ultimate) {#ajo-prime}
 
-In AJO _Prime_ und _Ultimate_ können Sie die [Inhaltserstellung](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) für die Inhaltserstellung verwenden, um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen.
+In AJO _Prime_ und _Ultimate_ können Sie die [Inhaltserstellung](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) für die Inhaltserstellung verwenden, um proaktive Inhaltsvariantenvorschläge für Text und Bilder einzubringen.
 
 Diese Funktion ist für E-Mail-, Push-Benachrichtigungen, Web-Seiten-, Inhalts- und SMS-Kanäle verfügbar. Es bietet eine sofortige Text- und Bildgenerierung. Ausgabe aus der Inhaltserstellung in AJO Prime und Ultimate wird entschädigt.
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
-
-Adobe Firefly-Kompatibilität: **Ja**
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
 ## [!DNL Journey Optimizer B2B Edition] {#ajo-b2b}
 
@@ -156,9 +161,7 @@ Beispieleingabe:
 
   Die Ausgabe des Produktwissens wird von Experience League abgerufen.
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
-
-Adobe Firefly-Kompatibilität: **Nein**
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
 ## [!DNL Campaign] Managed Cloud Services {#campaign-cs}
 
@@ -166,21 +169,15 @@ Campaign Managed Cloud Services verwendet [!UICONTROL KI-Assistent] für die Inh
 
 **Hinweis** Die Ausgabe von Inhalten aus der Inhaltserstellung in Campaign Managed Cloud Services wird entschädigt.
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/campaign-web/v8/content/ai-assistant/generative-gs)
-
-Adobe Firefly-Kompatibilität: **Ja**
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
 Mit Customer Journey Analytics können Sie generative KI oder den KI-Assistenten wie folgt verwenden:
 
-* [KI-Assistent](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) für Produktkenntnisse.
-* [Product Support Agent](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) zum Erstellen von Support-Tickets, einschließlich Kontext und Sitzungsdetails aus Ihren Interaktionen mit dem KI-Assistenten.
-* [Data Insights Agent](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) für Antworten auf Fragen zu Ihren Daten. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten.
-* [Intelligente Beschriftungen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) um wichtige Einblicke in die am häufigsten verwendeten Workspace-Visualisierungen in natürlicher Sprache zu erhalten.
-* [Content Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/content-analytics/report/report#template), um alle Asset-Metadaten automatisch zuzuweisen.
-
-Adobe Firefly-Kompatibilität: **Nein**
+* [KI-Assistent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) für Produktkenntnisse.
+* [Intelligente Beschriftungen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) um wichtige Einblicke in die am häufigsten verwendeten Workspace-Visualisierungen in natürlicher Sprache zu erhalten.
+* [Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template), um alle Asset-Metadaten automatisch zuzuweisen.
 
 **KI-Assistent**
 
@@ -190,7 +187,7 @@ Entdecken Sie Produktwissen von Experience League. Wenn Sie neu sind, lernen Sie
 
 Erfahrene Anwender erhalten erweiterte Anwendungsfälle oder lernen Strategien kennen, um Aufgaben schnell auszuführen. Sie können Konzepte schnell verstehen, Probleme beheben oder nach Informationen suchen.
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
 **Intelligente Beschriftungen**
 
@@ -200,15 +197,15 @@ z. B.:
 
 * **Eingabe** Führen Sie in CJA eine unterstützte Visualisierung aus (einschließlich Linie, Bereich, Balkendiagramm, Fluss oder Fallout) und klicken Sie dann auf **[!UICONTROL Intelligente Beschriftungen]**.
 
-* **Ausgabe:** automatisch generierte Untertitel in natürlicher Sprache anzeigen, die Kontext und wichtige Erkenntnisse zeigen. Anschließend können Sie Aktionen für die generierten Daten durchführen, z. B. sie überprüfen, kopieren und für Ihr Unternehmen freigeben. [Siehe wie](https://video.tv.adobe.com/v/3443147/?quality=12&learn=on#_blank&captions=ger)
+* **Ausgabe:** automatisch generierte Untertitel in natürlicher Sprache anzeigen, die Kontext und wichtige Erkenntnisse zeigen. Anschließend können Sie Aktionen für die generierten Daten durchführen, z. B. sie überprüfen, kopieren und für Ihr Unternehmen freigeben. [Siehe wie](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
 **Content Analytics**
 
 Content Analytics verwendet KI und GenAI, um alle Asset-Metadaten automatisch zuzuweisen, z. B. Themen, Szenen, Vordergrundfarben usw. Ein Attribut ist ein von KI zugewiesenes Metadaten-Tag, das beschreibt, was sich in einem Asset oder Erlebnis befindet.
 
-Beispiel: `color: red` ist ein automatisch zugewiesenes Attribut. Anhand der Visualisierungen können Sie erkennen, welche Attribute Ihrer Assets am meisten zur Konversion beitragen. [Weitere Informationen](https://experienceleague.adobe.com/de/docs/analytics-platform/using/content-analytics/report/report#template)
+Beispiel: `color: red` ist ein automatisch zugewiesenes Attribut. Anhand der Visualisierungen können Sie erkennen, welche Attribute Ihrer Assets am meisten zur Konversion beitragen. [Weitere Informationen](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -217,8 +214,6 @@ Real-Time CDP verwendet [!UICONTROL KI-]), um Sie mit Produktkenntnissen aus Exp
 Wenn Sie beispielsweise eine Zielgruppe abfragen, kann [!UICONTROL KI-Assistent] auf den Namen der Zielgruppe und andere zugehörige Metadaten zugreifen, jedoch nicht auf die Profile innerhalb dieser Zielgruppe.
 
 [Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home)
-
-Adobe Firefly-Kompatibilität: **Nein**
 
 ## [!DNL Marketo] {#marketo}
 
@@ -233,15 +228,13 @@ Automatische Generierung von Kapiteln und Zusammenfassungen für aufgezeichnete 
 * Bearbeitbare Inhalte - Ändern von generierten Kapiteln und Zusammenfassungen
 * Einfache Integration - Fügen Sie Ihren Landingpages Kapitel und Zusammenfassungen hinzu, indem Sie den HTML-Code in den gewünschten Web-Seiten-Editor kopieren
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
 
 **Dynamic Chat**
 
 Die Generative AI-gestützten Funktionen in Adobe Dynamic Chat ermöglichen es Ihnen, die Produktivität Ihrer Vertriebsmitarbeiter zu optimieren, Einblicke in die Besucherabsichten Ihrer Website zu erhalten und Besucherfragen sicher zu beantworten. Sie können die Fragen, Antworten und die Konversationszusammenfassung vorab genehmigen. Dynamic Chat umfasst sowohl eine kostenlose als auch eine Premium-Version.
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
-
-Adobe Firefly-Kompatibilität: **Nein**
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
 ## [!DNL Workfront] {#workfront}
 
@@ -252,11 +245,9 @@ Adobe Firefly-Kompatibilität: **Nein**
 * Generierte Formeln basierend auf Ihren Eingabeaufforderungen abrufen. Sie können auch Fehler in Ihren ungültigen benutzerdefinierten Ausdrücken in berechneten Feldern beheben.
 * Suchen Sie Projekte, Aufgaben und Probleme.
 
-[Weitere Informationen](https://experienceleague.adobe.com/de/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+[Weitere Informationen](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
-Adobe Firefly-Kompatibilität: **Nein**
-
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 * [Verantwortungsvolle KI-Ressourcen im Trust Center](https://www.adobe.com/trust/responsible-ai.html)<!-- * [Customer AI Propensity Scoring Model Card](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/model-cards/ai-model-cards/customer-ai) -->
 
