@@ -67,7 +67,7 @@ In den folgenden Abschnitte wird die Modernisierung Ihrer Implementierung beschr
 
 ## Implementieren von [!UICONTROL Experience Cloud ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-Der [!UICONTROL Experience Cloud ID Service] stellt eine allgemeine ID für programmübergreifende Integrationen bereit. Es bietet eine Domain-übergreifende Besucheridentifikation und einen Pfad für Geräte-/Browser-übergreifendes Targeting und die Personalisierung basierend auf CRM-Daten, die über [!UICONTROL Kundenattribute“ hochgeladen ].
+Der [!UICONTROL Experience Cloud ID Service] stellt eine allgemeine ID für programmübergreifende Integrationen bereit. Es bietet eine Domain-übergreifende Besucheridentifikation und einen Pfad für Geräte-/Browser-übergreifendes Targeting und die Personalisierung basierend auf CRM-Daten, die über [!UICONTROL Kundenattribute“ hochgeladen &#x200B;].
 
 Die einfachste Methode zur Aktivierung der zentralen Experience Cloud-Dienste besteht darin, diese für Analytics und Adobe Target automatisch über die [Experience Cloud ID Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) in [!UICONTROL Experience Platform Launch] zu aktivieren.
 
@@ -175,7 +175,7 @@ Navigieren Sie nach der erfolgreichen Einrichtung zu [Admin Console](https://adm
 
 ### Kundenattribute
 
-Benutzer, die der Gruppe [!UICONTROL Kundenattribute] hinzugefügt wurden, sehen auf der linken Seite [!UICONTROL  Experience Cloud ] Menüelement „Kundenattribute“.
+Benutzer, die der Gruppe [!UICONTROL Kundenattribute] hinzugefügt wurden, sehen auf der linken Seite [!UICONTROL &#x200B; Experience Cloud &#x200B;] Menüelement „Kundenattribute“.
 
 ## Freigabe von Attributen und Zielgruppendaten beginnen {#section_960C06093623462E8EA247B3E97274A1}
 
