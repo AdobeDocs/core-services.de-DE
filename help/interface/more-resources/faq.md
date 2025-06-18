@@ -99,7 +99,7 @@ Bereitstellung in Experience Cloud bedeutet:
 
 * Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
 
-* **Wichtig:** Analytics-Admins finden unter [Verwalten von Analytics-Benutzenden in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
+* **Wichtig:** Analytics-Admins finden unter [Verwalten von Analytics-Benutzenden in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=de) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
 
 +++
 
@@ -107,7 +107,7 @@ Bereitstellung in Experience Cloud bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General&lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 +++
 
