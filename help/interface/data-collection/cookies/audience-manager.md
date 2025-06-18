@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ Audience Manager vertraut bei der Ausführung verschiedener Funktionen auf ein e
    <td colname="col2"> <p>Das <span class="wintitle">demdex</span>-Cookie umfasst eine eindeutige Benutzer-ID (UUID), wie im unten stehenden Beispiel zu sehen ist: </p> <p> <span class="codeph"> 06151304227769720433039235178204449977 </span> </p> <p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=de" format="https" scope="external">Index of IDs in Audience Manager</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Weitere Attribute</b> </p> </td> 
+   <td colname="col1"> <p> <b>Andere Attribute</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">Lebensdauer: Das <span class="wintitle">demdex</span>-Cookie verfügt über eine Gültigkeitsdauer (TTL-Intervall) von 180 Tagen. Der TTL-Wert wird bei jeder Benutzerinteraktion mit einer Partner-Website auf 180 Tage zurückgesetzt. Das Cookie läuft ab, wenn ein Benutzer nicht innerhalb des TTL-Intervalls zu Ihrer Site zurückkehrt. </li> 
@@ -72,7 +72,7 @@ Audience Manager vertraut bei der Ausführung verschiedener Funktionen auf ein e
      </ul> </p> <p>Siehe auch den Abschnitt unten zur Syntax von dextp-Daten. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Weitere Attribute</b> </p> </td> 
+   <td colname="col1"> <p> <b>Andere Attribute</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Lebensdauer: Das <span class="wintitle">dextp</span>-Cookie verfügt über eine Gültigkeitsdauer (TTL-Intervall) von 180 Tagen. </li> 
@@ -129,7 +129,7 @@ In der folgenden Tabelle werden die in einem `dextp`-Cookie enthaltenen Elemente
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Zweck</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=de" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
@@ -140,7 +140,7 @@ In der folgenden Tabelle werden die in einem `dextp`-Cookie enthaltenen Elemente
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>Weitere Attribute</b> </p> </td> 
+   <td colname="col1"> <p> <b>Andere Attribute</b> </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Lebensdauer: Das <span class="wintitle">dst</span>-Cookie verfügt über eine Gültigkeitsdauer (TTL-Intervall) von 180 Tagen. </li> 

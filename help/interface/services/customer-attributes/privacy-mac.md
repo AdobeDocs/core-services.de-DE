@@ -1,21 +1,20 @@
 ---
 description: Erfahren Sie mehr über Überlegungen und Best Practices hinsichtlich persönlich identifizierbarer Informationen (PII), die in Experience Cloud hochgeladen und verwendet werden.
 solution: Experience Cloud
-title: Überlegungen zum Datenschutz bei Kundenattributen
-uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
+title: Datenschutzüberlegungen für Kundenattribute
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# Überlegungen zum Datenschutz für [!DNL Customer Attributes]
+# Überlegungen zum Datenschutz für [!DNL customer attributes]
 
 Überlegungen und Best Practices hinsichtlich persönlich identifizierbarer Informationen (PII), die in die Adobe Experience Cloud hochgeladen und darüber ausgetauscht werden.
 

@@ -1,52 +1,35 @@
 ---
-description: Erfahren Sie mehr über Datendateianforderungen und mehrere Datenquellen für das Hochladen  [!DNL Customer Attributes]  Experience Cloud.
+description: Erfahren Sie mehr über Datendateianforderungen und mehrere Datenquellen für das Hochladen  [!DNL customer attributes]  Experience Cloud.
 solution: Experience Cloud
 title: Datendatei und Datenquellen
-uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 89%
+source-wordcount: '1154'
+ht-degree: 64%
 
 ---
 
-# Informationen zur Datendatei und den Datenquellen für [!DNL Customer Attributes]
+# Informationen zur Datendatei und den Datenquellen für [!DNL customer attributes]
 
-Datendateivoraussetzungen und mehrere Datenquellen für das Hochladen von [!DNL Customer Attributes] auf Experience Cloud.
+Datendateianforderungen und mehrere Datenquellen für das Hochladen von [!DNL customer attributes] in Experience Cloud.
 
-Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen. Die Daten, die Sie auf die Experience Cloud hochladen, müssen eine `.csv`-Datei sein. Wenn das Upload über FTP oder sFTP erfolgt, wird auch eine `.fin`-Datei hochgeladen.
+Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen. Die Daten, die Sie in Experience Cloud hochladen, müssen eine `.csv` sein. Wenn das Upload über FTP oder sFTP erfolgt, wird auch eine `.fin`-Datei hochgeladen.
 
-[!DNL Customer Attributes] ist für die Verarbeitung einiger Dateien pro Tag konzipiert. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
+[!DNL customer attributes] ist für die Verarbeitung einiger Dateien pro Tag konzipiert. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
 
 ## Zulässige Dateitypen und Namensanforderungen {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
-<table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Dateityp </th> 
-   <th colname="col2" class="entry"> Beschreibung </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath">.csv </span> </p> </td> 
-   <td colname="col2"> <p>Eine Datei mit kommagetrennten Werten (z. B. eine in Excel erstellte Datei). Diese Datei enthält die Kundenattributdaten. </p> <p> <b>Namensanforderungen:</b> Stellen Sie sicher, dass Dateinamenerweiterungen keine Leerzeichen enthalten. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath">.fin </span> </p> </td> 
-   <td colname="col2"> <p>(Erforderlich) Die <span class="filepath">.fin</span>-Datei teilt dem System mit, dass das Upload der Daten abgeschlossen ist. <span class="filepath">.fin</span>- und <span class="filepath">.csv</span>-Datei müssen den gleichen Namen haben. </p> <p>Adobe empfiehlt die Erstellung einer leeren Textdatei mit der Erweiterung <span class="filepath">.fin</span>. Eine leere Datei spart Speicherplatz und Übertragungszeit. </p> <p> <p>Hinweis: Nach dem Upload darf die <span class="filepath">.fin</span>-Datei nicht mehr umbenannt werden. Die <span class="filepath">.fin</span>-Datei muss gesondert hochgeladen werden, und es darf sich nicht um eine schon einmal hochgeladene Datei handeln, die einfach umbenannt wurde. </p> </p> <p>Nach dem Hochladen der <span class="filepath">.fin</span>-Datei auf die FTP-Site mit den Kundenattributen ruft das System die Daten unverzüglich ab (innerhalb einer Minute). Dies unterscheidet sich von anderen FTP-Systemen von Adobe, die die Daten weniger häufig sammeln (etwa einmal pro Stunde). </p> <p>Beim Upload mittels Drag &amp; Drop ist keine <span class="filepath">.fin</span>-Datei erforderlich. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> .gz</span> oder <span class="filepath">.zip </span> </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> .gz</span> (gzip) oder <span class="filepath">.zip</span> – bei komprimierten Dateien. Eine <span class="filepath">.zip</span>-Datei darf nur eine Datei enthalten. </p> <p> <b>Namensanforderungen:</b> Die <span class="filepath">.zip</span>- bzw. <span class="filepath">.gz</span>-Datei und die <span class="filepath">.csv</span>-Datei sollten den gleichen Namen haben. Beispiel: Wenn der Name der <span class="filepath">.csv</span>-Datei <span class="filepath">crm_klein.csv</span> lautet, sollte der Name der <span class="filepath">.zip</span>-Datei <span class="filepath">crm_klein.csv.zip</span> lauten. </p> <p>Der Name der .fin-Datei muss mit dem Namen der .csv-Datei übereinstimmen. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Dateityp | Beschreibung |
+|--- |--- |
+| `.csv` | Eine Datei mit kommagetrennten Werten (z. B. eine in Excel erstellte Datei). Diese Datei enthält die Kundenattributdaten.   Benennungsanforderungen: Stellen Sie sicher, dass Dateinamenerweiterungen keine Leerzeichen enthalten. |
+| `.fin` | (Erforderlich) Die `.fin` teilt dem System mit, dass das Hochladen der Daten abgeschlossen ist. Der Name der `.fin` muss mit dem Namen der `.csv` übereinstimmen.  Adobe empfiehlt, eine leere Textdatei mit einer `.fin` zu erstellen. Eine leere Datei spart Speicherplatz und Upload-Zeit. **Hinweis:** Umbenennen einer `.fin`-Datei ist nach dem Hochladen nicht zulässig. Die `.fin` muss separat hochgeladen werden und kann keine umbenannte, zuvor hochgeladene Datei sein. Nach dem Hochladen der `.fin` in der Kundenattribut-FTP ruft das System die Daten schnell ab (innerhalb einer Minute). Dies unterscheidet sich von anderen FTP-basierten Adobe-Systemen, die weniger häufig (etwa einmal pro Stunde) Daten erfassen. Die `.fin`-Datei ist bei Verwendung der Drag-and-Drop-Upload-Methode nicht erforderlich. |
+| `.gz` oder `.zip` | `.gz` (gzip) oder `.zip` - für komprimierte Dateien. Eine `.zip` Datei darf nicht mehr als eine Datei im Archiv enthalten. Benennungsanforderungen: Der Name des `.zip` oder der `.gz` sollte mit dem Namen der `.csv` übereinstimmen. Wenn Ihre `.csv`-Datei beispielsweise `crm_small.csv` ist, sollte die `.zip`-Datei `crm_small.csv.zip` sein. Die `.fin` muss mit der `.csv` übereinstimmen. |
+
 
 ## Voraussetzungen für Attributdatendateien {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
@@ -75,15 +58,15 @@ Anzeige derselben Datei in einem Texteditor:
    <td colname="col2"> <p>Die Drag &amp; Drop-Datei sollte kleiner als 100 Megabyte sein. </p> <p>Beim Upload mittels Drag &amp; Drop ist keine <span class="filepath">.fin</span>-Datei erforderlich. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Spalte mit Kunden-ID </p> </td> 
-   <td colname="col2"> <p> Die erste Spalte muss eine Unique-Customer-ID sein. Die verwendete ID muss der ID entsprechen, die an den Experience Cloud ID-Dienst übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Legen Sie für Target den Wert „setCustomerID“ fest. </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie legen fest, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen. Sie sind jedoch nicht erforderlich. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Informationen zu Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph">setCustomerIDs</span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die auf die Experience Cloud hochgeladen wird. Eine <a href="t-crs-usecase.md" format="dita" scope="local">Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen zu <span class="codeph">setCustomerIDs</span> finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de" format="https" scope="external">Kunden-IDs und Authentifizierungszustände</a>. </p> </td> 
+   <td colname="col1"> <p>Spalte für Kunden-ID </p> </td> 
+   <td colname="col2"> <p> Die erste Spalte muss eine Unique-Customer-ID sein. Die verwendete ID muss der ID entsprechen, die an den Experience Cloud ID-Dienst übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Legen Sie für Target den Wert customerID fest. </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie legen fest, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen. Sie sind jedoch nicht erforderlich. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Über Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph"> setCustomerIDs </span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in Experience Cloud hochgeladen wird. Eine <a href="t-crs-usecase.md" format="dita" scope="local">Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen <span class="codeph"> setCustomerIDs </span> finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> von Kunden-IDs und Authentifizierungsstatus </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nachfolgende Überschriften und Spalten </p> </td> 
    <td colname="col2"> <p>Die nachfolgenden Überschriften sollten den Namen der einzelnen Attribute widerspiegeln. </p> <p> Diese Spalten sollten Kundenattribute enthalten, die aus dem CRM-System stammen. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Attributbeschränkungen </p> </td> 
+   <td colname="col1"> <p>Attributbegrenzungen </p> </td> 
    <td colname="col2"> <p>Sie können Hunderte von <span class="filepath"> CSV-</span> in den Kundenattributservice in Experience Cloud hochladen. Bei der Konfiguration von Abonnements und der Auswahl von Attributen gelten jedoch je nachdem, welche Programme Sie besitzen, die folgenden Einschränkungen: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analytics Standard</b>: 3 insgesamt </li> 
@@ -132,12 +115,12 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datenfeeds </p> </td> 
-   <td colname="col2"> <p>Kundenattribute sind in Datenfeeds nicht verfügbar. </p> </td> 
+   <td colname="col2"> <p>Kundenattribute sind in Daten-Feeds nicht verfügbar. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Verwenden verschiedener Datenquellen {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
+## Verwenden verschiedener Datenquellen {#multiple}
 
 Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es ca. eine Stunde, bis die IDs mit der neuen Datenquelle synchronisiert werden.
 
@@ -148,14 +131,14 @@ Die Alias-ID für jede Kundenattributquelle muss eindeutig sein. Wenn Sie über 
 Legen Sie zwei Kunden-IDs fest, die mit den entsprechenden Datenquellen übereinstimmen:
 
 ```
-Visitor.setCustomerIDs({ 
+Visitor.setcustomerIDs({ 
      "ds_id1":"123456", 
      "ds_id2":"123456" 
 });
 ```
 
-(Weitere Informationen finden Sie unter [Kunden-IDs und Authentifizierungszustände](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de)).
+(Weitere [ finden Sie unter „Kunden](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)IDs und Authentifizierungszustände“.)
 
-In der **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personen]** > **[!UICONTROL Kundenattribute]**:
+In der **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundenattribute]**:
 
 Erstellen Sie zwei Kundenattributquellen mit eindeutigen Alias-IDs, die den Kunden-IDs oben entsprechen. Mithilfe dieser Methode kann dieselbe Referenz-ID an mehrere Kundenattributquellen gesendet werden.

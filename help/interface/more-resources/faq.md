@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 67%
+source-wordcount: '697'
+ht-degree: 65%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 67%
 
 Erfahren Sie mehr über Browser-Unterstützung und häufig gestellte Fragen und Antworten für Admins in Experience Cloud.
 
-+++Welche Browser werden im Experience Cloud unterstützt?
++++Welche Browser werden in Experience Cloud unterstützt?
 
 Adobe unterstützt die aktuelle und die beiden vorherigen Versionen der folgenden Browser:
 
@@ -56,13 +56,13 @@ Obwohl sich Anwendungsteams zur globalen Sprachunterstützung verpflichten, werd
 
 +++
 
-+++Verrechnet Adobe meinem Unternehmen den Zugriff auf Adobe Experience Cloud?
++++Erstellt Adobe meinem Unternehmen Gebühren für den Zugriff auf Adobe Experience Cloud?
 
 Nein. Das Adobe Experience Cloud ist ohne Aufpreis im Preis inbegriffen. Bestimmte zentrale Dienste könnten jedoch zusätzliche Kosten verursachen.
 
 +++
 
-+++Warum muss sich mein Unternehmen über die Experience Cloud-Oberfläche anmelden?
++++Warum muss sich mein Unternehmen über die Experience Cloud-Benutzeroberfläche anmelden?
 
 Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies wird künftig auch der Standardpfad für den Zugriff auf Programme sein und letztlich andere individuelle Programmanmeldevorgänge ersetzen. Das Anmelden über Experience Cloud erleichtert später eine reibungslosere Transition.
 
@@ -81,7 +81,7 @@ Die Adobe-Kundenunterstützung kann eine Identitätsanfrage senden, für die Sie
 Bereitstellung in Experience Cloud bedeutet:
 
 * Ihre Benutzer können mit der Anmeldung bei der Experience Cloud und der Verknüpfung von Programmen beginnen.
-* Sie können mit der Verwendung der in Experience Cloud verfügbaren Funktionen beginnen, z. B. „Personen“.
+* Sie können mit der Nutzung der Funktionen beginnen, die über Experience Cloud verfügbar sind.
 * Sie können sich darauf vorbereiten, Ihren programmspezifischen Anmeldeprozess aufzugeben.
 * Sie können die Zugangssteuerung für Programme beibehalten.
 
@@ -99,15 +99,15 @@ Bereitstellung in Experience Cloud bedeutet:
 
 * Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
 
-* **Wichtig:** Analytics-Admins finden unter [Verwalten von Analytics-Benutzenden in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=de) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
+* **Wichtig:** Analytics-Admins finden unter [Verwalten von Analytics-Benutzenden in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
 
 +++
 
-+++Was kann ich tun, wenn sich jemand nicht beim Experience Cloud anmelden kann?
++++Was kann ich tun, wenn sich jemand nicht bei Experience Cloud anmelden kann?
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/de?support-solution=General&amp;lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General&lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 +++
 

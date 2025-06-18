@@ -1,33 +1,33 @@
 ---
-description: Erfahren Sie, wie Sie Kundenattributdaten per FTP auf Experience Cloud hochladen.
+description: Erfahren Sie, wie Sie Kundenattributdaten über FTP in Experience Cloud hochladen.
 solution: Experience Cloud
-title: Hochladen der Datendatei für Kundenattribute über FTP
+title: Hochladen der Datendatei des Kundenattributs über FTP
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 76%
+ht-degree: 71%
 
 ---
 
 # Optional – Hochladen der Datendatei via FTP
 
-Wenn Sie die Kundenattributdaten nicht per Drag-and-Drop auf Experience Cloud hochladen, können Sie sie auch via FTP hochladen.
+Wenn Sie die Kundenattributdaten nicht per Drag-and-Drop in Experience Cloud hochladen, können Sie sie auch via FTP hochladen.
 
-Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein FTP-Konto in Experience Cloud erstellt haben. Pro Attributquelle erstellen Sie ein FTP-Konto. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im `.csv`-Format übertragen werden, wobei eine zweite `.fin`-Datei angibt, dass das Hochladen abgeschlossen ist.
+Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein FTP-Konto in Experience Cloud erstellt haben. Pro Attributquelle erstellen Sie ein FTP-Konto. Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die Daten müssen im `.csv`-Format übertragen werden, wobei eine zweite `.fin`-Datei am Ende angibt, dass das Hochladen abgeschlossen ist.
 
 >[!IMPORTANT]
 >
 >Lesen Sie [Datendateivoraussetzungen für das Hochladen von Kundenattributen](crs-data-file.md), bevor Sie die Datei hochladen.
 
-Datei-Uploads auf die FTP-Site für Kundenattribute können über FTP oder SFTP erfolgen:
+Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP durchgeführt werden:
 
 * Sie benötigen einen Client, der SFTP-Verbindungen unterstützt.
-* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=de) beschrieben.
+* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) beschrieben.
 
 **So laden Sie die Datendatei via FTP hoch**
 
