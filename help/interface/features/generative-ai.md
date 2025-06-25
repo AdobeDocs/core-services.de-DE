@@ -34,7 +34,7 @@ Generative KI ist ein Typ von KI, mit dem Originalinhalte erstellt werden könne
 
 [!UICONTROL AI Assistant] ist ein Dialogtool, das in Experience Platform und verwandten Programmen unterstützt wird. Nutzen Sie diese Lösung, um schnell _Produktwissen_ und _operative Erkenntnisse_ in unterstützten Produkten zu erhalten.
 
-* **Produktkenntnisse:** Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Dokumentation zu Experience League basieren. Erfahren Sie, wie Sie effektive, [objektbasierte Eingabeaufforderungen“ erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) um [!UICONTROL KI-Assistenten“ optimal ]. Alle Antworten von Experience League sind überprüfbar und mit Links versehen.
+* **Produktkenntnisse:** Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Dokumentation zu Experience League basieren. Erfahren Sie, wie Sie effektive, [objektbasierte Eingabeaufforderungen“ erstellen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) um [!UICONTROL KI-Assistenten“ optimal &#x200B;]. Alle Antworten von Experience League sind überprüfbar und mit Links versehen.
 
 * **Operative Insights:** [Operative Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] können Sie in Sekunden erreichen, was ansonsten Stunden oder Tage dauern könnte.
 
