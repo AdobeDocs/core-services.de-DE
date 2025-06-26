@@ -1,22 +1,22 @@
 ---
 title: Komponenten und Services der Benutzeroberfläche von Experience Cloud
-description: Erfahren Sie mehr über Benutzeroberflächenkomponenten, Benutzer- und Produktverwaltung in der Adobe Admin Console, Zielgruppenbibliothek, Kundenattribute, Experience Cloud Assets und mehr.
+description: Erfahren Sie mehr über Benutzeroberflächenkomponenten sowie die Benutzer- und Produktverwaltung in Adobe Admin Console, Zielgruppenbibliothek, Kundenattribute, Experience Cloud-Assets und mehr.
 cloud: Experience Cloud
 product: experience cloud
 solution: Experience Cloud Services
 feature-set: Experience Cloud Services,Experience Cloud
 solution-title: Experience Platform
-solution-hub-url: https://helpx.adobe.com/de/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Getting Started
-getting-started-url: https://helpx.adobe.com/de/experience-cloud-core-services/get-started.html
+getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.de-DE
 source-git-commit: 361175f290d73f1637673420700874a2415e3fca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 

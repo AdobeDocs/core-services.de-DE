@@ -3,12 +3,12 @@ role: User,Admin
 user-guide-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
-description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Produkte verwalten und den Personen -Service konfigurieren, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
+description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
 source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 89%
       + [Schema aktualisieren](services/customer-attributes/t-update-schema.md)
       + [Unterstützung der Datenschutz-Grundverordnung](services/customer-attributes/gdpr.md)
       + [Unterstützung des California Consumer Privacy Act](services/customer-attributes/ccpa.md)
-      + [Überlegungen zum Datenschutz für Kundenattribute](services/customer-attributes/privacy-mac.md)
+      + [Überlegungen zum Datenschutz bei Kundenattributen](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
 
 + Funktionen {#features}
