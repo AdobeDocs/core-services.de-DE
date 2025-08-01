@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 6caf1edc5cead3e937f919ac2bb6c829a758d8fd
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 70%
+source-wordcount: '614'
+ht-degree: 69%
 
 ---
 
 # Dokumentationsaktualisierungen für Experience Cloud
 
 Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Verwaltung von Experience Cloud stattfinden.
+
+**August 2025**
+
+Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; ](../features/account-preferences.md).
 
 **Februar 2025**
 
@@ -89,7 +93,7 @@ Die Struktur des Handbuchs und das Inhaltsverzeichnis wurden neu strukturiert.
 
 **19. Mai 2020**
 
-Veraltete Dokumentation zur Angebotverwaltung.
+Veraltete Dokumentation zur Angebotsverwaltung.
 
 **15. Mai 2020**
 
