@@ -1,23 +1,23 @@
 ---
-description: Hier erfahren Sie, wie Sie in Adobe Experience Cloud mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe definieren.
+title: Erstellen einer Zielgruppe in der Zielgruppenbibliothek
+description: Erfahren Sie, wie Sie in der Zielgruppenbibliothek mithilfe von Attributregeln eine freigebbare Zielgruppe erstellen. Erfahren Sie, wie Sie eine Regel konfigurieren und eine gemischte Zielgruppe definieren.
 solution: Experience Cloud
-title: Erstellen einer Zielgruppe
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 92%
+source-wordcount: '534'
+ht-degree: 66%
 
 ---
 
 # Erstellen einer Zielgruppe
 
-Hier erfahren Sie, wie Sie in Experience Cloud mit Attributregeln eine Zielgruppe erstellen und eine gemischte Zielgruppe definieren.
+In [!UICONTROL Zielgruppenbibliothek] können Sie Attributregeln verwenden, um eine Zielgruppe zu erstellen und eine gemischte Zielgruppe für die Freigabe in Experience Cloud-Programmen zu definieren.
 
 In diesem Artikel lernen Sie Folgendes:
 
@@ -29,7 +29,7 @@ Die folgende Grafik stellt zwei Regeln in einer gemischten Zielgruppe dar.
 
 ![Zwei Regeln in einer gemischten Zielgruppe](assets/audience_sharing.png)
 
-Jeder Kreis steht für eine Regel, die die Mitgliedschaft in einer Zielgruppe definiert. Besucher, die sich in beiden Zielgruppenregeln qualifizieren, überschneiden sich und werden so zur gemischten, definierten Zielgruppe.
+Jeder Kreis steht für eine Regel, die die Zugehörigkeit zu einer Zielgruppe definiert. Besucher, die sich in beiden Zielgruppenregeln qualifizieren, überschneiden sich und werden so zur gemischten, definierten Zielgruppe.
 
 >[!NOTE]
 >
@@ -38,27 +38,28 @@ Jeder Kreis steht für eine Regel, die die Mitgliedschaft in einer Zielgruppe de
 Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erstellt werden. Diese Zielgruppe umfasst Folgendes:
 
 * Abschnitt „Home &amp; Garden“, der von Seitendaten oder Analyse-Rohdaten abgeleitet wurde.
-* Chrome- und Safari-Benutzer, die einem [!DNL Adobe Analytics]-Segment entnommen wurden, das in der [!DNL Experience Cloud] [veröffentlicht](overview.md) wurde.
+* Chrome- und Safari-Benutzer, die von einem [!DNL Adobe Analytics] Segment abgeleitet [veröffentlicht](overview.md) in [!DNL Experience Cloud].
 
   ![Erstellen der Regeln für eine gemischte Zielgruppe](assets/audience_create.png)
 
 **Erstellen einer Zielgruppe**
 
-1. Klicken Sie in der [!DNL Experience Cloud] unter [!DNL Experience Platform] auf **[!UICONTROL Personen]** > **[!UICONTROL Zielgruppenbibliothek].**
-1. Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Zielgruppen **[!UICONTROL auf „Neu]**. ![Hinzufügen](assets/add_icon_small.png)
+1. Klicken Sie auf [!DNL Experience Cloud] Apps ![Apps-Symbol](assets/apps-icon.png) und dann auf **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-   ![Schritt Ergebnis](assets/audience_create_new.png)
+1. Klicken Sie auf [!UICONTROL  Seite ]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
 
-1. Geben Sie auf der Seite [!UICONTROL Neue Zielgruppe erstellen] einen Titel und eine Beschreibung an.
-1. Wählen Sie unter [!UICONTROL Regeln] eine Attributquelle aus:
+   ![Erstellen einer Zielgruppe](assets/audience_create_new.png)
 
-   * **[!UICONTROL Daten von Real-Time Analytics:]** Hierbei handelt es sich um Attributdaten, die aus Bildanfragen in Real-Time Analytics gewonnen werden und Daten wie eVars und Ereignisse enthalten. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
+1. Füllen Sie auf [!UICONTROL  Seite „Neue Zielgruppe ]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
+1. Wählen [!UICONTROL  unter ] eine Referenz-Report Suite und dann eine Attributquelle aus:
+
+   * **[!UICONTROL Real-Time Analytics-Daten:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
 
    >[!NOTE]
    >
    >Aufgrund des Caching benötigen gelöschte Report Suites in Analytics 12 Stunden, bevor die Löschung in Experience Cloud angezeigt wird.
 
-   * **[!UICONTROL Experience Cloud:]** Attributdaten, die aus den [!DNL Experience Cloud] Quellen abgeleitet werden. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
+   * **[!UICONTROL Experience Cloud:]** Attributdaten werden aus [!DNL Experience Cloud] Quellen abgeleitet. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 
 1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Speichern].**
 
@@ -94,4 +95,4 @@ Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-B
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nach dem Speichern der Zielgruppe ist sie für andere Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität aufnehmen.
+Nachdem die Zielgruppe gespeichert wurde, ist sie für andere Experience Cloud-Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities).

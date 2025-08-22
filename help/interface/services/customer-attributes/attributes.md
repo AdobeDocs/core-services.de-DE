@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '434'
 ht-degree: 78%
 
 ---
@@ -20,7 +20,7 @@ Mit [!DNL Customer attributes] in Experience Cloud können Sie Ihre erfassten Un
 
 ## Suchen Sie die Funktion [!DNL customer attributes]
 
-1. Melden Sie sich bei [!DNL Experience Cloud] an und klicken Sie auf das Symbol ![Menü](assets/menu-icon.png) .
+1. Melden Sie sich bei [!DNL Experience Cloud] an und wählen Sie das Symbol ![Menü](assets/menu-icon.png) aus.
 
 1. Wählen Sie **[!UICONTROL Kundenattribute]** aus.
 
@@ -36,11 +36,11 @@ Mit [!DNL Customer attributes] in Experience Cloud können Sie Ihre erfassten Un
 
 * **Adobe Target** `at.js` (beliebige Version) oder `mbox.js` Version 58 oder höher ist für Kundenattribute erforderlich.
 
-  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=de).
+  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Was sind Enterprise-Kundendaten? {#enterprise_data}
 
-Enterprise-Daten befinden sich in anderen Systemen. Sie können komplex sein und verschiedene Bedeutungen für verschiedene Personen haben. Diese Daten können Informationen wie Mitgliedschaften, Treueebene, Alter, Geschlecht, eigene Produkte, Interessen und Lebenszeitwert beinhalten.
+Enterprise-Daten befinden sich in anderen Systemen. Sie können komplex sein und verschiedene Bedeutungen für verschiedene Personen haben. Diese Daten können Informationen wie Zugehörigkeiten, Treueebene, Alter, Geschlecht, eigene Produkte, Interessen und Lebenszeitwert beinhalten.
 
 Das folgende Bild ist ein Beispiel für eine Datendatei mit Abonnentendaten zu Produkten, einschließlich Mitglieds-IDs, Produkten mit Berechtigung, den am häufigsten gestarteten Produkten usw.
 

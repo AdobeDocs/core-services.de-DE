@@ -9,23 +9,23 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: b257260bdbb7870dd6da807bceddfcddd2aef779
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 90%
+source-wordcount: '697'
+ht-degree: 81%
 
 ---
 
 # Experience Cloud-Zielgruppen {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Die [!DNL Audience Library] zeigt Zielgruppen in Experience Cloud an. Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von [!DNL Experience Cloud]-IDs). Sie können die Umsetzung von Besucherdaten in Zielgruppensegmentierung verwalten. Das Erstellen und Verwalten von Zielgruppen ist daher ähnlich wie das Erstellen und Verwenden von Segmenten. Sie können in [!DNL Experience Cloud] das Zielgruppensegment auch für Produkte und Services freigeben.
+[!DNL Audience Library] zeigt Zielgruppen in Experience Cloud an. Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von [!DNL Experience Cloud]-IDs). Sie können die Umsetzung von Besucherdaten in Zielgruppensegmentierung verwalten. Auf diese Weise erfolgt das Erstellen und Verwalten von Zielgruppen so ähnlich wie das Erstellen und Verwalten von Segmenten. Sie können in [!DNL Experience Cloud] das Zielgruppensegment auch für Produkte und Services freigeben.
 
 ![Experience Cloud-Zielgruppen](assets/audiences.png)
 
 Zielgruppen können aus verschiedenen Quellen erstellt bzw. abgeleitet werden:
 
-* In der [!DNL Experience Cloud] neu erstellt
-* [!DNL Analytics]-Segmente, die in [!DNL Experience Cloud] veröffentlicht werden
+* Neue in [!DNL Experience Cloud] erstellte
+* In [!DNL Analytics] veröffentlichte Segmente [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
 **Echtzeit- versus historische Zielgruppen**
@@ -41,8 +41,8 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Programmen 
 
 | Lösung | Beschreibung |
 |--- |--- |
-| Experience Cloud-Zielgruppen | Zielgruppen nativ mit der Zielgruppenbibliothek erstellen, verwalten und freigeben. Sie haben folgende Möglichkeiten:<ul><li>Verwenden von Echtzeit-Zielgruppen mithilfe von Attributen für Rohanalysen</li><li>Kombinieren von Zielgruppen zur Erstellung von Composite-Daten, indem Sie Echtzeit- und historische Daten kombinieren</li><li>Siehe Grafische Ansichten der geschätzten Zielgruppengröße</li></ul><br>Vorschläge zum Typ der Zielgruppe, die Sie erstellen möchten, finden Sie unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=de). |
-| Analytics | Bei der Segmentierung können Sie ein Segment erstellen, es mit einer Report Suite verknüpfen und dann das Segment in Experience Cloud veröffentlichen. Beim Veröffentlichen des Segments wird es auf der Seite [!DNL Audience Library] in Experience Cloud angezeigt. (Weitere Informationen finden Sie unter [Publish](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de)Segmente zum Experience Cloud[!DNL Analytics] in der Hilfe.) Die Zielgruppe ist auch als Zielgruppe für ein Kampagnenerlebnis verfügbar, das von [!DNL Adobe Target] und in [!DNL Audience Manager] bereitgestellt wird. Nachdem Sie eine Zielgruppe aus [!DNL Adobe Analytics] freigegeben und zur Verwendung in einer aktiven Kampagne ausgewählt haben, werden die Besucherprofile, die in den letzten 90 Tagen den Segmentdefinitionskriterien entsprachen, an [!UICONTROL Zielgruppendienste] gesendet. Die Beschränkung für gemeinsam verwendete Zielgruppen wurde auf 75 erhöht. Zielgruppen, die von Experience Cloud und [!DNL Analytics] gemeinsam verwendet werden, dürfen nicht mehr als 20 Millionen eindeutige Mitglieder umfassen. Aufgrund der Caching-Funktion wird zudem die Löschung von Report Suites in Analytics erst nach 12 Stunden durch Experience Cloud übernommen. |
+| Experience Cloud-Zielgruppen | Zielgruppen nativ mit der Zielgruppenbibliothek erstellen, verwalten und freigeben. Sie haben folgende Möglichkeiten:<ul><li>Verwenden Sie Echtzeit-Zielgruppen unter Verwendung von Raw-Analytics-Attributen.</li><li>Kombinieren Sie Zielgruppen, um zusammengesetzte zu erstellen, und verbinden Sie Echtzeit- und historische Daten.</li><li>Siehe grafische Ansichten der geschätzten Zielgruppengröße.</li></ul><br>Vorschläge zum Typ der Zielgruppe, die Sie erstellen möchten, finden Sie unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=de). |
+| Analytics | Bei der Segmentierung können Sie ein Segment erstellen, es mit einer Report Suite verknüpfen und dann das Segment in Experience Cloud veröffentlichen. Beim Veröffentlichen des Segments wird es auf der Seite [!DNL Audience Library] in Experience Cloud angezeigt. (Weitere [ finden Sie unter „Veröffentlichen von Segmenten ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de) Experience Cloud&quot; in [!DNL Analytics] Hilfe.) Die Zielgruppe ist auch als Zielgruppe für ein Kampagnenerlebnis verfügbar, das von [!DNL Adobe Target] und in [!DNL Audience Manager] bereitgestellt wird. Nachdem Sie eine Zielgruppe aus [!DNL Adobe Analytics] freigegeben und zur Verwendung in einer aktiven Kampagne ausgewählt haben, werden die Besucherprofile, die in den letzten 90 Tagen den Segmentdefinitionskriterien entsprachen, an [!UICONTROL Zielgruppendienste] gesendet. Die Beschränkung für gemeinsam verwendete Zielgruppen wurde auf 75 erhöht. Zielgruppen, die von Experience Cloud und [!DNL Analytics] gemeinsam verwendet werden, dürfen nicht mehr als 20 Millionen eindeutige Mitglieder umfassen. Aufgrund der Caching-Funktion wird zudem die Löschung von Report Suites in Analytics erst nach 12 Stunden durch Experience Cloud übernommen. |
 | Mobile Services | Analysieren Sie den mobilen Traffic mithilfe der Sunburst-Visualisierung im Bericht „[!UICONTROL Gerätetypen]“. |
 | [!DNL Target] | Mit dem [ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) werden Besucher-IDs und Daten zu einem einsatzfähigen Profil zusammenfasst, welches dann programmübergreifend verwendet werden kann. Wenn das Kontrollkästchen [!UICONTROL In Experience Cloud veröffentlichen] während der Segmenterstellung in Adobe Analytics aktiviert wird, ist das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar. Ein in [!DNL Analytics] oder [!DNL Audience Manager] erstelltes Segment kann für Aktivitäten in [!DNL Target] verwendet werden. Sie können zum Beispiel Kampagnenaktivitäten basierend auf [!DNL Analytics]-Konversionsmetriken und in [!DNL Analytics] erstellten Zielgruppensegmenten erstellen. |
 | [!DNL Audience Manager] | Gemeinsam verwendete Zielgruppen sind in der Segmentierung von [!DNL Audience Manager] verfügbar. Alle Experience Cloud-Zielgruppen stehen systemintern in [!DNL Audience Manager] zur Verfügung. Dieser bietet Folgendes:<ul><li>Integrierte Automatisierung hinsichtlich der Freigabe und Verwendung in Programm-Workflows</li><li>Offsite-Ziele</li><li>Look-Alike-Modellierung</li></ul> |
@@ -57,7 +57,7 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Programmen 
 
 ## Schnittstellenelemente der Zielgruppenbibliothek {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
-[!DNL Experience Cloud] verfügt über eine Bibliothek für die Erstellung und Verwaltung von Zielgruppen mit einer systemeigenen Zielgruppenidentifizierung in Echtzeit.
+[!DNL Experience Cloud] bietet eine Bibliothek für die Erstellung und Verwaltung von Zielgruppen mit einer systemeigenen Zielgruppenidentifizierung in Echtzeit.
 
 **[!UICONTROL Experience Cloud]** > **[!UICONTROL Experience Platform]** > **[!UICONTROL Personen]** > **[!UICONTROL Zielgruppenbibliothek]**
 
@@ -69,12 +69,12 @@ Die folgende Tabelle beschreibt, wie Zielgruppen in Experience Cloud-Programmen 
 | Neu | [Erstellen einer Zielgruppe](create.md). |
 | Titel und Beschreibung | Eine Spaltenüberschrift, die die Zielgruppe identifiziert und beschreibt. |
 | Autor | Die Person, die das Zielgruppensegment erstellt hat. |
-| Quelle | Gibt an, wo die Zielgruppe erstellt wurde.<ul><li>**Analytics:** Ein Segment, das in Adobe Analytics erstellt und dann auf Experience Cloud veröffentlicht wurde.</li><li>**Experience Cloud:** Eine neue Zielgruppe, [die in Experience Cloud-Zielgruppen erstellt wurde](create.md).</li><li>**Audience Manager:** In Audience Manager erstellte Zielgruppen werden automatisch in Experience Cloud-Zielgruppen angezeigt.</li></ul> |
+| Quelle | Gibt an, wo die Zielgruppe erstellt wurde.<ul><li>**Analytics:** Ein Segment, das in Adobe Analytics erstellt und dann in Experience Cloud veröffentlicht wurde.</li><li>**Experience Cloud:** Eine neue Zielgruppe, [die in Experience Cloud-Zielgruppen erstellt wurde](create.md).</li><li>**Audience Manager:** In Audience Manager erstellte Zielgruppen werden automatisch in Experience Cloud-Zielgruppen angezeigt.</li></ul> |
 | Aktuelle Größe | Die aktuelle Zielgruppengröße. |
 | Aktiv | Der aktive Status des Segments. |
 
 {style="table-layout:auto"}
 
-## Publish-Zielgruppen aus Adobe Analytics
+## Veröffentlichen von Zielgruppen aus Adobe Analytics
 
-Weitere Informationen finden Sie unter [Publish](https://experienceleague.adobe.com/de/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)Segmente zum Experience Cloud in der Adobe Analytics-Dokumentation.
+Weitere Informationen [ Sie in der Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)Dokumentation unter „Veröffentlichen von Segmenten in Experience Cloud&quot;.
