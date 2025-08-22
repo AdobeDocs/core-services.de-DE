@@ -25,7 +25,7 @@ Erstellen Sie die Kundenattributquelle (`.csv`- und `.fin`) und laden Sie die Da
 
 >[!IMPORTANT]
 >
->Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil Kundenattribute zugewiesen sein (Kundenattribute - Standardzugriff). Navigieren Sie zu **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *Kundenattribute* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden[!UICONTROL  sehen auf der linken Seite ] Experience Cloud-Benutzeroberfläche das Menü „Kundenattribute“.
+>Um auf diese Funktion zugreifen zu können, müssen Benutzer dem Produktprofil Kundenattribute zugewiesen sein (Kundenattribute - Standardzugriff). Navigieren Sie zu **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *Kundenattribute* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen. Benutzer, die der Gruppe der Kundenattribute hinzugefügt wurden[!UICONTROL &#x200B; sehen auf der linken Seite &#x200B;] Experience Cloud-Benutzeroberfläche das Menü „Kundenattribute“.
 >
 >Um die Kundenattribut-Funktion verwenden zu können, müssen Benutzer auch zu Gruppen auf Programmebene (Adobe Analytics oder [!DNL Target]) gehören.
 
@@ -57,7 +57,7 @@ Führen Sie diese Schritte auf der Seite Neue Kunden-Attributquelle erstellen in
 1. Wählen Sie [!DNL Experience Cloud] das Symbol Menü ![Menü](assets/menu-icon.png) aus.
 1. Wählen Sie **[!UICONTROL Kundenattribute]** aus.
 
-   Auf [!UICONTROL  Seite &quot;]&quot; können Sie vorhandene Datenattributquellen verwalten und bearbeiten.
+   Auf [!UICONTROL &#x200B; Seite &quot;]&quot; können Sie vorhandene Datenattributquellen verwalten und bearbeiten.
 
    ![Hauptbildschirm „Kundenattribute“](assets/cust-attr.png)
 
@@ -65,13 +65,13 @@ Führen Sie diese Schritte auf der Seite Neue Kunden-Attributquelle erstellen in
 
    ![Ergebnis des Schritts](assets/04_crs_usecase.png)
 
-1. Konfigurieren [!UICONTROL  auf der Seite „Kundenattribut-Source erstellen] die folgenden Felder:
+1. Konfigurieren [!UICONTROL &#x200B; auf der Seite „Kundenattribut-Source erstellen] die folgenden Felder:
 
    * **[!UICONTROL Name:]** Ein Anzeigename für die Datenattributquelle. Bei [!DNL Adobe Target] dürfen Attributnamen keine Leerzeichen enthalten. Wenn ein Attribut mit Leerzeichen übergeben wird, wird es von [!DNL Target] ignoriert. Weitere nicht unterstützte Zeichen: `< , >, ', "`.
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Quelle des Datenattributs.
 
-   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code [!UICONTROL Kundenattribut-Source&quot; ] wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der für eine Kundenattributquelle in Experience Cloud im Feld [!UICONTROL Alias-ID] eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript der Mobile SDK).
+   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code [!UICONTROL Kundenattribut-Source&quot; &#x200B;] wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der für eine Kundenattributquelle in Experience Cloud im Feld [!UICONTROL Alias-ID] eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript der Mobile SDK).
 
      >[!IMPORTANT]
      >
@@ -139,7 +139,7 @@ Informationen zum Löschen von Attributen finden Sie unter [Schema aktualisieren
 
 So löschen Sie Attribute und ersetzen Attribute im Schema.
 
-1. Entfernen Sie auf [!UICONTROL  Seite „Kundenattribut Source bearbeiten] das **[!UICONTROL Target]**- oder **[!UICONTROL Analytics]**-Abonnement (unter [!UICONTROL Abonnements konfigurieren]).
+1. Entfernen Sie auf [!UICONTROL &#x200B; Seite „Kundenattribut Source bearbeiten] das **[!UICONTROL Target]**- oder **[!UICONTROL Analytics]**-Abonnement (unter [!UICONTROL Abonnements konfigurieren]).
 1. [Laden Sie eine neue Datendatei mit aktualisierten Feldern hoch](t-crs-usecase.md).
 
 ## Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle {#task_1ACA21198F0E46A897A320C244DFF6EA}
@@ -150,7 +150,7 @@ Siehe [Konfigurieren von Abonnements](subscription.md).
 
 **So aktivieren Sie eine Attributquelle**
 
-Suchen Sie auf [!UICONTROL  Seite „Neues Kundenattribut erstellen oder Source bearbeiten] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
+Suchen Sie auf [!UICONTROL &#x200B; Seite „Neues Kundenattribut erstellen oder Source bearbeiten] die Überschrift [!UICONTROL Aktivieren] und klicken Sie dann auf **[!UICONTROL Aktiv]**.
 
 ![Ergebnis des Schritts](assets/activate_attribute_source.png)
 
