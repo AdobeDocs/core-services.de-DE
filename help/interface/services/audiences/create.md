@@ -46,12 +46,12 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 
 1. Klicken Sie auf [!DNL Experience Cloud] Apps ![Apps-Symbol](assets/apps-icon.png) und dann auf **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. Klicken Sie auf [!UICONTROL  Seite ]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
+1. Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
 
    ![Erstellen einer Zielgruppe](assets/audience_create_new.png)
 
-1. Füllen Sie auf [!UICONTROL  Seite „Neue Zielgruppe ]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
-1. Wählen [!UICONTROL  unter ] eine Referenz-Report Suite und dann eine Attributquelle aus:
+1. Füllen Sie auf [!UICONTROL &#x200B; Seite „Neue Zielgruppe &#x200B;]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
+1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Referenz-Report Suite und dann eine Attributquelle aus:
 
    * **[!UICONTROL Real-Time Analytics-Daten:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
 
