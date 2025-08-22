@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 66%
+source-wordcount: '540'
+ht-degree: 65%
 
 ---
 
@@ -46,12 +46,12 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 
 1. Klicken Sie auf [!DNL Experience Cloud] Apps ![Apps-Symbol](assets/apps-icon.png) und dann auf **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
+1. Klicken Sie auf [!UICONTROL  Seite ]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
 
    ![Erstellen einer Zielgruppe](assets/audience_create_new.png)
 
-1. Füllen Sie auf [!UICONTROL &#x200B; Seite „Neue Zielgruppe &#x200B;]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
-1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Referenz-Report Suite und dann eine Attributquelle aus:
+1. Füllen Sie auf [!UICONTROL  Seite „Neue Zielgruppe ]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
+1. Wählen [!UICONTROL  unter ] eine Referenz-Report Suite und dann eine Attributquelle aus:
 
    * **[!UICONTROL Real-Time Analytics-Daten:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
 
@@ -62,6 +62,8 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
    * **[!UICONTROL Experience Cloud:]** Attributdaten werden aus [!DNL Experience Cloud] Quellen abgeleitet. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 
 1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Speichern].**
+
+**Beispiel: Definieren von Regeln für eine gemischte Zielgruppe**
 
 >[!NOTE]
 >
@@ -95,4 +97,4 @@ Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-B
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nachdem die Zielgruppe gespeichert wurde, ist sie für andere Experience Cloud-Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) ](https://experienceleague.adobe.com/de/docs/target/using/activities/activities).
+Nachdem die Zielgruppe gespeichert wurde, ist sie für andere Experience Cloud-Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities).
