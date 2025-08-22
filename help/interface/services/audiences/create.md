@@ -97,4 +97,4 @@ Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-B
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nachdem die Zielgruppe gespeichert wurde, ist sie für andere Experience Cloud-Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities).
+Nachdem die Zielgruppe gespeichert wurde, ist sie für andere Experience Cloud-Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) ](https://experienceleague.adobe.com/de/docs/target/using/activities/activities).
