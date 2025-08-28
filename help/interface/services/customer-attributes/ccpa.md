@@ -1,19 +1,19 @@
 ---
-title: Unterstützung von Kundenattributen für den California Consumer Privacy Act
-description: Erfahren Sie mehr über die Unterstützung von Kundenattributen für den California Consumer Privacy Act
+title: '[!DNL Customer Attributes]-Unterstützung für den California Consumer Privacy Act'
+description: Erfahren Sie mehr  [!DNL Customer Attributes]  die Unterstützung des California Consumer Privacy Act
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 63%
+source-wordcount: '399'
+ht-degree: 64%
 
 ---
 
-# Unterstützung von Kundenattributen für den California Consumer Privacy Act
+# [!DNL Customer Attributes] Unterstützung des California Consumer Privacy Act
 
 Auf dieser Seite wird [!DNL Customer Attributes] Unterstützung des California Consumer Privacy Act (CCPA) beschrieben.
 

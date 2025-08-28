@@ -1,32 +1,32 @@
 ---
-description: Erfahren Sie, wie Sie Kundenattributabonnements für Analytics und Target konfigurieren und eine Datenquelle aktivieren.
+description: Erfahren Sie, wie Sie Abonnements in  [!DNL Customer Attributes]  für Analytics und Target konfigurieren und eine Datenquelle aktivieren.
 solution: Experience Cloud
-title: Konfigurieren von Abonnements
+title: Konfigurieren von Abonnements in [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 65%
+source-wordcount: '428'
+ht-degree: 61%
 
 ---
 
 # Konfigurieren von Abonnements und Aktivieren der Datenquelle
 
-Abonnements ermöglichen den Datenfluss von Kundenattributen zwischen Experience Cloud und Programmen ([!DNL Analytics] und [!DNL Target]).
+[!DNL Customer Attributes]-Abonnements ermöglichen den Datenfluss von Kundenattributen zwischen Experience Cloud und Programmen ([!DNL Analytics] und [!DNL Target]).
 
-Ein Adobe Analytics-Abonnement ermöglicht beispielsweise Attributdaten in Berichten. Wenn Sie Adobe Target verwenden, können Sie Kundenattribute für Targeting und Segmentierung hochladen.
+Ein Adobe Analytics-Abonnement ermöglicht beispielsweise Attributdaten in Berichten. Wenn Sie [!DNL Adobe Target] verwenden, können Sie Kundenattribute für Targeting und Segmentierung hochladen.
 
 **So konfigurieren Sie Abonnements und aktivieren die Datenquelle**
 
-1. Suchen Sie Ihre Kundenattributquelle zur Bearbeitung:
+1. Suchen Sie Ihre Datenquelle in [!DNL Customer Attributes] zur Bearbeitung:
 
    Klicken Sie [!DNL Experience Cloud] auf **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-1. Klicken [!UICONTROL &#x200B; unter „Kundenattribut-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
+1. Klicken [!UICONTROL  unter „Kundenattribut-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
 
 1. Klicken Sie **[!UICONTROL Abonnements konfigurieren]**.
 
