@@ -6,16 +6,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 57%
+source-wordcount: '405'
+ht-degree: 63%
 
 ---
 
 # Unterstützung von Kundenattributen für den California Consumer Privacy Act
 
-Auf dieser Seite wird [!UICONTROL Kundenattribute] Unterstützung für den California Consumer Privacy Act (CCPA) beschrieben.
+Auf dieser Seite wird [!DNL Customer Attributes] Unterstützung des California Consumer Privacy Act (CCPA) beschrieben.
 
 >[!IMPORTANT]
 >
@@ -27,13 +27,13 @@ Als Unternehmen legen Sie fest, welche personenbezogenen Daten Adobe Experience 
 
 Als Ihr Dienstleister unterstützt Adobe Experience Cloud Ihr Unternehmen bei der Erfüllung seiner CCPA-Verpflichtungen, die für die Verwendung von Experience Cloud-Produkten und -Diensten gelten, einschließlich der Verwaltung von Anfragen zum Zugriff auf und zur Löschung personenbezogener Daten. Diese Unterstützung umfasst die Verwaltung von Anfragen zum Zugriff auf und zur Löschung personenbezogener Daten.
 
-In diesem Dokument wird beschrieben, wie [!UICONTROL Kundenattribute] die CCPA-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützt.
+In diesem Dokument wird beschrieben, wie [!DNL Customer Attributes] die CCPA-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützt.
 
 Weitere Informationen zu den Datenschutzdiensten von Adobe für den CCPA finden Sie im [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Erforderliche Einrichtung zum Senden von Anfragen für [!UICONTROL Kundenattribute]
+## Erforderliche Einrichtung zum Senden von Anfragen für [!DNL Customer Attributes]
 
-Um Anfragen zum Zugreifen auf und Löschen von Daten für [!UICONTROL Kundenattribute] zu stellen, ist Folgendes erforderlich:
+Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!DNL Customer Attributes] zu stellen, ist Folgendes erforderlich:
 
 1. Sie benötigen:
 
@@ -45,7 +45,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten für [!UICONTROL Kundenattr
 
 1. In [!UICONTROL Privacy Service] können Sie Zugriffs- und Löschanfragen an Kundenattribute senden und den Status vorhandener Anfragen überprüfen.
 
-## Erforderliche Feldwerte in [!UICONTROL Kundenattributen] JSON-Anfragen
+## Erforderliche Feldwerte in [!DNL Customer Attributes] JSON-Anfragen
 
 &quot;company context&quot;:
 

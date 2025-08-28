@@ -1,42 +1,42 @@
 ---
-title: '[!DNL Customer attributes]'
-description: Weitere Informationen zu  [!DNL customer attributes]  in Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
+title: '[!DNL Customer Attributes]'
+description: Weitere Informationen zu  [!DNL Customer Attributes]  in Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 78%
+source-wordcount: '433'
+ht-degree: 73%
 
 ---
 
-# [!DNL Customer attributes] in Experience Cloud
+# [!DNL Customer Attributes] in Experience Cloud
 
-Mit [!DNL Customer attributes] in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
+Mit [!DNL Customer Attributes] in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können die Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
 
-## Suchen Sie die Funktion [!DNL customer attributes]
+## Suchen Sie die Funktion [!DNL Customer Attributes]
 
 1. Melden Sie sich bei [!DNL Experience Cloud] an und wählen Sie das Symbol ![Menü](assets/menu-icon.png) aus.
 
-1. Wählen Sie **[!UICONTROL Kundenattribute]** aus.
+1. Wählen Sie **[!DNL Customer Attributes]** aus.
 
 ![Übersicht über Kundenattribute](assets/custom_reports.png)
 
-## Voraussetzungen zum Hochladen von [!DNL customer attributes] {#prerequisites}
+## Voraussetzungen für das Hochladen von Kundenattributdaten {#prerequisites}
 
 * **Gruppenmitgliedschaft:** Um Kundenattributdaten hochzuladen, müssen Benutzer Mitglieder der Gruppe „Kundenattribute“ sein. Sie müssen auch einer Adobe Analytics-Gruppe oder einer Adobe Target-Gruppe angehören.
 
   Um herauszufinden, ob Ihr Unternehmen Zugriff auf Kundenattribute hat, muss sich Ihr [!DNL Experience Cloud]-Administrator bei der [Experience Cloud](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *[!DNL Customer Attributes]* als eines der [!UICONTROL Produktprofile] angezeigt wird, können Sie beginnen.
 
-  Benutzerinnen und Benutzer, die den [!DNL Customer Attributes] hinzugefügt wurden, sehen auf der linken Seite der Experience Cloud-Benutzeroberfläche das Menüelement [!UICONTROL Kundenattribute].
+  Benutzende, die hinzugefügt wurden, [!DNL Customer Attributes] das [!DNL Customer Attributes] Menüelement auf der linken Seite der Experience Cloud-Benutzeroberfläche zu sehen.
 
 * **Adobe Target** `at.js` (beliebige Version) oder `mbox.js` Version 58 oder höher ist für Kundenattribute erforderlich.
 
-  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=de).
+  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Was sind Enterprise-Kundendaten? {#enterprise_data}
 

@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 99%
 
 ---
 
-# Überlegungen zum Datenschutz für [!DNL customer attributes]
+# Überlegungen zum Datenschutz für [!DNL Customer Attributes]
 
 Überlegungen und Best Practices hinsichtlich persönlich identifizierbarer Informationen (PII), die in die Adobe Experience Cloud hochgeladen und darüber ausgetauscht werden.
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 * Sozialversicherungsnummer
 * Andere Kennung, die die physische oder Online-Kontaktaufnahme mit einer Einzelperson ermöglicht. (Variiert nach Ort. Überprüfen und beachten Sie die lokalen Gesetze und Vorschriften bezüglich Datenschutz und PII für alle Orte, an denen Sie geschäftlich tätig sind.)
 
-Adobe stellt Tools bereit, mit denen Werbetreibende Verhaltensdaten über Kunden erfassen können, die ihre Sites besuchen oder ihre Anwendungen verwenden. Adobe bietet darüber hinaus Tools, mit deren Hilfe Werbetreibende diese Informationen mit Offline- oder externen Kundendatensätzen erweitern können, über die der Werbetreibende möglicherweise in anderen Informationsmanagementsystemen verfügt.
+Adobe stellt Tools bereit, mit denen Werbetreibende Verhaltensdaten über Kunden erfassen können, die ihre Sites besuchen oder ihre Anwendungen verwenden. Adobe bietet darüber hinaus Tools, mit deren Hilfe Werbetreibende diese Informationen mit Offline- oder externen Kundeneinträgen erweitern können, über die der Werbetreibende möglicherweise in anderen Informationsmanagementsystemen verfügt.
 
 Ein häufiger Grund dafür ist, dass Werbetreibende die verfügbaren Informationen verbessern, wenn sie verbrauchergerechte Marketing- und Werbeentscheidungen treffen. Mit Adobe Analytics und Target können Werbetreibende persönliche identifizierbare Informationen (PII) wie E-Mail-Adressen erst hochladen, nachdem ein Hash erfolgt ist, um die Kontaktaufnahme mit der betreffenden Person zu verhindern. Hash-Informationen können weiterhin für Analysen und Marketing-Zwecke verwendet werden. Zur Erinnerung: Adobe verbietet Werbetreibenden, vertrauliche persönliche Daten wie medizinische Aufzeichnungen, finanzielle Kontoinformationen und Informationen über Minderjährige an Adobe zu senden.
 

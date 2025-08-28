@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b790f79a6e49f2103e6b3c1fcde3a36c1ea5c141
+source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 79%
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 # Experience Cloud-Services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Diese Dokumentation erläutert Funktionen des einheitlichen Headers in Experience Cloud, wie z. B. den Service [!DNL People] ([!DNL Audience Library] und [!DNL customer attributes]), die Benutzer- und Produktverwaltung für Experience Cloud, Cookies, Kontovoreinstellungen und Benachrichtigungen.
+Diese Dokumentation erläutert Funktionen des einheitlichen Headers in Experience Cloud, wie z. B. den Service [!DNL People] ([!DNL Audience Library] und [!DNL Customer Attributes]), die Benutzer- und Produktverwaltung für Experience Cloud, Cookies, Kontovoreinstellungen und Benachrichtigungen.
 
 Um auf diese Services in Experience Cloud zuzugreifen, klicken Sie auf die **[!UICONTROL Programmauswahl]**
 ![Services-Auswahl](../assets/apps-icon.png).

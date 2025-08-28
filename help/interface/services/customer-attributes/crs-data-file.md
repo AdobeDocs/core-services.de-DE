@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über Datendateianforderungen und mehrere Datenquellen für das Hochladen  [!DNL customer attributes]  Experience Cloud.
+description: Erfahren Sie mehr über Datendateianforderungen und mehrere Datenquellen für das Hochladen von Kundenattributen in Experience Cloud.
 solution: Experience Cloud
 title: Datendatei und Datenquellen
 feature: Customer Attributes
@@ -7,20 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1148'
 ht-degree: 64%
 
 ---
 
-# Informationen zur Datendatei und den Datenquellen für [!DNL customer attributes]
+# Informationen zur Datendatei und den Datenquellen für [!DNL Customer Attributes]
 
-Datendateianforderungen und mehrere Datenquellen für das Hochladen von [!DNL customer attributes] in Experience Cloud.
+Datendateianforderungen und mehrere Datenquellen für das Hochladen von Kundenattributdaten in Experience Cloud.
 
 Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen. Die Daten, die Sie in Experience Cloud hochladen, müssen eine `.csv` sein. Wenn das Upload über FTP oder sFTP erfolgt, wird auch eine `.fin`-Datei hochgeladen.
 
-[!DNL customer attributes] ist für die Verarbeitung einiger Dateien pro Tag konzipiert. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
+[!DNL Customer Attributes] ist für die Verarbeitung einiger Dateien pro Tag konzipiert. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
 
 ## Zulässige Dateitypen und Namensanforderungen {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -59,7 +59,7 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Spalte für Kunden-ID </p> </td> 
-   <td colname="col2"> <p> Die erste Spalte muss eine Unique-Customer-ID sein. Die verwendete ID muss der ID entsprechen, die an den Experience Cloud ID-Dienst übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Legen Sie für Target den Wert customerID fest. </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie legen fest, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen. Sie sind jedoch nicht erforderlich. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Über Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph"> setCustomerIDs </span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in Experience Cloud hochgeladen wird. Eine <a href="t-crs-usecase.md" format="dita" scope="local">Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen <span class="codeph"> setCustomerIDs </span> finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de" format="https" scope="external"> von Kunden-IDs und Authentifizierungsstatus </a>. </p> </td> 
+   <td colname="col2"> <p> Die erste Spalte muss eine Unique-Customer-ID sein. Die verwendete ID muss der ID entsprechen, die an den Experience Cloud ID-Dienst übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Legen Sie für Target den Wert customerID fest. </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie legen fest, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen. Sie sind jedoch nicht erforderlich. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Über Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph"> setCustomerIDs </span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in Experience Cloud hochgeladen wird. Eine <a href="t-crs-usecase.md" format="dita" scope="local">Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen <span class="codeph"> setCustomerIDs </span> finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> von Kunden-IDs und Authentifizierungsstatus </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nachfolgende Überschriften und Spalten </p> </td> 
@@ -103,7 +103,7 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mehrere Dateien </p> </td> 
-   <td colname="col2"> <p>Wenn Sie Kundenattributdaten in mehrere Dateien in schneller Folge hochladen möchten und die Dateien groß sind, stellen Sie sicher, dass die vorherige Datei verarbeitet wurde, bevor Sie die nächste Datei hochladen. Sie können dies überwachen, indem Sie überprüfen, wann die vorherige Datei in den Ordner mit verarbeiteten oder fehlgeschlagenen Vorgängen innerhalb Ihres FTP-Kontos für [!UICONTROL Kundenattribute] verschoben wurde. </p> <p> Die Aufspaltung einer großen Datei in kleinere Dateien und deren schnelle Übermittlung kann die Verarbeitung verlangsamen, es sei denn, Sie können sicherstellen, dass jede Datei verarbeitet wird, bevor Sie die nächste versenden. </p> </td> 
+   <td colname="col2"> <p>Wenn Sie Kundenattributdaten in mehrere Dateien in schneller Folge hochladen möchten und die Dateien groß sind, stellen Sie sicher, dass die vorherige Datei verarbeitet wurde, bevor Sie die nächste Datei hochladen. Sie können dies überwachen, indem Sie überprüfen, wann die vorherige Datei in den Ordner mit verarbeiteten oder fehlgeschlagenen Vorgängen innerhalb Ihres [!DNL Customer Attributes] FTP-Kontos verschoben wurde. </p> <p> Die Aufspaltung einer großen Datei in kleinere Dateien und deren schnelle Übermittlung kann die Verarbeitung verlangsamen, es sei denn, Sie können sicherstellen, dass jede Datei verarbeitet wird, bevor Sie die nächste versenden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Zeichenkodierung </p> </td> 
@@ -111,7 +111,7 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historische Daten </p> </td> 
-   <td colname="col2"> <p> Kundenattribute sind an das zugrunde liegende Besucherprofil in [!DNL Analytics] gebunden. Als solche sind [!UICONTROL Kundenattribute] mit dem Besucher für die gesamte Lebensdauer dieses Besucherprofils in [!DNL Analytics] verknüpft. Dies umfasst das Verhalten, das vor der erstmaligen Anmeldung des Kunden aufgetreten ist. </p> <p> Wenn Sie die Data Warehouse-Methode zum Aufstocken verwenden, sind die Daten an einen post_visid_high/low-Wert gebunden, der auf der Analytics-ID (AID) basiert. Wenn Sie den Experience Cloud ID-Dienst verwenden, sind die Daten an einen post_visid_high/low-Wert gebunden, der auf Experience Cloud ID (MID) basiert. </p> <p> Beachten Sie, dass die Data Warehouse-Aufstockungsmethode ab Oktober 2022 nicht mehr verfügbar sein wird. </td> 
+   <td colname="col2"> <p> Kundenattribute sind an das zugrunde liegende Besucherprofil in [!DNL Analytics] gebunden. Als solche sind [!DNL Customer Attributes] mit dem Besucher für die gesamte Lebensdauer dieses Besucherprofils in [!DNL Analytics] verknüpft. Dies umfasst das Verhalten, das vor der erstmaligen Anmeldung des Kunden aufgetreten ist. </p> <p> Wenn Sie die Data Warehouse-Methode zum Aufstocken verwenden, sind die Daten an einen post_visid_high/low-Wert gebunden, der auf der Analytics-ID (AID) basiert. Wenn Sie den Experience Cloud ID-Dienst verwenden, sind die Daten an einen post_visid_high/low-Wert gebunden, der auf Experience Cloud ID (MID) basiert. </p> <p> Beachten Sie, dass die Data Warehouse-Aufstockungsmethode ab Oktober 2022 nicht mehr verfügbar sein wird. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datenfeeds </p> </td> 
@@ -137,8 +137,8 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Weitere [ finden Sie unter „Kunden](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de)IDs und Authentifizierungszustände“.)
+(Weitere [ finden Sie unter „Kunden](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)IDs und Authentifizierungszustände“.)
 
-In der **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundenattribute]**:
+In **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 
 Erstellen Sie zwei Kundenattributquellen mit eindeutigen Alias-IDs, die den Kunden-IDs oben entsprechen. Mithilfe dieser Methode kann dieselbe Referenz-ID an mehrere Kundenattributquellen gesendet werden.

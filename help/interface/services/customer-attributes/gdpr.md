@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 95%
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 # [!DNL Customer attributes] Unterstützung der Datenschutz-Grundverordnung
 
-Auf dieser Seite wird beschrieben, wie [!DNL customer attributes] die Datenschutz-Grundverordnung (DSGVO) unterstützen.
+Auf dieser Seite wird beschrieben, wie [!DNL Customer Attributes] die Datenschutz-Grundverordnung (DSGVO) unterstützen.
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ Die [Datenschutz-Grundverordnung](https://business.adobe.com/de/privacy/general-
 
 Adobe Experience Cloud fungiert als Auftragsverarbeiter für alle personenbezogenen Daten, die es im Auftrag seiner Kunden empfängt und speichert. Als Datenverantwortlicher legen Sie fest, welche personenbezogenen Daten Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
 
-In diesem Dokument wird beschrieben, wie [!DNL customer attributes] die DSGVO-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützen.
+In diesem Dokument wird beschrieben, wie [!DNL Customer Attributes] die DSGVO-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützen.
 
 Weitere Informationen darüber, was die DSGVO für Ihr Unternehmen bedeutet, finden Sie unter [DSGVO und Ihr Unternehmen](https://business.adobe.com/de/privacy/general-data-protection-regulation.html).
 
-## Erforderliche Einrichtung zum Senden von Anfragen für [!DNL customer attributes]
+## Erforderliche Einrichtung zum Senden von Anfragen für [!DNL Customer Attributes]
 
-Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!DNL customer attributes] zu stellen, ist Folgendes erforderlich:
+Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!DNL Customer Attributes] zu stellen, ist Folgendes erforderlich:
 
 1. Sie benötigen:
 
@@ -41,9 +41,9 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!DNL customer attribute
 
    Ihre [Organisations-ID](../../administration/organizations.md) ist eine 24-stellige alphanumerische Zeichenfolge, die an @AdobeOrg angehängt wird. Sie benötigen die Organisations-ID, um Anfragen an die Datenschutz-API zu senden. Wenden Sie sich an die Kundenunterstützung von Adobe unter `gdprsupport@adobe.com`, wenn Sie die ID nicht finden können.
 
-1. In [!UICONTROL Privacy Service] können Sie Zugriffs- und Löschanfragen an [!DNL customer attributes] senden und den Status vorhandener Anfragen überprüfen.
+1. In [!UICONTROL Privacy Service] können Sie Zugriffs- und Löschanfragen an [!DNL Customer Attributes] senden und den Status vorhandener Anfragen überprüfen.
 
-## Erforderliche Feldwerte in JSON-Anfragen für [!DNL customer attributes]
+## Erforderliche Feldwerte in JSON-Anfragen für [!DNL Customer Attributes]
 
 &quot;company context&quot;:
 
