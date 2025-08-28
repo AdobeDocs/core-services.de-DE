@@ -26,7 +26,7 @@ Ein Adobe Analytics-Abonnement ermöglicht beispielsweise Attributdaten in Beric
 
    Klicken Sie [!DNL Experience Cloud] auf **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-1. Klicken [!UICONTROL  unter „Kundenattribut-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
+1. Klicken [!UICONTROL &#x200B; unter „Kundenattribut-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
 
 1. Klicken Sie **[!UICONTROL Abonnements konfigurieren]**.
 
