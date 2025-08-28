@@ -36,7 +36,7 @@ Mit [!DNL Customer Attributes] in Experience Cloud können Sie Ihre erfassten Un
 
 * **Adobe Target** `at.js` (beliebige Version) oder `mbox.js` Version 58 oder höher ist für Kundenattribute erforderlich.
 
-  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
+  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=de).
 
 ## Was sind Enterprise-Kundendaten? {#enterprise_data}
 
