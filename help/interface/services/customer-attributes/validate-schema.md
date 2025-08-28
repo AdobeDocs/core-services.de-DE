@@ -30,7 +30,7 @@ Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur
 
 1. Klicken Sie auf der **[!UICONTROL Kundenattribut-Source bearbeiten]** auf **[!UICONTROL Datei-Upload]**.
 
-1. Klicken Sie auf der Seite [!UICONTROL Datei-Upload und ]-Validierung auf **[!UICONTROL Aktionen]** > **[!UICONTROL Schema anzeigen/bearbeiten]**
+1. Klicken Sie auf der Seite [!UICONTROL Datei-Upload und &#x200B;]-Validierung auf **[!UICONTROL Aktionen]** > **[!UICONTROL Schema anzeigen/bearbeiten]**
 
    ![Schema bearbeiten](assets/view_edit_schema.png)
 
