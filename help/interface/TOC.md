@@ -6,9 +6,9 @@ title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
 source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
       + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](services/customer-attributes/t-crs-usecase.md)
       + [Optional – Hochladen der Datendatei via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Prüfen Sie das Schema](services/customer-attributes/validate-schema.md)
-      + [Konfigurieren von Abonnements und Aktivieren der Datenquelle](services/customer-attributes/subscription.md)
+      + [Konfigurieren von Abonnements und Aktivieren von Datenquellen](services/customer-attributes/subscription.md)
       + [Schema aktualisieren](services/customer-attributes/t-update-schema.md)
       + [Unterstützung der Datenschutz-Grundverordnung](services/customer-attributes/gdpr.md)
       + [Unterstützung des California Consumer Privacy Act](services/customer-attributes/ccpa.md)
