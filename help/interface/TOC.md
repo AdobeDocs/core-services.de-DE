@@ -5,9 +5,9 @@ breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
-source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
-workflow-type: ht
-source-wordcount: '239'
+source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -21,8 +21,7 @@ ht-degree: 100%
    + [Übersicht](services/overview.md)
    + [Erste Schritte](services/getting-started.md)
    + Assets {#assets}
-      + [Übersicht](services/assets/experience-cloud-assets.md)
-      + [Freigeben von Ordnern und Assets für Creative Cloud](services/assets/creative-cloud.md)
+      + [Überblick](services/assets/experience-cloud-assets.md)
       + [Verwaltung der Creative Cloud-Benutzenden](services/assets/manage-cc-users.md)
       + [Freigeben eines Asset-Ordners](services/assets/share.md)
       + [Hochladen eines Assets in einen freigegebenen Ordner](services/assets/upload.md)
