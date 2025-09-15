@@ -5,10 +5,10 @@ breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 100%
+source-wordcount: '205'
+ht-degree: 88%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 100%
    + [Exchange](services/exchange.md)
    + Kundenattribute {#customer-attributes}
       + [Übersicht](services/customer-attributes/attributes.md)
-      + [Häufig gestellte Fragen zu Kundenattributen](services/customer-attributes/faq-crs.md)
-      + [Informationen zur Datendatei und den Datenquellen für Kundenattribute](services/customer-attributes/crs-data-file.md)
-      + [Erstellen einer Kundenattributquelle und Hochladen der Datendatei](services/customer-attributes/t-crs-usecase.md)
-      + [Optional – Hochladen der Datendatei via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [FAQs](services/customer-attributes/faq-crs.md)
+      + [Über Datendateien und Datenquellen](services/customer-attributes/crs-data-file.md)
+      + [Datendatei erstellen und hochladen](services/customer-attributes/t-crs-usecase.md)
+      + [Optional - Hochladen über FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Prüfen Sie das Schema](services/customer-attributes/validate-schema.md)
       + [Konfigurieren von Abonnements und Aktivieren von Datenquellen](services/customer-attributes/subscription.md)
       + [Schema aktualisieren](services/customer-attributes/t-update-schema.md)
-      + [Unterstützung der Datenschutz-Grundverordnung](services/customer-attributes/gdpr.md)
-      + [Unterstützung des California Consumer Privacy Act](services/customer-attributes/ccpa.md)
-      + [Überlegungen zum Datenschutz bei Kundenattributen](services/customer-attributes/privacy-mac.md)
+      + [Unterstützung für die DSGVO](services/customer-attributes/gdpr.md)
+      + [Unterstützung für CCPA](services/customer-attributes/ccpa.md)
+      + [Überlegungen zum Datenschutz](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
 
 + Funktionen {#features}
@@ -56,7 +56,7 @@ ht-degree: 100%
 + Administration {#administration}
    + [Benutzerverwaltung und Produktlizenzen](administration/admin-console.md)
    + [Anzeigen von Benutzerdetails (Admin-Tool)](administration/admin-tool-experience-cloud.md)
-   + [Organisationen und Kontoverknüpfung](administration/organizations.md)
+   + [Organisationen](administration/organizations.md)
    + [Experience Cloud-Integrationen](administration/integrations.md)
 
 + Datenerfassung {#data-collection}
