@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie Experience Cloud-Trigger konfigurieren.
+description: Erfahren Sie, wie Sie Experience Cloud Trigger konfigurieren.
 solution: Experience Cloud
 title: Übersicht über Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -8,20 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0de22f02b4063a54d0b09b6abc1aa16221f42f4b
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 97%
+source-wordcount: '675'
+ht-degree: 93%
 
 ---
 
 # Experience Cloud Triggers
 
-[!UICONTROL Triggers] in Experience Cloud ermöglichen es Ihnen, wichtige Kundenverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren.
+Mit [!UICONTROL Trigger] in Experience Cloud können Sie wichtige Verbraucherverhaltensweisen identifizieren, definieren und überwachen sowie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden.
 
-## Übersicht über Triggers {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
-
-Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. Beispiel:
+Beispiel:
 
 * Konfigurieren des schnellen Remarketing für Warenkorbabbrüche oder Warenkorbabbrüche mit entfernten Produkten
 * Unvollständige Formulare und Anwendungen
@@ -33,9 +31,9 @@ Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden
 >
 >Weitere Informationen zur Verwendung von [!UICONTROL Triggers] finden Sie unter [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de).
 
-### Triggers-Typen
+## Typen von Triggern
 
-Im Allgemeinen kann ein Auslöser 15 bis 90 Minuten benötigen, um eine Marketing-Kampagne zu starten. Diese Verzögerung hängt von der Implementierung der Datenerfassung, der Auslastung der Pipeline, der benutzerdefinierten Konfiguration des definierten Triggers und dem Arbeitsablauf in Adobe Campaign ab.
+Im Allgemeinen kann ein Auslöser 15 bis 90 Minuten benötigen, um eine Marketing-Kampagne zu starten. Diese Verzögerung hängt von der Implementierung der Datenerfassung, der Auslastung der Pipeline, der benutzerdefinierten Konfiguration des definierten Triggers und dem Workflow in Adobe Campaign ab.
 
 * **Abbruch:** Sie können einen Auslöser für den Fall erstellen, dass ein Besucher ein Produkt anzeigt, es jedoch nicht zum Warenkorb hinzufügt.
 * **Aktion:** Sie können Sie Trigger erstellen, die beispielsweise nach der Newsletter-Anmeldung, E-Mail-Abonnements oder Kreditkartenanträgen (Bestätigungen) ausgelöst werden. Wenn Sie ein Händler sind, können Sie einen Trigger für einen Besucher erstellen, der sich für ein Treueprogramm anmeldet. Erstellen Sie in Medien und Unterhaltung Trigger für Besucher, die eine bestimmte Sendung ansehen. Sie können auch mit einer Umfrage reagieren.
@@ -49,7 +47,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
-1. Klicken Sie im Experience Cloud auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Datenerfassung/Launch]**.
+1. Klicken Sie in Experience Cloud auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Datenerfassung/Launch]**.
 2. Wählen Sie in der Registerkarte [!UICONTROL Triggers] **[!UICONTROL Triggers verwalten]** aus.
 3. Klicken Sie auf **[!UICONTROL Neuer Trigger]** und geben Sie dann den Trigger-Typ an:
 
@@ -71,17 +69,17 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 5. Klicken Sie auf **[!UICONTROL Speichern]**.
 6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=de) in [!DNL Adobe Campaign].
 
-### Beispielauslöser
+## Beispielauslöser
 
 Beispiele für Experience Cloud-Triggers:
 
-#### Warenkorbabbruch-Trigger
+### Warenkorbabbruch - Trigger
 
 Die folgende Seite zeigt beispielsweise Regeln, die Sie für einen Trigger [!UICONTROL Warenkorbabbruch] basierend auf Produkten, die während eines Besuchs angesehen wurden, verwenden können.
 
 ![Warenkorbabbruch-Trigger](../assets/abandonment-trigger.png)
 
-#### Referrer-Trigger
+### Referrer-Trigger
 
 Der folgende Trigger wird ausgelöst, wenn ein Treffer mit dem Produkt „Herrenstiefel“ und Referrer „Facebook“ eingeht. Für die beiden Kriterien (*Produkte* und *Referrer*), die für denselben Treffer auszuwerten sind, sollten sie demselben Container hinzugefügt werden.
 
