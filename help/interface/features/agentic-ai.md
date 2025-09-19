@@ -31,10 +31,10 @@ Erfahren Sie mehr über die Verfügbarkeit von magnetischer KI und unterstützte
 | Agent-Name | Verfügbarkeit | Unterstützte Anwendungen | Funktionen |
 |---|----------|------------|----------|
 | **Audience Agent** | Demnächst | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | Erstellen und optimieren Sie Zielgruppen mithilfe natürlicher Sprachaufforderungen. |
-| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Verfügbar | <ul><li>Customer Journey Analytics</li></ul> | Beantworten von Datenfragen und Erstellen von Visualisierungen in Analysis Workspace. |
+| [Data Insights Agent](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Verfügbar | <ul><li>Customer Journey Analytics</li></ul> | Beantworten von Datenfragen und Erstellen von Visualisierungen in Analysis Workspace. |
 | **Experimentationsagent** | Demnächst | <ul><li>AJO Experimentation Accelerator</li></ul> | Analyse automatisieren, um Experimente und Wachstumsmöglichkeiten zu identifizieren.* |
 | **Journey Agent** | Demnächst | <ul><li>Adobe Journey Optimizer</li></ul> | Erstellen, Analysieren und Optimieren von Customer Journey in großem Maßstab. |
-| [Produktsupport-Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Verfügbar | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Beheben von Problemen, Erstellen von Support-Tickets und Verfolgen des Fortschritts mit dem KI-Assistenten. |
+| [Produktsupport-Agent](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) | Verfügbar | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> | Beheben von Problemen, Erstellen von Support-Tickets und Verfolgen des Fortschritts mit dem KI-Assistenten. |
 | **Site Optimization Agent** | Demnächst | <ul><li>AEM Sites Optimizer</li></ul> | Nutzt generative KI zum Suchen und Starten von Website-Verbesserungen, die den Traffic, die Interaktion und die gesamten Geschäftsergebnisse steigern.* |
 
 
@@ -42,8 +42,8 @@ Erfahren Sie mehr über die Verfügbarkeit von magnetischer KI und unterstützte
 [!BADGE Weitere Informationen zu Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Navigieren Sie zu Business.adobe.com ."}
 
 <!-- 
-* [Product Support Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
-* [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) is accessible from the AI Assistant in Customer Journey Analytics. It is a generative AI conversation agent that quickly and efficiently answers questions about your data. It builds relevant visualizations in Analysis Workspace using components from your data view and using your actual data. -->
+* [Product Support Agent](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) is a self-serve debugging and troubleshooting capability of [!UICONTROL AI Assistant] that you can use for Experience Platform features and applications. Troubleshoot support issues without leaving your workflows, create customer support tickets, and track case progress using AI Assistant.
+* [Data Insights Agent](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) is accessible from the AI Assistant in Customer Journey Analytics. It is a generative AI conversation agent that quickly and efficiently answers questions about your data. It builds relevant visualizations in Analysis Workspace using components from your data view and using your actual data. -->
 
 
 
