@@ -6,9 +6,9 @@ title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
 source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '205'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 88%
 + [Benutzeroberfläche und Verwaltung von Experience Cloud](experience-cloud.md)
 
 + Dienste {#services}
-   + [Übersicht](services/overview.md)
+   + [Überblick](services/overview.md)
    + [Erste Schritte](services/getting-started.md)
    + Assets {#assets}
       + [Überblick](services/assets/experience-cloud-assets.md)
@@ -28,20 +28,20 @@ ht-degree: 88%
       + [Dateivoraussetzungen für die Freigabe von Assets](services/assets/file-reqs.md)
       + [Verhalten freigegebener Ordner](services/assets/behavior.md)
    + Zielgruppenbibliothek {#audiences}
-      + [Übersicht](services/audiences/overview.md)
+      + [Überblick](services/audiences/overview.md)
       + [Erstellen einer Zielgruppe](services/audiences/create.md)
    + [Exchange](services/exchange.md)
    + Kundenattribute {#customer-attributes}
-      + [Übersicht](services/customer-attributes/attributes.md)
+      + [Überblick](services/customer-attributes/attributes.md)
       + [FAQs](services/customer-attributes/faq-crs.md)
-      + [Über Datendateien und Datenquellen](services/customer-attributes/crs-data-file.md)
-      + [Datendatei erstellen und hochladen](services/customer-attributes/t-crs-usecase.md)
-      + [Optional - Hochladen über FTP](services/customer-attributes/t-upload-attributes-ftp.md)
-      + [Prüfen Sie das Schema](services/customer-attributes/validate-schema.md)
+      + [Informationen zu Datendateien und Datenquellen](services/customer-attributes/crs-data-file.md)
+      + [Erstellen und Hochladen der Datendatei](services/customer-attributes/t-crs-usecase.md)
+      + [Optional – Hochladen per FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Schema prüfen](services/customer-attributes/validate-schema.md)
       + [Konfigurieren von Abonnements und Aktivieren von Datenquellen](services/customer-attributes/subscription.md)
       + [Schema aktualisieren](services/customer-attributes/t-update-schema.md)
       + [Unterstützung für die DSGVO](services/customer-attributes/gdpr.md)
-      + [Unterstützung für CCPA](services/customer-attributes/ccpa.md)
+      + [Unterstützung für den CCPA](services/customer-attributes/ccpa.md)
       + [Überlegungen zum Datenschutz](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
 
