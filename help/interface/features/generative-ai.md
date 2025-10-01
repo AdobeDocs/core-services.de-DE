@@ -38,7 +38,7 @@ Generative KI ist ein Typ von KI, mit dem Originalinhalte erstellt werden könne
 
 * **Produktkenntnisse:** Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Dokumentation zu Experience League basieren. Verwenden Sie beispielsweise [objektivbasierte Eingabeaufforderungen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) um schnell mehr über Experience Platform zu erfahren. Alle Antworten von Experience League sind überprüfbar und mit Links versehen.
 
-* **Operative Insights:** &quot;[ Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] können Sie in Sekunden erreichen, was ansonsten Stunden oder Tage dauern könnte.
+* **Operative Insights:** &quot;[&#x200B; Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] können Sie in Sekunden erreichen, was ansonsten Stunden oder Tage dauern könnte.
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ Generative KI ist ein Typ von KI, mit dem Originalinhalte erstellt werden könne
 
 Im Folgenden finden Sie eine Zusammenfassung der [!DNL Experience Cloud], die generative KI-Funktionen und den KI-Assistenten verwenden. Die Kompatibilität mit [Adobe Firefly](https://business.adobe.com/products/firefly-business/firefly-ai-approach.html) ist für Funktionen der generativen KI indiziert.
 
-**Hinweis:** [!DNL Experience Platform Agents] werden unter &quot;[ KI in Experience Cloud&quot; ](agentic-ai.md).
+**Hinweis:** [!DNL Experience Platform Agents] werden unter &quot;[&#x200B; KI in Experience Cloud&quot; &#x200B;](agentic-ai.md).
 
 <!-- ### Generative AI
 
