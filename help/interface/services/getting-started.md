@@ -185,13 +185,13 @@ Nutzen Sie die Vorteile folgender Funktionen.
 
 Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen. Verwenden Sie die Daten nach dem Hochladen in [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
-Weitere Informationen finden [ unter ](customer-attributes/attributes.md)Kundenattribute“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](customer-attributes/attributes.md)Kundenattribute“.
 
 ### [!UICONTROL Personen] > [!UICONTROL Zielgruppenbibliothek]
 
 In Experience Cloud-[!UICONTROL Zielgruppen] können Sie Zielgruppen erstellen, bereits vorhandene Zielgruppen zu einer gemeinsamen Zielgruppe zusammenfassen und alle freigegebenen Zielgruppen anzeigen.
 
-Weitere Informationen finden [ unter ](audiences/overview.md)Zielgruppen“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](audiences/overview.md)Zielgruppen“.
 
 ## Datenspeicherung und Datenschutz
 

@@ -89,7 +89,7 @@ Sie können bei der Anmeldung eine Standardorganisation angeben.
 
 1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profil]** und dann auf Voreinstellungen.
 
-1. Wählen [!UICONTROL  unter ] eine Standardorganisation aus.
+1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Standardorganisation aus.
 
 
 ![Profil bearbeiten](../assets/edit-profile.png)

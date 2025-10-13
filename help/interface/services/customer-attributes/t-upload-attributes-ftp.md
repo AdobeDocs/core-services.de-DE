@@ -49,7 +49,7 @@ Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP d
 
 Richten Sie pro Attributquelle ein FTP-Konto ein.
 
-Klicken Sie auf [!UICONTROL  Seite „Datei-Upload und ]&quot; auf **[!UICONTROL FTP-Setup]**.
+Klicken Sie auf [!UICONTROL &#x200B; Seite „Datei-Upload und &#x200B;]&quot; auf **[!UICONTROL FTP-Setup]**.
 
 ![Schema bearbeiten](assets/ftp-account.png)
 

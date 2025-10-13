@@ -17,7 +17,7 @@ ht-degree: 38%
 
 Löschen und Ersetzen von Attributen im Schema.
 
-1. Klicken [!UICONTROL  auf der Seite „Kundenattribut-Source bearbeiten] auf Abonnements konfigurieren.
+1. Klicken [!UICONTROL &#x200B; auf der Seite „Kundenattribut-Source bearbeiten] auf Abonnements konfigurieren.
 
 1. Entfernen Sie zugeordnete Werte für **[!UICONTROL Target]** oder **[!UICONTROL Analytics]**.
 

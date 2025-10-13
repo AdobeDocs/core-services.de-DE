@@ -58,7 +58,7 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an Slack gesendet werden. Detaillierte Informationen finden Sie unter {0 _Slack_ Benachrichtigungen in der [-Hilfe.](../features/account-preferences.md) |
+| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an Slack gesendet werden. Detaillierte Informationen finden Sie unter &lbrace;0 _Slack_ Benachrichtigungen in der [-Hilfe.](../features/account-preferences.md) |
 
 <!-- ## July - August 2023
 

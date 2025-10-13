@@ -64,7 +64,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
    ![Organisation überprüfen](assets/organizations-menu.png)
 
-   Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation [ haben](organizations.md) klicken Sie auf **[!UICONTROL Profil]**, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie mit dem Selektor „Organisation **[!UICONTROL auch eine andere Organisation anzeigen]** zu ihr wechseln.
+   Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation [&#x200B; haben](organizations.md) klicken Sie auf **[!UICONTROL Profil]**, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie mit dem Selektor „Organisation **[!UICONTROL auch eine andere Organisation anzeigen]** zu ihr wechseln.
 
    Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich durch ein Single Sign-on Ihres Unternehmens bei Experience Cloud anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur Experience Cloud-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 

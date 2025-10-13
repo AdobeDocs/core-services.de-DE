@@ -20,7 +20,7 @@ Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfl
 
 **August 2025**
 
-Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; ](../features/account-preferences.md).
+Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; &#x200B;](../features/account-preferences.md).
 
 **Februar 2025**
 
@@ -32,7 +32,7 @@ Aktualisierungen [Produktnutzungsdaten](../features/account-preferences.md) und 
 
 **September 2024**
 
-Es wurde Hilfe zum Abonnieren [ Slack-Benachrichtigungen ](../features/account-preferences.md#subscribe-to-slack-notifications).
+Es wurde Hilfe zum Abonnieren [&#x200B; Slack-Benachrichtigungen &#x200B;](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 

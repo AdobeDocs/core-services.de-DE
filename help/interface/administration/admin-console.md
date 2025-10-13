@@ -111,4 +111,4 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 * [Zielgruppe](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
 
-Der Großteil der Admin Console-Hilfe für alle Adobe-Programme ist im [Enterprise- und Team-Administratorhandbuch“ ](https://helpx.adobe.com/de/enterprise/admin-guide.html).
+Der Großteil der Admin Console-Hilfe für alle Adobe-Programme ist im [Enterprise- und Team-Administratorhandbuch“ &#x200B;](https://helpx.adobe.com/de/enterprise/admin-guide.html).
