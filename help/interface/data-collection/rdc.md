@@ -11,12 +11,12 @@ ht-degree: 1%
 
 # Regionale Datenerfassung
 
-Die Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collection, RDC), damit die Interaktionen zwischen Ihren Besuchern und dem Adobe so nah wie möglich bei Ihren Besuchern stattfinden. Lokal an einer Edge-Site erfasste Daten werden zur Verarbeitung sicher an eine Core-Site weitergeleitet. Nach der Verarbeitung stehen die Daten für Adobe Experience Cloud-Produkte und -Services zur Verfügung.
+Die Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collection, RDC), damit die Interaktionen zwischen Ihren Besucherinnen und Besuchern und Adobe so nah wie möglich bei Ihren Besucherinnen und Besuchern stattfinden. Lokal an einer Edge-Site erfasste Daten werden zur Verarbeitung sicher an eine Core-Site weitergeleitet. Nach der Verarbeitung stehen die Daten für Adobe Experience Cloud-Produkte und -Services zur Verfügung.
 
 Der Workflow für die regionale Datenerfassung bietet mehrere Vorteile:
 
 * **Performance**: Mit RDC stellen Ihre Besucher eine Verbindung zur nächstgelegenen Edge-Site her. Diese Optimierung bietet die schnellste Reaktionszeit, was zu einer genaueren Verfolgung und schnelleren Ladezeiten führt.
-* **Redundanz**: Bei einer Unterbrechung der Kommunikation zwischen einem Edge-Standort und einem Core-Standort speichert die Adobe-Infrastruktur die Daten lokal und leitet sie bei der Wiederherstellung der Kommunikation an den Core-Standort weiter. Adobe kann auch Traffic zu anderen Edge-Standorten leiten, wenn an einem bestimmten Standort Unterbrechungen auftreten.
+* **Redundanz**: Wenn es zu einer Unterbrechung der Kommunikation zwischen einem Edge-Standort und einem Core-Standort kommt, speichert die Adobe-Infrastruktur die Daten lokal und leitet sie bei der Wiederherstellung der Kommunikation an den Core-Standort weiter. Adobe kann auch Traffic zu anderen Edge-Sites weiterleiten, wenn an einem bestimmten Ort Unterbrechungen auftreten.
 
 RDC umfasst derzeit die folgenden Speicherorte (kann sich ändern):
 
@@ -33,7 +33,7 @@ RDC umfasst derzeit die folgenden Speicherorte (kann sich ändern):
 
 {style="table-layout:auto"}
 
-_*Die regionale Datenerfassung für China erfordert das Add-on-Paket „Leistungsoptimierung für China“ und gilt nur für Adobe Analytics mithilfe der AppMeasurement-Datenerfassung. Andere Experience Cloud-Services und die Web SDK-Datenerfassung werden nicht unterstützt. Wenden Sie sich an Ihr Adobe-Account-Team, um mehr über das Add-on-Paket zur Leistungsoptimierung für China zu erfahren._
+_*Die regionale Datenerfassung für China erfordert das Add-on-Paket „China Performance Optimization“ und gilt nur für Adobe Analytics mithilfe der Datenerfassung von AppMeasurement. Andere Experience Cloud-Services und die Web-SDK-Datenerfassung werden nicht unterstützt. Wenden Sie sich an Ihr Adobe-Account-Team, um mehr über das Add-on-Paket zur Leistungsoptimierung für China zu erfahren._
 
 ## Datenerfassung durch Dritte
 

@@ -89,7 +89,7 @@ Sie können bei der Anmeldung eine Standardorganisation angeben.
 
 1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profil]** und dann auf Voreinstellungen.
 
-1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Standardorganisation aus.
+1. Wählen [!UICONTROL  unter ] eine Standardorganisation aus.
 
 
 ![Profil bearbeiten](../assets/edit-profile.png)
@@ -100,5 +100,5 @@ Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
-* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/de?support-solution=General&amp;lang=de#support).
+* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&lang=de#support).
 * Greifen Sie über die Standardanmeldung auf das Programm zu, solange das Problem nicht behoben ist.

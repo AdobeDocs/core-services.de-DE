@@ -57,7 +57,7 @@ Aus GSPM abgerufen:
          </a>
       </div>
       <p>
-         <em>Erstellen Sie leistungsstarke, markeninterne E-Mails und Meta-Anzeigen.</em>
+         <em>Erstellen Sie leistungsstarke markeninterne E-Mails und Meta-Anzeigen.</em>
       </p>
    </td>
    <td valign="top">
@@ -131,7 +131,7 @@ Aus GSPM abgerufen:
    <div>
       <a href="/help/user-guide/create/create-meta-ad.md">
       <img alt="Personen, die Dateien in einen Ordner verschieben" src="../assets/card-manage-content.png">
-      <strong>Erstellen eines Meta-Anzeigen-Erlebnisses</strong>
+      <strong>Erstellen eines Meta Ad-Erlebnisses</strong>
       </a>
    </div>
    <p>
@@ -179,7 +179,7 @@ Rufen Sie die das ![Menü](assets/menu-icon.png) der Programmauswahl auf, um auf
 
 ## Hilfe und Support {#support}
 
-Greifen Sie über das **[!UICONTROL Hilfezentrum]** (![Asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/de?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
+Greifen Sie über das **[!UICONTROL Hilfezentrum]** (![Asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
 ![Erhalten Sie Hilfe und Support](assets/search-menu.png)
 
@@ -220,7 +220,7 @@ Erfahren Sie mehr über die neuesten Verbesserungen der zentralen Komponenten de
 
 Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an einen [!DNL Slack] gesendet werden.
 
-[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences#notifications" tooltip="Informationen zu Slack"}
+[!BADGE Beta]{type=Informative url="https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#notifications" tooltip="Informationen zu Slack"}
 
 
 >[!TAB Neue Campaign Web-Benutzeroberfläche]
@@ -308,7 +308,7 @@ Einige wichtige Änderungen am FCM-Dienst (Android Firebase Cloud Messaging) wer
   </tr>
 </table>
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 [Adobe Campaign v8-Produktbeschreibung](https://helpx.adobe.com/de/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} – [Dokumentation der Web-Benutzeroberfläche von Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=de){target="_blank"} – [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html?lang=de){target="_blank"} – [[!DNL Adobe Campaign] Automatisierungshandbuch](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=de){target="_blank"} – [Control Panel für Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=de){target="_blank"}
 

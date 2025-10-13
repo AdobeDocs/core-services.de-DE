@@ -27,7 +27,7 @@ Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein F
 Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP durchgeführt werden:
 
 * Sie benötigen einen Client, der SFTP-Verbindungen unterstützt.
-* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=de) beschrieben.
+* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) beschrieben.
 
 **So laden Sie die Datendatei via FTP hoch**
 
@@ -49,7 +49,7 @@ Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP d
 
 Richten Sie pro Attributquelle ein FTP-Konto ein.
 
-Klicken Sie auf [!UICONTROL &#x200B; Seite „Datei-Upload und &#x200B;]&quot; auf **[!UICONTROL FTP-Setup]**.
+Klicken Sie auf [!UICONTROL  Seite „Datei-Upload und ]&quot; auf **[!UICONTROL FTP-Setup]**.
 
 ![Schema bearbeiten](assets/ftp-account.png)
 

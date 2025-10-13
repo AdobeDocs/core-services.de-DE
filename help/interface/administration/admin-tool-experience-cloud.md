@@ -10,20 +10,20 @@ level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 82%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
 # Anzeigen von Experience Cloud-Benutzern und -Richtlinien im [!UICONTROL Admin-Tool]
 
-Administratoren können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzer und -Richtlinien mit Details im [!UICONTROL Admin-Tool] anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören die Benutzenden-, Gruppen-, Entwickler-, Integrations- und Administratorliste einer Richtlinie (Produktprofil) sowie detaillierte Berechtigungen und Ressourceninformationen für die Richtlinie.
+Admins können eine sortierbare und filterbare Liste aller Experience Cloud-Benutzenden und -Richtlinien mit Details im [!UICONTROL Admin-Tool] anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören die Benutzenden-, Gruppen-, Entwickler-, Integrations- und Administratorliste einer Richtlinie (Produktprofil) sowie detaillierte Berechtigungen und Ressourceninformationen für die Richtlinie.
 
 1. Melden Sie sich bei `https://experience.adobe.com/.` an.
 
    ![Zugriff auf Admin Console](../assets/admin-tool.png)
 
-1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf **[!UICONTROL Admin-Tool]**.
+1. Klicken [!UICONTROL  unter &quot;]&quot; auf **[!UICONTROL Admin-Tool]**.
 
    (Alternativ können Sie in der Startseiten-URL _home_ durch _admin_ ersetzen.)
 
@@ -41,7 +41,7 @@ Auf dieser Seite wird die vollständige Liste der Benutzer mit Zugriff auf Exper
 | [!UICONTROL E-Mail] | Die mit dem Benutzer verknüpfte E-Mail-Adresse. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
 | [!UICONTROL ID-Typ] | Der Identitätstyp für das Konto des Benutzers. Es können Filter angewendet werden, um spezielle ID-Typen anzuzeigen. Weitere Informationen finden Sie unter [Verwalten von Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html). |
 | [!UICONTROL Lösungen] | Zusammenfassung der Experience Cloud-Programme, auf die der Benutzer zugreifen kann. Sie können Filter anwenden, um die Liste auf Benutzer mit Zugriff auf bestimmte Programme einzuschränken. |
-| [!UICONTROL Letzte Anmeldung] | Zeit und Datum der letzten Benutzeranmeldung beim Experience Cloud. Diese Spalte kann nach auf- oder absteigenden Datumsangaben sortiert werden. <br> **Wichtig:** Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Anmeldeaktivität auf Experience Cloud anzeigen und sind keine Empfehlung, vor dem 13. Januar 2020 Maßnahmen für inaktive Konten zu ergreifen. |
+| [!UICONTROL Letzte Anmeldung] | Uhrzeit und Datum der letzten Benutzeranmeldung bei Experience Cloud. Diese Spalte kann nach auf- oder absteigenden Datumsangaben sortiert werden. <br> **Wichtig:** Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Anmeldeaktivität in Experience Cloud anzeigen und sind keine Empfehlung, vor dem 13. Januar 2020 Maßnahmen für inaktive Konten zu ergreifen. |
 
 ## Anpassen der Benutzerlistenansicht
 
@@ -83,7 +83,7 @@ In diesem Abschnitt wird eine Zusammenfassung der Experience Cloud-Programme ang
 
 ## Detaillierte Liste des Produktzugriffs
 
-In diesem Abschnitt wird eine vollständige Liste aller Produktprofilmitgliedschaften für den Benutzer angezeigt.
+In diesem Abschnitt wird eine vollständige Liste aller Produktprofilzugehörigkeiten für den Benutzer angezeigt.
 
 | Element | Beschreibung |
 |---------|----------|
@@ -158,7 +158,7 @@ Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergrupp
 
 ## Detaillierte Listen zu Berechtigungen und Ressourcen
 
-Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Produktprofil verfügbar sind. Berechtigungen und Ressourcen, die im Produktprofil enthalten sind, sind mit einem ✔ gekennzeichnet. Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten geordnet. Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
+Dieser Abschnitt enthält eine vollständige Liste der Berechtigungen und Ressourcen, die für das Produktprofil verfügbar sind. Berechtigungen und Ressourcen, die im Produktprofil enthalten sind, wurden mit einem &quot;✔&quot; gekennzeichnet. Die Listen der Berechtigungen und Ressourcen wurden zur einfacheren Anzeige in Registerkarten und Spalten geordnet. Registerkarten und Spalten zeigen die Liste der Abschnitte an, die für das aktuelle Produkt gelten.
 
 ## Verwandte Informationen
 

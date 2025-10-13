@@ -12,7 +12,7 @@ ht-degree: 23%
 
 # Empfehlungen und Angebote für personalisierte Lerninhalte
 
-Adobe bietet Ihnen hilfreiche Inhalte, die auf Ihre Arbeit mit Ihren Adobe-Produkten zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [Experience Cloud-Voreinstellungen&rbrace; ](https://experience.adobe.com/preferences).
+Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [Experience Cloud-Voreinstellungen} ](https://experience.adobe.com/preferences) oder deaktivieren.
 
 <!-- ## Personalized training and support recommendations for your Adobe products and services
 

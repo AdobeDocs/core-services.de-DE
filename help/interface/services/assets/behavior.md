@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
 source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 99%
+source-wordcount: '627'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Richtlinien zum Verhalten freigegebener Ordner beim Verschieben, Löschen und Wi
 
 >[!NOTE]
 >
->Freigegebene Experience Cloud-Ordner und -Assets werden 1:1 auf dem Creative Cloud-Desktop gespiegelt. Wenn ein User von Experience Cloud einen Ordner ändert (löscht, hinzufügt oder die Freigabe entfernt), wird die Aktion im Creative Cloud-Desktop und im Web widergespiegelt. Wenn die Freigabe eines Ordners aufgehoben wird, werden daher der Ordner und die Assets vom lokalen Computer gelöscht. Nachdem die Freigabe aufgehoben wurde, werden der Ordner und sein Inhalt in den Papierkorb auf den lokalen Computer verschoben, von wo Sie sie manuell auf Ihrem Computer wiederherstellen können.
+>Freigegebene Experience Cloud-Ordner und -Assets werden auf dem Creative Cloud-Desktop in einer 1::1-Beziehung gespiegelt. Wenn ein User von Experience Cloud einen Ordner ändert (löscht, hinzufügt oder die Freigabe entfernt), wird die Aktion im Creative Cloud-Desktop und im Web widergespiegelt. Wenn die Freigabe eines Ordners aufgehoben wird, werden daher der Ordner und die Assets vom lokalen Computer gelöscht. Nachdem die Freigabe aufgehoben wurde, werden der Ordner und sein Inhalt in den Papierkorb auf den lokalen Computer verschoben, von wo Sie sie manuell auf Ihrem Computer wiederherstellen können.
 
 ## Nicht freigegebener Ordner in freigegebenen Ordner {#section_A9BAC1A244A246A984AC62660E61E0C0}
 

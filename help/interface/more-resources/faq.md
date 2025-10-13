@@ -11,7 +11,7 @@ exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 65%
+ht-degree: 76%
 
 ---
 
@@ -56,13 +56,13 @@ Obwohl sich Anwendungsteams zur globalen Sprachunterstützung verpflichten, werd
 
 +++
 
-+++Erstellt Adobe meinem Unternehmen Gebühren für den Zugriff auf Adobe Experience Cloud?
++++Verrechnet Adobe meinem Unternehmen den Zugriff auf Adobe Experience Cloud?
 
 Nein. Das Adobe Experience Cloud ist ohne Aufpreis im Preis inbegriffen. Bestimmte zentrale Dienste könnten jedoch zusätzliche Kosten verursachen.
 
 +++
 
-+++Warum muss sich mein Unternehmen über die Experience Cloud-Benutzeroberfläche anmelden?
++++Warum muss sich mein Unternehmen über die Experience Cloud-Oberfläche anmelden?
 
 Die Funktionen der Experience Cloud-Oberfläche bieten Ihrem Unternehmen einen neuen Mehrwert. Dies wird künftig auch der Standardpfad für den Zugriff auf Programme sein und letztlich andere individuelle Programmanmeldevorgänge ersetzen. Das Anmelden über Experience Cloud erleichtert später eine reibungslosere Transition.
 
@@ -99,7 +99,7 @@ Bereitstellung in Experience Cloud bedeutet:
 
 * Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
 
-* **Wichtig:** Analytics-Admins finden unter [Verwalten von Analytics-Benutzenden in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=de) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
+* **Wichtig:** Analytics-Admins finden unter [Verwalten von Analytics-Benutzenden in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
 
 +++
 
@@ -107,11 +107,11 @@ Bereitstellung in Experience Cloud bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General&lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 +++
 
-+++Wo kann ein Benutzer die Kontoverknüpfung verwalten?
++++Wo können Benutzer die Kontoverknüpfung verwalten?
 
 Einige Benutzende müssen unter Umständen ihr Programmkonto (Analytics) mit der Adobe ID oder Enterprise ID verknüpfen.
 
@@ -119,7 +119,7 @@ Siehe [Verknüpfen von Programmkonten mit einer Adobe ID](../administration/org
 
 +++
 
-+++Wie verwalte ich Benutzerkontenprofile und Organisationen?
++++Wie verwalte ich Benutzerkontoprofile und Organisationen?
 
 Siehe [Verwalten von Benutzerkonten](../administration/organizations.md).
 
@@ -137,13 +137,13 @@ Details hierzu finden Sie unter [Organisations-ID anzeigen](../administration/or
 
 +++
 
-+++Was sollte ich tun, wenn einer meiner Benutzer meine Firma verlässt?
++++Was muss ich tun, wenn einer meiner Benutzer meine Organisation verlässt?
 
 Dessen Zugang sollte direkt im Programm entfernt werden. Sie können auf das Produkt nicht über Experience Cloud oder die direkte Anmeldung zugreifen. Sie sollten sie auch auf Ebene von Experience Cloud entfernen.
 
 +++
 
-+++Was ist ein Adobe ID?
++++Was ist eine Adobe ID?
 
 Siehe [Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html).
 

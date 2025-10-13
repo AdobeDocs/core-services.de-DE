@@ -18,9 +18,9 @@ ht-degree: 4%
 
 # Adobe Managed Certificate Program
 
-Das Adobe-Managed Certificate Program (Programm für verwaltete Zertifikate) ist der empfohlene Prozess zum Einrichten von Erstanbieterzertifikaten, die für eine CNAME-Implementierung erforderlich sind. Das Programm ist nach der Konfiguration vollständig automatisiert. Zertifikate werden rechtzeitig erneuert, sodass sich die Datenerfassung aufgrund abgelaufener Zertifikate nicht auswirkt. Das Programm ist kostenlos für Ihre ersten 100 CNAMEs.
+Das Adobe-verwaltete Zertifikatsprogramm ist der empfohlene Prozess zum Einrichten von Erstanbieterzertifikaten, die für eine CNAME-Implementierung erforderlich sind. Das Programm ist nach der Konfiguration vollständig automatisiert. Zertifikate werden rechtzeitig erneuert, sodass sich die Datenerfassung aufgrund abgelaufener Zertifikate nicht auswirkt. Das Programm ist kostenlos für Ihre ersten 100 CNAMEs.
 
-Wenn Sie derzeit Ihre eigenen Zertifikate verwalten, sind Sie dafür verantwortlich, ein Zertifikat für die Verwendung von Erstanbieter-Cookies zu erwerben, zu pflegen und dem Adobe bereitzustellen. Sie können sich an die Adobe-Kundenunterstützung wenden, um die Migration zum Adobe-verwalteten Zertifikatsprogramm zu besprechen.
+Wenn Sie derzeit Ihre eigenen Zertifikate verwalten, sind Sie für den Kauf, die Verwaltung und die Bereitstellung eines Zertifikats für Adobe zur Verwendung von Erstanbieter-Cookies verantwortlich. Sie können sich an die Adobe-Kundenunterstützung wenden, um die Migration zum Adobe-verwalteten Zertifikatprogramm zu besprechen.
 
 ## Implementierung
 
@@ -28,11 +28,11 @@ Führen Sie die folgenden Schritte aus, um ein neues Zertifikat für die Erstanb
 
 1. Laden Sie das Anforderungsformular für [-Domains herunter und füllen Sie es aus](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 
-1. Öffnen Sie ein Ticket bei der Adobe-Kundenunterstützung, um die Erstanbieter-Datenerfassung im Adobe-verwalteten Zertifikatsprogramm einzurichten.
+1. Öffnen Sie ein Ticket bei der Adobe-Kundenunterstützung, um die Erstanbieter-Datenerfassung für das von Adobe verwaltete Zertifikatsprogramm einzurichten.
 
-1. Nach Erhalt des Tickets stellt Ihnen der Adobe-Repräsentant einen CNAME-Eintrag zur Verfügung. Diese Datensätze müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Beispielsweise verweist der Hostname-`data.example.com` auf `hiodsibxvip01.data.adobedc.net`.
+1. Nach Erhalt des Tickets stellt Ihnen der Adobe-Support einen CNAME-Datensatz zur Verfügung. Diese Einträge müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Beispielsweise verweist der Hostname-`data.example.com` auf `hiodsibxvip01.data.adobedc.net`.
 
-1. Wenn der CNAME-Eintrag auf den Servern Ihres Unternehmens vorhanden ist, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf Adobe-Datenerfassungsservern.
+1. Wenn der CNAME-Eintrag auf den Servern Ihres Unternehmens vorhanden ist, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Datenerfassungsservern von Adobe.
 
 ## Überprüfen der Hostnamenweiterleitung {#validate}
 
@@ -40,7 +40,7 @@ Nachdem Adobe das Zertifikat installiert hat, können Sie eine der folgenden Met
 
 +++**Browser-Validierung**
 
-Sie können jeden Browser verwenden, um zu überprüfen, ob ein Zertifikat korrekt installiert ist. Geben Sie Ihren CNAME mit `_check` als Pfad in die Adressleiste ein. z. B.:
+Sie können jeden Browser verwenden, um zu überprüfen, ob ein Zertifikat korrekt installiert ist. Geben Sie Ihren CNAME mit `_check` als Pfad in die Adressleiste ein. Beispiel:
 
 `data.example.com/_check`
 
@@ -94,22 +94,22 @@ Aliases: smetrics.example.com
 
 Nachdem Sie überprüft haben, ob Ihr Zertifikat ordnungsgemäß funktioniert, können Sie Ihre Adobe-Implementierung aktualisieren, um diese Werte zu verwenden.
 
-* Aktualisieren Sie bei Adobe Analytics AppMeasurement-Implementierungen die [`trackingServer`](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/config-vars/trackingserver) Konfigurationsvariable . Wenn Sie über eine vorhandene Implementierung verfügen, finden Sie [Besuchermigration](https://experienceleague.adobe.com/de/docs/analytics/technotes/visitor-migration) weitere Schritte, um zu verhindern, dass vorhandene Besucher als neue Besucher gezählt werden.
-* Bei Web-SDK-Implementierungen aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/edgedomain)-Eigenschaft im [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview).
+* Aktualisieren Sie bei Adobe Analytics AppMeasurement-Implementierungen die [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) Konfigurationsvariable . Wenn Sie über eine vorhandene Implementierung verfügen, finden Sie [Besuchermigration](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) weitere Schritte, um zu verhindern, dass vorhandene Besucher als neue Besucher gezählt werden.
+* Bei Web-SDK-Implementierungen aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)-Eigenschaft im [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
 
 ## Wartung und Erneuerung
 
-Adobe überprüft 30 Tage vor Ablauf Ihres Erstanbieterzertifikats, ob der CNAME noch gültig und in Verwendung ist. Wenn ja, geht Adobe davon aus, dass Sie den Service weiterhin verwenden möchten, und erneuert das Zertifikat automatisch in Ihrem Namen.
+Dreißig Tage vor Ablauf Ihres Erstanbieterzertifikats überprüft Adobe, ob der CNAME noch gültig und in Verwendung ist. Wenn ja, geht Adobe davon aus, dass Sie den Service weiterhin verwenden möchten, und erneuert das Zertifikat automatisch in Ihrem Namen.
 
 >[!IMPORTANT]
 >
->Wenn der CNAME-Eintrag Ihres Unternehmens entfernt wurde oder nicht mehr dem bereitgestellten sicheren Adobe-Hostnamen zugeordnet ist, kann Adobe das Zertifikat nicht verlängern. Der Eintrag im Adobe-System wird ohne weitere Mitteilung zur Entfernung markiert.
+>Wenn der CNAME-Eintrag Ihres Unternehmens entfernt wurde oder nicht mehr dem bereitgestellten sicheren Adobe-Hostnamen zugeordnet ist, kann Adobe das Zertifikat nicht verlängern. Der Eintrag im System von Adobe wird ohne weitere Mitteilung zur Entfernung markiert.
 
 ## Häufig gestellte Fragen
 
 +++Ist dieser Prozess sicher?
 
-Ja. Das Adobe-verwaltete Zertifikatsprogramm ist sicherer als die Bereitstellung eines Zertifikats für Adobe durch Ihr Unternehmen. Außerhalb des Adobe und der ausstellenden Zertifizierungsstelle wechselt kein Zertifikat bzw. kein privater Schlüssel den Besitzer.
+Ja. Das von Adobe verwaltete Zertifikatsprogramm ist sicherer als die Bereitstellung eines Zertifikats für Adobe durch Ihr Unternehmen. Außerhalb von Adobe und der ausstellenden Zertifizierungsstelle ändert sich kein Zertifikat oder privater Schlüssel.
 
 +++
 
@@ -127,7 +127,7 @@ Ja. Als Eigentümer der Domain sind Sie berechtigt, den Widerruf des Zertifikats
 
 +++Welcher Verschlüsselungstyp wird verwendet?
 
-Adobe arbeitet mit DigiCert zusammen, um ein SHA-2-Zertifikat auszustellen.
+Adobe stellt in Zusammenarbeit mit DigiCert ein SHA-2-Zertifikat aus.
 
 +++
 
@@ -155,7 +155,7 @@ Es ist bekannt, dass die folgenden Clients keine Verbindung mit der auf „Hoch�
 
 +++Welche HTTPS-Zertifikatstypen werden unterstützt?
 
-Adobe unterstützt sowohl RSA- als auch ECC-Zertifikatstypen, um unterschiedlichen Kundenanforderungen gerecht zu werden. RSA-Zertifikate werden für Clients häufiger unterstützt, aber ECC-Zertifikate verbrauchen sowohl auf Server- als auch auf Client-Seite weniger Verarbeitung. Für Adobe-verwaltete Zertifikate werden sowohl RSA als auch ECC bereitgestellt. Für kundenverwaltete Zertifikate ist eine RSA erforderlich, und es wird eine ECC empfohlen. Moderne Clients unterstützen sowohl RSA als auch ECC. Die folgenden Clients unterstützen in der Regel nur RSA-Zertifikate:
+Adobe unterstützt sowohl RSA- als auch ECC-Zertifikatstypen, um unterschiedlichen Kundenanforderungen gerecht zu werden. RSA-Zertifikate werden für Clients häufiger unterstützt, aber ECC-Zertifikate verbrauchen sowohl auf Server- als auch auf Client-Seite weniger Verarbeitung. Für von Adobe verwaltete Zertifikate werden sowohl RSA als auch ECC bereitgestellt. Für kundenverwaltete Zertifikate ist eine RSA erforderlich, und es wird eine ECC empfohlen. Moderne Clients unterstützen sowohl RSA als auch ECC. Die folgenden Clients unterstützen in der Regel nur RSA-Zertifikate:
 
 * Windows Vista und früher (zuletzt aktualisiert 2012)
 * Windows Phone 8.0 und niedriger (zuletzt aktualisiert 2014)

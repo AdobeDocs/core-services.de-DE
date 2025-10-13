@@ -65,7 +65,7 @@ So liefert z. B. _Wie man ein Schema erstellt_ Ergebnisse von Experience League 
 
 ![Einheitliche Suche in der Experience Cloud-Hilfe](../assets/unified-search-learning.png)
 
-Suchalgorithmen zeigen zuerst die relevantesten Datensätze an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
+Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 
 * Benutzerberechtigungen für den Zugriff auf Objekte
 * Prozentsatz der Übereinstimmung
