@@ -129,7 +129,7 @@ In der folgenden Tabelle werden die in einem `dextp`-Cookie enthaltenen Elemente
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Zweck</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=de" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 

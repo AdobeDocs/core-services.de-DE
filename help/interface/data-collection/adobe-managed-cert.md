@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 Nachdem Sie überprüft haben, ob Ihr Zertifikat ordnungsgemäß funktioniert, können Sie Ihre Adobe-Implementierung aktualisieren, um diese Werte zu verwenden.
 
-* Aktualisieren Sie bei Adobe Analytics AppMeasurement-Implementierungen die [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) Konfigurationsvariable . Wenn Sie über eine vorhandene Implementierung verfügen, finden Sie [Besuchermigration](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) weitere Schritte, um zu verhindern, dass vorhandene Besucher als neue Besucher gezählt werden.
-* Bei Web-SDK-Implementierungen aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain)-Eigenschaft im [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
+* Aktualisieren Sie bei Adobe Analytics AppMeasurement-Implementierungen die [`trackingServer`](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/config-vars/trackingserver) Konfigurationsvariable . Wenn Sie über eine vorhandene Implementierung verfügen, finden Sie [Besuchermigration](https://experienceleague.adobe.com/de/docs/analytics/technotes/visitor-migration) weitere Schritte, um zu verhindern, dass vorhandene Besucher als neue Besucher gezählt werden.
+* Bei Web-SDK-Implementierungen aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/edgedomain)-Eigenschaft im [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview).
 
 ## Wartung und Erneuerung
 

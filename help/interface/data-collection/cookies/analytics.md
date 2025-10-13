@@ -32,13 +32,13 @@ Analytics verwendet Cookies, um neue Besucher anonym zu definieren, Klickdaten z
 
 ## Von Plug-ins eingestellte Cookies
 
-Bei einigen Implementierungen werden Plug-ins verwendet, bei denen es sich um Code-Ausschnitte handelt, die zusätzliche Funktionen für Analytics bieten. Diese Plug-ins können Cookies setzen, die oben nicht aufgeführt sind. Unter [Übersicht über Analytics-Plug](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) finden Sie eine Liste der verfügbaren Plug-ins und der von ihnen gesetzten Cookies.
+Bei einigen Implementierungen werden Plug-ins verwendet, bei denen es sich um Code-Ausschnitte handelt, die zusätzliche Funktionen für Analytics bieten. Diese Plug-ins können Cookies setzen, die oben nicht aufgeführt sind. Unter [Übersicht über Analytics-Plug](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/plugins/impl-plugins) finden Sie eine Liste der verfügbaren Plug-ins und der von ihnen gesetzten Cookies.
 
 ## Folgen des Löschens von Analytics-Cookies
 
 Wenn ein Besucher seine Analytics-Cookies löscht, sollten Sie Folgendes beachten:
 
-* **Besucheridentifizierung geht verloren:** Wenn Cookies gelöscht werden, kann Adobe Analytics wiederkehrende Besucher nicht erkennen. Wenn der Benutzer das nächste Mal Ihre Site besucht, wird er als neuer Besucher gezählt. [Geräteübergreifende Analyse](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview) kann diese Auswirkungen mildern.
+* **Besucheridentifizierung geht verloren:** Wenn Cookies gelöscht werden, kann Adobe Analytics wiederkehrende Besucher nicht erkennen. Wenn der Benutzer das nächste Mal Ihre Site besucht, wird er als neuer Besucher gezählt. [Geräteübergreifende Analyse](https://experienceleague.adobe.com/de/docs/analytics/components/cda/overview) kann diese Auswirkungen mildern.
 * **Die Sitzungskontinuität ist unterbrochen** Alle sitzungsbasierten oder besuchsübergreifenden Analysen (z. B. Attributions- oder Konversionsverfolgung) sind unterbrochen. Ereignisse und Konversionen, die nach dem Löschen von Cookies auftreten, können nicht von demselben Benutzer mit vorherigen Aktivitäten verknüpft werden.
 * **Personalization und die Segmentierung sind davon betroffen:** Segmente oder personalisierte Erlebnisse, die auf dem Besucherverlauf oder dem Verhalten basieren, werden zurückgesetzt, da frühere Daten nicht mehr mit ihrem aktuellen Besuch verknüpft sind.
 * **Domain-übergreifendes Tracking wird unterbrochen:** Wenn Sie Cookies von Drittanbietern löschen, verhindert das Löschen, dass Adobe Analytics Benutzeraktivitäten über mehrere Domains hinweg verknüpft, deren Inhaber Sie sind.
