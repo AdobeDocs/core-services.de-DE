@@ -41,7 +41,7 @@ Erfahren Sie mehr über die Verfügbarkeit von KI-Agenten und unterstützten Anw
 
 * [KI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) Dokumentations-Startseite
 
-[!BADGE Weitere Informationen zu Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Navigieren Sie zu Business.adobe.com ."}
+[!BADGE Weitere Informationen zu Adobe for Business]{type=Informative url="https://business.adobe.com/de/products/experience-platform/agent-orchestrator.html" tooltip="Navigieren Sie zu Business.adobe.com ."}
 
 
 
