@@ -5,7 +5,7 @@ breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: 2cc76688e37afa0a0f68e3066fede18b8d3918e6
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 100%
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Benutzeroberfläche und Verwaltung von Experience Cloud {#interface}
 
 + [Benutzeroberfläche und Verwaltung von Experience Cloud](experience-cloud.md)
-
 + Dienste {#services}
    + [Überblick](services/overview.md)
    + [Erste Schritte](services/getting-started.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
       + [Unterstützung für den CCPA](services/customer-attributes/ccpa.md)
       + [Überlegungen zum Datenschutz](services/customer-attributes/privacy-mac.md)
    + [Trigger](services/triggers.md)
-
 + Funktionen {#features}
    + [Kontovoreinstellungen und Benachrichtigungen](features/account-preferences.md)
    + [Generative KI](features/generative-ai.md)
@@ -52,13 +50,11 @@ ht-degree: 100%
    + [Einheitliche Suche](features/search.md)
    + [Personalisierte Lerninhalte](features/personalized-learning.md)
    + [Browser- und Sprachunterstützung](browser-language.md)
-
 + Administration {#administration}
    + [Benutzerverwaltung und Produktlizenzen](administration/admin-console.md)
    + [Anzeigen von Benutzerdetails (Admin-Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationen](administration/organizations.md)
    + [Experience Cloud-Integrationen](administration/integrations.md)
-
 + Datenerfassung {#data-collection}
    + [Adobe Managed Certificate Program](data-collection/adobe-managed-cert.md)
    + [IP-Adressen](data-collection/ip-addresses.md)
@@ -73,10 +69,8 @@ ht-degree: 100%
       + [Cookies im Web SDK](data-collection/cookies/web-sdk.md)
    + [Regionale Datenerfassung](data-collection/rdc.md)
    + [Verwenden des DNS-Vorabrufs](data-collection/dns-prefetch.md)
-
 + Versionshinweise und Ressourcen {#more-resources}
    + [Versionshinweise](more-resources/release-notes.md)
    + [Dokumentationsaktualisierungen](more-resources/doc-updates.md)
    + [Häufig gestellte Fragen](more-resources/faq.md)
    + [Terminologie](more-resources/terms.md)
-
