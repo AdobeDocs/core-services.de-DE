@@ -80,7 +80,7 @@ Klicken Sie auf die Programmauswahl ![Menü](assets/menu-icon.png), um auf die v
 
 ## Suche und Support in Experience Cloud {#search-support}
 
-Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen.
+Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/de?lang=de#home) suchen.
 
 ![Suche und Support in Experience Cloud](assets/search-menu.png)
 
