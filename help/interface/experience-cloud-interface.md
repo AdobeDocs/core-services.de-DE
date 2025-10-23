@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 76d14913c00e2924f65ebada353ba94760227691
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 79%
@@ -21,7 +21,7 @@ Die zentralen Komponenten der Benutzeroberfläche von Experience Cloud umfassen 
 * der globalen Suche nach Produkthilfe und Geschäftsobjekten suchen können
 * Kontoeinstellungen verwalten können (Warnhinweise, Benachrichtigungen und Abonnements)
 
-## Browser-Unterstützung in Experience Cloud {#browser}
+## Browser-Unterstützung in Experience Cloud
 
 Für eine optimale Performance wurde Experience Cloud für die beliebtesten Browser optimiert, jeweils sowohl für deren neueste Version als auch für die beiden Vorgängerversionen.
 
@@ -37,7 +37,7 @@ Wenn Ihr Browser nicht aufgeführt ist, wird er möglicherweise trotzdem unterst
 >
 >Nicht alle Anwendungen, die auf der Experience Cloud-Domain ausgeführt werden, unterstützen alle Browser. Wenn Sie sich nicht sicher sind, lesen Sie die Dokumentation zu einem bestimmten Programm.
 
-## Sprachunterstützung in Experience Cloud {#languages}
+## Sprachunterstützung in Experience Cloud
 
 Experience Cloud unterstützt bevorzugte Sprachen für jeden Benutzer, wie in den Voreinstellungen Ihres Adobe-Benutzerkontos festgelegt. Derzeit werden folgende Sprachen unterstützt:
 
@@ -54,7 +54,7 @@ Experience Cloud unterstützt bevorzugte Sprachen für jeden Benutzer, wie in de
 
 Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre Primärsprache in einem Experience Cloud-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter [Benutzervoreinstellungen für Experience Cloud](https://experience.adobe.com/preferences) durchgeführt werden.
 
-## Melden Sie sich bei Experience Cloud an {#signin}
+## Melden Sie sich bei Experience Cloud an
 
 Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen Organisation befinden.
 
@@ -70,7 +70,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen Organi
 
    Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-## Zugriff auf Experience Cloud-Anwendungen {#navigation}
+## Zugriff auf Experience Cloud-Anwendungen
 
 Nach der Anmeldung bei Experience Cloud können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Dienste und Organisationen zugreifen.
 
@@ -78,9 +78,9 @@ Klicken Sie auf die Programmauswahl ![Menü](assets/menu-icon.png), um auf die v
 
 ![Zugriff auf Experience Cloud-Programme](assets/platform-core-services.png)
 
-## Suche und Support in Experience Cloud {#search-support}
+## Suche und Support in Experience Cloud
 
-Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/de?lang=de#home) suchen.
+Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen.
 
 ![Suche und Support in Experience Cloud](assets/search-menu.png)
 
@@ -91,7 +91,7 @@ Das [!UICONTROL Help] Menü bietet außerdem Zugriff auf:
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und überprüfen Sie den Betriebsstatus und die [!UICONTROL Manage Subscriptions] des Produkts.
 * **[!UICONTROL Developer Connection]:** Navigation zum `adobe.io` und zur Entwicklerdokumentation.
 
-## Kontoeinstellungen {#account-menu}
+## Kontoeinstellungen
 
 Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
@@ -100,11 +100,11 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 * Abmelden
 * [Einstellungen, Benachrichtigungen und Abonnements](#preferences) für das Konto konfigurieren
 
-### Verwalten von Experience Cloud [!UICONTROL Preferences] {#preferences}
+### Verwalten von Experience Cloud [!UICONTROL Preferences]
 
 Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
-* Klicken Sie im Kontomenü **[!UICONTROL Preferences]** Einstellungen![&#x200B; auf &#x200B;](assets/preferences-icon-sm.png) , um die Einstellungen zu verwalten.
+* Klicken Sie im Kontomenü **[!UICONTROL Preferences]** Einstellungen![ auf ](assets/preferences-icon-sm.png) , um die Einstellungen zu verwalten.
 
 ![Verwalten von Experience Cloud](assets/preferences-page.png)
 
@@ -120,7 +120,7 @@ In [!UICONTROL Experience Cloud preferences] können Sie die folgenden Funktione
 
 {style="table-layout:auto"}
 
-## Benachrichtigungen und Ankündigungen {#notifications}
+## Benachrichtigungen und Ankündigungen
 
 Klicken Sie auf **[!UICONTROL Notifications]** , um Benachrichtigungen, die für Sie wichtig sind, sowie Ankündigungen von Adobe anzuzeigen.
 

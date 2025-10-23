@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: e31b3e591a9342230f0f2a9287aedf715423fd60
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 3%
@@ -31,7 +31,7 @@ Führen Sie die folgenden Schritte aus, um ein neues Zertifikat für die Erstanb
 1. Nach Erhalt des Tickets stellt Ihnen der Adobe-Support einen CNAME-Datensatz zur Verfügung. Diese Einträge müssen auf dem DNS-Server Ihres Unternehmens konfiguriert werden, bevor Adobe das Zertifikat in Ihrem Namen erwerben kann. Beispielsweise verweist der Hostname-`data.example.com` auf `hiodsibxvip01.data.adobedc.net`.
 1. Wenn der CNAME-Eintrag auf den Servern Ihres Unternehmens vorhanden ist, kauft und installiert Adobe gemeinsam mit DigiCert ein Zertifikat auf den Datenerfassungsservern von Adobe.
 
-## Überprüfen der Hostnamenweiterleitung {#validate}
+## Überprüfen der Hostnamenweiterleitung
 
 Nachdem Adobe das Zertifikat installiert hat, können Sie eine der folgenden Methoden verwenden, um zu überprüfen, ob es funktioniert.
 
@@ -87,14 +87,14 @@ Aliases: smetrics.example.com
 
 +++
 
-## Aktualisierung des Implementierungscodes {#update}
+## Aktualisierung des Implementierungscodes
 
 Nachdem Sie überprüft haben, ob Ihr Zertifikat ordnungsgemäß funktioniert, können Sie Ihre Adobe-Implementierung aktualisieren, um diese Werte zu verwenden.
 
-* **Web SDK-Tag** Erweiterung: Aktualisieren Sie das Feld [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) beim Konfigurieren der Erweiterung.
-* **Web SDK (Legierung)**: Aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/edgedomain) Eigenschaft im [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview).
-* **Adobe Analytics-Erweiterung**: Aktualisieren Sie das Feld &quot;[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview)&quot;, wenn Sie die Erweiterung konfigurieren. Stellen Sie sicher, dass Sie auch [&#x200B; Tag-Erweiterung „Visitor ID Service](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview) installiert haben. Weitere [&#x200B; finden Sie unter „Besucheridentifizierung mit der Tag](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)Erweiterung für Analytics“.
-* **AppMeasurement**: Aktualisieren Sie die [`trackingServerSecure`](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/config-vars/trackingserversecure) Konfigurationsvariable. Stellen Sie sicher, dass Sie auch den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) mit `VisitorAPI.js` implementiert haben. AppMeasurement Weitere Informationen [&#x200B; Sie unter „Besucheridentifizierung mit &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)&quot;.
+* **Web SDK-Tag** Erweiterung: Aktualisieren Sie das Feld [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) beim Konfigurieren der Erweiterung.
+* **Web SDK (Legierung)**: Aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) Eigenschaft im [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview).
+* **Adobe Analytics-Erweiterung**: Aktualisieren Sie das Feld &quot;[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)&quot;, wenn Sie die Erweiterung konfigurieren. Stellen Sie sicher, dass Sie auch [ Tag-Erweiterung „Visitor ID Service](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) installiert haben. Weitere [ finden Sie unter „Besucheridentifizierung mit der Tag](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)Erweiterung für Analytics“.
+* **AppMeasurement**: Aktualisieren Sie die [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure) Konfigurationsvariable. Stellen Sie sicher, dass Sie auch den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) mit `VisitorAPI.js` implementiert haben. AppMeasurement Weitere Informationen [ Sie unter „Besucheridentifizierung mit ](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)&quot;.
 
 Wenn Ihre Site mehrere Implementierungsmethoden verwendet und Sie nicht alle gleichzeitig aktualisieren können, sollten Sie eine Übergangsphase konfigurieren. Unter [Überlegungen zur Migration des Besucher-ID](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)Service finden Sie weitere Schritte, um zu verhindern, dass Besucher auf Ihrer Site als neue Besucher gezählt werden.
 
@@ -168,5 +168,5 @@ Adobe unterstützt sowohl RSA- als auch ECC-Zertifikatstypen, um unterschiedlich
 
 +++Kann ich stattdessen meine eigenen Zertifikate verwalten?
 
-Ja. Wenn Sie jedoch Ihre eigenen Zertifikate verwalten, sind Sie für die Erneuerung Ihrer Zertifikate und deren Bereitstellung für Adobe bei jeder Erneuerung verantwortlich. Dieser Prozess ist weniger sicher und kann zu Datenverlust führen, wenn Ihr Unternehmen vergisst, ein Zertifikat rechtzeitig zu erneuern. Adobe empfiehlt, das verwaltete Zertifikatprogramm zu verwenden, anstatt Zertifikate selbst zu verwalten, insbesondere aufgrund der Verkürzung der maximalen Lebensdauer von TLS-Zertifikaten. Weitere Informationen finden Sie unter [6.3.1 Archivierung &#x200B;](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) öffentlichen Schlüssels) in den Grundanforderungen für Zertifikate des CA/Browser-Forums.
+Ja. Wenn Sie jedoch Ihre eigenen Zertifikate verwalten, sind Sie für die Erneuerung Ihrer Zertifikate und deren Bereitstellung für Adobe bei jeder Erneuerung verantwortlich. Dieser Prozess ist weniger sicher und kann zu Datenverlust führen, wenn Ihr Unternehmen vergisst, ein Zertifikat rechtzeitig zu erneuern. Adobe empfiehlt, das verwaltete Zertifikatprogramm zu verwenden, anstatt Zertifikate selbst zu verwalten, insbesondere aufgrund der Verkürzung der maximalen Lebensdauer von TLS-Zertifikaten. Weitere Informationen finden Sie unter [6.3.1 Archivierung ](https://cabforum.org/working-groups/server/baseline-requirements/requirements/#632-certificate-operational-periods-and-key-pair-usage-periods) öffentlichen Schlüssels) in den Grundanforderungen für Zertifikate des CA/Browser-Forums.
 +++

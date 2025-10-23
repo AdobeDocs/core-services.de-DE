@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: f83ddfe82a55c6b88cf35a14b030d9b82c17f16d
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '572'
 ht-degree: 50%
 
 ---
@@ -23,7 +23,7 @@ Die Organisation funktioniert wie ein Unternehmen mit Anmeldung, das alle Experi
 
 ![Experience Cloud-Organisationen](../assets/organizations-menu.png)
 
-Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf **[!UICONTROL Profil]**, um den standardmäßigen Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
+Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf **[!UICONTROL Profile]** , um den Standardorganisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
 
 >[!NOTE]
 >
@@ -35,9 +35,9 @@ Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich durch ein Single 
 
 Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-## Organisations-ID anzeigen {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Organisations-ID anzeigen
 
-Sie können die zugewiesene Organisations-ID zu Support-Zwecken finden. Mit der Auswahl „Organisation“ in der Kopfzeile können Sie überprüfen **[!UICONTROL ob Sie sich in der richtigen]** befinden, oder zwischen Organisationen wechseln.
+Sie können die zugewiesene Organisations-ID zu Support-Zwecken finden. Mit der **[!UICONTROL Organization]** in der Kopfzeile können Sie überprüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
 
 Die Organisations-ID ist die ID, die Ihrem freigeschalteten Experience Cloud-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von `@AdobeOrg` (zwingend erforderlich).
 
@@ -49,7 +49,7 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
    ![Zugewiesene Organisations-ID](../assets/assigned-organization.png)
 
-1. Suchen Sie **[!UICONTROL Benutzerinformationen]** nach **[!UICONTROL Aktuelle Organisations-ID]**, und Sie können die Organisations-ID finden.
+1. Suchen Sie unter **[!UICONTROL User Information]** nach **[!UICONTROL Current Org ID]** und Sie können die Organisations-ID finden.
 
    Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und Ihre Organisations-ID in der URL sehen.
 
@@ -61,7 +61,7 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Verknüpfen eines Programmkontos mit einer Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
+## Verknüpfen eines Programmkontos mit einer Adobe ID
 
 In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen eines Programms mit einer Adobe ID verknüpfen.
 
@@ -69,7 +69,7 @@ In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme un
 
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
 
-1. Klicken Sie auf **[!UICONTROL Anwendungsauswahl]**. ( ![Menü](../assets/apps-icon.png)).
+1. Klicken Sie auf die **[!UICONTROL Application selector]**. ( ![Menü](../assets/apps-icon.png)).
 
    ![Verknüpfen eines Programmkontos mit einer Adobe ID](../assets/solutions-active.png)
 
@@ -81,24 +81,24 @@ In der Regel gewähren Experience Cloud-Administratoren Zugriff auf Programme un
 
    Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldedaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
 
-1. Klicken Sie auf **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldedaten ein.
+1. Klicken Sie auf **[!UICONTROL Link Account]** und geben Sie Ihre Anmeldeinformationen ein.
 
-## Standardorganisation angeben {#concept_6A191B42A9874A9780882903BA18F071}
+## Standardorganisation angeben
 
 Sie können bei der Anmeldung eine Standardorganisation angeben.
 
-1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profil]** und dann auf Voreinstellungen.
+1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profile]** und dann auf Voreinstellungen.
 
-1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Standardorganisation aus.
+1. Wählen Sie unter [!UICONTROL General] eine Standardorganisation aus.
 
 
 ![Profil bearbeiten](../assets/edit-profile.png)
 
-## Problembehebung für Kontoverknüpfungen {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
+## Problembehebung für Kontoverknüpfungen
 
 Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
-* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support).
+* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&lang=de#support).
 * Greifen Sie über die Standardanmeldung auf das Programm zu, solange das Problem nicht behoben ist.

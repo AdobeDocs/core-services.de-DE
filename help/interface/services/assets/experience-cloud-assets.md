@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 86%
 
 ---
 
@@ -31,13 +31,13 @@ Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und b
 * **[!DNL Adobe Campaign]**: Fügen Sie Assets in E-Mail-Newslettern und Kampagnen ein.
 
 
-## Navigieren zu Experience Cloud-Assets {#section_3657039DD3524F2AA88753BFF4781125}
+## Navigieren zu Experience Cloud-Assets
 
 ![Zu Experience Cloud Assets navigieren](../../assets/asset-nav.png)
 
-## Auf die Symbolleiste zugreifen {#section_EC2E401D225148818F3753248556BE6B}
+## Auf die Symbolleiste zugreifen
 
-Navigieren Sie zu einem Asset (oder Asset-Verzeichnis) und klicken Sie auf **[!UICONTROL Auswählen]**.
+Navigieren Sie zu einem Asset (oder Asset-Verzeichnis) und klicken Sie auf **[!UICONTROL Select]**.
 
 Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche, Timeline, Darstellungen, Bearbeiten, Anmerkungen und Herunterladen.
 
@@ -47,7 +47,7 @@ Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche,
 >
 >Assets müssen aus Adobe Target-Aktivitäten entfernt werden, bevor Sie sie erfolgreich aus [!DNL Target] löschen können.
 
-## Assets bearbeiten {#section_CD3C55A9D4574455B94D0955391C8FEC}
+## Assets bearbeiten
 
 Die Bearbeitung eines Assets ermöglicht Funktionen wie:
 
@@ -57,36 +57,36 @@ Die Bearbeitung eines Assets ermöglicht Funktionen wie:
 
 ![Assets bearbeiten](../../assets/asset-edit.png)
 
-## Nach Assets suchen {#section_50FE049010B446FC9640AA6A30E5A730}
+## Nach Assets suchen
 
 Sie können nach Keyword, Dateityp, Größe, Änderungsdatum, Veröffentlichungsstatus, Ausrichtung und Stil suchen.
 
 ![Nach Assets suchen](../../assets/asset-search.png)
 
-## Anmerkungen zu Assets vornehmen {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
+## Anmerkungen zu Assets vornehmen
 
-Klicken Sie auf **[!UICONTROL Anmerken]** und zeichnen Sie Kreise oder Pfeile auf ein Bild und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
+Klicken Sie auf **[!UICONTROL Annotate]**, indem Sie Kreise oder Pfeile auf ein Bild zeichnen, und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
 
 ![Anmerkungen zu Assets vornehmen](../../assets/assets-annotate.png)
 
-## Assets im Vollbildmodus anzeigen und Zoomen {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
+## Assets im Vollbildmodus anzeigen und Zoomen
 
-Klicken Sie auf **[!UICONTROL Ansichten]** > **[!UICONTROL Bild]**, wenn Sie das vollständige Bild des Assets anzeigen und das Zoomen aktivieren möchten.
+Klicken Sie auf **[!UICONTROL Views]** > **[!UICONTROL Image]** , um das vollständige Bild des Assets anzuzeigen und das Zoomen zu aktivieren.
 
 ![Assets im Vollbildmodus anzeigen](../../assets/asset-zoom.png)
 
-## Asset-Eigenschaften anzeigen {#section_FED28711DAB14E1BBEEA7CA890EE9573}
+## Asset-Eigenschaften anzeigen
 
 Treffen Sie eine Auswahl zwischen der Kartenansicht mit Eigenschaften, der Listenansicht und der Spaltenansicht, um Ihr Asset möglichst schnell zu finden.
 
-Klicken Sie auf **[!UICONTROL Ansichten]** > **[!UICONTROL Eigenschaften]**, um die Eigenschaften eines Assets anzuzeigen:
+Klicken Sie auf **[!UICONTROL Views]** > **[!UICONTROL Properties]** , um die Eigenschaften eines Assets anzuzeigen:
 
 ![Asset-Eigenschaften anzeigen](../../assets/asset-properties.png)
 
-## Gebrauchsberichte ausführen {#section_15D782FFB8D74CF4A735116CC03AD902}
+## Gebrauchsberichte ausführen
 
 Anzahl der Benutzer, belegten Speicherplatz und Gesamtzahl der Assets anzeigen.
 
-Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Berichte]** > **[!UICONTROL Gebrauchsbericht]**.
+Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![Gebrauchsberichte ausführen](../../assets/assets-usage-report.png)

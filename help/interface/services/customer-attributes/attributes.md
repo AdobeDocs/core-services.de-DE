@@ -7,22 +7,22 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 80%
+source-wordcount: '304'
+ht-degree: 81%
 
 ---
 
 # [!DNL Customer Attributes] in Experience Cloud
 
-**[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL Apps]** ![Menü](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
 Mit [!DNL Customer Attributes] in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können [die Daten hochladen](t-crs-usecase.md) in eine [!DNL Customer Attributes] Datenquelle in Experience Cloud und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
 
 ![Übersicht über Kundenattribute](assets/custom_reports.png)
 
-## Was sind Enterprise-Kundendaten? {#enterprise_data}
+## Was sind Enterprise-Kundendaten?
 
 Enterprise-Daten befinden sich in anderen Systemen. Sie können komplex sein und verschiedene Bedeutungen für verschiedene Personen haben. Diese Daten können Informationen wie Zugehörigkeiten, Treueebene, Alter, Geschlecht, eigene Produkte, Interessen und Lebenszeitwert beinhalten.
 
@@ -30,11 +30,11 @@ Das folgende Bild ist ein Beispiel für eine Datendatei mit Abonnentendaten zu P
 
 ![Was sind Unternehmens-Kundendaten?](assets/01_crs_usecase.png)
 
-Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundenattribute]** erstellen.
+Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer attributes]** erstellen.
 
-Weitere [&#x200B; zu diesem Workflow finden Sie unter &#x200B;](t-crs-usecase.md) von Kundenattributdaten hochladen .
+Weitere [ zu diesem Workflow finden Sie unter ](t-crs-usecase.md) von Kundenattributdaten hochladen .
 
-## Beispiele für Kundenattribute in Analytics und Target {#examples}
+## Beispiele für Kundenattribute in Analytics und Target
 
 Nachdem sich die Daten in Experience Cloud befinden, können Sie sie anpassen und für Lösungen für Berichte, Segmentierung, Aktivitäten und Kampagnen freigeben.
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 67%
+source-wordcount: '413'
+ht-degree: 51%
 
 ---
 
@@ -31,26 +31,26 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in Experienc
 
 **So geben Sie einen Experience Cloud Asset-Ordner frei**
 
-1. Klicken Sie in einem Asset-Ordner auf **[!UICONTROL Mit Creative Cloud teilen]**.
+1. Klicken Sie in einem Asset-Ordner auf **[!UICONTROL Share to Creative Cloud]**.
 
    ![Für Creative Cloud freigeben](../../assets/asset-share-cc.png)
-1. Suchen Sie auf der Seite „Mit Creative Cloud teilen“ den entsprechenden Benutzer und klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Suchen Sie auf der Seite Für Creative Cloud freigeben nach dem Benutzer und klicken Sie dann auf **[!UICONTROL Add]**.
 
    ![Creative Cloud-Benutzer hinzufügen](../../assets/asset-share-cc-page.png)
 
-1. Klicken Sie auf **[!UICONTROL Freigabe]**.
-1. Starten Sie den [!DNL Creative Cloud]-Desktop (oder navigieren Sie in einem Browser zur Seite [!UICONTROL Creative Cloud-Dateien]) und suchen Sie nach der Benachrichtigung zur Anforderung.
+1. Klicken Sie auf **[!UICONTROL Share]**.
+1. Starten Sie den [!DNL Creative Cloud]-Desktop (oder navigieren Sie in einem Browser zur [!UICONTROL Creative Cloud Files] Seite) und suchen Sie nach der Anfragebenachrichtigung.
 
    ![Benachrichtigung anfordern](../../assets/cc_share_request.png)
-1. Öffnen Sie die Anfrage und klicken Sie auf **[!UICONTROL Annehmen]**.
+1. Öffnen Sie die Anfrage und klicken Sie dann auf **[!UICONTROL Accept]**.
 
    ![Anfrage akzeptieren](../../assets/cc_share_accept.png)
-1. Zum Zugriff auf den Ordnerinhalt klicken Sie auf **[!UICONTROL Ordner öffnen]** (oder **[!UICONTROL Im Web anzeigen]**).
+1. Um auf Ordnerinhalte zuzugreifen, klicken Sie auf **[!UICONTROL Open Folder]** (oder **[!UICONTROL View on Web]**).
 
    ![Im Web anzeigen](../../assets/creative_cloud_open_folder.png)
 1. Sie können nun Kommentare zu dem freigegebenen Asset hinzufügen:
 
-   In Creative Cloud können Sie ein Bild auswählen und dann auf **[!UICONTROL Aktivität]** klicken, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in [!DNL Creative Cloud] und in [!DNL Experience Cloud] synchronisiert.
+   In Creative Cloud können Sie ein Bild auswählen und dann auf **[!UICONTROL Activity]** klicken, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in [!DNL Creative Cloud] und in [!DNL Experience Cloud] synchronisiert.
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_cc.png)
 
@@ -58,13 +58,13 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in Experienc
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_mac.png)
 
-1. Um die Freigabe eines Ordners aufzuheben, klicken Sie auf **[!UICONTROL Freigeben mit Creative Cloud]** (ähnlich [Schritt 3](share.md)), entfernen Sie dann Benutzer, indem Sie auf das X klicken, und klicken Sie dann auf **[!UICONTROL Freigeben]**.
+1. Um die Freigabe eines Ordners aufzuheben, klicken Sie auf **[!UICONTROL Share Using Creative Cloud]** (ähnlich wie [Schritt 3](share.md)), entfernen Sie dann Benutzer, indem Sie auf das X klicken, und klicken Sie dann auf **[!UICONTROL Share]**.
 
    ![Freigabe eines Ordners aufheben](../../assets/asset_remove_user.png)
 
    Wenn Sie alle Creative Cloud-Benutzer entfernt haben, wird die Freigabe des Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 
-Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in Adobe Target für Bilder in -Aktivitäten.
+Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target für Bilder in -Aktivitäten.
 
 Wenn Sie einen Ordner für Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 
@@ -76,8 +76,8 @@ Zugehörige Hilfe:
 * [Creative Cloud-Hilfe – Zusammenarbeiten mit anderen](https://helpx.adobe.com/de/creative-cloud/help/collaboration.html)
 * [Creative Cloud-Hilfe – Häufig gestellte Fragen zur Zusammenarbeit](https://helpx.adobe.com/de/creative-cloud/help/collaboration-faq.html)
 
-## Informationen zur Asset-Freigabe für Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
+## Informationen zur Asset-Freigabe für Adobe Target
 
-Bei der Erstellung von Aktivitäten in [!DNL Adobe Target] können Sie beim Austausch von Bildern in der [!UICONTROL Angebotsbibliothek] ein freigegebenes Bild-Asset verwenden.
+Beim Erstellen von Aktivitäten in [!DNL Adobe Target] können Sie ein freigegebenes Bild-Asset verwenden, wenn Sie Bilder im [!UICONTROL Offers Library] austauschen.
 
-Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in der [!DNL Target]-Hilfe.
+Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in der [!DNL Target]-Hilfe.

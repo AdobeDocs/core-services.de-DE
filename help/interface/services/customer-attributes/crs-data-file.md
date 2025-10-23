@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 64%
@@ -22,7 +22,7 @@ Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen.
 
 [!DNL Customer Attributes] ist für die Verarbeitung einiger Dateien pro Tag konzipiert. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
 
-## Zulässige Dateitypen und Namensanforderungen {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
+## Zulässige Dateitypen und Namensanforderungen
 
 | Dateityp | Beschreibung |
 |--- |--- |
@@ -31,7 +31,7 @@ Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen.
 | `.gz` oder `.zip` | `.gz` (gzip) oder `.zip` - für komprimierte Dateien. Eine `.zip` Datei darf nicht mehr als eine Datei im Archiv enthalten. Benennungsanforderungen: Der Name des `.zip` oder der `.gz` sollte mit dem Namen der `.csv` übereinstimmen. Wenn Ihre `.csv`-Datei beispielsweise `crm_small.csv` ist, sollte die `.zip`-Datei `crm_small.csv.zip` sein. Die `.fin` muss mit der `.csv` übereinstimmen. |
 
 
-## Voraussetzungen für Attributdatendateien {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## Voraussetzungen für Attributdatendateien
 
 **Beispiel-CSV**
 
@@ -59,7 +59,7 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Spalte für Kunden-ID </p> </td> 
-   <td colname="col2"> <p> Die erste Spalte muss eine Unique-Customer-ID sein. Die verwendete ID muss der ID entsprechen, die an den Experience Cloud ID-Dienst übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Legen Sie für Target den Wert customerID fest. </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie legen fest, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen. Sie sind jedoch nicht erforderlich. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Über Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph"> setCustomerIDs </span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in Experience Cloud hochgeladen wird. Eine <a href="t-crs-usecase.md" format="dita" scope="local">Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen <span class="codeph"> setCustomerIDs </span> finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de" format="https" scope="external"> von Kunden-IDs und Authentifizierungsstatus </a>. </p> </td> 
+   <td colname="col2"> <p> Die erste Spalte muss eine Unique-Customer-ID sein. Die verwendete ID muss der ID entsprechen, die an den Experience Cloud ID-Dienst übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Legen Sie für Target den Wert customerID fest. </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie legen fest, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen. Sie sind jedoch nicht erforderlich. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Über Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph"> setCustomerIDs </span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in Experience Cloud hochgeladen wird. Eine <a href="t-crs-usecase.md" format="dita" scope="local">Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen <span class="codeph"> setCustomerIDs </span> finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> von Kunden-IDs und Authentifizierungsstatus </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nachfolgende Überschriften und Spalten </p> </td> 
@@ -120,7 +120,7 @@ Anzeige derselben Datei in einem Texteditor:
  </tbody> 
 </table>
 
-## Verwenden verschiedener Datenquellen {#multiple}
+## Verwenden verschiedener Datenquellen
 
 Beim Erstellen, Ändern oder Löschen von Kundenattributquellen dauert es ca. eine Stunde, bis die IDs mit der neuen Datenquelle synchronisiert werden.
 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Weitere [&#x200B; finden Sie unter „Kunden](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de)IDs und Authentifizierungszustände“.)
+(Weitere [ finden Sie unter „Kunden](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)IDs und Authentifizierungszustände“.)
 
 In **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 

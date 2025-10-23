@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
-source-git-commit: fb5ea051385932fbb2c762d4a887c089fcec706e
+source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '237'
 ht-degree: 56%
 
 ---
 
-# Browser-Unterstützung in Experience Cloud {#browser}
+# Browser-Unterstützung in Experience Cloud
 
 Für eine optimale Performance wurde Experience Cloud für die beliebtesten Browser optimiert, jeweils sowohl für deren neueste Version als auch für die beiden Vorgängerversionen.
 
@@ -30,7 +30,7 @@ Wenn Ihr Browser nicht aufgeführt ist, wird er möglicherweise trotzdem unterst
 >
 >Nicht alle Anwendungen, die auf der Experience Cloud-Domain ausgeführt werden, unterstützen alle Browser. Wenn Sie sich nicht sicher sind, lesen Sie die Dokumentation zu einem bestimmten Programm.
 
-## Sprachunterstützung in Experience Cloud {#languages}
+## Sprachunterstützung in Experience Cloud
 
 Die Benutzeroberfläche von Experience Cloud ist in den folgenden Sprachen verfügbar:
 
@@ -42,8 +42,8 @@ Die Benutzeroberfläche von Experience Cloud ist in den folgenden Sprachen verf�
 * Portugiesisch (Brasilien)
 * Japanisch
 * Koreanisch
-* Chinesisch – traditionell
-* Chinesisch – vereinfacht
+* Traditionelles Chinesisch
+* Chinesisch (vereinfacht)
 
 Darüber hinaus kann eine gebietsschemaspezifische Formatierung (z. B. Daten, Zeiten, Kalender, Zahlen) auch in Varianten der von der Benutzeroberfläche unterstützten Sprachen verfügbar sein:
 
@@ -55,12 +55,12 @@ Darüber hinaus kann eine gebietsschemaspezifische Formatierung (z. B. Daten, Ze
 
 **So geben Sie eine Standardsprache an**
 
-1. Klicken Sie in Experience Cloud auf **[!UICONTROL Profil]** > [Voreinstellungen](https://experience.adobe.com/preferences).
+1. Klicken Sie in Experience Cloud auf **[!UICONTROL Profile]** > [Voreinstellungen](https://experience.adobe.com/preferences).
 
-1. Klicken **[!UICONTROL unter &quot;]**&quot; auf den Link Sprache .
+1. Klicken Sie unter **[!UICONTROL Profile]** auf den Link Sprache .
 
-1. Wählen **[!UICONTROL auf]** Sprache auswählen“ eine Sprache aus dem Menü **[!UICONTROL Erste Sprache]** aus.
+1. Wählen Sie **[!UICONTROL Select language]** im Menü **[!UICONTROL First language]** eine Sprache aus.
 
    Zwar verpflichten sich alle Anwendungsteams zur globalen Sprachunterstützung, doch werden nicht alle Anwendungen in allen in der Benutzeroberfläche aufgeführten Sprachen angeboten. Wenn Ihre Primärsprache in einem Experience Cloud-Programm nicht unterstützt wird, können Sie ggf. eine sekundäre Standardsprache festlegen.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
