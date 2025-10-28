@@ -7,7 +7,7 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 81%
@@ -32,7 +32,7 @@ Das folgende Bild ist ein Beispiel für eine Datendatei mit Abonnentendaten zu P
 
 Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer attributes]** erstellen.
 
-Weitere [&#x200B; zu diesem Workflow finden Sie unter &#x200B;](t-crs-usecase.md) von Kundenattributdaten hochladen .
+Weitere [ zu diesem Workflow finden Sie unter ](t-crs-usecase.md) von Kundenattributdaten hochladen .
 
 ## Beispiele für Kundenattribute in Analytics und Target
 
@@ -46,3 +46,4 @@ Beispiel:
 | Adobe Target | Attributdaten ermöglichen Benutzern von Adobe Target Folgendes:<ul><li>Anzeigen von Sonderrabatten und -angeboten für Treueclub-Mitglieder.</li><li>Senden von Empfehlungen teurerer Produkte an Luxuskunden.</li><li>Anzeigen von Up-Sell-Angeboten für Kunden, die bereits E-Mails erhalten, an der Stelle, die normalerweise für E-Mail-Anmeldungen reserviert ist.</li></ul> |
 
 {style="table-layout:auto"}
+

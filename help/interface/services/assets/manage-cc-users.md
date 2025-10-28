@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 71%
+source-wordcount: '109'
+ht-degree: 75%
 
 ---
 
@@ -22,8 +22,9 @@ Experience Cloud bietet Verwaltungs-Tools für die Verwaltung von genehmigten Cr
 >
 >Hierfür müssen Sie Administrator sein.
 
-1. Klicken Sie in Experience Cloud auf **[!UICONTROL Administration]** > **[!UICONTROL Creative Cloud-Mitwirkende verwalten]**.
-1. Klicken Sie auf **[!UICONTROL Creative Cloud-Asset-Freigabe]**.
-1. Klicken Sie **[!UICONTROL Neuen Benutzer hinzufügen]**.  ![Neuen Benutzer hinzufügen](../../assets/mac_add_icon.png)
+1. Klicken Sie in Experience Cloud auf **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
+1. Klicken Sie auf **[!UICONTROL Creative Cloud Asset Sharing]**.
+1. Klicken Sie auf **[!UICONTROL Add New User]**.  ![Neuen Benutzer hinzufügen](../../assets/mac_add_icon.png)
 1. Geben Sie eine E-Mail-Adresse, einen Anzeigenamen und einen Titel ein und fügen Sie optional einen Avatar hinzu.
-1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Create]**.
+

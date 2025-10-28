@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 84%
@@ -57,7 +57,7 @@ Rufen Sie die das ![Menü](assets/apps-icon.png) der Programmauswahl auf, um auf
 
 ## Hilfe und Support
 
-Greifen Sie mithilfe der **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) zu [Experience League](https://experienceleague.adobe.com/de?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
+Greifen Sie mithilfe der **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) zu [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
 ![Erhalten Sie Hilfe und Support](assets/search-menu.png)
 
@@ -86,4 +86,3 @@ Klicken Sie auf das Glockensymbol, um Benachrichtigungen und Ankündigungen anzu
 ![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png)
 
 Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](features/account-preferences.md).
-

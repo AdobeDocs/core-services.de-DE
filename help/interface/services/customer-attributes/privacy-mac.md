@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 99%
@@ -44,3 +44,4 @@ Da sich das Datenschutzrecht der Verbraucher ständig ändert, empfiehlt Adobe, 
 1. Überraschen Sie Ihre Kunden nicht.
 
 Unter Berücksichtigung dieser Erwartungen empfiehlt Adobe, dass der Werbetreibende beim Zuordnen von Browsing-Aktivitäten zu PII Hinweise oder Personalisierungen bereitstellt, die angeben, dass der Kunde authentifiziert ist. Ein Beispiel hierfür ist die Aufnahme einer Begrüßung in der Kopfzeile der Website. Adobe empfiehlt Werbetreibenden außerdem, dass sie in ihren Datenschutzrichtlinien beschreiben, welche Arten von Browserinformationen mit PII verknüpft sind und unter welchen Umständen Browserinformationen mit PII verknüpft werden. Schließlich empfiehlt Adobe Werbetreibenden dringend, die Ausschlussoptionen zu überprüfen, die sie ihren Kunden anbieten, um nachzuvollziehen, ob und wie sie nicht authentifizierte Profildaten nach dem Ausschluss verwenden können.
+

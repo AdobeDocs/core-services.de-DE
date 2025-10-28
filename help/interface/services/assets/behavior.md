@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 96%
@@ -105,3 +105,4 @@ Sie stellen Inhalte aus einem Archiv wieder her, das zu einem freigegebenen Ordn
 ![Aus Archiv wiederhergestellte Inhalte](../../assets/12_assets_move.png)
 
 **Ergebnis:** Der Inhalt wird im freigegebenen Ordner wiederhergestellt und alle Mitwirkenden können erneut darauf zugreifen. Wenn der freigegebene Ordner nicht mehr vorhanden ist, wird der Inhalt in eine nicht freigegebene Kopie des/der ursprünglichen übergeordneten Ordner(s) eingefügt.
+

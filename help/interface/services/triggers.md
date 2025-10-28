@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 78%
@@ -48,12 +48,12 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
 1. Klicken Sie in Experience Cloud auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Data Collection/Launch]**.
-2. Klicken Sie auf der [!UICONTROL Triggers] auf **[!UICONTROL Manage Triggers]**.
-3. Klicken Sie auf **[!UICONTROL New Trigger]** und geben Sie dann den Typ des Triggers an:
+1. Klicken Sie auf der [!UICONTROL Triggers] auf **[!UICONTROL Manage Triggers]**.
+1. Klicken Sie auf **[!UICONTROL New Trigger]** und geben Sie dann den Typ des Triggers an:
 
    ![Schritt Ergebnis](../assets/add-trigger.png)
 
-4. Konfigurieren Sie den Auslöser, indem Sie die folgenden Felder vervollständigen und Metrik- und Dimensionselemente in die Regelbehälter ziehen:
+1. Konfigurieren Sie den Auslöser, indem Sie die folgenden Felder vervollständigen und Metrik- und Dimensionselemente in die Regelbehälter ziehen:
 
    | Element | Beschreibung |
    |--- |--- |
@@ -66,8 +66,8 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 
    {style="table-layout:auto"}
 
-5. Klicken Sie auf **[!UICONTROL Save]**.
-6. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=de) in [!DNL Adobe Campaign].
+1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Verwenden Sie Trigger zum [Echtzeit-Remarketing](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=de) in [!DNL Adobe Campaign].
 
 ## Beispielauslöser
 

@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 67%
+source-wordcount: '363'
+ht-degree: 63%
 
 ---
 
@@ -27,7 +27,7 @@ Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein F
 Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP durchgeführt werden:
 
 * Sie benötigen einen Client, der SFTP-Verbindungen unterstützt.
-* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=de) beschrieben.
+* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) beschrieben.
 
 **So laden Sie die Datendatei via FTP hoch**
 
@@ -35,7 +35,7 @@ Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP d
 
    Vergewissern Sie sich, dass Sie unter `ftp.adobe.com/<sftpname>` bei Ihrer FTP-Site angemeldet sind.
 
-1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Datei hochladen]**.
+1. Klicken Sie auf **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
 1. Laden Sie eine `.fin`-Datei hoch, damit Ihre Datei abgerufen werden kann.
 
@@ -49,7 +49,7 @@ Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP d
 
 Richten Sie pro Attributquelle ein FTP-Konto ein.
 
-Klicken Sie auf [!UICONTROL &#x200B; Seite „Datei-Upload und &#x200B;]&quot; auf **[!UICONTROL FTP-Setup]**.
+Klicken Sie auf der [!UICONTROL File Upload and Schema Validation] Seite auf **[!UICONTROL FTP Setup]**.
 
 ![Schema bearbeiten](assets/ftp-account.png)
 
@@ -57,9 +57,9 @@ Die hochgeladenen Dateien werden im Stammordner dieses Kontos gespeichert. Die D
 
 Die Namen, die Sie den Zeichenfolgen, Ganzzahlen und Nummern geben, werden zur Erstellung der [!DNL Analytics]-Metriken verwendet.
 
-* **[!UICONTROL attribute:]** Attributdaten werden aus der hochgeladenen `.csv`-Datei gelesen.
+* **[!UICONTROL attribute:]** Attributdaten werden aus der hochgeladenen `.csv` gelesen.
 
-* **[!UICONTROL Typ:]** Datentyp, z. B.:
+* **[!UICONTROL Type:]** Der Datentyp, z. B.:
 
    * **Zeichenfolge:** Eine Folge von Zeichen.
 
@@ -67,6 +67,6 @@ Die Namen, die Sie den Zeichenfolgen, Ganzzahlen und Nummern geben, werden zur E
 
    * **Zahlen:** Kann bis zu zwei Dezimalstellen haben.
 
-* **[!UICONTROL Anzeigename:]** Ein benutzerfreundlicher Anzeigename für das Attribut. Sie können beispielsweise das Attribut *Kundenalter) in* Kunde seit *ändern*.
+* **[!UICONTROL Display Name:]** Ein benutzerfreundlicher Name für das Attribut. Sie können beispielsweise das Attribut *Kundenalter) in* Kunde seit *ändern*.
 
-* **[!UICONTROL Beschreibung:]** Eine benutzerfreundliche Beschreibung des Attributs.
+* **[!UICONTROL Description:]** Eine benutzerfreundliche Beschreibung des Attributs.

@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 61%
+source-wordcount: '415'
+ht-degree: 63%
 
 ---
 
@@ -24,17 +24,17 @@ Ein Adobe Analytics-Abonnement ermöglicht beispielsweise Attributdaten in Beric
 
 1. Suchen Sie Ihre Datenquelle in [!DNL Customer Attributes] zur Bearbeitung:
 
-   Klicken Sie [!DNL Experience Cloud] auf **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
+   Klicken Sie [!DNL Experience Cloud] auf **[!UICONTROL Apps]** ![Menü](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-1. Klicken [!UICONTROL &#x200B; unter „Kundenattribut-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
+1. Klicken Sie auf [!UICONTROL Edit Customer Attribute Source] auf **[!UICONTROL File Upload]**.
 
-1. Klicken Sie **[!UICONTROL Abonnements konfigurieren]**.
+1. Klicken Sie auf **[!UICONTROL Configure Subscriptions]**.
 
    ![Konfigurieren von Abonnements in Experience Cloud](assets/configure-subscriptions.png)
 
-1. Um die Kundenattributquelle zu aktivieren, klicken Sie auf **[!UICONTROL Aktiv]** und anschließend auf **[!UICONTROL Speichern]**.
+1. Um die Kundenattributquelle zu aktivieren, klicken Sie auf **[!UICONTROL Active]** und dann auf **[!UICONTROL Save]**.
 
-1. Um ein Abonnement für [!DNL Analytics] oder [!DNL Target] zu konfigurieren, klicken Sie auf **[!UICONTROL Konfigurieren]**.
+1. Um ein Abonnement für [!DNL Analytics] oder [!DNL Target] zu konfigurieren, klicken Sie auf **[!UICONTROL Configure]**.
 
    Das folgende Beispiel zeigt ein [!DNL Target]-Abonnement:
 
@@ -46,4 +46,5 @@ Ein Adobe Analytics-Abonnement ermöglicht beispielsweise Attributdaten in Beric
    | Report Suite (Adobe Analytics) | Die Report Suites von Analytics.<br>Innerhalb einer Attributquelle können Sie dem Analytics-Abonnement maximal zehn Report Suites hinzufügen. Berücksichtigen Sie bei der Auswahl der einzuschließenden Report Suites die folgenden Vorschläge:<ul><li>Wählen Sie Report Suites mit einem gemeinsamen Satz authentifizierter Kunden aus. Wenn sich die authentifizierten Kunden in einer Report Suite nicht mit den authentifizierten Kunden in einer anderen Report Suite überschneiden, teilen Sie diese Report Suites in verschiedene Attributquellen auf.</li><li>Wenn möglich, sollten die Report Suites, die in einer Attributquelle enthalten sind, ein ähnliches Traffic-Volumen aufweisen.</li></ul><br>Falls Sie mehr als zehn Report Suites mit dem gleichen Satz authentifizierter Kunden haben, konfigurieren Sie weitere Kundenattributquellen mit jeweils bis zu zehn Report Suites. |
    | Einzuschließende Attribute (Analytics und [!DNL Target]) | Die Attribute, die Sie an das Programm senden möchten. <br>Bei der Konfiguration von Abonnements und der Auswahl von Attributen gelten – je nachdem, welche Programme Sie besitzen – die folgenden Einschränkungen _pro Report Suite_:<ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 insgesamt</li><li>Premium: 200 pro Report Suite</li><li>[!DNL Target] Standard: 5</li><li>[!DNL Target] Premium: 200</li></ul><br>**Hinweis:** Bei einem Upgrade auf Analytics Premium dauert es 24 Stunden, bis weitere Attribute verfügbar sind. Während dieser Verzögerung wird möglicherweise ein Fehler „Attribut Max. Abonnement“ angezeigt. |
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Save]**.
+

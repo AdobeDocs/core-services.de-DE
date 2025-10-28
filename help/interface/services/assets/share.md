@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 51%
@@ -64,7 +64,7 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in Experienc
 
    Wenn Sie alle Creative Cloud-Benutzer entfernt haben, wird die Freigabe des Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 
-Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in Adobe Target für Bilder in -Aktivitäten.
+Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target für Bilder in -Aktivitäten.
 
 Wenn Sie einen Ordner für Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 
@@ -80,4 +80,4 @@ Zugehörige Hilfe:
 
 Beim Erstellen von Aktivitäten in [!DNL Adobe Target] können Sie ein freigegebenes Bild-Asset verwenden, wenn Sie Bilder im [!UICONTROL Offers Library] austauschen.
 
-Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in der [!DNL Target]-Hilfe.
+Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in der [!DNL Target]-Hilfe.

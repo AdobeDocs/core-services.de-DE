@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: d2244e249c7af27bc1b4fc7bfe628bc25b37f4d4
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 49%
+source-wordcount: '310'
+ht-degree: 37%
 
 ---
 
@@ -28,28 +28,29 @@ Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur
 
 1. Klicken Sie [!DNL Customer Attributes] auf die Attributquelle, die Sie bearbeiten möchten.
 
-1. Klicken Sie auf der **[!UICONTROL Kundenattribut-Source bearbeiten]** auf **[!UICONTROL Datei-Upload]**.
+1. Klicken Sie auf der **[!UICONTROL Edit Customer Attribute Source]** auf **[!UICONTROL File Upload]**.
 
-1. Klicken Sie auf der Seite [!UICONTROL Datei-Upload und &#x200B;]-Validierung auf **[!UICONTROL Aktionen]** > **[!UICONTROL Schema anzeigen/bearbeiten]**
+1. Klicken Sie auf der [!UICONTROL File Upload and Schema Validation] Seite auf **[!UICONTROL Actions]** > **[!UICONTROL View/Edit Schema]**
 
    ![Schema bearbeiten](assets/actions.png)
 
-   Auf der [!UICONTROL Schema bearbeiten] stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
+   Auf der Seite [!UICONTROL Edit Schema] stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
 
    ![Schemaseite in Experience Cloud bearbeiten](assets/schema-edit.png)
 
 **Aktionen**
 
-* **[!UICONTROL Daten hinzufügen:]** Lädt in diese Datenquelle neue Attributdaten hoch.
+* **[!UICONTROL Add Data:]** Laden Sie neue Attributdaten in diese Datenquelle hoch.
 
-* **[!UICONTROL Schema anzeigen/bearbeiten:]** Ordnet den Attributdaten wie im nächsten Schritt beschrieben Anzeigenamen zu.
+* **[!UICONTROL View/Edit Schema:]** Ordnen Sie den Attributdaten Anzeigenamen zu, wie im nächsten Schritt beschrieben.
 
-* **[!UICONTROL FTP-Einrichtung:]** Erstellen Sie Ihr FTP-Konto, um [Ihre Daten via FTP hochzuladen](t-upload-attributes-ftp.md) (optional).
+* **[!UICONTROL FTP Setup:]** Erstellen Sie Ihr FTP-Konto, um [Ihre Daten via FTP hochzuladen](t-upload-attributes-ftp.md) (optional).
 
-* **[!UICONTROL ID-Suche:]** Geben Sie eine Kunden-ID (CID) aus Ihrer `.csv` ein, um Experience Cloud-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
+* **[!UICONTROL ID Lookup:]** Geben Sie eine Kunden-ID (CID) aus Ihrem `.csv` ein, um Experience Cloud-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
 
-   * **[!UICONTROL ECID (Experience Cloud ID):]** Zeigt an, ob Sie die neueste Version des Experience Cloud ID-Dienstes verwenden. Wenn Sie sich im MCID-Service befinden, hier jedoch keine IDs aufgeführt sind, hat Experience Cloud keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
+   * **[!UICONTROL ECID (Experience Cloud ID):]** Wird angezeigt, wenn Sie den neuesten Experience Cloud ID-Service verwenden. Wenn Sie sich im MCID-Service befinden, hier jedoch keine IDs aufgeführt sind, hat Experience Cloud keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
 
-   * **[!UICONTROL CID (Kunden-ID):]** Die mit dieser CID verknüpften Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
+   * **[!UICONTROL CID (customer ID):]** Die dieser CID zugeordneten Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
 
-   * **[!UICONTROL AVID (Analytics-Besucher-ID):]** Zeigt an, ob Sie eine „prop“ oder „eVar“ zum Hochladen von CIDs verwenden. Wenn diese IDs an Experience Cloud übergeben werden, werden hier alle Besucher-IDs angezeigt, die mit der eingegebenen CID verknüpft sind.
+   * **[!UICONTROL AVID (Analytics visitor ID):]** Wird angezeigt, wenn Sie zum Hochladen von CIDs ein Prop oder eVar verwenden. Wenn diese IDs an Experience Cloud übergeben werden, werden hier alle Besucher-IDs angezeigt, die mit der eingegebenen CID verknüpft sind.
+

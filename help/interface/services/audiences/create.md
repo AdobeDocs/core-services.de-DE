@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
+source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 65%
+source-wordcount: '507'
+ht-degree: 62%
 
 ---
 
 # Erstellen einer Zielgruppe
 
-In [!UICONTROL Zielgruppenbibliothek] können Sie Attributregeln verwenden, um eine Zielgruppe zu erstellen und eine gemischte Zielgruppe für die Freigabe in Experience Cloud-Programmen zu definieren.
+In [!UICONTROL Audience Library] können Sie Attributregeln verwenden, um eine Zielgruppe zu erstellen und eine gemischte Zielgruppe zu definieren, die in Experience Cloud-Programmen freigegeben werden kann.
 
 In diesem Artikel lernen Sie Folgendes:
 
@@ -46,22 +46,22 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 
 1. Klicken Sie auf [!DNL Experience Cloud] Apps ![Apps-Symbol](assets/apps-icon.png) und dann auf **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
+1. Klicken Sie auf der [!UICONTROL Audiences] Seite auf **[!UICONTROL New]**. ![Neue Zielgruppe](assets/add_icon_small.png)
 
    ![Erstellen einer Zielgruppe](assets/audience_create_new.png)
 
-1. Füllen Sie auf [!UICONTROL &#x200B; Seite „Neue Zielgruppe &#x200B;]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
-1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Referenz-Report Suite und dann eine Attributquelle aus:
+1. Füllen Sie auf der Seite [!UICONTROL Create New Audience] die Felder **[!UICONTROL Title]** und **[!UICONTROL Description]** aus.
+1. Wählen Sie unter [!UICONTROL Rules] eine Referenz-Report Suite und dann eine Attributquelle aus:
 
-   * **[!UICONTROL Real-Time Analytics-Daten:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
+   * **[!UICONTROL Real-Time Analytics Data:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
 
    >[!NOTE]
    >
    >Aufgrund des Caching benötigen gelöschte Report Suites in Analytics 12 Stunden, bevor die Löschung in Experience Cloud angezeigt wird.
 
-   * **[!UICONTROL Experience Cloud:]** Attributdaten werden aus [!DNL Experience Cloud] Quellen abgeleitet. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
+   * **[!UICONTROL Experience Cloud:]** aus [!DNL Experience Cloud] Quellen abgeleitete Attributdaten. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 
-1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Speichern].**
+1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Save].**
 
 **Beispiel: Definieren von Regeln für eine gemischte Zielgruppe**
 
@@ -69,18 +69,18 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 >
 >Für die Erstellung von Zielgruppenregeln sollten Sie Ihre Implementierungsvariablen unbedingt kennen.
 
-Definieren Sie unter [!UICONTROL Regeln] die *`Home & Garden`*-Attributauswahl:
+Definieren Sie unter [!UICONTROL Rules] die Auswahl der *`Home & Garden`* Attribute:
 
-* **[!UICONTROL Attributquelle:]** Analytics-Rohdaten
-* **[!UICONTROL Report Suite:]** Report Suite 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Entspricht]** > **[!UICONTROL Home &amp; Garden]**
+* **[!UICONTROL Attribute Source:]** von Analytics-Rohdaten
+* Report Suite 31 **[!UICONTROL Report Suite:]**
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
 
 ![Attributauswahlen in der Zielgruppenbibliothek](assets/home_garden.png)
 
 Die *Besucher von Chrome und Safari* sind ein in Analytics freigegebenes Zielgruppensegment:
 
-* **[!UICONTROL Attributquelle:]** Experience Cloud
-* **[!UICONTROL Dimension:]** Besucher von Chrome &amp; Safari
+* **[!UICONTROL Attribute Source:]** Experience Cloud
+* Besuchende von Chrome und Safari **[!UICONTROL Dimension:]**
 
 ![Besucher von Chrome und Safari](assets/chrome_safari.png)
 
@@ -97,4 +97,5 @@ Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-B
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nachdem die Zielgruppe gespeichert wurde, ist sie für andere Experience Cloud-Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) &#x200B;](https://experienceleague.adobe.com/de/docs/target/using/activities/activities).
+Nachdem die Zielgruppe gespeichert wurde, ist sie für andere Experience Cloud-Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities).
+
