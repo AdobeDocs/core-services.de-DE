@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 85a5c5c33a8eb5f34f174cf5aa1da56e8e2e5065
+source-git-commit: c2a40564821b56c9a899186797d84960698f83dc
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 69%
+source-wordcount: '636'
+ht-degree: 67%
 
 ---
 
@@ -18,9 +18,13 @@ ht-degree: 69%
 
 Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Verwaltung von Experience Cloud stattfinden.
 
+**Oktober 2025**
+
+Der [ „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
+
 **August 2025**
 
-Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; &#x200B;](../features/account-preferences.md).
+Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; ](../features/account-preferences.md).
 
 **Februar 2025**
 
@@ -32,7 +36,7 @@ Aktualisierungen [Produktnutzungsdaten](../features/account-preferences.md) und 
 
 **September 2024**
 
-Es wurde Hilfe zum Abonnieren [&#x200B; Slack-Benachrichtigungen &#x200B;](../features/account-preferences.md#subscribe-to-slack-notifications).
+Es wurde Hilfe zum Abonnieren [ Slack-Benachrichtigungen ](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 
