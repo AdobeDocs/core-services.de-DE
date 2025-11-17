@@ -40,7 +40,7 @@ Generative KI ist ein Typ von KI, mit dem Originalinhalte erstellt werden könne
 
 * **Produktkenntnisse:** Produktkenntnisse beziehen sich auf Konzepte und Themen, die auf der Experience Cloud-Produktdokumentation zu Experience League basieren. Verwenden Sie beispielsweise [objektivbasierte Eingabeaufforderungen](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/home) um schnell mehr über Experience Platform zu erfahren. Alle Antworten von Experience League sind überprüfbar und mit Links versehen.
 
-* **Operative Insights:** &quot;[ Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] können Sie in Sekunden erreichen, was ansonsten Stunden oder Tage dauern könnte.
+* **Operative Insights:** &quot;[&#x200B; Insights](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) in Experience Platform beziehen sich auf generierte Antworten zu Ihren Metadatenobjekten (Attribute, Zielgruppen, Datenflüsse, Datensätze usw.). Mit [!UICONTROL AI Assistant] können Sie in Sekunden erreichen, was ansonsten Stunden oder Tage dauern könnte.
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Im Folgenden finden Sie eine Zusammenfassung [!DNL Experience Cloud] Anwendungen
 | [Adobe Target](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | KI-Assistent für Produktkenntnisse. | Nein |
 | [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | KI-Assistent für In-App-Informationen und -Vorschläge. | Ja |
 
-**Hinweis:** [!DNL Experience Platform Agents] werden unter [KI-Agenten in Experience Cloud&quot; ](agentic-ai.md).
+**Hinweis:** [!DNL Experience Platform Agents] werden unter [KI-Agenten in Experience Cloud&quot; &#x200B;](agentic-ai.md).
 
 ## Wie kann ich generative KI in Experience Cloud verwenden?
 
@@ -137,7 +137,7 @@ Der KI-Assistent unterstützt AEM as a Cloud Service an folgenden Stellen:
 
 #### Experience Manager Sites
 
-In AEM Sites können Sie _[!UICONTROL Generate Variations]_verwenden. Diese Funktion verwendet generative künstliche Intelligenz, um Inhaltsvarianten basierend auf Ihren Eingabeaufforderungen zu erstellen. Eingabeaufforderungen werden entweder von Adobe bereitgestellt oder von Ihnen erstellt und verwaltet.
+In AEM Sites können Sie _[!UICONTROL Generate Variations]_&#x200B;verwenden. Diese Funktion verwendet generative künstliche Intelligenz, um Inhaltsvarianten basierend auf Ihren Eingabeaufforderungen zu erstellen. Eingabeaufforderungen werden entweder von Adobe bereitgestellt oder von Ihnen erstellt und verwaltet.
 
 Nachdem Sie Varianten erstellt haben, können Sie den Inhalt auf Ihrer Website verwenden und den Erfolg mithilfe der Funktion [Experimentieren](https://www.aem.live/docs/experimentation) in Edge Delivery Services messen. Sie haben auch die Möglichkeit, Bilder in Adobe Express mithilfe der Generative AI-Funktionen von Firefly zu generieren.
 
