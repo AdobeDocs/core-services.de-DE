@@ -20,7 +20,7 @@ ht-degree: 7%
 
 Aktualisiert: **Dienstag, 17. November 2025**
 
-Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) und Adobe Experience Platform-Agenten aktivieren Agentenfunktionen in Experience Cloud-Anwendungen.
+Adobe [!DNL Experience Platform] [Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) und Adobe Experience Platform-Agenten aktivieren Agentenfunktionen in Experience Cloud-Anwendungen.
 
 Sie können auf diese agenten Funktionen zugreifen, indem Sie entweder:
 
@@ -34,10 +34,10 @@ Im Folgenden finden Sie eine Liste der Experience Platform-Agenten, die in beste
 
 | Agent-Name | Verfügbarkeit | Funktionen | Unterstützte Anwendungen |
 |---|----------|----------|----------|
-| [Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Verfügbar | Ihre Teams in die Lage versetzen, Zielgruppen mithilfe von Aufforderungen zur Veröffentlichung in natürlicher Sprache zu erstellen, zu verwalten und zu optimieren, um die Markteinführung zu vereinfachen und zu beschleunigen. | <ul><li>Real-Time CDP (B2B- und B2C-Additionen)</li><li>Adobe Journey Optimizer (B2B- und B2C-Additionen)</li></ul> |
-| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Verfügbar | Beantwortet schnell Datenfragen zu Ihren Daten. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten. | <ul><li>Customer Journey Analytics</li></ul> |
+| [Audience Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Verfügbar | Ihre Teams in die Lage versetzen, Zielgruppen mithilfe von Aufforderungen zur Veröffentlichung in natürlicher Sprache zu erstellen, zu verwalten und zu optimieren, um die Markteinführung zu vereinfachen und zu beschleunigen. | <ul><li>Real-Time CDP (B2B- und B2C-Additionen)</li><li>Adobe Journey Optimizer (B2B- und B2C-Additionen)</li></ul> |
+| [Data Insights Agent](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Verfügbar | Beantwortet schnell Datenfragen zu Ihren Daten. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten. | <ul><li>Customer Journey Analytics</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | Verfügbar | Ihre Teams können schnell skalierbare Multi-Touch-Journey für Kunden erstellen, analysieren und optimieren. | <ul><li>Adobe Journey Optimizer (B2B- und B2C-Additionen)</li></ul> |
-| [Produktsupport-Agent](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Verfügbar | Beheben Sie Support-Probleme, ohne Ihre Workflows zu verlassen, erstellen Sie Support-Tickets und verfolgen Sie den Fallfortschritt mit dem KI-Assistenten. | <ul><li>Real-Time CDP (B2B- und B2C-Additionen)</li><li>Adobe Journey Optimizer (B2B- und B2C-Additionen)</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [Produktsupport-Agent](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) | Verfügbar | Beheben Sie Support-Probleme, ohne Ihre Workflows zu verlassen, erstellen Sie Support-Tickets und verfolgen Sie den Fallfortschritt mit dem KI-Assistenten. | <ul><li>Real-Time CDP (B2B- und B2C-Additionen)</li><li>Adobe Journey Optimizer (B2B- und B2C-Additionen)</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 <!-- Product Advisor Agent: Troubleshoot issues, create support tickets, and track progress with AI Assistant. 
 
@@ -69,7 +69,7 @@ Im Folgenden finden Sie eine Liste der Experience Platform-Agenten, die in KI-Fi
 | [LLM-Optimierungsagent](https://experienceleague.adobe.com/de/docs/llm-optimizer/using/home) | Verfügbar | Verbesserung der Sichtbarkeit, Genauigkeit und des Einflusses in KI-gesteuerten Suchumgebungen, Bereitstellung von Einblicken in die Markenpräsenz in KI-generierten Antworten, Angebot präskriptiver Inhaltsempfehlungen und Automatisierung von Optimierungskorrekturen. | <ul><li>Adobe LLM Optimizer</li></ul> |
 | [Site Optimization Agent](https://experienceleague.adobe.com/de/docs/experience-manager-sites-optimizer/content/home) | Verfügbar | Maximieren Sie die geschäftliche Auswirkung, indem Sie Website-Verbesserungen automatisch erkennen und bereitstellen. Durch die Verwendung generativer KI und mehrerer Überwachungstechnologien können Sie die Erfassung und Interaktion von Website-Traffic steigern und vieles mehr | <ul><li>AEM Sites Optimizer</li></ul> |
 
-<!-- **Content Optimization Agent**  November 20, 2025  Simplify creating visual content variants from source assets using natural language prompts.  <ul><li>Adobe Experience Manager (with [Dynamic Media with OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview))</li></ul> 
+<!-- **Content Optimization Agent**  November 20, 2025  Simplify creating visual content variants from source assets using natural language prompts.  <ul><li>Adobe Experience Manager (with [Dynamic Media with OpenAPI](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview))</li></ul> 
 
 Development Agent: Targeting AEM Cloud Service developers and technical administrators, the Development Agent helps troubleshoot Cloud Manager pipeline build step failures by analyzing the root cause and suggesting fixes.
 
@@ -90,7 +90,7 @@ Supported Apps: Adobe Experience Manager Cloud Services and Edge Delivery Servic
 
 * [KI in Experience Cloud](https://experienceleague.adobe.com/de/docs/ai) Dokumentations-Startseite
 
-[!BADGE Weitere Informationen zu Adobe for Business]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="Navigieren Sie zu Business.adobe.com ."}
+[!BADGE Weitere Informationen zu Adobe for Business]{type=Informative url="https://business.adobe.com/de/products/experience-platform/agent-orchestrator.html" tooltip="Navigieren Sie zu Business.adobe.com ."}
 
 
 
