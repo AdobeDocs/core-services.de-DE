@@ -20,7 +20,7 @@ ht-degree: 9%
 
 Aktualisiert: **Dienstag, 17. November 2025**
 
-[!DNL Experience Platform] [Adobe Systems Agent Orchestrator](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/home) und Adobe Experience Platform Agents aktivieren Agentenfunktionen innerhalb Experience Cloud Anwendungen.
+[!DNL Experience Platform] [Adobe Systems Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) und Adobe Experience Platform Agents aktivieren Agentenfunktionen innerhalb Experience Cloud Anwendungen.
 
 Sie können Zugriff auf diese Agentenfunktionen erhalten Sie auf zweierlei Link durch:
 
@@ -34,10 +34,10 @@ Im Folgenden finden Sie die Liste Experience Platform Agents, die in vorhandenen
 
 | Agentenname | Verfügbarkeit | Funktionen | Unterstützte Anwendungen |
 |---|----------|----------|----------|
-| [Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Verfügbar | Ermöglichen Sie es Ihren Teams, Zielgruppen mithilfe von Eingabeaufforderungen in natürlicher Sprache zu erstellen, zu managen und zu optimieren, um die Markt einfacher, effizienter und schneller zu gestalten. | <ul><li>Real-Zeit CDP (B2B und B2C Ergänzungen)</li><li>Adobe Systems Journey Optimizer (B2B und B2C Ergänzungen)</li></ul> |
-| [Daten Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Verfügbar | Beantwortet schnell Fragen zu Ihren Daten. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten. | <ul><li>Customer Journey Analytics</li></ul> |
+| [Audience Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/audience) | Verfügbar | Ermöglichen Sie es Ihren Teams, Zielgruppen mithilfe von Eingabeaufforderungen in natürlicher Sprache zu erstellen, zu managen und zu optimieren, um die Markt einfacher, effizienter und schneller zu gestalten. | <ul><li>Real-Zeit CDP (B2B und B2C Ergänzungen)</li><li>Adobe Systems Journey Optimizer (B2B und B2C Ergänzungen)</li></ul> |
+| [Daten Insights Agent](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | Verfügbar | Beantwortet schnell Fragen zu Ihren Daten. Er erstellt relevante Visualisierungen in Analysis Workspace mithilfe von Komponenten aus Ihrer Datenansicht und unter Verwendung Ihrer tatsächlichen Daten. | <ul><li>Customer Journey Analytics</li></ul> |
 | [Journey-Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | Verfügbar | Ermöglichen Sie Ihren Teams die schnelle Erstellung, Analyse und Optimierung von Multi-Touch-Customer Journeys in großem Umfang. | <ul><li>Adobe Systems Journey Optimizer (B2B und B2C Ergänzungen)</li></ul> |
-| [Produkt-Support-Mitarbeiter](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | Verfügbar | Beheben Sie Supportprobleme, ohne Ihre Workflows zu verlassen, erstellen Sie Kundensupport-Tickets und verfolgen Sie den Fortschritt von Kundenvorgängen mit AI Assistant. | <ul><li>Real-Zeit CDP (B2B und B2C Ergänzungen)</li><li>Adobe Systems Journey Optimizer (B2B und B2C Ergänzungen)</li><li>Adobe Journey Optimizer B2B Edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [Produkt-Support-Mitarbeiter](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) | Verfügbar | Beheben Sie Supportprobleme, ohne Ihre Workflows zu verlassen, erstellen Sie Kundensupport-Tickets und verfolgen Sie den Fortschritt von Kundenvorgängen mit AI Assistant. | <ul><li>Real-Zeit CDP (B2B und B2C Ergänzungen)</li><li>Adobe Systems Journey Optimizer (B2B und B2C Ergänzungen)</li><li>Adobe Journey Optimizer B2B Edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 <!-- Product Advisor Agent: Troubleshoot issues, create support tickets, and track progress with AI Assistant. 
 
@@ -66,20 +66,20 @@ Im Folgenden finden Sie die Liste Experience Platform Agents, die in AI-First-An
 
 <!-- | Agent name  | Availability | Capabilities | Supported applications   |
 |---|----------|----------|----------|
-| **Content Optimization Agent** | November 21, 2025 | Simplify creating visual content variants from source assets using natural language prompts.|  <ul><li>Adobe Experience Manager (with [Dynamic Media with OpenAPI](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview))</li></ul>  |
+| **Content Optimization Agent** | November 21, 2025 | Simplify creating visual content variants from source assets using natural language prompts.|  <ul><li>Adobe Experience Manager (with [Dynamic Media with OpenAPI](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview))</li></ul>  |
 | **Development Agent** | November 21, 2025 | Helps AEM CS developers and technical administrators troubleshoot build-step failures in the Cloud Manager pipeline by analyzing the root cause and suggesting fixes.|  <ul><li>AI Assistant in AEM Cloud Service and Adobe Managed Services</li></ul>  |
 | **Discovery Agent** | November 21, 2025 | Speed authoring and boost discovery with simplified natural-language prompts to instantly find and surface Experience Manager content across images, videos, text-based documents, content fragments, and forms.|  <ul><li>Adobe Experience Manager Cloud Services</li></ul>  |
 | **Experience Production Agent** | November 21, 2025 | Automates high-effort and high-volume tasks in the CMS. This agent turns manual, lengthy processes into fast, AI-assisted workflows that keep every experience current and consistent, helping your business achieve your goals.|  <ul><li>Adobe Experience Manager Cloud Services and Edge Delivery Services</li></ul>  |
 | [Experimentation Agent](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/experiment/experiment-accelerator-security) | Available | Automate, analyze, and synthesize insights, so you can quickly identify high-impact experiments and growth opportunities from a centralized workspace — all while reducing manual processes.  | <ul><li>AJO Experimentation Accelerator</li></ul>   |
 | **Governance Agent** | November 21, 2025 | Safeguard brand integrity and compliance by enforcing security, regulatory, and brand policies across Experience Manager. This agent applies brand governance to maintain visual and messaging standards. It uses granular permissions to manage access and content changes, and incorporates DRM to uphold licensing and usage constraints. |  <ul><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Forms </li></ul>  |
-| [LLM Optimization Agent](https://experienceleague.adobe.com/en/docs/llm-optimizer/using/home) | Available | Enhance visibility, accuracy, and influence in AI-driven search environments, provide insights into brand presence in AI-generated answers, offer prescriptive content recommendations, and automate optimization fixes. | <ul><li>Adobe LLM Optimizer</li></ul>   |
-| [Site Optimization Agent](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/home) | Available | Maximize business impact by automatically detecting and deploying website enhancements. Using generative AI and multiple monitoring technologies, you can increase site traffic acquisition, engagement, and more | <ul><li>AEM Sites Optimizer</li></ul> | -->
+| [LLM Optimization Agent](https://experienceleague.adobe.com/de/docs/llm-optimizer/using/home) | Available | Enhance visibility, accuracy, and influence in AI-driven search environments, provide insights into brand presence in AI-generated answers, offer prescriptive content recommendations, and automate optimization fixes. | <ul><li>Adobe LLM Optimizer</li></ul>   |
+| [Site Optimization Agent](https://experienceleague.adobe.com/de/docs/experience-manager-sites-optimizer/content/home) | Available | Maximize business impact by automatically detecting and deploying website enhancements. Using generative AI and multiple monitoring technologies, you can increase site traffic acquisition, engagement, and more | <ul><li>AEM Sites Optimizer</li></ul> | -->
 
 ## Mehr Hilfe zu diesem Thema
 
 * [KI in Experience Cloud](https://experienceleague.adobe.com/de/docs/ai) Dokumentations-Startseite
 
-[!BADGE Weitere Informationen zu Adobe Systems für Unternehmen]{type=Informative url="https://business.adobe.com/products/experience-platform/agent-orchestrator.html" tooltip="OK zu Business.adobe.com"}
+[!BADGE Weitere Informationen zu Adobe Systems für Unternehmen]{type=Informative url="https://business.adobe.com/de/products/experience-platform/agent-orchestrator.html" tooltip="OK zu Business.adobe.com"}
 
 
 
