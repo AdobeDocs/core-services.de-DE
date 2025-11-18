@@ -26,7 +26,7 @@ Sie können Zugriff auf diese Agentenfunktionen erhalten Sie auf zweierlei Link 
 
 * [Vorhandene [!DNL Experience Cloud] Apps](#existing-apps): Diese Anwendungen funktionieren eigenständig, aber die Aktivierung Experience Platform Agent Orchestrator und Agents verbessert die Effizienz Ihrer vorhandenen Aufträge und Workflows, die in diesen Anwendungen ausgeführt werden, und erhöht die Produktivität der Teams, die sie nutzen. Um diese Agentenfunktionen in Experience Cloud Anwendungen zu aktivieren, die Sie derzeit lizenziert haben, müssen Sie auch die Agent Orchestrator-Lizenz erwerben.
 
-* [AI-First-Apps [!DNL Experience Cloud] ](#ai-first-apps): Diese Anwendungen basieren auf generativer oder agentischer KI im Kern. Sie verwenden generative oder agentische KI für wichtige Aufgaben, und die agentischen Funktionen sind bereits in der AI First Applikation-Lizenz enthalten und erfordern nicht die Agent Orchestrator-Lizenz.
+* [AI-First-Apps [!DNL Experience Cloud] &#x200B;](#ai-first-apps): Diese Anwendungen basieren auf generativer oder agentischer KI im Kern. Sie verwenden generative oder agentische KI für wichtige Aufgaben, und die agentischen Funktionen sind bereits in der AI First Applikation-Lizenz enthalten und erfordern nicht die Agent Orchestrator-Lizenz.
 
 ## Bestehende Anwendungen [!DNL Experience Cloud]
 
