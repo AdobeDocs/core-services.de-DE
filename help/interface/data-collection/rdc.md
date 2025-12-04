@@ -2,7 +2,7 @@
 title: Regionale Datenerfassung
 description: Erfahren Sie mehr über die regionale Datenerfassung in Experience Cloud.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -45,3 +45,4 @@ Die Datenerfassung durch Dritte umfasst Cookie-Domains, die nicht mit Ihrer Webs
 | Standard + China* | Peking*, Oregon, Virginia, Irland, Paris, Mumbai, Singapur, Tokio, Sydney |
 
 {style="table-layout:auto"}
+

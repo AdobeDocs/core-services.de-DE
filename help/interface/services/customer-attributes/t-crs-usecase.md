@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 45%
@@ -37,7 +37,7 @@ Klicken Sie [!DNL Experience Cloud] auf **[!UICONTROL Apps]** ![Menü](assets/me
 
 * **Adobe Target** `at.js` (beliebige Version) oder `mbox.js` Version 58 oder höher ist für Kundenattribute erforderlich.
 
-  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=de).
+  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Erstellen Sie eine Datendatei
 
@@ -88,7 +88,7 @@ Führen Sie diese Schritte auf der Seite [!UICONTROL Create Customer Attribute S
 
       * **Tags:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL customer Settings] im Tool [Experience Cloud ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de), die Sie mit jedem Besucher verknüpfen können.
+      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html), die Sie mit jedem Besucher verknüpfen können.
 
         Beispiel: *„crm_ id“* in:
 
@@ -110,7 +110,7 @@ Führen Sie diese Schritte auf der Seite [!UICONTROL Create Customer Attribute S
 
         Unter [Nutzen mehrerer Datenquellen](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) finden Sie zusätzliche Informationen zur Datenverarbeitung für das Alias-ID-Feld und Kunden-IDs.
 
-   * **[!UICONTROL Namespace Code:]** Verwenden Sie diesen Wert, um die Kundenattributquelle bei Verwendung von [IdentityMap](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/identity/overview) als Teil einer AEP WebSDK-Implementierung zu identifizieren.
+   * **[!UICONTROL Namespace Code:]** Verwenden Sie diesen Wert, um die Kundenattributquelle bei Verwendung von [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) als Teil einer AEP WebSDK-Implementierung zu identifizieren.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
@@ -179,4 +179,3 @@ In [!DNL Target] können Sie beim Erstellen einer Zielgruppe im Abschnitt [!UICO
 ![Kundenattribute in Adobe Target verwenden](assets/crs-add-attribute-target.png)
 
 Siehe [Erstellen einer Zielgruppe](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=de) in [!DNL Target] Hilfe.
-

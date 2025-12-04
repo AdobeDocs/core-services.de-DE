@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 6%
@@ -27,7 +27,7 @@ Auf der Seite [!UICONTROL Experience Cloud preferences] können Sie die folgende
 | [!UICONTROL Profile] | Aktualisieren Sie Ihr [Adobe-Kontoprofil](https://account.adobe.com/profile). <p>Ihr Profilbild und Ihr Name werden angezeigt, wenn Sie sich bei Adobe.com, Adobe-Produkten und -Services und auf öffentlich zugänglichen Sites wie [!DNL Behance] anmelden. |
 | [!UICONTROL General] | Wählen Sie eine [Organisation](../administration/organizations.md) aus.<p>Diese Organisation wird standardmäßig bei der Anmeldung bei Experience Cloud verwendet. |
 | [!UICONTROL Product usage data] | Sie können steuern, welche Produktnutzungsdaten mit Adobe freigegeben werden, wenn Sie Experience Cloud-Programme verwenden. Hierbei handelt es sich um Daten darüber, wie Sie unsere Produkte verwenden, nicht um die Inhalte oder Daten Ihres Unternehmens selbst. Adobe verwendet diese Informationen, um Sie bei der Verbesserung unserer Produkte zu unterstützen, Ihnen einen erweiterten produktinternen Support bereitzustellen und Ihre Erfahrungen und Mitteilungen von uns zu personalisieren. <p>Weitere Informationen finden Sie [Produktnutzungsdaten](#product-usage-data) (auf dieser Seite). |
-| [!UICONTROL Notifications] | Konfigurieren Sie, wie und wann Sie Produkt[Benachrichtigungen &#x200B;](#subscribe-to-notifications-in-experience-cloud) Warnhinweise wünschen: <ul><li>Wählen Sie die Produkte aus, die Sie für Warnhinweise abonnieren möchten</li><li>Benachrichtigungstyp konfigurieren ([!UICONTROL in-app], [!UICONTROL email] oder [Slack](#slack-notifications))</li><li>Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich)</li><li>Bestimmen Sie die Warnhinweispriorität. In-App-Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. Sie können auch festlegen, ob Warnhinweise angezeigt werden sollen, bis Sie sie schließen.</li></ul> |
+| [!UICONTROL Notifications] | Konfigurieren Sie, wie und wann Sie Produkt[Benachrichtigungen ](#subscribe-to-notifications-in-experience-cloud) Warnhinweise wünschen: <ul><li>Wählen Sie die Produkte aus, die Sie für Warnhinweise abonnieren möchten</li><li>Benachrichtigungstyp konfigurieren ([!UICONTROL in-app], [!UICONTROL email] oder [Slack](#slack-notifications))</li><li>Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich)</li><li>Bestimmen Sie die Warnhinweispriorität. In-App-Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. Sie können auch festlegen, ob Warnhinweise angezeigt werden sollen, bis Sie sie schließen.</li></ul> |
 
 ## [!UICONTROL Product usage data]
 
@@ -86,7 +86,7 @@ Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-B
 
 ### Berechtigung in [!DNL Slack] anfordern (Fehlerbehebung)
 
-Wenn [!DNL Slack] nicht installiert ist, wird beim Öffnen von Slack nach dem Klicken auf _[!UICONTROL Request to install]_&#x200B;eine **[!UICONTROL Add to Slack]**&#x200B;angezeigt. Beispiel:
+Wenn [!DNL Slack] nicht installiert ist, wird beim Öffnen von Slack nach dem Klicken auf _[!UICONTROL Request to install]_eine **[!UICONTROL Add to Slack]**angezeigt. Beispiel:
 
 ![Slack-Integration anfordern](../assets/slack-workspace.png)
 
@@ -118,3 +118,4 @@ In der [!DNL Experience Cloud] können Sie Benachrichtigungen, die Sie [abonnier
 1. Klicken Sie auf **[!UICONTROL Notifications]** oder **[!UICONTROL Announcements]**.
 
    Hier erhalten Sie wichtige Informationen über Produkte, Ihre Zusammenarbeit mit anderen Benutzern und andere relevante Updates. Zu den Aktualisierungen gehören Produktversionen, Wartungshinweise, freigegebene Elemente und Genehmigungsanfragen.
+

@@ -3,7 +3,7 @@ description: Hier erfahren Sie, wie Lösungen und Services in Adobe Experience C
 title: Verwendung von Cookies in Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: d6dc659104b3b24b60495cd97adb21ebb3962fc7
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 10%
@@ -22,7 +22,7 @@ Adobe Experience Cloud verwendet Cookies, um Informationen zu verfolgen, die zwi
 
 Einige Browser und Anti-Spyware-Tools blockieren Cookies von Drittanbietern. Adobe bietet Möglichkeiten, sicherzustellen, dass Cookies auch dann funktionieren, wenn Cookies blockiert sind. Wie dies funktioniert, hängt davon ab, ob Sie Experience Platform Identity Service (ECID) oder ältere Analytics-Cookies (wie das `s_vi`-Cookie) verwenden:
 
-* [Experience Cloud Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/intro/overview): Der ECID-Service setzt immer Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Es verwendet JavaScript, um das Cookie in der Domain Ihrer Site zu platzieren.
+* [Experience Cloud Identity Service](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): Der ECID-Service setzt immer Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Es verwendet JavaScript, um das Cookie in der Domain Ihrer Site zu platzieren.
 
 * [Legacy-IDs von Analytics](analytics.md) (z. B. das `s_vi`-Cookie): Ob Cookies Erstanbieter- oder Drittanbieter-Cookies sind, hängt von Ihrer Einrichtung ab:
 
@@ -54,3 +54,4 @@ Die folgende Abbildung zeigt die Verwendung von Cookies für eine Standard-Bilda
 Die folgende Abbildung zeigt die Verwendung von Cookies für eine direkte Bildanforderung (in Szenarien, in denen keine JS-Datei geladen wird):
 
 ![Cookie-Nutzung für eine direkte Bildanforderung](assets/CookiesProcessGraphic2.png)
+

@@ -2,10 +2,10 @@
 title: Von Experience Cloud verwendete IP-Adressen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: a18b61cb32286680cb1ab2a296df33509fd95a00
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 12%
+ht-degree: 6%
 
 ---
 
@@ -19,10 +19,10 @@ Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Datenerfassu
 
 Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adobe Experience Cloud-Produkte über eigene IP-Adressen, die sie verwenden:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Alle Adobe IP-Adressblöcke
 
@@ -77,9 +77,9 @@ Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 | Singapur | `66.117.30.0/24` |
 | Singapur | `172.82.240.8/29` |
 | Singapur | `172.82.240.88/29` |
-| Virginia | `63.140.38.0/23` |
-| Virginia | `63.140.54.0/24` |
-| Virginia | `67.202.5.244` |
+| Virgina | `63.140.38.0/23` |
+| Virgina | `63.140.54.0/24` |
+| Virgina | `67.202.5.244` |
 
 {style="table-layout:auto"}
 
@@ -98,11 +98,12 @@ Der Adobe Experience Cloud unterstützt auch IPv6 in begrenzter Kapazität. Dies
 | Oregon | `2600:1f14:1eb:7d00::/56` |
 | Oregon | `2600:1f14:9d3:2b00::/56` |
 | Singapur | `2406:da18:6e8:1e00::/56` |
-| Virginia | `2600:1f18:1a20:e800::/56` |
-| Virginia | `2600:1f18:4fd:6000::/56` |
-| Virginia | `2600:1f18:b00:e100::/56` |
-| Virginia | `2600:1f18:d1f:bd00::/56` |
+| Virgina | `2600:1f18:1a20:e800::/56` |
+| Virgina | `2600:1f18:4fd:6000::/56` |
+| Virgina | `2600:1f18:b00:e100::/56` |
+| Virgina | `2600:1f18:d1f:bd00::/56` |
 
 >[!TIP]
 >
 >FTP-Verbindungen für Adobe Analytics-Exportfunktionen (einschließlich Data Warehouse- und Daten-Feeds) stammen nur von IPv4-Adressen in London, Oregon und Singapur.
+

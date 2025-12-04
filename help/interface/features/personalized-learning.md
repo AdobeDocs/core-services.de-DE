@@ -3,7 +3,7 @@ description: Sie erhalten personalisierte Hilfe und Angebote per E-Mail, in Ihre
 solution: Experience Cloud
 title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 23%
@@ -12,7 +12,7 @@ ht-degree: 23%
 
 # Empfehlungen und Angebote für personalisierte Lerninhalte
 
-Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [Experience Cloud-Voreinstellungen&rbrace; &#x200B;](https://experience.adobe.com/preferences) oder deaktivieren.
+Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [Experience Cloud-Voreinstellungen} ](https://experience.adobe.com/preferences) oder deaktivieren.
 
 <!-- ## Personalized training and support recommendations for your Adobe products and services
 

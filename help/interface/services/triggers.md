@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 78%
@@ -84,3 +84,4 @@ Die folgende Seite zeigt beispielsweise Regeln, die Sie für einen [!UICONTROL C
 Der folgende Trigger wird ausgelöst, wenn ein Treffer mit dem Produkt „Herrenstiefel“ und Referrer „Facebook“ eingeht. Für die beiden Kriterien (*Produkte* und *Referrer*), die für denselben Treffer auszuwerten sind, sollten sie demselben Container hinzugefügt werden.
 
 ![Referrer-Trigger](../assets/fb-boots-promo.png)
+

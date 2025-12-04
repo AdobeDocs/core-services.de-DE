@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: a1cfa6c69d8e95ceb0d4c3c72c24541867173fcc
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 63%
@@ -27,7 +27,7 @@ Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein F
 Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP durchgeführt werden:
 
 * Sie benötigen einen Client, der SFTP-Verbindungen unterstützt.
-* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=de) beschrieben.
+* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) beschrieben.
 
 **So laden Sie die Datendatei via FTP hoch**
 
@@ -70,3 +70,4 @@ Die Namen, die Sie den Zeichenfolgen, Ganzzahlen und Nummern geben, werden zur E
 * **[!UICONTROL Display Name:]** Ein benutzerfreundlicher Name für das Attribut. Sie können beispielsweise das Attribut *Kundenalter) in* Kunde seit *ändern*.
 
 * **[!UICONTROL Description:]** Eine benutzerfreundliche Beschreibung des Attributs.
+

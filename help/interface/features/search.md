@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 91%
@@ -70,7 +70,7 @@ Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge de
 * Benutzerberechtigungen für den Zugriff auf Objekte
 * Prozentsatz der Übereinstimmung
 * Exakte Übereinstimmungen
-* Der Abschnitt _[!UICONTROL Top Results]_&#x200B;zeigt die 30 besten Ergebnisse.
+* Der Abschnitt _[!UICONTROL Top Results]_zeigt die 30 besten Ergebnisse.
 
 Um die Suche zu verfeinern, klicken Sie auf eine der folgenden Optionen:
 
@@ -102,3 +102,4 @@ Probieren Sie die folgenden Tipps aus:
 * Prüfen Sie die Rechtschreibung
 * Versuchen Sie, den vollständigen Suchbegriff zu schreiben
 * Vergewissern Sie sich, dass Sie über Berechtigungen für Objekte verfügen, nach denen Sie suchen
+
