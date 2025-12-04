@@ -30,11 +30,11 @@ Analytics verwendet Cookies, um neue Besucher anonym zu definieren, Klickdaten z
 | **`s_fid`** | 2 Jahre | 33 Byte | Erstanbieter | Speichert die Fallback-Unique-Visitor-ID und den Zeitstempel. Wird von JavaScript festgelegt, wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht gesetzt werden kann. Wird nicht für Erstanbieter-Cookie-Implementierungen verwendet. |
 | **`s_ac`** | Unmittelbar | 1 Byte | Erstanbieter | Hilft bei der Bestimmung der richtigen Domain für AppMeasurement-Cookies. Enthält den statischen Wert `"1"`. Sobald dieses Cookie gesetzt ist, wird es sofort gelöscht. |
 
-Weitere [&#x200B; dazu, wie Adobe Analytics Besucher mithilfe von &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) identifiziert, finden Sie unter „Besucheridentifizierung in Adobe Analytics&quot;.
+Weitere [&#x200B; dazu, wie Adobe Analytics Besucher mithilfe von &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/overview) identifiziert, finden Sie unter „Besucheridentifizierung in Adobe Analytics&quot;.
 
 ## Von Plug-ins eingestellte Cookies
 
-Bei einigen Implementierungen werden Plug-ins verwendet, bei denen es sich um Code-Ausschnitte handelt, die zusätzliche Funktionen für Analytics bieten. Diese Plug-ins können Cookies setzen, die oben nicht aufgeführt sind. Unter [Übersicht über Analytics-Plug](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) finden Sie eine Liste der verfügbaren Plug-ins und der von ihnen gesetzten Cookies.
+Bei einigen Implementierungen werden Plug-ins verwendet, bei denen es sich um Code-Ausschnitte handelt, die zusätzliche Funktionen für Analytics bieten. Diese Plug-ins können Cookies setzen, die oben nicht aufgeführt sind. Unter [Übersicht über Analytics-Plug](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/plugins/impl-plugins) finden Sie eine Liste der verfügbaren Plug-ins und der von ihnen gesetzten Cookies.
 
 ## Folgen des Löschens von Analytics-Cookies
 

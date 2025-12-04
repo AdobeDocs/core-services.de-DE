@@ -29,7 +29,7 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 |--- |--- |
 | [Zentrale Komponenten der Benutzeroberfläche](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud) | Zugriff auf Kontovoreinstellungen, Suche nach Produkthilfe und Zugriff auf Anwendungen und Services. |
 | [Zielgruppenbibliothek](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/overview) | Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von Besucher-IDs). Mit der [!DNL Audience Library] von Adobe können Sie die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten. |
-| [Kundenattribute](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungsdienst. |
+| [Kundenattribute](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungsdienst. |
 | [Assets](https://experienceleague.adobe.com/de/docs/core-services/interface/services/assets/experience-cloud-assets) | Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. |
 
 {style="table-layout:auto"}
