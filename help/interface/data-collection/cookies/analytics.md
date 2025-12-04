@@ -30,7 +30,7 @@ Analytics verwendet Cookies, um neue Besucher anonym zu definieren, Klickdaten z
 | **`s_fid`** | 2 Jahre | 33 Byte | Erstanbieter | Speichert die Fallback-Unique-Visitor-ID und den Zeitstempel. Wird von JavaScript festgelegt, wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht gesetzt werden kann. Wird nicht für Erstanbieter-Cookie-Implementierungen verwendet. |
 | **`s_ac`** | Unmittelbar | 1 Byte | Erstanbieter | Hilft bei der Bestimmung der richtigen Domain für AppMeasurement-Cookies. Enthält den statischen Wert `"1"`. Sobald dieses Cookie gesetzt ist, wird es sofort gelöscht. |
 
-Weitere [ dazu, wie Adobe Analytics Besucher mithilfe von ](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) identifiziert, finden Sie unter „Besucheridentifizierung in Adobe Analytics&quot;.
+Weitere [&#x200B; dazu, wie Adobe Analytics Besucher mithilfe von &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) identifiziert, finden Sie unter „Besucheridentifizierung in Adobe Analytics&quot;.
 
 ## Von Plug-ins eingestellte Cookies
 

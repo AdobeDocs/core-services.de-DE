@@ -70,7 +70,7 @@ Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge de
 * Benutzerberechtigungen für den Zugriff auf Objekte
 * Prozentsatz der Übereinstimmung
 * Exakte Übereinstimmungen
-* Der Abschnitt _[!UICONTROL Top Results]_zeigt die 30 besten Ergebnisse.
+* Der Abschnitt _[!UICONTROL Top Results]_&#x200B;zeigt die 30 besten Ergebnisse.
 
 Um die Suche zu verfeinern, klicken Sie auf eine der folgenden Optionen:
 
