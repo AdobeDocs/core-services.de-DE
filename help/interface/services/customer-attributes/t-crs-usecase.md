@@ -110,7 +110,7 @@ Führen Sie diese Schritte auf der Seite [!UICONTROL Create Customer Attribute S
 
         Unter [Nutzen mehrerer Datenquellen](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) finden Sie zusätzliche Informationen zur Datenverarbeitung für das Alias-ID-Feld und Kunden-IDs.
 
-   * **[!UICONTROL Namespace Code:]** Verwenden Sie diesen Wert, um die Kundenattributquelle bei Verwendung von [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) als Teil einer AEP WebSDK-Implementierung zu identifizieren.
+   * **[!UICONTROL Namespace Code:]** Verwenden Sie diesen Wert, um die Kundenattributquelle bei Verwendung von [IdentityMap](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/identity/overview) als Teil einer AEP WebSDK-Implementierung zu identifizieren.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 
