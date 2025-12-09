@@ -8,22 +8,22 @@ topic: Administration
 role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 91%
+source-wordcount: '633'
+ht-degree: 88%
 
 ---
 
-# [!UICONTROL Unified Search] für Objekte und Entitäten
+# [!UICONTROL Unified Search] in Experience Cloud
 
 Die [!UICONTROL Unified Search] Suche ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten Erlebnis mit einem Klick zu finden. Diese Suche zeigt auch die Objekte an, auf die Sie zuletzt zugegriffen haben.
 
 ![Globale Suche nach Objekten und Entitäten](../assets/platform-search.png)
 
-## Zugriff auf die einheitliche Suche
+## Zugreifen auf [!UICONTROL Unified Search]
 
-Die einheitliche Suche ist auf jeder Seite von Experience Cloud in der Kopfzeile am oberen Seitenrand verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
+[!UICONTROL Unified Search] ist im Experience Cloud-Header oben auf der Seite auf jeder Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
 
 Diese Funktion ist nur für unterstützte Produkte verfügbar – derzeit die folgenden:
 
@@ -42,7 +42,7 @@ Ihre Möglichkeiten und Objektberechtigungen
 Übereinstimmung in Prozent
 Ob es eine genaue Übereinstimmung gibt
 
-![Einheitliche Suche in Experience Cloud](../assets/unified-search-results.png)
+![[!UICONTROL Unified Search] in Experience Cloud](../assets/unified-search-results.png)
 
 Zu den durchsuchbaren Geschäftsobjekten gehören:
 
@@ -63,21 +63,21 @@ Sie finden die Hilfeartikel auch in Experience League und Communities. Abfragen 
 
 Beispielsweise liefert _Erstellen eines Schemas_ Ergebnisse von Experience League unter _[!UICONTROL Learning]_:
 
-![Einheitliche Suche in der Experience Cloud-Hilfe](../assets/unified-search-learning.png)
+Hilfe zu ![[!UICONTROL Unified Search] in Experience Cloud](../assets/unified-search-learning.png)
 
 Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 
 * Benutzerberechtigungen für den Zugriff auf Objekte
 * Prozentsatz der Übereinstimmung
 * Exakte Übereinstimmungen
-* Der Abschnitt _[!UICONTROL Top Results]_&#x200B;zeigt die 30 besten Ergebnisse.
+* Der Abschnitt _[!UICONTROL Top Results]_zeigt die 30 besten Ergebnisse.
 
 Um die Suche zu verfeinern, klicken Sie auf eine der folgenden Optionen:
 
 * **[!UICONTROL All Learning]**: Öffnet die Suche in Experience League.
 * **[!UICONTROL Show all...]**: Ermöglicht die weitere Verfeinerung und Filterung der Ergebnisse.
 
-## Funktionen der einheitlichen Suche
+## [!UICONTROL Unified Search] Funktionen
 
 Die folgenden Funktionen sind in der einheitlichen Suche verfügbar.
 

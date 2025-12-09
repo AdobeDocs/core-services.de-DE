@@ -1,18 +1,18 @@
 ---
 description: Sie erhalten personalisierte Hilfe und Angebote per E-Mail, in Ihren Experience Cloud-Produkten und in den Experience League Communities auf der Grundlage Ihrer Nutzungsdaten.
 solution: Experience Cloud
-title: Einstellungen für personalisierte Lerninhalte in Experience Cloud
+title: Voreinstellungen für personalisierte Lerninhalte in Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 23%
+source-wordcount: '103'
+ht-degree: 19%
 
 ---
 
-# Empfehlungen und Angebote für personalisierte Lerninhalte
+# Voreinstellungen für personalisierte Lerninhalte
 
-Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [Experience Cloud-Voreinstellungen&rbrace; &#x200B;](https://experience.adobe.com/preferences) oder deaktivieren.
+Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [Experience Cloud-Voreinstellungen} ](https://experience.adobe.com/preferences) oder deaktivieren.
 
 <!-- ## Personalized training and support recommendations for your Adobe products and services
 

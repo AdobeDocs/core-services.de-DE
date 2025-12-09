@@ -6,14 +6,14 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c447723f4d6c57bdccad6c4a8996693aec4a56fe
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 79%
+source-wordcount: '698'
+ht-degree: 78%
 
 ---
 
-# Hilfe zur Experience Cloud-Oberfläche
+# Zentrale Komponenten der Experience Cloud-Benutzeroberfläche
 
 Die zentralen Komponenten der Benutzeroberfläche von Experience Cloud umfassen Funktionen, mit denen Sie:
 
@@ -80,7 +80,7 @@ Klicken Sie auf die Programmauswahl ![Menü](assets/menu-icon.png), um auf die v
 
 ## Suche und Support in Experience Cloud
 
-Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/de?lang=de#home) suchen.
+Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen.
 
 ![Suche und Support in Experience Cloud](assets/search-menu.png)
 
@@ -104,7 +104,7 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
-* Klicken Sie im Kontomenü **[!UICONTROL Preferences]** Einstellungen![&#x200B; auf &#x200B;](assets/preferences-icon-sm.png) , um die Einstellungen zu verwalten.
+* Klicken Sie im Kontomenü **[!UICONTROL Preferences]** Einstellungen![ auf ](assets/preferences-icon-sm.png) , um die Einstellungen zu verwalten.
 
 ![Verwalten von Experience Cloud](assets/preferences-page.png)
 

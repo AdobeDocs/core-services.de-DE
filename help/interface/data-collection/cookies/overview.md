@@ -3,14 +3,14 @@ description: Hier erfahren Sie, wie Lösungen und Services in Adobe Experience C
 title: Verwendung von Cookies in Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 10%
+source-wordcount: '600'
+ht-degree: 11%
 
 ---
 
-# In Experience Cloud verwendete Cookies
+# Verwenden von Cookies in Experience Cloud
 
 Adobe Experience Cloud verwendet Cookies. Ein Cookie ist ein kleines Datenelement, das eine Website an Ihren Browser sendet, der es zur späteren Verwendung speichert. Cookies helfen der Website, sich Dinge zu merken, wenn Sie erneut besuchen oder zwischen Seiten wechseln. Cookies helfen dabei, Besuche zu verfolgen und ein Gerät vom anderen zu unterscheiden.
 
@@ -22,7 +22,7 @@ Adobe Experience Cloud verwendet Cookies, um Informationen zu verfolgen, die zwi
 
 Einige Browser und Anti-Spyware-Tools blockieren Cookies von Drittanbietern. Adobe bietet Möglichkeiten, sicherzustellen, dass Cookies auch dann funktionieren, wenn Cookies blockiert sind. Wie dies funktioniert, hängt davon ab, ob Sie Experience Platform Identity Service (ECID) oder ältere Analytics-Cookies (wie das `s_vi`-Cookie) verwenden:
 
-* [Experience Cloud Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/intro/overview): Der ECID-Service setzt immer Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Es verwendet JavaScript, um das Cookie in der Domain Ihrer Site zu platzieren.
+* [Experience Cloud Identity Service](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): Der ECID-Service setzt immer Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Es verwendet JavaScript, um das Cookie in der Domain Ihrer Site zu platzieren.
 
 * [Legacy-IDs von Analytics](analytics.md) (z. B. das `s_vi`-Cookie): Ob Cookies Erstanbieter- oder Drittanbieter-Cookies sind, hängt von Ihrer Einrichtung ab:
 

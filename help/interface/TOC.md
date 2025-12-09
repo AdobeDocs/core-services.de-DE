@@ -5,10 +5,10 @@ breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattributen und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 96%
+source-wordcount: '198'
+ht-degree: 88%
 
 ---
 
@@ -16,31 +16,28 @@ ht-degree: 96%
 # Benutzeroberfläche und Verwaltung von Experience Cloud {#interface}
 
 + [Benutzeroberfläche und Verwaltung von Experience Cloud](experience-cloud.md)
-+ [Ausgeblendeter Nullpunkt](hidden-experience-cloud.md)
 + Dienste {#services}
-   + [Überblick](services/overview.md)
+   + [Services - Übersicht](services/overview.md)
    + [Erste Schritte](services/getting-started.md)
-   + [Ausgeblendeter Überblick](services/hidden-overview.md)
-   + [Ausgeblendet Erste Schritte](services/hidden-getting-started.md)
    + Assets {#assets}
-      + [Überblick](services/assets/experience-cloud-assets.md)
+      + [Übersicht über Assets](services/assets/experience-cloud-assets.md)
       + [Verwaltung der Creative Cloud-Benutzenden](services/assets/manage-cc-users.md)
-      + [Freigeben eines Asset-Ordners](services/assets/share.md)
+      + [Asset-Ordner freigeben](services/assets/share.md)
       + [Hochladen eines Assets in einen freigegebenen Ordner](services/assets/upload.md)
       + [Dateivoraussetzungen für die Freigabe von Assets](services/assets/file-reqs.md)
       + [Verhalten freigegebener Ordner](services/assets/behavior.md)
    + Zielgruppenbibliothek {#audiences}
-      + [Überblick](services/audiences/overview.md)
+      + [Zielgruppen – Überblick](services/audiences/overview.md)
       + [Erstellen einer Zielgruppe](services/audiences/create.md)
-   + [Exchange](services/exchange.md)
+   + [Adobe Exchange](services/exchange.md)
    + Kundenattribute {#customer-attributes}
-      + [Überblick](services/customer-attributes/attributes.md)
-      + [FAQs](services/customer-attributes/faq-crs.md)
-      + [Informationen zu Datendateien und Datenquellen](services/customer-attributes/crs-data-file.md)
-      + [Erstellen und Hochladen der Datendatei](services/customer-attributes/t-crs-usecase.md)
+      + [Übersicht über Kundenattribute](services/customer-attributes/attributes.md)
+      + [Häufig gestellte Fragen](services/customer-attributes/faq-crs.md)
+      + [Datendateien und -quellen](services/customer-attributes/crs-data-file.md)
+      + [Erstellen und Hochladen von Daten](services/customer-attributes/t-crs-usecase.md)
       + [Optional – Hochladen per FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Schema prüfen](services/customer-attributes/validate-schema.md)
-      + [Konfigurieren von Abonnements und Aktivieren von Datenquellen](services/customer-attributes/subscription.md)
+      + [Konfigurieren von Abonnements](services/customer-attributes/subscription.md)
       + [Schema aktualisieren](services/customer-attributes/t-update-schema.md)
       + [Unterstützung für die DSGVO](services/customer-attributes/gdpr.md)
       + [Unterstützung für den CCPA](services/customer-attributes/ccpa.md)
@@ -51,13 +48,13 @@ ht-degree: 96%
    + [Generative KI](features/generative-ai.md)
    + [Agent-basierte KI](features/agentic-ai.md)
    + [Einheitliche Suche](features/search.md)
-   + [Personalisierte Lerninhalte](features/personalized-learning.md)
+   + [Voreinstellungen für personalisierte Lerninhalte](features/personalized-learning.md)
    + [Browser- und Sprachunterstützung](browser-language.md)
 + Administration {#administration}
-   + [Benutzerverwaltung und Produktlizenzen](administration/admin-console.md)
-   + [Anzeigen von Benutzerdetails (Admin-Tool)](administration/admin-tool-experience-cloud.md)
-   + [Organisationen](administration/organizations.md)
-   + [Experience Cloud-Integrationen](administration/integrations.md)
+   + [Benutzer- und Produktverwaltung](administration/admin-console.md)
+   + [Admin-Tool](administration/admin-tool-experience-cloud.md)
+   + [Organisationen und Kontoverknüpfung](administration/organizations.md)
+   + [Integrationen](administration/integrations.md)
 + Datenerfassung {#data-collection}
    + [Adobe Managed Certificate Program](data-collection/adobe-managed-cert.md)
    + [IP-Adressen](data-collection/ip-addresses.md)
@@ -75,5 +72,5 @@ ht-degree: 96%
 + Versionshinweise und Ressourcen {#more-resources}
    + [Versionshinweise](more-resources/release-notes.md)
    + [Dokumentationsaktualisierungen](more-resources/doc-updates.md)
-   + [Häufig gestellte Fragen](more-resources/faq.md)
+   + [FAQs](more-resources/faq.md)
    + [Terminologie](more-resources/terms.md)
