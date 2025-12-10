@@ -7,7 +7,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 609eaf1819189cb4eac76b2b58703b246dfb843b
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 83%
@@ -47,7 +47,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
    Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich durch ein Single Sign-on Ihres Unternehmens bei Experience Cloud anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur Experience Cloud-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
-   Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+   Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
 ## Zugriff auf Experience Cloud-Anwendungen {#navigation}
 
@@ -59,7 +59,7 @@ Rufen Sie die das ![Menü](assets/apps-icon.png) der Programmauswahl auf, um auf
 
 ## Hilfe und Support {#support}
 
-Greifen Sie mithilfe der **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) zu [Experience League](https://experienceleague.adobe.com/de?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
+Greifen Sie mithilfe der **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) in der Kopfzeile auf Lernmaterialien und Hilfe zu, einschließlich Hilfeinhalten (Dokumentation, Tutorials und Kurse) zu [Experience League](https://experienceleague.adobe.com/?lang=de#home) sowie zusätzlichen Ressourcen für einzelne Programme. Sie können auch ein unverbindliches Feedback senden und priorisierte Support-Tickets erstellen.
 
 ![Erhalten Sie Hilfe und Support](assets/search-menu.png)
 

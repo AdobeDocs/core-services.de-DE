@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 77%
@@ -45,9 +45,9 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
    Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich durch ein Single Sign-on Ihres Unternehmens bei Experience Cloud anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur Experience Cloud-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
-   Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+   Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-   **Hinweis:** Der Administrator Ihres Unternehmens kann den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränken. Wenn ja, erhalten Sie möglicherweise eine Fehlermeldung, nachdem Sie sich bei Experience Cloud angemeldet haben oder zu einem Unternehmen gewechselt haben, für das diese Option aktiviert ist. Weitere Informationen finden Sie unter [Produktzugriff nach IP-Adressen beschränken](https://helpx.adobe.com/de/enterprise/using/ip-based-access.html).
+   **Hinweis:** Der Administrator Ihres Unternehmens kann den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränken. Wenn ja, erhalten Sie möglicherweise eine Fehlermeldung, nachdem Sie sich bei Experience Cloud angemeldet haben oder zu einem Unternehmen gewechselt haben, für das diese Option aktiviert ist. Weitere Informationen finden Sie unter [Produktzugriff nach IP-Adressen beschränken](https://helpx.adobe.com/enterprise/using/ip-based-access.html).
 
 
 ## Zugriff auf Experience Cloud-Anwendungen

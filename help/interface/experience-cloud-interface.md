@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 63d5c080a7282c78eb7a66c5a54c69b5597545ab
+source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 78%
@@ -68,7 +68,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen Organi
 
    Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich durch ein Single Sign-on Ihres Unternehmens bei Experience Cloud anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur Experience Cloud-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
-   Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `adobecustomer.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@adobecustomer.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+   Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
 ## Zugriff auf Experience Cloud-Anwendungen
 
@@ -80,7 +80,7 @@ Klicken Sie auf die Programmauswahl ![Menü](assets/menu-icon.png), um auf die v
 
 ## Suche und Support in Experience Cloud
 
-Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/de?lang=de#home) suchen.
+Mit der Experience Cloud-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League](https://experienceleague.adobe.com/?lang=de#home) suchen.
 
 ![Suche und Support in Experience Cloud](assets/search-menu.png)
 
@@ -104,7 +104,7 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
-* Klicken Sie im Kontomenü **[!UICONTROL Preferences]** Einstellungen![&#x200B; auf &#x200B;](assets/preferences-icon-sm.png) , um die Einstellungen zu verwalten.
+* Klicken Sie im Kontomenü **[!UICONTROL Preferences]** Einstellungen![ auf ](assets/preferences-icon-sm.png) , um die Einstellungen zu verwalten.
 
 ![Verwalten von Experience Cloud](assets/preferences-page.png)
 
