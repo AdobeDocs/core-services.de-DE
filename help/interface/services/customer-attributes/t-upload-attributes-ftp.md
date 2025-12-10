@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 63%
+source-wordcount: '361'
+ht-degree: 56%
 
 ---
 
@@ -22,12 +22,12 @@ Sie können die Daten hochladen, nachdem Sie eine Kundenattributquelle und ein F
 
 >[!IMPORTANT]
 >
->Lesen Sie [Datendateivoraussetzungen für das Hochladen von Kundenattributen](crs-data-file.md), bevor Sie die Datei hochladen.
+>Überprüfen Sie [Kundenattributdatendateien und -quellen](crs-data-file.md) bevor Sie die Datei hochladen.
 
 Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP durchgeführt werden:
 
 * Sie benötigen einen Client, der SFTP-Verbindungen unterstützt.
-* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=de) beschrieben.
+* Sie können eine Verbindung mit SFTP entweder mit dem Benutzernamen/Kennwort oder ohne Kennwort herstellen, wie [hier](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html) beschrieben.
 
 **So laden Sie die Datendatei via FTP hoch**
 
@@ -43,7 +43,7 @@ Datei-Uploads auf die FTP-Site der Kundenattribute können über FTP oder SFTP d
 
    Wenn der Upload erfolgreich war, werden beide Dateien in einen Ordner mit dem Namen **verarbeitet** verschoben.
 
-   Wichtige Informationen zu Dateinamen und zur Dateistruktur finden Sie unter [Datendateivoraussetzungen für das Hochladen von Kundenattributen](crs-data-file.md).
+   Siehe [Kundenattributdatendateien und -quellen](crs-data-file.md) für wichtige Informationen zu Dateinamen und -struktur.
 
 ## FTP-Konto einrichten
 

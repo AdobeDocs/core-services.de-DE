@@ -1,12 +1,12 @@
 ---
-title: '[!DNL Customer attributes] Unterstützung der Datenschutz-Grundverordnung'
+title: '[!DNL Customer Attributes] Unterstützung der Datenschutz-Grundverordnung'
 description: Informationen zur Unterstützung von Kundenattributen für die Datenschutz-Grundverordnung (DSGVO)
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 91%
