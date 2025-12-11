@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 84%
+ht-degree: 63%
 
 ---
 
@@ -22,17 +22,17 @@ Mit [!DNL Customer Attributes] in Experience Cloud können Sie Ihre erfassten Un
 
 ![Übersicht über Kundenattribute](assets/custom_reports.png)
 
-## Was sind Enterprise-Kundendaten?
+## Über Unternehmens-Kundendaten {#customer-data}
 
-Enterprise-Daten befinden sich in anderen Systemen. Sie können komplex sein und verschiedene Bedeutungen für verschiedene Personen haben. Diese Daten können Informationen wie Zugehörigkeiten, Treueebene, Alter, Geschlecht, eigene Produkte, Interessen und Lebenszeitwert beinhalten.
+Unternehmens-Kundendaten beziehen sich auf den organisationsweiten Satz von Informationen, die über Kunden, Interessenten und Partner erfasst werden. Sie befinden sich auf anderen Systemen und können Informationen wie Mitgliedschaften, Treuestufe, Alter, Geschlecht, eigene Produkte, Interessen und Lebenszeitwert enthalten.
 
-Das folgende Bild ist ein Beispiel für eine Datendatei mit Abonnentendaten zu Produkten, einschließlich Mitglieds-IDs, Produkten mit Berechtigung, den am häufigsten gestarteten Produkten usw.
+Das folgende Bild ist ein Beispiel für eine _Datendatei_ die Abonnentendaten für Produkte anzeigt, einschließlich Mitglieds-IDs, berechtigter Produkte, am häufigsten gestarteter Produkte und so weiter.
 
 ![Was sind Unternehmens-Kundendaten?](assets/01_crs_usecase.png)
 
 Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]** erstellen.
 
-Weitere [&#x200B; zu diesem Workflow finden Sie unter &#x200B;](t-crs-usecase.md) von Kundenattributdaten hochladen .
+Weitere [ zu diesem Workflow finden Sie unter ](t-crs-usecase.md) von Kundenattributdaten hochladen .
 
 ## Beispiele für Kundenattribute in Analytics und Target
 

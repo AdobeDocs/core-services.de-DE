@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 27b9b789e0d4c448105f5acec3aa05c9404443bf
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 50%
+source-wordcount: '573'
+ht-degree: 48%
 
 ---
 
@@ -100,6 +100,6 @@ Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
-* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support).
-* Greifen Sie über die Standardanmeldung auf das Programm zu, solange das Problem nicht behoben ist.
+* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&lang=de#support).
+* Greifen Sie über die Standardanmeldung auf Ihre Anwendung zu, während das Problem behoben wird.
 
