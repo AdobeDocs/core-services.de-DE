@@ -54,7 +54,7 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
 
 ## Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch
 
-Führen Sie diese Schritte auf der Seite _[!UICONTROL Create Customer Attribute Source]_in Experience Cloud aus.
+Führen Sie diese Schritte auf der Seite _[!UICONTROL Create Customer Attribute Source]_&#x200B;in Experience Cloud aus.
 
 >[!IMPORTANT]
 >
