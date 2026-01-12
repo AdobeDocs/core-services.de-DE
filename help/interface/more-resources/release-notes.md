@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 7e6fb9d8e87ec1cbec0b60dd773f157cb52e66ea
+source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
 workflow-type: tm+mt
-source-wordcount: '1273'
-ht-degree: 79%
+source-wordcount: '1333'
+ht-degree: 76%
 
 ---
 
@@ -24,13 +24,19 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Aktualisieru
 
 Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
-## September 2025
+## Januar 2026
+
+| Datum | Update | Beschreibung |
+| -----------| -----------| ---------- |
+| **Freitag, 15. Januar 2026** | Anpassbare Navigation auf der linken Seite | Die linke Unified Shell-Navigation in Experience Cloud kann jetzt angepasst werden. Sie können Navigationselemente neu anordnen und schnell auf die wichtigsten Funktionen zugreifen. Diese Aktualisierung verbessert die Effizienz durch die Optimierung von Workflows, die Verringerung der kognitiven Belastung und die Unterstützung der vollständigen Tastaturbedienung. Sie behält ein konsistentes, modernes Design für alle Anwendungen bei und ermöglicht eine zukünftige Personalisierung. |
+
+## September 2025
 
 | Datum | Update | Beschreibung |
 | -----------| -----------| ---------- |
 | **25. September 2025** | Unterstützung für IP-Zugriffslisten | Für Organisationen, die IP-Zugriffslisten in Admin Console verfügbar und aktiviert haben, berücksichtigt Experience Cloud diese IP-Einschränkungen für den Zugriff auf Anwendungen auf der `https://experience.adobe.com`-Domain. Diese Aktualisierung betrifft alle Web-Anwendungen, auf die über diese Domain zugegriffen wird. Die Prüfungen werden bei der Anmeldung und beim Laden neuer Seiten in dieser Organisation durchgeführt. |
 
-## März 2025
+## März 2025
 
 | Datum | Update | Beschreibung |
 | -----------| -----------| ---------- |
@@ -46,7 +52,7 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 | Datum | Funktion | Beschreibung |
 | -----------| -----------| ---------- |
-| &#x200B;9. Januar | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für Experience Cloud-Produktverwendungsdaten zu vereinfachen, haben wir unsere Seite [Voreinstellungen](../features/account-preferences.md#product-usage-data) von Experience Cloud optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit auf [Experience Cloud-Voreinstellungen aktualisieren](https://experience.adobe.com/preferences). |
+| Januar 9 | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für Experience Cloud-Produktverwendungsdaten zu vereinfachen, haben wir unsere Seite [Voreinstellungen](../features/account-preferences.md#product-usage-data) von Experience Cloud optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit auf [Experience Cloud-Voreinstellungen aktualisieren](https://experience.adobe.com/preferences). |
 
 ## &#x200B;2. Oktober 2024
 
@@ -78,7 +84,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 * Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
-## Mai 2023
+## Mai 2023
 
 * Im Menü [!DNL Experience Cloud] **[!UICONTROL Help]** wurde die Inhaltssuche aktualisiert, um in den [Experience League&rbrace;-](https://experienceleague.adobe.com/de?lang=de#home) nach Anwendung zu filtern.
 
@@ -155,7 +161,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 {style="table-layout:auto"}
 
-## Mai 2021
+## Mai 2021
 
 | Funktion | Beschreibung |
 | ------- | ------- |
