@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f6e1b7bd86548f3f435738463d2ab764f801b077
+source-git-commit: db1e2a8c3278a44ad2d004a48cc0aa7f13cfd82b
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1330'
 ht-degree: 76%
 
 ---
@@ -28,7 +28,7 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 
 | Datum | Update | Beschreibung |
 | -----------| -----------| ---------- |
-| **Freitag, 15. Januar 2026** | Anpassbare Navigation auf der linken Seite | Die linke Unified Shell-Navigation in Experience Cloud kann jetzt angepasst werden. Sie können Navigationselemente neu anordnen und schnell auf die wichtigsten Funktionen zugreifen. Diese Aktualisierung verbessert die Effizienz durch die Optimierung von Workflows, die Verringerung der kognitiven Belastung und die Unterstützung der vollständigen Tastaturbedienung. Sie behält ein konsistentes, modernes Design für alle Anwendungen bei und ermöglicht eine zukünftige Personalisierung. |
+| **Freitag, 15. Januar 2026** | Anpassbare Navigation auf der linken Seite | Sie können jetzt die linke Navigation in Experience Cloud anpassen. Ordnen Sie die Navigationselemente neu an und greifen Sie schnell auf die wichtigsten Funktionen zu. Diese Aktualisierung hilft Ihnen, Workflows zu optimieren, die kognitive Belastung zu reduzieren, und unterstützt die volle Barrierefreiheit der Tastatur. Sie behält ein konsistentes, modernes Design für alle Anwendungen bei und ermöglicht eine zukünftige Personalisierung. |
 
 ## September 2025
 
