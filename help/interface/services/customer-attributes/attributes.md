@@ -7,10 +7,10 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: a5afed30f142601d44fd9f10ce1cfde683c6da1f
+source-git-commit: e7f83c8b302a98e6677fb53018738b3b654ab695
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 61%
+source-wordcount: '306'
+ht-degree: 55%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 61%
 
 **[!UICONTROL Apps]** ![Menü](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Mit [!DNL Customer Attributes] in Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können [die Daten hochladen](t-crs-usecase.md) in eine [!DNL Customer Attributes] Datenquelle in Experience Cloud und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
+Mit der [!DNL Customer Attributes] in Adobe Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können [die Daten hochladen](t-crs-usecase.md) in eine [!DNL Customer Attributes] Datenquelle in Experience Cloud und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
 
 ![Übersicht über Kundenattribute](assets/custom_reports.png)
 
