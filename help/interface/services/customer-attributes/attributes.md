@@ -1,16 +1,16 @@
 ---
 title: Informationen zu  [!DNL Customer Attributes]
-description: Weitere Informationen zu  [!DNL Customer Attributes]  in Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
+description: Weitere Informationen  [!DNL Customer Attributes]  Adobe Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Analytics
 feature: Customer Attributes
 role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: fc80e5fbbfc542a981f333413b648011f7057b58
+source-git-commit: a5afed30f142601d44fd9f10ce1cfde683c6da1f
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 63%
+source-wordcount: '305'
+ht-degree: 61%
 
 ---
 
@@ -32,7 +32,7 @@ Das folgende Bild ist ein Beispiel für eine _Datendatei_ die Abonnentendaten f�
 
 Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]** erstellen.
 
-Weitere [&#x200B; zu diesem Workflow finden Sie unter &#x200B;](t-crs-usecase.md) von Kundenattributdaten hochladen .
+Weitere [ zu diesem Workflow finden Sie unter ](t-crs-usecase.md) von Kundenattributdaten hochladen .
 
 ## Beispiele für Kundenattribute in Analytics und Target
 
