@@ -8,10 +8,10 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 623bb6e240987cb2ff76bce3488b827b901b84db
+source-git-commit: 6fe1e667484d8f2c9c70ad8dee5e572d065775dd
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 7%
+ht-degree: 12%
 
 ---
 
@@ -40,23 +40,23 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 
 | Agent | Job | Unterstützte Anwendungen | Geschätzte KI-Guthaben |
 |------|-----|------------------------|----------------------|
-| Audience Agent | Zielgruppen-/Konto-Idee | Real-Time CDP; Adobe Journey Optimizer | 50 |
-| Audience Agent | Wissensbasierte Zielgruppen-/Kontoerstellung | Real-Time CDP; Adobe Journey Optimizer | 150 |
-| Audience Agent | Zielgruppen-/Kontoverwaltung | Real-Time CDP; Adobe Journey Optimizer | 25 |
-| Audience Agent | Zielgruppen-/Kontoanalyse | Real-Time CDP; Adobe Journey Optimizer | 25 |
-| Audience Agent | Einkaufsgruppenidee | Adobe Journey Optimizer (B2B) | 25 |
-| Data Insights Agent | Datenanalyse und -visualisierung | Customer Journey Analytics | 25 |
-| Data Insights Agent | Daten-storytelling und -Freigabe | Customer Journey Analytics | 100 |
-| Journey Agent | Journey | Adobe Journey Optimizer (B2B) | 25 |
-| Journey Agent | Journey-Erstellung | Adobe Journey Optimizer (B2B, B2C) | 30 |
-| Journey Agent | Journey-Analyse | Adobe Journey Optimizer (B2B, B2C) | 50 |
-| Journey Agent | Journey-Verwaltung | Adobe Journey Optimizer (B2B, B2C) | 25 |
-| Produktsupport-Agent | Knowledge-based Troubleshooting | Mehrere Experience Cloud-Anwendungen | 0 |
-| Produktsupport-Agent | Erstellung und Nachverfolgung von Support-Fällen | Mehrere Experience Cloud-Anwendungen | 10 |
-| Inhaltsratgeber-Agent | Inhaltserkennung | Adobe Experience Manager Cloud Services | 5 |
-| Inhaltsratgeber-Agent | Inhaltsaktualisierung und -optimierung | Adobe Experience Manager Cloud Services | 10 |
-| Brand Experience Agent | Bereitstellungs-Support | Adobe Experience Manager Cloud Services | 5 |
-| Brand Experience Agent | Site-Modernisierung | Adobe Experience Manager Cloud Services | 100 |
+| Audience Agent | Zielgruppen-/Konto-Idee | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 50 |
+| Audience Agent | Wissensbasierte Zielgruppen-/Kontoerstellung | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 150 |
+| Audience Agent | Zielgruppen-/Kontoverwaltung | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
+| Audience Agent | Zielgruppen-/Kontoanalyse | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
+| Audience Agent | Einkaufsgruppenidee | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
+| Data Insights Agent | Datenanalyse und -visualisierung | <ul><li>Customer Journey Analytics</li></ul> | 25 |
+| Data Insights Agent | Daten-storytelling und -Freigabe | <ul><li>Customer Journey Analytics</li></ul> | 100 |
+| Journey Agent | Journey | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
+| Journey Agent | Journey-Erstellung | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 30 |
+| Journey Agent | Journey-Analyse | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 50 |
+| Journey Agent | Journey-Verwaltung | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 25 |
+| Produktsupport-Agent | Knowledge-based Troubleshooting | <ul><li>Mehrere Experience Cloud-Anwendungen</li></ul> | 0 |
+| Produktsupport-Agent | Erstellung und Nachverfolgung von Support-Fällen | <ul><li>Mehrere Experience Cloud-Anwendungen</li></ul> | 10 |
+| Inhaltsratgeber-Agent | Inhaltserkennung | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 5 |
+| Inhaltsratgeber-Agent | Inhaltsaktualisierung und -optimierung | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 10 |
+| Brand Experience Agent | Bereitstellungs-Support | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 5 |
+| Brand Experience Agent | Site-Modernisierung | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 100 |
 
 **Hinweis:** Die tatsächliche KI-Kreditaufnahme kann je nach der Anzahl der ausgeführten Schritte und Iterationen pro Schritt variieren.
 
