@@ -2,21 +2,20 @@
 title: Agent-Vorgänge und KI-Kreditverbrauch
 description: Erfahren Sie mehr über Agentenaufträge und die Verwendung von KI-Gutschriften in Experience Cloud-Programmen.
 solution: Experience Cloud
-landing-page-name: ai
-landing-page-breadcrumb-title: AI Documentation
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6fe1e667484d8f2c9c70ad8dee5e572d065775dd
+source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '380'
 ht-degree: 12%
 
 ---
 
-
 # Agent-Vorgänge und KI-Kreditverbrauch
+
+Erfahren Sie mehr über die Verwendung von agenten KI-Aufträgen und die Verwendung von KI-Krediten in Experience Cloud-Programmen.
 
 ## Agentenaufträge
 
@@ -36,7 +35,7 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 * Komplexe (oft mehrstufige) Aufgaben verbrauchen mehr Guthaben
 * Aufgaben mit erweitertem Argumentieren, Validierung, Koordination mit mehreren Agenten oder Integration verbrauchen mehr Credits
 
-### Geschätzte KI-Kreditnutzungsraten
+### Geschätzte KI-Kreditverbrauchsraten
 
 | Agent | Job | Unterstützte Anwendungen | Geschätzte KI-Guthaben |
 |------|-----|------------------------|----------------------|
@@ -58,5 +57,6 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 | Brand Experience Agent | Bereitstellungs-Support | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 5 |
 | Brand Experience Agent | Site-Modernisierung | <ul><li>Adobe Experience Manager Cloud Services</li></ul> | 100 |
 
-**Hinweis:** Die tatsächliche KI-Kreditaufnahme kann je nach der Anzahl der ausgeführten Schritte und Iterationen pro Schritt variieren.
-
+>[!NOTE]
+>
+>Der tatsächliche KI-Kreditverbrauch kann je nach der Anzahl der ausgeführten Schritte und Iterationen pro Schritt variieren.
