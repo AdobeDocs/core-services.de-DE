@@ -8,7 +8,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6be65dde7c10f5f51786c0ce01e3ec82379c775f
+source-git-commit: 623bb6e240987cb2ff76bce3488b827b901b84db
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 7%
@@ -16,19 +16,19 @@ ht-degree: 7%
 ---
 
 
-## Agent-Vorgänge und KI-Kreditverbrauch
+# Agent-Vorgänge und KI-Kreditverbrauch
 
-### Agentenaufträge
+## Agentenaufträge
 
 Ein **Agentenauftrag** ist eine Reihe von Aufgaben und Aktionen, die ein Agent ausführt, um ein bestimmtes Ergebnis zu erzielen, wie durch Kundeneingaben angewiesen.
 
 Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Kunden Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden Experience Cloud-Programmen auszuführen.
 
-### KI-Credits
+## KI-Credits
 
 Ein **KI** Guthaben ist eine nutzungsbasierte Metrik, die die Ausführung von Agentenvorgängen quantifiziert. KI-Credits gelten nicht für KI-First-Anwendungen.
 
-### KI-Kreditnutzung
+## KI-Kreditnutzung
 
 Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführten Auftrags variieren:
 
@@ -36,7 +36,7 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 * Komplexe (oft mehrstufige) Aufgaben verbrauchen mehr Guthaben
 * Aufgaben mit erweitertem Argumentieren, Validierung, Koordination mit mehreren Agenten oder Integration verbrauchen mehr Credits
 
-#### Geschätzte KI-Kreditnutzungsraten
+### Geschätzte KI-Kreditnutzungsraten
 
 | Agent | Job | Unterstützte Anwendungen | Geschätzte KI-Guthaben |
 |------|-----|------------------------|----------------------|
