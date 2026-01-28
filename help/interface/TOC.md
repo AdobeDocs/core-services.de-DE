@@ -5,10 +5,10 @@ breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: d30ce2e18e40d774ff2af1a9e6739e9d20f7b4d7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 87%
+source-wordcount: '205'
+ht-degree: 84%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 87%
    + [Kontovoreinstellungen und Benachrichtigungen](features/account-preferences.md)
    + [Generative KI](features/generative-ai.md)
    + [Agent-basierte KI](features/agentic-ai.md)
+      + [Agent-Vorgänge und KI-Kreditverbrauch](features/ai-credit-consumption.md)
    + [Einheitliche Suche](features/search.md)
    + [Voreinstellungen für personalisierte Lerninhalte](features/personalized-learning.md)
    + [Browser- und Sprachunterstützung](browser-language.md)
@@ -71,6 +72,6 @@ ht-degree: 87%
    + [Verwenden des DNS-Vorabrufs](data-collection/dns-prefetch.md)
 + Versionshinweise und Ressourcen {#more-resources}
    + [Versionshinweise](more-resources/release-notes.md)
-   + [Dokumentationsaktualisierungen](more-resources/doc-updates.md)
-   + [FAQs](more-resources/faq.md)
+   + [Dokumentation – Aktualisierungen](more-resources/doc-updates.md)
+   + [Häufig gestellte Fragen](more-resources/faq.md)
    + [Terminologie](more-resources/terms.md)
