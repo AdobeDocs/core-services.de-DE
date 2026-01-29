@@ -6,10 +6,12 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: b761697ad1eb14e06ea3f6c868833c4e6c51eac3
+hidefromtoc: true
+index: false
+source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 11%
 
 ---
 
@@ -19,13 +21,13 @@ Erfahren Sie mehr über die Verwendung von agenten KI-Aufträgen und die Verwend
 
 ## Agentenaufträge
 
-Ein **Agentenauftrag** ist eine Reihe von Aufgaben und Aktionen, die ein Agent ausführt, um ein bestimmtes Ergebnis zu erzielen, wie durch Kundeneingaben angewiesen.
+Ein _Agentenauftrag_ ist eine Reihe von Aufgaben und Aktionen, die ein Agent ausführt, um ein bestimmtes Ergebnis zu erzielen, wie durch Kundeneingaben angewiesen.
 
-Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Kunden Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden Experience Cloud-Programmen auszuführen.
+Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Sie Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden Experience Cloud-Programmen auszuführen.
 
 ## KI-Credits
 
-Ein **KI** Guthaben ist eine nutzungsbasierte Metrik, die die Ausführung von Agentenvorgängen quantifiziert. KI-Credits gelten nicht für KI-First-Anwendungen.
+Ein _KI-_) ist eine nutzungsbasierte Metrik, die die Ausführung von Agentenvorgängen quantifiziert. KI-Credits gelten nicht für [KI-First-Anwendungen](/help/interface/features/agentic-ai.md).
 
 ## KI-Kreditnutzung
 
@@ -45,7 +47,6 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 | Audience Agent | Zielgruppen-/Kontoanalyse | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> | 25 |
 | Audience Agent | Einkaufsgruppenidee | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Data Insights Agent | Datenanalyse und -visualisierung | <ul><li>Customer Journey Analytics</li></ul> | 25 |
-| Data Insights Agent | Daten-storytelling und -Freigabe | <ul><li>Customer Journey Analytics</li></ul> | 100 |
 | Journey Agent | Journey | <ul><li>Adobe Journey Optimizer (B2B)</li></ul> | 25 |
 | Journey Agent | Journey-Erstellung | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 30 |
 | Journey Agent | Journey-Analyse | <ul><li>Adobe Journey Optimizer (B2B, B2C)</li></ul> | 50 |
