@@ -11,9 +11,9 @@ level: Intermediate
 hidefromtoc: true
 index: false
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: da7a2a9e9aa8365288fa6e05afb6485e4c33ccb2
+source-git-commit: 7c01f555359c2993e3d4da077882073a1e8b839a
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '876'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ Der Zugriff auf KI-Agenten in Experience Cloud ist verfügbar unter:
 * [Bestehende Experience Cloud-Programme](#existing-apps)
 * [AI-First-Experience Cloud-Anwendungen](#ai-first-apps)
 
-In den folgenden Abschnitten wird beschrieben, wie Sie die agentische KI in Experience Cloud aktivieren können.
+In den folgenden Abschnitten werden diese beiden Methoden zum Aktivieren der agenten KI in Experience Cloud beschrieben.
 
 ## Bestehende Experience Cloud-Programme {#existing-apps}
 
@@ -39,11 +39,11 @@ In bestehenden Programmen können Sie natürliche Sprache verwenden, um Adobe Ex
 
 Agenten können in bestehenden Experience Cloud-Programmen für Kunden in einer der folgenden Kategorien aktiviert werden:
 
-* hat eine Lizenz für Adobe Experience Platform Agents AI Credits erworben
-* Sind in einer nutzungsgebundenen Testversion enthalten (eingeschränkte KI-Credits bereitgestellt)
-* Transaktion mit der Agent Orchestrator Promo SKU (zeitgebundene Testlizenz) durchgeführt
+* Sie haben eine Lizenz für Adobe Experience Platform Agents AI Credits erworben
+* Sie werden in eine nutzungsgebundene Testversion eingeschlossen (eingeschränkte KI-Credits bereitgestellt)
+* Sie haben die Agent Orchestrator Promo SKU (zeitgebundene Testlizenz) abgeschlossen.
 
-Wenn Sie KI-Agenten verwenden, um _Agentenaufträge_ auszuführen, verbrauchen Sie KI-Guthaben. Erfahren Sie mehr darüber in [Agentenaufträge und KI-](/help/interface/features/ai-credit-consumption.md)).
+Die Verwendung von KI-Agenten für _Agentenaufträge_ nutzt KI-Credits. Erfahren Sie mehr über Agentenaufträge und KI-Credits in _[Agentenaufträge und KI-](/help/interface/features/ai-credit-consumption.md)_).
 
 KI-Agenten befolgen _Ihre_ Eingabe, Aufsicht und berücksichtigen die Zugriffskontrollen auf Produktebene. Sie können nur Aufträge ausführen oder auf Daten zugreifen, die Sie für die Verwendung im zugrunde liegenden Experience Cloud-Produkt autorisiert haben.
 
