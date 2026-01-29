@@ -9,9 +9,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 3ed72cfa1fd7a6559ac7dd7b31007798c228d53e
+source-git-commit: 46163c8e95de36914f9a4ec5336712a2b137a587
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '875'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 Aktualisiert: **29. Januar 2026**
 
-Adobe Experience Platform-Agenten verwenden die Experience Platform [Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home), um den Experience Cloud-Programmen agentenbasierte Funktionen hinzuzufügen.
+Adobe Experience Platform Agents wird von [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) unterstützt, um agentische KI-Funktionen in Experience Cloud-Programmen zu aktivieren.
 
 Diese Agenten helfen bei der Automatisierung von Aufgaben, liefern schneller Erkenntnisse und optimieren Workflows. Dadurch können Teams effizienter arbeiten und mehr Nutzen aus Experience Cloud ziehen.
 
@@ -43,7 +43,7 @@ Agenten können in bestehenden Experience Cloud-Programmen für Kunden in einer 
 
 Die Verwendung von KI-Agenten für _Agentenaufträge_ nutzt KI-Credits. Erfahren Sie mehr über Agentenaufträge und KI-Credits in _[Agentenaufträge und KI-](/help/interface/features/ai-credit-consumption.md)_).
 
-KI-Agenten befolgen _Ihre_ Eingabe, Aufsicht und berücksichtigen die Zugriffskontrollen auf Produktebene. Sie können nur Aufträge ausführen oder auf Daten zugreifen, die Sie für die Verwendung im zugrunde liegenden Experience Cloud-Produkt autorisiert haben.
+KI-Agenten befolgen _Ihre_ Eingabe, Aufsicht und berücksichtigen die Zugriffskontrollen auf Produktebene. Sie können nur Aufträge ausführen oder auf Daten zugreifen, zu deren Nutzung Sie in der zugrunde liegenden Experience Cloud-Anwendung berechtigt sind.
 
 ### KI-Agenten in bestehenden Experience Cloud-Apps {#existing-apps-table}
 
@@ -57,7 +57,7 @@ In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die in be
 | **Brand Experience Agent** | [Bereitstellungsunterstützung](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/development/overview): Unterstützt Entwickler und technische Administratoren von AEM CS bei der Fehlerbehebung bei Build-Schritt-Fehlern in der Cloud Manager-Pipeline, indem die Grundursache analysiert und Fehlerbehebungen vorgeschlagen werden. | <ul><li>KI-Assistent in AEM Cloud Service und Adobe Managed Services</li></ul> |
 | **Brand Governance Agent*** | [Brand Governance](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/governance/overview): Schützen Sie die Markenintegrität und die Compliance, indem Sie Sicherheits-, Regulierungs- und Markenrichtlinien in Experience Manager durchsetzen. Dieser Agent wendet die Markenverwaltung an, um visuelle und Messaging-Standards zu gewährleisten. Sie verwendet granulare Berechtigungen zum Verwalten von Zugriff und Inhaltsänderungen und integriert DRM, um Lizenzierungs- und Nutzungsbeschränkungen aufrechtzuerhalten. | <ul><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Assets</li><li>Adobe Experience Manager Forms</li></ul> |
 | [Journey Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze) | Ihre Teams können schnell skalierbare Multi-Touch-Journey für Kunden erstellen, analysieren und optimieren. | <ul><li>Adobe Journey Optimizer (B2B- und B2C-Editionen)</li></ul> |
-| [Produktsupport-Agent](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) | Beheben Sie Support-Probleme, ohne Ihre Workflows zu verlassen, erstellen Sie Support-Tickets und verfolgen Sie den Fallfortschritt mit dem KI-Assistenten. | <ul><li>Real-Time CDP (B2B-, B2C- und B2P-Editionen)</li><li>Adobe Journey Optimizer (B2B- und B2C-Editionen)</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [Produktsupport-Agent](https://experienceleague.adobe.com/de/docs/experience-platform/ai-assistant/new-features/customer-support) | Beheben Sie Support-Probleme, ohne Ihre Workflows zu verlassen, erstellen Sie Support-Tickets und verfolgen Sie den Fallfortschritt mit dem KI-Assistenten. | <ul><li>Real-Time CDP (B2B-, B2C- und B2P-Editionen)</li><li>Adobe Journey Optimizer (B2B- und B2C-Editionen)</li><li>Customer Journey Analytics (B2B- und B2C-Editionen)</li><li>Adobe Experience Manager</li></ul> |
 
 Sternchen (*): Auf diesen Agenten können Kunden im Explorer-Programm zugreifen. Der Explorer ist ein Nur-Einladungs-Programm, das frühzeitigen Zugriff auf die neuesten Agentenfunktionen von Adobe bietet. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie weitere Informationen benötigen.
 
