@@ -1,23 +1,21 @@
 ---
 title: Agent-Vorgänge und KI-Kreditverbrauch
-description: Erfahren Sie mehr über Agentenaufträge und die Verwendung von KI-Gutschriften in Experience Cloud-Programmen.
+description: Erfahren Sie mehr über Agentenaufträge und KI-Kreditverbrauchsraten in Experience Cloud-Programmen.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-hidefromtoc: true
-index: false
-source-git-commit: 4f738324ee18bbb63ae8c1d45907ecaf05230b34
+source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 11%
+source-wordcount: '388'
+ht-degree: 10%
 
 ---
 
 # Agent-Vorgänge und KI-Kreditverbrauch
 
-Erfahren Sie mehr über die Verwendung von agenten KI-Aufträgen und die Verwendung von KI-Krediten in Experience Cloud-Programmen.
+Erfahren Sie mehr über die Verwendung von agenten KI-Aufträgen und die Verwendung von KI-Krediten in Experience Cloud-Programmen. Informationen zur Aktivierung der Funktionen der agenten KI in bestehenden Experience Cloud-Programmen finden Sie unter [Agentische KI in Experience Cloud](agentic-ai.md#existing-apps).
 
 ## Agentenaufträge
 
