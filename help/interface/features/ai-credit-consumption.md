@@ -6,9 +6,9 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 608e1685b6ca531da73d2df138b11537097716ce
+source-git-commit: 7eb6c6e463102ca445093c69797619202202b35e
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '405'
 ht-degree: 10%
 
 ---
@@ -59,3 +59,8 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 >[!NOTE]
 >
 >Der tatsächliche KI-Kreditverbrauch kann je nach der Anzahl der ausgeführten Schritte und Iterationen pro Schritt variieren.
+
+## Weitere Hilfe zu diesem Thema
+
+* [Agent AI in Experience Cloud](/help/interface/features/agentic-ai.md)
+* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
