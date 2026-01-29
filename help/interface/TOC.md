@@ -5,10 +5,10 @@ breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
 description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
 index: true
-source-git-commit: 8c8e85c0c5f19191adfd72e20cfb1edd258179f6
+source-git-commit: 94aaba86801096ae5d638ff56e241d6a8b1ef317
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 84%
+source-wordcount: '208'
+ht-degree: 85%
 
 ---
 
@@ -16,6 +16,19 @@ ht-degree: 84%
 # Benutzeroberfläche und Verwaltung von Experience Cloud {#interface}
 
 + [Benutzeroberfläche und Verwaltung von Experience Cloud](/help/interface/experience-cloud.md)
++ KI in Experience Cloud {#features}
+   + [Generative KI](/help/interface/features/generative-ai.md)
+   + [Agent-basierte KI](/help/interface/features/agentic-ai.md)
+   + [Agent-Vorgänge und KI-Kreditverbrauch](/help/interface/features/ai-credit-consumption.md)
++ Administration {#administration}
+   + [Kontovoreinstellungen und Benachrichtigungen](/help/interface/features/account-preferences.md)
+   + [Browser- und Sprachunterstützung](/help/interface/browser-language.md)
+   + [Benutzer- und Produktverwaltung](/help/interface/administration/admin-console.md)
+   + [Admin-Tool](/help/interface/administration/admin-tool-experience-cloud.md)
+   + [Organisationen und Kontoverknüpfung](/help/interface/administration/organizations.md)
+   + [Integrationen](/help/interface/administration/integrations.md)
+   + [Einheitliche Suche](/help/interface/features/search.md)
+   + [Voreinstellungen für personalisierte Lerninhalte](/help/interface/features/personalized-learning.md)
 + Schnittstellendienste {#services}
    + [Übersicht über die Benutzeroberfläche](/help/interface/services/overview.md)
    + [Erste Schritte](/help/interface/services/getting-started.md)
@@ -29,7 +42,6 @@ ht-degree: 84%
    + Zielgruppenbibliothek {#audiences}
       + [Zielgruppen – Überblick](/help/interface/services/audiences/overview.md)
       + [Erstellen einer Zielgruppe](/help/interface/services/audiences/create.md)
-   + [Adobe Exchange](/help/interface/services/exchange.md)
    + Kundenattribute {#customer-attributes}
       + [Übersicht über Kundenattribute](/help/interface/services/customer-attributes/attributes.md)
       + [Häufig gestellte Fragen](/help/interface/services/customer-attributes/faq-crs.md)
@@ -43,19 +55,7 @@ ht-degree: 84%
       + [Unterstützung für den CCPA](/help/interface/services/customer-attributes/ccpa.md)
       + [Überlegungen zum Datenschutz](/help/interface/services/customer-attributes/privacy-mac.md)
    + [Trigger](/help/interface/services/triggers.md)
-+ Funktionen {#features}
-   + [Kontovoreinstellungen und Benachrichtigungen](/help/interface/features/account-preferences.md)
-   + [Generative KI](/help/interface/features/generative-ai.md)
-   + [Agent-basierte KI](/help/interface/features/agentic-ai.md)
-   + [Agent-Vorgänge und KI-Kreditverbrauch](/help/interface/features/ai-credit-consumption.md)
-   + [Einheitliche Suche](/help/interface/features/search.md)
-   + [Voreinstellungen für personalisierte Lerninhalte](/help/interface/features/personalized-learning.md)
-   + [Browser- und Sprachunterstützung](/help/interface/browser-language.md)
-+ Administration {#administration}
-   + [Benutzer- und Produktverwaltung](/help/interface/administration/admin-console.md)
-   + [Admin-Tool](/help/interface/administration/admin-tool-experience-cloud.md)
-   + [Organisationen und Kontoverknüpfung](/help/interface/administration/organizations.md)
-   + [Integrationen](/help/interface/administration/integrations.md)
+   + [Adobe Exchange](/help/interface/services/exchange.md)
 + Datenerfassung {#data-collection}
    + [Adobe Managed Certificate Program](/help/interface/data-collection/adobe-managed-cert.md)
    + [IP-Adressen](/help/interface/data-collection/ip-addresses.md)
