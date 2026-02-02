@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 62%
@@ -55,9 +55,9 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 
    * **[!UICONTROL Real-Time Analytics Data:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
 
-   >[!NOTE]
-   >
-   >Aufgrund des Caching benötigen gelöschte Report Suites in Analytics 12 Stunden, bevor die Löschung in Experience Cloud angezeigt wird.
+     >[!NOTE]
+     >
+     >Aufgrund des Caching benötigen gelöschte Report Suites in Analytics 12 Stunden, bevor die Löschung in Experience Cloud angezeigt wird.
 
    * **[!UICONTROL Experience Cloud:]** aus [!DNL Experience Cloud] Quellen abgeleitete Attributdaten. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 

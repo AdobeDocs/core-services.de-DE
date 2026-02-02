@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 1586f442699d53e6e926442dfb07d957e5e2708a
+source-git-commit: 404d76931c8d315efba202536f032ddac223c530
 workflow-type: tm+mt
 source-wordcount: '1942'
 ht-degree: 75%
@@ -59,9 +59,9 @@ Für die Anmeldung bei Experience Cloud müssen Ihre Benutzenden:
    * **Adobe Analytics:** Standard oder Premium (nicht die ältere [!DNL SiteCatalyst]-SKU).
    * **Adobe Target:** Standard oder Premium.
 
-   >[!NOTE]
-   >
-   >Migrieren Sie für [!DNL Target] beispielsweise von `mbox.js` zu „at.js“. Siehe [Aktualisieren von at.js 1.x auf at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=de).
+     >[!NOTE]
+     >
+     >Migrieren Sie für [!DNL Target] beispielsweise von `mbox.js` zu „at.js“. Siehe [Aktualisieren von at.js 1.x auf at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=de).
 
 1. [Verwalten von Benutzern und &#x200B;](../administration/admin-console.md) in der [!UICONTROL Admin Console].
 
