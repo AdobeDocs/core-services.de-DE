@@ -8,9 +8,15 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/RC2C4CKPhWEO3O4k7baoAqknTj3qj-23Ic1bXtv2zP4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: 413
 ht-degree: 51%
 
 ---
@@ -64,7 +70,7 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in Experienc
 
    Wenn Sie alle Creative Cloud-Benutzer entfernt haben, wird die Freigabe des Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 
-Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in Adobe Target für Bilder in -Aktivitäten.
+Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target für Bilder in -Aktivitäten.
 
 Wenn Sie einen Ordner für Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 
@@ -80,5 +86,5 @@ Zugehörige Hilfe:
 
 Beim Erstellen von Aktivitäten in [!DNL Adobe Target] können Sie ein freigegebenes Bild-Asset verwenden, wenn Sie Bilder im [!UICONTROL Offers Library] austauschen.
 
-Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in der [!DNL Target]-Hilfe.
+Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in der [!DNL Target]-Hilfe.
 
