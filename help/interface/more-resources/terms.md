@@ -8,9 +8,24 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: e63dd988abba199049da2b3620eed9ebf51043d1
+TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d253888322194189fea6d492ae19cf248357960
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: 1218
 ht-degree: 97%
 
 ---
@@ -38,7 +53,7 @@ Eine Terminologiereferenz für Experience Cloud-Benutzer und Informationen dazu,
 | **Metriken** | Wird nicht in Creative Cloud verwendet. | Gesamtzahlen zu Schlüsselkonzepten und -zielen. In Analytics sind Metriken quantitative Informationen über Besucheraktivitäten, wie Ansichten, Select-Throughs, Neuladungen, durchschnittliche Besuchszeit, Einheiten, Bestellungen, Umsatz usw. |
 | **Organisation** | Wird nicht in Creative Cloud verwendet. | Eine Organisation ist die Experience Cloud-Entität, mit der ein Administrator Benutzer und Produkte konfigurieren und Single Sign-on in der Experience Cloud steuern kann. Meistens handelt es sich bei der Organisation um das abrechnende Unternehmen. |
 | **Portfolio** | Eine Zusammenstellung aus mehreren Dateien oder Assets. | Ein Container mit Kampagnen. |
-| **Produktprofil** | Siehe [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products.html). | Damit ein Benutzer berechtigt sein kann, ein Produkt oder einen Service zu verwenden, muss er Teil eines Produktprofils sein. Der Produktadministrator weist einem Produktprofil Lizenzen zu, indem er es mit einem von Ihnen erworbenen Plan verknüpft.<br>Ein Benutzer kann mehreren Produktprofilen zugeordnet werden, über die er jeweils verschiedene Lizenzen erhält. Die finale Berechtigung eines Benutzers ist die Vereinigung aller Lizenzen, die er von den einzelnen Produktprofilen erhält. |
+| **Produktprofil** | Siehe [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products.html). | Damit ein Benutzer berechtigt sein kann, ein Produkt oder einen Service zu verwenden, muss er Teil eines Produktprofils sein. Der Produktadministrator weist einem Produktprofil Lizenzen zu, indem er es mit einem von Ihnen erworbenen Plan verknüpft.<br>Ein Benutzer kann mehreren Produktprofilen zugeordnet werden, über die er jeweils verschiedene Lizenzen erhält. Die finale Eignung eines Benutzers ist die Vereinigung aller Lizenzen, die er von den einzelnen Produktprofilen erhält. |
 | **Planung** | Kann sich auf eine Folge von Szenen in Adobe Story oder auf geplante Aufgaben in ColdFusion beziehen. | In der Experience Cloud ist ein Zeitplan das Startdatum (Jahr, Monat, Tag) und Enddatum für die Aktivierung von Kampagnen, Kanälen und Aktivitäten. Zeitpläne für Aktivitäten haben eine bis auf die Minute gestaffelte Granularität. Beim Ändern eines Zeitplans wird eine Karte erstellt.<br>Zu den Beispielen gehören:<ul><li>Kampagnenzeitpläne</li><li>Kanalzeitpläne</li><li>Aktivitätszeitpläne</li></ul> |
 | **Segment** | K. A. | Die Ausgabe eines Regelsatzes zur Qualifizierung einer Zielgruppe. In Analytics können [Segmente](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de) optional verwendet werden, um eine Zielgruppe zu definieren, die an Experience Cloud weitergeleitet werden kann. <br>In Audience Manager ist ein Segment eine Sammlung von [Merkmalen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=de) und allen Kriterien, die Besucher für die Zugehörigkeit zu diesem oder Aufnahme in dieses Segment qualifizieren. Es ist auch eine Sammlung von Personen, die diese allgemeinen Attribute teilen. |
 | **Freigabe** | In Creative Cloud können Dateien extern über Plattformen freigegeben werden (soziale Medien, Communitys, E-Mails usw.). | In der Experience Cloud können Assets nur schnittstellenintern als Karten auf Pinnwänden freigegeben werden. Die Freigabe steht allen Personen zur Verfügung, die bei der Site angemeldet sind. |
