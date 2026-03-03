@@ -9,11 +9,20 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
@@ -37,7 +46,7 @@ Eine Terminologiereferenz für Experience Cloud-Benutzer und Informationen dazu,
 | **Durchsetzung der Datennutzung** | Keine festgeschriebene Verwendung. | Die Richtlinien, das System-Design, die Praktiken und Verfahren (Programme, Apps, Services, SDKs, APIs usw.), die in einem System festgelegt und definiert wurden, um mithilfe von Metadaten zur Datenverwendung die Einhaltung der Datenschutzrichtlinien von Adobe, der vertraglichen Erwägungen und der allgemeinen Datenschutzgrundsätze zu ermöglichen. |
 | **Gerät** | Keine festgeschriebene Verwendung. | Ein Hardware-Gerät wie ein Tablet, Smartphone oder Desktop, auf dem Anwendungen ausgeführt werden. |
 | **Device Co-op** | Keine festgeschriebene Verwendung. | Eine Gruppe von Marken, die sich bereit erklärt haben, Daten über die Geräte auszutauschen, die von den Verbrauchern verwendet werden, um eine bessere Identifikation des einzelnen Geräts und ein bedeutenderes, konsistenteres Erlebnis zu gewährleisten. |
-| **[!UICONTROL Experience Cloud ID Service](ECID)** | Keine festgeschriebene Verwendung. | Die eindeutige, beständige ID, die einem Site-Besucher zugewiesen ist. Dies ist eine bestimmte Entität, die vom Experience Platform Identity Service verwendet werden kann. [Mehr...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) |
+| **[!UICONTROL Experience Cloud ID Service] (ECID)** | Keine festgeschriebene Verwendung. | Die eindeutige, beständige ID, die einem Site-Besucher zugewiesen ist. Dies ist eine bestimmte Entität, die vom Experience Platform Identity Service verwendet werden kann. [Mehr...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) |
 | **[!UICONTROL Experience Platform Identity Service]** | Keine festgeschriebene Verwendung. | Der Service, der Identitäten verknüpft. Es handelt sich dabei um den Service zum Verknüpfen von Geräten für das personenbasierte Erlebnis-Management. |
 | **Verknüpfung** | Keine festgeschriebene Verwendung. „Verknüpfung“ bezieht sich auf die Navigation via Hyperlinks sowie auf die Verknüpfung von Elementen wie Schriften, Eigenschaften, Ebenen usw. | In Experience Cloud bezieht sich die Verknüpfung normalerweise auf die Verknüpfung verschiedener Konten in Programmen mit der Benutzeroberfläche.<br>Siehe [Organisationen und Kontoverknüpfung](../administration/organizations.md).<br>Verknüpfung bezieht sich auch auf die an andere Benutzer gesendeten Standard-URLs für Analytics-Berichte. |
 | **Standorte** | In der Creative Cloud bezieht sich der Ort auf Dateispeicherorte oder auf eine Stelle auf einem geöffneten Bild oder einem geöffneten Dokument. | In Experience Cloud sind Orte die Positionen, an denen Inhalt von Zielgruppen angesehen werden (und zur Interaktion bereitstehen). Die Verbindung von Position und Inhalt kann mehr oder weniger statisch sein oder dynamisch gemäß den Regeln einer Kampagne verwaltet werden. Ein Standort gehört immer zu einem bestimmten Kanal, der bestimmt, wie Inhalte bereitgestellt und Metriken erfasst werden können.<br>Zu den Beispielen gehören:<ul><li>Sites</li><li>Eigenschaften (Social)</li><li>Inventar anzeigen</li><li>Landingpages</li><li>Apps</li><li>Slots (Video)</li></ul> |

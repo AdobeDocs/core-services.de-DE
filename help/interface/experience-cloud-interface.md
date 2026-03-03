@@ -104,7 +104,7 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
-* Klicken Sie im Kontomenü **[!UICONTROL Preferences]** Einstellungen![ auf ](assets/preferences-icon-sm.png) , um die Einstellungen zu verwalten.
+* Klicken Sie im Kontomenü **[!UICONTROL Preferences]** Einstellungen![&#x200B; auf &#x200B;](assets/preferences-icon-sm.png) , um die Einstellungen zu verwalten.
 
 ![Verwalten von Experience Cloud](assets/preferences-page.png)
 
