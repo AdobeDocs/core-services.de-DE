@@ -23,7 +23,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1218
 ht-degree: 97%
@@ -35,7 +35,7 @@ ht-degree: 97%
 Eine Terminologiereferenz für Experience Cloud-Benutzer und Informationen dazu, wie diese Begriffe in Creative Cloud verwendet werden (sofern zutreffend).
 
 | Begriff | Creative Cloud | Experience Cloud |
-|--- |----- |---- |
+| --- | ----- | ---- |
 | **Asset** | In der Creative Cloud ist ein Asset normalerweise eine Bilddatei.<br>Bei Assets kann es sich um Ebenen in einer Photoshop-Datei, Folien in einer PowerPoint-Datei, Seiten in einem PDF-Dokument oder Dateien in einer ZIP-Datei handeln. | In der Experience Cloud ist ein Asset ein digitales Dokument, Bild, Video oder Audioaufzeichnungsdokument, das über mehrere Ausgabeformate und Teil-Assets verfügen kann. Zu den Beispielen gehören:<ul><li>Datei</li><li>Dokument</li><li>Bild</li><li>Video</li><li>Audio-Clip</li><li>Präsentation</li><li>Bildvorlage</li><li>Videovorlage</li></ul> |
 | **Attribut** | | Was Personen gemeinsam haben, wenn sie sich für ein [Segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=de) qualifizieren. (Ähnlich wie ein [Merkmal](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=de) in Audience Manager.) |
 | **Zielgruppen** | In der Creative Cloud kann eine Zielgruppe die Person sein, die ein Video aufruft. | In Experience Cloud sind Zielgruppen Sammlungen von Menschen, auf die wir unsere Kampagnenaktivitäten ausrichten können.<br>Die Zugehörigkeit zu einer Zielgruppe kann auf Basis eines Regelsatzes im Besucherkontext ermittelt werden oder in einer Liste festgelegt sein. Beispielsweise einer Liste mit E-Mail-Abonnenten oder Mitgliedern einer Facebook-Gruppe.<br>In [Experience Cloud Zielgruppe](../services/audiences/overview.md) ist das Erstellen und Verwalten von Audiences mit dem Erstellen und Verwalten von Segmenten vergleichbar, hinzu kommt jedoch die Möglichkeit, dass die Audiences für die Experience Cloud freigegeben werden können.<br>**Adobe Target:**<br> In Adobe Target, wurden Zielgruppen zuvor als Segmente bezeichnet.<br>**Adobe Analytics:**<br> In Analytics können Zielgruppen als Besucher einer Website betrachtet werden. Sie können Zielgruppensegmente erstellen und die Zielgruppe in Experience Cloud veröffentlichen. |

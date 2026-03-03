@@ -23,7 +23,7 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1044
 ht-degree: 74%
@@ -39,7 +39,7 @@ Häufig gestellte Fragen und Best Practices zu [!DNL Customer Attributes] in Ado
 Hinweise und Einschränkungen bei der Verwendung von [!DNL Customer Attributes].
 
 | Problem | Beschreibung |
-|--- |--- |
+| --- | --- |
 | [!DNL Customer Attributes] [Abonnement](subscription.md) Einschränkungen | Bei einem Upgrade auf Analytics Premium dauert es 24 Stunden, bis weitere Attribute verfügbar sind. Während dieser Verzögerung wird möglicherweise ein [!UICONTROL attribute Subscription Max] Fehler angezeigt. |
 | Mehrere Anmeldungen auf demselben Gerät | Wenn Sie [!DNL Customer Attributes] zum Hochladen von Kundenprofilen in eine Datenquelle verwenden, empfiehlt Adobe, dass Benutzerinnen und Benutzer dasselbe Gerät (d. h. dieselbe Experience Cloud ID) verwenden. Die Experience Cloud ID (ECID) bleibt auf dem Gerät erhalten. Die gemeinsame Nutzung von Geräten kann dazu führen, dass die ECID mehrere Benutzer mit derselben ECID verknüpft, was zu unerwarteten Ergebnissen in [!DNL Target] führt. **Hinweis:** Bei Mobile ist die ECID dauerhaft, nachdem die Mobile App installiert wurde. Sie müssen die Mobile App neu installieren, um eine neue ECID zu generieren. Bei der Web-Version wird nach dem Löschen des Browser-Cookies eine neue ECID generiert. |
 | Begrenzung des täglichen Hochladevorgangs | Adobe empfiehlt, [!DNL Customer Attributes] nur einmal pro Tag zu aktualisieren. Sie müssen mindestens 24 Stunden warten, um eine weitere Kundenprofil-Datendatei für denselben Profilsatz hochzuladen. |
@@ -51,7 +51,7 @@ Hinweise und Einschränkungen bei der Verwendung von [!DNL Customer Attributes].
 ## Häufig gestellte Fragen zu [!DNL Customer Attributes]
 
 | Question | Antwort |
-|--- |--- |
+| --- | --- |
 | Kann ich Benachrichtigungen zum Upload-Status für [!DNL Customer Attributes] erhalten? | Ja. |
 | Wie sollte ich bei den ersten Schritten mit [!DNL Customer Attributes] vorgehen? | <ol><li>Sie benötigen eine Bereitstellung. Wenn Sie Adobe Analytics-Kunde sind, stellt Adobe Sie für [!DNL Customer Attributes] bereit. Wenn Sie nur Adobe Target verwenden und nicht über Analytics verfügen, fordern Sie Bereitstellung für zentrale Services an, indem Sie sich an die Kundenunterstützung wenden.</li> <li>Reden Sie mit Ihrem CRM-Team. Finden Sie heraus, welche Art Kundendaten zur Verfügung stehen, die Sie in Analytics und in der gesamten Experience Cloud verwenden möchten.</li><li>Implementieren von zentralen Services.</li></ol> Weitere Informationen darüber[&#x200B; wie Sie Benutzern die Verwendung dieser Funktion ermöglichen, finden Sie unter &#x200B;](t-crs-usecase.md#prerequisites-for-using-customer-attributes) vor dem Hochladen von Daten . |
 | Wie viele Kundenattribute darf ich verwenden? | Sie können mehrere hundert `.csv`-Spalten für den Kundenattributdienst hochladen. Beim Konfigurieren von Abonnements und beim Auswählen von Attributen gelten – je nachdem, welche Programme Sie besitzen – die folgenden Einschränkungen (pro Report Suite):  <ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 insgesamt</li><li>Premium: 200</li><li>Adobe Target Standard: 5</li><li>Adobe Target Premium: 200</li></ul> |

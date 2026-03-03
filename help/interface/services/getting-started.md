@@ -31,7 +31,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1942
 ht-degree: 75%
@@ -106,7 +106,7 @@ Die einfachste Methode zur Aktivierung der Experience Cloud Core Services besteh
 Wenn Sie [!UICONTROL Experience Platform tags] nicht verwenden, implementieren Sie den ID-Service manuell über die JavaScript-Bereitstellung (`VisitorAPI.js`) wie folgt:
 
 | Aufgabe | Beschreibung |
-|--- |--- |
+| --- | --- |
 | [Implementieren des Experience Cloud ID-Dienstes für Analytics](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/overview) | Adobe empfiehlt auch, zusätzliche [Kunden-IDs](https://experienceleague.adobe.com/de/docs/id-service/using/reference/authenticated-state) festzulegen. Diese IDs werden den einzelnen Besuchern zugeordnet und dienen der Aktivierung der aktuellen und zukünftigen Funktionen in Experience Cloud. |
 | Aktualisieren Sie Ihre vorhandene `s_code` auf die Version H.27.3 oder höher, oder Ihre vorhandene `AppMeasurement.js` auf Version 1.4 oder höher. | Diese Dateien können im [Code-Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=de) in den Analytics Admin Tools heruntergeladen werden. (Das Handbuch für die [JavaScript-Implementierung](https://experienceleague.adobe.com/de/docs/analytics/implementation/js/overview#js) ist verfügbar, wenn Sie weitere Informationen zu `AppMeasurement.js` benötigen.) |
 

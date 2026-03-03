@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 25c11da1284bccf033f3bb7adf109be7bdf8d55a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 78%
@@ -111,7 +111,7 @@ Zu den Einstellungen im Experience Cloud gehören Benachrichtigungen, Abonnement
 In [!UICONTROL Experience Cloud preferences] können Sie die folgenden Funktionen konfigurieren:
 
 | Funktion | Beschreibung |
-|--- |--- |
+| --- | --- |
 | Standardorganisation | Wählen Sie die Organisation aus, die beim Starten von Experience Cloud angezeigt werden soll. |
 | [!UICONTROL Subscriptions] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop-up &quot;[!UICONTROL Notifications]&quot; und in Ihrer E-Mail. |
 | [!UICONTROL Priority] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |

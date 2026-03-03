@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: d4734c4b43defedb20b7eb65556f56987dce02ae
+source-git-commit: d9d9eb0b3bad1abd517e4c6b0bd5ecaa45a7930d
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 3%
@@ -55,7 +55,7 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 | Produktsupport-Agent | Erstellung und Nachverfolgung von Support-Fällen | <ul><li>Real-Time CDP (B2B-, B2C- und B2P-Editionen)</li>Adobe Journey Optimizer (B2C- und B2B-Editionen)<li>Customer Journey Analytics (B2C- und B2B-Editionen)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li>_Erstellen Sie ein neues Support-Ticket für meinen fehlgeschlagenen Segmentierungsauftrag_</li><li>_Wie ist der Status des Tickets E-001772068?_</li></ul> |
 | Inhaltsratgeber-Agent | Inhaltserkennung | <ul><li>Adobe Experience Manager Assets</li></ul> | 5 | <ul><li>_Inhaltsfragmente zum Erstellen einer WKND-Angebotskampagne anzeigen._</li><li>_Produktverpackung finden PNG-Bilder._</li><li>_Bilder mit Tag in Office-Ordner anzeigen WKND._</li><li>_Gibt es SVGs im Ordner WKND?_</li><li>_Alle Kreditantragsformulare anzeigen._</li><li>_Ich suche Onboarding-Formulare für Mitarbeiter._</li></ul> |
 | Inhaltsratgeber-Agent | <ul><li>Inhaltsoptimierung</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul> | 10 | <ul><li>_Erstellen Sie eine Ausgabedarstellung von 2.000 Pixel als JPEG mit 80 % Qualität._</li><li>_Erstellen Sie eine Ausgabedarstellung für eine Instagram-Story._</li><li>_Überlagern Sie das Bild mit 30 % Rabattgrafiken über dem Werbebanner und platzieren Sie es 100 Pixel von der Mitte entfernt._</li><li>_Ändern Sie die Hintergrundfarbe des PNG in #ff8932._</li></ul> |
-| Brand Experience Agent | <ul><li>Inhaltsaktualisierung</li><li>Forms-Erstellung</li><li>Fehlerbehebung bei Pipelines</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Fehlerbehebung bei fehlgeschlagener Pipeline_</li><li>_Auflisten meiner fehlgeschlagenen Pipelines für das Hauptprogramm._</li><li>_Analysieren Sie meine fehlgeschlagene Pipeline mit dem Namen „Entwicklungs-Pipeline“_</li><li>_Fehlerbehebung bei der Pipeline-Ausführung 1234567_</li></ul> |
+| Brand Governance Agent | <ul><li>Inhaltsaktualisierung</li><li>Forms-Erstellung</li><li>Fehlerbehebung bei Pipelines</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Fehlerbehebung bei fehlgeschlagener Pipeline_</li><li>_Auflisten meiner fehlgeschlagenen Pipelines für das Hauptprogramm._</li><li>_Analysieren Sie meine fehlgeschlagene Pipeline mit dem Namen „Entwicklungs-Pipeline“_</li><li>_Fehlerbehebung bei der Pipeline-Ausführung 1234567_</li></ul> |
 | Brand Experience Agent | Site-Modernisierung | Adobe Experience Manager Cloud Services | 100 | <ul><li>_Migrieren der`https://wknd-trendsetters.site`_</li></ul> |
 
 >[!NOTE]

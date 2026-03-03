@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1149
 ht-degree: 64%
@@ -37,7 +37,7 @@ Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen.
 ## Zulässige Dateitypen und Namensanforderungen
 
 | Dateityp | Beschreibung |
-|--- |--- |
+| --- | --- |
 | `.csv` | Eine Datei mit kommagetrennten Werten (z. B. eine in Excel erstellte Datei). Diese Datei enthält die Kundenattributdaten.   Benennungsanforderungen: Stellen Sie sicher, dass Dateinamenerweiterungen keine Leerzeichen enthalten. |
 | `.fin` | (Erforderlich) Die `.fin` teilt dem System mit, dass das Hochladen der Daten abgeschlossen ist. Der Name der `.fin` muss mit dem Namen der `.csv` übereinstimmen.  Adobe empfiehlt, eine leere Textdatei mit einer `.fin` zu erstellen. Eine leere Datei spart Speicherplatz und Upload-Zeit. **Hinweis:** Umbenennen einer `.fin`-Datei ist nach dem Hochladen nicht zulässig. Die `.fin` muss separat hochgeladen werden und kann keine umbenannte, zuvor hochgeladene Datei sein. Nach dem Hochladen der `.fin` in der Kundenattribut-FTP ruft das System die Daten schnell ab (innerhalb einer Minute). Dies unterscheidet sich von anderen FTP-basierten Adobe-Systemen, die weniger häufig (etwa einmal pro Stunde) Daten erfassen. Die `.fin`-Datei ist bei Verwendung der Drag-and-Drop-Upload-Methode nicht erforderlich. |
 | `.gz` oder `.zip` | `.gz` (gzip) oder `.zip` - für komprimierte Dateien. Eine `.zip` Datei darf nicht mehr als eine Datei im Archiv enthalten. Benennungsanforderungen: Der Name des `.zip` oder der `.gz` sollte mit dem Namen der `.csv` übereinstimmen. Wenn Ihre `.csv`-Datei beispielsweise `crm_small.csv` ist, sollte die `.zip`-Datei `crm_small.csv.zip` sein. Die `.fin` muss mit der `.csv` übereinstimmen. |

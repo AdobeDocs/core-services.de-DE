@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: b69cb75550232a630996cb521a86414eeb53f73a
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 67%
@@ -29,7 +29,7 @@ Um auf diese Services in Experience Cloud zuzugreifen, wählen Sie die **[!UICON
 Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 
 | Zentraler Service | Beschreibung |
-|--- |--- |
+| --- | --- |
 | [Zentrale Komponenten der Benutzeroberfläche](../experience-cloud.md) | Zugriff auf Kontovoreinstellungen, Suche nach Produkthilfe und Zugriff auf Anwendungen und Services. |
 | [Zielgruppenbibliothek](audiences/overview.md) | Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von Besucher-IDs). Mit der [!DNL Audience Library] von Adobe können Sie die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten. |
 | [Kundenattribute](customer-attributes/attributes.md) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungsdienst. |
