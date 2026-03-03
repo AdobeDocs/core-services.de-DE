@@ -9,13 +9,10 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 75%
@@ -43,7 +40,7 @@ Auf dieser Seite wird die vollständige Liste der Benutzer mit Zugriff auf Exper
 ![Admin Console-Benutzerseite](../assets/admin-tool-users.png)
 
 | Element | Beschreibung |
-|---|---|
+| --- | ---|
 | [!UICONTROL Name] | Der Vor- und Nachname des Benutzers. Sie können diese Spalte von A bis Z und von Z bis A sortieren. Klicken Sie auf den Namen eines Benutzers, um weitere Details zum Benutzer anzuzeigen. |
 | [!UICONTROL Email] | Die mit dem Benutzer verknüpfte E-Mail-Adresse. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
 | [!UICONTROL ID Type] | Der Identitätstyp für das Konto des Benutzers. Es können Filter angewendet werden, um spezielle ID-Typen anzuzeigen. Weitere Informationen finden Sie unter [Verwalten von Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html). |
@@ -59,7 +56,7 @@ Sie können die Spalten suchen, sortieren oder filtern, um die Benutzerliste anz
 * Um mehrere Filter anzuwenden und Benutzer mit bestimmten Kriterien aufzulisten, klicken Sie auf **[!UICONTROL Filter By]**. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge die E-Mail-Domäne `AND` ID-Typ `AND` Lösung.
 
 | Element | Beschreibung |
-|---------|----------|
+| ---------| ----------|
 | Filter [!UICONTROL Email Domain] | Suchen Sie in der Spalte „E-Mail“ nach Zeichenfolgen, um die Ergebnisse auf eine oder mehrere Domänen zu beschränken. Hinzufügen mehrerer Filter durch Drücken der Eingabetaste nach jedem Suchbegriff. |
 | Filter [!UICONTROL ID Type] | Wählen Sie aus den verfügbaren ID-Typen aus. Als Filter können mehrere ID-Typen verwendet werden. |
 | Filter [!UICONTROL Solution] | Wählen Sie aus den verfügbaren Programmen. Mehrfache Programmfilter suchen nach Ergebnissen, die Lösung 1 `OR` Lösung 2 enthalten. |
@@ -93,7 +90,7 @@ In diesem Abschnitt wird eine Zusammenfassung der Experience Cloud-Programme ang
 In diesem Abschnitt wird eine vollständige Liste aller Produktprofilzugehörigkeiten für den Benutzer angezeigt.
 
 | Element | Beschreibung |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Product] | Name des Produkts, das mit dem Profil verknüpft ist. |
 | [!UICONTROL Instance] | Name der Instanz (z. B. Unternehmensanmeldung oder Mandant), die mit dem Produkt und Produktprofil verknüpft ist. |
 | [!UICONTROL Product profile] | Eindeutiger Name des Produktprofils. |
@@ -107,7 +104,7 @@ Auf dieser Seite finden Sie eine vollständige Liste der Experience Cloud-Richtl
 ![Richtlinienseite in Admin Console](../assets/admin-tool-policies.png)
 
 | Element | Beschreibung |
-|---|---|
+| ---| ---|
 | [!UICONTROL Product rofile] | Der Name des Produktprofils. Die Spalte kann A->Z oder Z->A sortiert werden. Um weitere Details zur Richtlinie anzuzeigen, wählen Sie den Namen eines Produktprofils aus. |
 | [!UICONTROL Product] | Das Produkt, das mit dem Produktprofil verknüpft ist. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
 | [!UICONTROL Instance] | Die Instanz (z. B. Mandant oder angemeldetes Unternehmen), die mit dem Produktprofil verknüpft ist. Produkte ohne eindeutige Instanzen oder Mandanten haben als Wert „-“. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
@@ -123,7 +120,7 @@ Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste 
 * Klicken Sie auf das Symbol **[!UICONTROL Filter By]** , um mehrere Filter anzuwenden und Produktprofile mit bestimmten Kriterien aufzulisten. Wenn mehrere Filterkategorien angewendet werden, enthalten Suchvorgänge Gruppen, die mit der `AND` Instanzlösung `AND` verknüpft sind.
 
 | Element | Beschreibung |
-|---------|----------|
+| ---------| ----------|
 | Filter [!UICONTROL Instance] | Suchen Sie in der Spalte „Instanz“ nach Zeichenfolgen, um die Ergebnisse auf eine oder mehrere Instanzen zu beschränken. Sie können mehrerer Filter durch Drücken der Eingabetaste nach jedem Suchbegriff hinzufügen. |
 | Filter [!UICONTROL Solution] | Wählen Sie aus den verfügbaren Programmen. Mehrfache Programmfilter suchen nach Ergebnissen, die Lösung 1 `OR` Lösung 2 enthalten. |
 
@@ -156,7 +153,7 @@ In diesem Abschnitt wird eine Zusammenfassung des Produktprofils angezeigt, eins
 Dieser Abschnitt enthält eine vollständige Liste aller Benutzer, Benutzergruppen, Entwickler, Integrationen und Administratoren, die dem Profil zugewiesen sind.
 
 | Tab | Beschreibung |
-|---------|----------|
+| ---------| ----------|
 | [!UICONTROL Users] | Die Liste der im Produktprofil enthaltenen Benutzer. Die Benutzergruppenzuordnung wird in [!UICONTROL Assigned by group] Spalte angezeigt. |
 | [!UICONTROL User Groups] | Die Liste der mit dem Produktprofil verknüpften Benutzergruppen. |
 | [!UICONTROL Developers] | Die Liste der mit dem Produktprofil verbundenen Entwickler. |
