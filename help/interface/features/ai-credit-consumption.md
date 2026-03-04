@@ -65,4 +65,4 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 ## Weitere Hilfe zu diesem Thema
 
 * [Agent AI in Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
