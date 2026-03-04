@@ -6,9 +6,9 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: ae927640b65458cb1c0df1a817207220f7dfe0ec
+source-git-commit: 9afed61de0d83cf56e5d2447af68ab6851e4a716
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1026'
 ht-degree: 3%
 
 ---
@@ -55,8 +55,9 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 | Produktsupport-Agent | Erstellung und Nachverfolgung von Support-Fällen | <ul><li>Real-Time CDP (B2B-, B2C- und B2P-Editionen)</li>Adobe Journey Optimizer (B2C- und B2B-Editionen)<li>Customer Journey Analytics (B2C- und B2B-Editionen)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li><em>Erstellen Sie ein neues Support-Ticket für meinen fehlgeschlagenen Segmentierungsauftrag</em></li><li><em>Wie ist der Status des Tickets E-001772068?</em></li></ul> |
 | Inhaltsratgeber-Agent | Inhaltserkennung | <ul><li>Adobe Experience Manager</li></ul> | 5 | <ul><li><em>Inhaltsfragmente zum Erstellen einer WKND-Angebotskampagne anzeigen.</em></li><li><em>Produktverpackung finden PNG-Bilder.</em></li><li><em>Bilder mit Tag in Office-Ordner anzeigen WKND.</em></li><li><em>Gibt es SVGs im Ordner WKND?</em></li><li><em>Alle Kreditantragsformulare anzeigen.</em></li><li><em>Ich suche Onboarding-Formulare für Mitarbeiter.</em></li></ul> |
 | Inhaltsratgeber-Agent | <ul><li>Inhaltsoptimierung</li></ul> | <ul><li>Adobe Experience Manager Assets und Dynamic Media</li></ul> | 10 | <ul><li><em>Erstellen Sie eine Ausgabedarstellung von 2.000 Pixel als JPEG mit 80 % Qualität.</em></li><li><em>Erstellen Sie eine Ausgabedarstellung für eine Instagram-Story.</em></li><li><em>Überlagern Sie das Bild mit 30 % Rabattgrafiken über dem Werbebanner und platzieren Sie es 100 Pixel von der Mitte entfernt.</em></li><li><em>Ändern Sie die Hintergrundfarbe des PNG in #ff8932.</em></li></ul> |
-| Brand Governance Agent | <ul><li>Prüfungen der Markenrichtlinien</li></ul><ul><li>Berechtigungen mit Content Hub</li></ul><ul><li>Fehlerbehebung bei Pipelines</li></ul> | <ul><li>Adobe Experience Manager Sites (Markenrichtlinien)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li><em>Ist diese Seite mit meiner Marke abgestimmt? `https://www.website/en.html`</em></li><li><em>Alle vorhandenen Content Hub ABAC-Regeln anzeigen</em></li><li><em>Laufen einige meiner Assets bald aus?</em></li></ul> |
-| Brand Experience Agent | <ul><li>Inhaltsaktualisierung</li><li>Forms-Erstellung</li><li>Fehlerbehebung bei Pipelines</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li><em>Erstellen Sie ein Kontaktformular mit den Feldern Name, E-Mail und Nachricht</em></li><li><em>Fehlerbehebung bei fehlgeschlagener Pipeline</em></li><li><em>Auflisten meiner fehlgeschlagenen Pipelines für das Hauptprogramm.</em></li></ul> |
+| Brand Governance Agent | <ul><li>Prüfungen der Markenrichtlinien</li></ul><ul><li>Berechtigungen mit Content Hub</li></ul><ul><li>Asset-Ablauf</li></ul> | <ul><li>Adobe Experience Manager Sites (Markenrichtlinien)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li><em>Ist diese Seite mit meiner Marke abgestimmt? `https://www.website/en.html`</em></li><li><em>Alle vorhandenen Content Hub ABAC-Regeln anzeigen</em></li><li><em>Laufen einige meiner Assets bald aus?</em></li></ul> |
+| Brand Experience Agent | <ul><li>Inhaltsaktualisierung</li><li>Forms-Erstellung</li><li>Fehlerbehebung bei Pipelines</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li><em>Aktualisieren Sie am `URL` die Überschrift auf Hello world</em></li><li><em>Erstellen Sie ein Kontaktformular mit den Feldern Name, E-Mail und Nachricht</em></li><li><em>Fehlerbehebung bei fehlgeschlagener Pipeline</em></li><li><em>Auflisten meiner fehlgeschlagenen Pipelines für das Hauptprogramm.</em></li></ul> |
+| Brand Experience Agent | Site-Modernisierung | Adobe Experience Manager Cloud Services | 100 | <ul><li><em>Migrieren der `https://wknd-trendsetters.site`</em></li></ul> |
 
 >[!NOTE]
 >
@@ -66,4 +67,4 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 
 * [GenAI in Experience Cloud](/help/interface/features/generative-ai.md)
 * [Agent AI in Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
