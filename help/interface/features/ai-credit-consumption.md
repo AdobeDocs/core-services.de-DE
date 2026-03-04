@@ -6,16 +6,16 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: d9d9eb0b3bad1abd517e4c6b0bd5ecaa45a7930d
+source-git-commit: 1897e2162ba53ebc43a78877a61ebf4370127631
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '1001'
 ht-degree: 3%
 
 ---
 
 # Nutzung von Adobe Experience Platform-Agentenvorgängen und KI-Credits
 
-Aktualisiert: **Mittwoch, 3. März 2026**
+Aktualisiert: **Donnerstag, 4. März 2026**
 
 Erfahren Sie mehr über die Verwendung von agenten KI-Aufträgen und die Verwendung von KI-Krediten in Experience Cloud-Programmen. Informationen zur Aktivierung der Funktionen der agenten KI in bestehenden Experience Cloud-Programmen finden Sie unter [Agentische KI in Experience Cloud](agentic-ai.md#existing-apps).
 
@@ -53,10 +53,10 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 | Journey Agent | Journey-Verwaltung | <ul><li>Adobe Journey Optimizer (B2B- und B2C-Editionen)</li></ul> | 25 | <ul><li>_Wie viele lebende Journey habe ich?_</li><li>_Listen Sie alle Journey mit der Audience X auf._</li><li>_Listen Sie alle Journey auf, die sich derzeit im Testmodus befinden_</li></ul> |
 | Produktsupport-Agent | Knowledge-based Troubleshooting | <ul><li>Real-Time CDP (B2B-, B2C- und B2P-Editionen)</li><li>Adobe Journey Optimizer (B2C- und B2B-Editionen)</li><li>Customer Journey Analytics (B2C- und B2B-Editionen)</li></ul> | 0 | <ul><li>_Warum unterscheidet sich die Anzahl meiner Profile im Lizenznutzungs-Dashboard und auf der Experience Platform-Startseite?_</li><li>_Was sind die Gründe dafür, dass eine Journey nicht ausgelöst wird?_</li><li>_Wie erstellt Adobe Experience Platform Echtzeit-Erlebnisse?_</li><li>_Wie werden Warnhinweise in Adobe Experience Platform konfiguriert und verwendet?_</li><li>_Wie hoch ist die Grenze für die durchschnittliche Profilreichhaltigkeit in Adobe Experience Platform Activation?_</li></ul> |
 | Produktsupport-Agent | Erstellung und Nachverfolgung von Support-Fällen | <ul><li>Real-Time CDP (B2B-, B2C- und B2P-Editionen)</li>Adobe Journey Optimizer (B2C- und B2B-Editionen)<li>Customer Journey Analytics (B2C- und B2B-Editionen)</li><li>Adobe Experience Manager</li></ul> | 10 | <ul><li>_Erstellen Sie ein neues Support-Ticket für meinen fehlgeschlagenen Segmentierungsauftrag_</li><li>_Wie ist der Status des Tickets E-001772068?_</li></ul> |
-| Inhaltsratgeber-Agent | Inhaltserkennung | <ul><li>Adobe Experience Manager Assets</li></ul> | 5 | <ul><li>_Inhaltsfragmente zum Erstellen einer WKND-Angebotskampagne anzeigen._</li><li>_Produktverpackung finden PNG-Bilder._</li><li>_Bilder mit Tag in Office-Ordner anzeigen WKND._</li><li>_Gibt es SVGs im Ordner WKND?_</li><li>_Alle Kreditantragsformulare anzeigen._</li><li>_Ich suche Onboarding-Formulare für Mitarbeiter._</li></ul> |
-| Inhaltsratgeber-Agent | <ul><li>Inhaltsoptimierung</li></ul> | <ul><li>Adobe Experience Manager Assets</li></ul> | 10 | <ul><li>_Erstellen Sie eine Ausgabedarstellung von 2.000 Pixel als JPEG mit 80 % Qualität._</li><li>_Erstellen Sie eine Ausgabedarstellung für eine Instagram-Story._</li><li>_Überlagern Sie das Bild mit 30 % Rabattgrafiken über dem Werbebanner und platzieren Sie es 100 Pixel von der Mitte entfernt._</li><li>_Ändern Sie die Hintergrundfarbe des PNG in #ff8932._</li></ul> |
-| Brand Governance Agent | <ul><li>Inhaltsaktualisierung</li><li>Forms-Erstellung</li><li>Fehlerbehebung bei Pipelines</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Fehlerbehebung bei fehlgeschlagener Pipeline_</li><li>_Auflisten meiner fehlgeschlagenen Pipelines für das Hauptprogramm._</li><li>_Analysieren Sie meine fehlgeschlagene Pipeline mit dem Namen „Entwicklungs-Pipeline“_</li><li>_Fehlerbehebung bei der Pipeline-Ausführung 1234567_</li></ul> |
-| Brand Experience Agent | Site-Modernisierung | Adobe Experience Manager Cloud Services | 100 | <ul><li>_Migrieren der`https://wknd-trendsetters.site`_</li></ul> |
+| Inhaltsratgeber-Agent | Inhaltserkennung | <ul><li>Adobe Experience Manager</li></ul> | 5 | <ul><li>_Inhaltsfragmente zum Erstellen einer WKND-Angebotskampagne anzeigen._</li><li>_Produktverpackung finden PNG-Bilder._</li><li>_Bilder mit Tag in Office-Ordner anzeigen WKND._</li><li>_Gibt es SVGs im Ordner WKND?_</li><li>_Alle Kreditantragsformulare anzeigen._</li><li>_Ich suche Onboarding-Formulare für Mitarbeiter._</li></ul> |
+| Inhaltsratgeber-Agent | <ul><li>Inhaltsoptimierung</li></ul> | <ul><li>Adobe Experience Manager Assets und Dynamic Media</li></ul> | 10 | <ul><li>_Erstellen Sie eine Ausgabedarstellung von 2.000 Pixel als JPEG mit 80 % Qualität._</li><li>_Erstellen Sie eine Ausgabedarstellung für eine Instagram-Story._</li><li>_Überlagern Sie das Bild mit 30 % Rabattgrafiken über dem Werbebanner und platzieren Sie es 100 Pixel von der Mitte entfernt._</li><li>_Ändern Sie die Hintergrundfarbe des PNG in #ff8932._</li></ul> |
+| Brand Governance Agent | <ul><li>Prüfungen der Markenrichtlinien</li></ul><ul><li>Berechtigungen mit Content Hub</li></ul><ul><li>Fehlerbehebung bei Pipelines</li></ul> | <ul><li>Adobe Experience Manager Sites (Markenrichtlinien)</li></ul><ul><li>Adobe Experience Manager Assets</li></ul> | 25 | <ul><li>_Ist diese Seite mit meiner Marke abgestimmt?`https://www.website/en.html`_</li><li>_Alle vorhandenen Content Hub ABAC-Regeln anzeigen_</li><li>_Laufen einige meiner Assets bald aus?_</li></ul> |
+| Brand Experience Agent | <ul><li>Inhaltsaktualisierung</li><li>Forms-Erstellung</li><li>Fehlerbehebung bei Pipelines</li></ul> | <ul><li>Adobe Experience Manager Cloud Services</li><li>Adobe Experience Manager Sites</li><li>Adobe Experience Manager Forms</li></ul> | 50 | <ul><li>_Erstellen Sie ein Kontaktformular mit den Feldern Name, E-Mail und Nachricht_</li><li>_Fehlerbehebung bei fehlgeschlagener Pipeline_</li><li>_Auflisten meiner fehlgeschlagenen Pipelines für das Hauptprogramm._</li></ul> |
 
 >[!NOTE]
 >
@@ -65,4 +65,4 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 ## Weitere Hilfe zu diesem Thema
 
 * [Agent AI in Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
