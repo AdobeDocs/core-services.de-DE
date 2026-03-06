@@ -6,7 +6,7 @@ topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: fb09e31069b1eb9f035c115d89b4cd8b4a090583
+source-git-commit: 6a7cd999ec96967084c67d059cb2efd6a3235235
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # Nutzung von Adobe Experience Platform-Agentenvorgängen und KI-Credits
 
-Aktualisiert: **Donnerstag, 4. März 2026**
+Aktualisiert: **Freitag, 5. März 2026**
 
 Erfahren Sie mehr über die Verwendung von agenten KI-Aufträgen und die Verwendung von KI-Krediten in Experience Cloud-Programmen. Informationen zur Aktivierung der Funktionen der agenten KI in bestehenden Experience Cloud-Programmen finden Sie unter [Agentische KI in Experience Cloud](agentic-ai.md#existing-apps).
 
@@ -67,4 +67,4 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 
 * [GenAI in Experience Cloud](/help/interface/features/generative-ai.md)
 * [Agent AI in Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
