@@ -31,16 +31,16 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5e92058e4a48555f2588d93dfd46fb289e477bda
+source-git-commit: 5f4f7b872f6b7bb6963faa7d0c6368137c439cfc
 workflow-type: tm+mt
-source-wordcount: 891
+source-wordcount: 892
 ht-degree: 4%
 
 ---
 
 # Agent AI in Adobe Experience Cloud
 
-Aktualisiert: **Donnerstag, 4. März 2026**
+Aktualisiert: **Freitag, 5. März 2026**
 
 Adobe Experience Platform Agents wird von [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) unterstützt, um agentische KI-Funktionen in Experience Cloud-Programmen zu aktivieren.
 
@@ -63,7 +63,7 @@ Agenten können in bestehenden Experience Cloud-Programmen für Kunden in einer 
 * Sie werden in eine nutzungsgebundene Testversion eingeschlossen (eingeschränkte KI-Credits bereitgestellt)
 * Sie haben die Agent Orchestrator Promo SKU (zeitgebundene Testlizenz) abgeschlossen.
 
-Die Verwendung von KI-Agenten für _Agentenaufträge_ nutzt KI-Credits. Erfahren Sie mehr über Agentenaufträge und KI-Credits in _[Agentenaufträge und KI-](/help/interface/features/ai-credit-consumption.md)_).
+Die Verwendung von KI-Agenten für _Agentenaufträge_ nutzt KI-Credits. Erfahren Sie mehr über Agentenaufträge und KI-Credits in [Agentenaufträge und KI-](https://experienceleague.adobe.com/de/docs/core-services/interface/features/ai-credit-consumption)).
 
 KI-Agenten befolgen _Ihre_ Eingabe, Aufsicht und berücksichtigen die Zugriffskontrollen auf Produktebene. Sie können nur Aufträge ausführen oder auf Daten zugreifen, zu deren Nutzung Sie in der zugrunde liegenden Experience Cloud-Anwendung berechtigt sind.
 
