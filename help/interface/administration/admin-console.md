@@ -20,9 +20,9 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 916a0c84a0a3e86ffccc101c84006b45e683ea8e
 workflow-type: tm+mt
-source-wordcount: 750
+source-wordcount: 747
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 
 | Hilfe-Link | Beschreibung |
 | ------- | ------- |
-| [Adobe ID zurücksetzen](https://helpx.adobe.com/de/manage-account/kb/account-password-sign-help.html) | Melden Sie sich ab und klicken Sie dann auf **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**. |
+| [Adobe ID zurücksetzen](https://helpx.adobe.com/de/account/individual/sign-in-and-security/security-and-recovery/cant-sign-in-to-adobe-account.html) | Melden Sie sich ab und klicken Sie dann auf **[!UICONTROL Get help signing in]** > **[!UICONTROL Reset your password]**. |
 | [Verwalten mehrerer Benutzer](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Erfahren Sie, wie Sie mehrere Benutzende über den CSV-Massen-Upload in Admin Console verwalten. |
 | [Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html) | Identitätstypen ermöglichen dem Unternehmen verschiedene Ebenen der Kontrolle über die Konten und Daten der Benutzer. Die Auswahl des Identitätsmodells wirkt sich darauf aus, wie Ihr Unternehmen Assets speichert und freigibt. Während Federated ID- und Enterprise ID-Modelle vom Unternehmen erstellt und verwaltet werden, werden Adobe-IDs vom Kontakt erstellt und verwaltet. |
 | [User Sync Tool](https://helpx.adobe.com/de/enterprise/using/user-sync.html) (UST) | Das Adobe User Sync Tool ist ein Desktop-Programm, mit dem die Synchronisierung von Benutzerdaten zwischen dem Identitätsverwaltungssystem eines Unternehmens (z. B. Active Directory) und Adobe Admin Console automatisiert wird. Mit dem Tool können Admins die Benutzerbereitstellung, Aktualisierungen und Deaktivierung über Adobe-Produkte hinweg optimieren. |
@@ -102,11 +102,11 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 
  -->
 
-* [Advertising Search, Social und Commerce](https://experienceleague.adobe.com/en/docs/advertising/search-social-commerce/new-ui/user-administration)
+* [Advertising Search, Social und Commerce](https://experienceleague.adobe.com/de/docs/advertising/search-social-commerce/target/user-administration)
 * [Analytics](https://experienceleague.adobe.com/de/docs/analytics/admin/admin-console/home)
 * [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/cja-workspace/workspace-faq/frequently-asked-questions-analysis-workspace)
 * [Audience Manager](https://experienceleague.adobe.com/de/docs/audience-manager/user-guide/features/administration/admin-console-migration)
-* [Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/admin/permissions/gs-permissions)
+* [Campaign v8](https://experienceleague.adobe.com/de/docs/campaign/campaign-v8/permissions/gs-permissions)
 * [Campaign Standard](https://experienceleague.adobe.com/de/docs/campaign-web/acs-to-ac/user-management-acs)
 * [Commerce](https://experienceleague.adobe.com/de/docs/commerce-admin/start/admin/ims/adobe-ims-config)
 * [Dynamic Media Classic](https://experienceleague.adobe.com/de/docs/dynamic-media-classic/using/setup/administration-setup#user_administration)
@@ -119,7 +119,6 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 * [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
 * [Marketo Measure](https://experienceleague.adobe.com/de/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)
 * [Mix Modeler](https://experienceleague.adobe.com/de/docs/mix-modeler/using/data-governance/access-controls)
-* [Adobe Pass](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started)
 * [Zielgruppe](https://experienceleague.adobe.com/de/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
 
