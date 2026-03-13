@@ -35,7 +35,7 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 2476
 ht-degree: 9%
@@ -82,7 +82,8 @@ Im Folgenden finden Sie eine Zusammenfassung [!DNL Experience Cloud] Anwendungen
 
 ### Generative KI
 
-<!-- | Product | Key AI features | Firefly Compatibility |
+<!--
+| Product | Key AI features | Firefly Compatibility |
 | ----------------| -----------------| ---------|
 | GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
 | Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
@@ -95,7 +96,8 @@ Im Folgenden finden Sie eine Zusammenfassung [!DNL Experience Cloud] Anwendungen
 | Customer Journey Analytics | AI Assistant, Intelligent Captions, Content Analytics | No |
 | Real-Time CDP | AI Assistant for product knowledge and operational insights | No |
 | Marketo | Email Designer, Dynamic Chat, Interactive Webinars | Yes |
-| Workfront | AI Assistant for work management and recommendations | Yes | -->
+| Workfront | AI Assistant for work management and recommendations | Yes |
+-->
 
 | **Produktname** | **Wichtige GenAI-Funktionen** | **Firefly-Kompatibilität** |
 | ------------------| -------------------------| -------------------|
@@ -405,8 +407,10 @@ Integration von Marketo mit GenStudio for Performance Marketing
 
 +++
 
-<!-- ## More help on this topic
+<!--
+## More help on this topic
 
-* [AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) documentation home -->
+* [AI in Experience Cloud](https://experienceleague.adobe.com/en/docs/ai) documentation home
+-->
 
 **Haftungsausschluss:** Die Informationen auf dieser Seite dienen nur allgemeinen Informationszwecken. Obwohl Anstrengungen unternommen werden, um sicherzustellen, dass die Informationen korrekt und aktuell bleiben, können sich die Funktionen von Software und generativer KI häufig ändern. Dementsprechend übernimmt Adobe keine Gewähr für die Vollständigkeit, Richtigkeit oder Zuverlässigkeit der Informationen. Bitte überprüfen Sie alle wichtigen Details, bevor Sie Entscheidungen auf der Grundlage dieses Inhalts treffen.

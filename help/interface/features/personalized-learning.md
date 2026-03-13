@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 06923be2a98a9301a3d3e16c47c50cd34f7a05e9
 workflow-type: tm+mt
 source-wordcount: 103
 ht-degree: 19%
@@ -25,9 +25,10 @@ ht-degree: 19%
 
 # Voreinstellungen für personalisierte Lerninhalte
 
-Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [Experience Cloud-Voreinstellungen&rbrace; &#x200B;](https://experience.adobe.com/preferences) oder deaktivieren.
+Adobe provides you with helpful content that is tailored to you based on your work in your Adobe products. Product usage data informs how we tailor this context to you. You can opt in or opt out of sharing your product usage data on the [Experience Cloud preferences](https://experience.adobe.com/preferences) page.
 
-<!-- ## Personalized training and support recommendations for your Adobe products and services
+<!--
+## Personalized training and support recommendations for your Adobe products and services
 
 Receive relevant best practices, tips & tricks, helpful walk throughs, and more based on your use of your Adobe products in each of these three ways...
 
@@ -80,11 +81,13 @@ Receive tailored opportunities for learning events, research sessions, and integ
 </tbody>
 </table>
 
- -->
+-->
 
-<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
+<!-- 
+[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} 
+-->
 
-## Beispiele für das Aussehen benutzerdefinierter Lerninformationen
+## Examples of how customized learning information might look
 
 ### In Ihren Adobe-Produkten
 

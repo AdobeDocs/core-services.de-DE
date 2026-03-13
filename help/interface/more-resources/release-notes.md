@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: a6211a5d3da519b12bac352dcce532a02d9cbd5e
 workflow-type: tm+mt
 source-wordcount: 1337
 ht-degree: 80%
@@ -84,7 +84,8 @@ Versionshinweise zu allen Programmen finden Sie unter [Experience Cloud-Versions
 | -----------| ---------- |
 | Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen so konfigurieren, dass Experience Cloud-Benachrichtigungen an Slack gesendet werden. Detaillierte Informationen finden Sie unter &lbrace;0 _Slack_ Benachrichtigungen in der [-Hilfe.](../features/account-preferences.md) |
 
-<!-- ## July - August 2023
+<!--
+## July - August 2023
 
 NA - released July 2022
 
@@ -94,13 +95,14 @@ Adobe is updating its provisioning to provide all [!DNL Experience Cloud] custom
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=de), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=de), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
+-->
 
 ## Mai 2023
 
@@ -219,7 +221,8 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 * Die Feed-Seite wird seit Dezember 2019 nicht mehr unterstützt. Innerhalb des Produkts finden Sie eine Benachrichtigung zur Einstellung. (MCUI-10039)
 
-<!-- ## August 2019
+<!--
+## August 2019
 
 * Fixed a critical issue in Experience Cloud login that led to session logout for some users. (MCUI-6908)
 * Updated Experience Cloud login to improve performance and reduce latency. (MCUI-6854, MCUI-6869, MCUI-6883)
