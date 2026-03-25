@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 04b452cb70ff2429b25c617f0bd1f131f9ffcf2a
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 484
 ht-degree: 1%
 
 ---
@@ -32,8 +32,9 @@ ht-degree: 1%
 Adobe Experience Platform Web SDK verwendet Cookies, um implementierungsspezifische Werte zu speichern.
 
 | Name | Maximales Alter | Größe | Beschreibung |
-| ---| ---| ---| ---|
+| --- | --- | --- | --- |
 | **`AMCV_###@AdobeOrg`** | 34128000 (395 Tage) | 100-120 Byte (variabel) | Bei aktiviertem [`idMigrationEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) vorhanden. Dies ist hilfreich bei der Umstellung auf Web SDK, während einige Teile der Site weiterhin `visitor.js` verwenden. Die Web-SDK liest und schreibt während der Migration in dieses Cookie. |
+| **`com.adobe.alloy.getTld`** | Keine (sofort gelöscht) | K. A. | Temporäres Helper-Cookie, das intern von Web SDK verwendet wird, um die Domain der aktuellen Site auf oberster Ebene zu ermitteln. Sobald die Domain auf oberster Ebene eingerichtet ist, wird das Cookie gelöscht. Es werden keine Verhaltens- oder Profildaten gespeichert. |
 | **`demdex`** | 15552000 (180 Tage) | variiert | Vorhanden, wenn die Audience Manager ID-Synchronisierung aktiviert ist. Audience Manager setzt dieses Cookie, um eine eindeutige ID zuzuweisen und ID-Synchronisierung, Segmentierung, Modellierung und Reporting zu unterstützen. Siehe `demdex` in [Audience Manager-Cookies](audience-manager.md). |
 | **`kndctr_<orgId>_identity`** | 34128000 (395 Tage) | 100-120 Byte (variabel) | Speichert die ECID und andere zugehörige Informationen für dieses Gerät. |
 | **`kndctr_<orgId>_cluster`** | 1800 (30 Minuten) | 3-5 Byte | Speichert die Edge Network-Region (Standorthinweis), die die Anfragen des aktuellen Benutzers verarbeitet. Die Region wird im URL-Pfad verwendet, damit der Edge Network die Anfrage an die richtige Region weiterleiten kann. Wenn ein Benutzer innerhalb der Cookie-Lebensdauer eine Verbindung mit einer anderen IP-Adresse herstellt, wird die Anfrage erneut an die nächstgelegene Region weitergeleitet. |
