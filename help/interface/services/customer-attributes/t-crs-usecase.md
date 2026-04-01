@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 757f43593466360a1b0e0d6fca725fba4dc8f5d4
 workflow-type: tm+mt
-source-wordcount: 1061
+source-wordcount: 1117
 ht-degree: 47%
 
 ---
@@ -148,7 +148,7 @@ Nach dem Hochladen der Datei werden die Tabellendaten unter der Überschrift [!U
 
 * **[!UICONTROL customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Zeigt an, wie viele IDs als Alias zu Experience Cloud-Besucher-IDs hinzugefügt wurden.
 
-* **[!UICONTROL customer-Provided IDs with High Alias Counts:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit mindestens 500 alias Experience Cloud-Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 zuletzt als Alias gespeicherten Experience Cloud-Besucher-IDs, bis die Aliasanzahl 10.000 erreicht hat. Dann erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht mehr die zugehörigen Attribute. —>
+* **[!UICONTROL customer-Provided IDs with High Alias Counts:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit mindestens 500 alias Experience Cloud-Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 zuletzt als Alias gespeicherten Experience Cloud-Besucher-IDs, bis die Aliasanzahl 10.000 erreicht hat. Dann erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht mehr die zugehörigen Attribute. -->
 
 ## Prüfen Sie das Schema {#validate-schema}
 
