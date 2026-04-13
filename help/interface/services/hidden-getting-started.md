@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 81%
+source-wordcount: '2092'
+ht-degree: 73%
 
 ---
 
@@ -33,7 +33,7 @@ Was Sie tun müssen, um Experience Cloud-Mitglied zu werden:
 
    >[!NOTE]
    >
-   >Migrieren Sie für [!DNL Target] beispielsweise von `mbox.js` zu „at.js“. Siehe [Aktualisieren von at.js 1.x auf at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=de).
+   >Migrieren Sie für [!DNL Target] beispielsweise von `mbox.js` zu „at.js“. Siehe [Aktualisieren von at.js 1. x zu at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=de).
 
 1. Verwalten Sie Benutzer und Produkte in der [!UICONTROL Admin Console].
 
@@ -164,9 +164,9 @@ Experience Cloud-ID in der mbox-Anfrage:
 
 Nach der Bereitstellung des Experience Cloud ID-Dienstes erhalten neue Besucher vom Datenerfassungsserver keine Analytics Experience Cloud ID mehr. Wenn der ID-Dienst für manche Bereiche der Site noch nicht implementiert wurde und Besucher diese Bereiche aufrufen, wird die Experience Cloud ID nicht erkannt und den Besuchern wird eine alte Analytics-Besucher-ID zugewiesen. Dies kann zu potenziellen Problemen führen, einschließlich doppelten Besuchen und falscher Zuordnung.
 
-Wenn beispielsweise der Supportbereich Ihrer Site in einem separaten CMS verwaltet wird, haben Sie möglicherweise eine andere Analytics-JavaScript-Datei für diesen Bereich. Wenn Sie die Experience Cloud-ID auf Ihrer Haupt-Site bereitstellen, bevor Sie den ID-Service auf der Support-Site bereitstellen, erhalten neue Besucher beim Besuch des Supportbereichs eine alte Analytics-ID. Besuche, die beide Sitebereiche umfassen, werden als unterschiedliche Besuche gemeldet.
+Wenn beispielsweise der Supportbereich Ihrer Site in einem separaten CMS verwaltet wird, haben Sie möglicherweise eine andere Analytics-JavaScript-Datei für diesen Bereich. Wenn Sie die Experience Cloud-ID auf Ihrer Haupt-Site bereitstellen, bevor Sie den ID-Service auf der Support-Site bereitstellen, erhalten neue Besucher beim Besuch des Support-Abschnitts eine alte Analytics-ID. Besuche, die beide Site-Bereiche umfassen, werden als unterschiedliche Besuche gemeldet.
 
-Wird der Experience Cloud-ID-Service auf Sites bereitgestellt, die mehrere JavaScript-Dateien oder andere Technologien (z. B. Flash) verwenden, kann dies Koordinierungsprobleme verursachen. Diese Probleme treten auf, da Sie den Experience Cloud-ID-Service für alle Sitebereiche gleichzeitig aktivieren müssen. Mit der Konfiguration einer Übergangsphase wird neuen Besuchern vom ID-Service weiterhin eine Analytics-Besucher-ID zugewiesen, damit sie richtig in Sitebereichen identifiziert werden, die noch nicht auf den Besucher-ID-Service aktualisiert wurden.
+Wird der Experience Cloud-ID-Service auf Sites bereitgestellt, die mehrere JavaScript-Dateien oder andere Technologien (z. B. Flash) verwenden, kann dies Koordinierungsprobleme verursachen. Diese Probleme treten auf, da Sie den Experience Cloud-ID-Service für alle Sitebereiche gleichzeitig aktivieren müssen. Durch das Konfigurieren einer Übergangsphase können neue Besucher weiterhin eine Analytics-Besucher-ID vom ID-Service erhalten. Besucher können konsistent in Bereichen Ihrer Site identifiziert werden, die nicht für die Verwendung des Besucher-ID-Service aktualisiert wurden.
 
 ## Benutzer und Produkte verwalten {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -184,7 +184,7 @@ Nutzen Sie die Vorteile folgender Funktionen.
 
 ### [!UICONTROL Customer Attributes]
 
-Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen. Verwenden Sie die Daten nach dem Hochladen in [!DNL Adobe Analytics] und [!DNL Adobe Target].
+Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
 Weitere Informationen finden [&#x200B; unter &#x200B;](customer-attributes/attributes.md)Kundenattribute“.
 
