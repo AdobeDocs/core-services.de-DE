@@ -132,7 +132,7 @@ Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktual
 ## Aktualisieren der Implementierung von Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
 * Es wird empfohlen, eine [Adobe Target-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) in [!UICONTROL Experience Platform] Tags hinzuzufügen, damit der Bibliotheksabruf automatisch erfolgt. Sie können auch die [Experience Cloud ID Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) für Adobe Target (und andere Programme) mithilfe von [!UICONTROL Experience Platform] Tags einrichten. Die [!UICONTROL Experience Cloud ID Service] Aktualisierung **ist erforderlich** damit Adobe Target die People -Services verwenden kann.
-* Wenn Sie keine [!UICONTROL Experience Platform] Tags verwenden, [ Sie Ihre mbox-Bibliothek ](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html).
+* Wenn Sie keine [!UICONTROL Experience Platform] Tags verwenden, [&#x200B; Sie Ihre mbox-Bibliothek &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html).
 * Fordern Sie Zugriff auf Adobe Analytics als Berichtsquelle für [!DNL Adobe Target] an. Daten von [!DNL Target] und [!DNL Analytics] werden während der Verarbeitung bei demselben Server-Aufruf zusammengeführt, damit Besucher programmübergreifend verknüpft werden. Siehe [Analytics for Target-Implementierung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
 
   >[!IMPORTANT]
@@ -186,13 +186,13 @@ Nutzen Sie die Vorteile folgender Funktionen.
 
 Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in Experience Cloud hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
-Weitere Informationen finden [ unter ](customer-attributes/attributes.md)Kundenattribute“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](customer-attributes/attributes.md)Kundenattribute“.
 
 ### [!UICONTROL People] > [!UICONTROL Audience Library]
 
 Experience Cloud [!UICONTROL Audiences] ist die Benutzeroberfläche, über die Sie Zielgruppen erstellen, bestehende Zielgruppen kombinieren können, um zusammengesetzte Zielgruppen zu erstellen, und alle freigegebenen Zielgruppen anzeigen können.
 
-Weitere Informationen finden [ unter ](audiences/overview.md)Zielgruppen“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](audiences/overview.md)Zielgruppen“.
 
 ## Datenspeicherung und Datenschutz
 
