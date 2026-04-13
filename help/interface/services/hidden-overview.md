@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 67%
+source-wordcount: '195'
+ht-degree: 69%
 
 ---
 
@@ -21,7 +21,7 @@ Beispiel
 
 Diese Dokumentation erläutert Funktionen des einheitlichen Headers in Experience Cloud, wie z. B. den Service [!DNL People] ([!DNL Audience Library] und [!DNL Customer Attributes]), die Benutzer- und Produktverwaltung für Experience Cloud, Cookies, Kontovoreinstellungen und Benachrichtigungen.
 
-Um auf diese Services in Experience Cloud zuzugreifen, wählen Sie die **[!UICONTROL Application Selector]** aus
+Um auf diese Services in Experience Cloud zuzugreifen, wählen Sie die **[!UICONTROL Application Selector]**
 ![Dienstauswahl](../assets/apps-icon.png).
 
 ![Experience Cloud-Services](../assets/platform-core-services.png)
