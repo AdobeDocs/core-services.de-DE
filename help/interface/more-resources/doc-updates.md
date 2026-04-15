@@ -23,16 +23,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 67%
+source-wordcount: 656
+ht-degree: 66%
 
 ---
 
 # Dokumentation – Aktualisierungen
 
 Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Verwaltung von Experience Cloud stattfinden.
+
+**März 2026**
+
+Hinzugefügt [KI-Aufträge und -Guthaben Konsum](../features/ai-credit-consumption.md)
 
 **November 2025**
 
@@ -85,7 +89,7 @@ Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen d
 | Funktion | Beschreibung |
 | ------- | ------- |
 | Startseite | Die Fußzeilen-Informationen von Experience Cloud, einschließlich der rechtlichen Hinweise und der Sprachauswahl in den Voreinstellungen, wurden in die Benutzerprofilkarte verschoben. |
-| AEP-Dashboards | [!DNL Helios Lite] bietet Diagrammempfehlungen im Erstellungs-Workflow von Experience Platform-Widgets. Bei einer Datenauswahl (derzeit eine Auswahl einzelner Variablendaten) empfiehlt Helios eine geeignete Visualisierung, um diese Datenauswahl zu begleiten. |
+| AEP-Dashboards | [!DNL Helios Lite] empfiehlt während des Erstellungs-Wokflows von Experience Platform-Widgets Diagramme. Bei einer Datenauswahl (derzeit eine Auswahl einzelner Variablendaten) empfiehlt Helios eine geeignete Visualisierung, um diese Datenauswahl zu begleiten. |
 | AEP-Dashboards | [!DNL Instory] bietet auf ML basierende Erklärungen und Beschriftungen für Diagramme. Auf der AEP-Dashboards-Seite werden Diagramme mit relevanten Aufzählungspunkten versehen, die wichtige Veränderungen und Ereignisse in den Diagrammdaten kennzeichnen. |
 
 **13. Oktober 2021**
