@@ -8,25 +8,15 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 67%
+source-wordcount: 656
+ht-degree: 66%
 
 ---
 
@@ -34,17 +24,21 @@ ht-degree: 67%
 
 Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Verwaltung von Experience Cloud stattfinden.
 
+**März 2026**
+
+Hinzugefügt [KI-Aufträge und -Guthaben Konsum](../features/ai-credit-consumption.md)
+
 **November 2025**
 
 Updates zu [Agent KI in Experience Cloud](../features/agentic-ai.md)
 
 **Oktober 2025**
 
-Der [&#x200B; „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
+Der [ „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
 
 **August 2025**
 
-Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; &#x200B;](../features/account-preferences.md).
+Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; ](../features/account-preferences.md).
 
 **Februar 2025**
 
@@ -56,7 +50,7 @@ Aktualisierungen [Produktnutzungsdaten](../features/account-preferences.md) und 
 
 **September 2024**
 
-Es wurde Hilfe zum Abonnieren [&#x200B; Slack-Benachrichtigungen &#x200B;](../features/account-preferences.md#subscribe-to-slack-notifications).
+Es wurde Hilfe zum Abonnieren [ Slack-Benachrichtigungen ](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 
@@ -85,7 +79,7 @@ Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen d
 | Funktion | Beschreibung |
 | ------- | ------- |
 | Startseite | Die Fußzeilen-Informationen von Experience Cloud, einschließlich der rechtlichen Hinweise und der Sprachauswahl in den Voreinstellungen, wurden in die Benutzerprofilkarte verschoben. |
-| AEP-Dashboards | [!DNL Helios Lite] bietet Diagrammempfehlungen im Erstellungs-Workflow von Experience Platform-Widgets. Bei einer Datenauswahl (derzeit eine Auswahl einzelner Variablendaten) empfiehlt Helios eine geeignete Visualisierung, um diese Datenauswahl zu begleiten. |
+| AEP-Dashboards | [!DNL Helios Lite] empfiehlt während des Erstellungs-Wokflows von Experience Platform-Widgets Diagramme. Bei einer Datenauswahl (derzeit eine Auswahl einzelner Variablendaten) empfiehlt Helios eine geeignete Visualisierung, um diese Datenauswahl zu begleiten. |
 | AEP-Dashboards | [!DNL Instory] bietet auf ML basierende Erklärungen und Beschriftungen für Diagramme. Auf der AEP-Dashboards-Seite werden Diagramme mit relevanten Aufzählungspunkten versehen, die wichtige Veränderungen und Ereignisse in den Diagrammdaten kennzeichnen. |
 
 **13. Oktober 2021**
