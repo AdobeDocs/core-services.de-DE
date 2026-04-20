@@ -53,7 +53,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei CX Enterprise können Sie über den einheitlichen Header schnell auf alle Ihre Programme, Services und Organisationen zugreifen.
 
-Rufen Sie die Programmauswahl auf (Menü), um auf die in Ihrem Unternehmen für Sie ![ CX Enterprise-Programme und -Services ](assets/apps-icon.png).
+Rufen Sie die Programmauswahl auf (Menü), um auf die in Ihrem Unternehmen für Sie ![&#x200B; CX Enterprise-Programme und -Services &#x200B;](assets/apps-icon.png).
 
 ![Zugriff auf CX Enterprise-Programme](assets/platform-core-services.png)
 

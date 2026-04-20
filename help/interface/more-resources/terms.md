@@ -9,11 +9,20 @@ role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR---BnMM7lJgN0HZDsk
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1273
@@ -37,7 +46,7 @@ Eine Terminologiereferenz für CX Enterprise-Benutzer und ggf. die Verwendung di
 | **Durchsetzung der Datennutzung** | Keine festgeschriebene Verwendung. | Die Richtlinien, das System-Design, die Praktiken und Verfahren (Programme, Apps, Services, SDKs, APIs usw.), die in einem System festgelegt und definiert wurden, um mithilfe von Metadaten zur Datenverwendung die Einhaltung der Datenschutzrichtlinien von Adobe, der vertraglichen Erwägungen und der allgemeinen Datenschutzgrundsätze zu ermöglichen. |
 | **Gerät** | Keine festgeschriebene Verwendung. | Ein Hardware-Gerät wie ein Tablet, Smartphone oder Desktop, auf dem Anwendungen ausgeführt werden. |
 | **Device Co-op** | Keine festgeschriebene Verwendung. | Eine Gruppe von Marken, die sich bereit erklärt haben, Daten über die Geräte auszutauschen, die von den Verbrauchern verwendet werden, um eine bessere Identifikation des einzelnen Geräts und ein bedeutenderes, konsistenteres Erlebnis zu gewährleisten. |
-| **[!UICONTROL CX Enterprise ID Service](ECID)** | Keine festgeschriebene Verwendung. | Die eindeutige, beständige ID, die einem Site-Besucher zugewiesen ist. Dies ist eine bestimmte Entität, die vom Experience Platform Identity Service verwendet werden kann. [Mehr...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) |
+| **[!UICONTROL CX Enterprise ID Service] (ECID)** | Keine festgeschriebene Verwendung. | Die eindeutige, beständige ID, die einem Site-Besucher zugewiesen ist. Dies ist eine bestimmte Entität, die vom Experience Platform Identity Service verwendet werden kann. [Mehr...](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) |
 | **[!UICONTROL Experience Platform Identity Service]** | Keine festgeschriebene Verwendung. | Der Service, der Identitäten verknüpft. Es handelt sich dabei um den Service zum Verknüpfen von Geräten für das personenbasierte Erlebnis-Management. |
 | **Verknüpfung** | Keine festgeschriebene Verwendung. „Verknüpfung“ bezieht sich auf die Navigation via Hyperlinks sowie auf die Verknüpfung von Elementen wie Schriften, Eigenschaften, Ebenen usw. | In CX Enterprise bezieht sich die Verknüpfung normalerweise auf die Verknüpfung verschiedener Programmkonten mit der Benutzeroberfläche.<br>Siehe [Organisationen und Kontoverknüpfung](../administration/organizations.md).<br>Verknüpfung bezieht sich auch auf die an andere Benutzer gesendeten Standard-URLs für Analytics-Berichte. |
 | **Standorte** | In der Creative Cloud bezieht sich der Ort auf Dateispeicherorte oder auf eine Stelle auf einem geöffneten Bild oder einem geöffneten Dokument. | In CX Enterprise sind Orte die Orte, an denen Inhalte von Zielgruppen angezeigt werden (und mit denen interagiert werden kann). Die Verbindung von Position und Inhalt kann mehr oder weniger statisch sein oder dynamisch gemäß den Regeln einer Kampagne verwaltet werden. Ein Standort gehört immer zu einem bestimmten Kanal, der bestimmt, wie Inhalte bereitgestellt und Metriken erfasst werden können.<br>Zu den Beispielen gehören:<ul><li>Seiten</li><li>Eigenschaften (Social)</li><li>Inventar anzeigen</li><li>Landingpages</li><li>Apps</li><li>Slots (Video)</li></ul> |
@@ -46,7 +55,7 @@ Eine Terminologiereferenz für CX Enterprise-Benutzer und ggf. die Verwendung di
 | **Portfolio** | Eine Zusammenstellung aus mehreren Dateien oder Assets. | Ein Container mit Kampagnen. |
 | **Produktprofil** | Siehe [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products.html). | Damit ein Benutzer berechtigt sein kann, ein Produkt oder einen Service zu verwenden, muss er Teil eines Produktprofils sein. Der Produktadministrator weist einem Produktprofil Lizenzen zu, indem er es mit einem von Ihnen erworbenen Plan verknüpft.<br>Ein Benutzer kann mehreren Produktprofilen angehören, von denen jede dem Benutzer andere Lizenzen verleiht. Die finale Eignung eines Benutzers ist die Vereinigung aller Lizenzen, die er von den einzelnen Produktprofilen erhält. |
 | **Planung** | Kann sich auf eine Folge von Szenen in Adobe Story oder auf geplante Aufgaben in ColdFusion beziehen. | In CX Enterprise ist ein Zeitplan das Startdatum (Jahr, Monat, Tag) und Enddatum für die Aktivierung von Kampagnen, Kanälen und Aktivitäten. Zeitpläne für Aktivitäten haben eine bis auf die Minute gestaffelte Granularität. Beim Ändern eines Zeitplans wird eine Karte erstellt.<br>Zu den Beispielen gehören:<ul><li>Kampagnenzeitpläne</li><li>Kanalzeitpläne</li><li>Aktivitätszeitpläne</li></ul> |
-| **Segment** | K. A. | Die Ausgabe eines Regelsatzes zur Qualifizierung einer Zielgruppe. In Analytics [ &quot;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)&quot; optional zum Definieren einer Zielgruppe verwendet, die an CX Enterprise übergeben werden kann. <br>In Audience Manager ist ein Segment eine Sammlung von [Merkmalen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html) und allen Kriterien, die Besucher für die Zugehörigkeit zu diesem oder Aufnahme in dieses Segment qualifizieren. Es ist auch eine Sammlung von Personen, die diese allgemeinen Attribute teilen. |
+| **Segment** | K. A. | Die Ausgabe eines Regelsatzes zur Qualifizierung einer Zielgruppe. In Analytics [&#x200B; &quot;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)&quot; optional zum Definieren einer Zielgruppe verwendet, die an CX Enterprise übergeben werden kann. <br>In Audience Manager ist ein Segment eine Sammlung von [Merkmalen](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html) und allen Kriterien, die Besucher für die Zugehörigkeit zu diesem oder Aufnahme in dieses Segment qualifizieren. Es ist auch eine Sammlung von Personen, die diese allgemeinen Attribute teilen. |
 | **Freigabe** | In Creative Cloud können Dateien extern über Plattformen freigegeben werden (soziale Medien, Communitys, E-Mails usw.). | In CX Enterprise können Assets nur als Karten auf Pinnwänden in der Benutzeroberfläche freigegeben werden. Die Freigabe steht allen Personen zur Verfügung, die bei der Site angemeldet sind. |
 | **Lösung** | Keine festgeschriebene Verwendung. | In CX Enterprise werden Anwendungen als Produkte wie Adobe Analytics, Adobe Target usw. bezeichnet. |
 | **Eigenschaft** | k. A. | Ein Schlüssel-Wert-Paar, z. B. color=blue. In Audience Manager werden [Merkmale](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html) zum Erstellen von Segmenten verwendet. |

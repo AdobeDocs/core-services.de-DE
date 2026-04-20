@@ -8,9 +8,12 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
-product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 553
@@ -58,7 +61,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei CX Enterprise können Sie über den einheitlichen Header schnell auf alle Ihre Programme, Services und Organisationen zugreifen.
 
-Rufen Sie die Programmauswahl auf (Menü), um auf die in Ihrem Unternehmen für Sie ![ CX Enterprise-Programme und -Services ](assets/apps-icon.png).
+Rufen Sie die Programmauswahl auf (Menü), um auf die in Ihrem Unternehmen für Sie ![&#x200B; CX Enterprise-Programme und -Services &#x200B;](assets/apps-icon.png).
 
 ![Zugriff auf CX Enterprise-Programme](assets/platform-core-services.png)
 

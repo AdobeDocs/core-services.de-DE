@@ -9,11 +9,27 @@ role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 TQID: https://experienceleague.adobe.com/6Sh6sOZ--ct2sz5sMR-qRwZmvoC51zQkV9LqVRXmi-o
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: d27b1945-f442-4607-91bd-537a0b16e687id: ecb4a972-6786-444c-a014-abc528b9407aid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: dab36b01-8bfa-48f3-8392-626455a058e6
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: d27b1945-f442-4607-91bd-537a0b16e687
+  - id: ecb4a972-6786-444c-a014-abc528b9407a
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 1111
@@ -94,7 +110,7 @@ Freigeben von Ordnern und Assets zwischen CX Enterprise und Creative Cloud. Sie 
 
 ## Analytics – Reporting zu AEM Assets in Analytics
 
-Hilfe: [Reporting zu AEM Assets in Analytics ](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
+Hilfe: [Reporting zu AEM Assets in Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
 
 Hiermit können in Analytics die Impressions und Klicks auf Assets erfasst werden, die durch AEM Asset Insights bereitgestellt werden.
 
@@ -163,7 +179,7 @@ Synchronisieren Sie Ihre Assets innerhalb von Adobe Experience Manager (AEM)-Ass
 
 Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie weitere Informationen zum Zugriff auf Adobe CX Enterprise, zu Profilen und Zielgruppen sowie zur Ersteinrichtung von [!DNL Adobe Advertising]- und Adobe CX Enterprise-Zielgruppen erhalten möchten. **Hinweis:** Wenn Sie auch Adobe Target verwenden, sind alle in Adobe CX Enterprise veröffentlichten Zielgruppen auch für Aktivitäten in Adobe Target verfügbar.
 
-**CX Enterprise Assets:** (Advertisers mit Display-Verwaltung) Sie können jedes Ihrer Adobe CX Enterprise-Assets als Kreative für Ihre Display-Anzeigen verwenden, indem Sie die Ansicht Neue Display-Beta verwenden. Sie müssen über [ Adobe CX Enterprise bei Adobe Advertising angemeldet sein, ](https://enterprise.efrontier.com/CMDashboard) auf Ihre Adobe CX Enterprise-Assets zuzugreifen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Informationen zum Zugriff auf Adobe CX Enterprise benötigen.
+**CX Enterprise Assets:** (Advertisers mit Display-Verwaltung) Sie können jedes Ihrer Adobe CX Enterprise-Assets als Kreative für Ihre Display-Anzeigen verwenden, indem Sie die Ansicht Neue Display-Beta verwenden. Sie müssen über [&#x200B; Adobe CX Enterprise bei Adobe Advertising angemeldet sein, &#x200B;](https://enterprise.efrontier.com/CMDashboard) auf Ihre Adobe CX Enterprise-Assets zuzugreifen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Informationen zum Zugriff auf Adobe CX Enterprise benötigen.
 
-**CX Enterprise-Benachrichtigungen:** Über den Benachrichtigungslink oben auf jeder Seite können Sie alle Warnhinweise anzeigen, die von Ihren Beta-Warnhinweisvorlagen für Suchen generiert wurden. Sie können auch CX Enterprise-Systemaktualisierungen, Beiträge, Erwähnungen und freigegebene Assets abrufen. Sie müssen über [ Adobe CX Enterprise bei Adobe Advertising angemeldet sein](https://enterprise.efrontier.com/CMDashboard) um auf Ihre Benachrichtigungen zugreifen zu können. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Informationen zum Zugriff auf Adobe CX Enterprise benötigen.
+**CX Enterprise-Benachrichtigungen:** Über den Benachrichtigungslink oben auf jeder Seite können Sie alle Warnhinweise anzeigen, die von Ihren Beta-Warnhinweisvorlagen für Suchen generiert wurden. Sie können auch CX Enterprise-Systemaktualisierungen, Beiträge, Erwähnungen und freigegebene Assets abrufen. Sie müssen über [&#x200B; Adobe CX Enterprise bei Adobe Advertising angemeldet sein](https://enterprise.efrontier.com/CMDashboard) um auf Ihre Benachrichtigungen zugreifen zu können. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Informationen zum Zugriff auf Adobe CX Enterprise benötigen.
 
