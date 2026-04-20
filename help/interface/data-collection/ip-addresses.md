@@ -3,22 +3,17 @@ title: Von Experience Cloud verwendete IP-Adressen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 378
+source-wordcount: 426
 ht-degree: 9%
 
 ---
 
-# Von Experience Cloud verwendete IP-Adressen
+# Von CX Enterprise verwendete IP-Adressen
 
 Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Datenerfassungs-Servern oder -Servern von Adobe stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihrer Organisation zu ändern, um den Zugriff zu ermöglichen und Daten von innerhalb Ihrer Organisation zu senden. Diese Seite enthält sowohl eingehende Systeme (z. B. Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds in Adobe Analytics), die Adobe verwendet.
 
@@ -26,12 +21,12 @@ Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Datenerfassu
 >
 >Adobe setzt dieses Dokument nach besten Kräften auf dem neuesten Stand, kann jedoch nicht garantieren, dass die Liste der IP-Bereiche gleich bleibt. Mögliche Änderungen umfassen das Wachstum und die Erweiterung des Unternehmens, eine Internet-Registrierung erfordert Änderungen am IP-Adressbereich von Adobe oder ein Internet-Service-Provider funktioniert nicht mehr.
 
-Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adobe Experience Cloud-Produkte über eigene IP-Adressen, die sie verwenden:
+Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adobe CX Enterprise-Produkte über eigene IP-Adressen, die sie verwenden:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Alle Adobe IP-Adressblöcke
 
@@ -49,12 +44,12 @@ Die folgende Tabelle enthält alle IP-Adressen im Besitz von Adobe. Diese Tabell
 
 {style="table-layout:auto"}
 
-## Adobe Experience Cloud-Datenerfassung und FTP-IP-Adressblöcke
+## Adobe CX Enterprise-Datenerfassung und FTP-IP-Adressblöcke
 
 Wenn Ihr Unternehmen bestimmte IP-Adressbereiche lieber zulässt, können Sie die folgende Tabelle heranziehen. Zu diesem Datensatz gehören:
 
-* Datenerfassungsserver für alle Experience Cloud-Produkte
-* FTP-Server für alle Experience Cloud-Produkte
+* Datenerfassungsserver für alle CX Enterprise-Produkte
+* FTP-Server für alle CX Enterprise-Produkte
 
 Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 
@@ -92,7 +87,7 @@ Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 
 {style="table-layout:auto"}
 
-Der Adobe Experience Cloud unterstützt auch IPv6 in begrenzter Kapazität. Diese IP-Blöcke dienen ähnlichen Datenerfassungszwecken wie ihre IPv4-Gegenstücke oben, enthalten jedoch kein FTP.
+Der Adobe CX Enterprise unterstützt auch IPv6 in begrenzter Kapazität. Diese IP-Blöcke dienen ähnlichen Datenerfassungszwecken wie ihre IPv4-Gegenstücke oben, enthalten jedoch kein FTP.
 
 | Standort | Host |
 | --- | --- |

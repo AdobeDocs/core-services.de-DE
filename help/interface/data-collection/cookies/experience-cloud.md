@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie das ID-Service in allen Experience Cloud-Programmen gespeichert und verwendet wird.
+description: Erfahren Sie, wie der ID-Service in allen CX Enterprise-Programmen gespeichert und verwendet wird.
 solution: Experience Cloud,Analytics,Target
 title: Cookies in Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -9,29 +9,21 @@ role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
 TQID: https://experienceleague.adobe.com/2i8AyRTW37TGYTpcLBh-ZMTyET0NvpRweTnUuk8Nnis
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 88%
+source-wordcount: 370
+ht-degree: 77%
 
 ---
 
-# Cookies in Experience Cloud
+# Cookies in CX Enterprise
 
-Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die in allen Experience Cloud-Programmen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe Experience Cloud-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
+Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in allen CX Enterprise-Programmen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe CX Enterprise-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
 
 **Cookie-Name: s_ecid**
 
@@ -45,7 +37,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Enthält eine Kopie der Experience Cloud ID (ECID) oder der MID. Die MID ist in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Enthält eine Kopie der CX Enterprise ID (ECID) oder MID. Die MID ist in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
@@ -56,7 +48,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
    <td colname="col2"> <p>Dieses Cookie wird durch die Domain des Kunden festgelegt, nachdem das AMCV-Cookie vom Client festgelegt wurde. Dieses Cookie ermöglicht das durchgängige ID-Tracking als Erstanbieter und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abgelaufen ist. Weitere Details zum AMCV-Cookie finden Sie hier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Position </p> </td> 
+   <td colname="col1"> <p> Standort </p> </td> 
    <td colname="col2"> <p>Nur CNAME-Kunden. Gilt nicht für Drittanbieter-Szenarien. Cookie wird in Ihrer Domain gespeichert; dieselbe Domain wie die von CNAME und Ihrer Analytics-Bildanforderung verwendete. </p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +66,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
 
 Der [Experience Platform-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domain der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
 
-Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
+Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -86,7 +78,7 @@ Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/i
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Unique-Visitor-IDs, die von Experience Cloud-Lösungen verwendet werden. </p> </td> 
+   <td colname="col2"> <p> Von CX Enterprise-Lösungen verwendete Unique-Visitor-IDs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
@@ -97,7 +89,7 @@ Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/i
    <td colname="col2"> <p> Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Position </p> </td> 
+   <td colname="col1"> <p> Standort </p> </td> 
    <td colname="col2"> <p> Dieses Cookie wird in der Domain der Website gespeichert (nicht in der Domain der Bildanforderung). </p> </td> 
   </tr> 
   <tr> 

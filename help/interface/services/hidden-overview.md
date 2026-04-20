@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die Benutzer- und Produktverwaltung von Experience Cloud, Zielgruppen, Kundenattribute, Journey Orchestration, Angebote, Places, Experience Platform und Mobile Services.
+description: Erfahren Sie mehr über die Benutzer- und Produktverwaltung von CX Enterprise, Zielgruppen, Kundenattribute, Journey Orchestration, Angebote, Places, Experience Platform und Mobile Services.
 solution: Experience Cloud
 title: Übersicht über Experience Cloud-Services
 feature: Central Interface Components
@@ -8,23 +8,23 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 3571e84cb237a478d8a9bce3485bef0737d4043c
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 69%
+ht-degree: 41%
 
 ---
 
-# Experience Cloud-Services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# CX Enterprise Services {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
 Beispiel
 
-Diese Dokumentation erläutert Funktionen des einheitlichen Headers in Experience Cloud, wie z. B. den Service [!DNL People] ([!DNL Audience Library] und [!DNL Customer Attributes]), die Benutzer- und Produktverwaltung für Experience Cloud, Cookies, Kontovoreinstellungen und Benachrichtigungen.
+Diese Dokumentation bezieht sich auf Funktionen des einheitlichen Headers in CX Enterprise, wie z. B. den [!DNL People]-Service ([!DNL Audience Library] und [!DNL Customer Attributes]), die Benutzer- und Produktverwaltung für CX Enterprise, Cookies, Kontovoreinstellungen, Benachrichtigungen und mehr.
 
-Um auf diese Services in Experience Cloud zuzugreifen, wählen Sie die **[!UICONTROL Application Selector]**
+Um auf diese Services in CX Enterprise zuzugreifen, wählen Sie die **[!UICONTROL Application Selector]**
 ![Dienstauswahl](../assets/apps-icon.png).
 
-![Experience Cloud-Services](../assets/platform-core-services.png)
+![CX Enterprise-Services](../assets/platform-core-services.png)
 
 Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 
@@ -33,7 +33,7 @@ Diese Hilfe beschreibt die folgenden Produkte und Dienste:
 | [Zentrale Komponenten der Benutzeroberfläche](../experience-cloud.md) | Zugriff auf Kontovoreinstellungen, Suche nach Produkthilfe und Zugriff auf Anwendungen und Services. |
 | [Zielgruppenbibliothek](audiences/overview.md) | Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von Besucher-IDs). Mit der [!DNL Audience Library] von Adobe können Sie die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten. |
 | [Kundenattribute](customer-attributes/attributes.md) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungsdienst. |
-| [Assets](assets/experience-cloud-assets.md) | Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. |
+| [Assets](assets/experience-cloud-assets.md) | CX Enterprise Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie programmübergreifend freigeben können. |
 
 {style="table-layout:auto"}
 

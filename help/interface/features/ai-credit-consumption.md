@@ -1,29 +1,29 @@
 ---
 title: Agent-Vorgänge und KI-Kreditverbrauch
-description: Erfahren Sie mehr über Agentenaufträge und KI-Kreditverbrauchsraten in Experience Cloud-Programmen.
+description: Erfahren Sie mehr über Agentenaufträge und KI-Kreditverbrauchsraten in CX Enterprise-Programmen.
 solution: Experience Cloud
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 6a7cd999ec96967084c67d059cb2efd6a3235235
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1055'
 ht-degree: 3%
 
 ---
 
 # Nutzung von Adobe Experience Platform-Agentenvorgängen und KI-Credits
 
-Aktualisiert: **Freitag, 5. März 2026**
+Aktualisiert: **5. März 2026**
 
-Erfahren Sie mehr über die Verwendung von agenten KI-Aufträgen und die Verwendung von KI-Krediten in Experience Cloud-Programmen. Informationen zur Aktivierung der Funktionen der agenten KI in bestehenden Experience Cloud-Programmen finden Sie unter [Agentische KI in Experience Cloud](agentic-ai.md#existing-apps).
+Erfahren Sie mehr über die Verwendung von agenten KI-Aufträgen und die Verwendung von KI-Krediten in CX Enterprise-Programmen. Informationen zur Aktivierung der Funktionen der agenten KI in bestehenden CX Enterprise-Programmen finden Sie unter [Agentische KI in CX Enterprise](agentic-ai.md#existing-apps).
 
 ## Agentenaufträge
 
 Ein _Agentenauftrag_ ist eine Reihe von Aufgaben und Aktionen, die ein Agent ausführt, um ein bestimmtes Ergebnis zu erzielen, wie durch Kundeneingaben angewiesen.
 
-Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Sie Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden Experience Cloud-Programmen auszuführen.
+Mithilfe natürlicher Eingabeaufforderungen über den KI-Assistenten können Sie Agenten bitten, bestimmte Aufträge auszuführen. Basierend auf diesen Eingaben koordiniert Agent Orchestrator die entsprechenden Agenten, um jeden Schritt in den entsprechenden CX Enterprise-Programmen auszuführen.
 
 ## KI-Credits
 
@@ -65,6 +65,6 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 
 ## Weitere Hilfe zu diesem Thema
 
-* [GenAI in Experience Cloud](/help/interface/features/generative-ai.md)
-* [Agent AI in Experience Cloud](/help/interface/features/agentic-ai.md)
-* [Nutzungsgebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [GenAI in CX Enterprise](/help/interface/features/generative-ai.md)
+* [Agent AI in CX Enterprise](/help/interface/features/agentic-ai.md)
+* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)

@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie einen Experience Cloud Asset-Ordner für Creative Cloud-Benutzende freigeben.
+description: Erfahren Sie, wie Sie einen CX Enterprise Asset-Ordner für Creative Cloud-Benutzende freigeben.
 solution: Experience Cloud
 title: Freigeben von Experience Cloud-Asset-Ordnern
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
@@ -9,28 +9,21 @@ role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 TQID: https://experienceleague.adobe.com/RC2C4CKPhWEO3O4k7baoAqknTj3qj-23Ic1bXtv2zP4
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 51%
+source-wordcount: 451
+ht-degree: 39%
 
 ---
 
-# Experience Cloud-Asset-Ordner freigeben
+# Freigeben von CX Enterprise-Asset-Ordnern
 
-Geben Sie Ordner und Assets sowohl in Experience Cloud als auch in Creative Cloud frei. Sie können an gemeinsamen Assets zusammenarbeiten, sie kommentieren und in Experience Cloud-Programmen wie Adobe Target verwenden. Der freigegebene Ordner muss aus Experience Cloud stammen.
+Freigeben von Ordnern und Assets zwischen CX Enterprise und Creative Cloud. Sie können an gemeinsamen Assets zusammenarbeiten, sie kommentieren und in CX Enterprise-Programmen wie Adobe Target verwenden. Der freigegebene Ordner muss aus CX Enterprise stammen.
 
 **Vorteile der Freigabe**
 
@@ -40,9 +33,9 @@ Geben Sie Ordner und Assets sowohl in Experience Cloud als auch in Creative Clou
 * Mehr Sicherheit für Unternehmen
 * Einfaches Freigeben, Speichern und Senden von Dateien zwischen Creatives und Marketingfachleuten
 
-Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in Experience Cloud auf die Zulassungsliste gesetzt werden. Siehe [Verwalten von Creative Cloud-Benutzern](manage-cc-users.md).
+Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in CX Enterprise auf die Zulassungsliste gesetzt werden. Siehe [Verwalten von Creative Cloud-Benutzern](manage-cc-users.md).
 
-**So geben Sie einen Experience Cloud Asset-Ordner frei**
+**So geben Sie einen CX Enterprise Asset-Ordner frei**
 
 1. Klicken Sie in einem Asset-Ordner auf **[!UICONTROL Share to Creative Cloud]**.
 
@@ -63,11 +56,11 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in Experienc
    ![Im Web anzeigen](../../assets/creative_cloud_open_folder.png)
 1. Sie können nun Kommentare zu dem freigegebenen Asset hinzufügen:
 
-   In Creative Cloud können Sie ein Bild auswählen und dann auf **[!UICONTROL Activity]** klicken, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in [!DNL Creative Cloud] und in [!DNL Experience Cloud] synchronisiert.
+   In Creative Cloud können Sie ein Bild auswählen und dann auf **[!UICONTROL Activity]** klicken, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in [!DNL Creative Cloud] und in [!DNL CX Enterprise] synchronisiert.
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_cc.png)
 
-   Klicken Sie in Experience Cloud auf ein Bild und dann auf das Zeitleistensymbol, um dem Bild einen Kommentar hinzuzufügen. Kommentare werden mit den Assets in Creative Cloud und Experience Cloud synchronisiert.
+   Klicken Sie in CX Enterprise auf ein Bild und dann auf das Zeitleistensymbol, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in Creative Cloud und CX Enterprise synchronisiert.
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_mac.png)
 
@@ -77,7 +70,7 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in Experienc
 
    Wenn Sie alle Creative Cloud-Benutzer entfernt haben, wird die Freigabe des Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 
-Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in Adobe Target für Bilder in -Aktivitäten.
+Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target für Bilder in -Aktivitäten.
 
 Wenn Sie einen Ordner für Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 
@@ -85,13 +78,13 @@ Wenn Sie einen Ordner für Creative Cloud freigegeben haben, erscheint auf dem O
 
 Zugehörige Hilfe:
 
-* [Creative Cloud-Hilfe – Verwalten und Synchronisieren von Dateien](https://helpx.adobe.com/de/creative-cloud/help/sync-creative-cloud-files.html)
-* [Creative Cloud-Hilfe – Zusammenarbeiten mit anderen](https://helpx.adobe.com/de/creative-cloud/help/collaboration.html)
-* [Creative Cloud-Hilfe – Häufig gestellte Fragen zur Zusammenarbeit](https://helpx.adobe.com/de/creative-cloud/help/collaboration-faq.html)
+* [Creative Cloud-Hilfe - Dateien verwalten und synchronisieren](https://helpx.adobe.com/de/creative-cloud/help/sync-creative-cloud-files.html)
+* [Creative Cloud-Hilfe - Zusammenarbeit mit anderen](https://helpx.adobe.com/de/creative-cloud/help/collaboration.html)
+* [Creative Cloud-Hilfe - Häufig gestellte Fragen zu Collaboration](https://helpx.adobe.com/de/creative-cloud/help/collaboration-faq.html)
 
 ## Informationen zur Asset-Freigabe für Adobe Target
 
 Beim Erstellen von Aktivitäten in [!DNL Adobe Target] können Sie ein freigegebenes Bild-Asset verwenden, wenn Sie Bilder im [!UICONTROL Offers Library] austauschen.
 
-Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in der [!DNL Target]-Hilfe.
+Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in der [!DNL Target]-Hilfe.
 
