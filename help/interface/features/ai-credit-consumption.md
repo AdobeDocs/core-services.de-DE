@@ -67,4 +67,4 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 
 * [GenAI in CX Enterprise](/help/interface/features/generative-ai.md)
 * [Agent AI in CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
