@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie das  [!DNL Customer Attributes] -Schema in Adobe Experience Cloud validieren.
+description: Erfahren Sie, wie Sie das  [!DNL Customer Attributes] -Schema in Adobe CX Enterprise validieren.
 solution: Experience Cloud
 title: 'Validieren des Schemas [!DNL Customer Attributes] '
 feature: Customer Attributes
@@ -21,16 +21,16 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 37%
+source-wordcount: 308
+ht-degree: 43%
 
 ---
 
 # Schema prüfen
 
-Beim Validierungsprozess können Sie hochgeladenen Attributen Anzeigenamen und Beschreibungen (Zeichenfolgen, Ganzzahlen, Zahlen usw.) zuordnen.
+Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.).
 
 Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur Überprüfung aller zukünftigen Daten verwendet, die in diese Datenquelle hochgeladen werden. Der Zuordnungsprozess ändert die Originaldaten nicht.
 
@@ -50,7 +50,7 @@ Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur
 
    Auf der Seite [!UICONTROL Edit Schema] stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
 
-   ![Schemaseite in Experience Cloud bearbeiten](assets/schema-edit.png)
+   ![Schemaseite in CX Enterprise bearbeiten](assets/schema-edit.png)
 
 **Aktionen**
 
@@ -60,10 +60,10 @@ Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur
 
 * **[!UICONTROL FTP Setup:]** Erstellen Sie Ihr FTP-Konto, um [Ihre Daten via FTP hochzuladen](t-upload-attributes-ftp.md) (optional).
 
-* **[!UICONTROL ID Lookup:]** Geben Sie eine Kunden-ID (CID) aus Ihrem `.csv` ein, um Experience Cloud-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
+* **[!UICONTROL ID Lookup:]** Geben Sie eine Kunden-ID (CID) aus Ihrem `.csv` ein, um CX Enterprise-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
 
-   * **[!UICONTROL ECID (Experience Cloud ID):]** Wird angezeigt, wenn Sie den neuesten Experience Cloud ID-Service verwenden. Wenn Sie sich im MCID-Service befinden, hier jedoch keine IDs aufgeführt sind, hat Experience Cloud keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
+   * **[!UICONTROL ECID (CX Enterprise ID):]** Wird angezeigt, wenn Sie den neuesten CX Enterprise ID-Service verwenden. Wenn Sie sich im MCID-Service befinden, hier jedoch keine IDs aufgeführt sind, hat CX Enterprise keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
 
    * **[!UICONTROL CID (customer ID):]** Die dieser CID zugeordneten Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
 
-   * **[!UICONTROL AVID (Analytics visitor ID):]** Wird angezeigt, wenn Sie zum Hochladen von CIDs ein Prop oder eVar verwenden. Wenn diese IDs an Experience Cloud übergeben werden, werden hier alle Besucher-IDs angezeigt, die mit der eingegebenen CID verknüpft sind.
+   * **[!UICONTROL AVID (Analytics visitor ID):]** Wird angezeigt, wenn Sie zum Hochladen von CIDs ein Prop oder eVar verwenden. Wenn diese IDs an CX Enterprise übergeben werden, werden hier alle Besucher-IDs angezeigt, die mit der eingegebenen CID verknüpft sind.

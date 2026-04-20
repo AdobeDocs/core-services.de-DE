@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie Experience Cloud Trigger konfigurieren.
+description: Erfahren Sie, wie Sie CX Enterprise Trigger konfigurieren.
 solution: Experience Cloud
 title: Übersicht über Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 646
-ht-degree: 78%
+source-wordcount: 697
+ht-degree: 77%
 
 ---
 
-# Experience Cloud Triggers
+# CX Enterprise Trigger
 
-[!UICONTROL Triggers] in Experience Cloud ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden.
+[!UICONTROL Triggers] in CX Enterprise ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden.
 
 Beispiel:
 
@@ -55,7 +55,7 @@ Im Allgemeinen kann ein Auslöser 15 bis 90 Minuten benötigen, um eine Marketin
 * **Aktion:** Sie können Sie Trigger erstellen, die beispielsweise nach der Newsletter-Anmeldung, E-Mail-Abonnements oder Kreditkartenanträgen (Bestätigungen) ausgelöst werden. Wenn Sie ein Händler sind, können Sie einen Trigger für einen Besucher erstellen, der sich für ein Treueprogramm anmeldet. Erstellen Sie in Medien und Unterhaltung Trigger für Besucher, die eine bestimmte Sendung ansehen. Sie können auch mit einer Umfrage reagieren.
 * **Sitzungsbeginn und Sitzungsende:** Erstellen Sie einen Trigger für die Sitzungsbeginn- und Sitzungsende-Ereignisse.
 
-## Experience Cloud Trigger erstellen
+## Erstellen eines CX Enterprise-Triggers
 
 Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigger. Sie können beispielsweise die Kriterien für die Regeln eines Triggers während eines Besuchs angeben, z. B. Metriken wie Warenkorbabbruch oder Dimensionen wie den Produktnamen. Wenn die Regeln erfüllt sind, wird der Trigger ausgeführt.
 
@@ -63,7 +63,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
-1. Klicken Sie in Experience Cloud auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Data Collection/Launch]**.
+1. Klicken Sie in CX Enterprise auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Data Collection/Launch]**.
 1. Klicken Sie auf der [!UICONTROL Triggers] auf **[!UICONTROL Manage Triggers]**.
 1. Klicken Sie auf **[!UICONTROL New Trigger]** und geben Sie dann den Typ des Triggers an:
 
@@ -87,7 +87,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 
 ## Beispielauslöser
 
-Beispiele für Experience Cloud-Triggers:
+Beispiele für CX Enterprise-Trigger:
 
 ### Warenkorbabbruch - Trigger
 

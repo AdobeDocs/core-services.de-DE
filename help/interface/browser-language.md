@@ -1,6 +1,6 @@
 ---
 title: Browser- und Sprachunterstützung
-description: Erfahren Sie mehr über Browser- und Sprachunterstützung für Experience Cloud-Programme. Wählen Sie eine primäre und sekundäre Sprache in Ihrem Kontoprofil aus.
+description: Erfahren Sie mehr über Browser- und Sprachunterstützung für CX Enterprise-Programme. Wählen Sie eine primäre und sekundäre Sprache in Ihrem Kontoprofil aus.
 solution: Experience Cloud
 feature: Account Preferences
 topic: Administration
@@ -21,16 +21,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 239
-ht-degree: 55%
+source-wordcount: 242
+ht-degree: 40%
 
 ---
 
-# Browser- und Sprachunterstützung in Experience Cloud
+# Browser- und Sprachunterstützung in CX Enterprise
 
-Für eine optimale Performance wurde Experience Cloud für die beliebtesten Browser optimiert, jeweils sowohl für deren neueste Version als auch für die beiden Vorgängerversionen.
+Um eine optimale Leistung zu erzielen, ist CX Enterprise für die beliebtesten Browser optimiert, einschließlich der neuesten Version sowie der beiden vorherigen Versionen.
 
 * Chrome
 * Edge
@@ -42,11 +42,11 @@ Wenn Ihr Browser nicht aufgeführt ist, wird er möglicherweise trotzdem unterst
 
 >[!NOTE]
 >
->Nicht alle Anwendungen, die auf der Experience Cloud-Domain ausgeführt werden, unterstützen alle Browser. Wenn Sie sich nicht sicher sind, lesen Sie die Dokumentation zu einem bestimmten Programm.
+>Nicht alle Anwendungen, die auf der CX Enterprise-Domain ausgeführt werden, unterstützen alle Browser. Wenn Sie sich nicht sicher sind, lesen Sie die Dokumentation zu einem bestimmten Programm.
 
-## Sprachunterstützung in Experience Cloud
+## Sprachunterstützung in CX Enterprise
 
-Die Benutzeroberfläche von Experience Cloud ist in den folgenden Sprachen verfügbar:
+Die Benutzeroberfläche von CX Enterprise ist in den folgenden Sprachen verfügbar:
 
 * Englisch (USA)
 * Französisch (Frankreich)
@@ -69,13 +69,13 @@ Darüber hinaus kann eine gebietsschemaspezifische Formatierung (z. B. Daten, Ze
 
 **So geben Sie eine Standardsprache an**
 
-1. Klicken Sie in Experience Cloud auf **[!UICONTROL Profile]** > [Voreinstellungen](https://experience.adobe.com/preferences).
+1. Klicken Sie in CX Enterprise auf **[!UICONTROL Profile]** > [Voreinstellungen](https://experience.adobe.com/preferences).
 
 1. Klicken Sie unter **[!UICONTROL Profile]** auf den Link Sprache .
 
 1. Wählen Sie **[!UICONTROL Select language]** im Menü **[!UICONTROL First language]** eine Sprache aus.
 
-   Zwar verpflichten sich alle Anwendungsteams zur globalen Sprachunterstützung, doch werden nicht alle Anwendungen in allen in der Benutzeroberfläche aufgeführten Sprachen angeboten. Wenn Ihre Primärsprache in einem Experience Cloud-Programm nicht unterstützt wird, können Sie ggf. eine sekundäre Standardsprache festlegen.
+   Zwar verpflichten sich alle Anwendungsteams zur globalen Sprachunterstützung, doch werden nicht alle Anwendungen in allen in der Benutzeroberfläche aufgeführten Sprachen angeboten. Wenn Ihre Primärsprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie ggf. eine sekundäre Standardsprache festlegen.
 
 1. Klicken Sie auf **[!UICONTROL Save]**.
 

@@ -20,7 +20,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 04b452cb70ff2429b25c617f0bd1f131f9ffcf2a
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
 source-wordcount: 484
 ht-degree: 1%
@@ -43,6 +43,6 @@ Adobe Experience Platform Web SDK verwendet Cookies, um implementierungsspezifis
 | **`kndctr_<orgId>_personalization`** | 34128000 (395 Tage) | | Speichert Sitzungsinformationen, die Adobe Target zum Personalisieren von Inhalten verwendet. |
 | **`mbox`** | 63072000 (2 Jahre) | | Bei aktiviertem [`targetMigrationEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled) vorhanden. Dadurch kann das Target[Mbox-Cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/) von der Web-SDK festgelegt werden. |
 | **`mboxEdgeCluster`** | 1800 (30 Minuten) | | Bei aktiviertem [`targetMigrationEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled) vorhanden. Dadurch kann Web SDK dem `at.js` den richtigen Edge-Cluster übermitteln, damit die Zielprofile synchron bleiben, während Benutzende auf einer Site navigieren. |
-| **`s_ecid`** | 63115200 (2 Jahre) | ~45 Byte | Enthält eine Kopie der Experience Cloud ID (ECID/MID) im `s_ecid=MCMID\|<ECID>`. Fungiert als First-Party-Backup der ECID, insbesondere für CNAME-Szenarien (First-Party-Szenarien). |
+| **`s_ecid`** | 63115200 (2 Jahre) | ~45 Byte | Enthält eine Kopie der CX Enterprise ID (ECID/MID) im `s_ecid=MCMID\|<ECID>`. Fungiert als First-Party-Backup der ECID, insbesondere für CNAME-Szenarien (First-Party-Szenarien). |
 
 Edge Network setzt alle Cookies mit den Attributen `secure` und `sameSite="none"`. Wenn Sie derzeit sowohl sichere als auch nicht sichere Abschnitte auf Ihrer Website haben, kann die Benutzeridentifizierung ungenau sein. Wenn ein(e) Benutzende(r) von einem sicheren Abschnitt der Site zu einem nicht sicheren Abschnitt navigiert, generiert Edge Network mit der Anfrage einen neuen `ECID`.

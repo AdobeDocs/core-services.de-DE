@@ -14,10 +14,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 64%
+source-wordcount: 402
+ht-degree: 52%
 
 ---
 
@@ -31,9 +31,9 @@ Auf dieser Seite wird [!DNL Customer Attributes] Unterstützung des California C
 
 Der CCPA ist Kaliforniens neues Datenschutzgesetz, das am 1. Januar 2020 in Kraft tritt. Der CCPA räumt den Einwohnern Kaliforniens neue Rechte in Bezug auf ihre personenbezogenen Daten ein und erlegt Rechtspersönlichkeiten, die in Kalifornien Geschäfte tätigen, Datenschutzpflichten auf. Der CCPA bietet Verbrauchern das Recht, auf ihre personenbezogenen Daten zuzugreifen und sie zu löschen sowie das Recht, sich gegen bestimmte Aktivitäten zu entscheiden, die als „Verkauf“ personenbezogener Daten an Dritte gelten.
 
-Als Unternehmen legen Sie fest, welche personenbezogenen Daten Adobe Experience Cloud in Ihrem Namen verarbeitet und speichert.
+Als Unternehmen legen Sie fest, welche personenbezogenen Daten Adobe CX Enterprise in Ihrem Namen verarbeitet und speichert.
 
-Als Ihr Dienstleister unterstützt Adobe Experience Cloud Ihr Unternehmen bei der Erfüllung seiner CCPA-Verpflichtungen, die für die Verwendung von Experience Cloud-Produkten und -Diensten gelten, einschließlich der Verwaltung von Anfragen zum Zugriff auf und zur Löschung personenbezogener Daten. Diese Unterstützung umfasst die Verwaltung von Anfragen zum Zugriff auf und zur Löschung personenbezogener Daten.
+Als Ihr Dienstleister unterstützt Adobe CX Enterprise Ihr Unternehmen bei der Erfüllung seiner CCPA-Verpflichtungen, die für die Verwendung von CX Enterprise-Produkten und -Services gelten. Diese Unterstützung umfasst die Verwaltung von Anfragen zum Zugriff auf und zur Löschung personenbezogener Daten.
 
 In diesem Dokument wird beschrieben, wie [!DNL Customer Attributes] die CCPA-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützt.
 
@@ -58,7 +58,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!DNL Customer Attribute
 &quot;company context&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* „value“: &lt;*Wert Ihrer Organisations-ID*>
+* „value“: *Ihr Organisations-ID-Wert*>
 
 &quot;users&quot;:
 

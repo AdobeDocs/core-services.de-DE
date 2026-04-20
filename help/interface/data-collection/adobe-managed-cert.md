@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie sichere Zertifikate für die Verwendung mit Adobe Experience Cloud-Erstanbieter-Cookies einrichten.
+description: Erfahren Sie, wie Sie sichere Zertifikate für die Verwendung mit Adobe CX Enterprise-Erstanbieter-Cookies einrichten.
 solution: Experience Cloud,Analytics
 title: Adobe-Managed Certificate Program
 index: true
@@ -32,10 +32,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 3%
+source-wordcount: 1234
+ht-degree: 4%
 
 ---
 
@@ -117,7 +117,7 @@ Nachdem Sie überprüft haben, ob Ihr Zertifikat ordnungsgemäß funktioniert, k
 * **Web SDK-Tag** Erweiterung: Aktualisieren Sie das Feld [[!UICONTROL Edge domain]](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration) beim Konfigurieren der Erweiterung.
 * **Web SDK (Legierung)**: Aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/edgedomain) Eigenschaft im [`configure`](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/commands/configure/overview).
 * **Adobe Analytics-Erweiterung**: Aktualisieren Sie das Feld &quot;[[!UICONTROL SSL Tracking Server]](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview)&quot;, wenn Sie die Erweiterung konfigurieren. Stellen Sie sicher, dass Sie auch [&#x200B; Tag-Erweiterung „Visitor ID Service](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview) installiert haben. Weitere [&#x200B; finden Sie unter „Besucheridentifizierung mit der Tag](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/analytics-extension)Erweiterung für Analytics“.
-* **AppMeasurement**: Aktualisieren Sie die [`trackingServerSecure`](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/config-vars/trackingserversecure) Konfigurationsvariable. Stellen Sie sicher, dass Sie auch den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) mit `VisitorAPI.js` implementiert haben. AppMeasurement Weitere Informationen [&#x200B; Sie unter „Besucheridentifizierung mit &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/analytics-extension)&quot;.
+* **AppMeasurement**: Aktualisieren Sie die [`trackingServerSecure`](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/config-vars/trackingserversecure) Konfigurationsvariable. Stellen Sie sicher, dass Sie auch den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) mit `VisitorAPI.js` implementiert haben. Weitere Informationen [&#x200B; Sie unter „Besucheridentifizierung mit &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/analytics-extension)&quot;.
 
 Wenn Ihre Site mehrere Implementierungsmethoden verwendet und Sie nicht alle gleichzeitig aktualisieren können, sollten Sie eine Übergangsphase konfigurieren. Unter [Überlegungen zur Migration des Besucher-ID](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/migration)Service finden Sie weitere Schritte, um zu verhindern, dass Besucher auf Ihrer Site als neue Besucher gezählt werden.
 
@@ -157,7 +157,7 @@ Adobe stellt in Zusammenarbeit mit DigiCert ein SHA-2-Zertifikat aus.
 
 +++Entstehen für dieses Programm zusätzliche Kosten?
 
-Nein. Adobe bietet diesen Service allen Adobe Experience Cloud-Kunden kostenlos an.
+Nein. Adobe bietet diesen Service allen Adobe CX Enterprise-Kunden kostenlos an.
 
 +++
 

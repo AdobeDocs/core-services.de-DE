@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wo Dokumentationsaktualisierungen zu den allgemeinen Komponenten der Benutzeroberfläche von Experience Cloud stattfinden.
+description: Erfahren Sie, wo Dokumentationsaktualisierungen zu den allgemeinen Komponenten der Benutzeroberfläche von CX Enterprise stattfinden.
 solution: Experience Cloud
 title: Dokumentation – Aktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -23,16 +23,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 88b0f47bc8270f3dc60d1acea68130baff9d97b4
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 656
-ht-degree: 66%
+ht-degree: 46%
 
 ---
 
 # Dokumentation – Aktualisierungen
 
-Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Verwaltung von Experience Cloud stattfinden.
+Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Verwaltung von CX Enterprise stattfinden.
 
 **März 2026**
 
@@ -40,7 +40,7 @@ Hinzugefügt [KI-Aufträge und -Guthaben Konsum](../features/ai-credit-consumpti
 
 **November 2025**
 
-Updates zu [Agent KI in Experience Cloud](../features/agentic-ai.md)
+Updates zu [Agent KI in CX Enterprise](../features/agentic-ai.md)
 
 **Oktober 2025**
 
@@ -52,7 +52,7 @@ Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; &#x200B;](../featu
 
 **Februar 2025**
 
-Hinzugefügt [Verwalten von Benutzern und Produkten in Experience Cloud](../administration/admin-console.md). Auf dieser Seite finden Admins Hilfe zur Benutzer- und Produktverwaltung (Admin Console) für alle Programme.
+Hinzugefügt [Verwalten von Benutzern und Produkten in CX Enterprise](../administration/admin-console.md). Auf dieser Seite finden Admins Hilfe zur Benutzer- und Produktverwaltung (Admin Console) für alle Programme.
 
 **November 2024**
 
@@ -66,7 +66,7 @@ Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 
 **26. April 2024**
 
-Vollständige Überarbeitung der Dokumentationsarchitektur. Es wurden auch [IP-](../data-collection/ip-addresses.md) von Adobe Experience Cloud und [Regionale Datenerfassung](../data-collection/rdc.md) hinzugefügt.
+Vollständige Überarbeitung der Dokumentationsarchitektur. Es wurden auch [IP-](../data-collection/ip-addresses.md) von Adobe CX Enterprise und [Regionale Datenerfassung](../data-collection/rdc.md) hinzugefügt.
 
 **9. April 2024**
 
@@ -88,7 +88,7 @@ Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen d
 
 | Funktion | Beschreibung |
 | ------- | ------- |
-| Startseite | Die Fußzeilen-Informationen von Experience Cloud, einschließlich der rechtlichen Hinweise und der Sprachauswahl in den Voreinstellungen, wurden in die Benutzerprofilkarte verschoben. |
+| Startseite | Die Informationen zur CX Enterprise-Fußzeile wurden auf die Benutzerprofilkarte verschoben, einschließlich Rechtlicher Hinweise und Sprachauswahl in den Voreinstellungen. |
 | AEP-Dashboards | [!DNL Helios Lite] empfiehlt während des Erstellungs-Wokflows von Experience Platform-Widgets Diagramme. Bei einer Datenauswahl (derzeit eine Auswahl einzelner Variablendaten) empfiehlt Helios eine geeignete Visualisierung, um diese Datenauswahl zu begleiten. |
 | AEP-Dashboards | [!DNL Instory] bietet auf ML basierende Erklärungen und Beschriftungen für Diagramme. Auf der AEP-Dashboards-Seite werden Diagramme mit relevanten Aufzählungspunkten versehen, die wichtige Veränderungen und Ereignisse in den Diagrammdaten kennzeichnen. |
 
@@ -97,7 +97,7 @@ Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen d
 | Funktion | Beschreibung |
 | ------- | ------- |
 | Einheitliche Suche | Unified Search fügt dem Suchindex weiterhin Objekttypen hinzu. In diesem Update durchsucht die globale Suche jetzt Experience League-Inhalte und die folgenden Journey Optimizer-Objekttypen: <ul><li>Datensätze</li><li>Ziele</li><li>Abfragen</li><li>Schemata</li><li>Segmente</li><li>Quellen</li><li>Angebote</li><li>Komponenten</li><li>Nachrichten</li><li>Journeys</li></ul> |
-| Zustimmung zu den Produktverwendungsdaten | Nach der ersten Anmeldung werden Sie aufgefordert, Voreinstellungen einzureichen, um zu erfahren, wie Adobe Sie mithilfe von hilfreichen, personalisierten Inhalten wie Tutorials, Handbücher, Quick Tipps, Empfehlungen, Lernvideos und mehr versorgen kann. Diese basieren auf den Nutzungsdaten Ihres Experience Cloud-Produkts. Diese Anfrage enthält auch eine Aktualisierung Ihrer Voreinstellungen für die Erfassung und Verwendung dieser Daten unter <https://experience.adobe.com/preferences>. |
+| Zustimmung zu den Produktverwendungsdaten | Nach der ersten Anmeldung werden Sie aufgefordert, Voreinstellungen einzureichen, um zu erfahren, wie Adobe Ihnen hilfreiche, personalisierte Inhalte bereitstellen kann, z. B. Tutorials, Handbücher, Quick Tipps, Empfehlungen, Lernvideos und mehr, die auf den Nutzungsdaten Ihres CX Enterprise-Produkts basieren. Diese Anfrage enthält auch eine Aktualisierung Ihrer Voreinstellungen für die Erfassung und Verwendung dieser Daten unter <https://experience.adobe.com/preferences>. |
 
 **24. August 2021**
 
@@ -113,11 +113,11 @@ Die Struktur des Handbuchs und das Inhaltsverzeichnis wurden neu strukturiert.
 
 **1. Juni 2021**
 
-[Landingpage](../experience-cloud.md) wurde aktualisiert und um eine neue Hilfe zum Zugriff auf Experience Cloud, globale Suche, Voreinstellungen und Benachrichtigungen erweitert.
+Die [Landingpage“ wurde &#x200B;](../experience-cloud.md) neue Hilfe zum Zugriff auf CX Enterprise, globale Suche, Voreinstellungen und Benachrichtigungen aktualisiert.
 
 **19. August 2020**
 
-[Anzeige der Benutzerdetails von Experience Cloud (Admin-Tool)](../administration/admin-tool-experience-cloud.md) wurde mit Richtlinieninformationen aktualisiert.
+Die Informationen [Anzeigen von CX Enterprise-Benutzerdetails (Admin-Tool](../administration/admin-tool-experience-cloud.md) wurden mit Richtlinien aktualisiert.
 
 **19. Mai 2020**
 
@@ -136,7 +136,7 @@ Aktualisierung der [Weiterleitung von Hostnamen](../data-collection/adobe-manage
 
 **20. Februar 2020**
 
-Hinzufügung der [Anzeigen von Experience Cloud-Benutzerdetails (Admin Tool)](../administration/admin-tool-experience-cloud.md).
+Es wurde [Anzeigen von CX Enterprise-Benutzerdetails (Admin-Tool)](../administration/admin-tool-experience-cloud.md) hinzugefügt.
 
 **Aktualisiert: 05.09.2018**
 
@@ -164,19 +164,19 @@ Die Definition von Analytics-Rohdaten wurde in [Erstellen einer Zielgruppe](../s
 
 **9. Mai 2016**
 
-[Experience Cloud-Integrationen](../administration/integrations.md) wurden hinzugefügt, eine Zusammenfassung der Dokumentation zur Integration.
+[CX Enterprise-Integrationen](../administration/integrations.md), eine Zusammenfassung der Integrationsdokumentation, wurde hinzugefügt.
 
 **11 Februar 2016**
 
-Der Abschnitt [Experience Cloud Assets](../services/assets/experience-cloud-assets.md) wurde hinzugefügt.
+[CX Enterprise Assets hinzugefügt](../services/assets/experience-cloud-assets.md).
 
 **15 Januar 2015**
 
-Hinzugefügte Experience Cloud-Benutzer können jetzt Ordner für Creative Cloud freigeben und Assets und Kommentare zwischen beiden Clouds synchronisieren. Siehe [Asset-Freigabe](../services/assets/share.md).
+Hinzugefügte CX Enterprise-Benutzer können jetzt Ordner in der Creative Cloud freigeben und Assets und Kommentare in den beiden Clouds synchronisieren. Siehe [Asset-Freigabe](../services/assets/share.md).
 
 **17. Juli 2014**
 
-Der Abschnitt [Experience Cloud-FAQ](faq.md) für Administratoren wurde hinzugefügt.
+[Häufig gestellte Fragen zu CX Enterprise](faq.md) für Admins hinzugefügt.
 
 **22 Mai 2014**
 

@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die von Experience Cloud verwendeten Domains.
+description: Erfahren Sie mehr über die von CX Enterprise verwendeten Domains.
 title: Von Experience Cloud verwendete Domains
 feature: Central Interface Components
 topic: Administration
@@ -14,21 +14,21 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 102
-ht-degree: 17%
+source-wordcount: 129
+ht-degree: 15%
 
 ---
 
-# Von Experience Cloud verwendete Domains
+# Von CX Enterprise verwendete Domains
 
-Experience Cloud verwendet die folgenden Hosts, um das Programm bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen über das Netzwerk oder die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu gewährleisten.
+CX Enterprise verwendet die folgenden Hosts, um das Programm bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen über das Netzwerk oder die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu gewährleisten.
 
-Zusätzlich zu den unten aufgeführten Domains verfügen einzelne Adobe Experience Cloud-Produkte über eigene Domains, die sie verwenden:
+Zusätzlich zu den unten aufgeführten Domains verfügen einzelne Adobe CX Enterprise-Produkte über eigene Domains, die sie verwenden:
 
 * [Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/domains)
 * [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | Technologie | Domains |

@@ -1,6 +1,6 @@
 ---
 title: Informationen zu  [!DNL Customer Attributes]
-description: Weitere Informationen  [!DNL Customer Attributes]  Adobe Experience Cloud. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
+description: Weitere Informationen  [!DNL Customer Attributes]  Adobe CX Enterprise. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Analytics
 feature: Customer Attributes
 role: Admin
@@ -23,36 +23,36 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ce4fa63a4babc195f89c595009adcf19f34cdd9
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 55%
+source-wordcount: 313
+ht-degree: 47%
 
 ---
 
-# [!DNL Customer Attributes] in Experience Cloud
+# [!DNL Customer Attributes] in CX Enterprise
 
 **[!UICONTROL Apps]** ![Menü](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Mit der [!DNL Customer Attributes] in Adobe Experience Cloud können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können [die Daten hochladen](t-crs-usecase.md) in eine [!DNL Customer Attributes] Datenquelle in Experience Cloud und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
+Mit der [!DNL Customer Attributes] in Adobe CX Enterprise können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können [die Daten hochladen](t-crs-usecase.md) in eine [!DNL Customer Attributes] Datenquelle in CX Enterprise und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
 
 ![Übersicht über Kundenattribute](assets/custom_reports.png)
 
 ## Über Unternehmens-Kundendaten {#customer-data}
 
-Unternehmens-Kundendaten beziehen sich auf den organisationsweiten Satz von Informationen, die über Kunden, Interessenten und Partner erfasst werden. Sie befinden sich auf anderen Systemen und können Informationen wie Mitgliedschaften, Treuestufe, Alter, Geschlecht, eigene Produkte, Interessen und Lebenszeitwert enthalten.
+Unternehmens-Kundendaten beziehen sich auf den organisationsweiten Satz von Informationen, die über Kunden, Interessenten und Partner erfasst werden.Sie befindet sich auf anderen Systemen und kann Informationen wie Mitgliedschaften, Treuestufe, Alter, Geschlecht, eigene Produkte, Interessen und Lebenszeitwert enthalten.
 
 Das folgende Bild ist ein Beispiel für eine _Datendatei_ die Abonnentendaten für Produkte anzeigt, einschließlich Mitglieds-IDs, berechtigter Produkte, am häufigsten gestarteter Produkte und so weiter.
 
 ![Was sind Unternehmens-Kundendaten?](assets/01_crs_usecase.png)
 
-Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]** erstellen.
+Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL CX Enterprise]** > **[!UICONTROL Customer Attributes]** erstellen.
 
 Weitere [&#x200B; zu diesem Workflow finden Sie unter &#x200B;](t-crs-usecase.md) von Kundenattributdaten hochladen .
 
 ## Beispiele für Kundenattribute in Analytics und Target
 
-Nachdem sich die Daten in Experience Cloud befinden, können Sie sie anpassen und für Lösungen für Berichte, Segmentierung, Aktivitäten und Kampagnen freigeben.
+Nachdem sich die Daten in CX Enterprise befinden, können Sie sie anpassen und für Lösungen für Reporting, Segmentierung, Aktivitäten und Kampagnen freigeben.
 
 Beispiel:
 

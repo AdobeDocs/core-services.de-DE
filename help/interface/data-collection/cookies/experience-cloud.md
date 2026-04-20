@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie das ID-Service in allen Experience Cloud-Programmen gespeichert und verwendet wird.
+description: Erfahren Sie, wie der ID-Service in allen CX Enterprise-Programmen gespeichert und verwendet wird.
 solution: Experience Cloud,Analytics,Target
 title: Cookies in Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,16 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 352
-ht-degree: 88%
+source-wordcount: 370
+ht-degree: 77%
 
 ---
 
-# Cookies in Experience Cloud
+# Cookies in CX Enterprise
 
-Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die in allen Experience Cloud-Programmen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe Experience Cloud-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
+Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in allen CX Enterprise-Programmen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe CX Enterprise-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
 
 **Cookie-Name: s_ecid**
 
@@ -45,7 +45,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Enthält eine Kopie der Experience Cloud ID (ECID) oder der MID. Die MID ist in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Enthält eine Kopie der CX Enterprise ID (ECID) oder MID. Die MID ist in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
@@ -56,7 +56,7 @@ Adobe Experience Cloud verwendet Cookies, um eine Besucher-ID zu speichern, die 
    <td colname="col2"> <p>Dieses Cookie wird durch die Domain des Kunden festgelegt, nachdem das AMCV-Cookie vom Client festgelegt wurde. Dieses Cookie ermöglicht das durchgängige ID-Tracking als Erstanbieter und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abgelaufen ist. Weitere Details zum AMCV-Cookie finden Sie hier. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Position </p> </td> 
+   <td colname="col1"> <p> Standort </p> </td> 
    <td colname="col2"> <p>Nur CNAME-Kunden. Gilt nicht für Drittanbieter-Szenarien. Cookie wird in Ihrer Domain gespeichert; dieselbe Domain wie die von CNAME und Ihrer Analytics-Bildanforderung verwendete. </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/i
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Unique-Visitor-IDs, die von Experience Cloud-Lösungen verwendet werden. </p> </td> 
+   <td colname="col2"> <p> Von CX Enterprise-Lösungen verwendete Unique-Visitor-IDs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
@@ -97,7 +97,7 @@ Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/i
    <td colname="col2"> <p> Dieses Cookie wird zur Identifizierung eines Unique Visitor verwendet. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> Position </p> </td> 
+   <td colname="col1"> <p> Standort </p> </td> 
    <td colname="col2"> <p> Dieses Cookie wird in der Domain der Website gespeichert (nicht in der Domain der Bildanforderung). </p> </td> 
   </tr> 
   <tr> 

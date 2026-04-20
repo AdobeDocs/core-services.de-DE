@@ -1,6 +1,6 @@
 ---
 title: Regionale Datenerfassung
-description: Erfahren Sie mehr über die regionale Datenerfassung in Experience Cloud.
+description: Erfahren Sie mehr über die regionale Datenerfassung in CX Enterprise.
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 TQID: https://experienceleague.adobe.com/hjHQDRoNOP2e6pKhKHB9DZaII2o8eJVzL5wjRzaMFwM
 product_v2:
@@ -13,16 +13,16 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 294
+source-wordcount: 299
 ht-degree: 1%
 
 ---
 
 # Regionale Datenerfassung
 
-Die Adobe Experience Cloud verwendet regionale Datenerfassung (Regional Data Collection, RDC), damit die Interaktionen zwischen Ihren Besucherinnen und Besuchern und Adobe so nah wie möglich bei Ihren Besucherinnen und Besuchern stattfinden. Lokal an einer Edge-Site erfasste Daten werden zur Verarbeitung sicher an eine Core-Site weitergeleitet. Nach der Verarbeitung stehen die Daten für Adobe Experience Cloud-Produkte und -Services zur Verfügung.
+Die Adobe CX Enterprise verwendet regionale Datenerfassung (Regional Data Collection, RDC), damit die Interaktionen zwischen Ihren Besucherinnen und Besuchern und Adobe so nah wie möglich bei Ihren Besucherinnen und Besuchern stattfinden. Lokal an einer Edge-Site erfasste Daten werden zur Verarbeitung sicher an eine Core-Site weitergeleitet. Nach der Verarbeitung stehen die Daten für Adobe CX Enterprise-Produkte und -Services zur Verfügung.
 
 Der Workflow für die regionale Datenerfassung bietet mehrere Vorteile:
 
@@ -44,7 +44,7 @@ RDC umfasst derzeit die folgenden Speicherorte (kann sich ändern):
 
 {style="table-layout:auto"}
 
-_*Die regionale Datenerfassung für China erfordert das Add-on-Paket „China Performance Optimization“ und gilt nur für Adobe Analytics mithilfe der Datenerfassung von AppMeasurement. Andere Experience Cloud-Services und die Web-SDK-Datenerfassung werden nicht unterstützt. Wenden Sie sich an Ihr Adobe-Account-Team, um mehr über das Add-on-Paket zur Leistungsoptimierung für China zu erfahren._
+_*Die regionale Datenerfassung für China erfordert das Add-on-Paket „China Performance Optimization“ und gilt nur für Adobe Analytics mithilfe der Datenerfassung von AppMeasurement. Andere CX Enterprise-Services und die Web-SDK-Datenerfassung werden nicht unterstützt. Wenden Sie sich an Ihr Adobe-Account-Team, um mehr über das Add-on-Paket zur Leistungsoptimierung für China zu erfahren._
 
 ## Datenerfassung durch Dritte
 

@@ -3,20 +3,19 @@ role: User,Admin
 user-guide-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
 title: Benutzeroberfläche und Verwaltung von Experience Cloud
-description: Erfahren Sie mehr über die Benutzeroberfläche, Cookies und Kontovoreinstellungen von Experience Cloud. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. Freigeben von Experience Cloud-Assets.
+description: Erfahren Sie mehr über die Benutzeroberfläche von CX Enterprise, Cookies und Kontovoreinstellungen. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. CX Enterprise Assets freigeben.
 index: true
-source-git-commit: 763b52c8d49073f08c01191634008bdca19746d1
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 84%
+ht-degree: 70%
 
 ---
 
+# Benutzeroberfläche und Administration von CX Enterprise {#interface}
 
-# Benutzeroberfläche und Verwaltung von Experience Cloud {#interface}
-
-+ [Benutzeroberfläche und Verwaltung von Experience Cloud](/help/interface/experience-cloud.md)
-+ KI in Experience Cloud {#features}
++ [Benutzeroberfläche und Administration von CX Enterprise](/help/interface/experience-cloud.md)
++ KI in CX Enterprise {#features}
    + [Generative KI](/help/interface/features/generative-ai.md)
    + [Agent-basierte KI](features/agentic-ai.md)
    + {hide-from-toc}[KI-Überwachung](/help/interface/features/ai-monitoring.md)
@@ -66,7 +65,7 @@ ht-degree: 84%
       + [Cookies in Advertising](/help/interface/data-collection/cookies/advertising.md)
       + [Cookies in Analytics](/help/interface/data-collection/cookies/analytics.md)
       + [Cookies in Audience Manager](/help/interface/data-collection/cookies/audience-manager.md)
-      + [Cookies in Experience Cloud](/help/interface/data-collection/cookies/experience-cloud.md)
+      + [Cookies in CX Enterprise](/help/interface/data-collection/cookies/experience-cloud.md)
       + [Cookies in Target](/help/interface/data-collection/cookies/target.md)
       + [Cookies im Web SDK](/help/interface/data-collection/cookies/web-sdk.md)
    + [Regionale Datenerfassung](/help/interface/data-collection/rdc.md)

@@ -1,5 +1,5 @@
 ---
-description: Hier erfahren Sie, nach welchen Regeln sich freigegebene Ordner beim Verschieben, Löschen und Wiederherstellen in Experience Cloud verhalten.
+description: Erfahren Sie mehr über Regeln, wie sich freigegebene Ordner verhalten, wenn sie in CX Enterprise verschoben, gelöscht und wiederhergestellt werden.
 keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
 solution: Experience Cloud
 title: Verhalten freigegebener Ordner
@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
 source-wordcount: 627
-ht-degree: 96%
+ht-degree: 90%
 
 ---
 
@@ -34,7 +34,7 @@ Richtlinien zum Verhalten freigegebener Ordner beim Verschieben, Löschen und Wi
 
 >[!NOTE]
 >
->Freigegebene Experience Cloud-Ordner und -Assets werden auf dem Creative Cloud-Desktop in einer 1::1-Beziehung gespiegelt. Wenn ein User von Experience Cloud einen Ordner ändert (löscht, hinzufügt oder die Freigabe entfernt), wird die Aktion im Creative Cloud-Desktop und im Web widergespiegelt. Wenn die Freigabe eines Ordners aufgehoben wird, werden daher der Ordner und die Assets vom lokalen Computer gelöscht. Nachdem die Freigabe aufgehoben wurde, werden der Ordner und sein Inhalt in den Papierkorb auf den lokalen Computer verschoben, von wo Sie sie manuell auf Ihrem Computer wiederherstellen können.
+>Freigegebene CX Enterprise-Ordner und -Assets werden auf dem Creative Cloud-Desktop in einer 1::1-Beziehung gespiegelt. Wenn ein CX Enterprise-Benutzer einen Ordner ändert (löscht, fügt hinzu oder entfernt die Freigabe), wird die Aktion auf dem Creative Cloud-Desktop und im Web gespiegelt. Wenn die Freigabe eines Ordners aufgehoben wird, werden daher der Ordner und die Assets vom lokalen Computer gelöscht. Nachdem die Freigabe aufgehoben wurde, werden der Ordner und sein Inhalt in den Papierkorb auf den lokalen Computer verschoben, von wo Sie sie manuell auf Ihrem Computer wiederherstellen können.
 
 ## Nicht freigegebener Ordner in freigegebenen Ordner
 

@@ -1,5 +1,5 @@
 ---
-description: Hier erfahren Sie mehr über Adobe Analytics-Cookies in Adobe Experience Cloud.
+description: Informationen zu Adobe Analytics-Cookies in Adobe CX Enterprise.
 solution: Analytics
 title: Cookies in Adobe Analytics
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
@@ -20,10 +20,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 11%
+source-wordcount: 582
+ht-degree: 10%
 
 ---
 
@@ -35,7 +35,7 @@ Analytics verwendet Cookies, um neue Besucher anonym zu definieren, Klickdaten z
 
 | Cookie-Name | Ablauf | Größe | Standort | Beschreibung |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 Monate | 45 Byte | Erstanbieter | Speichert die Experience Cloud ID (ECID) oder MID. Durch HTTP-Antwort festgelegt. Die MID wird im `s_ecid=MCMID`-Format gespeichert. Wird festgelegt, nachdem der Client das AMCV-Cookie gesetzt hat. Sie ermöglicht ein persistentes First-Party-ID-Tracking und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abläuft. `SameSite` ist auf „Lax“ festgelegt. Wenn Sie Web SDK zur Implementierung von Adobe Analytics verwenden, wird der Cookie-Ablauf auf 2 Jahre festgelegt. Die meisten modernen Browser kürzen diesen Ablauf jedoch auf 13 Monate. |
+| **`s_ecid`** | 13 Monate | 45 Byte | Erstanbieter | Speichert die CX Enterprise ID (ECID) oder MID. Durch HTTP-Antwort festgelegt. Die MID wird im `s_ecid=MCMID`-Format gespeichert. Wird festgelegt, nachdem der Client das AMCV-Cookie gesetzt hat. Sie ermöglicht ein persistentes First-Party-ID-Tracking und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abläuft. `SameSite` ist auf „Lax“ festgelegt. Wenn Sie Web SDK zur Implementierung von Adobe Analytics verwenden, wird der Cookie-Ablauf auf 2 Jahre festgelegt. Die meisten modernen Browser kürzen diesen Ablauf jedoch auf 13 Monate. |
 | **`s_cc`** | Session | 4 Byte | Erstanbieter | Bestimmt, ob Cookies aktiviert sind. Festgelegt durch JavaScript. |
 | **`s_sq`** | Session | 100-200 Byte | Erstanbieter | Von Activity Map verwendet. Sie enthält Informationen zum vorherigen Link, auf den der Besucher geklickt hat. Festgelegt durch JavaScript. |
 | **`s_vi`** | 2 Jahre | 44 Byte | Erstanbieter oder `*.omtrdc.net` (Drittanbieter) | Speichert eine Unique Visitor ID und einen Zeitstempel. Durch HTTP-Antwort festgelegt. Jede Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugeordnet. Besucherprofile werden nach 1 Jahr Inaktivität gelöscht, unabhängig vom Ablauf von Besucher-ID-Cookies. Das `Secure`-Flag wird gesetzt, wenn `SameSite` „None“ und die Verbindung HTTPS ist. `SameSite` Erstanbieter-Cookies ist standardmäßig „Lax“. `SameSite` bei der Verwendung von Drittanbieter-Cookies, z. B. auf `omtrdc.net` oder `2o7.net`, ist „Keine“. Legen Sie `SameSite` auf „Keine“ fest, wenn Sie einen einzelnen CNAME verwenden, um mehrere Domains oder Eigenschaften zu verfolgen. |

@@ -1,5 +1,5 @@
 ---
-description: Hier erfahren Sie mehr über Experience Cloud-Assets, die Sie programmübergreifend gemeinsam verwenden können.
+description: Erfahren Sie mehr über CX Enterprise Assets, das Sie programmübergreifend freigeben können.
 solution: Experience Cloud
 title: Übersicht über Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
@@ -21,21 +21,21 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d253888322194189fea6d492ae19cf248357960
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 86%
+source-wordcount: 320
+ht-degree: 69%
 
 ---
 
-# Übersicht über Experience Cloud-Assets
+# Überblick über CX Enterprise Assets
 
-Experience Cloud Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie in all Ihren Programmen nutzen können. Ein Asset ist ein digitales Dokument, Bild, Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
+CX Enterprise Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie programmübergreifend freigeben können. Ein Asset ist ein digitales Dokument, Bild, Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
 
 Zu den Asset-Services gehören:
 
 * Asset-Speicherung, Verwaltungsschnittstelle, eingebettete Auswahlschnittstelle (Zugriff erfolgt über Programme).
-* Integrationen mit Creative Cloud, Experience Cloud-Zusammenarbeit und Experience Cloud-Programmen.
+* Integrationen mit Creative Cloud, CX Enterprise Collaboration und CX Enterprise-Programmen.
 
 Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und beschleunigt die Markteinführung. Sie können Workflows in Programmen optimieren:
 
@@ -44,9 +44,9 @@ Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und b
 * **[!DNL Adobe Campaign]**: Fügen Sie Assets in E-Mail-Newslettern und Kampagnen ein.
 
 
-## Navigieren zu Experience Cloud-Assets
+## Navigieren Sie zu CX Enterprise Assets
 
-![Zu Experience Cloud Assets navigieren](../../assets/asset-nav.png)
+![Navigieren Sie zu CX Enterprise Assets](../../assets/asset-nav.png)
 
 ## Auf die Symbolleiste zugreifen
 

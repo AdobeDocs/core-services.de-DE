@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Anwendungen in Experience Cloud.
+description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Programme in CX Enterprise.
 solution: Experience Cloud
 title: Experience Cloud – Einheitliche Suche
 index: true
@@ -22,14 +22,14 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5354e3c8a48184315ca4eaa8c8de1d12493cc227
+source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 88%
+source-wordcount: 639
+ht-degree: 84%
 
 ---
 
-# [!UICONTROL Unified Search] in Experience Cloud
+# [!UICONTROL Unified Search] in CX Enterprise
 
 Die [!UICONTROL Unified Search] Suche ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten Erlebnis mit einem Klick zu finden. Diese Suche zeigt auch die Objekte an, auf die Sie zuletzt zugegriffen haben.
 
@@ -37,7 +37,7 @@ Die [!UICONTROL Unified Search] Suche ermöglicht es Ihnen, durchsuchbare Gesch�
 
 ## Zugreifen auf [!UICONTROL Unified Search]
 
-[!UICONTROL Unified Search] ist im Experience Cloud-Header oben auf der Seite auf jeder Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
+[!UICONTROL Unified Search] ist im CX Enterprise-Header oben auf der Seite auf jeder Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
 
 Diese Funktion ist nur für unterstützte Produkte verfügbar – derzeit die folgenden:
 
@@ -52,11 +52,11 @@ Während der Eingabe werden die passenden Ergebnisse aus den Objekten, auf die S
 
 Die Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 
-Ihre Möglichkeiten und Objektberechtigungen
-Übereinstimmung in Prozent
-Ob es eine genaue Übereinstimmung gibt
+Ihre Fähigkeiten und Objektberechtigungen
+Prozentsatz der Übereinstimmung
+Gibt an, ob eine exakte Übereinstimmung vorliegt
 
-![[!UICONTROL Unified Search] in Experience Cloud](../assets/unified-search-results.png)
+![[!UICONTROL Unified Search] in CX Enterprise](../assets/unified-search-results.png)
 
 Zu den durchsuchbaren Geschäftsobjekten gehören:
 
@@ -77,7 +77,7 @@ Sie finden die Hilfeartikel auch in Experience League und Communities. Abfragen 
 
 Beispielsweise liefert _Erstellen eines Schemas_ Ergebnisse von Experience League unter _[!UICONTROL Learning]_:
 
-Hilfe zu ![[!UICONTROL Unified Search] in Experience Cloud](../assets/unified-search-learning.png)
+Hilfe zu ![[!UICONTROL Unified Search] in CX Enterprise](../assets/unified-search-learning.png)
 
 Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 
