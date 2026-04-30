@@ -1,5 +1,5 @@
 ---
-title: Komponenten und Services der Experience Cloud-Benutzeroberfläche
+title: CX Enterprise Central-Benutzeroberfläche und -Administration
 description: Erfahren Sie mehr über Benutzeroberflächenkomponenten, Benutzer- und Produktverwaltung in der Adobe Admin Console, Zielgruppenbibliothek, Kundenattribute, CX Enterprise Assets und mehr.
 cloud: Experience Cloud
 product: experience cloud
@@ -13,7 +13,7 @@ getting-started-url: https://helpx.adobe.com/de/experience-cloud-core-services/g
 tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.de-DE
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 904e2603fc9f40bca8317881fc3b0b4e34e04300
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 66%
