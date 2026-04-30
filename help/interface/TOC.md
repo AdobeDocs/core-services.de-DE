@@ -1,20 +1,20 @@
 ---
 role: User,Admin
-user-guide-title: Benutzeroberfläche und Verwaltung von Experience Cloud
-breadcrumb-title: Benutzeroberfläche und Verwaltung von Experience Cloud
-title: Benutzeroberfläche und Verwaltung von Experience Cloud
-description: Erfahren Sie mehr über die Benutzeroberfläche von CX Enterprise, Cookies und Kontovoreinstellungen. Verwalten Sie Produkte und konfigurieren Sie den Personendienst, einschließlich Kundenattribute und Zielgruppenbibliothek. CX Enterprise Assets freigeben.
+user-guide-title: Handbuch für die zentrale Benutzeroberfläche und Administration von CX Enterprise
+breadcrumb-title: CX Enterprise-Oberfläche und -Administration
+title: CX Enterprise-Benutzeroberfläche und Administrationshandbuch
+description: Erfahren Sie mehr über die Benutzeroberfläche und Administration von CX Enterprise. Durchsuchen Sie Themen zu KI, Administration, Shared Services, Datenerfassung, Cookies, Versionshinweisen und FAQs.
 index: true
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 70%
+source-wordcount: '209'
+ht-degree: 57%
 
 ---
 
-# Benutzeroberfläche und Administration von CX Enterprise {#interface}
+# CX Enterprise-Oberfläche und -Administration {#interface}
 
-+ [Benutzeroberfläche und Administration von CX Enterprise](/help/interface/experience-cloud.md)
++ [CX Enterprise-Oberfläche und -Administration](/help/interface/experience-cloud.md)
 + KI in CX Enterprise {#features}
    + [Generative KI](/help/interface/features/generative-ai.md)
    + [Agent-basierte KI](features/agentic-ai.md)
