@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 TQID: https://experienceleague.adobe.com/7vFfu0DyoTnsrlrWVApm0LLW4jsC0LoXb55jJ3jdxeY
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d136979999619b0858f1e797a6b71d27799e2e66
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b46d8d782c26f14cf77da1c29cb79936b9e1f0da
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 45%
+source-wordcount: 579
+ht-degree: 43%
 
 ---
 
@@ -54,7 +51,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
    Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-   **Hinweis:** Der Administrator Ihres Unternehmens kann den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränken. Wenn ja, erhalten Sie möglicherweise einen Fehler, nachdem Sie sich bei CX Enterprise angemeldet oder zu einer Organisation gewechselt haben, in der diese Option aktiviert ist. Weitere Informationen finden Sie unter [Produktzugriff nach IP-Adressen beschränken](https://helpx.adobe.com/de/enterprise/using/ip-based-access.html).
+   **Hinweis:** Der Administrator Ihres Unternehmens kann den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränken. Wenn ja, erhalten Sie möglicherweise einen Fehler, nachdem Sie sich bei CX Enterprise angemeldet oder zu einer Organisation gewechselt haben, in der diese Option aktiviert ist. Weitere Informationen finden Sie unter [Produktzugriff nach IP-Adressen beschränken](https://helpx.adobe.com/enterprise/using/ip-based-access.html).
 
 
 ## Zugriff auf CX Enterprise-Anwendungen
@@ -75,7 +72,7 @@ Das [!UICONTROL Help] Menü bietet außerdem Zugriff auf:
 
 * **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie [!UICONTROL Support] über Twitter.
 * **[!UICONTROL Feedback]:** Geben Sie Feedback zu Ihrem CX Enterprise-Erlebnis. Ihr Feedback wird verwendet, um die Produkte und Services von Adobe zu verbessern.
-* **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/de-de/experience_cloud` und überprüfen Sie den Betriebsstatus und die [!UICONTROL Manage Subscriptions] des Produkts.
+* **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und überprüfen Sie den Betriebsstatus und die [!UICONTROL Manage Subscriptions] des Produkts.
 * **[!UICONTROL Developer Connection]:** Navigation zum `adobe.io` und zur Entwicklerdokumentation.
 
 ## Verwalten des Benutzerprofils
@@ -96,4 +93,8 @@ Klicken Sie auf das Glockensymbol, um Benachrichtigungen und Ankündigungen anzu
 ![Benachrichtigungen und Ankündigungen](assets/notifications-menu-small.png)
 
 Informationen zum Verwalten von Benachrichtigungen und Warnhinweisen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](features/account-preferences.md).
+
+## Begriffe
+
+Adobe verwendet ähnliche Namen für Marketing-Apps, Creative Cloud, Experience League und Support-Sites. Einen kurzen Vergleich zwischen diesen Begriffen in CX Enterprise und anderswo finden Sie unter [Terminologie](more-resources/terms.md).
 
