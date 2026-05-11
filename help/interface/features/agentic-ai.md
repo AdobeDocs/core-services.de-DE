@@ -1,6 +1,6 @@
 ---
 title: Agent-KI in Experience Cloud-Anwendungen
-description: Erfahren Sie, wo in CX Enterprise-Programmen eine agentische KI verfügbar ist.
+description: Erfahren Sie, wo in CX Enterprise-Anwendungen agentische KI verfügbar ist.
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -9,33 +9,51 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+autotag-review: '2026-05-11T19:53:10.691Z'
+TQID: 'https://experienceleague.adobe.com/ixprWE5CesSO0Mf0qeMLOPIovTdWaVn-wX84PrOlv8M'
+product_v2:
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2:
+  - id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5f42cc0a6b93e6c7842eb6104d301b86ac967fc2
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: 1131
 ht-degree: 8%
 
 ---
 
-# Agent AI in Adobe CX Enterprise
+# Agent-KI in Adobe CX Enterprise
 
 Aktualisiert: **6. April 2026**
 
-Adobe Experience Platform Agents wird von [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) unterstützt, um agentische KI-Funktionen in CX Enterprise-Programmen zu aktivieren.
+Adobe Experience Platform Agents basiert auf [Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home), um die Funktionen der Agent-KI in CX Enterprise-Anwendungen zu aktivieren.
 
 Diese Agenten helfen bei der Automatisierung von Aufgaben, liefern schneller Erkenntnisse und optimieren Workflows. Dadurch können Teams effizienter arbeiten und mehr Nutzen aus CX Enterprise ziehen.
 
-Der Zugriff auf KI-Agenten in CX Enterprise ist verfügbar unter:
+Der Zugriff auf KI-Agenten in CX Enterprise ist in folgenden Umgebungen verfügbar:
 
-* [Bestehende CX Enterprise-Programme](#existing-apps)
-* [AI-First-CX Enterprise-Anwendungen](#ai-first-apps)
+* [Bestehende CX Enterprise-Anwendungen](#existing-apps)
+* [KI-First CX Enterprise-Anwendungen](#ai-first-apps)
 
-In den folgenden Abschnitten werden diese beiden Methoden zum Aktivieren der agenten KI in CX Enterprise beschrieben.
+In den folgenden Abschnitten werden diese beiden Möglichkeiten beschrieben, um die agentische KI in CX Enterprise zu aktivieren.
 
-## Bestehende CX Enterprise-Programme {#existing-apps}
+## Bestehende CX Enterprise-Anwendungen {#existing-apps}
 
 In bestehenden Programmen können Sie natürliche Sprache verwenden, um Adobe Experience Platform-Agenten über die [KI-Assistent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/home) Konversationsoberfläche anzuweisen. Der KI-Assistent ist sowohl in der Vollbild- als auch in der Rechtsleistenansicht verfügbar.
 
-Agenten können in bestehenden CX Enterprise-Programmen für Kunden in einer der folgenden Kategorien aktiviert werden:
+Agenten können in vorhandenen CX Enterprise-Apps für Kunden in einer der folgenden Kategorien aktiviert werden:
 
 * Sie haben eine Lizenz für Adobe Experience Platform Agents AI Credits erworben
 * Sie werden in eine nutzungsgebundene Testversion eingeschlossen (eingeschränkte KI-Credits bereitgestellt)
@@ -43,11 +61,11 @@ Agenten können in bestehenden CX Enterprise-Programmen für Kunden in einer der
 
 Die Verwendung von KI-Agenten für _Agentenaufträge_ nutzt KI-Credits. Erfahren Sie mehr über Agentenaufträge und KI-Credits in _[Agentenaufträge und KI-](/help/interface/features/ai-credit-consumption.md)_).
 
-KI-Agenten befolgen _Ihre_ Eingabe, Aufsicht und berücksichtigen die Zugriffskontrollen auf Produktebene. Sie können nur Aufträge ausführen oder auf Daten zugreifen, zu deren Nutzung Sie in der zugrunde liegenden CX Enterprise-Anwendung berechtigt sind.
+KI-Agenten befolgen _Ihre_ Eingabe, Aufsicht und berücksichtigen die Zugriffskontrollen auf Produktebene. Sie können nur Aufträge ausführen oder auf Daten zugreifen, die Sie in der zugrunde liegenden CX Enterprise-Anwendung verwenden dürfen.
 
-### KI-Agenten in bestehenden CX Enterprise-Apps {#existing-apps-table}
+### KI-Agenten in vorhandenen CX Enterprise-Apps {#existing-apps-table}
 
-In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die in bestehenden CX Enterprise-Programmen verfügbar sind.
+In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die in bestehenden CX Enterprise-Anwendungen verfügbar sind.
 
 | Agent-Name | Funktionen | Unterstützte Anwendungen |
 |---|----------|----------|
@@ -60,7 +78,7 @@ In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die in be
 | [Produktsupport-Agent](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/product-support) | Beheben Sie Support-Probleme, ohne Ihre Workflows zu verlassen, erstellen Sie Support-Tickets und verfolgen Sie den Fallfortschritt mit dem KI-Assistenten. | <ul><li>Real-Time CDP (B2B-, B2C- und B2P-Editionen)</li><li>Adobe Journey Optimizer (B2B- und B2C-Editionen)</li><li>Customer Journey Analytics (B2B- und B2C-Editionen)</li><li>Adobe Experience Manager</li></ul> |
 | [Adobe Marketing Agent für Microsoft 365 Copilot](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms) | verbindet Experience Platform direkt mit Microsoft 365 Copilot. Sie können in Microsoft 365-Anwendungen wie Teams, Word, PowerPoint und Excel Fragen in natürlicher Sprache stellen, um sofort Marketing-Erkenntnisse aus Experience Platform abzurufen, ohne Ihren Workflow zu unterbrechen. | <ul><li> Adobe Agent Orchestrator mit Unterstützung für Audience Agent, Journey Agent, Customer Journey Analytics Data Insights, Experience Platform Operational Insights</li></ul> |
 
-## AI-First-CX Enterprise-Anwendungen {#ai-first-apps}
+## KI-First CX Enterprise-Anwendungen {#ai-first-apps}
 
 KI-First-Anwendungen werden mit generativem oder agentem Al als Kern erstellt. Sie nutzen generative oder agentische AL für wichtige Aufgaben, und die agentischen Funktionen sind bereits in der AL-FIRST-Anwendungslizenz enthalten. Daher benötigen sie keine Experience Platform Agent Orchestrator-Lizenz.
 
@@ -76,7 +94,7 @@ In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die als A
 ## Weitere Hilfe zu diesem Thema
 
 * [Agent-Vorgänge und KI-Kreditverbrauch](/help/interface/features/ai-credit-consumption.md)
-* [KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/ai) Dokumentations-Startseite
+* [KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/ai)-Dokumentation - Startseite
 * [Übersicht über Agenten in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
 [!BADGE Weitere Informationen zu Adobe for Business]{type=Informative url="https://business.adobe.com/de/products/experience-platform/agent-orchestrator.html" tooltip="Navigieren Sie zu Business.adobe.com ."}
