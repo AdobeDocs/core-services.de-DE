@@ -52,7 +52,7 @@ CX Enterprise unterstützt bevorzugte Sprachen für jeden Benutzer, wie in den V
 * Spanisch
 * Taiwanesisch
 
-Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter &quot;[ Enterprise-Benutzervoreinstellungen“ ](https://experience.adobe.com/preferences) werden.
+Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter &quot;[&#x200B; Enterprise-Benutzervoreinstellungen“ &#x200B;](https://experience.adobe.com/preferences) werden.
 
 ## Bei CX Enterprise anmelden
 
