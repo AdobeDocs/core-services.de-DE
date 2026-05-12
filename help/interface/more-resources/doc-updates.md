@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wo Dokumentationsaktualisierungen zu den allgemeinen Komponenten der Benutzeroberfläche von CX Enterprise stattfinden.
+description: Erfahren Sie, wo Dokumentationsaktualisierungen zu den allgemeinen Komponenten der Benutzeroberfläche von CX Enterprise vorgenommen werden.
 solution: Experience Cloud
 title: Dokumentation – Aktualisierungen
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -8,22 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 656
 ht-degree: 46%
@@ -32,7 +22,7 @@ ht-degree: 46%
 
 # Dokumentation – Aktualisierungen
 
-Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Verwaltung von CX Enterprise stattfinden.
+Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Administration von CX Enterprise vorgenommen werden.
 
 **März 2026**
 
@@ -40,19 +30,19 @@ Hinzugefügt [KI-Aufträge und -Guthaben Konsum](../features/ai-credit-consumpti
 
 **November 2025**
 
-Updates zu [Agent KI in CX Enterprise](../features/agentic-ai.md)
+Aktualisierungen für [Agent KI in CX Enterprise](../features/agentic-ai.md)
 
 **Oktober 2025**
 
-Der [&#x200B; „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
+Der [ „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
 
 **August 2025**
 
-Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; &#x200B;](../features/account-preferences.md).
+Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; ](../features/account-preferences.md).
 
 **Februar 2025**
 
-Hinzugefügt [Verwalten von Benutzern und Produkten in CX Enterprise](../administration/admin-console.md). Auf dieser Seite finden Admins Hilfe zur Benutzer- und Produktverwaltung (Admin Console) für alle Programme.
+Hinzugefügt [Benutzer und Produkte in CX Enterprise verwalten](../administration/admin-console.md). Auf dieser Seite finden Admins Hilfe zur Benutzer- und Produktverwaltung (Admin Console) für alle Programme.
 
 **November 2024**
 
@@ -60,13 +50,13 @@ Aktualisierungen [Produktnutzungsdaten](../features/account-preferences.md) und 
 
 **September 2024**
 
-Es wurde Hilfe zum Abonnieren [&#x200B; Slack-Benachrichtigungen &#x200B;](../features/account-preferences.md#subscribe-to-slack-notifications).
+Es wurde Hilfe zum Abonnieren [ Slack-Benachrichtigungen ](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 
 **26. April 2024**
 
-Vollständige Überarbeitung der Dokumentationsarchitektur. Es wurden auch [IP-](../data-collection/ip-addresses.md) von Adobe CX Enterprise und [Regionale Datenerfassung](../data-collection/rdc.md) hinzugefügt.
+Vollständige Überarbeitung der Dokumentationsarchitektur. Es wurden auch [Adobe CX Enterprise-IP](../data-collection/ip-addresses.md)Adressen und [Regionale Datenerfassung](../data-collection/rdc.md) hinzugefügt.
 
 **9. April 2024**
 
@@ -113,7 +103,7 @@ Die Struktur des Handbuchs und das Inhaltsverzeichnis wurden neu strukturiert.
 
 **1. Juni 2021**
 
-Die [Landingpage“ wurde &#x200B;](../experience-cloud.md) neue Hilfe zum Zugriff auf CX Enterprise, globale Suche, Voreinstellungen und Benachrichtigungen aktualisiert.
+Aktualisierung [Landingpage](../experience-cloud.md) mit neuer Hilfe zum Zugriff auf CX Enterprise, globale Suche, Voreinstellungen und Benachrichtigungen.
 
 **19. August 2020**
 
@@ -136,7 +126,7 @@ Aktualisierung der [Weiterleitung von Hostnamen](../data-collection/adobe-manage
 
 **20. Februar 2020**
 
-Es wurde [Anzeigen von CX Enterprise-Benutzerdetails (Admin-Tool)](../administration/admin-tool-experience-cloud.md) hinzugefügt.
+[Anzeigen von CX Enterprise-Benutzerdetails (Admin-Tool)](../administration/admin-tool-experience-cloud.md) hinzugefügt.
 
 **Aktualisiert: 05.09.2018**
 
@@ -164,11 +154,11 @@ Die Definition von Analytics-Rohdaten wurde in [Erstellen einer Zielgruppe](../s
 
 **9. Mai 2016**
 
-[CX Enterprise-Integrationen](../administration/integrations.md), eine Zusammenfassung der Integrationsdokumentation, wurde hinzugefügt.
+[CX Enterprise-Integrationen](../administration/integrations.md) wurde hinzugefügt, eine Zusammenfassung der Integrationsdokumentation.
 
 **11 Februar 2016**
 
-[CX Enterprise Assets hinzugefügt](../services/assets/experience-cloud-assets.md).
+[CX Enterprise Assets](../services/assets/experience-cloud-assets.md) hinzugefügt.
 
 **15 Januar 2015**
 
@@ -176,7 +166,7 @@ Hinzugefügte CX Enterprise-Benutzer können jetzt Ordner in der Creative Cloud 
 
 **17. Juli 2014**
 
-[Häufig gestellte Fragen zu CX Enterprise](faq.md) für Admins hinzugefügt.
+[Häufig gestellte Fragen zu CX Enterprise](faq.md) für Administratoren hinzugefügt.
 
 **22 Mai 2014**
 

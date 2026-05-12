@@ -1,6 +1,6 @@
 ---
 title: Anzeigen von Benutzern und Benutzerdetails
-description: Erfahren Sie mehr über das Admin-Tool in CX Enterprise. Eine sortierbare und filterbare Liste aller CX Enterprise-Benutzenden und -Richtlinien anzeigen.
+description: Erfahren Sie mehr über das Admin-Tool in CX Enterprise. Eine sortierbare und filterbare Liste aller CX Enterprise-Benutzer und -Richtlinien anzeigen.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -9,22 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 TQID: https://experienceleague.adobe.com/zq5NfbuRlyx2Y0e-u-B8CErQPhfn4Re8-6z3sN9QGE0
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1198
 ht-degree: 69%
 
 ---
 
-# CX Enterprise [!UICONTROL Admin Tool]
+# CX Enterprise-[!UICONTROL Admin Tool]
 
-Admins können eine sortierbare und filterbare Liste aller CX Enterprise-Benutzenden und -Richtlinien mit Details in der [!UICONTROL Admin Tool] anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören die Benutzenden-, Gruppen-, Entwickler-, Integrations- und Administratorliste einer Richtlinie (Produktprofil) sowie detaillierte Berechtigungen und Ressourceninformationen für die Richtlinie.
+Administratoren können eine sortierbare und filterbare Liste aller CX Enterprise-Benutzer und -Richtlinien mit Details in der [!UICONTROL Admin Tool] anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Zu den Richtliniendetails gehören die Benutzenden-, Gruppen-, Entwickler-, Integrations- und Administratorliste einer Richtlinie (Produktprofil) sowie detaillierte Berechtigungen und Ressourceninformationen für die Richtlinie.
 
 1. Melden Sie sich bei `https://experience.adobe.com/.` an.
 
@@ -38,7 +35,7 @@ Admins können eine sortierbare und filterbare Liste aller CX Enterprise-Benutze
 
 ## Seite „Benutzer“
 
-Auf dieser Seite wird eine vollständige Liste der Benutzenden angezeigt, die in Ihrem Unternehmen Zugriff auf CX Enterprise haben. Es enthält Informationen zu Programmberechtigungen und zur letzten Anmeldung. Sie können nach benutzerdefinierten Ansichten der Benutzerliste suchen, sortieren und filtern.
+Auf dieser Seite wird eine vollständige Liste der Benutzer angezeigt, die Zugriff auf CX Enterprise in Ihrem Unternehmen haben. Es enthält Informationen zu Programmberechtigungen und zur letzten Anmeldung. Sie können nach benutzerdefinierten Ansichten der Benutzerliste suchen, sortieren und filtern.
 
 ![Admin Console-Benutzerseite](../assets/admin-tool-users.png)
 
@@ -47,8 +44,8 @@ Auf dieser Seite wird eine vollständige Liste der Benutzenden angezeigt, die in
 | [!UICONTROL Name] | Der Vor- und Nachname des Benutzers. Sie können diese Spalte von A bis Z und von Z bis A sortieren. Klicken Sie auf den Namen eines Benutzers, um weitere Details zum Benutzer anzuzeigen. |
 | [!UICONTROL Email] | Die mit dem Benutzer verknüpfte E-Mail-Adresse. Die Spalte kann von A bis Z und von Z bis A sortiert werden. |
 | [!UICONTROL ID Type] | Der Identitätstyp für das Konto des Benutzers. Es können Filter angewendet werden, um spezielle ID-Typen anzuzeigen. Weitere Informationen finden Sie unter [Verwalten von Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html). |
-| [!UICONTROL Solutions] | Zusammenfassung der CX Enterprise-Programme, auf die die Benutzenden zugreifen können. Sie können Filter anwenden, um die Liste auf Benutzer mit Zugriff auf bestimmte Programme einzuschränken. |
-| [!UICONTROL Last Login] | Uhrzeit und Datum der letzten Benutzeranmeldung bei CX Enterprise. Diese Spalte kann nach auf- oder absteigenden Datumsangaben sortiert werden. <br> **Wichtig:** Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Anmeldeaktivität in CX Enterprise anzeigen und keine Empfehlung sein, vor dem 13. Januar 2020 Maßnahmen für inaktive Konten zu ergreifen. |
+| [!UICONTROL Solutions] | Zusammenfassung der CX Enterprise-Anwendungen, auf die der Benutzer zugreifen kann. Sie können Filter anwenden, um die Liste auf Benutzer mit Zugriff auf bestimmte Programme einzuschränken. |
+| [!UICONTROL Last Login] | Uhrzeit und Datum der letzten Benutzeranmeldung bei CX Enterprise. Diese Spalte kann nach auf- oder absteigenden Datumsangaben sortiert werden. <br> **Wichtig:** Ab dem 13. Januar 2020 werden die letzten Anmeldedaten eines Benutzers 365 Tage lang aufbewahrt. Diese Informationen sollen die aktuelle Anmeldeaktivität in CX Enterprise anzeigen und nicht eine Empfehlung sein, vor dem 13. Januar 2020 Maßnahmen für inaktive Konten zu ergreifen. |
 
 ## Anpassen der Benutzerlistenansicht
 
@@ -86,7 +83,7 @@ In diesem Abschnitt wird eine Zusammenfassung des Benutzerkontos angezeigt, eins
 
 ## Lösungszusammenfassung
 
-In diesem Abschnitt wird eine Zusammenfassung der CX Enterprise-Programme angezeigt, auf die Benutzende zugreifen können. Umfasst die Rolle der Produktverwaltung, sofern anwendbar.
+In diesem Abschnitt wird eine Zusammenfassung der CX Enterprise-Anwendungen angezeigt, auf die der Benutzer zugreifen kann. Umfasst die Rolle der Produktverwaltung, sofern anwendbar.
 
 ## Detaillierte Liste des Produktzugriffs
 
@@ -102,7 +99,7 @@ In diesem Abschnitt wird eine vollständige Liste aller Produktprofilzugehörigk
 
 ## Seite „Richtlinien“
 
-Auf dieser Seite wird eine vollständige Liste der CX Enterprise-Richtlinien in Ihrem Unternehmen angezeigt. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern.
+Auf dieser Seite wird eine vollständige Liste der CX Enterprise-Richtlinien in Ihrer Organisation angezeigt. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern.
 
 ![Richtlinienseite in Admin Console](../assets/admin-tool-policies.png)
 

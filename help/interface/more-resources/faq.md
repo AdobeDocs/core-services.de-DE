@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über Browser-Unterstützung und erhalten Sie Antworten für Administratoren auf häufig gestellte Fragen in der Adobe CX Enterprise.
+description: Erfahren Sie mehr über Browser-Unterstützung und erhalten Sie Antworten für Administratoren auf häufig gestellte Fragen in Adobe CX Enterprise.
 solution: Experience Cloud
 title: Häufig gestellte Fragen zu Experience Cloud
 index: true
@@ -9,20 +9,12 @@ role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
 TQID: https://experienceleague.adobe.com/-uw6vdjg2n7wEREmEzir2-2WSL8slWi8vBRg4oXYJlo
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 730
 ht-degree: 47%
@@ -66,7 +58,7 @@ CX Enterprise unterstützt bevorzugte Sprachen für jeden Benutzer, wie in den V
 * Spanisch
 * Taiwanesisch
 
-Obwohl sich Anwendungsteams zur globalen Sprachunterstützung verpflichten, werden nicht alle Anwendungen in allen oben genannten Sprachen angeboten. Wenn Ihre Primärsprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter [Benutzereinstellungen für CX Enterprise erfolgen](https://experience.adobe.com/preferences).
+Obwohl sich Anwendungsteams zur globalen Sprachunterstützung verpflichten, werden nicht alle Anwendungen in allen oben genannten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter &quot;[ Enterprise-Benutzervoreinstellungen“ ](https://experience.adobe.com/preferences) werden.
 
 +++
 
@@ -76,9 +68,9 @@ Nein. Adobe CX Enterprise ist ohne Aufpreis enthalten. Bestimmte zentrale Dienst
 
 +++
 
-+++Warum muss sich mein Unternehmen über die CX Enterprise-Benutzeroberfläche anmelden?
++++Warum muss sich mein Unternehmen über die CX Enterprise-Oberfläche anmelden?
 
-Die Funktionalität der CX Enterprise-Benutzeroberfläche bietet Ihrem Unternehmen einen neuen Mehrwert. Dies wird künftig auch der Standardpfad für den Zugriff auf Programme sein und letztlich andere individuelle Programmanmeldevorgänge ersetzen. Die Anmeldung über CX Enterprise erleichtert später einen reibungsloseren Übergang.
+Die Funktionalität der CX Enterprise-Oberfläche bietet Ihrem Unternehmen einen neuen Mehrwert. Dies wird künftig auch der Standardpfad für den Zugriff auf Programme sein und letztlich andere individuelle Programmanmeldevorgänge ersetzen. Die Anmeldung über CX Enterprise ermöglicht später einen reibungsloseren Übergang.
 
 +++
 
@@ -94,7 +86,7 @@ Die Adobe-Kundenunterstützung kann eine Identitätsanfrage senden, für die Sie
 
 Bereitstellung in CX Enterprise bedeutet:
 
-* Ihre Benutzer können mit der Anmeldung bei der CX Enterprise und der Verknüpfung von Programmen beginnen.
+* Ihre Benutzer können mit der Anmeldung bei CX Enterprise und der Verknüpfung von Programmen beginnen.
 * Sie können mit der Nutzung der Funktionen beginnen, die über CX Enterprise verfügbar sind.
 * Sie können sich darauf vorbereiten, Ihren programmspezifischen Anmeldeprozess aufzugeben.
 * Sie können die Zugangssteuerung für Programme beibehalten.
@@ -113,7 +105,7 @@ Bereitstellung in CX Enterprise bedeutet:
 
 * Die Zuweisung von Benutzerrechten und die Produktverwaltung erfolgen über die [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (Produktlink).
 
-* **Wichtig:** Analytics-Admins finden unter [Verwalten von Analytics-Benutzenden in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=de) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
+* **Wichtig:** Analytics-Admins finden unter [Verwalten von Analytics-Benutzenden in der Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) Informationen zur Migration von Benutzer-IDs aus den Analytics Admin-Tools in die Admin Console.
 
 +++
 
@@ -121,7 +113,7 @@ Bereitstellung in CX Enterprise bedeutet:
 
 Admin Console-Administratoren können Benutzern Zugriff gewähren. Benutzern werden E-Mails mit Anweisungen zum Anmelden gesendet.
 
-Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
+Möglicherweise müssen Sie sich zunächst [an den Adobe-Support wenden](https://experienceleague.adobe.com/?support-solution=General&lang=de#support), um zu bestätigen, dass Ihrem Unternehmen die entsprechenden Lösungen bereitgestellt wurden.
 
 +++
 
@@ -141,7 +133,7 @@ Siehe [Verwalten von Benutzerkonten](../administration/organizations.md).
 
 +++Was ist eine Organisation?
 
-Eine [Organisation](../administration/organizations.md) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzende zu konfigurieren und Single Sign-on in CX Enterprise zu steuern. Das Unternehmen agiert als zentrale Anmeldestelle, die sämtliche CX Enterprise-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+Eine [Organisation](../administration/organizations.md) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern. Die Organisation agiert als Anmeldeunternehmen, das alle CX Enterprise-Produkte und -Anwendungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 +++
 

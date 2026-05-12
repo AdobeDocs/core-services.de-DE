@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Programme in CX Enterprise.
+description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Anwendungen in CX Enterprise.
 solution: Experience Cloud
 title: Experience Cloud – Einheitliche Suche
 index: true
@@ -9,20 +9,13 @@ role: Admin
 level: Beginner
 exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 84%
@@ -37,7 +30,7 @@ Die [!UICONTROL Unified Search] Suche ermöglicht es Ihnen, durchsuchbare Gesch�
 
 ## Zugreifen auf [!UICONTROL Unified Search]
 
-[!UICONTROL Unified Search] ist im CX Enterprise-Header oben auf der Seite auf jeder Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
+[!UICONTROL Unified Search] ist auf jeder Seite in der CX Enterprise-Kopfzeile oben auf der Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
 
 Diese Funktion ist nur für unterstützte Produkte verfügbar – derzeit die folgenden:
 
@@ -77,14 +70,14 @@ Sie finden die Hilfeartikel auch in Experience League und Communities. Abfragen 
 
 Beispielsweise liefert _Erstellen eines Schemas_ Ergebnisse von Experience League unter _[!UICONTROL Learning]_:
 
-Hilfe zu ![[!UICONTROL Unified Search] in CX Enterprise](../assets/unified-search-learning.png)
+![[!UICONTROL Unified Search] in der Hilfe zu CX Enterprise](../assets/unified-search-learning.png)
 
 Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 
 * Benutzerberechtigungen für den Zugriff auf Objekte
 * Prozentsatz der Übereinstimmung
 * Exakte Übereinstimmungen
-* Der Abschnitt _[!UICONTROL Top Results]_&#x200B;zeigt die 30 besten Ergebnisse.
+* Der Abschnitt _[!UICONTROL Top Results]_zeigt die 30 besten Ergebnisse.
 
 Um die Suche zu verfeinern, klicken Sie auf eine der folgenden Optionen:
 

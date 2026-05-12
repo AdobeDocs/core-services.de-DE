@@ -8,13 +8,10 @@ role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
 TQID: https://experienceleague.adobe.com/lbDHQNLf--xowxe4ZVZsGptwKyEzvT1wQV0QTFJyKpk
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 309
 ht-degree: 15%
@@ -27,7 +24,7 @@ Adobe Advertising (früher Adobe Advertising Cloud) verwendet Cookies, um Ereign
 
 >[!NOTE]
 >
->Das JavaScript-Tag der Beta-Adobe Advertising, das den [Adobe CX Enterprise ID (ECID) Service verwendet](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) erstellt Erstanbieter-[CX Enterprise](experience-cloud.md) `s_ecid`-Cookies, nicht Adobe Advertising-Cookies.
+>Das JavaScript-Tag der Beta-Adobe Advertising, das den [Adobe CX Enterprise ID (ECID) Service verwendet](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de) erstellt `s_ecid`-Cookies von Erstanbieter-[CX](experience-cloud.md), nicht von Adobe Advertising-Cookies.
 
 | Cookie-Name | Ablauf | Größe | Standort | Beschreibung |
 | --- | --- | --- | --- | --- |
