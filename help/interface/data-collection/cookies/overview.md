@@ -15,7 +15,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 624
 ht-degree: 8%
@@ -30,7 +30,7 @@ Gesetze verlangen oft, dass man eine Erlaubnis einholt, bevor man Cookies auf de
 
 ## Informationen zu Erstanbieter-Cookies
 
-Adobe CX Enterprise verwendet Cookies, um Informationen zu verfolgen, die zwischen Seitenansichten oder Browser-Sitzungen nicht dauerhaft sind. Wenn möglich, verwendet Adobe Erstanbieter-Cookies (die an Ihre eigene Website gebunden sind). Um Aktivitäten über mehrere Sites oder Domains hinweg zu verfolgen, deren Inhaber Sie sind, werden Drittanbieter-Cookies benötigt.
+Adobe CX Enterprise verwendet Cookies, um Informationen zu verfolgen, die zwischen Seitenansichten oder Browser-Sitzungen nicht von Dauer sind. Wenn möglich, verwendet Adobe Erstanbieter-Cookies (die an Ihre eigene Website gebunden sind). Um Aktivitäten über mehrere Sites oder Domains hinweg zu verfolgen, deren Inhaber Sie sind, werden Drittanbieter-Cookies benötigt.
 
 Einige Browser und Anti-Spyware-Tools blockieren Cookies von Drittanbietern. Adobe bietet Möglichkeiten, sicherzustellen, dass Cookies auch dann funktionieren, wenn Cookies blockiert sind. Wie dies funktioniert, hängt davon ab, ob Sie Experience Platform Identity Service (ECID) oder ältere Analytics-Cookies (wie das `s_vi`-Cookie) verwenden:
 
@@ -51,7 +51,7 @@ Hier ist eine vereinfachte Version des Textes:
 
 ## Cookies und Datenschutz
 
-Adobe nimmt Datenschutz und Datensicherheit ernst. Es arbeitet mit Datenschutzorganisationen, Regulierungsbehörden und Programmen wie AdChoices zusammen, um den Menschen die Kontrolle über die Verwendung ihrer Daten zu geben.
+Adobe nimmt Datenschutz und Datensicherheit ernst. Es arbeitet mit Datenschutzorganisationen, Regulierungsbehörden und Programmen wie AdChoices zusammen, um den Menschen die Kontrolle darüber zu geben, wie ihre Daten verwendet werden.
 
 Die meisten Cookies von Adobe CX Enterprise speichern keine personenbezogenen Daten. Sie sind sicher und werden nur von Ihrem Unternehmen für Reporting, Inhalte und Werbung verwendet. Adobe gibt diese Daten nicht an andere Kunden oder Dritte weiter, außer in anonymen, branchenweiten Berichten (z. B. Digital Marketing Insight Reports).
 

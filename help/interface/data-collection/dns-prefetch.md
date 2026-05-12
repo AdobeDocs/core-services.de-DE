@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seitenladezeiten verschiedener Programme und Services in CX Enterprise zu reduzieren.
+description: Erfahren Sie, wie Sie den DNS-Vorabruf implementieren, um die Seitenladezeiten bei verschiedenen Anwendungen und Services in CX Enterprise zu reduzieren.
 solution: Experience Cloud
 title: DNS-Vorabruf verwenden
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 350
 ht-degree: 77%
@@ -34,14 +34,14 @@ Implementieren Sie den DNS-Vorabruf, um die Seitenladezeiten verschiedener Progr
 
 Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit ihren entsprechenden IP-Adressen verknüpft sind, automatisch aufzulösen. Der Vorabrufprozess beginnt, wenn der Browser eine Webseite lädt. Nehmen wir als Beispiel an, dass Ihre Seite einen anklickbaren Link zu `www.adobe.com` enthält. Lädt ein Browser diese Seite, nutzt er das _DNS-System_, um den verlinkten Domänennamen zu suchen und ihn in die zugehörige numerische IP-Adresse umzuwandeln. Der DNS-Vorabruf trägt zur Verbesserung der Seiten-Performance bei, da der Domänenname bereits in eine IP-Adresse aufgelöst wird, bevor ein Site-Besucher auf diesen Link oder diese Schaltfläche klickt. Der DNS-Vorabrufprozess ist für die Benutzer transparent.
 
-## DNS-Vorabruf und Adobe CX Enterprise-Programme
+## DNS-Vorabruf und Adobe CX Enterprise-Anwendungen
 
 Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL CX Enterprise]-Programmen und -Services funktioniert, da:
 
-* Jedes CX Enterprise-Programm oder jeder Service generiert beim Laden der Seite dynamisch DNS-Aufrufe.
+* Jedes Programm oder jeder Service von CX Enterprise generiert beim Laden der Seite dynamisch DNS-Aufrufe.
 * Der Browser kann Domain-Namen nicht in IP-Adressen auflösen, bevor diese Aufrufe durchgeführt werden.
 
-Sie können den DNS-Vorabruf jedoch manuell in Ihre CX Enterprise-Programme implementieren. Fügen Sie hierzu das HTML`<dns-prefetch>`-Tag wie unten dargestellt in den Abschnitt `<head>` Ihres Seiten-Codes ein. Wurde der DNS-Vorabruf ordnungsgemäß implementiert, verkürzt er das Laden von Seiten unter Umständen um einige Millisekunden.
+Sie können den DNS-Vorabruf jedoch manuell in Ihre CX Enterprise-Anwendungen implementieren. Fügen Sie hierzu das HTML`<dns-prefetch>`-Tag wie unten dargestellt in den Abschnitt `<head>` Ihres Seiten-Codes ein. Wurde der DNS-Vorabruf ordnungsgemäß implementiert, verkürzt er das Laden von Seiten unter Umständen um einige Millisekunden.
 
 ## Code-Beispiele für den DNS-Vorabruf
 

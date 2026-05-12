@@ -1,6 +1,6 @@
 ---
 title: Informationen zu  [!DNL Customer Attributes]
-description: Weitere Informationen  [!DNL Customer Attributes]  Adobe CX Enterprise. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
+description: Erfahren Sie mehr  [!DNL Customer Attributes]  Adobe CX Enterprise. Erfahren Sie, wie Sie Kundenattributdaten für die Verwendung in Adobe Analytics und Adobe Target hochladen.
 solution: Analytics
 feature: Customer Attributes
 role: Admin
@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 313
 ht-degree: 47%
@@ -34,7 +34,7 @@ ht-degree: 47%
 
 **[!UICONTROL Apps]** ![Menü](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-Mit der [!DNL Customer Attributes] in Adobe CX Enterprise können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können [die Daten hochladen](t-crs-usecase.md) in eine [!DNL Customer Attributes] Datenquelle in CX Enterprise und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
+[!DNL Customer Attributes] in Adobe CX Enterprise können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können [Daten hochladen](t-crs-usecase.md) in eine [!DNL Customer Attributes] Datenquelle in CX Enterprise und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
 
 ![Übersicht über Kundenattribute](assets/custom_reports.png)
 

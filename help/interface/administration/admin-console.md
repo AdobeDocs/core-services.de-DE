@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Benutzer- und Produktlizenzen
-description: Verwalten Sie Benutzende und Produktlizenzen in Admin Console für CX Enterprise-Programme.
+description: Verwalten Sie Benutzende und Produktlizenzen in Admin Console für CX Enterprise-Anwendungen.
 application: Experience Cloud
 index: true
 feature: Admin Console
@@ -20,7 +20,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1054
 ht-degree: 8%
@@ -31,7 +31,7 @@ ht-degree: 8%
 
 Sie können Benutzende und Produktlizenzen in der Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/) verwalten. Eine allgemeine Hilfe zur Identitätsverwaltung, die für alle Adobe-Programme gilt, finden Sie im [Enterprise and Teams Admin Guide](https://helpx.adobe.com/de/enterprise/admin-guide.html).
 
-Diese Seite enthält Informationen, die speziell für CX Enterprise-Administratoren nützlich sind, definiert Rollen und enthält Links zu allgemeinen Themen zur Benutzer- und Produktverwaltung im Enterprise-Handbuch.
+Diese Seite enthält Informationen, die speziell für CX Enterprise-Administratoren nützlich sind, definiert Rollen und enthält Links zu allgemeinen Themen des Benutzer- und Produktmanagements im Enterprise-Handbuch.
 
 ## Administratorrollen in Admin Console
 
@@ -45,7 +45,7 @@ Admin Console verfügt über drei primäre Administrationsrollen mit jeweils spe
 
 ## Admin Console für CX Enterprise
 
-Um Identitäts- und Produktlizenzen für CX Enterprise-Programme zu verwalten, navigieren Sie zu [Admin Console](https://adminconsole.adobe.com/enterprise/).
+Um Identitäts- und Produktlizenzen für CX Enterprise-Anwendungen zu verwalten, navigieren Sie zur [Admin Console](https://adminconsole.adobe.com/enterprise/).
 
 Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Administrator in Admin Console beginnen möchten:
 
@@ -66,7 +66,7 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 | [Verwalten mehrerer Benutzer](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Erfahren Sie, wie Sie mehrere Benutzende über den CSV-Massen-Upload in Admin Console verwalten. |
 | [Identitätstypen](https://helpx.adobe.com/de/enterprise/using/identity.html) | Identitätstypen ermöglichen dem Unternehmen verschiedene Ebenen der Kontrolle über die Konten und Daten der Benutzer. Die Auswahl des Identitätsmodells wirkt sich darauf aus, wie Ihr Unternehmen Assets speichert und freigibt. Während Federated ID- und Enterprise ID-Modelle vom Unternehmen erstellt und verwaltet werden, werden Adobe-IDs vom Kontakt erstellt und verwaltet. |
 | [User Sync Tool](https://helpx.adobe.com/de/enterprise/using/user-sync.html) (UST) | Das Adobe User Sync Tool ist ein Desktop-Programm, mit dem die Synchronisierung von Benutzerdaten zwischen dem Identitätsverwaltungssystem eines Unternehmens (z. B. Active Directory) und Adobe Admin Console automatisiert wird. Mit dem Tool können Admins die Benutzerbereitstellung, Aktualisierungen und Deaktivierung über Adobe-Produkte hinweg optimieren. |
-| [Anzeigen von Benutzerdetails (Admin-Tool)](admin-tool-experience-cloud.md) | Zeigen Sie eine sortierbare und filterbare Liste aller CX Enterprise-Benutzenden und -Richtlinien mit Details im [!UICONTROL Admin Tool] an. |
+| [Anzeigen von Benutzerdetails (Admin-Tool)](admin-tool-experience-cloud.md) | Zeigen Sie eine sortierbare und filterbare Liste aller CX Enterprise-Benutzer und -Richtlinien mit Details im [!UICONTROL Admin Tool] an. |
 
 ### Berichte und Protokolle
 
@@ -77,7 +77,7 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 
 ## Anwendungsspezifische Ressourcen
 
-Über diese Links finden Sie Administrationsinformationen zu bestimmten CX Enterprise-Programmen.
+Über diese Links finden Sie Administrationsinformationen zu bestimmten CX Enterprise-Anwendungen.
 
 <!--
 | Application | Link to resource|
@@ -115,7 +115,7 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 * [Experience Platform](https://experienceleague.adobe.com/de/docs/experience-platform/access-control/ui/overview) und [Datenerfassung](https://experienceleague.adobe.com/de/docs/experience-platform/collection/permissions)
 * [GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/product-provisioning)
 * [Journey Optimizer](https://experienceleague.adobe.com/de/docs/journey-optimizer/using/access-control/permissions)
-* [Journey Optimizer B2B Edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/user-management)
+* [Journey Optimizer B2B edition](https://experienceleague.adobe.com/de/docs/journey-optimizer-b2b/user/admin/user-management)
 * [Journey Orchestration](https://experienceleague.adobe.com/de/docs/journeys/using/starting-with-journeys/access-management)
 * [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/administration/marketo-with-adobe-identity/subscription-and-user-migration/understanding-marketo-subscription-and-user-migration-to-the-adobe-admin-console)
 * [Marketo Measure](https://experienceleague.adobe.com/de/docs/marketo-measure/using/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup)

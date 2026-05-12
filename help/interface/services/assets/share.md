@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie einen CX Enterprise Asset-Ordner für Creative Cloud-Benutzende freigeben.
+description: Erfahren Sie, wie Sie einen CX Enterprise-Asset-Ordner für Creative Cloud-Benutzer freigeben.
 solution: Experience Cloud
 title: Freigeben von Experience Cloud-Asset-Ordnern
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
@@ -21,16 +21,16 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 451
 ht-degree: 39%
 
 ---
 
-# Freigeben von CX Enterprise-Asset-Ordnern
+# Freigeben eines CX Enterprise-Asset-Ordners
 
-Freigeben von Ordnern und Assets zwischen CX Enterprise und Creative Cloud. Sie können an gemeinsamen Assets zusammenarbeiten, sie kommentieren und in CX Enterprise-Programmen wie Adobe Target verwenden. Der freigegebene Ordner muss aus CX Enterprise stammen.
+Freigeben von Ordnern und Assets zwischen CX Enterprise und Creative Cloud. Zusammenarbeiten, freigegebene Assets kommentieren und in CX Enterprise-Programmen wie Adobe Target verwenden. Der freigegebene Ordner muss von CX Enterprise stammen.
 
 **Vorteile der Freigabe**
 
@@ -42,7 +42,7 @@ Freigeben von Ordnern und Assets zwischen CX Enterprise und Creative Cloud. Sie 
 
 Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in CX Enterprise auf die Zulassungsliste gesetzt werden. Siehe [Verwalten von Creative Cloud-Benutzern](manage-cc-users.md).
 
-**So geben Sie einen CX Enterprise Asset-Ordner frei**
+**So geben Sie einen CX Enterprise-Asset-Ordner frei**
 
 1. Klicken Sie in einem Asset-Ordner auf **[!UICONTROL Share to Creative Cloud]**.
 
@@ -67,7 +67,7 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in CX Enterp
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_cc.png)
 
-   Klicken Sie in CX Enterprise auf ein Bild und dann auf das Zeitleistensymbol, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets werden in Creative Cloud und CX Enterprise synchronisiert.
+   Wählen Sie in CX Enterprise ein Bild aus und klicken Sie dann auf das Zeitleistensymbol, um dem Bild einen Kommentar hinzuzufügen. Kommentare zu Assets in Creative Cloud und CX Enterprise werden synchronisiert.
 
    ![Hinzufügen eines Kommentars zum Bild](../../assets/asset_comment_mac.png)
 

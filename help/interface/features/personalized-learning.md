@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 105
 ht-degree: 20%
@@ -25,7 +25,7 @@ ht-degree: 20%
 
 # Voreinstellungen für personalisierte Lerninhalte
 
-Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [CX Enterprise-Voreinstellungen&rbrace; &#x200B;](https://experience.adobe.com/preferences) oder deaktivieren.
+Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [CX Enterprise-Voreinstellungen“ &#x200B;](https://experience.adobe.com/preferences).
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

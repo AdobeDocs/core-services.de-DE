@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 585
 ht-degree: 33%
@@ -30,9 +30,9 @@ ht-degree: 33%
 
 # Organisationen und Kontoverknüpfung
 
-Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzende zu konfigurieren und Single Sign-on in CX Enterprise zu steuern.
+Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern.
 
-Das Unternehmen agiert als zentrale Anmeldestelle, die sämtliche CX Enterprise-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+Die Organisation agiert als Anmeldeunternehmen, das alle CX Enterprise-Produkte und -Anwendungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 ![CX Enterprise-Organisationen](../assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet ha
 
 ## Federated IDs
 
-Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit CX Enterprise beim Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
+Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit dem Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
 Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
@@ -58,7 +58,7 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
 **Anzeigen der Organisations-ID**
 
-1. Drücken Sie in [CX Enterprise](https://experience.adobe.com) **Strg+I** auf der Tastatur.
+1. Drücken Sie [CX Enterprise](https://experience.adobe.com) auf **Tastatur** Strg+i).
 
    ![Zugewiesene Organisations-ID](../assets/assigned-organization.png)
 
@@ -78,7 +78,7 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
 In der Regel gewähren CX Enterprise-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen eines Programms mit einer Adobe ID verknüpfen.
 
-1. Führen Sie die Schritte in Ihrer E-Mail-Einladung zu CX Enterprise aus.
+1. Folgen Sie den Schritten in Ihrer E-Mail-Einladung an CX Enterprise.
 
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
 

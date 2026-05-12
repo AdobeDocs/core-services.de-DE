@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 129
 ht-degree: 15%
@@ -23,7 +23,7 @@ ht-degree: 15%
 
 # Von CX Enterprise verwendete Domains
 
-CX Enterprise verwendet die folgenden Hosts, um das Programm bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen über das Netzwerk oder die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu gewährleisten.
+CX Enterprise verwendet die folgenden Hosts, um die Anwendung bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen über das Netzwerk oder die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu gewährleisten.
 
 Zusätzlich zu den unten aufgeführten Domains verfügen einzelne Adobe CX Enterprise-Produkte über eigene Domains, die sie verwenden:
 

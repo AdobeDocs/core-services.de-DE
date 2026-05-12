@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 52%
@@ -58,7 +58,7 @@ Um Anfragen zum Zugreifen auf und Löschen von Daten zu [!DNL Customer Attribute
 &quot;company context&quot;:
 
 * &quot;namespace&quot;: **imsOrgID**
-* „value“: *Ihr Organisations-ID-Wert*>
+* „value“: &lt;*Wert Ihrer Organisations-ID*>
 
 &quot;users&quot;:
 

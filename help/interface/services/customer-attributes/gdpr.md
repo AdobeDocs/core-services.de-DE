@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 407
 ht-degree: 82%
@@ -31,7 +31,7 @@ Auf dieser Seite wird beschrieben, wie [!DNL Customer Attributes] die Datenschut
 
 Die [Datenschutz-Grundverordnung](https://business.adobe.com/de/privacy/general-data-protection-regulation.html) ist am 25. Mai 2018 in Kraft getreten und bietet allen Personen (betroffenen Personen) innerhalb der Grenzen der Europäischen Union (EU) die Kontrolle über ihre personenbezogenen Daten. Außerdem wird das regulatorische Umfeld für internationale Geschäftsbeziehungen vereinfacht. Dieses Gesetz gilt für alle Unternehmen (Datenverantwortliche), die innerhalb der Grenzen der EU zum Zeitpunkt der Verarbeitung ihrer personenbezogenen Daten Waren oder Dienstleistungen anbieten, das Verhalten von Personen überwachen oder personenbezogene Daten von Personen sammeln, unabhängig davon, wo sich der Geschäftssitz des Datenverantwortlichen befindet.
 
-Adobe CX Enterprise fungiert als Auftragsverarbeiter für personenbezogene Daten, die es im Namen seiner Kunden erhält und speichert. Als Datenverantwortlicher bestimmen Sie die personenbezogenen Daten, die Adobe CX Enterprise in Ihrem Auftrag verarbeitet und speichert.
+Adobe CX Enterprise fungiert als Auftragsverarbeiter für personenbezogene Daten, die er im Namen seiner Kunden erhält und speichert. Als Datenverantwortlicher bestimmen Sie die personenbezogenen Daten, die Adobe CX Enterprise in Ihrem Auftrag verarbeitet und speichert.
 
 In diesem Dokument wird beschrieben, wie [!DNL Customer Attributes] die DSGVO-Datenzugriffs- und -Löschungsrechte der betroffenen Personen mithilfe der Adobe Experience Platform Privacy Service-API und der Benutzeroberfläche von Privacy Service unterstützen.
 

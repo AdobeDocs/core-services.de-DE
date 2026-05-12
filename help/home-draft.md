@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über zentrale Schnittstellenkomponenten für CX Enterprise. Hier erhalten Sie Hilfe zur Benutzer- und Produktverwaltung in der Admin Console, zum Aktivieren von Programmen für CX Enterprise-Services. Hier erhalten Sie Hilfe zur Zielgruppenbibliothek, zu Kundenattributen, CX Enterprise Assets und mehr.
+description: Erfahren Sie mehr über zentrale Komponenten der Benutzeroberfläche für CX Enterprise. Hier erhalten Sie Hilfe zur Benutzer- und Produktverwaltung in der Admin Console, zur Aktivierung von Programmen für CX Enterprise-Services. Hier erhalten Sie Hilfe zur Zielgruppenbibliothek, zu Kundenattributen, zur CX Enterprise Assets und mehr.
 title: Dokumentation zur Experience Cloud-Benutzeroberfläche
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 60%
 
 ---
 
-# Übersicht über die zentrale Benutzeroberfläche von CX Enterprise
+# Überblick über die zentrale CX-Benutzeroberfläche
 
-[CX Enterprise](https://experience.adobe.com) ist Adobes integrierte Produktfamilie von Programmen, Produkten und Services für Digital Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Programme, Produktfunktionen und Services zugreifen.
+[CX Enterprise](https://experience.adobe.com) ist die integrierte Produktfamilie von Digital-Marketing-Anwendungen, -Produkten und -Services von Adobe. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Programme, Produktfunktionen und Services zugreifen.
 <!--
 ![CX Enterprise](assets/landing.png)
 

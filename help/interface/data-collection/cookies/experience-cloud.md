@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie der ID-Service in allen CX Enterprise-Programmen gespeichert und verwendet wird.
+description: Erfahren Sie, wie der ID-Service in allen CX Enterprise-Anwendungen gespeichert und verwendet wird.
 solution: Experience Cloud,Analytics,Target
 title: Cookies in Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,7 +22,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 370
 ht-degree: 77%
@@ -31,7 +31,7 @@ ht-degree: 77%
 
 # Cookies in CX Enterprise
 
-Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in allen CX Enterprise-Programmen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe CX Enterprise-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
+Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in allen CX Enterprise-Anwendungen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe CX Enterprise-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
 
 **Cookie-Name: s_ecid**
 
@@ -86,7 +86,7 @@ Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/i
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Von CX Enterprise-Lösungen verwendete Unique-Visitor-IDs. </p> </td> 
+   <td colname="col2"> <p> Unique Visitor IDs, die von CX Enterprise Solutions verwendet werden. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 

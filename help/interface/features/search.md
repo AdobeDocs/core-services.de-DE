@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Programme in CX Enterprise.
+description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Anwendungen in CX Enterprise.
 solution: Experience Cloud
 title: Experience Cloud – Einheitliche Suche
 index: true
@@ -22,7 +22,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 639
 ht-degree: 84%
@@ -37,7 +37,7 @@ Die [!UICONTROL Unified Search] Suche ermöglicht es Ihnen, durchsuchbare Gesch�
 
 ## Zugreifen auf [!UICONTROL Unified Search]
 
-[!UICONTROL Unified Search] ist im CX Enterprise-Header oben auf der Seite auf jeder Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
+[!UICONTROL Unified Search] ist auf jeder Seite in der CX Enterprise-Kopfzeile oben auf der Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
 
 Diese Funktion ist nur für unterstützte Produkte verfügbar – derzeit die folgenden:
 
@@ -77,7 +77,7 @@ Sie finden die Hilfeartikel auch in Experience League und Communities. Abfragen 
 
 Beispielsweise liefert _Erstellen eines Schemas_ Ergebnisse von Experience League unter _[!UICONTROL Learning]_:
 
-Hilfe zu ![[!UICONTROL Unified Search] in CX Enterprise](../assets/unified-search-learning.png)
+![[!UICONTROL Unified Search] in der Hilfe zu CX Enterprise](../assets/unified-search-learning.png)
 
 Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 

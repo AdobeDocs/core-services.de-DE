@@ -6,14 +6,14 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 42%
 
 ---
 
-# Zentrale Komponenten der CX Enterprise-Benutzeroberfläche
+# Zentrale Komponenten der CX-Enterprise-Benutzeroberfläche
 
 Die zentralen Komponenten der Benutzeroberfläche von CX Enterprise umfassen Funktionen, die Ihnen Folgendes ermöglichen:
 
@@ -52,7 +52,7 @@ CX Enterprise unterstützt bevorzugte Sprachen für jeden Benutzer, wie in den V
 * Spanisch
 * Taiwanesisch
 
-Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre Primärsprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter [Benutzereinstellungen für CX Enterprise erfolgen](https://experience.adobe.com/preferences).
+Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter &quot;[&#x200B; Enterprise-Benutzervoreinstellungen“ &#x200B;](https://experience.adobe.com/preferences) werden.
 
 ## Bei CX Enterprise anmelden
 
@@ -66,21 +66,21 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen Organi
 
    Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf **[!UICONTROL Profile]**, um den Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie mit der **[!UICONTROL Organization]** auch eine andere Organisation anzeigen und zu ihr wechseln.
 
-   Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit CX Enterprise beim Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
+   Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit dem Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
    Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-## Zugriff auf CX Enterprise-Programme
+## Zugriff auf CX Enterprise-Anwendungen
 
-Nach der Anmeldung bei CX Enterprise können Sie über den einheitlichen Header schnell auf alle Ihre Programme, Services und Organisationen zugreifen.
+Nach der Anmeldung bei CX Enterprise können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Services und Organisationen zugreifen.
 
 Klicken Sie auf die Programmauswahl ![Menü](assets/menu-icon.png), um auf die von Ihnen verwalteten CX Enterprise-Services zuzugreifen.
 
-![Zugriff auf CX Enterprise-Programme](assets/platform-core-services.png)
+![Zugriff auf CX Enterprise-Anwendungen](assets/platform-core-services.png)
 
 ## Suche und Support in CX Enterprise
 
-Mit der CX Enterprise-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) in [Experience League suchen](https://experienceleague.adobe.com/de?lang=de#home).
+Mit der CX Enterprise-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League suchen](https://experienceleague.adobe.com/de?lang=de#home).
 
 ![Suche und Support in CX Enterprise](assets/search-menu.png)
 
@@ -102,11 +102,11 @@ Im Menü „Kontoeinstellungen“ haben Sie folgende Möglichkeiten:
 
 ### Verwalten von CX Enterprise [!UICONTROL Preferences]
 
-Zu den CX Enterprise-Voreinstellungen gehören Benachrichtigungen, Abonnements und Warnhinweise.
+Zu den Voreinstellungen von CX Enterprise gehören Benachrichtigungen, Abonnements und Warnhinweise.
 
 * Klicken Sie im Kontomenü ![Einstellungen](assets/preferences-icon-sm.png) auf **[!UICONTROL Preferences]** , um die Einstellungen zu verwalten.
 
-![CX Enterprise verwalten](assets/preferences-page.png)
+![Verwalten von CX Enterprise](assets/preferences-page.png)
 
 In [!UICONTROL CX Enterprise preferences] können Sie die folgenden Funktionen konfigurieren:
 

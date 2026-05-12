@@ -23,20 +23,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 346
 ht-degree: 43%
 
 ---
 
-# Übersicht über die CX Enterprise-Benutzeroberfläche
+# CX Enterprise-Benutzeroberfläche - Übersicht
 
 Die Schnittstellenfunktionen von CX Enterprise werden manchmal als _Core Services“_. Sie sind die Funktionen des einheitlichen Headers, einschließlich [!DNL People] Services ([!DNL Audience Library] und [!DNL Customer Attributes]).
 
-Zu den weiteren freigegebenen Funktionen gehören die Administration (Benutzer- und Produktverwaltung) für CX Enterprise, Cookies, Kontovoreinstellungen, Benachrichtigungen und so weiter.
+Weitere freigegebene Funktionen sind die Administration (Benutzer- und Produktverwaltung) für CX Enterprise, Cookies, Kontovoreinstellungen, Benachrichtigungen usw.
 
-Um auf freigegebene Services und Programme in CX Enterprise zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Application Selector]**
+Um auf freigegebene Services und Anwendungen in CX Enterprise zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Application Selector]**
 ![Dienstauswahl](../assets/apps-icon.png).
 
 **Anwendungsauswahl**
@@ -51,7 +51,7 @@ Auf den Seiten Services in diesem Handbuch werden die folgenden Produkte und Ser
 | [Zielgruppenbibliothek](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/overview) | Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von Besucher-IDs). Mit der [!DNL Audience Library] von Adobe können Sie die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten. |
 | [Kundenattribute](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungsdienst. |
 | [Assets](https://experienceleague.adobe.com/de/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie programmübergreifend freigeben können. |
-| [Triggers](https://experienceleague.adobe.com/de/docs/core-services/interface/services/triggers) | Trigger in CX Enterprise ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. |
+| [Triggers](https://experienceleague.adobe.com/de/docs/core-services/interface/services/triggers) | Trigger in CX Enterprise ermöglicht es Ihnen, wichtige Kundenverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. |
 | [Adobe Exchange Marketplace](https://experienceleague.adobe.com/de/docs/core-services/interface/services/exchange) | Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Mobile Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte. |
 
 {style="table-layout:auto"}

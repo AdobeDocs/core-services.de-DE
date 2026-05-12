@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Audience Library]'
-description: Erfahren Sie, wie Sie die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung in CX Enterprise verwalten [!DNL Audience Library].
+description: Erfahren Sie, wie Sie in CX Enterprise die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung  [!DNL Audience Library].
 solution: Experience Cloud
 type: Documentation
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 745
 ht-degree: 48%
@@ -50,16 +50,16 @@ Alle Zielgruppen stehen unabhängig von ihrer Quelle für Echtzeit-Targeting zur
 
 ## So werden Zielgruppen in Programmen verwendet
 
-In der folgenden Tabelle wird beschrieben, wie Zielgruppen in CX Enterprise-Programmen verwendet werden:
+In der folgenden Tabelle wird beschrieben, wie Zielgruppen in CX Enterprise-Anwendungen verwendet werden:
 
 | Lösung | Beschreibung |
 | --- | --- |
 | CX Enterprise-Zielgruppen | Zielgruppen nativ mit der Zielgruppenbibliothek erstellen, verwalten und freigeben. Sie haben folgende Möglichkeiten:<ul><li>Verwenden Sie Echtzeit-Zielgruppen unter Verwendung von Raw-Analytics-Attributen.</li><li>Kombinieren Sie Zielgruppen, um zusammengesetzte zu erstellen, und verbinden Sie Echtzeit- und historische Daten.</li><li>Siehe grafische Ansichten der geschätzten Zielgruppengröße.</li></ul><br>Vorschläge zum Typ der Zielgruppe, die Sie erstellen möchten, finden Sie unter [Optionen zur Zielgruppenerstellung](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=de). |
-| Analytics | Bei der Segmentierung können Sie ein Segment erstellen, es mit einer Report Suite kombinieren und dann das Segment in CX Enterprise veröffentlichen. Beim Veröffentlichen wird das Segment auf der [!DNL Audience Library] in CX Enterprise angezeigt. (Weitere [&#x200B; finden Sie unter „Veröffentlichen von Segmenten &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de) CX Enterprise&quot; in [!DNL Analytics] Hilfe.) Die Zielgruppe ist auch als Zielgruppe für ein Kampagnenerlebnis verfügbar, das von [!DNL Adobe Target] und in [!DNL Audience Manager] bereitgestellt wird. Nachdem Sie eine Zielgruppe aus [!DNL Adobe Analytics] freigegeben und zur Verwendung in einer aktiven Kampagne ausgewählt haben, werden die Besucherprofile, die in den letzten 90 Tagen den Segmentdefinitionskriterien entsprechen, an [!UICONTROL Audience Services] gesendet. Die Beschränkung für gemeinsam verwendete Zielgruppen wurde auf 75 erhöht. Zielgruppen, die von [!DNL Analytics] für CX Enterprise freigegeben wurden, dürfen nicht mehr als 20 Millionen eindeutige Mitglieder umfassen. Aufgrund der Zwischenspeicherung benötigen gelöschte Report Suites in Analytics außerdem 12 Stunden, bevor die Löschung in CX Enterprise angezeigt wird. |
+| Analytics | Bei der Segmentierung können Sie ein Segment erstellen, es mit einer Report Suite kombinieren und dann das Segment in CX Enterprise veröffentlichen. Beim Veröffentlichen wird das Segment auf der Seite &quot;[!DNL Audience Library]&quot; in CX Enterprise angezeigt. (Weitere Informationen finden Sie [Veröffentlichen von Segmenten &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=de) CX Enterprise in [!DNL Analytics] Hilfe). Die Zielgruppe ist auch als Zielgruppe für ein Kampagnenerlebnis verfügbar, das von [!DNL Adobe Target] und in [!DNL Audience Manager] bereitgestellt wird. Nachdem Sie eine Zielgruppe aus [!DNL Adobe Analytics] freigegeben und zur Verwendung in einer aktiven Kampagne ausgewählt haben, werden die Besucherprofile, die in den letzten 90 Tagen den Segmentdefinitionskriterien entsprechen, an [!UICONTROL Audience Services] gesendet. Die Beschränkung für gemeinsam verwendete Zielgruppen wurde auf 75 erhöht. Zielgruppen, die für CX Enterprise von [!DNL Analytics] freigegeben wurden, dürfen nicht mehr als 20 Millionen eindeutige Mitglieder umfassen. Aufgrund des Caching benötigen gelöschte Report Suites in Analytics außerdem 12 Stunden, bevor die Löschung in CX Enterprise angezeigt wird. |
 | Mobile Services | Analysieren Sie den Mobile-Traffic mithilfe der Sunburst-Visualisierung im [!UICONTROL Device Types]. |
 | [!DNL Target] | Mit dem [ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) werden Besucher-IDs und Daten zu einem einsatzfähigen Profil zusammenfasst, welches dann programmübergreifend verwendet werden kann. Wenn das Kontrollkästchen [!UICONTROL Publish to CX Enterprise] während der Segmenterstellung in Adobe Analytics aktiviert wird, ist das Segment in der benutzerdefinierten Zielgruppenbibliothek von Adobe Target verfügbar. Ein in [!DNL Analytics] oder [!DNL Audience Manager] erstelltes Segment kann für Aktivitäten in [!DNL Target] verwendet werden. Sie können zum Beispiel Kampagnenaktivitäten basierend auf [!DNL Analytics]-Konversionsmetriken und in [!DNL Analytics] erstellten Zielgruppensegmenten erstellen. |
 | [!DNL Audience Manager] | Gemeinsam verwendete Zielgruppen sind in der Segmentierung von [!DNL Audience Manager] verfügbar. Alle CX Enterprise-Zielgruppen sind nativ in [!DNL Audience Manager] verfügbar, das Folgendes bietet:<ul><li>Integrierte Automatisierung hinsichtlich der Freigabe und Verwendung in Programm-Workflows</li><li>Offsite-Ziele</li><li>Look-Alike-Modellierung</li></ul> |
-| Campaign | <ul><li>Importieren freigegebener Zielgruppen aus verschiedenen Adobe CX Enterprise-Programmen in Adobe Campaign.</li><li>Exportieren Sie Empfängerlisten in Form von freigegebenen Zielgruppen. Diese freigegebenen Zielgruppen können dann in den verschiedenen Adobe CX Enterprise-Programmen verwendet werden, die Sie verwenden.</li></ul> |
+| Campaign | <ul><li>Importieren freigegebener Zielgruppen aus verschiedenen Adobe CX Enterprise-Anwendungen in Adobe Campaign.</li><li>Exportieren Sie Empfängerlisten in Form von freigegebenen Zielgruppen. Diese freigegebenen Zielgruppen können dann in den verschiedenen Adobe CX Enterprise-Anwendungen verwendet werden, die Sie verwenden.</li></ul> |
 | Advertising Cloud | Verwenden Sie die Zielgruppe als Ziele. |
 
 {style="table-layout:auto"}
@@ -82,7 +82,7 @@ In der folgenden Tabelle wird beschrieben, wie Zielgruppen in CX Enterprise-Prog
 | Neu | [Erstellen einer Zielgruppe](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/create). |
 | Titel und Beschreibung | Eine Spaltenüberschrift, die die Zielgruppe identifiziert und beschreibt. |
 | Autor | Die Person, die das Zielgruppensegment erstellt hat. |
-| Quelle | Gibt an, wo die Zielgruppe erstellt wurde.<ul><li>**Analytics:** Ein Segment, das in Adobe Analytics erstellt und dann in CX Enterprise veröffentlicht wurde.</li><li>**CX Enterprise:** Eine neue Zielgruppe [erstellt in CX Enterprise Audiences](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager:** Zielgruppen, die in Audience Manager erstellt wurden, werden automatisch in CX Enterprise-Zielgruppen angezeigt.</li></ul> |
+| Quelle | Gibt an, wo die Zielgruppe erstellt wurde.<ul><li>**Analytics:** Ein Segment, das in Adobe Analytics erstellt und dann in CX Enterprise veröffentlicht wird.</li><li>**CX Enterprise:** Eine neue Zielgruppe [erstellt in CX Enterprise-Zielgruppen](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager:** Zielgruppen, die in Audience Manager erstellt wurden, werden automatisch in CX Enterprise-Zielgruppen angezeigt.</li></ul> |
 | Aktuelle Größe | Die aktuelle Zielgruppengröße. |
 | Aktiv | Der aktive Status des Segments. |
 
@@ -90,4 +90,4 @@ In der folgenden Tabelle wird beschrieben, wie Zielgruppen in CX Enterprise-Prog
 
 ## Veröffentlichen von Zielgruppen aus Adobe Analytics
 
-Weitere Informationen [&#x200B; Sie in der Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics/components/segmentation/segmentation-workflow/seg-publish)Dokumentation unter „Veröffentlichen von Segmenten in CX Enterprise&quot;.
+Weitere Informationen finden [&#x200B; in der Adobe Analytics-](https://experienceleague.adobe.com/de/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) unter „Veröffentlichen von Segmenten in CX Enterprise“.

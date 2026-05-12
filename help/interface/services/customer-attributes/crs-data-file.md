@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über Datendateianforderungen und mehrere Datenquellen für das Hochladen von Daten in  [!DNL Customer Attributes]  CX Enterprise.
+description: Erfahren Sie mehr über Datendateianforderungen und mehrere Datenquellen für das Hochladen von Daten in  [!DNL Customer Attributes]  Enterprise.
 solution: Experience Cloud
 title: Datendatei und Datenquellen für Kundenattribute
 feature: Customer Attributes
@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1182
 ht-degree: 59%
@@ -28,9 +28,9 @@ ht-degree: 59%
 
 # Datendateien und Quellen für Kundenattribute
 
-Datendateianforderungen und mehrere Datenquellen für das Hochladen von Kundenattributdaten in CX Enterprise.
+Datendateivoraussetzungen und mehrere Datenquellen für das Hochladen von Kundenattributdaten in CX Enterprise.
 
-Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen. Die Daten, die Sie in CX Enterprise hochladen, müssen eine `.csv` sein. Wenn das Upload über FTP oder sFTP erfolgt, wird auch eine `.fin`-Datei hochgeladen.
+Sie benötigen Zugriff auf CRM-Daten oder ähnliche Daten aus Ihrem Unternehmen. Die Daten, die Sie in CX Enterprise hochladen, müssen eine `.csv`-Datei sein. Wenn das Upload über FTP oder sFTP erfolgt, wird auch eine `.fin`-Datei hochgeladen.
 
 [!DNL Customer Attributes] ist für die Verarbeitung einiger Dateien pro Tag konzipiert. Um das Problem einer großen Anzahl kleiner Dateien zu reduzieren, die die Verarbeitung verzögern, werden Dateien, die innerhalb von 30 Minuten nach einem vorherigen Batch von derselben Organisation gesendet werden, in eine Warteschlange mit niedrigerer Priorität weitergeleitet.
 
@@ -70,7 +70,7 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Spalte für Kunden-ID </p> </td> 
-   <td colname="col2"> <p> Die erste Spalte muss eine Unique-Customer-ID sein. Die verwendete ID sollte mit der ID übereinstimmen, die an den CX Enterprise ID-Service übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Legen Sie für Target den Wert customerID fest. </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie legen fest, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen. Sie sind jedoch nicht erforderlich. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Über Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph"> setCustomerIDs </span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die in CX Enterprise hochgeladen wird. Eine <a href="t-crs-usecase.md" format="dita" scope="local">Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen <span class="codeph"> setCustomerIDs </span> finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de" format="https" scope="external"> von Kunden-IDs und Authentifizierungsstatus </a>. </p> </td> 
+   <td colname="col2"> <p> Die erste Spalte muss eine Unique-Customer-ID sein. Die verwendete ID sollte mit der ID übereinstimmen, die an den CX Enterprise ID-Service übergeben wird. </p> <p>Bei Analytics wird die ID in einer prop oder eVar gespeichert. </p> <p>Legen Sie für Target den Wert customerID fest. </p> <p> Diese Kunden-ID ist die eindeutige Kennung, die Ihr CRM-System für jede Person in Ihrer Datenbank verwendet. Die übrigen Spalten sind Attribute, die von Ihrem CRM-System stammen. Sie legen fest, wie viele Attribute hochgeladen werden sollen. </p> <p>Für Spaltenüberschriften werden benutzerfreundliche, lesbare Namen empfohlen. Sie sind jedoch nicht erforderlich. Wenn Sie das Schema nach dem Hochladen validieren, können Sie den hochgeladenen Zeilen und Spalten benutzerfreundliche Namen zuordnen. </p> <p> <b>Über Kunden-IDs</b> </p> <p>In der Regel verwendet ein Unternehmen eine Kunden-ID aus einem CRM-System. Diese ID wird mithilfe des Aufrufs <span class="codeph"> setCustomerIDs </span> festgelegt, wenn sich eine Person anmeldet. Diese ID wird auch als Schlüssel in der CRM-Datei verwendet, die auf CX Enterprise hochgeladen wird. Eine <a href="t-crs-usecase.md" format="dita" scope="local">Alias-ID</a> ist ein benutzerfreundlicher Name für einen Datenspeicher in Audience Manager, in dem die Aliasdaten gespeichert werden. Das System sendet Aliase an diesen Datenspeicher (über setCustomerIDs). Die CRM-Datei wird auf die Daten in diesem Datenspeicher angewendet. </p> <p>Informationen <span class="codeph"> setCustomerIDs </span> finden Sie unter <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de" format="https" scope="external"> von Kunden-IDs und Authentifizierungsstatus </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nachfolgende Überschriften und Spalten </p> </td> 
@@ -122,7 +122,7 @@ Anzeige derselben Datei in einem Texteditor:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historische Daten </p> </td> 
-   <td colname="col2"> <p> Kundenattribute sind an das zugrunde liegende Besucherprofil in [!DNL Analytics] gebunden. Als solche sind [!DNL Customer Attributes] mit dem Besucher für die gesamte Lebensdauer dieses Besucherprofils in [!DNL Analytics] verknüpft. Dies umfasst das Verhalten, das vor der erstmaligen Anmeldung des Kunden aufgetreten ist. </p> <p> Wenn Sie die Data Warehouse-Methode zum Aufstocken verwenden, sind die Daten an einen post_visid_high/low-Wert gebunden, der auf der Analytics-ID (AID) basiert. Wenn Sie den CX Enterprise ID-Service verwenden, sind die Daten an einen post_visid_high/low-Wert gebunden, der auf der CX Enterprise ID (MID) basiert. </p> <p> Beachten Sie, dass die Data Warehouse-Aufstockungsmethode ab Oktober 2022 nicht mehr verfügbar sein wird. </td> 
+   <td colname="col2"> <p> Kundenattribute sind an das zugrunde liegende Besucherprofil in [!DNL Analytics] gebunden. Als solche sind [!DNL Customer Attributes] mit dem Besucher für die gesamte Lebensdauer dieses Besucherprofils in [!DNL Analytics] verknüpft. Dies umfasst das Verhalten, das vor der erstmaligen Anmeldung des Kunden aufgetreten ist. </p> <p> Wenn Sie die Data Warehouse-Methode zum Aufstocken verwenden, sind die Daten an einen post_visid_high/low-Wert gebunden, der auf der Analytics-ID (AID) basiert. Wenn Sie den CX Enterprise ID-Service verwenden, sind die Daten an einen post_visid_high/low-Wert gebunden, der auf CX Enterprise ID (MID) basiert. </p> <p> Beachten Sie, dass die Data Warehouse-Aufstockungsmethode ab Oktober 2022 nicht mehr verfügbar sein wird. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Datenfeeds </p> </td> 

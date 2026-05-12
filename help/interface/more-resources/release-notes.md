@@ -27,7 +27,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 62d66c526ac0e88f4748437b8a6ff1225894a39e
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 1429
 ht-degree: 52%
@@ -46,7 +46,7 @@ Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versions
 
 | Datum | Update | Beschreibung |
 | ------- | ------- | ------- |
-| &#x200B;20. April 2026 | Aktualisierung der Adobe CX Enterprise-Benutzeroberfläche | Ein erfrischendes Look-and-Feel der Homepage bei `https://experience.adobe.com/home`. Mit dieser umbenannten Version bleiben alle Funktionen gleich, mit aktualisierter Benutzeroberfläche, Unterstützung für vollen _(_) und verbesserter Barrierefreiheit. |
+| 20. April 2026 | Aktualisierung der Adobe CX Enterprise-Benutzeroberfläche | Ein aktualisiertes Look-and-Feel der Homepage auf `https://experience.adobe.com/home`. Mit dieser umbenannten Version bleiben alle Funktionen gleich, mit aktualisierter Benutzeroberfläche, Unterstützung für vollen _(_) und verbesserter Barrierefreiheit. |
 
 ## Januar 2026
 

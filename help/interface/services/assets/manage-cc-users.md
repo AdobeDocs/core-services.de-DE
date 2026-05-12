@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die Admin Tools zur Verwaltung genehmigter Creative Cloud-Benutzender in CX Enterprise.
+description: Erfahren Sie mehr über Admin-Tools zur Verwaltung genehmigter Creative Cloud-Benutzer in CX Enterprise.
 solution: Experience Cloud
 title: Verwalten von Creative Cloud-Benutzern in Experience Cloud
 feature: Assets
@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 111
 ht-degree: 53%
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 # Verwaltung der Creative Cloud-Benutzer
 
-Die CX Enterprise bietet Verwaltungstools zum Verwalten genehmigter Creative Cloud-Benutzender. Diese User können auf Ad-hoc-Basis zu einem Kampagnenordner eingeladen werden. Nur User, die von einem Administrator zur Liste hinzugefügt wurden, können zu einer Kampagne eingeladen werden. Die hinzugefügten Benutzer werden in CX Enterprise in der Benutzerliste für die automatische Vervollständigung angezeigt.
+CX Enterprise bietet Verwaltungstools für die Verwaltung genehmigter Creative Cloud-Benutzer. Diese User können auf Ad-hoc-Basis zu einem Kampagnenordner eingeladen werden. Nur User, die von einem Administrator zur Liste hinzugefügt wurden, können zu einer Kampagne eingeladen werden. Die hinzugefügten Benutzer werden in CX Enterprise in der Benutzerliste für die automatische Vervollständigung angezeigt.
 
 >[!NOTE]
 >

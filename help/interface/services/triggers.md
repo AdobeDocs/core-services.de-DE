@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie CX Enterprise Trigger konfigurieren.
+description: Erfahren Sie, wie Sie CX Enterprise-Trigger konfigurieren.
 solution: Experience Cloud
 title: Übersicht über Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -24,14 +24,14 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 697
 ht-degree: 77%
 
 ---
 
-# CX Enterprise Trigger
+# CX Enterprise-Trigger
 
 [!UICONTROL Triggers] in CX Enterprise ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden.
 

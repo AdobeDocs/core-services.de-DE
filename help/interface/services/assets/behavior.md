@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1a77ef8d31211fb11c790152e78037a8c3b238a2
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 627
 ht-degree: 90%
@@ -34,7 +34,7 @@ Richtlinien zum Verhalten freigegebener Ordner beim Verschieben, Löschen und Wi
 
 >[!NOTE]
 >
->Freigegebene CX Enterprise-Ordner und -Assets werden auf dem Creative Cloud-Desktop in einer 1::1-Beziehung gespiegelt. Wenn ein CX Enterprise-Benutzer einen Ordner ändert (löscht, fügt hinzu oder entfernt die Freigabe), wird die Aktion auf dem Creative Cloud-Desktop und im Web gespiegelt. Wenn die Freigabe eines Ordners aufgehoben wird, werden daher der Ordner und die Assets vom lokalen Computer gelöscht. Nachdem die Freigabe aufgehoben wurde, werden der Ordner und sein Inhalt in den Papierkorb auf den lokalen Computer verschoben, von wo Sie sie manuell auf Ihrem Computer wiederherstellen können.
+>Freigegebene CX Enterprise-Ordner und -Assets werden in einer 1::1-Beziehung auf dem Creative Cloud-Desktop gespiegelt. Wenn ein CX Enterprise-Benutzer einen Ordner ändert (Freigabe löscht, hinzufügt oder entfernt), wird die Aktion auf dem Creative Cloud-Desktop und im Web gespiegelt. Wenn die Freigabe eines Ordners aufgehoben wird, werden daher der Ordner und die Assets vom lokalen Computer gelöscht. Nachdem die Freigabe aufgehoben wurde, werden der Ordner und sein Inhalt in den Papierkorb auf den lokalen Computer verschoben, von wo Sie sie manuell auf Ihrem Computer wiederherstellen können.
 
 ## Nicht freigegebener Ordner in freigegebenen Ordner
 

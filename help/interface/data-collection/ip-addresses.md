@@ -11,7 +11,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a42153ba5a885509e7735e7407e38586fcabb0ad
+source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 426
 ht-degree: 9%
@@ -53,7 +53,7 @@ Die folgende Tabelle enthält alle IP-Adressen im Besitz von Adobe. Diese Tabell
 
 Wenn Ihr Unternehmen bestimmte IP-Adressbereiche lieber zulässt, können Sie die folgende Tabelle heranziehen. Zu diesem Datensatz gehören:
 
-* Datenerfassungsserver für alle CX Enterprise-Produkte
+* Datenerfassungs-Server für alle CX Enterprise-Produkte
 * FTP-Server für alle CX Enterprise-Produkte
 
 Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
@@ -92,7 +92,7 @@ Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 
 {style="table-layout:auto"}
 
-Der Adobe CX Enterprise unterstützt auch IPv6 in begrenzter Kapazität. Diese IP-Blöcke dienen ähnlichen Datenerfassungszwecken wie ihre IPv4-Gegenstücke oben, enthalten jedoch kein FTP.
+Adobe CX Enterprise unterstützt auch IPv6 in begrenzter Kapazität. Diese IP-Blöcke dienen ähnlichen Datenerfassungszwecken wie ihre IPv4-Gegenstücke oben, enthalten jedoch kein FTP.
 
 | Standort | Host |
 | --- | --- |
