@@ -90,4 +90,4 @@ In der folgenden Tabelle wird beschrieben, wie Zielgruppen in CX Enterprise-Anwe
 
 ## Veröffentlichen von Zielgruppen aus Adobe Analytics
 
-Weitere Informationen finden [&#x200B; in der Adobe Analytics-](https://experienceleague.adobe.com/en/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) unter „Veröffentlichen von Segmenten in CX Enterprise“.
+Weitere Informationen finden [&#x200B; in der Adobe Analytics-](https://experienceleague.adobe.com/de/docs/analytics/components/segmentation/segmentation-workflow/seg-publish) unter „Veröffentlichen von Segmenten in CX Enterprise“.
