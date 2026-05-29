@@ -8,16 +8,11 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
@@ -34,7 +29,7 @@ Die für die Nutzungsüberwachung verfügbaren Agenten werden unter [KI-Agenten 
 
 Das Dashboard zur [!DNL Adobe Experience Platform] Lizenznutzung zeigt die Berechtigung für lizenzierte KI-Credits Ihres Unternehmens und die gesamten KI-Credits an, die verwendet werden, wenn Benutzer [!DNL Experience Platform Agents] ausführen.
 
-Administratoren verwenden dieses Dashboard, um die Lizenznutzung im Vergleich zur Berechtigung zu verfolgen. Weitere Informationen über den Zugriff auf das Dashboard finden [&#x200B; unter „Lizenznutzungs](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage)Dashboard“ in [!DNL Experience Platform] Dokumentation.
+Administratoren verwenden dieses Dashboard, um die Lizenznutzung im Vergleich zur Berechtigung zu verfolgen. Weitere Informationen über den Zugriff auf das Dashboard finden [ unter „Lizenznutzungs](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)Dashboard“ in [!DNL Experience Platform] Dokumentation.
 
 ## Dashboard für die Überwachung der agenten KI
 
@@ -146,4 +141,4 @@ Gewähren des Dashboard-Zugriffs in [!DNL Adobe Experience Platform] durch Aktua
 
 * [Agent-KI in Adobe CX Enterprise](agentic-ai.md)
 * [Agent-Vorgänge und KI-Kreditverbrauch](ai-credit-consumption.md)
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
