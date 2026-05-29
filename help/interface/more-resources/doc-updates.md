@@ -8,11 +8,21 @@ role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
 TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
 workflow-type: tm+mt
 source-wordcount: 788
@@ -27,7 +37,7 @@ Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfl
 ## Juni 2026
 
 * Veröffentlicht [Überwachung der Nutzung der Agent-KI](../features/monitoring.md) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
-* Versionshinweise [Juni 2026) für ](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
+* Versionshinweise [Juni 2026) für &#x200B;](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
 
 ## Mai 2026
 
@@ -48,11 +58,11 @@ Aktualisierungen für [Agent KI in CX Enterprise](../features/agentic-ai.md)
 
 ## Oktober 2025
 
-Der [ „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
+Der [&#x200B; „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
 
 ## August 2025
 
-Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; ](../features/account-preferences.md).
+Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; &#x200B;](../features/account-preferences.md).
 
 ## Februar 2025
 
@@ -64,7 +74,7 @@ Aktualisierungen [Produktnutzungsdaten](../features/account-preferences.md) und 
 
 ## September 2024
 
-Es wurde Hilfe zum Abonnieren [ Slack-Benachrichtigungen ](../features/account-preferences.md#subscribe-to-slack-notifications).
+Es wurde Hilfe zum Abonnieren [&#x200B; Slack-Benachrichtigungen &#x200B;](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 
