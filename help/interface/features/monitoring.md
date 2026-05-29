@@ -1,94 +1,149 @@
 ---
-title: Monitoring
-description: Erfahren Sie, wie Sie mit der KI-Überwachung in Experience Platform die Akzeptanz von KI-Assistenten verfolgen, Gespräche und Feedback überprüfen und KI-Credits für Nutzung, Qualität und Kostenübersicht verwalten können.
+title: Überwachung der Nutzung der Agent-KI
+description: Erfahren Sie mehr über die Überwachung der KI-Nutzung in CX Enterprise. Verfolgen Sie die Akzeptanz, prüfen Sie Unterhaltungen und Feedback und verwalten Sie KI-Credits für Nutzung, Qualität und Sichtbarkeit der Kosten.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
-source-git-commit: 25446910430bf15dcfa0fc70e25e0681f9faeb95
+autotag-review: '2026-05-27T16:30:16.764Z'
+TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2:
+  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2:
+  - id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 0%
+source-wordcount: 948
+ht-degree: 2%
 
 ---
 
-# KI-Überwachung
+# Dashboard zur Überwachung der KI-Nutzung durch Agenten
 
-Nach der Bereitstellung von [!UICONTROL AI Assistant] können Sie [!UICONTROL Monitoring] verwenden, um Einblicke in die Verwendung und Leistung des Systems zu erhalten. Damit lässt sich erkennen, wer [!UICONTROL AI Assistant] verwendet, welche Aufgaben unterstützt werden, wo Erfolge erzielt werden oder Probleme auftreten und wie dies mit der Einführung, den Kosten und den geschäftlichen Auswirkungen zusammenhängt.
+CX Enterprise bietet zwei Dashboards zur Überwachung der Nutzung der Agent-KI in vorhandenen CX Enterprise-Anwendungen. Diese Dashboards helfen Ihnen, Akzeptanz, Interaktion, Feedback-Qualität und KI-Kreditnutzung für [!DNL Experience Platform Agents] zu verstehen, auf die Benutzer über [!DNL AI Assistant] und andere Gesprächsoberflächen zugreifen.
 
-Die KI-Überwachung ist in drei Bereiche unterteilt:
+Die für die Nutzungsüberwachung verfügbaren Agenten werden unter [KI-Agenten in vorhandenen CX Enterprise-Apps](agentic-ai.md#existing-apps-table) in der Dokumentation [Agent-KI in Adobe CX Enterprise](agentic-ai.md) aufgeführt.
 
-* **Annahme und Interaktion** im [!UICONTROL Usage] Dashboard
-* **Qualität und Leistung** in [!UICONTROL Conversation Replay] und Feedback
-* **Kosten und Verbrauch** im Dashboard „Gutschriften“
+## Lizenznutzungs-Dashboard
 
-Zusammen helfen sie Ihnen, [!UICONTROL AI Assistant] mit klaren Daten zu arbeiten, anstatt mit Rätselraten.
+Das Dashboard zur [!DNL Adobe Experience Platform] Lizenznutzung zeigt die Berechtigung für lizenzierte KI-Credits Ihres Unternehmens und die gesamten KI-Credits an, die verwendet werden, wenn Benutzer [!DNL Experience Platform Agents] ausführen.
 
-## Nutzungs-Dashboard
+Administratoren verwenden dieses Dashboard, um die Lizenznutzung im Vergleich zur Berechtigung zu verfolgen. Weitere Informationen über den Zugriff auf das Dashboard finden [&#x200B; unter „Lizenznutzungs](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage)Dashboard“ in [!DNL Experience Platform] Dokumentation.
 
-Das Nutzungs-Dashboard ist der zentrale Ort für die Akzeptanz und Interaktion in Ihrem gesamten Unternehmen. Er verbindet allgemeine Trends mit einer tieferen Analyse. Für jede Metrik im Dashboard können Sie einzelne Konversationen aufschlüsseln, um zu sehen, was die Zahlen antreibt.
+## Dashboard für die Überwachung der agenten KI
 
-**Was Sie überprüfen können**
+Das Überwachungs-Dashboard für die agentische KI bietet Mitgliedern des Kompetenzzentrums (Center of Excellence, COE) und anderen Governance-Stakeholdern Einblicke in die Nutzung und Akzeptanz der agentischen KI. Sie können Trends über einen Zeitraum von 7 oder 30 Tagen anzeigen, um zu sehen, wer [!DNL AI Assistant] oder andere Gesprächsoberflächen (z. B. [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) verwendet, um mit [!DNL Experience Platform Agents] zu interagieren, was sie bei diesen Interaktionen tun und welchen Wert sie erhalten.
 
-* **Eingabeaufforderungen im**: Gesamtes Nutzungswachstum und Akzeptanztrends.
-* **Aktive Benutzende und Konversationen**: Wie breit der Assistent benutzerübergreifend angenommen wird.
-* **Durchschnittliche Eingabeaufforderungen pro Konversation**: Interaktionstiefe und Ob die Interaktionen substanziell sind.
-* **Feedback (Daumen hoch / runter)** Frühzeitige Signale für Qualität und Benutzerzufriedenheit.
+Das Dashboard für die Überwachung der Agent-KI umfasst die folgenden Ansichten:
 
-## Unterhaltung mit Feedback wiedergeben
+| Dashboard | Zweck |
+| --- | --- |
+| **Übersicht** | Aggregierte Metriken für Benutzer, Konversationen, Feedback und Kreditverbrauch |
+| **Benutzer** | Nutzungshäufigkeit, Verteilung und Interaktion nach Benutzer |
+| **Feedback** | Signale zur Reaktionsqualität und Benutzerzufriedenheit |
+| **KI-Guthaben** | Entwicklung des Kreditverbrauchs und verbleibender Saldo |
 
-[!UICONTROL Conversation Replay] zeigt tatsächliche KI-Interaktionen, nicht nur Aggregate. Sie erreichen ihn über das Nutzungs-Dashboard, wenn Sie von Trends zu bestimmten Austauschen wechseln müssen.
+Zusammen helfen diese Ansichten Ihnen, die Akzeptanz von Agenten mit Daten anstelle von Annahmen zu steuern.
 
-**Was Sie überprüfen können**
+## Übersichts-Dashboard
 
-* **Eingabeaufforderung und Antwortverlauf**: Die Frage und [!UICONTROL AI Assistant] Antworten des Benutzers wie zugestellt.
-* **Feedback-Signale** Welche Interaktionen Benutzer positiv oder negativ bewerteten, um Verbesserungen zu priorisieren.
-* **Muster im Zeitverlauf**: Wiederkehrende Themen in starken und schwachen Erfahrungen in vielen Konversationen.
+Das Übersichts-Dashboard ist der zentrale Ort für Akzeptanz- und Interaktionsmetriken in Ihrer gesamten Organisation. Er verbindet allgemeine Trends mit einer tieferen Analyse. Für jede Metrik können Sie einen Drilldown in einzelne Konversationen durchführen, um zu sehen, was die Zahlen antreibt.
 
-In dieser Ansicht können Sie über Datenaggregationen hinausgehen, um zu sehen, was funktioniert, wo es zu Reibungen bei Benutzenden kommt und wie die Reaktionsqualität im Laufe der Zeit verbessert werden kann. Nutzungstrends beantworten _was_ passiert. Die Wiederholung einer Konversation hilft dabei, _warum_ zu erklären.
+### Metriken im Dashboard „Übersicht“
 
-## [!UICONTROL Credits] dashboard
+* **Eingabeaufforderungen im Zeitverlauf:** Gesamtnutzungswachstum und Akzeptanztrends.
+* **Aktive Benutzer und Konversationen:** Anzahl der Benutzer, die mit [!DNL Experience Platform Agents] interagieren.
+* **Durchschnittliche Eingabeaufforderungen pro Konversation:** Interaktionstiefe pro Konversation.
+* **Feedback** Verteilung der Daumen hoch und Daumen runter Feedback von Benutzern (nur für [!DNL AI Assistant] Interaktionen).
 
-Sobald Sie sich mit Nutzung und Qualität vertraut gemacht haben, antwortet das Dashboard „Gutschriften“, wie sich diese Aktivität in Verbrauch und Kosten niederschlägt.
+### Unterhaltungswiederholung
 
-**Was Sie überprüfen können**
+Die Gesprächswiederholung zeigt individuelle Interaktionen, nicht nur Aggregate. Sie können Muster in vielen Unterhaltungen analysieren und von allgemeinen Trends zu einer bestimmten Unterhaltung wechseln.
 
-* **Total Credit Consumed**: Gesamte Nutzung von KI-Assistenten in Kreditbedingungen.
-* **Tägliche und monatliche Trends**: Spitzen, Tiefpunkte und Änderungen der Nutzungsmuster.
-* **Verbleibende Credits**: Was in Ihrer Zuordnung verbleibt, damit Sie vor Limits oder Überschüssen planen können.
+* **Eingabeaufforderung und Antwortverlauf:** Die Eingabeaufforderung und die zugestellten Antworten des Benutzers.
+* **Feedback-Signale:** Interactions-Benutzende, die mit einem Daumen nach oben oder unten gekennzeichnet sind, um Reibungs-, Blocker- oder Aktivierungsanforderungen zu identifizieren. Diese Informationen helfen Ihrem Unternehmen, die Relevanz der Anfragen schnell zu verbessern, und helfen Adobe, die Reaktionsqualität im Laufe der Zeit zu verbessern.
 
-Verwenden Sie diese Ansicht, um die Nutzung zu prognostizieren, das Budget auszurichten und Guthaben vorhersehbarer auf die Teams zu verteilen.
+## Benutzer-Dashboard
 
-## Benutzer-Feedback-Dashboard
+Das Benutzer-Dashboard zeigt, wie sich die Akzeptanz und Interaktion von Agenten je nach Benutzer im Laufe der Zeit verändert. Sie können sehen, wer [!DNL Experience Platform Agents] aktiv nutzt, welche Oberfläche er nutzt und wie oft er damit interagiert. Admins und Code-Mitglieder können einen Drill-in in einzelne Benutzeraktivitäten und Konversationen durchführen, um Interaktionsmuster und Nutzungsverhalten zu verstehen.
 
-Das Dashboard für Benutzerfeedback hilft Unternehmen bei der Überprüfung detaillierter Benutzerfeedback-Informationen, die für Interaktionen mit KI-Assistenten gesendet wurden. Es bietet Einblicke in Gespräche, die Benutzer positiv oder negativ bewerteten, und ermöglicht es Administratoren und Exzellenzzentren (Centers of Excellence, COEs), die Interaktionsdetails hinter dem Feedback zu untersuchen.
-Anhand von Feedback-Zusammenfassungen können Benutzende einen Drilldown in einzelne Konversationen durchführen, um Eingabeaufforderungen, Antworten, Argumentationsdetails und Feedback-Notizen im Zusammenhang mit der Interaktion zu überprüfen.
+### Metriken im Benutzer-Dashboard
 
-Was Sie überprüfen können
+* **Akzeptanz- und Interaktionstrends im Zeitverlauf:** Verfolgen Sie, wie sich Benutzersegmente im ausgewählten Zeitraum ändern. Benutzer werden klassifiziert als:
+   * **Neu** Erste Aktivität im ausgewählten Zeitraum, ohne Aktivität in den letzten 12 Monaten.
+   * **Wiederholen:** Aktivität sowohl im ausgewählten Zeitraum als auch im vorherigen Zeitraum.
+   * **Zurück** Die Aktivität im ausgewählten Zeitraum, aber nicht im vorherigen Zeitraum.
+   * **Inaktiv** Keine Aktivität im ausgewählten Zeitraum, aber Aktivität im vorherigen Zeitraum.
+* **Benutzerinteraktionsmuster:** wie oft Benutzer mit Agenten interagieren und wie sich die Interaktion im Laufe der Zeit verändert.
+* **Konversationsaktivität:** Anzahl der Konversationen und Eingabeaufforderungen pro Benutzer.
+* **Top-aktive Benutzer:** Starke Interaktion zwischen Benutzern und Teams, die die Akzeptanz von Agenten fördert.
 
-**Feedback-Trends im Zeitverlauf:** Verstehen, wie sich das Benutzer-Feedback über Workflows und Zeiträume hinweg ändert.
-**Feedback mit Daumen nach oben und Daumen nach unten** Überprüfen Sie die von den Benutzern gesendeten positiven und negativen Interaktionssignale.
-**Feedback-Kategorien:** Verstehen Sie die Arten von Antworten, die Benutzende als hilfreich oder problematisch identifiziert haben.
-**Drill-down-Menüs auf Konversationsebene:** Wechseln von Feedback-Zusammenfassungen zu den einzelnen Konversationen, die mit Feedback-Ereignissen verknüpft sind.
-**Eingabeaufforderung und Antwortverlauf:** Überprüfen Sie die Benutzeraufforderungen und Antworten des KI-Assistenten, die mit gesendetem Feedback verknüpft sind.
-**Feedback-Details und -Anmerkungen** Überprüfen Sie den zusätzlichen Kontext und die Kommentare, die von den Benutzern während der Übermittlung des Feedbacks bereitgestellt wurden.
+## Feedback-Dashboard
 
-Dieses Dashboard hilft Unternehmen, Benutzererlebnisse besser zu verstehen, Probleme zu untersuchen und Möglichkeiten zu identifizieren, die Qualität und Effektivität des KI-Assistenten im Laufe der Zeit zu verbessern.
+Das Feedback-Dashboard zeigt das Benutzer-Feedback an, das für Agenten-Interaktionen gesendet wurde. Sie können sehen, welche Konversationen Benutzer positiv oder negativ bewertet haben, und die Interaktionen hinter dem Feedback untersuchen. Zeigen Sie in Feedback-Zusammenfassungen einzelne Konversationen an, um Eingabeaufforderungen, Antworten, Argumentationsdetails und Feedback-Notizen zu überprüfen.
 
-## Dashboard aktiver Benutzer
+### Metriken im Feedback-Dashboard
 
-Das Dashboard „Aktive Benutzer“ hilft Unternehmen zu verstehen, wie sich die Akzeptanz und Interaktion von KI-Assistenten im Laufe der Zeit von Benutzer zu Benutzer unterscheiden. Es bietet Einblicke in die Benutzenden, die KI-Assistenten aktiv nutzen, wie oft sie interagieren und welche Workflows die meisten Aktivitäten im gesamten Unternehmen fördern.
-Anhand von Zusammenfassungen auf Benutzerebene können Administratoren und Exzellenzzentren (COEs) einzelne Benutzeraktivitäten und Gespräche aufschlüsseln, um Interaktionsmuster und Nutzungsverhalten besser zu verstehen.
+* **Feedback-Trends im Zeitverlauf:** Wie sich das Benutzer-Feedback im Laufe der Zeit ändert.
+* **Daumen hoch und Daumen runter Feedback:** positive und negative Interaktionssignale.
+* **Feedback-Kategorien:** Rationale hinter jedem Daumen nach oben und Daumen nach unten.
+* **Eingabeaufforderung und Antwortverlauf:** Benutzeraufforderungen und die Antworten, die mit gesendetem Feedback verknüpft sind.
+* **Feedback-Details und -Hinweise** Zusätzlicher Kontext und Kommentare von Benutzern während der Übermittlung des Feedbacks.
 
-Was Sie überprüfen können
+## Dashboard für KI-Gutschriften
 
-* **Aktive Benutzer im Zeitverlauf:** Verfolgen Sie Akzeptanz- und Interaktionstrends im gesamten Unternehmen.
-* **Muster der Benutzerinteraktion:** Erfahren Sie, wie oft Benutzer mit dem KI-Assistenten interagieren und wie sich die Interaktion im Laufe der Zeit verändert.
-* **Konversationsaktivität:** Überprüfen Sie die Anzahl der Konversationen und Eingabeaufforderungen, die von einzelnen Benutzern generiert wurden.
-* **Aktive Top-Benutzende:** Identifizieren Sie hochgradig interaktive Benutzende und Teams, die die Akzeptanz von KI-Assistenten fördern.
-* **Drill-down-Menüs auf Benutzerebene:** Sie von den aggregierten Interaktionsmetriken zu den einzelnen Benutzeraktivitäten und Gesprächsdetails über.
-* **Nutzungstrends nach Workflow:** Erfahren Sie, welche Workflows und Anwendungsfälle bei allen Benutzern die größte Interaktion hervorrufen.
-* **Interaktionskonsistenz:** Identifizieren Sie Benutzende mit wiederkehrenden Interaktionsmustern sowie Benutzende mit im Laufe der Zeit abnehmender Aktivität.
+Das Dashboard „KI-Guthaben“ zeigt an, wie die Verwendung von [!DNL Experience Platform Agents] in Ihrem Unternehmen zur Nutzung von KI-Guthaben führt.
 
-Dieses Dashboard hilft Unternehmen, die Akzeptanz zu messen, Interaktionstrends zu identifizieren und besser zu verstehen, wie der KI-Assistent teamübergreifend und in Workflows verwendet wird.
+### Metriken im Dashboard für KI-Gutschriften
+
+* **Insgesamt genutzte KI-Credits** Gesamte Agentennutzung in KI-Credits.
+* **Tägliche und monatliche Trends** Spitzen, Tiefpunkte und Veränderungen der Konsummuster.
+* **Verbleibende KI-Credits:** Restguthaben, damit Sie proaktiv planen und Überschüsse vermeiden können.
+
+## Zugang und Governance
+
+Dashboards zur Überwachung der Nutzung der agenten KI stellen die KI-Assistentenaktivität zur Verfügung, einschließlich Nutzungsmustern, Einblicken auf Konversationsebene, Feedback-Signalen und Betriebsmetriken. Einige dieser Informationen können sensible Geschäftskontexte, sofortige Aktivität oder Benutzerinteraktionsdaten umfassen.
+
+Der Zugriff ist berechtigungsbasiert und nur für autorisierte Code-Administratoren und genehmigte Governance-Benutzer vorgesehen. Im folgenden Abschnitt wird beschrieben, wie Sie Dashboard-Berechtigungen erteilen.
+
+## Dashboard-Berechtigungen aktivieren
+
+Gewähren des Dashboard-Zugriffs in [!DNL Adobe Experience Platform] durch Aktualisieren des Produktprofils oder der Rolle für jeden autorisierten Benutzer.
+
+1. Navigieren Sie zu [!DNL Experience Platform] **Administration** > **Berechtigungen**.
+
+1. Öffnen Sie das Produktprofil oder die Rolle, das bzw. die Sie aktualisieren möchten.
+
+   ![Dashboard-Berechtigungen aktivieren](../features/assets/dashboards-permissions.png)
+
+1. Klicken Sie unter **[!UICONTROL AI Assistant]** Berechtigungen auf **[!UICONTROL Add Resource]** und dann auf **[!UICONTROL View AI Assistant usage dashboard]** aktivieren .
+
+   Diese Berechtigung gewährt Zugriff auf die Dashboards zur Überwachung der Nutzung der Agent-KI.
+
+1. Konfigurieren Sie unter **[!UICONTROL Dashboards]** Berechtigungen den Dashboard-Zugriff basierend auf den Zuständigkeiten der einzelnen Benutzer.
+
+   ![Dashboard-Berechtigungen aktivieren](../features/assets/dashboards-add-resource.png)
+
+   Empfohlene Berechtigungen für autorisierte Governance-Benutzer:
+
+   * **[!UICONTROL View License Usage Dashboard]**
+   * **[!UICONTROL View Standard Dashboards]**
+   * **[!UICONTROL Export Dashboard Data]** (optional, nur für genehmigte Governance-Benutzer)
+
+   Zusätzliche Berechtigungen, die Sie bei Bedarf erteilen können:
+
+   * **[!UICONTROL Manage Custom Dashboards]**
+   * **[!UICONTROL View Custom Dashboards]**
+   * **[!UICONTROL Manage Standard Dashboards]**
+
+## Weitere Hilfe zu diesem Thema
+
+* [Agent-KI in Adobe CX Enterprise](agentic-ai.md)
+* [Agent-Vorgänge und KI-Kreditverbrauch](ai-credit-consumption.md)
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
