@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1706e3f7c2a29cc85299913657fa6c049c3217fa
+source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
 workflow-type: tm+mt
-source-wordcount: 788
+source-wordcount: 787
 ht-degree: 39%
 
 ---
@@ -36,7 +36,7 @@ Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfl
 
 ## Juni 2026
 
-* Veröffentlicht [Überwachung der Nutzung der Agent-KI](../features/monitoring.md) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
+* Veröffentlicht [Überwachung der Agent-KI](../features/monitoring.md) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
 * Versionshinweise [Juni 2026) für &#x200B;](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
 
 ## Mai 2026

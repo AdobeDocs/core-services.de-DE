@@ -1,6 +1,6 @@
 ---
 title: Überwachung der Nutzung der Agent-KI
-description: Erfahren Sie mehr über die Überwachung der KI-Nutzung in CX Enterprise. Verfolgen Sie die Akzeptanz, prüfen Sie Unterhaltungen und Feedback und verwalten Sie KI-Credits für Nutzung, Qualität und Sichtbarkeit der Kosten.
+description: Erfahren Sie mehr über Dashboards zur Überwachung der KI-Nutzung in CX Enterprise. Verfolgen Sie die Akzeptanz, prüfen Sie Unterhaltungen und Feedback und verwalten Sie KI-Credits für Nutzung, Qualität und Sichtbarkeit der Kosten.
 solution: Experience Cloud, Experience Platform
 topic: Artificial Intelligence
 feature: Agentic AI, AI Tools
@@ -17,14 +17,14 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5fdb68aa750cd4c31b2e28cbd89e37e3e029cacb
+source-git-commit: c3e850d9398b5439a45fd493036776b729bec7e9
 workflow-type: tm+mt
 source-wordcount: 948
 ht-degree: 2%
 
 ---
 
-# Dashboard zur Überwachung der KI-Nutzung durch Agenten
+# AI-Überwachung
 
 CX Enterprise bietet zwei Dashboards zur Überwachung der Nutzung der Agent-KI in vorhandenen CX Enterprise-Anwendungen. Diese Dashboards helfen Ihnen, Akzeptanz, Interaktion, Feedback-Qualität und KI-Kreditnutzung für [!DNL Experience Platform Agents] zu verstehen, auf die Benutzer über [!DNL AI Assistant] und andere Gesprächsoberflächen zugreifen.
 
