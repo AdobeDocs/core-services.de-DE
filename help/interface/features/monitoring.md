@@ -34,7 +34,7 @@ Die für die Nutzungsüberwachung verfügbaren Agenten werden unter [KI-Agenten 
 
 Das Dashboard zur [!DNL Adobe Experience Platform] Lizenznutzung zeigt die Berechtigung für lizenzierte KI-Credits Ihres Unternehmens und die gesamten KI-Credits an, die verwendet werden, wenn Benutzer [!DNL Experience Platform Agents] ausführen.
 
-Administratoren verwenden dieses Dashboard, um die Lizenznutzung im Vergleich zur Berechtigung zu verfolgen. Weitere Informationen über den Zugriff auf das Dashboard finden [&#x200B; unter „Lizenznutzungs](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)Dashboard“ in [!DNL Experience Platform] Dokumentation.
+Administratoren verwenden dieses Dashboard, um die Lizenznutzung im Vergleich zur Berechtigung zu verfolgen. Weitere Informationen über den Zugriff auf das Dashboard finden [&#x200B; unter „Lizenznutzungs](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage)Dashboard“ in [!DNL Experience Platform] Dokumentation.
 
 ## Dashboard für die Überwachung der agenten KI
 
@@ -146,4 +146,4 @@ Gewähren des Dashboard-Zugriffs in [!DNL Adobe Experience Platform] durch Aktua
 
 * [Agent-KI in Adobe CX Enterprise](agentic-ai.md)
 * [Agent-Vorgänge und KI-Kreditverbrauch](ai-credit-consumption.md)
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
