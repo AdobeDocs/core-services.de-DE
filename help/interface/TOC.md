@@ -5,7 +5,7 @@ breadcrumb-title: CX Enterprise-Oberfläche und -Administration
 title: CX Enterprise-Benutzeroberfläche und Administrationshandbuch
 description: Erfahren Sie mehr über die Benutzeroberfläche und Administration von CX Enterprise. Durchsuchen Sie Themen zu KI, Administration, Shared Services, Datenerfassung, Cookies, Versionshinweisen und FAQs.
 index: true
-source-git-commit: f8271b21134641c4576abc8a7e1fb8874ae68350
+source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 59%
@@ -18,7 +18,7 @@ ht-degree: 59%
 + KI in CX Enterprise {#features}
    + [Generative KI](/help/interface/features/generative-ai.md)
    + [Agent-basierte KI](features/agentic-ai.md)
-   + {hide-from-toc}[AI-Überwachung](/help/interface/features/monitoring.md)
+   + [AI-Überwachung](/help/interface/features/monitoring.md)
    + [Agent-Vorgänge und KI-Kreditverbrauch](/help/interface/features/ai-credit-consumption.md)
 + Administration {#administration}
    + [Kontovoreinstellungen und Benachrichtigungen](/help/interface/features/account-preferences.md)
