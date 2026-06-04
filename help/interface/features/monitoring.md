@@ -8,18 +8,13 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 755f4b3507fabdb44515e30f469e9b1d4035832c
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 866
 ht-degree: 2%
 
 ---
@@ -28,7 +23,7 @@ ht-degree: 2%
 
 Das Überwachungs-Dashboard für die agentische KI bietet Mitgliedern des Kompetenzzentrums (Center of Excellence, COE) und anderen Governance-Stakeholdern Einblicke in die Nutzung und Akzeptanz der agentischen KI. Sie können Trends über einen Zeitraum von 7 oder 30 Tagen anzeigen, um zu sehen, wer [!DNL AI Assistant] oder andere Gesprächsoberflächen (z. B. [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) verwendet, um mit [!DNL Experience Platform Agents] zu interagieren, was sie bei diesen Interaktionen tun und welchen Wert sie erhalten. Zusammen helfen diese Ansichten Ihnen, die Akzeptanz von Agenten mit Daten anstelle von Annahmen zu steuern.
 
-Das Dashboard für die Überwachung der Agent-KI umfasst die folgenden Ansichten:
+Das [!UICONTROL Monitoring]-Dashboard enthält die folgenden Ansichten:
 
 | Dashboard | Zweck |
 | --- | --- |
@@ -142,7 +137,7 @@ Das Dashboard „KI-Guthaben“ zeigt an, wie die Verwendung von [!DNL Experienc
 
 ## Weitere Hilfe zu diesem Thema
 
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [Agent-KI in Adobe CX Enterprise](agentic-ai.md)
 * [Agent-Vorgänge und KI-Kreditverbrauch](ai-credit-consumption.md)
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
