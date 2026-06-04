@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 9c847f904b899fbe1273b91bd776083d0b4a71a1
+source-git-commit: 755f4b3507fabdb44515e30f469e9b1d4035832c
 workflow-type: tm+mt
-source-wordcount: 881
+source-wordcount: 868
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Das Dashboard für die Überwachung der Agent-KI umfasst die folgenden Ansichten
 
 Die für die Nutzungsüberwachung verfügbaren Agenten werden unter [KI-Agenten in vorhandenen CX Enterprise-Apps](agentic-ai.md#existing-apps-table) in der Dokumentation [Agent-KI in Adobe CX Enterprise](agentic-ai.md) aufgeführt.
 
-[Einführungsvideo anzeigen](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## Dashboard-Berechtigungen aktivieren {#permissions}
 
@@ -86,7 +86,7 @@ Das Übersichts-Dashboard ist der zentrale Ort für Akzeptanz- und Interaktionsm
 * **Durchschnittliche Eingabeaufforderungen pro Konversation:** Interaktionstiefe pro Konversation.
 * **Feedback** Verteilung der Daumen hoch und Daumen runter Feedback von Benutzern (nur für [!DNL AI Assistant] Interaktionen).
 
-[Video anzeigen](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### Unterhaltungswiederholung
 
@@ -95,7 +95,7 @@ Die Gesprächswiederholung zeigt individuelle Interaktionen, nicht nur Aggregate
 * **Eingabeaufforderung und Antwortverlauf:** Die Eingabeaufforderung und die zugestellten Antworten des Benutzers.
 * **Feedback-Signale:** Interactions-Benutzende, die mit einem Daumen nach oben oder unten gekennzeichnet sind, um Reibungs-, Blocker- oder Aktivierungsanforderungen zu identifizieren. Diese Informationen helfen Ihrem Unternehmen, die Relevanz der Anfragen schnell zu verbessern, und helfen Adobe, die Reaktionsqualität im Laufe der Zeit zu verbessern.
 
-[Video anzeigen](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Benutzer-Dashboard
 
@@ -112,7 +112,7 @@ Das Benutzer-Dashboard zeigt, wie sich die Akzeptanz und Interaktion von Agenten
 * **Konversationsaktivität:** Anzahl der Konversationen und Eingabeaufforderungen pro Benutzer.
 * **Top-aktive Benutzer:** Starke Interaktion zwischen Benutzern und Teams, die die Akzeptanz von Agenten fördert.
 
-[Video anzeigen](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## Feedback-Dashboard
 
@@ -126,7 +126,7 @@ Das Feedback-Dashboard zeigt das Benutzer-Feedback an, das für Agenten-Interakt
 * **Eingabeaufforderung und Antwortverlauf:** Benutzeraufforderungen und die Antworten, die mit gesendetem Feedback verknüpft sind.
 * **Feedback-Details und -Hinweise** Zusätzlicher Kontext und Kommentare von Benutzern während der Übermittlung des Feedbacks.
 
-[Video anzeigen](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## Dashboard für KI-Gutschriften
 
@@ -138,7 +138,7 @@ Das Dashboard „KI-Guthaben“ zeigt an, wie die Verwendung von [!DNL Experienc
 * **Tägliche und monatliche Trends** Spitzen, Tiefpunkte und Veränderungen der Konsummuster.
 * **Verbleibende KI-Credits:** Restguthaben, damit Sie proaktiv planen und Überschüsse vermeiden können.
 
-[Video anzeigen](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Weitere Hilfe zu diesem Thema
 
