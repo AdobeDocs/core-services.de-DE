@@ -7,9 +7,9 @@ feature: Agentic AI, AI Tools
 role: Admin, User
 level: Intermediate
 last-update: '2026-05-21T00:00:00.000Z'
-source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
+source-git-commit: e88ba99174bf84de9b58a61ae8c22c0bbd7ed9bf
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '993'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 5%
 # Nutzung von Adobe Experience Platform-Agentenvorgängen und KI-Credits
 
 Erfahren Sie mehr über agentische KI-Aufträge und die Verwendung von KI-Krediten in CX Enterprise-Anwendungen. Informationen zur Aktivierung der Agent-KI-Funktionen in vorhandenen CX Enterprise-Anwendungen finden Sie unter [Agent-KI in CX Enterprise](agentic-ai.md#existing-apps).
+
+## Neue Funktionen
+
+| Funktion | Beschreibung |
+| --- | --- |
+| [CX Enterprise Agent KI-Funktionskatalog](https://agentic-capability-explorer.entapp.adproto.com/) | Erfahren Sie, welche Agent-KI-Aufträge in Ihren lizenzierten CX Enterprise-Apps verfügbar sind. |
 
 ## Agentenaufträge
 
@@ -35,6 +41,8 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 * Einfache (oft einstufige) Aufgaben verbrauchen weniger Guthaben
 * Komplexe (oft mehrstufige) Aufgaben verbrauchen mehr Guthaben
 * Aufgaben mit erweitertem Argumentieren, Validierung, Koordination mit mehreren Agenten oder Integration verbrauchen mehr Credits
+
+**Hinweis:** Der [CX Enterprise Agent AI Capability Catalog](https://agentic-capability-explorer.entapp.adproto.com/) hilft Ihnen auch dabei, herauszufinden, welche agentischen KI-Aufträge in Ihren lizenzierten CX Enterprise-Apps verfügbar sind.
 
 ### Geschätzte KI-Kreditverbrauchsraten
 
@@ -64,4 +72,4 @@ Die Verwendung von KI-Guthaben kann je nach Komplexität und Wert des ausgeführ
 
 * [GenAI in CX Enterprise](/help/interface/features/generative-ai.md)
 * [Agent-KI in CX Enterprise](/help/interface/features/agentic-ai.md)
-* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
+* [Benutzergebundene Testversion für Adobe Experience Platform-Agenten](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/trial)
