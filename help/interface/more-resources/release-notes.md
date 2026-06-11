@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
+source-git-commit: e934d8cc7aab9e9e5529220a989ef176505b0397
 workflow-type: tm+mt
-source-wordcount: 1500
-ht-degree: 50%
+source-wordcount: 1559
+ht-degree: 54%
 
 ---
 
@@ -46,6 +46,7 @@ Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versions
 
 | Datum | Update | Beschreibung |
 | ------- | ------- | ------- |
+| &#x200B;11. Juni 2026 | CX Enterprise-Mitarbeiter (allgemeine Verfügbarkeit) | CX Enterprise Coworker ist eine agentische KI-Anwendung, die End-to-End-Workflows für das Kundenerlebnis automatisiert. Es erkennt Signale, erstellt Zielgruppen und startet Kampagnen mit integrierter Governance in Stunden. Dokumentation in Kürze verfügbar. |
 | &#x200B;1. Juni 2026 | Überwachung der Nutzung der agenten KI | CX Enterprise bietet jetzt Dashboards zur Überwachung der Nutzung der Agent-KI in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung der KI-Kreditnutzung für Experience Platform-Agenten, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten Übersicht, Benutzer, Feedback und KI-Credits helfen den Verantwortlichen für die Governance, die Akzeptanz der Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](../features/monitoring.md)AI-Überwachung für Agenten“. |
 
 ## April 2026
@@ -88,7 +89,7 @@ Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versions
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Anpassbare Startseite | Klicken Sie auf der Startseite von CX Enterprise auf **[!UICONTROL Edit]**. [!UICONTROL Edit] Modus können Sie Ihre CX Enterprise-Startseite mit Zugriff auf eine Widget-Bibliothek und benutzerdefinierte Hintergründe personalisieren. [!UICONTROL Edit] Modus bietet nahtlose, intuitive Steuerelemente zum Verschieben, Ändern der Größe und Verwalten von Widgets, einschließlich Massenaktionen und Layout-Anpassungen, die ein ästhetischeres und maßgeschneidertes Erlebnis bieten. |
+| Anpassbare Startseite | Klicken Sie auf der Startseite von CX Enterprise auf **[!UICONTROL Bearbeiten]**. [!UICONTROL Bearbeiten]-Modus können Sie Ihre Startseite von CX Enterprise mit Zugriff auf eine Widget-Bibliothek und benutzerdefinierte Hintergründe personalisieren. [!UICONTROL Bearbeiten]-Modus bietet nahtlose, intuitive Steuerelemente zum Verschieben, Ändern der Größe und Verwalten von Widgets, einschließlich Massenaktionen und Layout-Anpassungen, die ein ästhetischeres und maßgeschneidertes Erlebnis bieten. |
 
 ## Mittwoch, 10. September 2024
 
@@ -118,13 +119,13 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## Mai 2023
 
-* Im Menü [!DNL CX Enterprise] **[!UICONTROL Help]** wurde die Inhaltssuche aktualisiert, um in den [Experience League&rbrace;-](https://experienceleague.adobe.com/de?lang=de#home) nach Anwendung zu filtern.
+* Im **[!UICONTROL Hilfe]**-Menü von [!DNL CX Enterprise] wurde die Inhaltssuche aktualisiert, um in den [Experience League](https://experienceleague.adobe.com/de?lang=de#home)-Suchergebnissen nach Anwendung zu filtern.
 
 ## Juli 2022
 
 | Funktion | Beschreibung |
 | ------- | ------- |
-| Einheitliche Startseite – Widget für Schnellzugriff | **Schnellere Navigation:** Sie können jetzt Ihre Startseite weiter personalisieren und entscheiden, welche Anwendungen immer griffbereit sein sollen. Verwenden Sie die neue Anheft-Funktion, um festzulegen, welche Programme im [!UICONTROL Quick Access] vorne und in der Mitte angezeigt werden sollen. <br>**Bleiben Sie mit der intelligenten Anheft-Funktion auf dem Laufenden:** Ihre neuen Anwendungen sind jetzt einfacher zu finden. Neu zugewiesene Anwendungen erhalten die Kennzeichnung _Neu_ und werden automatisch an [!UICONTROL Quick Access] angeheftet. |
+| Einheitliche Startseite – Widget für Schnellzugriff | **Schnellere Navigation:** Sie können jetzt Ihre Startseite weiter personalisieren und entscheiden, welche Anwendungen immer griffbereit sein sollen. Verwenden Sie die neue Anheft-Funktion, um festzulegen, welche Anwendungen beim [!UICONTROL Schnellzugriff] im Vordergrund angezeigt werden sollen. <br>**Bleiben Sie mit der intelligenten Anheft-Funktion auf dem Laufenden:** Ihre neuen Anwendungen sind jetzt einfacher zu finden. Neu zugewiesene Anwendungen erhalten die Kennzeichnung _Neu_ und werden automatisch im [!UICONTROL Schnellzugriff] angeheftet. |
 
 {style="table-layout:auto"}
 
@@ -140,7 +141,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beschreibung |
 | ------- | -------|
-| Zugriff auf [!UICONTROL Recents] in Experience Platform und Journey Optimizer über die Suchleiste | Benutzer können nun über die einheitliche Suchleiste von jeder Seite von AEP und AJO aus auf zuletzt aufgerufene Objekte zugreifen. |
+| Auf [!UICONTROL Zuletzt verwendet] in Experience Platform und Journey Optimizer über die Suchleiste zugreifen | Benutzer können nun über die einheitliche Suchleiste von jeder Seite von AEP und AJO aus auf zuletzt aufgerufene Objekte zugreifen. |
 
 {style="table-layout:auto"}
 
@@ -148,7 +149,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beschreibung |
 | ------- | -------|
-| Tastaturbefehle (**[!UICONTROL Recents]**) zur Startseite von [CX Enterprise](https://experience.adobe.com/home) hinzugefügt | Unter der neuen Rubrik _Zuletzt verwendet_ auf der Landingpage können Sie auf Verknüpfungen zu Ihren letzten Arbeiten mit Journey Optimizer und Experience Platform zugreifen. Diese Aktualisierung beinhaltet auch allgemeine Verbesserungen hinsichtlich Layout und Reaktionsfähigkeit. |
+| Tastaturbefehle (**[!UICONTROL Zuletzt verwendet]** zur Startseite von [CX Enterprise](https://experience.adobe.com/home) hinzugefügt | Unter der neuen Rubrik _Zuletzt verwendet_ auf der Landingpage können Sie auf Verknüpfungen zu Ihren letzten Arbeiten mit Journey Optimizer und Experience Platform zugreifen. Diese Aktualisierung beinhaltet auch allgemeine Verbesserungen hinsichtlich Layout und Reaktionsfähigkeit. |
 | **[!UICONTROL Sandboxes]** in die Kopfzeilenleiste verschoben | Der Sandbox-Indikator ist jetzt für alle Programme der Experience Platform-Benutzeroberfläche in die Kopfzeile integriert. Siehe [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de) in Experience Platform für weitere Informationen. |
 
 {style="table-layout:auto"}
@@ -176,7 +177,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beschreibung |
 | ------- | -------|
-| [!UICONTROL Unified Recents] - Erweiterte Unterstützung für kürzlich aufgerufene Geschäftsobjekte | [!UICONTROL Unified Recents] wird auf zusätzliche Geschäftsobjekte in Journey Optimizer und Experience Platform erweitert. Journey Optimizer-Kunden können ihre kürzlich aufgerufenen Objekte (Nachrichten, Journeys, Segmente, Schemata, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele) über die Startseite von Adobe Journey Optimizer finden. |
+| [!UICONTROL Unified Recents] – Erweiterte Unterstützung für kürzlich aufgerufene Geschäftsobjekte | [!UICONTROL Unified Recents] wurde auf zusätzliche Geschäftsobjekte in Journey Optimizer und Experience Platform erweitert. Journey Optimizer-Kunden können ihre kürzlich aufgerufenen Objekte (Nachrichten, Journeys, Segmente, Schemata, Datensätze, Datenquellen, Ereignisse, Aktionen, Quellen und Ziele) über die Startseite von Adobe Journey Optimizer finden. |
 
 {style="table-layout:auto"}
 
@@ -189,7 +190,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 | Funktion | Datum | Beschreibung |
 | ------- | ------- | ------- |
 | Single-Sign-On-Unterstützung für Adobe Federated IDs | 17. Juni 2021 | Wenn Sie Federated IDs verwenden, können Sie sich bei CX Enterprise anmelden, ohne eine E-Mail-Adresse oder ein Passwort eingeben zu müssen. Um diese Funktion zu verwenden, fügen Sie `#/sso:@domain` zur CX Enterprise-URL hinzu. <br>Nehmen wir beispielsweise an, Sie sind der Eigentümer der Domain `example.com` und möchten sich bei Adobe Analytics anmelden. Die URL lautet: `https://experience.adobe.com/#/sso:@example.com/analytics`. |
-| Suche in Experience League | 1. Juni 2021 | Die Suche in der Dokumentation zu Experience Leaguen wurde verbessert. Navigieren Sie zu [Experience League](https://experienceleague.adobe.com/docs/?lang=de) und verwenden Sie das Feld **[!UICONTROL Search]** , um Tutorials, Dokumentationen, Kurse und mehr zu finden. |
+| Suche in Experience League | 1. Juni 2021 | Die Suche in der Dokumentation zu Experience Leaguen wurde verbessert. Navigieren Sie zu [Experience League](https://experienceleague.adobe.com/docs/?lang=de) und verwenden Sie das Feld **[!UICONTROL Suchen]**, um Tutorials, Dokumentationen, Kurse und mehr zu finden. |
 
 {style="table-layout:auto"}
 
