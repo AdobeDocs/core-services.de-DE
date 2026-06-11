@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: ae47fb846467d50b57764f525a359dfcf78cf597
+source-git-commit: 0c5f2ec6554118a19e4cfc82901eb76468fdceff
 workflow-type: tm+mt
-source-wordcount: 866
+source-wordcount: 917
 ht-degree: 2%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 2%
 # Dashboards zur Überwachung der agenten KI
 
 Das Überwachungs-Dashboard für die agentische KI bietet Mitgliedern des Kompetenzzentrums (Center of Excellence, COE) und anderen Governance-Stakeholdern Einblicke in die Nutzung und Akzeptanz der agentischen KI. Sie können Trends über einen Zeitraum von 7 oder 30 Tagen anzeigen, um zu sehen, wer [!DNL AI Assistant] oder andere Gesprächsoberflächen (z. B. [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) verwendet, um mit [!DNL Experience Platform Agents] zu interagieren, was sie bei diesen Interaktionen tun und welchen Wert sie erhalten. Zusammen helfen diese Ansichten Ihnen, die Akzeptanz von Agenten mit Daten anstelle von Annahmen zu steuern.
+
+**Verfügbarkeit**
+
+* Derzeit kann jedes Konto mit einer Lizenz für mindestens ein natives Experience Platform-Programm (Customer Journey Analytics, Journey Optimizer oder Real-Time CDP) auf dieses Dashboard zugreifen
+* Nutzungs- und Akzeptanzmetriken für [KI-First](agentic-ai.md#ai-first-cx-enterprise-applications)Anwendungen wie Experimentation Accelerator, LLM Optimizer, Sites Optimizer usw. sind für dieses Dashboard nicht verfügbar
 
 Das [!UICONTROL Monitoring]-Dashboard enthält die folgenden Ansichten:
 
