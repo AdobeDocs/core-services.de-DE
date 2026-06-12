@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e934d8cc7aab9e9e5529220a989ef176505b0397
+source-git-commit: 1c06d9c0e10cd0ac37329cd2c73a2adc493e53b6
 workflow-type: tm+mt
-source-wordcount: 1559
-ht-degree: 54%
+source-wordcount: 1553
+ht-degree: 55%
 
 ---
 
@@ -46,8 +46,8 @@ Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versions
 
 | Datum | Update | Beschreibung |
 | ------- | ------- | ------- |
-| &#x200B;11. Juni 2026 | CX Enterprise-Mitarbeiter (allgemeine Verfügbarkeit) | CX Enterprise Coworker ist eine agentische KI-Anwendung, die End-to-End-Workflows für das Kundenerlebnis automatisiert. Es erkennt Signale, erstellt Zielgruppen und startet Kampagnen mit integrierter Governance in Stunden. Dokumentation in Kürze verfügbar. |
-| &#x200B;1. Juni 2026 | Überwachung der Nutzung der agenten KI | CX Enterprise bietet jetzt Dashboards zur Überwachung der Nutzung der Agent-KI in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung der KI-Kreditnutzung für Experience Platform-Agenten, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten Übersicht, Benutzer, Feedback und KI-Credits helfen den Verantwortlichen für die Governance, die Akzeptanz der Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](../features/monitoring.md)AI-Überwachung für Agenten“. |
+| &#x200B;11. Juni 2026 | [!DNL CX Enterprise Coworker] (Allgemeine Verfügbarkeit) | CX Enterprise Coworker ist eine agentische KI-Anwendung, die End-to-End-Workflows für das Kundenerlebnis automatisiert. Coworker erkennt Signale, erstellt Zielgruppen und startet Kampagnen mit integrierter Governance in Stunden. Dokumentation in Kürze verfügbar. |
+| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Nutzung der Agent-KI in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung der KI-Kreditnutzung für Experience Platform-Agenten, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten Übersicht, Benutzer, Feedback und KI-Credits helfen den Verantwortlichen für die Governance, die Akzeptanz der Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](../features/monitoring.md)AI-Überwachung für Agenten“. |
 
 ## April 2026
 
