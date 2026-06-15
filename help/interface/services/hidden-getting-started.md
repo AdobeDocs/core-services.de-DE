@@ -186,13 +186,13 @@ Nutzen Sie die Vorteile folgender Funktionen.
 
 Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in CX Enterprise hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
-Weitere Informationen finden [ unter ](customer-attributes/attributes.md)Kundenattribute“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](customer-attributes/attributes.md)Kundenattribute“.
 
 ### [!UICONTROL Personen] > [!UICONTROL Zielgruppenbibliothek]
 
 CX Enterprise [!UICONTROL Audiences] ist die Benutzeroberfläche, mit der Sie Audiences erstellen, vorhandene Audiences kombinieren können, um zusammengesetzte Audiences zu erstellen, und alle freigegebenen Audiences anzeigen können.
 
-Weitere Informationen finden [ unter ](audiences/overview.md)Zielgruppen“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](audiences/overview.md)Zielgruppen“.
 
 ## Datenspeicherung und Datenschutz
 

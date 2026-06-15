@@ -10,11 +10,23 @@ role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
 TQID: https://experienceleague.adobe.com/LHiM5ewnknE-NdZ5oEJ4ZhBDL4x-jChzSQBIZOK15Hw
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: dab36b01-8bfa-48f3-8392-626455a058e6id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: d27b1945-f442-4607-91bd-537a0b16e687id: e53834d3-a86e-47ae-8257-15f5f3639855id: ecb4a972-6786-444c-a014-abc528b9407aid: f1299f18-ec4b-4531-b2a2-df3b94ff9a68id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: dab36b01-8bfa-48f3-8392-626455a058e6
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+  - id: d27b1945-f442-4607-91bd-537a0b16e687
+  - id: e53834d3-a86e-47ae-8257-15f5f3639855
+  - id: ecb4a972-6786-444c-a014-abc528b9407a
+  - id: f1299f18-ec4b-4531-b2a2-df3b94ff9a68
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 1c06d9c0e10cd0ac37329cd2c73a2adc493e53b6
 workflow-type: tm+mt
 source-wordcount: 1553
@@ -35,7 +47,7 @@ Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versions
 | Datum | Update | Beschreibung |
 | ------- | ------- | ------- |
 | &#x200B;11. Juni 2026 | [!DNL CX Enterprise Coworker] (Allgemeine Verfügbarkeit) | CX Enterprise Coworker ist eine agentische KI-Anwendung, die End-to-End-Workflows für das Kundenerlebnis automatisiert. Coworker erkennt Signale, erstellt Zielgruppen und startet Kampagnen mit integrierter Governance in Stunden. Dokumentation in Kürze verfügbar. |
-| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Nutzung der Agent-KI in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung der KI-Kreditnutzung für Experience Platform-Agenten, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten Übersicht, Benutzer, Feedback und KI-Credits helfen den Verantwortlichen für die Governance, die Akzeptanz der Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter ](../features/monitoring.md)AI-Überwachung für Agenten“. |
+| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Nutzung der Agent-KI in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung der KI-Kreditnutzung für Experience Platform-Agenten, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten Übersicht, Benutzer, Feedback und KI-Credits helfen den Verantwortlichen für die Governance, die Akzeptanz der Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](../features/monitoring.md)AI-Überwachung für Agenten“. |
 
 ## April 2026
 
@@ -83,7 +95,7 @@ Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versions
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen konfigurieren, um CX Enterprise-Benachrichtigungen an Slack zu senden. Detaillierte Informationen finden Sie unter {0 _Slack[Benachrichtigungen in der ](../features/account-preferences.md)-Hilfe._ |
+| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen konfigurieren, um CX Enterprise-Benachrichtigungen an Slack zu senden. Detaillierte Informationen finden Sie unter &lbrace;0 _Slack[Benachrichtigungen in der &#x200B;](../features/account-preferences.md)-Hilfe._ |
 
 <!--
 ## July - August 2023
@@ -188,7 +200,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 | ------- | ------- |
 | CX Enterprise - Header und Navigation | Adobe CX Enterprise-Updates enthalten eine Änderung des hellen Designs für die Kopfzeile. Sie können einfach wieder zu einem dunklen Design wechseln und erhalten einen Link zur Steuerung zusätzlicher Voreinstellungen von ihrem Benutzeravatar in der CX Enterprise-Kopfzeile. Obwohl nicht alle Anwendungen in CX Enterprise das Design unterstützen, wird durch diese Funktion die Unterstützung künftiger Designs freigeschaltet. |
 | CX Enterprise - Globale Suche | Mit dieser Version können Sie mit der globalen CX Enterprise-Suche nach allen [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Dokumentationen, -Kursen und -Tutorials suchen. (Derzeit steht die globale Suche nur Benutzern von Experience Platform zur Verfügung. Die globale Suche nach [!UICONTROL Platform] ermöglicht es Ihnen, in CX Enterprise nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
-| CX Enterprise-Spracheinstellungen | Dieses Update bietet die Möglichkeit, Ihre bevorzugten Sprachen in CX Enterprise ([) ](https://experience.adobe.com/preferences). |
+| CX Enterprise-Spracheinstellungen | Dieses Update bietet die Möglichkeit, Ihre bevorzugten Sprachen in CX Enterprise ([) &#x200B;](https://experience.adobe.com/preferences). |
 
 {style="table-layout:auto"}
 
@@ -196,7 +208,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Admin-Tool – Richtlinien | Auf dieser Seite wird eine vollständige Liste der CX Enterprise-Richtlinien in Ihrer Organisation angezeigt. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern. Detaillierte Informationen finden Sie in [CX Enterprise Admin ](../administration/admin-tool-experience-cloud.md)-Hilfe. |
+| Admin-Tool – Richtlinien | Auf dieser Seite wird eine vollständige Liste der CX Enterprise-Richtlinien in Ihrer Organisation angezeigt. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern. Detaillierte Informationen finden Sie in [CX Enterprise Admin &#x200B;](../administration/admin-tool-experience-cloud.md)-Hilfe. |
 
 {style="table-layout:auto"}
 
@@ -209,7 +221,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller CX Enterprise-Benutzer und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Detaillierte Informationen finden Sie in [CX Enterprise Admin ](../administration/admin-tool-experience-cloud.md)-Hilfe. |
+| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller CX Enterprise-Benutzer und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Detaillierte Informationen finden Sie in [CX Enterprise Admin &#x200B;](../administration/admin-tool-experience-cloud.md)-Hilfe. |
 
 {style="table-layout:auto"}
 

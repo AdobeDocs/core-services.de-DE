@@ -9,11 +9,18 @@ role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
 TQID: https://experienceleague.adobe.com/RC2C4CKPhWEO3O4k7baoAqknTj3qj-23Ic1bXtv2zP4
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
 source-wordcount: 474
@@ -45,7 +52,7 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in CX Enterp
    ![Creative Cloud-Benutzer hinzufügen](../../assets/asset-share-cc-page.png)
 
 1. Klicken Sie auf **[!UICONTROL Freigeben]**.
-1. Starten Sie den [!DNL Creative Cloud]-Desktop (oder navigieren Sie in einem Browser zur ] [!UICONTROL Creative Cloud-Dateien) und suchen Sie nach der Anfragebenachrichtigung.
+1. Starten Sie den [!DNL Creative Cloud]-Desktop (oder navigieren Sie in einem Browser zur  Creative Cloud-Dateien) und suchen Sie nach der Anfragebenachrichtigung.
 
    ![Benachrichtigung anfordern](../../assets/cc_share_request.png)
 1. Öffnen Sie die Anfrage und klicken Sie auf **[!UICONTROL Akzeptieren]**.
@@ -84,7 +91,7 @@ Zugehörige Hilfe:
 
 ## Informationen zur Asset-Freigabe für Adobe Target
 
-Beim Erstellen von Aktivitäten in [!DNL Adobe Target] können Sie ein freigegebenes Bild-Asset verwenden, wenn Sie Bilder in der [!UICONTROL Angebotsbibliothek“ ].
+Beim Erstellen von Aktivitäten in [!DNL Adobe Target] können Sie ein freigegebenes Bild-Asset verwenden, wenn Sie Bilder in der [!UICONTROL Angebotsbibliothek“ &#x200B;].
 
 Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in der [!DNL Target]-Hilfe.
 

@@ -52,7 +52,7 @@ CX Enterprise unterstützt bevorzugte Sprachen für jeden Benutzer, wie in den V
 * Spanisch
 * Taiwanesisch
 
-Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter &quot;[ Enterprise-Benutzervoreinstellungen“ ](https://experience.adobe.com/preferences) werden.
+Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter &quot;[&#x200B; Enterprise-Benutzervoreinstellungen“ &#x200B;](https://experience.adobe.com/preferences) werden.
 
 ## Bei CX Enterprise anmelden
 
@@ -113,7 +113,7 @@ Unter [!UICONTROL CX Enterprise-] können Sie die folgenden Funktionen konfiguri
 | Funktion | Beschreibung |
 | --- | --- |
 | Standardorganisation | Wählen Sie die Organisation aus, die beim Starten von CX Enterprise angezeigt werden soll. |
-| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop[!UICONTROL over ]Benachrichtigungen“ und in Ihren E-Mails. |
+| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop[!UICONTROL over &#x200B;]Benachrichtigungen“ und in Ihren E-Mails. |
 | [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
 | E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |
