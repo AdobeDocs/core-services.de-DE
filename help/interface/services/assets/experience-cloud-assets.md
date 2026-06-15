@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
 TQID: https://experienceleague.adobe.com/XJqrWBg6tscTfgoA02FlqgxaziNOb0fL1LvEdUv0Ot0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 69%
+source-wordcount: 330
+ht-degree: 67%
 
 ---
 
@@ -50,7 +43,7 @@ Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und b
 
 ## Auf die Symbolleiste zugreifen
 
-Navigieren Sie zu einem Asset (oder Asset-Verzeichnis) und klicken Sie auf **[!UICONTROL Select]**.
+Navigieren Sie zu einem Asset (oder Asset-Verzeichnis) und klicken Sie auf **[!UICONTROL Auswählen]**.
 
 Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche, Timeline, Darstellungen, Bearbeiten, Anmerkungen und Herunterladen.
 
@@ -78,13 +71,13 @@ Sie können nach Keyword, Dateityp, Größe, Änderungsdatum, Veröffentlichungs
 
 ## Anmerkungen zu Assets vornehmen
 
-Klicken Sie auf **[!UICONTROL Annotate]**, indem Sie Kreise oder Pfeile auf ein Bild zeichnen, und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
+Klicken Sie **[!UICONTROL Anmerken]** indem Sie Kreise oder Pfeile auf ein Bild zeichnen, und fügen Sie in das Asset Anmerkungen für Ihre Kollegen ein.
 
 ![Anmerkungen zu Assets vornehmen](../../assets/assets-annotate.png)
 
 ## Assets im Vollbildmodus anzeigen und Zoomen
 
-Klicken Sie auf **[!UICONTROL Views]** > **[!UICONTROL Image]** , um das vollständige Bild des Assets anzuzeigen und das Zoomen zu aktivieren.
+Klicken Sie auf **[!UICONTROL Ansichten]** > **[!UICONTROL Bild]**, um das vollständige Bild des Assets anzuzeigen und das Zoomen zu aktivieren.
 
 ![Assets im Vollbildmodus anzeigen](../../assets/asset-zoom.png)
 
@@ -92,7 +85,7 @@ Klicken Sie auf **[!UICONTROL Views]** > **[!UICONTROL Image]** , um das vollst�
 
 Treffen Sie eine Auswahl zwischen der Kartenansicht mit Eigenschaften, der Listenansicht und der Spaltenansicht, um Ihr Asset möglichst schnell zu finden.
 
-Klicken Sie auf **[!UICONTROL Views]** > **[!UICONTROL Properties]** , um die Eigenschaften eines Assets anzuzeigen:
+Klicken Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Eigenschaften]**, um die Eigenschaften eines Assets anzuzeigen:
 
 ![Asset-Eigenschaften anzeigen](../../assets/asset-properties.png)
 
@@ -100,6 +93,6 @@ Klicken Sie auf **[!UICONTROL Views]** > **[!UICONTROL Properties]** , um die Ei
 
 Anzahl der Benutzer, belegten Speicherplatz und Gesamtzahl der Assets anzeigen.
 
-Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+Klicken Sie **[!UICONTROL Tools]** > **[!UICONTROL Berichte]** > **[!UICONTROL Verwendungsbericht]**
 
 ![Gebrauchsberichte ausführen](../../assets/assets-usage-report.png)

@@ -10,8 +10,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 41%
+source-wordcount: '201'
+ht-degree: 35%
 
 ---
 
@@ -21,7 +21,7 @@ Beispiel
 
 Diese Dokumentation bezieht sich auf Funktionen des einheitlichen Headers in CX Enterprise, wie den [!DNL People]-Service ([!DNL Audience Library] und [!DNL Customer Attributes]), die Benutzer- und Produktverwaltung für CX Enterprise, Cookies, Kontovoreinstellungen, Benachrichtigungen und so weiter.
 
-Um auf diese Services in CX Enterprise zuzugreifen, wählen Sie die **[!UICONTROL Application Selector]**
+Um auf diese Services in CX Enterprise zuzugreifen, klicken Sie auf die **[!UICONTROL Anwendungsauswahl]**
 ![Dienstauswahl](../assets/apps-icon.png).
 
 ![CX Enterprise-Services](../assets/platform-core-services.png)
