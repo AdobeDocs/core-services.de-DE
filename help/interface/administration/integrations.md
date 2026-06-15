@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1116
 ht-degree: 31%
 
 ---
@@ -48,7 +48,7 @@ Beschreibt Folgendes:
 * Stellen Sie Ihr Unternehmen in CX Enterprise bereit.
 * Wie Sie Administrator werden können.
 * [Implementieren des CX Enterprise ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
-* Modernisieren Sie Ihre [!DNL Analytics]- und [!DNL Target]-Implementierungen über [!UICONTROL Platform Data Collection].
+* Modernisieren Sie Ihre [!DNL Analytics]- und [!DNL Target]-Implementierungen über [!UICONTROL Platform-Datenerfassung].
 * Verwenden Sie zunächst CX Enterprise-Services wie [Kundenattribute](../services/customer-attributes/attributes.md) und [Zielgruppenbibliothek](../services/audiences/overview.md).
 
 Lösungen oder Dienste:
@@ -73,7 +73,7 @@ Siehe [CX Enterprise ID-Service](https://experienceleague.adobe.com/docs/id-serv
 
 Hilfe: [Zielgruppen](/help/interface/services/audiences/overview.md)
 
-Erstellen und Verwalten von Audiences in CX Enterprise [!UICONTROL Audience Library]. Zielgruppen können aus verschiedenen Quellen erstellt bzw. abgeleitet werden:
+Erstellen und Verwalten von Zielgruppen in CX Enterprise [!UICONTROL Audience Library]. Zielgruppen können aus verschiedenen Quellen erstellt bzw. abgeleitet werden:
 
 * Neue in [!DNL CX Enterprise] erstellte .
 * Von [!DNL Analytics] in [!DNL CX Enterprise] veröffentlichten Segmenten.

@@ -15,8 +15,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 54
-ht-degree: 42%
+source-wordcount: 60
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 42%
 
 Löschen und Ersetzen von Attributen im Schema.
 
-1. Klicken Sie auf der Seite [!UICONTROL Edit Customer Attribute Source] auf Abonnements konfigurieren .
+1. Klicken [!UICONTROL &#x200B; auf der Seite „Kundenattribut-Source bearbeiten] auf Abonnements konfigurieren.
 
 1. Entfernen Sie zugeordnete Werte für **[!UICONTROL Target]** oder **[!UICONTROL Analytics]**.
 

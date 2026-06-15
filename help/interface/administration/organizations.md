@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 585
-ht-degree: 33%
+source-wordcount: 598
+ht-degree: 32%
 
 ---
 
@@ -36,7 +36,7 @@ Die Organisation agiert als Anmeldeunternehmen, das alle CX Enterprise-Produkte 
 
 ![CX Enterprise-Organisationen](../assets/organizations-menu.png)
 
-Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf **[!UICONTROL Profile]** , um den Standardorganisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
+Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet haben, klicken Sie auf **[!UICONTROL Profil]**, um den standardmäßigen Organisationsnamen anzuzeigen. Wenn Sie Zugriff auf mehr als eine Organisation haben, können Sie in der Kopfzeilenleiste auch eine andere Organisation anzeigen und zu dieser wechseln.
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domai
 
 ## Organisations-ID anzeigen
 
-Sie können die zugewiesene Organisations-ID zu Support-Zwecken finden. Mit der **[!UICONTROL Organization]** in der Kopfzeile können Sie überprüfen, ob Sie sich in der richtigen Organisation befinden, und Organisationen wechseln.
+Sie können die zugewiesene Organisations-ID zu Support-Zwecken finden. Mit der Auswahl „Organisation“ in der Kopfzeile können Sie überprüfen **[!UICONTROL ob Sie sich in der richtigen]** befinden, oder zwischen Organisationen wechseln.
 
 Die Organisations-ID ist die ID, die Ihrem bereitgestellten CX Enterprise-Unternehmen zugeordnet ist. Diese ID besteht aus einer 24-stelligen alphanumerischen Zeichenfolge gefolgt von `@AdobeOrg` (zwingend erforderlich).
 
@@ -62,7 +62,7 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
    ![Zugewiesene Organisations-ID](../assets/assigned-organization.png)
 
-1. Suchen Sie unter **[!UICONTROL User Information]** nach **[!UICONTROL Current Org ID]** und Sie können die Organisations-ID finden.
+1. Suchen Sie **[!UICONTROL Benutzerinformationen]** nach **[!UICONTROL Aktuelle Organisations-ID]**, und Sie können die Organisations-ID finden.
 
    Alternativ können sich Administratoren auch bei der Admin Console anmelden (navigieren Sie zu [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) und Ihre Organisations-ID in der URL sehen.
 
@@ -82,7 +82,7 @@ In der Regel gewähren CX Enterprise-Administratoren Zugriff auf Programme und S
 
 1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
 
-1. Klicken Sie auf die **[!UICONTROL Application selector]**. ( ![Menü](../assets/apps-icon.png)).
+1. Klicken Sie auf **[!UICONTROL Anwendungsauswahl]**. ( ![Menü](../assets/apps-icon.png)).
 
    ![Verknüpfen eines Programmkontos mit einer Adobe ID](../assets/solutions-active.png)
 
@@ -94,15 +94,15 @@ In der Regel gewähren CX Enterprise-Administratoren Zugriff auf Programme und S
 
    Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldedaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
 
-1. Klicken Sie auf **[!UICONTROL Link Account]** und geben Sie Ihre Anmeldeinformationen ein.
+1. Klicken Sie **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
 
 ## Standardorganisation angeben
 
 Sie können bei der Anmeldung eine Standardorganisation angeben.
 
-1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profile]** und dann auf Voreinstellungen.
+1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profil]** und dann auf Voreinstellungen.
 
-1. Wählen Sie unter [!UICONTROL General] eine Standardorganisation aus.
+1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Standardorganisation aus.
 
 
 ![Profil bearbeiten](../assets/edit-profile.png)

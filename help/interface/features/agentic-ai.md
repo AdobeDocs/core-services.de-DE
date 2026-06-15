@@ -1,5 +1,5 @@
 ---
-title: Agent-KI in Experience Cloud-Anwendungen
+title: Agent-KI in Experience Cloud-Programmen
 description: Erfahren Sie, wo in CX Enterprise-Anwendungen agentische KI verfügbar ist.
 solution: Experience Cloud
 landing-page-name: ai

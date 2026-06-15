@@ -24,20 +24,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 639
-ht-degree: 84%
+source-wordcount: 660
+ht-degree: 81%
 
 ---
 
-# [!UICONTROL Unified Search] in CX Enterprise
+# [!UICONTROL Einheitliche Suche] in CX Enterprise
 
-Die [!UICONTROL Unified Search] Suche ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten Erlebnis mit einem Klick zu finden. Diese Suche zeigt auch die Objekte an, auf die Sie zuletzt zugegriffen haben.
+Die [!UICONTROL einheitliche Suche] ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten Erlebnis mit einem Klick zu finden. Diese Suche zeigt auch die Objekte an, auf die Sie zuletzt zugegriffen haben.
 
 ![Globale Suche nach Objekten und Entitäten](../assets/platform-search.png)
 
-## Zugreifen auf [!UICONTROL Unified Search]
+## Zugreifen auf [!UICONTROL Einheitliche Suche]
 
-[!UICONTROL Unified Search] ist auf jeder Seite in der CX Enterprise-Kopfzeile oben auf der Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
+[!UICONTROL Einheitliche Suche] ist auf jeder Seite in der CX Enterprise-Kopfzeile am oberen Seitenrand verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
 
 Diese Funktion ist nur für unterstützte Produkte verfügbar – derzeit die folgenden:
 
@@ -56,7 +56,7 @@ Ihre Fähigkeiten und Objektberechtigungen
 Prozentsatz der Übereinstimmung
 Gibt an, ob eine exakte Übereinstimmung vorliegt
 
-![[!UICONTROL Unified Search] in CX Enterprise](../assets/unified-search-results.png)
+![[!UICONTROL Einheitliche Suche] in CX Enterprise](../assets/unified-search-results.png)
 
 Zu den durchsuchbaren Geschäftsobjekten gehören:
 
@@ -75,23 +75,23 @@ Wenn ein Keyword zu einer Navigationsseite passt, können Sie einen Schnellzugri
 
 Sie finden die Hilfeartikel auch in Experience League und Communities. Abfragen in natürlicher Sprache werden unterstützt.
 
-Beispielsweise liefert _Erstellen eines Schemas_ Ergebnisse von Experience League unter _[!UICONTROL Learning]_:
+Beispielsweise liefert _Erstellen eines Schemas_ Ergebnisse von Experience League unter _[!UICONTROL Lernen]_:
 
-![[!UICONTROL Unified Search] in der Hilfe zu CX Enterprise](../assets/unified-search-learning.png)
+![[!UICONTROL Einheitliche Suche] in der Hilfe zu CX Enterprise](../assets/unified-search-learning.png)
 
 Suchalgorithmen zeigen zuerst die relevantesten Einträge an. Die Reihenfolge der Ergebnisse hängt von verschiedenen Faktoren ab, z. B.:
 
 * Benutzerberechtigungen für den Zugriff auf Objekte
 * Prozentsatz der Übereinstimmung
 * Exakte Übereinstimmungen
-* Der Abschnitt _[!UICONTROL Top Results]_&#x200B;zeigt die 30 besten Ergebnisse.
+* Der Abschnitt _[!UICONTROL Top-Ergebnisse]_ zeigt die 30 besten Ergebnisse.
 
 Um die Suche zu verfeinern, klicken Sie auf eine der folgenden Optionen:
 
-* **[!UICONTROL All Learning]**: Öffnet die Suche in Experience League.
-* **[!UICONTROL Show all...]**: Ermöglicht die weitere Verfeinerung und Filterung der Ergebnisse.
+* **[!UICONTROL Alle]**: Öffnet die Suche in Experience League.
+* **[!UICONTROL Alle anzeigen…]**: Ermöglicht die weitere Verfeinerung und Filterung der Ergebnisse.
 
-## [!UICONTROL Unified Search] Funktionen
+## [!UICONTROL Einheitliche Suche] Funktionen
 
 Die folgenden Funktionen sind in der einheitlichen Suche verfügbar.
 

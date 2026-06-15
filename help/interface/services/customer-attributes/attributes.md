@@ -25,14 +25,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 313
-ht-degree: 47%
+source-wordcount: 318
+ht-degree: 46%
 
 ---
 
 # [!DNL Customer Attributes] in CX Enterprise
 
-**[!UICONTROL Apps]** ![Menü](assets/menu-icon.png) > **[!DNL Customer Attributes]**
+**[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
 [!DNL Customer Attributes] in Adobe CX Enterprise können Sie Ihre erfassten Unternehmensdaten aus einer CRM-Datenbank (Customer Relationship Management) hochladen. Sie können [Daten hochladen](t-crs-usecase.md) in eine [!DNL Customer Attributes] Datenquelle in CX Enterprise und dann die Daten in [!DNL Adobe Analytics] und [!DNL Adobe Target] verwenden.
 
@@ -46,7 +46,7 @@ Das folgende Bild ist ein Beispiel für eine _Datendatei_ die Abonnentendaten f�
 
 ![Was sind Unternehmens-Kundendaten?](assets/01_crs_usecase.png)
 
-Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL CX Enterprise]** > **[!UICONTROL Customer Attributes]** erstellen.
+Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL CX Enterprise]** > **[!UICONTROL Kundenattribute]** erstellen.
 
 Weitere [&#x200B; zu diesem Workflow finden Sie unter &#x200B;](t-crs-usecase.md) von Kundenattributdaten hochladen .
 

@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 111
-ht-degree: 53%
+source-wordcount: 124
+ht-degree: 46%
 
 ---
 
@@ -34,8 +34,8 @@ CX Enterprise bietet Verwaltungstools für die Verwaltung genehmigter Creative C
 >
 >Hierfür müssen Sie Administrator sein.
 
-1. Klicken Sie in CX Enterprise auf **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
-1. Klicken Sie auf **[!UICONTROL Creative Cloud Asset Sharing]**.
-1. Klicken Sie auf **[!UICONTROL Add New User]**.  ![Neuen Benutzer hinzufügen](../../assets/mac_add_icon.png)
+1. Klicken Sie in CX Enterprise auf **[!UICONTROL Administration]** > **[!UICONTROL Creative Cloud-Mitarbeiter verwalten]**.
+1. Klicken Sie auf **[!UICONTROL Creative Cloud Asset-Freigabe]**.
+1. Klicken Sie **[!UICONTROL Neuen Benutzer hinzufügen]**.  ![Neuen Benutzer hinzufügen](../../assets/mac_add_icon.png)
 1. Geben Sie eine E-Mail-Adresse, einen Anzeigenamen und einen Titel ein und fügen Sie optional einen Avatar hinzu.
-1. Klicken Sie auf **[!UICONTROL Create]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** aus.

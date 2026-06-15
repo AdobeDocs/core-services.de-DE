@@ -24,14 +24,14 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 60%
+source-wordcount: 549
+ht-degree: 56%
 
 ---
 
 # Erstellen einer Zielgruppe
 
-In [!UICONTROL Audience Library] können Sie Attributregeln verwenden, um eine Zielgruppe zu erstellen und eine gemischte Zielgruppe zu definieren, die in CX Enterprise-Anwendungen freigegeben werden kann.
+In [!UICONTROL Audience Library] können Sie Attributregeln verwenden, um eine Audience zu erstellen und eine gemischte Audience für die Freigabe in CX Enterprise-Anwendungen zu definieren.
 
 In diesem Artikel lernen Sie Folgendes:
 
@@ -60,22 +60,22 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 
 1. Klicken Sie auf [!DNL CX Enterprise] Apps ![Apps-Symbol](assets/apps-icon.png) und dann auf **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. Klicken Sie auf der [!UICONTROL Audiences] Seite auf **[!UICONTROL New]**. ![Neue Zielgruppe](assets/add_icon_small.png)
+1. Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
 
    ![Erstellen einer Zielgruppe](assets/audience_create_new.png)
 
-1. Füllen Sie auf der Seite [!UICONTROL Create New Audience] die Felder **[!UICONTROL Title]** und **[!UICONTROL Description]** aus.
-1. Wählen Sie unter [!UICONTROL Rules] eine Referenz-Report Suite und dann eine Attributquelle aus:
+1. Füllen Sie auf [!UICONTROL &#x200B; Seite „Neue Zielgruppe &#x200B;]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
+1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Referenz-Report Suite und dann eine Attributquelle aus:
 
-   * **[!UICONTROL Real-Time Analytics Data:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
+   * **[!UICONTROL Real-Time Analytics-Daten:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
 
      >[!NOTE]
      >
      >Aufgrund des Caching benötigen gelöschte Report Suites in Analytics 12 Stunden, bevor die Löschung in CX Enterprise angezeigt wird.
 
-   * **[!UICONTROL CX Enterprise:]** aus [!DNL CX Enterprise] Quellen abgeleitete Attributdaten. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
+   * **[!UICONTROL CX Enterprise:]** Attributdaten aus [!DNL CX Enterprise]. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 
-1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Save].**
+1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Speichern].**
 
 **Beispiel: Definieren von Regeln für eine gemischte Zielgruppe**
 
@@ -83,18 +83,18 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 >
 >Für die Erstellung von Zielgruppenregeln sollten Sie Ihre Implementierungsvariablen unbedingt kennen.
 
-Definieren Sie unter [!UICONTROL Rules] die Auswahl der *`Home & Garden`* Attribute:
+Definieren [!UICONTROL &#x200B; unter &quot;]&quot; die *`Home & Garden`* Attributauswahlen:
 
-* **[!UICONTROL Attribute Source:]** von Analytics-Rohdaten
-* Report Suite 31 **[!UICONTROL Report Suite:]**
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* **[!UICONTROL Attribut Source:]** Analytics-Rohdaten
+* **[!UICONTROL Report Suite:]** Report Suite 31
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Gleich]** > **[!UICONTROL Startseite und Garten]**
 
 ![Attributauswahlen in der Zielgruppenbibliothek](assets/home_garden.png)
 
 Die *Besucher von Chrome und Safari* sind ein in Analytics freigegebenes Zielgruppensegment:
 
-* **[!UICONTROL Attribute Source:]** CX Enterprise
-* Besuchende von Chrome und Safari **[!UICONTROL Dimension:]**
+* **[!UICONTROL Attribut Source:]** CX Enterprise
+* **[!UICONTROL Dimension:]** Besucher von Chrome und Safari
 
 ![Besucher von Chrome und Safari](assets/chrome_safari.png)
 

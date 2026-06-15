@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 40%
+source-wordcount: 249
+ht-degree: 39%
 
 ---
 
@@ -69,13 +69,13 @@ Darüber hinaus kann eine gebietsschemaspezifische Formatierung (z. B. Daten, Ze
 
 **So geben Sie eine Standardsprache an**
 
-1. Klicken Sie in CX Enterprise auf **[!UICONTROL Profile]** > [Voreinstellungen](https://experience.adobe.com/preferences).
+1. Klicken Sie in CX Enterprise auf **[!UICONTROL Profil]** > [Voreinstellungen](https://experience.adobe.com/preferences).
 
-1. Klicken Sie unter **[!UICONTROL Profile]** auf den Link Sprache .
+1. Klicken **[!UICONTROL unter &quot;]**&quot; auf den Link Sprache .
 
-1. Wählen Sie **[!UICONTROL Select language]** im Menü **[!UICONTROL First language]** eine Sprache aus.
+1. Wählen **[!UICONTROL auf]** Sprache auswählen“ eine Sprache aus dem Menü **[!UICONTROL Erste Sprache]** aus.
 
    Zwar verpflichten sich alle Anwendungsteams zur globalen Sprachunterstützung, doch werden nicht alle Anwendungen in allen in der Benutzeroberfläche aufgeführten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie ggf. eine sekundäre Standardsprache festlegen.
 
-1. Klicken Sie auf **[!UICONTROL Save]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

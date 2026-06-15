@@ -23,8 +23,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 308
-ht-degree: 43%
+source-wordcount: 345
+ht-degree: 39%
 
 ---
 
@@ -42,28 +42,28 @@ Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur
 
 1. Klicken Sie [!DNL Customer Attributes] auf die Attributquelle, die Sie bearbeiten möchten.
 
-1. Klicken Sie auf der **[!UICONTROL Edit Customer Attribute Source]** auf **[!UICONTROL File Upload]**.
+1. Klicken Sie auf der **[!UICONTROL Kundenattribut-Source bearbeiten]** auf **[!UICONTROL Datei-Upload]**.
 
-1. Klicken Sie auf der [!UICONTROL File Upload and Schema Validation] Seite auf **[!UICONTROL Actions]** > **[!UICONTROL View/Edit Schema]**
+1. Klicken Sie auf der Seite [!UICONTROL Datei-Upload und &#x200B;]-Validierung auf **[!UICONTROL Aktionen]** > **[!UICONTROL Schema anzeigen/bearbeiten]**
 
    ![Schema bearbeiten](assets/actions.png)
 
-   Auf der Seite [!UICONTROL Edit Schema] stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
+   Auf der [!UICONTROL Schema bearbeiten] stellt jede Schemazeile eine Spalte der hochgeladenen CSV-Datei dar.
 
    ![Schemaseite in CX Enterprise bearbeiten](assets/schema-edit.png)
 
 **Aktionen**
 
-* **[!UICONTROL Add Data:]** Laden Sie neue Attributdaten in diese Datenquelle hoch.
+* **[!UICONTROL Daten hinzufügen]** Laden Sie neue Attributdaten in diese Datenquelle hoch.
 
-* **[!UICONTROL View/Edit Schema:]** Ordnen Sie den Attributdaten Anzeigenamen zu, wie im nächsten Schritt beschrieben.
+* **[!UICONTROL Schema anzeigen/bearbeiten]** Ordnen Sie den Attributdaten Anzeigenamen zu, wie im nächsten Schritt beschrieben.
 
-* **[!UICONTROL FTP Setup:]** Erstellen Sie Ihr FTP-Konto, um [Ihre Daten via FTP hochzuladen](t-upload-attributes-ftp.md) (optional).
+* **[!UICONTROL FTP-Einrichtung:]** Erstellen Sie Ihr FTP-Konto, um [Ihre Daten via FTP hochzuladen](t-upload-attributes-ftp.md) (optional).
 
-* **[!UICONTROL ID Lookup:]** Geben Sie eine Kunden-ID (CID) aus Ihrem `.csv` ein, um CX Enterprise-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
+* **[!UICONTROL ID-Suche]** Geben Sie eine Kunden-ID (CID) aus Ihrem `.csv` ein, um CX Enterprise-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
 
    * **[!UICONTROL ECID (CX Enterprise ID):]** Wird angezeigt, wenn Sie den neuesten CX Enterprise ID-Service verwenden. Wenn Sie den MCID-Service verwenden, aber hier keine IDs aufgeführt sind, hat CX Enterprise keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
 
-   * **[!UICONTROL CID (customer ID):]** Die dieser CID zugeordneten Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
+   * **[!UICONTROL CID (Kunden-ID):]** Die mit dieser CID verknüpften Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
 
-   * **[!UICONTROL AVID (Analytics visitor ID):]** Wird angezeigt, wenn Sie zum Hochladen von CIDs ein Prop oder eVar verwenden. Wenn diese IDs an CX Enterprise übergeben werden, werden hier alle Besucher-IDs angezeigt, die mit der eingegebenen CID verknüpft sind.
+   * **[!UICONTROL AVID (Analytics-Besucher-ID):]** Wird angezeigt, wenn Sie zum Hochladen von CIDs ein Prop oder eVar verwenden. Wenn diese IDs an CX Enterprise übergeben werden, werden hier alle Besucher-IDs angezeigt, die mit der eingegebenen CID verknüpft sind.

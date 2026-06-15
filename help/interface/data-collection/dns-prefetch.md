@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 350
-ht-degree: 77%
+source-wordcount: 352
+ht-degree: 76%
 
 ---
 
@@ -36,7 +36,7 @@ Browser verwenden den DNS-Vorabruf, um Domänennamen, die auf einer Webseite mit
 
 ## DNS-Vorabruf und Adobe CX Enterprise-Anwendungen
 
-Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen [!UICONTROL CX Enterprise]-Programmen und -Services funktioniert, da:
+Der DNS-Vorabruf funktioniert für statische, eingebettete Links auf einer Seite automatisch. Dies bedeutet auch, dass der automatische DNS-Vorabruf nicht mit verschiedenen Anwendungen und Services [!UICONTROL CX Enterprise] funktioniert, da:
 
 * Jedes Programm oder jeder Service von CX Enterprise generiert beim Laden der Seite dynamisch DNS-Aufrufe.
 * Der Browser kann Domain-Namen nicht in IP-Adressen auflösen, bevor diese Aufrufe durchgeführt werden.

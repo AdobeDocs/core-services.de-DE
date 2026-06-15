@@ -1,7 +1,7 @@
 ---
 description: Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Programme für programmübergreifende Services. Erfahren Sie, wie Sie CX Enterprise Services verwenden.
 solution: Experience Cloud
-title: Erste Schritte mit Experience Cloud Services
+title: Erste Schritte mit Experience Cloud-Services
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -33,8 +33,8 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 2150
-ht-degree: 44%
+source-wordcount: 2192
+ht-degree: 43%
 
 ---
 
@@ -48,7 +48,7 @@ Bestehende Kunden können ihre Anwendungsimplementierungen modernisieren und CX 
 
 Sobald Sie Administrator sind, können Sie sich unter [experience.adobe.com](https://experience.adobe.com) anmelden.
 
-Der **[!UICONTROL Admin Console]**-Link ist in der Menünavigation von CX Enterprise für die Verwaltung von Benutzern und Produktlizenzen verfügbar.
+Der Link **[!UICONTROL Admin Console]** ist in der Menünavigation von CX Enterprise verfügbar, um Benutzende und Produktlizenzen zu verwalten.
 
 ### Optional: Verknüpfen vorhandener Benutzerkonten {#link-accounts}
 
@@ -86,24 +86,24 @@ Um sich bei CX Enterprise anzumelden, müssen Ihre Benutzer:
      >
      >Migrieren Sie für [!DNL Target] beispielsweise von `mbox.js` zu „at.js“. Siehe [Aktualisieren von at.js 1. x zu at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=de).
 
-1. [Verwalten von Benutzern und &#x200B;](../administration/admin-console.md) in der [!UICONTROL Admin Console].
+1. [Verwalten von Benutzern und Produkten](../administration/admin-console.md) in der [!UICONTROL Admin Console].
 
 **Verwandt:** [Analytics und Target - Kunden-IDs synchronisieren](#sync-ids) (auf dieser Seite)
 
-## Implementieren des [!UICONTROL CX Enterprise ID Service]
+## Implementieren des [!UICONTROL CX Enterprise ID-Service]
 
-Die [!UICONTROL CX Enterprise ID Service] bietet eine gemeinsame ID für programmübergreifende Integrationen. Es bietet eine Domain-übergreifende Besucheridentifikation und einen Pfad für Geräte-/Browser-übergreifendes Targeting und die Personalisierung basierend auf CRM-Daten, die über [!DNL Customer Attributes] hochgeladen wurden.
+Der [!UICONTROL CX Enterprise ID Service] bietet eine gemeinsame ID für programmübergreifende Integrationen. Es bietet eine Domain-übergreifende Besucheridentifikation und einen Pfad für Geräte-/Browser-übergreifendes Targeting und die Personalisierung basierend auf CRM-Daten, die über [!DNL Customer Attributes] hochgeladen wurden.
 
-Die einfachste Methode zur Aktivierung der CX Enterprise Core Services besteht darin, sie automatisch für Analytics und Adobe Target über die [CX Enterprise ID Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de) in [!UICONTROL Experience Platform Launch] zu aktivieren.
+Die einfachste Methode zur Aktivierung von CX Enterprise Core Services besteht darin, sie automatisch für Analytics und Adobe Target über die [CX Enterprise ID Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de) in [!UICONTROL Experience Platform Launch] zu aktivieren.
 
 >[!NOTE]
 >
 >Die vollständige Hilfe zum CX Enterprise ID Service (ehemals Besucher-ID) finden Sie unter [CX Enterprise Identity Service - Übersicht](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de#intro).
 
 
-**Verwendet [!UICONTROL Experience Platform tags] nicht?**
+**Keine [!UICONTROL Experience Platform-Tags]?**
 
-Wenn Sie [!UICONTROL Experience Platform tags] nicht verwenden, implementieren Sie den ID-Service manuell über die JavaScript-Bereitstellung (`VisitorAPI.js`) wie folgt:
+Wenn Sie [!UICONTROL Experience Platform-Tags] nicht verwenden, implementieren Sie den ID-Service manuell über die JavaScript-Bereitstellung (`VisitorAPI.js`) wie folgt:
 
 | Aufgabe | Beschreibung |
 | --- | --- |
@@ -155,8 +155,8 @@ Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktual
 
 ## Aktualisieren der Implementierung von Adobe Target
 
-* Es wird empfohlen, eine [Adobe Target-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=de) in [!UICONTROL Experience Platform] Tags hinzuzufügen, damit der Bibliotheksabruf automatisch erfolgt. Sie können auch die [CX Enterprise ID Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de) für Adobe Target (und andere Programme) mithilfe von [!UICONTROL Experience Platform] Tags einrichten. Die [!UICONTROL CX Enterprise ID Service] Aktualisierung **ist erforderlich** damit Adobe Target die People -Services verwenden kann.
-* Wenn Sie keine [!UICONTROL Experience Platform] Tags verwenden, [&#x200B; Sie Ihre mbox-Bibliothek &#x200B;](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=de).
+* Es wird empfohlen, eine [Adobe Target-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=de) in [!UICONTROL Experience Platform]-Tags hinzuzufügen, damit der Bibliotheksabruf automatisch erfolgt. Sie können auch die [CX Enterprise ID Service-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=de) für Adobe Target (und andere Programme) mithilfe von [!UICONTROL Experience Platform] Tags einrichten. Das [!UICONTROL CX Enterprise ID Service]-Update **ist erforderlich** damit Adobe Target die People -Services verwenden kann.
+* Wenn Sie [!UICONTROL Experience Platform]-Tags nicht verwenden, [aktualisieren Sie Ihre mbox-Bibliothek](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=de) manuell.
 * Fordern Sie Zugriff auf Adobe Analytics als Berichtsquelle für [!DNL Adobe Target] an. Daten von [!DNL Target] und [!DNL Analytics] werden während der Verarbeitung bei demselben Server-Aufruf zusammengeführt, damit Besucher programmübergreifend verknüpft werden. Siehe [Analytics for Target-Implementierung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de).
 
   >[!IMPORTANT]
@@ -206,21 +206,21 @@ Benutzer, die der [!DNL Customer Attributes] hinzugefügt wurden, sehen auf der 
 
 Nutzen Sie die Vorteile folgender Funktionen.
 
-### [!UICONTROL Customer Attributes]
+### [!UICONTROL Kundenattribute]
 
 Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in CX Enterprise hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
 Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes)Kundenattribute“.
 
-### [!UICONTROL People] > [!UICONTROL Audience Library]
+### [!UICONTROL Personen] > [!UICONTROL Zielgruppenbibliothek]
 
-CX Enterprise [!UICONTROL Audiences] ist die Benutzeroberfläche, über die Sie Zielgruppen erstellen, vorhandene Zielgruppen kombinieren können, um zusammengesetzte Zielgruppen zu erstellen, und alle freigegebenen Zielgruppen anzeigen können.
+CX Enterprise [!UICONTROL Audiences] ist die Benutzeroberfläche, mit der Sie Audiences erstellen, vorhandene Audiences kombinieren können, um zusammengesetzte Audiences zu erstellen, und alle freigegebenen Audiences anzeigen können.
 
 Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/overview)Zielgruppen“.
 
 ## Datenspeicherung und Datenschutz
 
-Wenn Sie die Profilerstellung für Zielgruppen in Echtzeit und andere zentrale Services in der Adobe [!DNL CX Enterprise] nutzen, kann die Verwendung dieser Dienste Auswirkungen darauf haben, in welchem Datenzentrum (und Land) sich Ihre Daten befinden. Da [!DNL CX Enterprise] Audience Manager verwendet, müssen sich im [!UICONTROL People]-Service verwendete Daten auf Audience Manager-Servern in den USA befinden.
+Wenn Sie die Profilerstellung für Zielgruppen in Echtzeit und andere zentrale Services in der Adobe [!DNL CX Enterprise] nutzen, kann die Verwendung dieser Dienste Auswirkungen darauf haben, in welchem Datenzentrum (und Land) sich Ihre Daten befinden. Da [!DNL CX Enterprise] Audience Manager verwendet, müssen sich im Service [!UICONTROL People] verwendete Daten auf Audience Manager-Servern in den USA befinden.
 
 Wenn Sie Services verwenden, die über den [!UICONTROL People]-Service zur Verfügung gestellt werden, lauten von anderen Adobe-Produkten an das Zielgruppen-Management gesendeten Datentypen wie folgt:
 

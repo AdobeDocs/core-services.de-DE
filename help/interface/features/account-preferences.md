@@ -31,27 +31,27 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 294e1638dc175d94fcd01927dbc6e6caafddf3f6
 workflow-type: tm+mt
-source-wordcount: 802
-ht-degree: 5%
+source-wordcount: 841
+ht-degree: 4%
 
 ---
 
 # Kontovoreinstellungen und Benachrichtigungen
 
-Um die CX Enterprise-Voreinstellungen zu finden, klicken Sie **[!UICONTROL Profile]** ![Voreinstellungen](../assets/preferences-icon-sm.png) in der Kopfzeile und anschließend auf **[!UICONTROL Preferences]**.
+Um die CX Enterprise-Voreinstellungen zu finden, klicken Sie **[!UICONTROL Profil]** ![Voreinstellungen](../assets/preferences-icon-sm.png) in der Kopfzeile und anschließend auf **[!UICONTROL Voreinstellungen]**.
 
 ![Voreinstellungen](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
-Auf der Seite [!UICONTROL CX Enterprise preferences] können Sie die folgenden Kontofunktionen verwalten:
+Auf der Seite [!UICONTROL CX Enterprise-] können Sie die folgenden Kontofunktionen verwalten:
 
 | Funktion | Beschreibung |
 | --- | --- |
-| [!UICONTROL Profile] | Aktualisieren Sie Ihr [Adobe-Kontoprofil](https://account.adobe.com/profile). <p>Ihr Profilbild und Ihr Name werden angezeigt, wenn Sie sich bei Adobe.com, Adobe-Produkten und -Services und auf öffentlich zugänglichen Sites wie [!DNL Behance] anmelden. |
-| [!UICONTROL General] | Wählen Sie eine [Organisation](../administration/organizations.md) aus.<p>Diese Organisation wird standardmäßig bei der Anmeldung bei CX Enterprise verwendet. |
-| [!UICONTROL Product usage data] | Sie können steuern, welche Produktnutzungsdaten für Adobe freigegeben werden, wenn Sie CX Enterprise-Anwendungen verwenden. Hierbei handelt es sich um Daten darüber, wie Sie unsere Produkte verwenden, nicht um die Inhalte oder Daten Ihres Unternehmens selbst. Adobe verwendet diese Informationen, um Sie bei der Verbesserung unserer Produkte zu unterstützen, Ihnen einen erweiterten produktinternen Support bereitzustellen und Ihre Erfahrungen und Mitteilungen von uns zu personalisieren. <p>Weitere Informationen finden Sie [Produktnutzungsdaten](#product-usage-data) (auf dieser Seite). |
-| [!UICONTROL Notifications] | Konfigurieren Sie, wie und wann Sie Produkt[Benachrichtigungen &#x200B;](#subscribe-to-notifications-in-experience-cloud) Warnhinweise wünschen: <ul><li>Wählen Sie die Produkte aus, die Sie für Warnhinweise abonnieren möchten</li><li>Benachrichtigungstyp konfigurieren ([!UICONTROL in-app], [!UICONTROL email] oder [Slack](#slack-notifications))</li><li>Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich)</li><li>Bestimmen Sie die Warnhinweispriorität. In-App-Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. Sie können auch festlegen, ob Warnhinweise angezeigt werden sollen, bis Sie sie schließen.</li></ul> |
+| [!UICONTROL Profil] | Aktualisieren Sie Ihr [Adobe-Kontoprofil](https://account.adobe.com/profile). <p>Ihr Profilbild und Ihr Name werden angezeigt, wenn Sie sich bei Adobe.com, Adobe-Produkten und -Services und auf öffentlich zugänglichen Sites wie [!DNL Behance] anmelden. |
+| [!UICONTROL Allgemein] | Wählen Sie eine [Organisation](../administration/organizations.md) aus.<p>Diese Organisation wird standardmäßig bei der Anmeldung bei CX Enterprise verwendet. |
+| [!UICONTROL Produktnutzungsdaten] | Sie können steuern, welche Produktnutzungsdaten für Adobe freigegeben werden, wenn Sie CX Enterprise-Anwendungen verwenden. Hierbei handelt es sich um Daten darüber, wie Sie unsere Produkte verwenden, nicht um die Inhalte oder Daten Ihres Unternehmens selbst. Adobe verwendet diese Informationen, um Sie bei der Verbesserung unserer Produkte zu unterstützen, Ihnen einen erweiterten produktinternen Support bereitzustellen und Ihre Erfahrungen und Mitteilungen von uns zu personalisieren. <p>Weitere Informationen finden Sie [Produktnutzungsdaten](#product-usage-data) (auf dieser Seite). |
+| [!UICONTROL Benachrichtigungen] | Konfigurieren Sie, wie und wann Sie Produkt[Benachrichtigungen &#x200B;](#subscribe-to-notifications-in-experience-cloud) Warnhinweise wünschen: <ul><li>Wählen Sie die Produkte aus, die Sie für Warnhinweise abonnieren möchten</li><li>Benachrichtigungstyp konfigurieren ([!UICONTROL In-App], [!UICONTROL Email] oder [Slack](#slack-notifications))</li><li>Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich)</li><li>Bestimmen Sie die Warnhinweispriorität. In-App-Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. Sie können auch festlegen, ob Warnhinweise angezeigt werden sollen, bis Sie sie schließen.</li></ul> |
 
-## [!UICONTROL Product usage data]
+## [!UICONTROL Produktnutzungsdaten]
 
 Produktverwendungsdaten, die Sie für Adobe freigeben, enthalten die folgenden Arten von Informationen darüber, wie Sie Adobe-Programme verwenden und mit ihnen interagieren:
 
@@ -66,7 +66,7 @@ Adobe verwendet diese Informationen, um Sie bei der Verbesserung unserer Produkt
 
 ## Abonnieren von Benachrichtigungen in CX Enterprise
 
-Sie können die Produkte und Kategorien auswählen, die Sie abonnieren möchten. Benachrichtigungen werden im [!UICONTROL Notifications]-Popover (in-App), in Ihrer E-Mail oder in [Slack](#slack-notifications) angezeigt (je nach Ihren Abonnements).
+Sie können die Produkte und Kategorien auswählen, die Sie abonnieren möchten. Benachrichtigungen werden im [!UICONTROL Benachrichtigungen]-Pop-up (in-App), in Ihrer E-Mail oder in [Slack](#slack-notifications) angezeigt (je nach Ihren Abonnements).
 
 E-Mail- und Slack-Benachrichtigungen sind nützlich in Situationen, in denen Sie nicht bei CX Enterprise angemeldet sind.
 
@@ -74,7 +74,7 @@ E-Mail- und Slack-Benachrichtigungen sind nützlich in Situationen, in denen Sie
 
 1. Navigieren Sie zu CX Enterprise [Voreinstellungen](https://experience.adobe.com/preferences).
 
-1. Aktivieren Sie unter **[!UICONTROL Notifications]** die Option **[!UICONTROL In-app]** oder **[!UICONTROL Email]**.
+1. Aktivieren **[!UICONTROL unter &quot;]** Benachrichtigungen“ **[!UICONTROL In-App]** oder **[!UICONTROL E-Mail]**.
 
    Änderungen an Benachrichtigungen werden automatisch gespeichert.
 
@@ -92,15 +92,15 @@ Sie können Ihre Kontovoreinstellungen so konfigurieren, dass CX Enterprise-Bena
 
 1. Navigieren Sie zu CX Enterprise [Voreinstellungen](https://experience.adobe.com/preferences).
 
-1. Suchen Sie nach [!DNL Slack] und klicken Sie dann auf **[!UICONTROL Add to Slack]**.
+1. Suchen Sie nach [!DNL Slack] und klicken Sie dann auf **[!UICONTROL Zu Slack hinzufügen]**.
 
    ![Zu Slack hinzufügen](../assets/add-to-slack.png)
 
    Wenn [!DNL Slack] installiert ist, wird die Anwendung geöffnet und eine Meldung über eine Berechtigungsanfrage wird angezeigt. Wenn Slack nicht installiert ist, müssen Sie [Berechtigung anfordern](#slack-troubleshoot).
 
-1. Klicken Sie auf **[!UICONTROL Allow]**.
+1. Klicken Sie **[!UICONTROL Zulassen]**.
 
-1. Aktivieren Sie unter **[!UICONTROL Notifications]** die Option [!DNL Slack] Benachrichtigungen für Ihre gewünschten Produkte und Kategorien.
+1. Aktivieren **[!UICONTROL unter]** Benachrichtigungen“ [!DNL Slack] Benachrichtigungen für Ihre gewünschten Produkte und Kategorien.
 
    ![Slack-Benachrichtigungen](../assets/slack.png)
 
@@ -108,19 +108,19 @@ Sie können Ihre Kontovoreinstellungen so konfigurieren, dass CX Enterprise-Bena
 
 ### Berechtigung in [!DNL Slack] anfordern (Fehlerbehebung)
 
-Wenn [!DNL Slack] nicht installiert ist, wird beim Öffnen von Slack nach dem Klicken auf **[!UICONTROL Add to Slack]** eine _[!UICONTROL Request to install]_&#x200B;angezeigt. Beispiel:
+Wenn [!DNL Slack] nicht installiert ist, wird die Meldung _[!UICONTROL Installationsanfrage]_ angezeigt, wenn Slack geöffnet wird, nachdem auf **[!UICONTROL Zu Slack hinzufügen]** geklickt wurde. Beispiel:
 
 ![Slack-Integration anfordern](../assets/slack-workspace.png)
 
 **So fordern Sie Berechtigungen in Slack an**
 
-1. Wählen Sie in [!DNL Slack] den Arbeitsbereich aus dem Menü **[!UICONTROL Workspace]** (obere rechte Ecke).
+1. Wählen Sie in [!DNL Slack] den Arbeitsbereich aus dem Menü **[!UICONTROL Workspace]** (oben rechts).
 
-1. Um die Genehmigung des Programms für den [!DNL Slack] Workspace Manager anzufordern, klicken Sie auf **[!UICONTROL Submit]**.
+1. Um die Genehmigung des Antrags für den [!DNL Slack] Workspace Manager anzufordern, klicken Sie auf **[!UICONTROL Senden]**.
 
 1. Sie erhalten eine Benachrichtigung in [!DNL Slack], nachdem die Antragsanforderung genehmigt wurde.
 
-1. Nachdem Sie [!DNL Slack] Genehmigung erhalten haben, kehren Sie zu CX Enterprise **[!UICONTROL Notifications]** zurück und führen Sie die Schritte zum [Abonnieren von Slack](#slack-notifications) (oben beschrieben) aus.
+1. Nachdem Sie [!DNL Slack] Genehmigung erhalten haben, kehren Sie zu CX Enterprise **[!UICONTROL Benachrichtigungen]** zurück und führen Sie die Schritte zum [Abonnieren von Slack](#slack-notifications) (oben beschrieben) aus.
 
 ### Was Sie in [!DNL Slack] sehen werden
 
@@ -131,13 +131,13 @@ Nach erfolgreicher Integration von [!DNL Slack] zeigen die [!DNL Slack]-Benachri
 * Ein Link, um alle Benachrichtigungen auf CX Enterprise anzuzeigen.
 * Ein Link zum Verwalten der Benachrichtigungseinstellungen für CX Enterprise.
 
-## Anzeigen von [!UICONTROL notifications] und Ankündigungen in CX Enterprise
+## Anzeigen [!UICONTROL Benachrichtigungen] und Ankündigungen in CX Enterprise
 
 In der [!DNL CX Enterprise] können Sie Benachrichtigungen, die Sie [abonniert](#notifications) sowie Ankündigungen anzeigen.
 
 1. Klicken Sie auf das Glockensymbol in der Kopfzeile. ![Benachrichtigungen und Ankündigungen](../assets/bell-icon.png)
 
-1. Klicken Sie auf **[!UICONTROL Notifications]** oder **[!UICONTROL Announcements]**.
+1. Klicken Sie **[!UICONTROL Benachrichtigungen]** oder **[!UICONTROL Ankündigungen]**.
 
    Hier erhalten Sie wichtige Informationen über Produkte, Ihre Zusammenarbeit mit anderen Benutzern und andere relevante Updates. Zu den Aktualisierungen gehören Produktversionen, Wartungshinweise, freigegebene Elemente und Genehmigungsanfragen.
 

@@ -25,8 +25,8 @@ topic_v2:
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 43%
+source-wordcount: 352
+ht-degree: 40%
 
 ---
 
@@ -36,7 +36,7 @@ Die Schnittstellenfunktionen von CX Enterprise werden manchmal als _Core Service
 
 Weitere freigegebene Funktionen sind die Administration (Benutzer- und Produktverwaltung) für CX Enterprise, Cookies, Kontovoreinstellungen, Benachrichtigungen usw.
 
-Um auf freigegebene Services und Anwendungen in CX Enterprise zuzugreifen, klicken Sie auf die Schaltfläche **[!UICONTROL Application Selector]**
+Um auf freigegebene Services und Anwendungen in CX Enterprise zuzugreifen, klicken Sie auf **[!UICONTROL Anwendungsselektor]**
 ![Dienstauswahl](../assets/apps-icon.png).
 
 **Anwendungsauswahl**
