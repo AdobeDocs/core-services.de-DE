@@ -9,31 +9,21 @@ role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
 TQID: https://experienceleague.adobe.com/1R70ZEmKiP9VhhSRVCXHjGoJbOb7Mh8spKRm4FgNRPc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 75%
+source-wordcount: 817
+ht-degree: 67%
 
 ---
 
 # CX Enterprise-Trigger
 
-Mit [!UICONTROL Trigger] in CX Enterprise können Sie wichtige Kundenverhaltensweisen identifizieren, definieren und überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden.
+Mit [!UICONTROL Trigger] in CX Enterprise können Sie wichtige Kundenverhaltensweisen identifizieren, definieren und überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. Weitere Informationen zur Verwendung von [!UICONTROL Trigger] mit Adobe Campaign finden Sie unter [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de).
 
 Beispiel:
 
@@ -45,7 +35,7 @@ Beispiel:
 
 >[!NOTE]
 >
->Weitere Informationen zur Verwendung von [!UICONTROL Triggern &#x200B;] finden Sie in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de).
+>Trigger sind nicht deterministisch. Wenn mehrere Benutzende einen Browser oder ein Gerät freigeben, z. B. ein freigegebenes oder ein öffentliches Gerät, ist es möglicherweise nicht möglich, einen Trigger der richtigen Besucher-ID zuzuordnen.
 
 ## Typen von Triggern
 
@@ -64,7 +54,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
 1. Klicken Sie in CX Enterprise auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Datenerfassung/Launch]**.
-1. Klicken Sie auf der Karte {}Trigger **[!UICONTROL auf &quot;Trigger verwalten]**.
+1. Klicken Sie auf der Karte {]}Trigger **[!UICONTROL auf &quot;Trigger verwalten]**.[!UICONTROL 
 1. Klicken Sie **[!UICONTROL Neuer Trigger]** und geben Sie dann den Typ des Triggers an:
 
    ![Schritt Ergebnis](../assets/add-trigger.png)
@@ -101,3 +91,6 @@ Der folgende Trigger wird ausgelöst, wenn ein Treffer mit dem Produkt „Herren
 
 ![Referrer-Trigger](../assets/fb-boots-promo.png)
 
+## Überprüfen der Trigger-Aktivität
+
+Um sicherzustellen, dass ein Trigger ausgelöst wurde, verwenden Sie die [!UICONTROL Trigger]-Schnittstelle, um die letzten Aktivitäten für den Trigger zu überprüfen. Auf der -Benutzeroberfläche wird eine begrenzte Anzahl von Trigger-Ereignissen der letzten Zeit angezeigt, sodass bei Implementierungen mit hohen Datenmengen möglicherweise nicht alle Trigger -Aktivitäten angezeigt werden. Die programmgesteuerte Überprüfung über eine API wird derzeit nicht unterstützt.
