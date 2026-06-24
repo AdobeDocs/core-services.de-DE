@@ -24,16 +24,16 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
 workflow-type: tm+mt
-source-wordcount: 726
-ht-degree: 75%
+source-wordcount: 817
+ht-degree: 67%
 
 ---
 
 # CX Enterprise-Trigger
 
-Mit [!UICONTROL Trigger] in CX Enterprise können Sie wichtige Kundenverhaltensweisen identifizieren, definieren und überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden.
+Mit [!UICONTROL Trigger] in CX Enterprise können Sie wichtige Kundenverhaltensweisen identifizieren, definieren und überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. Weitere Informationen zur Verwendung von [!UICONTROL Trigger] mit Adobe Campaign finden Sie unter [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de).
 
 Beispiel:
 
@@ -45,7 +45,7 @@ Beispiel:
 
 >[!NOTE]
 >
->Weitere Informationen zur Verwendung von [!UICONTROL Triggern &#x200B;] finden Sie in [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de).
+>Trigger sind nicht deterministisch. Wenn mehrere Benutzende einen Browser oder ein Gerät freigeben, z. B. ein freigegebenes oder ein öffentliches Gerät, ist es möglicherweise nicht möglich, einen Trigger der richtigen Besucher-ID zuzuordnen.
 
 ## Typen von Triggern
 
@@ -101,3 +101,6 @@ Der folgende Trigger wird ausgelöst, wenn ein Treffer mit dem Produkt „Herren
 
 ![Referrer-Trigger](../assets/fb-boots-promo.png)
 
+## Überprüfen der Trigger-Aktivität
+
+Um sicherzustellen, dass ein Trigger ausgelöst wurde, verwenden Sie die [!UICONTROL Trigger]-Schnittstelle, um die letzten Aktivitäten für den Trigger zu überprüfen. Auf der -Benutzeroberfläche wird eine begrenzte Anzahl von Trigger-Ereignissen der letzten Zeit angezeigt, sodass bei Implementierungen mit hohen Datenmengen möglicherweise nicht alle Trigger -Aktivitäten angezeigt werden. Die programmgesteuerte Überprüfung über eine API wird derzeit nicht unterstützt.
