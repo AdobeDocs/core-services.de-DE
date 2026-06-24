@@ -77,7 +77,7 @@ In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die als A
 ## Weitere Hilfe zu diesem Thema
 
 * [Agent-Vorgänge und KI-Kreditverbrauch](/help/interface/features/ai-credit-consumption.md)
-* [KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/ai)-Dokumentation - Startseite
+* [KI in CX Enterprise](https://experienceleague.adobe.com/de/docs/ai)-Dokumentation - Startseite
 * [Übersicht über Agenten in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)
 
 [!BADGE Weitere Informationen zu Adobe for Business]{type=Informative url="https://business.adobe.com/de/products/experience-platform/agent-orchestrator.html" tooltip="Navigieren Sie zu Business.adobe.com ."}

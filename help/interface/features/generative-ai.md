@@ -416,7 +416,7 @@ Integration von Marketo mit GenStudio for Performance Marketing
 <!--
 ## More help on this topic
 
-* [AI in CX Enterprise](https://experienceleague.adobe.com/en/docs/ai) documentation home
+* [AI in CX Enterprise](https://experienceleague.adobe.com/de/docs/ai) documentation home
 -->
 
 **Haftungsausschluss:** Die Informationen auf dieser Seite dienen nur allgemeinen Informationszwecken. Obwohl Anstrengungen unternommen werden, um sicherzustellen, dass die Informationen korrekt und aktuell bleiben, können sich die Funktionen von Software und generativer KI häufig ändern. Dementsprechend übernimmt Adobe keine Gewähr für die Vollständigkeit, Richtigkeit oder Zuverlässigkeit der Informationen. Bitte überprüfen Sie alle wichtigen Details, bevor Sie Entscheidungen auf der Grundlage dieses Inhalts treffen.
