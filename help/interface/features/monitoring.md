@@ -155,7 +155,7 @@ Das Dashboard „KI-Guthaben“ zeigt an, wie die Verwendung von [!DNL Experienc
 
 ## Weitere Hilfe zu diesem Thema
 
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [Agent-KI in Adobe CX Enterprise](agentic-ai.md)
 * [Agent-Vorgänge und KI-Kreditverbrauch](ai-credit-consumption.md)
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
