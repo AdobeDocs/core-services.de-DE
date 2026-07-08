@@ -17,10 +17,10 @@ subfeature_v2:
   - id: cda95149-19e1-4cfa-a57e-751283a32378
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 5c3f20052f8c0a847cd0c56f02697c1d749c040c
+source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
 workflow-type: tm+mt
-source-wordcount: 917
-ht-degree: 2%
+source-wordcount: 1009
+ht-degree: 3%
 
 ---
 
@@ -49,6 +49,14 @@ Die für die Nutzungsüberwachung verfügbaren Agenten werden unter [KI-Agenten 
 ## Dashboard-Berechtigungen aktivieren {#permissions}
 
 Gewähren des Dashboard-Zugriffs in [!DNL Adobe Experience Platform] durch Aktualisieren des Produktprofils oder der Rolle für jeden autorisierten Benutzer. Die [!UICONTROL Monitoring]-Funktion wird Benutzern auf der Startseite von CX Enterprise angezeigt, nachdem die Berechtigungen aktiviert wurden.
+
+>[!IMPORTANT]
+>
+>Überwachungsdaten sind nur in der standardmäßigen Produktions-Sandbox verfügbar. Entwicklungs-Sandboxes werden zum Anzeigen von Überwachungsdaten nicht unterstützt. Benutzer müssen über die erforderlichen Überwachungsberechtigungen für die standardmäßige Produktions-Sandbox verfügen und zu dieser Sandbox wechseln, um Überwachungsdaten anzuzeigen.
+>
+>Um Verwirrung zu vermeiden, empfiehlt Adobe, Überwachungsberechtigungen für alle Sandboxes zu erteilen, einschließlich der standardmäßigen Produktions-Sandbox. Dadurch wird sichergestellt, dass Benutzende unabhängig von der aktuell ausgewählten Sandbox auf das Überwachungs-Dashboard zugreifen können, und die Wahrscheinlichkeit verringert, eine nicht unterstützte Sandbox mit einem leeren oder nicht funktionierenden Dashboard zu verwechseln.
+
+**So aktivieren Sie Dashboard-Berechtigungen**
 
 1. Navigieren Sie zu [!DNL Experience Platform] **Administration** > **Berechtigungen**.
 
