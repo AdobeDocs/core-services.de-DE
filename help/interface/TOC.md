@@ -20,7 +20,7 @@ ht-degree: 55%
    + [Agent-basierte KI](features/agentic-ai.md)
    + [AI-Überwachung](/help/interface/features/monitoring.md)
    + [Agent-Vorgänge und KI-Kreditverbrauch](/help/interface/features/ai-credit-consumption.md)
-   + [Agent-Tools](https://experienceleague.adobe.com/en/docs/cx-enterprise-agentic-tools/using/overview)
+   + [Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
 + Administration {#administration}
    + [Kontovoreinstellungen und Benachrichtigungen](/help/interface/features/account-preferences.md)
    + [Browser- und Sprachunterstützung](/help/interface/browser-language.md)
