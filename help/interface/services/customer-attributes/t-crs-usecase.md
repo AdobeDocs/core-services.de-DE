@@ -9,11 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
 source-wordcount: 1181
@@ -33,7 +41,7 @@ Erstellen Sie die Kundenattributquelle (`.csv`- und `.fin`) und laden Sie die Da
 
 * **Gruppenmitgliedschaft:** Um die Daten hochzuladen, müssen Benutzer Mitglieder der [!DNL Customer Attributes] sein. Sie müssen auch einer Adobe Analytics-Gruppe oder einer Adobe Target-Gruppe angehören.
 
-  Um herauszufinden, ob Ihr Unternehmen Zugriff auf Kundenattribute hat, muss sich Ihr [!DNL CX Enterprise]-Administrator bei der [CX Enterprise](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *[!DNL Customer Attributes]* als eines der [!UICONTROL Produktprofile“ angezeigt ], können Sie beginnen.
+  Um herauszufinden, ob Ihr Unternehmen Zugriff auf Kundenattribute hat, muss sich Ihr [!DNL CX Enterprise]-Administrator bei der [CX Enterprise](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *[!DNL Customer Attributes]* als eines der [!UICONTROL Produktprofile“ angezeigt &#x200B;], können Sie beginnen.
 
   Benutzer, die hinzugefügt wurden, [!DNL Customer Attributes] das [!DNL Customer Attributes] auf der linken Seite der CX Enterprise-Benutzeroberfläche zu sehen.
 
@@ -74,13 +82,13 @@ Führen Sie diese Schritte auf der Seite _[!UICONTROL Kundenattribut-Source erst
 
    ![Schritt Ergebnis](assets/new-customer-attribute-source.png)
 
-1. Konfigurieren [!UICONTROL  auf der Seite „Kundenattribut-Source erstellen] die folgenden Felder:
+1. Konfigurieren [!UICONTROL &#x200B; auf der Seite „Kundenattribut-Source erstellen] die folgenden Felder:
 
    * **[!UICONTROL Name:]** Ein benutzerfreundlicher Name für die Datenattributquelle. Bei [!DNL Adobe Target] dürfen Attributnamen keine Leerzeichen enthalten. Wenn ein Attribut mit Leerzeichen übergeben wird, wird es von [!DNL Target] ignoriert. Weitere nicht unterstützte Zeichen: `< , >, ', "`.
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Datenattributquelle.
 
-   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code [!UICONTROL Kundenattribut-Source&quot; ] wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der für eine Kundenattributquelle in CX Enterprise im Feld [!UICONTROL Alias-ID] eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript der Mobile SDK).
+   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code [!UICONTROL Kundenattribut-Source&quot; &#x200B;] wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der für eine Kundenattributquelle in CX Enterprise im Feld [!UICONTROL Alias-ID] eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript der Mobile SDK).
 
      >[!IMPORTANT]
      >
@@ -122,7 +130,7 @@ Der Kundenattributdatensatz wird erstellt, und Sie können die Datei hochladen, 
 
 1. Klicken Sie auf der Seite [!DNL Customer Attributes] auf die Attributquelle.
 
-1. Klicken Sie auf [!UICONTROL  Seite „Kundendaten-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
+1. Klicken Sie auf [!UICONTROL &#x200B; Seite „Kundendaten-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
 
    ![Datei-Upload und Schemavalidierung](assets/file-upload-schema-validation.png)
 
@@ -154,7 +162,7 @@ Informationen zum Löschen von Attributen finden Sie unter [Schema aktualisieren
 
 So löschen Sie Attribute und ersetzen Attribute im Schema.
 
-1. Entfernen Sie auf [!UICONTROL  Seite „Kundenattribut-Source bearbeiten] das **[!UICONTROL Target]**- oder **[!UICONTROL Analytics]**-Abonnement (unter **[!UICONTROL Abonnements konfigurieren]**).
+1. Entfernen Sie auf [!UICONTROL &#x200B; Seite „Kundenattribut-Source bearbeiten] das **[!UICONTROL Target]**- oder **[!UICONTROL Analytics]**-Abonnement (unter **[!UICONTROL Abonnements konfigurieren]**).
 
 1. [Laden Sie eine neue Datendatei mit aktualisierten Feldern hoch](t-crs-usecase.md).
 

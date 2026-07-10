@@ -8,11 +8,21 @@ role: Admin
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
 TQID: https://experienceleague.adobe.com/ZAKogDXCbaZHOiyzlgg6Od0pxGwWi2w9yXtPnKWZKUw
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c4147b6e-073b-4d3c-9ab1-d60f2f4434efid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
 source-wordcount: 1058
@@ -30,7 +40,7 @@ Hinweise und Einschränkungen bei der Verwendung von [!DNL Customer Attributes].
 
 | Problem | Beschreibung |
 | --- | --- |
-| [!DNL Customer Attributes] [Abonnement](subscription.md) Einschränkungen | Bei einem Upgrade auf Analytics Premium dauert es 24 Stunden, bis weitere Attribute verfügbar sind. Während dieser Verzögerung wird möglicherweise ein [!UICONTROL Attribut „Abonnement ]&quot; ausgegeben. |
+| [!DNL Customer Attributes] [Abonnement](subscription.md) Einschränkungen | Bei einem Upgrade auf Analytics Premium dauert es 24 Stunden, bis weitere Attribute verfügbar sind. Während dieser Verzögerung wird möglicherweise ein [!UICONTROL Attribut „Abonnement &#x200B;]&quot; ausgegeben. |
 | Mehrere Anmeldungen auf demselben Gerät | Wenn Sie [!DNL Customer Attributes] zum Hochladen von Kundenprofilen in eine Datenquelle verwenden, empfiehlt Adobe, dass Benutzende dasselbe Gerät (d. h. dieselbe ECID) verwenden. Die ECID bleibt auf dem Gerät erhalten. Die gemeinsame Nutzung von Geräten kann dazu führen, dass die ECID mehrere Benutzer mit derselben ECID verknüpft, was zu unerwarteten Ergebnissen in [!DNL Target] führt. **Hinweis:** Bei Mobile ist die ECID dauerhaft, nachdem die Mobile App installiert wurde. Installieren Sie die App neu, um eine neue ECID zu generieren. Bei der Web-Version wird nach dem Löschen des Browser-Cookies eine neue ECID generiert. |
 | Begrenzung des täglichen Hochladevorgangs | Adobe empfiehlt, [!DNL Customer Attributes] nur einmal pro Tag zu aktualisieren. Sie müssen mindestens 24 Stunden warten, um eine weitere Kundenprofil-Datendatei für denselben Profilsatz hochzuladen. |
 | Benutzerspezifische Analytics-ID (`s.visitorID`) | Das Festlegen einer Kunden-ID mithilfe von `s.visitorID` ist eine Methode, Benutzende in Adobe Analytics zu identifizieren. Integrationen, in denen [!DNL Analytics] Daten mit dem Besucher-ID-Service exportiert oder importiert werden, funktionieren jedoch nicht, wenn ein Besucher per identifiziert wird `s.visitorID.`<br>Dazu gehören unter anderem freigegebene Zielgruppen, [!DNL Analytics] für Adobe Target (A4T) und [!DNL Customer Attributes].<br>Bei diesen Integrationen wird das Festlegen einer benutzerdefinierten Analytics-ID nicht unterstützt. |
@@ -43,7 +53,7 @@ Hinweise und Einschränkungen bei der Verwendung von [!DNL Customer Attributes].
 | Question | Antwort |
 | --- | --- |
 | Kann ich Benachrichtigungen zum Upload-Status für [!DNL Customer Attributes] erhalten? | Ja. |
-| Wie sollte ich bei den ersten Schritten mit [!DNL Customer Attributes] vorgehen? | <ol><li>Sie benötigen eine Bereitstellung. Wenn Sie Adobe Analytics-Kunde sind, stellt Adobe Sie für [!DNL Customer Attributes] bereit. Wenn Sie nur Adobe Target verwenden und nicht über Analytics verfügen, fordern Sie Bereitstellung für zentrale Services an, indem Sie sich an die Kundenunterstützung wenden.</li> <li>Reden Sie mit Ihrem CRM-Team. Finden Sie heraus, welche Art von Kundendaten verfügbar ist, die Sie in Analytics und in CX Enterprise verwenden möchten.</li><li>Implementieren von zentralen Services.</li></ol> Weitere Informationen darüber[ wie Sie Benutzern die Verwendung dieser Funktion ermöglichen, finden Sie unter ](t-crs-usecase.md#prerequisites-for-using-customer-attributes) vor dem Hochladen von Daten . |
+| Wie sollte ich bei den ersten Schritten mit [!DNL Customer Attributes] vorgehen? | <ol><li>Sie benötigen eine Bereitstellung. Wenn Sie Adobe Analytics-Kunde sind, stellt Adobe Sie für [!DNL Customer Attributes] bereit. Wenn Sie nur Adobe Target verwenden und nicht über Analytics verfügen, fordern Sie Bereitstellung für zentrale Services an, indem Sie sich an die Kundenunterstützung wenden.</li> <li>Reden Sie mit Ihrem CRM-Team. Finden Sie heraus, welche Art von Kundendaten verfügbar ist, die Sie in Analytics und in CX Enterprise verwenden möchten.</li><li>Implementieren von zentralen Services.</li></ol> Weitere Informationen darüber[&#x200B; wie Sie Benutzern die Verwendung dieser Funktion ermöglichen, finden Sie unter &#x200B;](t-crs-usecase.md#prerequisites-for-using-customer-attributes) vor dem Hochladen von Daten . |
 | Wie viele Kundenattribute darf ich verwenden? | Sie können mehrere hundert `.csv`-Spalten für den Kundenattributdienst hochladen. Beim Konfigurieren von Abonnements und beim Auswählen von Attributen gelten – je nachdem, welche Programme Sie besitzen – die folgenden Einschränkungen (pro Report Suite):  <ul><li>Foundation: 0</li><li>Select: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 insgesamt</li><li>Premium: 200</li><li>Adobe Target Standard: 5</li><li>Adobe Target Premium: 200</li></ul> |
 | Ist die Migration zum Besucher-ID-Dienst erforderlich? | Die Migration hängt von den verwendeten Programmen ab. <ul><li>Adobe Analytics: dringend empfohlen </li><li>Adobe Target: erforderlich. </li></ul>Die Verwendung des Besucher-ID-Service ermöglicht die neuesten CX Enterprise-Funktionen, einschließlich Echtzeit-Zielgruppen, der Adobe Target-Modernisierung, der Analytics-Integration und der Video-Heartbeat-Verfolgung. |
 | In welcher Beziehung steht die Kundenattributfunktion zu Adobe Audience Manager? | Audience Manager kann zwar Daten empfangen, um die Zielgruppe zu identifizieren, jedoch keine Analysefunktionen durchführen, um Attribute mit historischen Verhaltensdaten zu verknüpfen. Audience Manager bietet außerdem nicht die in Adobe Analytics verfügbaren Berichte-, Analyse- und Segmentierungsfunktionen. [!DNL Customer Attributes] können umfangreiche Daten aus verschiedenen Anwendungen verknüpft und einer einzelnen ID zugeordnet werden, um sie in CX Enterprise zu verwenden. <br>In Adobe Target erscheinen Kundenattribute als individuelle Attribute, die mit anderen Regeln kombiniert werden können, um Zielgruppen zu erstellen. Zielgruppen, die für den Service [!UICONTROL Personen] freigegeben wurden, sind vollständige Zielgruppen, die nicht geändert werden können. |
