@@ -44,7 +44,7 @@ Das [!UICONTROL Monitoring]-Dashboard enthält die folgenden Ansichten:
 
 Die [Agent-KI in Adobe CX Enterprise](agentic-ai.md)-Dokumentation listet die Agenten auf, die für die Nutzungsüberwachung in [AI-Agenten in vorhandenen CX Enterprise-Anwendungen](agentic-ai.md#existing-apps-table) vorgesehen sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491875?captions=ger&learn=on)
 
 ## Dashboard-Berechtigungen aktivieren {#permissions}
 
@@ -99,7 +99,7 @@ Das Übersichts-Dashboard ist der zentrale Ort für Akzeptanz- und Interaktionsm
 * **Durchschnittliche Eingabeaufforderungen pro Konversation:** Interaktionstiefe pro Konversation.
 * **Feedback** Verteilung der Daumen hoch und Daumen runter Feedback von Benutzern (nur für [!DNL AI Assistant] Interaktionen).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491885?captions=ger&learn=on)
 
 ### Unterhaltungswiederholung
 
@@ -108,7 +108,7 @@ Die Gesprächswiederholung zeigt individuelle Interaktionen, nicht nur Aggregate
 * **Eingabeaufforderung und Antwortverlauf:** Die Eingabeaufforderung und die zugestellten Antworten des Benutzers.
 * **Feedback-Signale:** Interactions-Benutzende, die mit einem Daumen nach oben oder unten gekennzeichnet sind, um Reibungs-, Blocker- oder Aktivierungsanforderungen zu identifizieren. Diese Informationen helfen Ihrem Unternehmen, die Relevanz der Anfragen schnell zu verbessern, und helfen Adobe, die Reaktionsqualität im Laufe der Zeit zu verbessern.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491894?captions=ger&learn=on)
 
 ## Benutzer-Dashboard
 
@@ -125,7 +125,7 @@ Das Benutzer-Dashboard zeigt, wie sich die Akzeptanz und Interaktion von Agenten
 * **Konversationsaktivität:** Anzahl der Konversationen und Eingabeaufforderungen pro Benutzer.
 * **Top-aktive Benutzer:** Starke Interaktion zwischen Benutzern und Teams, die die Akzeptanz von Agenten fördert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491927?captions=ger&learn=on)
 
 ## Feedback-Dashboard
 
@@ -139,7 +139,7 @@ Das Feedback-Dashboard zeigt das Benutzer-Feedback an, das für Agenten-Interakt
 * **Eingabeaufforderung und Antwortverlauf:** Benutzeraufforderungen und die Antworten, die mit gesendetem Feedback verknüpft sind.
 * **Feedback-Details und -Hinweise** Zusätzlicher Kontext und Kommentare von Benutzern während der Übermittlung des Feedbacks.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491918?captions=ger&learn=on)
 
 ## Dashboard für KI-Gutschriften
 
@@ -151,7 +151,7 @@ Das Dashboard „KI-Guthaben“ zeigt an, wie die Verwendung von [!DNL Experienc
 * **Tägliche und monatliche Trends** Spitzen, Tiefpunkte und Veränderungen der Konsummuster.
 * **Verbleibende KI-Credits:** Restguthaben, damit Sie proaktiv planen und Überschüsse vermeiden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491909?captions=ger&learn=on)
 
 ## Weitere Hilfe zu diesem Thema
 
