@@ -4,20 +4,12 @@ title: Verwendung von Cookies in Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 exl-id: 60f1a89e-d989-461b-a6a3-c1df022cd30b
 TQID: https://experienceleague.adobe.com/GH5WHcI9440NKYpUzizHlhOMlBSf-Y0WQ5GDBaSvqNI
-product_v2:
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2: id: e1971122-7081-4556-9222-8a31bd71800c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 8%
 
 ---
@@ -32,9 +24,9 @@ Gesetze verlangen oft, dass man eine Erlaubnis einholt, bevor man Cookies auf de
 
 Adobe CX Enterprise verwendet Cookies, um Informationen zu verfolgen, die zwischen Seitenansichten oder Browser-Sitzungen nicht von Dauer sind. Wenn möglich, verwendet Adobe Erstanbieter-Cookies (die an Ihre eigene Website gebunden sind). Um Aktivitäten über mehrere Sites oder Domains hinweg zu verfolgen, deren Inhaber Sie sind, werden Drittanbieter-Cookies benötigt.
 
-Einige Browser und Anti-Spyware-Tools blockieren Cookies von Drittanbietern. Adobe bietet Möglichkeiten, sicherzustellen, dass Cookies auch dann funktionieren, wenn Cookies blockiert sind. Wie dies funktioniert, hängt davon ab, ob Sie Experience Platform Identity Service (ECID) oder ältere Analytics-Cookies (wie das `s_vi`-Cookie) verwenden:
+Einige Browser und Anti-Spyware-Tools blockieren Cookies von Drittanbietern. Adobe bietet Möglichkeiten, sicherzustellen, dass Cookies auch dann funktionieren, wenn Cookies blockiert sind. Wie dies funktioniert, hängt davon ab, ob Sie den Besucher-ID-Dienst (`VisitorAPI.js`) oder ältere Analytics-Cookies (wie das `s_vi`-Cookie) verwenden:
 
-* [CX Enterprise Identity Service](https://experienceleague.adobe.com/de/docs/id-service/using/intro/overview): Der ECID-Service setzt immer Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Es verwendet JavaScript, um das Cookie in der Domain Ihrer Site zu platzieren.
+* [Besucher-ID-](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): Der Besucher-ID-Dienst setzt immer Erstanbieter-Cookies, unabhängig davon, ob Ihre Erfassungs-Domain mit Ihrer Website-Domain übereinstimmt. Es verwendet JavaScript, um das Cookie in der Domain Ihrer Site zu platzieren.
 
 * [Legacy-IDs von Analytics](analytics.md) (z. B. das `s_vi`-Cookie): Ob Cookies Erstanbieter- oder Drittanbieter-Cookies sind, hängt von Ihrer Einrichtung ab:
 

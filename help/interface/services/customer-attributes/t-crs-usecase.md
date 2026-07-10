@@ -9,22 +9,14 @@ role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
 TQID: https://experienceleague.adobe.com/tnqjX4iY7OQx4XW9MjHNg8LaXB1Of6MrtLX-7efyz-E
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1188
+source-wordcount: 1181
 ht-degree: 41%
 
 ---
@@ -41,13 +33,13 @@ Erstellen Sie die Kundenattributquelle (`.csv`- und `.fin`) und laden Sie die Da
 
 * **Gruppenmitgliedschaft:** Um die Daten hochzuladen, müssen Benutzer Mitglieder der [!DNL Customer Attributes] sein. Sie müssen auch einer Adobe Analytics-Gruppe oder einer Adobe Target-Gruppe angehören.
 
-  Um herauszufinden, ob Ihr Unternehmen Zugriff auf Kundenattribute hat, muss sich Ihr [!DNL CX Enterprise]-Administrator bei der [CX Enterprise](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *[!DNL Customer Attributes]* als eines der [!UICONTROL Produktprofile“ angezeigt &#x200B;], können Sie beginnen.
+  Um herauszufinden, ob Ihr Unternehmen Zugriff auf Kundenattribute hat, muss sich Ihr [!DNL CX Enterprise]-Administrator bei der [CX Enterprise](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *[!DNL Customer Attributes]* als eines der [!UICONTROL Produktprofile“ angezeigt ], können Sie beginnen.
 
   Benutzer, die hinzugefügt wurden, [!DNL Customer Attributes] das [!DNL Customer Attributes] auf der linken Seite der CX Enterprise-Benutzeroberfläche zu sehen.
 
 * **Adobe Target** `at.js` (beliebige Version) oder `mbox.js` Version 58 oder höher ist für Kundenattribute erforderlich.
 
-  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/overview).
+  Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/overview).
 
 ## Erstellen Sie eine Datendatei
 
@@ -82,13 +74,13 @@ Führen Sie diese Schritte auf der Seite _[!UICONTROL Kundenattribut-Source erst
 
    ![Schritt Ergebnis](assets/new-customer-attribute-source.png)
 
-1. Konfigurieren [!UICONTROL &#x200B; auf der Seite „Kundenattribut-Source erstellen] die folgenden Felder:
+1. Konfigurieren [!UICONTROL  auf der Seite „Kundenattribut-Source erstellen] die folgenden Felder:
 
    * **[!UICONTROL Name:]** Ein benutzerfreundlicher Name für die Datenattributquelle. Bei [!DNL Adobe Target] dürfen Attributnamen keine Leerzeichen enthalten. Wenn ein Attribut mit Leerzeichen übergeben wird, wird es von [!DNL Target] ignoriert. Weitere nicht unterstützte Zeichen: `< , >, ', "`.
 
    * **[!UICONTROL Beschreibung:]** (Optional) Eine Beschreibung der Datenattributquelle.
 
-   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code [!UICONTROL Kundenattribut-Source&quot; &#x200B;] wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der für eine Kundenattributquelle in CX Enterprise im Feld [!UICONTROL Alias-ID] eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript der Mobile SDK).
+   * **[!UICONTROL Alias-ID:]** Gibt die Quelle der Kundenattributdaten an, beispielsweise ein CRM-System. [!UICONTROL Alias-ID] ist eine eindeutige ID, die im Code [!UICONTROL Kundenattribut-Source&quot; ] wird. Die ID muss eindeutig sein und darf nur Kleinbuchstaben, aber keine Leerzeichen enthalten. Der Wert, der für eine Kundenattributquelle in CX Enterprise im Feld [!UICONTROL Alias-ID] eingegeben wird, sollte mit den Werten übereinstimmen, die von der Implementierung übergeben werden (über die Platform-Datenerfassung oder JavaScript der Mobile SDK).
 
      >[!IMPORTANT]
      >
@@ -96,9 +88,9 @@ Führen Sie diese Schritte auf der Seite _[!UICONTROL Kundenattribut-Source erst
 
      Die Alias-ID entspricht bestimmten Bereichen, in denen Sie zusätzliche Werte für die Kunden-ID festlegen. Beispiel:
 
-      * **Tags:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] im Tool [CX Enterprise ID Service](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
+      * **Tags:** Die Alias-ID entspricht dem *Integrationscode*-Wert unter [!UICONTROL Kundeneinstellungen] in der Tag-Erweiterung [[!UICONTROL Experience Cloud ID Service]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=de).
 
-      * **Besucher-API:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=de), die Sie mit jedem Besucher verknüpfen können.
+      * **Besucher-ID-Service:** Die Alias-ID entspricht den zusätzlichen [Kunden-IDs](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html), die Sie mit jedem Besucher verknüpfen können.
 
         Beispiel: *„crm_ id“* in:
 
@@ -120,7 +112,7 @@ Führen Sie diese Schritte auf der Seite _[!UICONTROL Kundenattribut-Source erst
 
         Unter [Nutzen mehrerer Datenquellen](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) finden Sie zusätzliche Informationen zur Datenverarbeitung für das Alias-ID-Feld und Kunden-IDs.
 
-   * **[!UICONTROL Namespace-Code:]** Verwenden Sie diesen Wert, um die Kundenattributquelle bei Verwendung der [IdentityMap](https://experienceleague.adobe.com/de/docs/experience-platform/web-sdk/identity/overview) als Teil einer AEP WebSDK-Implementierung zu identifizieren.
+   * **[!UICONTROL Namespace-Code:]** Verwenden Sie diesen Wert, um die Kundenattributquelle bei Verwendung der [IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) als Teil einer AEP WebSDK-Implementierung zu identifizieren.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -130,7 +122,7 @@ Der Kundenattributdatensatz wird erstellt, und Sie können die Datei hochladen, 
 
 1. Klicken Sie auf der Seite [!DNL Customer Attributes] auf die Attributquelle.
 
-1. Klicken Sie auf [!UICONTROL &#x200B; Seite „Kundendaten-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
+1. Klicken Sie auf [!UICONTROL  Seite „Kundendaten-Source bearbeiten] auf **[!UICONTROL Datei-Upload]**.
 
    ![Datei-Upload und Schemavalidierung](assets/file-upload-schema-validation.png)
 
@@ -146,9 +138,9 @@ Nach dem Hochladen der Datei werden Tabellendaten unter der Überschrift [!UICON
 
 * **[!UICONTROL Unique Customer ID:]** Zeigt an, wie viele eindeutige IDs Sie in diese Attributquelle hochgeladen haben.
 
-* **[!UICONTROL Vom Kunden bereitgestellte IDs, die zu CX Enterprise-Besucher-IDs alias sind]** Zeigt an, wie viele IDs zu CX Enterprise-Besucher-IDs alias wurden.
+* **[!UICONTROL Vom Kunden bereitgestellte IDs, die zu Experience Cloud-Besucher-IDs alias sind]** Zeigt an, wie viele IDs zu ECIDs alias wurden.
 
-* **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr Alias-CX-Enterprise-Besucher-IDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 neuesten Alias-CX Enterprise-Besucher-IDs, bis die Alias-Anzahl 10.000 erreicht. Dann erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht mehr die zugehörigen Attribute.
+* **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr Alias-ECIDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 neuesten Alias-ECIDs, bis die Alias-Anzahl 10.000 erreicht. Dann erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht mehr die zugehörigen Attribute.
 
 ## Prüfen Sie das Schema {#validate-schema}
 
@@ -162,7 +154,7 @@ Informationen zum Löschen von Attributen finden Sie unter [Schema aktualisieren
 
 So löschen Sie Attribute und ersetzen Attribute im Schema.
 
-1. Entfernen Sie auf [!UICONTROL &#x200B; Seite „Kundenattribut-Source bearbeiten] das **[!UICONTROL Target]**- oder **[!UICONTROL Analytics]**-Abonnement (unter **[!UICONTROL Abonnements konfigurieren]**).
+1. Entfernen Sie auf [!UICONTROL  Seite „Kundenattribut-Source bearbeiten] das **[!UICONTROL Target]**- oder **[!UICONTROL Analytics]**-Abonnement (unter **[!UICONTROL Abonnements konfigurieren]**).
 
 1. [Laden Sie eine neue Datendatei mit aktualisierten Feldern hoch](t-crs-usecase.md).
 
