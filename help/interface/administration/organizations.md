@@ -1,7 +1,7 @@
 ---
-description: Erfahren Sie mehr über Organisationen (IMS-Organisations-ID) und die Verknüpfung von Lösungskonten mit CX Enterprise.
+description: Erfahren Sie mehr über Organisationen (IMS-Organisations-ID), den Kontowechsel und die Verknüpfung von Lösungskonten.
 solution: Experience Cloud
-title: Organisationen und Kontoverknüpfung
+title: Organisationen und Konten
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
 topic: Administration
@@ -9,26 +9,19 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 598
-ht-degree: 32%
+source-wordcount: 660
+ht-degree: 29%
 
 ---
 
-# Organisationen und Kontoverknüpfung
+# Organisationen und Konten
 
 Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern.
 
@@ -47,6 +40,14 @@ Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet ha
 Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit dem Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
 Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
+
+### Federated Guest Accounts
+
+Sie können [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) aktivieren, um Gastbenutzer sicher in Ihrer eigenen Domain zu authentifizieren. Diese Benutzer können auf jeder CX Enterprise-Seite innerhalb der bestehenden Organisation zwischen Konten wechseln.
+
+Um zu einem Federated Guest-Konto zu wechseln, suchen Sie **[!UICONTROL Andere Konten]** im Menü **[!UICONTROL Organisation]** auf einer beliebigen [CX Enterprise](https://experience.adobe.com)-Seite.
+
+![Federated Account Switcher](../assets/federated-account-switcher.png)
 
 ## Organisations-ID anzeigen
 
@@ -102,7 +103,7 @@ Sie können bei der Anmeldung eine Standardorganisation angeben.
 
 1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profil]** und dann auf Voreinstellungen.
 
-1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Standardorganisation aus.
+1. Wählen [!UICONTROL  unter ] eine Standardorganisation aus.
 
 
 ![Profil bearbeiten](../assets/edit-profile.png)
@@ -113,6 +114,6 @@ Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
-* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support).
+* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&lang=de#support).
 * Greifen Sie über die Standardanmeldung auf Ihre Anwendung zu, während das Problem behoben wird.
 
