@@ -8,30 +8,25 @@ role: Admin, User
 level: Intermediate
 autotag-review: '2026-05-27T16:30:16.764Z'
 TQID: 'https://experienceleague.adobe.com/J74yr0gGkFu1bzTmMvhrQ8TNaRX6nRjWY9WAwd3uydk'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-  - id: e1971122-7081-4556-9222-8a31bd71800c
-feature_v2:
-  - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-subfeature_v2:
-  - id: cda95149-19e1-4cfa-a57e-751283a32378
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 79c2a309c7df2d6afd36b38134609a144a40a482
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e1971122-7081-4556-9222-8a31bd71800c
+feature_v2: id: f84b2906-3ce9-4ef0-86f6-cda249273937
+subfeature_v2: id: cda95149-19e1-4cfa-a57e-751283a32378
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 85c9350ea17e02e72354db5abbbf898829e338ae
 workflow-type: tm+mt
-source-wordcount: 1009
+source-wordcount: 994
 ht-degree: 3%
 
 ---
 
 # Dashboards zur Überwachung der agenten KI
 
-Das Überwachungs-Dashboard für die agentische KI bietet Mitgliedern des Kompetenzzentrums (Center of Excellence, COE) und anderen Governance-Stakeholdern Einblicke in die Nutzung und Akzeptanz der agentischen KI. Sie können Trends über einen Zeitraum von 7 oder 30 Tagen anzeigen, um zu sehen, wer [!DNL AI Assistant] oder andere Gesprächsoberflächen (z. B. [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) verwendet, um mit [!DNL Experience Platform Agents] zu interagieren, was sie bei diesen Interaktionen tun und welchen Wert sie erhalten. Zusammen helfen diese Ansichten Ihnen, die Akzeptanz von Agenten mit Daten anstelle von Annahmen zu steuern.
+Das Überwachungs-Dashboard für die agentische KI bietet Mitgliedern des Kompetenzzentrums (Center of Excellence, COE) und anderen Governance-Stakeholdern Einblicke in die Nutzung und Akzeptanz der agentischen KI. Zeigen Sie 7- oder 30-Tage-Trends an, um zu sehen, wer [!DNL AI Assistant] oder andere Oberflächen (wie [Adobe Marketing Agent for Microsoft 365 Copilot](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/ama-ms)) verwendet, um mit [!DNL Experience Platform Agents] und deren Wert zu interagieren. Zusammen helfen diese Ansichten Ihnen, die Akzeptanz von Agenten mit Daten anstelle von Annahmen zu steuern.
 
 **Verfügbarkeit**
 
 * Derzeit kann jedes Konto mit einer Lizenz für mindestens ein natives Experience Platform-Programm (Customer Journey Analytics, Journey Optimizer oder Real-Time CDP) auf dieses Dashboard zugreifen
-* Nutzungs- und Akzeptanzmetriken für [KI-First](agentic-ai.md#ai-first-cx-enterprise-applications)Anwendungen wie Experimentation Accelerator, LLM Optimizer, Sites Optimizer usw. sind für dieses Dashboard nicht verfügbar
+* Nutzungs- und Akzeptanzmetriken für [KI-First](agentic-ai.md#ai-first-cx-enterprise-applications)Anwendungen wie Experimentation Accelerator, LLM Optimizer und Sites Optimizer sind für dieses Dashboard nicht verfügbar.
 
 Das [!UICONTROL Monitoring]-Dashboard enthält die folgenden Ansichten:
 
@@ -42,9 +37,9 @@ Das [!UICONTROL Monitoring]-Dashboard enthält die folgenden Ansichten:
 | **Feedback** | Signale zur Reaktionsqualität und Benutzerzufriedenheit |
 | **KI-Guthaben** | Entwicklung des Kreditverbrauchs und verbleibender Saldo |
 
-Die für die Nutzungsüberwachung verfügbaren Agenten werden unter [KI-Agenten in vorhandenen CX Enterprise-Apps](agentic-ai.md#existing-apps-table) in der Dokumentation [Agent-KI in Adobe CX Enterprise](agentic-ai.md) aufgeführt.
+Die [Agent-KI in Adobe CX Enterprise](agentic-ai.md)-Dokumentation listet die Agenten auf, die für die Nutzungsüberwachung in [AI-Agenten in vorhandenen CX Enterprise-Anwendungen](agentic-ai.md#existing-apps-table) vorgesehen sind.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491875?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491864?learn=on)
 
 ## Dashboard-Berechtigungen aktivieren {#permissions}
 
@@ -90,7 +85,7 @@ Gewähren des Dashboard-Zugriffs in [!DNL Adobe Experience Platform] durch Aktua
 
 ## Übersichts-Dashboard
 
-Das Übersichts-Dashboard ist der zentrale Ort für Akzeptanz- und Interaktionsmetriken in Ihrer gesamten Organisation. Er verbindet allgemeine Trends mit einer tieferen Analyse. Für jede Metrik können Sie einen Drilldown in einzelne Konversationen durchführen, um zu sehen, was die Zahlen antreibt.
+Das Übersichts-Dashboard ist der zentrale Ort für Akzeptanz- und Interaktionsmetriken in Ihrer gesamten Organisation. Er verbindet allgemeine Trends mit einer tieferen Analyse. Um zu sehen, was die Zahlen antreibt, können Sie einzelne Konversationen aus beliebigen Metriken aufschlüsseln.
 
 ### Metriken im Dashboard „Übersicht“
 
@@ -99,7 +94,7 @@ Das Übersichts-Dashboard ist der zentrale Ort für Akzeptanz- und Interaktionsm
 * **Durchschnittliche Eingabeaufforderungen pro Konversation:** Interaktionstiefe pro Konversation.
 * **Feedback** Verteilung der Daumen hoch und Daumen runter Feedback von Benutzern (nur für [!DNL AI Assistant] Interaktionen).
 
->[!VIDEO](https://video.tv.adobe.com/v/3491885?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491865?learn=on)
 
 ### Unterhaltungswiederholung
 
@@ -108,7 +103,7 @@ Die Gesprächswiederholung zeigt individuelle Interaktionen, nicht nur Aggregate
 * **Eingabeaufforderung und Antwortverlauf:** Die Eingabeaufforderung und die zugestellten Antworten des Benutzers.
 * **Feedback-Signale:** Interactions-Benutzende, die mit einem Daumen nach oben oder unten gekennzeichnet sind, um Reibungs-, Blocker- oder Aktivierungsanforderungen zu identifizieren. Diese Informationen helfen Ihrem Unternehmen, die Relevanz der Anfragen schnell zu verbessern, und helfen Adobe, die Reaktionsqualität im Laufe der Zeit zu verbessern.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491894?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491866?learn=on)
 
 ## Benutzer-Dashboard
 
@@ -117,7 +112,7 @@ Das Benutzer-Dashboard zeigt, wie sich die Akzeptanz und Interaktion von Agenten
 ### Metriken im Benutzer-Dashboard
 
 * **Akzeptanz- und Interaktionstrends im Zeitverlauf:** Verfolgen Sie, wie sich Benutzersegmente im ausgewählten Zeitraum ändern. Benutzer werden klassifiziert als:
-   * **Neu** Erste Aktivität im ausgewählten Zeitraum, ohne Aktivität in den letzten 12 Monaten.
+   * **Neu** Erste Aktivität im ausgewählten Zeitraum, die in den letzten 12 Monaten keine Aktivität aufwies.
    * **Wiederholen:** Aktivität sowohl im ausgewählten Zeitraum als auch im vorherigen Zeitraum.
    * **Zurück** Die Aktivität im ausgewählten Zeitraum, aber nicht im vorherigen Zeitraum.
    * **Inaktiv** Keine Aktivität im ausgewählten Zeitraum, aber Aktivität im vorherigen Zeitraum.
@@ -125,11 +120,11 @@ Das Benutzer-Dashboard zeigt, wie sich die Akzeptanz und Interaktion von Agenten
 * **Konversationsaktivität:** Anzahl der Konversationen und Eingabeaufforderungen pro Benutzer.
 * **Top-aktive Benutzer:** Starke Interaktion zwischen Benutzern und Teams, die die Akzeptanz von Agenten fördert.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491927?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491868?learn=on)
 
 ## Feedback-Dashboard
 
-Das Feedback-Dashboard zeigt das Benutzer-Feedback an, das für Agenten-Interaktionen gesendet wurde. Sie können sehen, welche Konversationen Benutzer positiv oder negativ bewertet haben, und die Interaktionen hinter dem Feedback untersuchen. Zeigen Sie in Feedback-Zusammenfassungen einzelne Konversationen an, um Eingabeaufforderungen, Antworten, Argumentationsdetails und Feedback-Notizen zu überprüfen.
+Das Feedback-Dashboard zeigt das Benutzer-Feedback an, das für Agenten-Interaktionen gesendet wurde. Sie können sehen, welche Konversationen Benutzer positiv oder negativ bewertet haben, und die Interaktionen hinter dem Feedback untersuchen. Um Eingabeaufforderungen, Antworten, Argumentationsdetails und Feedback-Notizen zu überprüfen, gehen Sie in Feedback-Zusammenfassungen detailliert auf einzelne Konversationen ein.
 
 ### Metriken im Feedback-Dashboard
 
@@ -139,7 +134,7 @@ Das Feedback-Dashboard zeigt das Benutzer-Feedback an, das für Agenten-Interakt
 * **Eingabeaufforderung und Antwortverlauf:** Benutzeraufforderungen und die Antworten, die mit gesendetem Feedback verknüpft sind.
 * **Feedback-Details und -Hinweise** Zusätzlicher Kontext und Kommentare von Benutzern während der Übermittlung des Feedbacks.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491918?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491878?learn=on)
 
 ## Dashboard für KI-Gutschriften
 
@@ -151,11 +146,11 @@ Das Dashboard „KI-Guthaben“ zeigt an, wie die Verwendung von [!DNL Experienc
 * **Tägliche und monatliche Trends** Spitzen, Tiefpunkte und Veränderungen der Konsummuster.
 * **Verbleibende KI-Credits:** Restguthaben, damit Sie proaktiv planen und Überschüsse vermeiden können.
 
->[!VIDEO](https://video.tv.adobe.com/v/3491909?captions=ger&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3491867?learn=on)
 
 ## Weitere Hilfe zu diesem Thema
 
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) in [!DNL Experience Platform]
 * [Agent-KI in Adobe CX Enterprise](agentic-ai.md)
 * [Agent-Vorgänge und KI-Kreditverbrauch](ai-credit-consumption.md)
-* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/de/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
+* [Lizenznutzungs-Dashboard](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage) (Experience Platform)
