@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 341
 ht-degree: 39%
 
 ---
@@ -62,7 +62,7 @@ Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur
 
 * **[!UICONTROL ID-Suche]** Geben Sie eine Kunden-ID (CID) aus Ihrem `.csv` ein, um CX Enterprise-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
 
-   * **[!UICONTROL ECID (CX Enterprise ID):]** Wird angezeigt, wenn Sie den neuesten CX Enterprise ID-Service verwenden. Wenn Sie den MCID-Service verwenden, aber hier keine IDs aufgeführt sind, hat CX Enterprise keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
+   * **[!UICONTROL ECID:]** Zeigt an, wenn Sie den Besucher-ID-Dienst verwenden. Wenn Sie den Besucher-ID-Service verwenden, aber hier keine IDs aufgelistet sind, hat CX Enterprise keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
 
    * **[!UICONTROL CID (Kunden-ID):]** Die mit dieser CID verknüpften Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
 

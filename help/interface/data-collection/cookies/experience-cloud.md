@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie der ID-Service in allen CX Enterprise-Anwendungen gespeichert und verwendet wird.
+description: Erfahren Sie, wie der Besucher-ID-Service in allen CX Enterprise-Anwendungen gespeichert und verwendet wird.
 solution: Experience Cloud,Analytics,Target
 title: Cookies in Experience Cloud
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 370
-ht-degree: 77%
+source-wordcount: 371
+ht-degree: 67%
 
 ---
 
@@ -72,9 +72,9 @@ Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in 
 
 **Cookie-Name: AMCV_###@AdobeOrg**
 
-Der [Experience Platform-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de) verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domain der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt.
+Der [Besucher-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)Dienst verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domain der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt
 
-Siehe auch [Cookies und der ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
+Siehe auch [Cookies und der Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 

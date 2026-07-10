@@ -30,10 +30,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 1116
-ht-degree: 31%
+source-wordcount: 1113
+ht-degree: 32%
 
 ---
 
@@ -47,7 +47,7 @@ Beschreibt Folgendes:
 
 * Stellen Sie Ihr Unternehmen in CX Enterprise bereit.
 * Wie Sie Administrator werden können.
-* [Implementieren des CX Enterprise ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
+* [Implementieren Sie den Besucher-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de).
 * Modernisieren Sie Ihre [!DNL Analytics]- und [!DNL Target]-Implementierungen über [!UICONTROL Platform-Datenerfassung].
 * Verwenden Sie zunächst CX Enterprise-Services wie [Kundenattribute](../services/customer-attributes/attributes.md) und [Zielgruppenbibliothek](../services/audiences/overview.md).
 
@@ -56,13 +56,13 @@ Lösungen oder Dienste:
 * [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=de)
 * [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=de)
 * [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=de)
-* [CX Enterprise ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
+* [Besucher-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
 
-## CX Enterprise ID-Service
+## Besucher-ID-Service
 
-Der ID-Service bietet eine universelle, beständige ID zum Identifizieren Ihrer Besucher über alle Anwendungen in CX Enterprise hinweg. Er kann ID-Generierungscode für Services wie Analytics, Audience Manager, Adobe Target, Video Heartbeat und andere CX Enterprise-Anwendungen und -Produkte ersetzen.
+Der Besucher-ID-Dienst bietet eine universelle, beständige ID zum Identifizieren Ihrer Besucher über alle Anwendungen in CX Enterprise hinweg. Er kann ID-Generierungscode für Services wie Analytics, Audience Manager, Adobe Target, Video Heartbeat und andere CX Enterprise-Anwendungen und -Produkte ersetzen.
 
-Siehe [CX Enterprise ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
+Siehe [Besucher-ID-Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)
 
 **Anwendbare Programme oder Services**
 
@@ -96,7 +96,7 @@ Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship 
 * Adobe Analytics: Bericht „Kundenattribute“
 * Adobe Target: Konfigurieren des Adobe Target[Abonnements](/help/interface/services/customer-attributes/subscription.md) zur Verwendung von Kundenattributen
 
-## CX Enterprise Assets
+## CX Enterprise-Assets
 
 Hilfe: [Freigeben von CX Enterprise-Ordnern mit Creative Cloud](/help/interface/services/assets/share.md)
 

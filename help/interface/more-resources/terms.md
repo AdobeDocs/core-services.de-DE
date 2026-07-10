@@ -22,9 +22,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 7bfc22e90d727d1743c2b6b7bc645033d5d38f1b
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: 687
 ht-degree: 5%
 
 ---
@@ -47,7 +47,7 @@ Verwenden Sie diese Tabelle, wenn dasselbe Wort in verschiedenen Adobe-Erlebniss
 | **Admin Console** | Enterprise Control Plane at `adminconsole.adobe.com` für Benutzer, Produktprofile und Identität; verknüpft mit CX Enterprise **Administration** Themen. Siehe [Benutzer- und Produktverwaltung](../administration/admin-console.md). | Anders als **Produktinterne Admin** innerhalb der einzelnen Apps (z. B. Analytics-Admin-Tools oder Journey Optimizer-Berechtigungsbildschirme). |
 | **Produktprofil** | Ein Lizenzpaket in Admin Console, das Zugriff auf ein Produkt oder eine Funktion gewährt. Benutzer müssen einem Profil angehören, um eine Berechtigung zu erhalten. Siehe [Verwalten von Produkten und Profilen](https://helpx.adobe.com/de/enterprise/using/manage-products.html). | Nicht mit jedem produktinternen „Arbeitsbereich“, „Container“ oder „Eigenschaftsnamen“ austauschbar; diese variieren je nach Lösung. |
 | **Kontoverknüpfung** | Verbinden eines Anwendungs-Logins (z. B. Analytics- oder Target-Anmeldedaten) mit Ihrer Adobe ID für das Unternehmen, damit Services einen Benutzer erkennen. Siehe [Organisationen und Kontoverknüpfung](../administration/organizations.md). | Nicht dasselbe wie **Ordnersynchronisierung**, **SSO** oder **Federation**-Setup (dies sind organisationsweite Identitätsentscheidungen in Admin Console). |
-| **Experience Cloud ID Service/ECID** | Die in allen Lösungen verwendete persistente Besucherkennung, die häufig mit Tags oder Web-SDK bereitgestellt wird. Wird in älteren Analytics **Diskussionen immer noch häufig als** Experience Cloud-ID **oder** MID“ bezeichnet. Siehe [ID-Service - Übersicht](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). | Anders als der Name des veralteten Cookies einer einzelnen App oder von **Experience Platform** Identitätsdiagramm-Konzepten, obwohl sie in einer Implementierung verknüpft sein können. |
+| **Besucher-ID-Service/ECID** | Die in allen Lösungen verwendete persistente Besucherkennung, die häufig mit Tags oder Web-SDK bereitgestellt wird. Wird in älteren Analytics **Diskussionen häufig als** MID“ bezeichnet. Siehe [Übersicht über den Besucher-ID-](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de). | Anders als der Name des veralteten Cookies einer einzelnen App oder von **Experience Platform Identity Service**-Konzepten, obwohl sie sich in einer Implementierung beziehen können. |
 | **Kundenattribute** | CRM- oder Unternehmensattribute, die Sie hochladen und für die Verwendung in Analytics-, Target- und zugehörigen Workflows über den Personen-Service zuordnen. Siehe die [Kundenattribute](../services/customer-attributes/attributes.md) Themen. | Nicht mit **Audience Manager-Eigenschaften** allein oder mit jedem **Real-Time CDP**-Profilfeld gleichsetzen, ohne die Produktgrenze zu überprüfen. |
 | **Zielgruppenbibliothek** | CX Enterprise-Benutzeroberfläche zum Erstellen und Freigeben von Audiences über integrierte Anwendungen hinweg. | **Audience Manager** und **Target** verwenden ebenfalls „Zielgruppen“, die Segmentierungsregeln und Ziele unterscheiden sich jedoch je nach Produkt. |
 | **Segment** (Analytics) | Eine regelbasierte Zielgruppendefinition, die Sie in Adobe Analytics erstellen und bei Unterstützung für freigegebene Zielgruppen veröffentlichen können. | In **Audience Manager** kombinieren Segmente **Eigenschaften** Namensüberschneidungen, aber die Implementierung ist nicht identisch. In **Target** hat „Zielgruppen“ an vielen Stellen ältere „Segment“-Beschriftungen ersetzt. |
