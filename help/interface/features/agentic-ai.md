@@ -1,6 +1,6 @@
 ---
 title: Agent-KI in Experience Cloud-Programmen
-description: Erfahren Sie, wo in CX Enterprise-Anwendungen agentische KI verfügbar ist.
+description: Erfahren Sie, wo in CX Enterprise-Anwendungen Agent-basierte KI verfügbar ist.
 solution: Experience Cloud
 landing-page-name: ai
 landing-page-breadcrumb-title: AI Documentation
@@ -12,10 +12,10 @@ last-update: '2026-05-21T00:00:00.000Z'
 exl-id: c1a8f9a7-4752-4040-b5f0-dc775417f536
 feature_v2:
   - id: f84b2906-3ce9-4ef0-86f6-cda249273937
-source-git-commit: 5b2b81c029b81b9f0689a012cb2a9ca8714c0b40
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 8%
+source-wordcount: 1149
+ht-degree: 9%
 
 ---
 
@@ -76,6 +76,7 @@ In der folgenden Tabelle sind Experience Platform-Agenten aufgeführt, die als A
 
 ## Weitere Hilfe zu diesem Thema
 
+* [CX Enterprise Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview#adobe-cx-enterprise-agentic-tools)
 * [Agent-Vorgänge und KI-Kreditverbrauch](/help/interface/features/ai-credit-consumption.md)
 * [KI in CX Enterprise](https://experienceleague.adobe.com/de/docs/ai)-Dokumentation - Startseite
 * [Übersicht über Agenten in AEM](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/agents/overview)

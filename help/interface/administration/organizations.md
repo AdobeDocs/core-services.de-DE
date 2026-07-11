@@ -1,7 +1,7 @@
 ---
-description: Erfahren Sie mehr über Organisationen (IMS-Organisations-ID) und die Verknüpfung von Lösungskonten mit CX Enterprise.
+description: Erfahren Sie mehr über Organisationen (IMS-Organisations-ID), den Kontowechsel und die Verknüpfung von Lösungskonten.
 solution: Experience Cloud
-title: Organisationen und Kontoverknüpfung
+title: Organisationen und Konten
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
 topic: Administration
@@ -21,14 +21,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 598
-ht-degree: 32%
+source-wordcount: 660
+ht-degree: 29%
 
 ---
 
-# Organisationen und Kontoverknüpfung
+# Organisationen und Konten
 
 Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern.
 
@@ -47,6 +47,14 @@ Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet ha
 Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit dem Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
 Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
+
+### Federated Guest Accounts
+
+Sie können [Federated Guest Access](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) aktivieren, um Gastbenutzer sicher in Ihrer eigenen Domain zu authentifizieren. Diese Benutzer können auf jeder CX Enterprise-Seite innerhalb der bestehenden Organisation zwischen Konten wechseln.
+
+Um zu einem Federated Guest-Konto zu wechseln, suchen Sie **[!UICONTROL Andere Konten]** im Menü **[!UICONTROL Organisation]** auf einer beliebigen [CX Enterprise](https://experience.adobe.com)-Seite.
+
+![Federated Account Switcher](../assets/federated-account-switcher.png)
 
 ## Organisations-ID anzeigen
 

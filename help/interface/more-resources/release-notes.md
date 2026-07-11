@@ -27,10 +27,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebc6db2d5ef00f036ba97027f71129d426f18bf5
+source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
 workflow-type: tm+mt
-source-wordcount: 1556
-ht-degree: 54%
+source-wordcount: 1617
+ht-degree: 56%
 
 ---
 
@@ -42,12 +42,18 @@ Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Aktualisieru
 
 Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
+## Juli 2026
+
+| Datum | Update | Beschreibung |
+| ------- | ------- | ------- |
+| &#x200B;10. Juli 2026 | CX Enterprise-Support für Federate Guest-Konten | Wenn Sie „Federated [&#x200B; Access“ für &#x200B;](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) sichere Authentifizierung von Gastbenutzern in Ihrer eigenen Domain aktiviert haben, können diese Benutzer mithilfe von CX Enterprise zwischen Konten wechseln. Der Kontowechsel ist über den Organisationswechsel auf jeder [CX Enterprise](https://experience.adobe.com)-Seite möglich. |
+
 ## Juni 2026
 
 | Datum | Update | Beschreibung |
 | ------- | ------- | ------- |
 | &#x200B;11. Juni 2026 | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home) ist eine agentische KI-Anwendung, die End-to-End-Workflows für das Kundenerlebnis automatisiert. [!DNL Coworker] erkennt Signale, erstellt Zielgruppen und startet Kampagnen mit integrierter Governance in Stunden. Dokumentation in Kürze verfügbar. |
-| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Nutzung der Agent-KI in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung der KI-Kreditnutzung für Experience Platform-Agenten, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten Übersicht, Benutzer, Feedback und KI-Credits helfen den Verantwortlichen für die Governance, die Akzeptanz der Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](../features/monitoring.md)AI-Überwachung für Agenten“. |
+| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Agent-basierten KI-Nutzung in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung des Verbrauchs von KI-Credits für Experience Platform-Agents, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten „Überblick“, „Benutzende“, „Feedback“ und „KI-Credits“ helfen den Governance-Verantwortlichen, die Akzeptanz anhand von Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](../features/monitoring.md)AI-Überwachung für Agenten“. |
 
 ## April 2026
 

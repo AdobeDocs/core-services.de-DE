@@ -5,10 +5,10 @@ breadcrumb-title: CX Enterprise-Oberfläche und -Administration
 title: CX Enterprise-Benutzeroberfläche und Administrationshandbuch
 description: Erfahren Sie mehr über die Benutzeroberfläche und Administration von CX Enterprise. Durchsuchen Sie Themen zu KI, Administration, Shared Services, Datenerfassung, Cookies, Versionshinweisen und FAQs.
 index: true
-source-git-commit: cb57ca633a2b72cab93edbbb06cbd3bb7199eec7
+source-git-commit: 88f8ee46073227afb5a9691155a70bd43f01a188
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 59%
+source-wordcount: '222'
+ht-degree: 55%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 59%
    + [Agent-basierte KI](features/agentic-ai.md)
    + [AI-Überwachung](/help/interface/features/monitoring.md)
    + [Agent-Vorgänge und KI-Kreditverbrauch](/help/interface/features/ai-credit-consumption.md)
+   + [Agent-Tools](https://experienceleague.adobe.com/de/docs/cx-enterprise-agentic-tools/using/overview)
 + Administration {#administration}
    + [Kontovoreinstellungen und Benachrichtigungen](/help/interface/features/account-preferences.md)
    + [Browser- und Sprachunterstützung](/help/interface/browser-language.md)
