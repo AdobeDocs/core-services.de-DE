@@ -52,7 +52,7 @@ Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domai
 
 ## Federated Guest Accounts
 
-Sie können [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) aktivieren, um Gastbenutzer sicher in Ihrer eigenen Domain zu authentifizieren. Wenn diese Option aktiviert ist, ändert sich das Organisationsmenü, damit diese Benutzer innerhalb der vorhandenen Organisation auf jeder CX Enterprise-Seite zwischen Konten wechseln können.
+Sie können [Federated Guest Access](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) aktivieren, um Gastbenutzer sicher in Ihrer eigenen Domain zu authentifizieren. Wenn diese Option aktiviert ist, ändert sich das Organisationsmenü, damit diese Benutzer innerhalb der vorhandenen Organisation auf jeder CX Enterprise-Seite zwischen Konten wechseln können.
 
 Um zu einem Federated Guest-Konto zu wechseln, suchen Sie **[!UICONTROL Andere Konten]** im Menü **[!UICONTROL Organisation]** auf einer beliebigen [CX Enterprise](https://experience.adobe.com)-Seite.
 
@@ -125,6 +125,6 @@ Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
 
 In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
 
-* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/?support-solution=General&lang=de#support).
+* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support).
 * Greifen Sie über die Standardanmeldung auf Ihre Anwendung zu, während das Problem behoben wird.
 
