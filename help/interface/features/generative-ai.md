@@ -41,9 +41,9 @@ topic_v2:
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 24583e75dd85c719b8f9eb14a948f58d714c2aa6
+source-git-commit: eb23813e6456ec3ec3c3014d2d699875c98012b7
 workflow-type: tm+mt
-source-wordcount: 3196
+source-wordcount: 3308
 ht-degree: 8%
 
 ---
@@ -88,25 +88,9 @@ Im Folgenden finden Sie eine Zusammenfassung [!DNL CX Enterprise] Anwendungen, d
 
 ### Generative KI
 
-<!--
-| Product | Key AI features | Firefly Compatibility |
-| ----------------| -----------------| ---------|
-| GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
-| Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
-| Adobe Experience Manager 6.5 | AI Assistant support | Yes |
-| Adobe Experience Manager 6.5 LTS | AI Assistant support | Yes |
-| Adobe Experience Platform | AI Assistant for product knowledge and operational insights | No |
-| Adobe Journey Optimizer | AI Assistant, content generation (Prime/Ultimate) | Yes |
-| Adobe Journey Optimizer B2B Edition | AI Assistant for product knowledge | No |
-| Campaign Managed Cloud Services | Content Accelerator for cross-channel personalization | Yes |
-| Customer Journey Analytics | AI Assistant, Intelligent Captions, Content Analytics | No |
-| Real-Time CDP | AI Assistant for product knowledge and operational insights | No |
-| Marketo | Email Designer, Dynamic Chat, Interactive Webinars | Yes |
-| Workfront | AI Assistant for work management and recommendations | Yes |
--->
-
 | **Produktname** | **Wichtige GenAI-Funktionen** | **Firefly-Kompatibilität** |
 | ------------------| -------------------------| -------------------|
+| [CX Enterprise-Mitarbeiter](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home) | GenAI ist verfügbar in: <ul><li>**[Chat](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/chat/overview)**: Eine Gesprächsoberfläche, in der Sie ein Ziel in natürlicher Sprache beschreiben und genAI das Werk plant, es über Ihre Adobe und verbundene Systeme ausführt, die Ergebnisse validiert und das fertige Werk zur Genehmigung zurückgibt.</li><li>**[Kampagnen](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/campaigns/overview)**: Eine KI-native Anwendung, die das Kampagnen-Briefing, die Zielgruppenerstellung, die Inhaltserstellung, das Journey-Design und das Proofing in einem einzigen Gesprächserlebnis zusammenfasst. GenAI generiert einen Kampagnenplan, erstellt eine Journey und entwirft personalisierte Inhalte, die Sie iterativ verfeinern können.</li></ul> | Nein |
 | [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home) | Erstellen Sie mit genAI personalisierte, markeninterne Inhalte. | Ja |
 | [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI ist verfügbar in: <ul><li>Varianten in **AEM Sites generieren** ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor))</li><li>GenAI in **Sites Optimizer** ([Weitere Informationen](https://experienceleague.adobe.com/de/docs/experience-manager-sites-optimizer/content/opportunity-types/overview))</li><li>[Content Hub](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) und [Smart-Tags](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) in **AEM Assets**</li></ul> KI-Assistent für: <ul><li>Experience Hub-Übersichtsseite</li><li>Edge-Bereitstellungsdienste</li><li>Sites</li><li>Assets</li><li>Formulare</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | Ja |
 | [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | KI-Assistent für: <ul><li>Experience Hub-Übersichtsseite</li><li>Edge-Bereitstellungsdienste</li><li>Sites</li><li>Assets</li><li>Formulare</li><li>Dynamic Media</li><li>Cloud Manager</li></ul> | Ja |
