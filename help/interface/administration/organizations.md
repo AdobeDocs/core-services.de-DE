@@ -9,22 +9,15 @@ role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
 TQID: https://experienceleague.adobe.com/DCb0MQWwB0MOGALSDbLD-d4ik4B0C249xncB9eZbZMU
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2:
-  - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
-  - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2: id: b75843fa-0a67-4a44-a6b1-cc627b0481dcid: bdea9bc8-5600-45db-b85e-d74bb59dfcffid: fef08361-6ac5-460c-93fe-d063e40b6a49
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -52,7 +45,7 @@ Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domai
 
 ## Federated Guest Accounts
 
-Sie können [Federated Guest Access](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) aktivieren, um Gastbenutzer sicher in Ihrer eigenen Domain zu authentifizieren. Wenn diese Option aktiviert ist, ändert sich das Organisationsmenü, damit diese Benutzer innerhalb der vorhandenen Organisation auf jeder CX Enterprise-Seite zwischen Konten wechseln können.
+Sie können [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) aktivieren, um Gastbenutzer sicher in Ihrer eigenen Domain zu authentifizieren. Wenn diese Option aktiviert ist, ändert sich das Organisationsmenü, damit diese Benutzer innerhalb der vorhandenen Organisation auf jeder CX Enterprise-Seite zwischen Konten wechseln können.
 
 Um zu einem Federated Guest-Konto zu wechseln, suchen Sie **[!UICONTROL Andere Konten]** im Menü **[!UICONTROL Organisation]** auf einer beliebigen [CX Enterprise](https://experience.adobe.com)-Seite.
 
@@ -86,45 +79,13 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Verknüpfen eines Programmkontos mit einer Adobe ID
-
-In der Regel gewähren CX Enterprise-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen eines Programms mit einer Adobe ID verknüpfen.
-
-1. Folgen Sie den Schritten in Ihrer E-Mail-Einladung an CX Enterprise.
-
-1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
-
-1. Klicken Sie auf **[!UICONTROL Anwendungsauswahl]**. ( ![Menü](../assets/apps-icon.png)).
-
-   ![Verknüpfen eines Programmkontos mit einer Adobe ID](../assets/solutions-active.png)
-
-   Die Programme, auf die Sie Zugriff haben, sind farbig dargestellt.
-
-1. Klicken Sie auf das gewünschte Programm.
-
-   ![Klicken Sie auf Ihr Programm](../assets/analytics-link-accounts.png)
-
-   Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldedaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
-
-1. Klicken Sie **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
-
 ## Standardorganisation angeben
 
 Sie können bei der Anmeldung eine Standardorganisation angeben.
 
 1. Klicken Sie in der Kopfzeile auf **[!UICONTROL Profil]** und dann auf Voreinstellungen.
 
-1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Standardorganisation aus.
+1. Wählen [!UICONTROL  unter ] eine Standardorganisation aus.
 
 
 ![Profil bearbeiten](../assets/edit-profile.png)
-
-## Problembehebung für Kontoverknüpfungen
-
-Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
-
-In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
-
-* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support).
-* Greifen Sie über die Standardanmeldung auf Ihre Anwendung zu, während das Problem behoben wird.
-
