@@ -10,11 +10,17 @@ level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
 autotag-review: '2026-05-12T21:20:07.920Z'
 TQID: 'https://experienceleague.adobe.com/UF7Yw3I7-TeV5zCGajQwMDyc57ousR8aRomOigntA68'
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-subfeature_v2: id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+subfeature_v2:
+  - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
 source-wordcount: 1271
@@ -30,7 +36,7 @@ Administratoren können eine sortierbare und filterbare Liste aller CX Enterpris
 
    ![Zugriff auf Admin Console](../assets/admin-tool.png)
 
-1. Klicken [!UICONTROL  unter &quot;]&quot; auf **[!UICONTROL Admin-Tool]**.
+1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf **[!UICONTROL Admin-Tool]**.
 
    (Alternativ können Sie in der Startseiten-URL _home_ durch _admin_ ersetzen.)
 
@@ -66,7 +72,7 @@ Sie können die Spalten suchen, sortieren oder filtern, um die Benutzerliste anz
 
 ## Anzeigen der Benutzerdetails
 
-Klicken Sie auf [!UICONTROL  Seite ]Benutzer“ auf die E-Mail-Adresse eines Benutzers, um dessen Details anzuzeigen.
+Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Benutzer“ auf die E-Mail-Adresse eines Benutzers, um dessen Details anzuzeigen.
 
 ![Anzeigen von Benutzerdetails in Admin Console](../assets/admin-tool-user-details.png)
 
@@ -129,7 +135,7 @@ Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste 
 
 ## Ansicht der Richtliniendetails
 
-Wählen Sie auf [!UICONTROL  Seite ] den Produktprofilnamen aus, um die Details einer Richtlinie anzuzeigen.
+Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] den Produktprofilnamen aus, um die Details einer Richtlinie anzuzeigen.
 
 ![Richtliniendetails in Admin Console anzeigen](../assets/admin-tool-policy-detail.png)
 
