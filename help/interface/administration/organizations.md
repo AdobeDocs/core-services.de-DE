@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+source-git-commit: 9c2010694b8bb32c3922dd65f846375e43b2caac
 workflow-type: tm+mt
-source-wordcount: 677
-ht-degree: 28%
+source-wordcount: 506
+ht-degree: 17%
 
 ---
 
@@ -86,28 +86,6 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
    `C538193582390300A495CC9@AdobeOrg`
 
-## Verknüpfen eines Programmkontos mit einer Adobe ID
-
-In der Regel gewähren CX Enterprise-Administratoren Zugriff auf Programme und Services. In seltenen Fällen können Sie die Anmeldeinformationen eines Programms mit einer Adobe ID verknüpfen.
-
-1. Folgen Sie den Schritten in Ihrer E-Mail-Einladung an CX Enterprise.
-
-1. Melden Sie sich mit Ihrer Adobe ID oder Enterprise ID an.
-
-1. Klicken Sie auf **[!UICONTROL Anwendungsauswahl]**. ( ![Menü](../assets/apps-icon.png)).
-
-   ![Verknüpfen eines Programmkontos mit einer Adobe ID](../assets/solutions-active.png)
-
-   Die Programme, auf die Sie Zugriff haben, sind farbig dargestellt.
-
-1. Klicken Sie auf das gewünschte Programm.
-
-   ![Klicken Sie auf Ihr Programm](../assets/analytics-link-accounts.png)
-
-   Diese Art Nachricht wird angezeigt, wenn Sie der entsprechenden Gruppe angehören (und über Zugriff auf das Programm verfügen), Ihre Kontoanmeldedaten jedoch noch nicht mit Ihrer Adobe ID verknüpft haben.
-
-1. Klicken Sie **[!UICONTROL Konto verknüpfen]** und geben Sie Ihre Anmeldeinformationen ein.
-
 ## Standardorganisation angeben
 
 Sie können bei der Anmeldung eine Standardorganisation angeben.
@@ -118,13 +96,3 @@ Sie können bei der Anmeldung eine Standardorganisation angeben.
 
 
 ![Profil bearbeiten](../assets/edit-profile.png)
-
-## Problembehebung für Kontoverknüpfungen
-
-Hilfe zu Problemen, die sich aus der Kontoverknüpfung ergeben.
-
-In der Regel schlägt die Kontoverknüpfung fehl, da die Adobe ID mit einem vorherigen Benutzer verknüpft ist. Wenn die Kontoverknüpfung fehlschlägt, können Sie Folgendes tun:
-
-* [Wenden Sie sich an den Adobe Support](https://experienceleague.adobe.com/de?support-solution=General&lang=de#support).
-* Greifen Sie über die Standardanmeldung auf Ihre Anwendung zu, während das Problem behoben wird.
-
