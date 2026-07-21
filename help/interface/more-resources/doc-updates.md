@@ -36,7 +36,7 @@ Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfl
 
 ## Juli 2026
 
-* Im [&#x200B; Juli 2026 wurden Versionshinweise &#x200B;](release-notes.md) CX Enterprise-Unterstützung von [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) hinzugefügt, einschließlich Kontowechsel für Gastbenutzer über den Organisationswechsel.
+* Im [&#x200B; Juli 2026 wurden Versionshinweise &#x200B;](release-notes.md) CX Enterprise-Unterstützung von [Federated Guest Access](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) hinzugefügt, einschließlich Kontowechsel für Gastbenutzer über den Organisationswechsel.
 
 ## Juni 2026
 
