@@ -23,10 +23,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0e765fed5e17575b06a367dd5d627a61da3e2afd
+source-git-commit: 26697b9999f9b467cfc59b9ac918565d6a5d932b
 workflow-type: tm+mt
-source-wordcount: 820
-ht-degree: 37%
+source-wordcount: 872
+ht-degree: 35%
 
 ---
 
@@ -40,7 +40,7 @@ Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfl
 
 ## Juni 2026
 
-* Veröffentlicht [Überwachung der Agent-KI](../features/monitoring.md) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
+* Veröffentlicht [Überwachung der Agent-KI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
 * Versionshinweise [Juni 2026) für &#x200B;](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
 
 ## Mai 2026
@@ -49,16 +49,16 @@ April- und Mai-Updates für das Handbuch zur zentralen CX Enterprise-Benutzerobe
 
 * Die Dokumentation wurde in diesem Handbuch von Experience Cloud zu **CX Enterprise** umbenannt, einschließlich Beschreibungen, Link-Text und Auto-Tag-Metadaten.
 * Es wurden [Versionshinweise April 2026](release-notes.md) für die aktualisierte Startseite unter `https://experience.adobe.com/home` hinzugefügt (Aktualisierung der Benutzeroberfläche, Dunkelmodus und Verbesserungen der Barrierefreiheit).
-* Aktualisierte [Agent-KI in CX Enterprise](../features/agentic-ai.md): Adobe Marketing Agent for Microsoft 365 Copilot, überarbeitete Agentenfunktionen und eine Spalte **Gesundheitsdaten/HIPAA-fähig** in der Agent-Tabelle der vorhandenen Programme.
+* Aktualisierte [Agent-KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, überarbeitete Agentenfunktionen und eine Spalte **Gesundheitsdaten/HIPAA-fähig** in der Agent-Tabelle der vorhandenen Programme.
 * Geringfügige Aktualisierungen von [Regionale Datenerfassung](../data-collection/rdc.md), [Validieren der Hostnamenweiterleitung](../data-collection/adobe-managed-cert.md) und [Terminologie](terms.md).
 
 ## März 2026
 
-Hinzugefügt [KI-Aufträge und -Guthaben Konsum](../features/ai-credit-consumption.md)
+Hinzugefügt [KI-Aufträge und -Guthaben Konsum](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## November 2025
 
-Aktualisierungen für [Agent KI in CX Enterprise](../features/agentic-ai.md)
+Aktualisierungen für [Agent KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Oktober 2025
 

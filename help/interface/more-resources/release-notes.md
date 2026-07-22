@@ -27,9 +27,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d86266af93c64ffcb18ab0c74138ff2410a69f24
+source-git-commit: 26697b9999f9b467cfc59b9ac918565d6a5d932b
 workflow-type: tm+mt
-source-wordcount: 1617
+source-wordcount: 1629
 ht-degree: 56%
 
 ---
@@ -53,7 +53,7 @@ Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versions
 | Datum | Update | Beschreibung |
 | ------- | ------- | ------- |
 | &#x200B;11. Juni 2026 | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/en/docs/cx-enterprise-coworker/content/home) ist eine agentische KI-Anwendung, die End-to-End-Workflows für das Kundenerlebnis automatisiert. [!DNL Coworker] erkennt Signale, erstellt Zielgruppen und startet Kampagnen mit integrierter Governance in Stunden. Dokumentation in Kürze verfügbar. |
-| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Agent-basierten KI-Nutzung in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung des Verbrauchs von KI-Credits für Experience Platform-Agents, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten „Überblick“, „Benutzende“, „Feedback“ und „KI-Credits“ helfen den Governance-Verantwortlichen, die Akzeptanz anhand von Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](../features/monitoring.md)AI-Überwachung für Agenten“. |
+| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Agent-basierten KI-Nutzung in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung des Verbrauchs von KI-Credits für Experience Platform-Agents, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten „Überblick“, „Benutzende“, „Feedback“ und „KI-Credits“ helfen den Governance-Verantwortlichen, die Akzeptanz anhand von Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)AI-Überwachung für Agenten“. |
 
 ## April 2026
 
