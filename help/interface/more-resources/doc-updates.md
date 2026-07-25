@@ -40,7 +40,7 @@ Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfl
 
 ## Juni 2026
 
-* Veröffentlicht [Überwachung der Agent-KI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
+* Veröffentlicht [Überwachung der Agent-KI](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
 * Versionshinweise [Juni 2026) für &#x200B;](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
 
 ## Mai 2026
@@ -49,16 +49,16 @@ April- und Mai-Updates für das Handbuch zur zentralen CX Enterprise-Benutzerobe
 
 * Die Dokumentation wurde in diesem Handbuch von Experience Cloud zu **CX Enterprise** umbenannt, einschließlich Beschreibungen, Link-Text und Auto-Tag-Metadaten.
 * Es wurden [Versionshinweise April 2026](release-notes.md) für die aktualisierte Startseite unter `https://experience.adobe.com/home` hinzugefügt (Aktualisierung der Benutzeroberfläche, Dunkelmodus und Verbesserungen der Barrierefreiheit).
-* Aktualisierte [Agent-KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, überarbeitete Agentenfunktionen und eine Spalte **Gesundheitsdaten/HIPAA-fähig** in der Agent-Tabelle der vorhandenen Programme.
+* Aktualisierte [Agent-KI in CX Enterprise](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, überarbeitete Agentenfunktionen und eine Spalte **Gesundheitsdaten/HIPAA-fähig** in der Agent-Tabelle der vorhandenen Programme.
 * Geringfügige Aktualisierungen von [Regionale Datenerfassung](../data-collection/rdc.md), [Validieren der Hostnamenweiterleitung](../data-collection/adobe-managed-cert.md) und [Terminologie](terms.md).
 
 ## März 2026
 
-Hinzugefügt [KI-Aufträge und -Guthaben Konsum](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+Hinzugefügt [KI-Aufträge und -Guthaben Konsum](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## November 2025
 
-Aktualisierungen für [Agent KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+Aktualisierungen für [Agent KI in CX Enterprise](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Oktober 2025
 
