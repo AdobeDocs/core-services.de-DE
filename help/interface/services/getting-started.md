@@ -128,7 +128,7 @@ Wenn Sie [!UICONTROL Experience Platform-Tags] nicht verwenden, implementieren S
 
 ### Analytics und Adobe Target - Kunden-IDs synchronisieren {#sync-ids}
 
-Adobe empfiehlt im Rahmen der Einrichtung des Besucher-ID-Service für Analytics und [!DNL Target], Ihre [Kunden-IDs) mit ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) CX Enterprise zu synchronisieren.
+Adobe empfiehlt im Rahmen der Einrichtung des Besucher-ID-Service für Analytics und [!DNL Target], Ihre [Kunden-IDs) mit &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) CX Enterprise zu synchronisieren.
 
 In Adobe Target muss `mbox3rdpartyid` die Kunden-ID abrufen und an [!DNL Target] senden. (Siehe [Arbeiten mit Kundenattributen](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=de) in [!DNL Target].)
 
@@ -163,7 +163,7 @@ Adobe empfiehlt eine Modernisierung Ihrer Analytics-Implementierung durch Aktual
 
 ## Aktualisieren der Implementierung von Adobe Target
 
-* Es wird empfohlen, eine [Adobe Target-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) in [!UICONTROL Experience Platform]-Tags hinzuzufügen, damit der Bibliotheksabruf automatisch erfolgt. Sie können auch die Tag-Erweiterung [[!UICONTROL Experience Cloud ID Service] einrichten, ](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) den Besucher-ID-Service für Adobe Target (und andere Programme) mithilfe von Tags implementiert. Diese Tag-Erweiterung ist **erforderlich** damit Adobe Target die People -Services verwenden kann.
+* Es wird empfohlen, eine [Adobe Target-Erweiterung](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html) in [!UICONTROL Experience Platform]-Tags hinzuzufügen, damit der Bibliotheksabruf automatisch erfolgt. Sie können auch die Tag-Erweiterung [[!UICONTROL Experience Cloud ID Service] einrichten, &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html) den Besucher-ID-Service für Adobe Target (und andere Programme) mithilfe von Tags implementiert. Diese Tag-Erweiterung ist **erforderlich** damit Adobe Target die People -Services verwenden kann.
 * Wenn Sie [!UICONTROL Experience Platform]-Tags nicht verwenden, [aktualisieren Sie Ihre mbox-Bibliothek](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html) manuell.
 * Fordern Sie Zugriff auf Adobe Analytics als Berichtsquelle für [!DNL Adobe Target] an. Daten von [!DNL Target] und [!DNL Analytics] werden während der Verarbeitung bei demselben Server-Aufruf zusammengeführt, damit Besucher programmübergreifend verknüpft werden. Siehe [Analytics for Target-Implementierung](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html).
 
@@ -218,13 +218,13 @@ Nutzen Sie die Vorteile folgender Funktionen.
 
 Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in CX Enterprise hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
-Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes)Kundenattribute“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes)Kundenattribute“.
 
 ### [!UICONTROL Personen] > [!UICONTROL Zielgruppenbibliothek]
 
 CX Enterprise [!UICONTROL Audiences] ist die Benutzeroberfläche, mit der Sie Audiences erstellen, vorhandene Audiences kombinieren können, um zusammengesetzte Audiences zu erstellen, und alle freigegebenen Audiences anzeigen können.
 
-Weitere Informationen finden [ unter ](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/overview)Zielgruppen“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/overview)Zielgruppen“.
 
 ## Datenspeicherung und Datenschutz
 

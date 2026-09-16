@@ -54,4 +54,4 @@ Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erwe
 
 * Suchen und filtern Sie nach Kategorie, Unternehmen, Typ, Benutzer usw.
 
-Weitere Informationen finden Sie unter [CX Enterprise ](https://exchange.adobe.com/experiencecloud.html)).
+Weitere Informationen finden Sie unter [CX Enterprise &#x200B;](https://exchange.adobe.com/experiencecloud.html)).

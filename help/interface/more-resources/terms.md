@@ -45,7 +45,7 @@ ht-degree: 5%
 TQID: https://experienceleague.adobe.com/6wm7HcuAbaV1iV3AgN55dY5WR%2D%2D%2DBnMM7lJgN0HZDsk
 -->
 
-Verwenden Sie diese Tabelle, wenn dasselbe Wort in verschiedenen Adobe-Erlebnissen angezeigt wird (CX Enterprise, Marketing-Apps, Design-Apps oder Support-Sites). Es handelt sich nicht um ein vollständiges Glossar. Detaillierte Definitionen finden Sie in der produktspezifischen Hilfe ](https://experienceleague.adobe.com/de) [Experience League.
+Verwenden Sie diese Tabelle, wenn dasselbe Wort in verschiedenen Adobe-Erlebnissen angezeigt wird (CX Enterprise, Marketing-Apps, Design-Apps oder Support-Sites). Es handelt sich nicht um ein vollständiges Glossar. Detaillierte Definitionen finden Sie in der produktspezifischen Hilfe [&#128279;](https://experienceleague.adobe.com/de) Experience League.
 
 | Begriff | In CX Enterprise und dieses Handbuch | Andere gängige Verwendungszwecke von Adobe |
 | --- | --- | --- |

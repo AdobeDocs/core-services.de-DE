@@ -129,7 +129,7 @@ Freigeben von Ordnern und Assets zwischen CX Enterprise und Creative Cloud. Zusa
 
 ## Analytics – Reporting zu AEM Assets in Analytics
 
-Hilfe: [Reporting zu AEM Assets in Analytics ](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
+Hilfe: [Reporting zu AEM Assets in Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
 
 Hiermit können in Analytics die Impressions und Klicks auf Assets erfasst werden, die durch AEM Asset Insights bereitgestellt werden.
 

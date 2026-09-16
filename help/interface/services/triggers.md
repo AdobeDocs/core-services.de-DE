@@ -75,7 +75,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
 1. Klicken Sie in CX Enterprise auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Datenerfassung/Launch]**.
-1. Klicken Sie auf der Karte {]}Trigger **[!UICONTROL auf &quot;Trigger verwalten]**.[!UICONTROL 
+1. Klicken Sie auf der Karte {}Trigger **[!UICONTROL auf &quot;Trigger verwalten]**.
 1. Klicken Sie **[!UICONTROL Neuer Trigger]** und geben Sie dann den Typ des Triggers an:
 
    ![Schritt Ergebnis](../assets/add-trigger.png)

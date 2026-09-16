@@ -155,7 +155,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Weitere [ finden Sie unter „Kunden](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)IDs und Authentifizierungszustände“.)
+(Weitere [&#x200B; finden Sie unter „Kunden](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html)IDs und Authentifizierungszustände“.)
 
 In **[!DNL CX Enterprise]** > **[!DNL Customer Attributes]**:
 

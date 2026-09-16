@@ -47,12 +47,12 @@ Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfl
 
 ## Juli 2026
 
-* Im [ Juli 2026 wurden Versionshinweise ](release-notes.md) CX Enterprise-Unterstützung von [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) hinzugefügt, einschließlich Kontowechsel für Gastbenutzer über den Organisationswechsel.
+* Im [&#x200B; Juli 2026 wurden Versionshinweise &#x200B;](release-notes.md) CX Enterprise-Unterstützung von [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) hinzugefügt, einschließlich Kontowechsel für Gastbenutzer über den Organisationswechsel.
 
 ## Juni 2026
 
 * Veröffentlicht [Überwachung der Agent-KI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
-* Versionshinweise [Juni 2026) für ](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
+* Versionshinweise [Juni 2026) für &#x200B;](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
 
 ## Mai 2026
 
@@ -73,11 +73,11 @@ Aktualisierungen für [Agent KI in CX Enterprise](https://experienceleague.adobe
 
 ## Oktober 2025
 
-Der [ „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
+Der [&#x200B; „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
 
 ## August 2025
 
-Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; ](../features/account-preferences.md).
+Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; &#x200B;](../features/account-preferences.md).
 
 ## Februar 2025
 
@@ -89,7 +89,7 @@ Aktualisierungen [Produktnutzungsdaten](../features/account-preferences.md) und 
 
 ## September 2024
 
-Es wurde Hilfe zum Abonnieren [ Slack-Benachrichtigungen ](../features/account-preferences.md#subscribe-to-slack-notifications).
+Es wurde Hilfe zum Abonnieren [&#x200B; Slack-Benachrichtigungen &#x200B;](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 

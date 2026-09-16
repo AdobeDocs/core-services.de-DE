@@ -59,7 +59,7 @@ Das folgende Bild ist ein Beispiel für eine _Datendatei_ die Abonnentendaten f�
 
 Nachdem Sie die Datendatei erstellt haben, können Sie sie in die Kundenattributquelle hochladen, die Sie unter **[!UICONTROL CX Enterprise]** > **[!UICONTROL Kundenattribute]** erstellen.
 
-Weitere [ zu diesem Workflow finden Sie unter ](t-crs-usecase.md) von Kundenattributdaten hochladen .
+Weitere [&#x200B; zu diesem Workflow finden Sie unter &#x200B;](t-crs-usecase.md) von Kundenattributdaten hochladen .
 
 ## Beispiele für Kundenattribute in Analytics und Target
 

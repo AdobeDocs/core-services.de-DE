@@ -44,7 +44,7 @@ Administratoren können eine sortierbare und filterbare Liste aller CX Enterpris
 
    ![Zugriff auf Admin Console](../assets/admin-tool.png)
 
-1. Klicken [!UICONTROL  unter &quot;]&quot; auf **[!UICONTROL Admin-Tool]**.
+1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf **[!UICONTROL Admin-Tool]**.
 
    (Alternativ können Sie in der Startseiten-URL _home_ durch _admin_ ersetzen.)
 
@@ -80,7 +80,7 @@ Sie können die Spalten suchen, sortieren oder filtern, um die Benutzerliste anz
 
 ## Anzeigen der Benutzerdetails
 
-Klicken Sie auf [!UICONTROL  Seite ]Benutzer“ auf die E-Mail-Adresse eines Benutzers, um dessen Details anzuzeigen.
+Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Benutzer“ auf die E-Mail-Adresse eines Benutzers, um dessen Details anzuzeigen.
 
 ![Anzeigen von Benutzerdetails in Admin Console](../assets/admin-tool-user-details.png)
 
@@ -143,7 +143,7 @@ Sie können die Spalten suchen, sortieren oder filtern, um die Richtlinienliste 
 
 ## Ansicht der Richtliniendetails
 
-Wählen Sie auf [!UICONTROL  Seite ] den Produktprofilnamen aus, um die Details einer Richtlinie anzuzeigen.
+Wählen Sie auf [!UICONTROL &#x200B; Seite &#x200B;] den Produktprofilnamen aus, um die Details einer Richtlinie anzuzeigen.
 
 ![Richtliniendetails in Admin Console anzeigen](../assets/admin-tool-policy-detail.png)
 
