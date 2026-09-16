@@ -7,41 +7,52 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-TQID: https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU
+TQID: 'https://experienceleague.adobe.com/xGxvSSHR43wPti8xyaS96BZDrXtA4CcQ8EoE0V7MLEU'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
+    internal-label: Organizations
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 26697b9999f9b467cfc59b9ac918565d6a5d932b
+    internal-label: Privacy
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 872
-ht-degree: 35%
-
+source-wordcount: '872'
+ht-degree: 36%
 ---
-
 # Dokumentation – Aktualisierungen
 
 Erfahren Sie, wo Dokumentationsaktualisierungen für die zentrale Benutzeroberfläche und Administration von CX Enterprise vorgenommen werden.
 
 ## Juli 2026
 
-* Im [&#x200B; Juli 2026 wurden Versionshinweise &#x200B;](release-notes.md) CX Enterprise-Unterstützung von [Federated Guest Access](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) hinzugefügt, einschließlich Kontowechsel für Gastbenutzer über den Organisationswechsel.
+* Im [ Juli 2026 wurden Versionshinweise ](release-notes.md) CX Enterprise-Unterstützung von [Federated Guest Access](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) hinzugefügt, einschließlich Kontowechsel für Gastbenutzer über den Organisationswechsel.
 
 ## Juni 2026
 
-* Veröffentlicht [Überwachung der Agent-KI](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
-* Versionshinweise [Juni 2026) für &#x200B;](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
+* Veröffentlicht [Überwachung der Agent-KI](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring) mit Informationen zu den Dashboards zur Lizenznutzung und Überwachung der Agent-KI, einschließlich Übersicht, Benutzern, Feedback- und KI-Credits-Ansichten, Gesprächswiederholung und Berechtigungen für Governance-Benutzer.
+* Versionshinweise [Juni 2026) für ](release-notes.md) Überwachung der Nutzung der agenten KI hinzugefügt.
 
 ## Mai 2026
 
@@ -49,24 +60,24 @@ April- und Mai-Updates für das Handbuch zur zentralen CX Enterprise-Benutzerobe
 
 * Die Dokumentation wurde in diesem Handbuch von Experience Cloud zu **CX Enterprise** umbenannt, einschließlich Beschreibungen, Link-Text und Auto-Tag-Metadaten.
 * Es wurden [Versionshinweise April 2026](release-notes.md) für die aktualisierte Startseite unter `https://experience.adobe.com/home` hinzugefügt (Aktualisierung der Benutzeroberfläche, Dunkelmodus und Verbesserungen der Barrierefreiheit).
-* Aktualisierte [Agent-KI in CX Enterprise](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, überarbeitete Agentenfunktionen und eine Spalte **Gesundheitsdaten/HIPAA-fähig** in der Agent-Tabelle der vorhandenen Programme.
+* Aktualisierte [Agent-KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai): Adobe Marketing Agent for Microsoft 365 Copilot, überarbeitete Agentenfunktionen und eine Spalte **Gesundheitsdaten/HIPAA-fähig** in der Agent-Tabelle der vorhandenen Programme.
 * Geringfügige Aktualisierungen von [Regionale Datenerfassung](../data-collection/rdc.md), [Validieren der Hostnamenweiterleitung](../data-collection/adobe-managed-cert.md) und [Terminologie](terms.md).
 
 ## März 2026
 
-Hinzugefügt [KI-Aufträge und -Guthaben Konsum](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
+Hinzugefügt [KI-Aufträge und -Guthaben Konsum](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/ai-credit-consumption)
 
 ## November 2025
 
-Aktualisierungen für [Agent KI in CX Enterprise](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
+Aktualisierungen für [Agent KI in CX Enterprise](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/agentic-ai)
 
 ## Oktober 2025
 
-Der [&#x200B; „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
+Der [ „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
 
 ## August 2025
 
-Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; &#x200B;](../features/account-preferences.md).
+Es wurden Informationen zum [Zurücksetzen der Adobe ID&quot; ](../features/account-preferences.md).
 
 ## Februar 2025
 
@@ -78,7 +89,7 @@ Aktualisierungen [Produktnutzungsdaten](../features/account-preferences.md) und 
 
 ## September 2024
 
-Es wurde Hilfe zum Abonnieren [&#x200B; Slack-Benachrichtigungen &#x200B;](../features/account-preferences.md#subscribe-to-slack-notifications).
+Es wurde Hilfe zum Abonnieren [ Slack-Benachrichtigungen ](../features/account-preferences.md#subscribe-to-slack-notifications).
 
 Aktualisierte [Benutzereinstellungen](../features/account-preferences.md).
 

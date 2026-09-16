@@ -3,42 +3,63 @@ description: Erfahren Sie, wie Sie sichere Zertifikate für die Verwendung mit A
 solution: Experience Cloud,Analytics
 title: Adobe-Managed Certificate Program
 index: true
-snippet: y
+snippet: 'y'
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-TQID: https://experienceleague.adobe.com/LWbjh-jXKmY6mcl047uzA1ZkhZlAmeNpt9JRg3Ynt9E
+autotag-review: '2026-09-09T20:12:24.943Z'
+TQID: 'https://experienceleague.adobe.com/8CSBLQaw3KOByyxxCYr1By4gyAQsDIhiofOdAzn38dg'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+    internal-label: Methods
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: e992d880-33bc-4949-a648-aa7d410276cd
-  - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Validation
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55066e485981ca25ca33c9151a85bae5432a3212
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: '1282'
 ht-degree: 2%
-
 ---
-
 # Adobe Managed Certificate Program
 
 Das Adobe-verwaltete Zertifikatsprogramm ist der empfohlene Prozess zum Einrichten von Erstanbieterzertifikaten, die für eine CNAME-Implementierung erforderlich sind. Das Programm ist nach der Konfiguration vollständig automatisiert. Zertifikate werden rechtzeitig erneuert, sodass sich die Datenerfassung aufgrund abgelaufener Zertifikate nicht auswirkt. Das Programm ist kostenlos für Ihre ersten 100 CNAMEs.
@@ -115,12 +136,12 @@ Aliases: data.example.com
 
 Um Ihren neuen CNAME-Hostnamen zu verwenden, aktualisieren Sie Ihre Adobe-Implementierung, sobald Sie überprüft haben, ob Ihr Zertifikat ordnungsgemäß funktioniert.
 
-* **Web-SDK-Tag** Erweiterung: Aktualisieren Sie das Feld [[!UICONTROL Edge]](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/web-sdk/configure/general)Domain“ beim Konfigurieren der Erweiterung.
-* **Web SDK (Legierung)**: Aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/edgedomain) Eigenschaft im `configure`.
-* **Adobe Analytics-Erweiterung**: Aktualisieren Sie das Feld [[!UICONTROL SSL-Tracking]](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/analytics/overview)Server“, wenn Sie die Erweiterung konfigurieren. Stellen Sie sicher, dass Sie auch [&#x200B; Tag-Erweiterung „Visitor ID Service](https://experienceleague.adobe.com/de/docs/experience-platform/tags/extensions/client/id-service/overview) installiert haben. Weitere [&#x200B; finden Sie unter „Besucheridentifizierung mit der Tag](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/analytics-extension)Erweiterung für Analytics“.
-* **AppMeasurement**: Aktualisieren Sie die [`trackingServerSecure`](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/config-vars/trackingserversecure) Konfigurationsvariable. Stellen Sie sicher, dass Sie auch den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) mit `VisitorAPI.js` implementiert haben. Weitere Informationen [&#x200B; Sie unter „Besucheridentifizierung mit &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/appmeasurement)&quot;.
+* **Web-SDK-Tag** Erweiterung: Aktualisieren Sie das Feld [[!UICONTROL Edge]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/general)Domain“ beim Konfigurieren der Erweiterung.
+* **Web SDK (Legierung)**: Aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/edgedomain) Eigenschaft im `configure`.
+* **Adobe Analytics-Erweiterung**: Aktualisieren Sie das Feld [[!UICONTROL SSL-Tracking]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)Server“, wenn Sie die Erweiterung konfigurieren. Stellen Sie sicher, dass Sie auch [ Tag-Erweiterung „Visitor ID Service](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) installiert haben. Weitere [ finden Sie unter „Besucheridentifizierung mit der Tag](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)Erweiterung für Analytics“.
+* **AppMeasurement**: Aktualisieren Sie die [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure) Konfigurationsvariable. Stellen Sie sicher, dass Sie auch den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) mit `VisitorAPI.js` implementiert haben. Weitere Informationen [ Sie unter „Besucheridentifizierung mit ](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement)&quot;.
 
-Wenn Ihre Site mehrere Implementierungsmethoden verwendet und Sie nicht alle gleichzeitig aktualisieren können, sollten Sie eine Übergangsphase konfigurieren. Unter [Überlegungen zur Migration des Besucher-ID](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/migration)Service finden Sie weitere Schritte, um zu verhindern, dass Besucher auf Ihrer Site als neue Besucher gezählt werden.
+Wenn Ihre Site mehrere Implementierungsmethoden verwendet und Sie nicht alle gleichzeitig aktualisieren können, sollten Sie eine Übergangsphase konfigurieren. Unter [Überlegungen zur Migration des Besucher-ID](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/migration)Service finden Sie weitere Schritte, um zu verhindern, dass Besucher auf Ihrer Site als neue Besucher gezählt werden.
 
 ## Wartung und Erneuerung
 

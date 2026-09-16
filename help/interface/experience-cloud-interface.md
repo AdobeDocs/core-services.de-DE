@@ -6,13 +6,23 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 41%
-
 ---
-
 # Zentrale Komponenten der CX-Enterprise-Benutzeroberfläche
 
 Die zentralen Komponenten der Benutzeroberfläche von CX Enterprise umfassen Funktionen, die Ihnen Folgendes ermöglichen:
@@ -52,7 +62,7 @@ CX Enterprise unterstützt bevorzugte Sprachen für jeden Benutzer, wie in den V
 * Spanisch
 * Taiwanesisch
 
-Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter &quot;[&#x200B; Enterprise-Benutzervoreinstellungen“ &#x200B;](https://experience.adobe.com/preferences) werden.
+Obwohl sich alle Programm-Teams zur globalen Sprachunterstützung verpflichten, werden nicht alle Programme in allen oben genannten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie auch eine sekundäre Sprache so einstellen, dass sie ggf. auf Standard gesetzt wird. Dies kann unter &quot;[ Enterprise-Benutzervoreinstellungen“ ](https://experience.adobe.com/preferences) werden.
 
 ## Bei CX Enterprise anmelden
 
@@ -80,7 +90,7 @@ Klicken Sie auf die Programmauswahl ![Menü](assets/menu-icon.png), um auf die v
 
 ## Suche und Support in CX Enterprise
 
-Mit der CX Enterprise-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League suchen](https://experienceleague.adobe.com/de?lang=de#home).
+Mit der CX Enterprise-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) auf [Experience League suchen](https://experienceleague.adobe.com/?lang=de#home).
 
 ![Suche und Support in CX Enterprise](assets/search-menu.png)
 
@@ -88,7 +98,7 @@ Das [!UICONTROL Hilfe]-Menü bietet Ihnen außerdem Zugriff auf:
 
 * **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie [!UICONTROL Support] über Twitter.
 * **[!UICONTROL Feedback]:** Kontaktieren Sie Adobe mithilfe von Feedback und teilen Sie uns Ihre Meinung mit.
-* **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/de-de/experience_cloud` und überprüfen Sie den Betriebsstatus des Produkts und [!UICONTROL Abonnements verwalten].
+* **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und überprüfen Sie den Betriebsstatus des Produkts und [!UICONTROL Abonnements verwalten].
 * **[!UICONTROL Developer Connection]:** Navigation zum `adobe.io` und zur Entwicklerdokumentation.
 
 ## Kontoeinstellungen
@@ -113,7 +123,7 @@ Unter [!UICONTROL CX Enterprise-] können Sie die folgenden Funktionen konfiguri
 | Funktion | Beschreibung |
 | --- | --- |
 | Standardorganisation | Wählen Sie die Organisation aus, die beim Starten von CX Enterprise angezeigt werden soll. |
-| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop[!UICONTROL over &#x200B;]Benachrichtigungen“ und in Ihren E-Mails. |
+| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop[!UICONTROL over ]Benachrichtigungen“ und in Ihren E-Mails. |
 | [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
 | E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich) |

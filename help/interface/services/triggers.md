@@ -8,29 +8,40 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-TQID: https://experienceleague.adobe.com/1R70ZEmKiP9VhhSRVCXHjGoJbOb7Mh8spKRm4FgNRPc
+TQID: 'https://experienceleague.adobe.com/1R70ZEmKiP9VhhSRVCXHjGoJbOb7Mh8spKRm4FgNRPc'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e56a5463246fe74bd7393de446687b6464760db1
+    internal-label: Administration
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 817
+source-wordcount: '817'
 ht-degree: 67%
-
 ---
-
 # CX Enterprise-Trigger
 
 Mit [!UICONTROL Trigger] in CX Enterprise können Sie wichtige Kundenverhaltensweisen identifizieren, definieren und überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. Weitere Informationen zur Verwendung von [!UICONTROL Trigger] mit Adobe Campaign finden Sie unter [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de).
@@ -64,7 +75,7 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
 1. Klicken Sie in CX Enterprise auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Datenerfassung/Launch]**.
-1. Klicken Sie auf der Karte {}Trigger **[!UICONTROL auf &quot;Trigger verwalten]**.
+1. Klicken Sie auf der Karte {]}Trigger **[!UICONTROL auf &quot;Trigger verwalten]**.[!UICONTROL 
 1. Klicken Sie **[!UICONTROL Neuer Trigger]** und geben Sie dann den Typ des Triggers an:
 
    ![Schritt Ergebnis](../assets/add-trigger.png)
