@@ -1,6 +1,6 @@
 ---
 title: '[!DNL Audience Library]'
-description: Erfahren Sie, wie Sie in CX Enterprise die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung  [!DNL Audience Library].
+description: Erfahren Sie, wie Sie in CX Enterprise [!DNL Audience Library] die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten.
 solution: Experience Cloud
 type: Documentation
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
@@ -9,26 +9,34 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-TQID: https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg
+TQID: 'https://experienceleague.adobe.com/QEAfCWPNI-JhDw-HjZwBGv0TlqyctIqSwz8eVQqS6Gg'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Audience segmentation
+source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
 workflow-type: tm+mt
-source-wordcount: 760
-ht-degree: 47%
-
+source-wordcount: '760'
+ht-degree: 48%
 ---
-
 # CX Enterprise-Zielgruppen
 
 [!DNL Audience Library] zeigt Zielgruppen in CX Enterprise an. Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von [!DNL CX Enterprise]-IDs). Sie können die Umsetzung von Besucherdaten in Zielgruppensegmentierung verwalten. Auf diese Weise erfolgt das Erstellen und Verwalten von Zielgruppen so ähnlich wie das Erstellen und Verwalten von Segmenten. Sie können in [!DNL CX Enterprise] das Zielgruppensegment auch für Produkte und Services freigeben.
