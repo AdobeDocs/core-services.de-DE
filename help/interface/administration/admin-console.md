@@ -86,7 +86,7 @@ Hier finden Sie Ressourcen, die Sie möglicherweise benötigen, wenn Sie als Adm
 
 | Hilfe-Link | Beschreibung |
 | ------- | ------- |
-| [Auditprotokoll](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Protokolle]** > **[!UICONTROL Auditprotokoll]** <br> alle in Admin Console vorgenommenen Änderungen verfolgen. |
+| [Auditprotokoll](https://helpx.adobe.com/de/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Protokolle]** > **[!UICONTROL Auditprotokoll]** <br> alle in Admin Console vorgenommenen Änderungen verfolgen. |
 
 
 ## Anwendungsspezifische Ressourcen
