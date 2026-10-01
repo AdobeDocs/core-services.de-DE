@@ -13,7 +13,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -36,18 +36,18 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 43%
 ---
-# CX Enterprise-Benutzeroberfläche - Übersicht
+# Übersicht über die CX Enterprise-Benutzeroberfläche
 
 Die Schnittstellenfunktionen von CX Enterprise werden manchmal als _Core Services“_. Sie sind die Funktionen des einheitlichen Headers, einschließlich [!DNL People] Services ([!DNL Audience Library] und [!DNL Customer Attributes]).
 
-Weitere freigegebene Funktionen sind die Administration (Benutzer- und Produktverwaltung) für CX Enterprise, Cookies, Kontovoreinstellungen, Benachrichtigungen usw.
+Zu den weiteren freigegebenen Funktionen gehören die Administration (Benutzer- und Produktverwaltung) für CX Enterprise, Cookies, Kontovoreinstellungen, Benachrichtigungen und so weiter.
 
-Um auf freigegebene Services und Anwendungen in CX Enterprise zuzugreifen, klicken Sie auf **[!UICONTROL Anwendungsselektor]**
+Um auf freigegebene Services und Programme in CX Enterprise zuzugreifen, klicken Sie auf die **[!UICONTROL Anwendungsauswahl]**
 ![Dienstauswahl](../assets/apps-icon.png).
 
 **Anwendungsauswahl**
@@ -62,8 +62,8 @@ Auf den Seiten Services in diesem Handbuch werden die folgenden Produkte und Ser
 | [Zielgruppenbibliothek](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/overview) | Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von Besucher-IDs). Mit der [!DNL Audience Library] von Adobe können Sie die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten. |
 | [Kundenattribute](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungsdienst. |
 | [Assets](https://experienceleague.adobe.com/de/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie programmübergreifend freigeben können. |
-| [Triggers](https://experienceleague.adobe.com/de/docs/core-services/interface/services/triggers) | Trigger in CX Enterprise ermöglicht es Ihnen, wichtige Kundenverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. |
-| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/de/docs/core-services/interface/services/exchange) | Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Mobile Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte. |
+| [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | Trigger in CX Enterprise ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. |
+| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Mobile Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte. |
 
 {style="table-layout:auto"}
 

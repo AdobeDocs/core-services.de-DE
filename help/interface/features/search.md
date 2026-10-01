@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Anwendungen in CX Enterprise.
+description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Programme in CX Enterprise.
 solution: Experience Cloud
 title: Experience Cloud – Einheitliche Suche
 index: true
@@ -11,24 +11,29 @@ exl-id: 70586f18-6f84-4308-bab3-1da7fab823d6
 TQID: https://experienceleague.adobe.com/xE4H6kdjbKSwVygCsOV4zTBqPoBHAVMHfJMyYOummg0
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+    internal-label: Administration
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '660'
 ht-degree: 81%
-
 ---
-
 # [!UICONTROL Einheitliche Suche] in CX Enterprise
 
 Die [!UICONTROL einheitliche Suche] ermöglicht es Ihnen, durchsuchbare Geschäftsobjekte oder Entitäten in einem nahtlosen, konsistenten Erlebnis mit einem Klick zu finden. Diese Suche zeigt auch die Objekte an, auf die Sie zuletzt zugegriffen haben.
@@ -37,7 +42,7 @@ Die [!UICONTROL einheitliche Suche] ermöglicht es Ihnen, durchsuchbare Geschäf
 
 ## Zugreifen auf [!UICONTROL Einheitliche Suche]
 
-[!UICONTROL Einheitliche Suche] ist auf jeder Seite in der CX Enterprise-Kopfzeile am oberen Seitenrand verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
+[!UICONTROL Einheitliche Suche] ist im CX Enterprise-Header oben auf der Seite auf jeder Seite verfügbar. Sie können auch den Tastaturbefehl `command /` oder `ctrl /` verwenden, um auf die Suche zuzugreifen.
 
 Diese Funktion ist nur für unterstützte Produkte verfügbar – derzeit die folgenden:
 

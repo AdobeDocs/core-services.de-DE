@@ -15,7 +15,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud services
+    internal-label: Experience Cloud Services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -42,31 +42,31 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 57%
 ---
 # Gesammelte Versionshinweise
 
-Funktionen, Versionshinweise und bekannte Probleme in Zusammenhang mit den Komponenten der zentralen CX Enterprise-Benutzeroberfläche.
+Funktionen, Versionshinweise und bekannte Probleme in Verbindung mit der CX Enterprise Central Interface-Komponente.
 
 Eine Liste der Aktualisierungen der Dokumentation finden Sie unter [Aktualisierungen der Dokumentation](doc-updates.md).
 
-Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
+Versionshinweise zu allen Programmen finden Sie unter [CX Enterprise-Versionshinweise](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=de).
 
 ## Juli 2026
 
 | Datum | Update | Beschreibung |
 | ------- | ------- | ------- |
-| &#x200B;10. Juli 2026 | CX Enterprise-Unterstützung für Federated Guest Access | Wenn Sie „Federated [&#x200B; Access“ für &#x200B;](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) sichere Authentifizierung von Gastbenutzern in Ihrer eigenen Domain aktiviert haben, können diese Benutzer mithilfe von CX Enterprise zwischen Konten wechseln. Der Kontowechsel ist über den Organisationswechsel auf jeder [CX Enterprise](https://experience.adobe.com)-Seite möglich. |
+| &#x200B;10. Juli 2026 | CX Enterprise-Unterstützung für Federated Guest Access | Wenn Sie „Federated [ Access“ für ](https://helpx.adobe.com/business/enterprise/using/federated-guest-access.html) sichere Authentifizierung von Gastbenutzern in Ihrer eigenen Domain aktiviert haben, ermöglicht CX Enterprise diesen Benutzern den Wechsel zwischen Konten. Der Kontowechsel ist über den Organisationswechsel auf jeder beliebigen [CX Enterprise](https://experience.adobe.com)-Seite verfügbar. |
 
 ## Juni 2026
 
 | Datum | Update | Beschreibung |
 | ------- | ------- | ------- |
 | &#x200B;11. Juni 2026 | [!DNL CX Enterprise Coworker] | [[!DNL CX Enterprise Coworker]](https://experienceleague.adobe.com/de/docs/cx-enterprise-coworker/content/home) ist eine agentische KI-Anwendung, die End-to-End-Workflows für das Kundenerlebnis automatisiert. [!DNL Coworker] erkennt Signale, erstellt Zielgruppen und startet Kampagnen mit integrierter Governance in Stunden. Dokumentation in Kürze verfügbar. |
-| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Agent-basierten KI-Nutzung in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung des Verbrauchs von KI-Credits für Experience Platform-Agents, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten „Überblick“, „Benutzende“, „Feedback“ und „KI-Credits“ helfen den Governance-Verantwortlichen, die Akzeptanz anhand von Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)AI-Überwachung für Agenten“. |
+| &#x200B;1. Juni 2026 | [!UICONTROL Überwachung] | CX Enterprise bietet jetzt Dashboards zur Überwachung der Agent-basierten KI-Nutzung in vorhandenen Anwendungen. Nachverfolgung der Akzeptanz, Überprüfung von Unterhaltungen und Feedback sowie Verwaltung des Verbrauchs von KI-Credits für Experience Platform-Agents, auf die über den KI-Assistenten und andere Gesprächsoberflächen zugegriffen wird. Die Ansichten „Überblick“, „Benutzende“, „Feedback“ und „KI-Credits“ helfen den Governance-Verantwortlichen, die Akzeptanz anhand von Daten zu steuern. Informationen zu Dashboard[Zugriff und Berechtigungen finden Sie unter ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/overview/monitoring)AI-Überwachung für Agenten“. |
 
 ## April 2026
 
@@ -84,37 +84,37 @@ Versionshinweise zu allen Anwendungen finden Sie unter [CX Enterprise - Versions
 
 | Datum | Update | Beschreibung |
 | -----------| -----------| ---------- |
-| Freitag, 25. September 2025 | Unterstützung für IP-Zugriffslisten | Für Unternehmen, die IP-Zugriffslisten in Admin Console verfügbar und aktiviert haben, berücksichtigt CX Enterprise diese IP-Einschränkungen für den Zugriff auf Anwendungen auf der `https://experience.adobe.com` Domain. Diese Aktualisierung betrifft alle Web-Anwendungen, auf die über diese Domain zugegriffen wird. Die Prüfungen werden bei der Anmeldung und beim Laden neuer Seiten in dieser Organisation durchgeführt. |
+| Freitag, 25. September 2025 | Unterstützung für IP-Zugriffslisten | Für Organisationen, die IP-Zugriffslisten in Admin Console verfügbar und aktiviert haben, berücksichtigt CX Enterprise diese IP-Einschränkungen für den Zugriff auf Anwendungen auf der `https://experience.adobe.com` Domain. Diese Aktualisierung betrifft alle Web-Anwendungen, auf die über diese Domain zugegriffen wird. Die Prüfungen werden bei der Anmeldung und beim Laden neuer Seiten in dieser Organisation durchgeführt. |
 
 ## März 2025
 
 | Datum | Update | Beschreibung |
 | -----------| -----------| ---------- |
-| &#x200B;6. März 2025 | Korrektur der Rechtsklick-Menüoption | Die Navigations-Registerkarten der CX Enterprise-Kopfzeile ermöglichen jetzt Dropdown-Menüfunktionen mit Rechtsklick im Browser. Damit wurde ein Problem behoben, das in der Version von Februar des Spectrum 2-Designsystems eingeführt wurde. |
+| &#x200B;6. März 2025 | Korrektur der Rechtsklick-Menüoption | Navigationsregisterkarten in der CX Enterprise-Kopfzeile ermöglichen jetzt Dropdown-Menüfunktionen mit Rechtsklick im Browser. Damit wurde ein Problem behoben, das in der Version von Februar des Spectrum 2-Designsystems eingeführt wurde. |
 
 ## Februar 2025
 
 | Datum | Funktion | Beschreibung |
 | -----------| -----------| ---------- |
-| Februar 13 | Spectrum 2 | Der CX Enterprise-Anwendungsrahmen, der die Kopfzeilenleiste und Komponenten umfasst, auf die über die Kopfzeilenleiste zugegriffen wird, sowie die linke Navigationsleiste für bestimmte Anwendungen werden auf Spectrum 2 aktualisiert, Adobes neuestes Design-System. Dieses überarbeitete Design enthält aktualisierte Symbolbilder, aber die gleiche Funktionalität. Einige Elemente in der Kopfzeile werden jedoch neu positioniert, um sie an andere Adobe-Sites und -Programme anzupassen. |
+| Februar 13 | Spectrum 2 | Der CX Enterprise-Anwendungsrahmen, der die Kopfzeilenleiste und die von der Kopfzeilenleiste aus zugänglichen Komponenten sowie die linke Navigationsleiste für bestimmte Anwendungen enthält, wird auf Spectrum 2 aktualisiert, Adobes neuestes Design-System. Dieses überarbeitete Design enthält aktualisierte Symbolbilder, aber die gleiche Funktionalität. Einige Elemente in der Kopfzeile werden jedoch neu positioniert, um sie an andere Adobe-Sites und -Programme anzupassen. |
 
 ## Januar 2025
 
 | Datum | Funktion | Beschreibung |
 | -----------| -----------| ---------- |
-| Januar 9 | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für die CX Enterprise-Produktnutzungsdaten zu vereinfachen, haben wir unsere Seite CX Enterprise [Preferences](../features/account-preferences.md#product-usage-data) optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzervoreinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit in den [CX Enterprise-Voreinstellungen](https://experience.adobe.com/preferences) aktualisieren. |
+| Januar 9 | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für CX Enterprise-Produktverwendungsdaten zu vereinfachen, haben wir unsere Seite [Voreinstellungen](../features/account-preferences.md#product-usage-data) von CX Enterprise optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit in den [CX Enterprise-Voreinstellungen](https://experience.adobe.com/preferences) aktualisieren. |
 
 ## Donnerstag, 2. Oktober 2024
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Anpassbare Startseite | Klicken Sie auf der Startseite von CX Enterprise auf **[!UICONTROL Bearbeiten]**. [!UICONTROL Bearbeiten]-Modus können Sie Ihre Startseite von CX Enterprise mit Zugriff auf eine Widget-Bibliothek und benutzerdefinierte Hintergründe personalisieren. [!UICONTROL Bearbeiten]-Modus bietet nahtlose, intuitive Steuerelemente zum Verschieben, Ändern der Größe und Verwalten von Widgets, einschließlich Massenaktionen und Layout-Anpassungen, die ein ästhetischeres und maßgeschneidertes Erlebnis bieten. |
+| Anpassbare Startseite | Klicken Sie auf der CX Enterprise-Landingpage auf **[!UICONTROL Bearbeiten]**. [!UICONTROL Bearbeiten]-Modus können Sie Ihre CX Enterprise-Startseite mit Zugriff auf eine Widget-Bibliothek und benutzerdefinierte Hintergründe personalisieren. [!UICONTROL Bearbeiten]-Modus bietet nahtlose, intuitive Steuerelemente zum Verschieben, Ändern der Größe und Verwalten von Widgets, einschließlich Massenaktionen und Layout-Anpassungen, die ein ästhetischeres und maßgeschneidertes Erlebnis bieten. |
 
 ## Mittwoch, 10. September 2024
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen konfigurieren, um CX Enterprise-Benachrichtigungen an Slack zu senden. Detaillierte Informationen finden Sie unter &lbrace;0 _Slack[Benachrichtigungen in der &#x200B;](../features/account-preferences.md)-Hilfe._ |
+| Slack-Benachrichtigungen | Sie können Ihre Kontovoreinstellungen konfigurieren, um CX Enterprise-Benachrichtigungen an Slack zu senden. Detaillierte Informationen finden Sie unter {0 _Slack[Benachrichtigungen in der ](../features/account-preferences.md)-Hilfe._ |
 
 <!--
 ## July - August 2023
@@ -123,22 +123,22 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL CX Enterprise] customers access to foundational capabilities that aid interoperability between some [!DNL CX Enterprise] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL CX Enterprise] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL CX Enterprise] customers access to foundational capabilities that aid interoperability between some [!DNL CX Enterprise] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL CX Enterprise] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=de), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=de), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=de), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=de), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=de), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=de), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=de), and [CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=de).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [CX Enterprise ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=de) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=de) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities
 -->
 
 ## Mai 2023
 
-* Im **[!UICONTROL Hilfe]**-Menü von [!DNL CX Enterprise] wurde die Inhaltssuche aktualisiert, um in den [Experience League](https://experienceleague.adobe.com/de?lang=de#home)-Suchergebnissen nach Anwendung zu filtern.
+* Im **[!UICONTROL Hilfe]**-Menü von [!DNL CX Enterprise] wurde die Inhaltssuche aktualisiert, um in den [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Suchergebnissen nach Anwendung zu filtern.
 
 ## Juli 2022
 
@@ -168,7 +168,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beschreibung |
 | ------- | -------|
-| Tastaturbefehle (**[!UICONTROL Zuletzt verwendet]** zur Startseite von [CX Enterprise](https://experience.adobe.com/home) hinzugefügt | Unter der neuen Rubrik _Zuletzt verwendet_ auf der Landingpage können Sie auf Verknüpfungen zu Ihren letzten Arbeiten mit Journey Optimizer und Experience Platform zugreifen. Diese Aktualisierung beinhaltet auch allgemeine Verbesserungen hinsichtlich Layout und Reaktionsfähigkeit. |
+| Tastaturbefehle (**[!UICONTROL Zuletzt verwendet]** zur [CX Enterprise](https://experience.adobe.com/home)-Startseite hinzugefügt | Unter der neuen Rubrik _Zuletzt verwendet_ auf der Landingpage können Sie auf Verknüpfungen zu Ihren letzten Arbeiten mit Journey Optimizer und Experience Platform zugreifen. Diese Aktualisierung beinhaltet auch allgemeine Verbesserungen hinsichtlich Layout und Reaktionsfähigkeit. |
 | **[!UICONTROL Sandboxes]** in die Kopfzeilenleiste verschoben | Der Sandbox-Indikator ist jetzt für alle Programme der Experience Platform-Benutzeroberfläche in die Kopfzeile integriert. Siehe [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=de) in Experience Platform für weitere Informationen. |
 
 {style="table-layout:auto"}
@@ -217,9 +217,9 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 | ------- | ------- |
-| CX Enterprise - Header und Navigation | Adobe CX Enterprise-Updates enthalten eine Änderung des hellen Designs für die Kopfzeile. Sie können einfach wieder zu einem dunklen Design wechseln und erhalten einen Link zur Steuerung zusätzlicher Voreinstellungen von ihrem Benutzeravatar in der CX Enterprise-Kopfzeile. Obwohl nicht alle Anwendungen in CX Enterprise das Design unterstützen, wird durch diese Funktion die Unterstützung künftiger Designs freigeschaltet. |
-| CX Enterprise - Globale Suche | Mit dieser Version können Sie mit der globalen CX Enterprise-Suche nach allen [Experience League](https://experienceleague.adobe.com/de?lang=de#home)-Dokumentationen, -Kursen und -Tutorials suchen. (Derzeit steht die globale Suche nur Benutzern von Experience Platform zur Verfügung. Die globale Suche nach [!UICONTROL Platform] ermöglicht es Ihnen, in CX Enterprise nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
-| CX Enterprise-Spracheinstellungen | Dieses Update bietet die Möglichkeit, Ihre bevorzugten Sprachen in CX Enterprise ([) &#x200B;](https://experience.adobe.com/preferences). |
+| CX Enterprise-Kopfzeile und -Navigation | Adobe CX Enterprise-Aktualisierungen beinhalten eine Änderung des hellen Designs für die Kopfzeile mit der Möglichkeit, einfach zurück zum dunklen Design zu wechseln, und einen Link, um zusätzliche Voreinstellungen von ihrem Benutzeravatar in der Kopfzeile von CX Enterprise zu steuern. Obwohl nicht alle Anwendungen in CX Enterprise das Design unterstützen, wird durch diese Funktion die Unterstützung künftiger Designs freigeschaltet. |
+| Globale Suche in CX Enterprise | Mit dieser Version können Sie mit der globalen CX Enterprise-Suche nach allen [Experience League](https://experienceleague.adobe.com/?lang=de#home)-Dokumentationen, -Kursen und -Tutorials suchen. (Derzeit steht die globale Suche nur Benutzern von Experience Platform zur Verfügung. Die globale Suche nach [!UICONTROL Platform] ermöglicht es Ihnen, in CX Enterprise nach beliebigen Geschäftsobjekten zu suchen, z. B. nach Segmenten, Datensätzen, Schemas und mehr.) |
+| CX Enterprise-Spracheinstellungen | Dieses Update bietet die Möglichkeit, Ihre bevorzugten Sprachen in CX Enterprise [Voreinstellungen](https://experience.adobe.com/preferences) festzulegen. |
 
 {style="table-layout:auto"}
 
@@ -227,20 +227,20 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Admin-Tool – Richtlinien | Auf dieser Seite wird eine vollständige Liste der CX Enterprise-Richtlinien in Ihrer Organisation angezeigt. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern. Detaillierte Informationen finden Sie in [CX Enterprise Admin &#x200B;](../administration/admin-tool-experience-cloud.md)-Hilfe. |
+| Admin-Tool – Richtlinien | Auf dieser Seite wird eine vollständige Liste der CX Enterprise-Richtlinien in Ihrem Unternehmen angezeigt. Sie enthält Informationen zu Produkten, Instanzen, Benutzern und Entwicklern. Sie können nach benutzerdefinierten Ansichten der Richtlinienliste suchen, sortieren und filtern. Detaillierte Informationen finden Sie in der Hilfe ](../administration/admin-tool-experience-cloud.md) CX Enterprise Admin Tool.[ |
 
 {style="table-layout:auto"}
 
 ## April 2020
 
 * CX Enterprise [!UICONTROL Feed]-Seite ist veraltet. (EXC-8505)
-* Die Anmeldeseite von CX Enterprise wurde aktualisiert, um neue Branding-Elemente widerzuspiegeln. (EXC-10747)
+* Die Anmeldeseite von CX Enterprise wurde aktualisiert und spiegelt nun neue Branding-Elemente wider. (EXC-10747)
 
 ## Februar 2020
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller CX Enterprise-Benutzer und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Detaillierte Informationen finden Sie in [CX Enterprise Admin &#x200B;](../administration/admin-tool-experience-cloud.md)-Hilfe. |
+| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller CX Enterprise-Benutzenden und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Detaillierte Informationen finden Sie in der Hilfe ](../administration/admin-tool-experience-cloud.md) CX Enterprise Admin Tool.[ |
 
 {style="table-layout:auto"}
 
@@ -320,7 +320,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 | --- | --- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for CX Enterprise Solutions|New CX Enterprise customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=de).|
+|Admin Console for CX Enterprise Solutions|New CX Enterprise customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -464,7 +464,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=de) page from displaying in Japanese.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL CX Enterprise].
 
 ## April 2015
