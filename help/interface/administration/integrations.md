@@ -129,7 +129,7 @@ Freigeben von Ordnern und Assets zwischen CX Enterprise und Creative Cloud. Sie 
 
 ## Analytics – Reporting zu AEM Assets in Analytics
 
-Hilfe: [Reporting zu AEM Assets in Analytics ](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
+Hilfe: [Reporting zu AEM Assets in Analytics &#x200B;](https://experienceleague.adobe.com/docs/analytics/integration/aem-assets-reporting.html)
 
 Hiermit können in Analytics die Impressions und Klicks auf Assets erfasst werden, die durch AEM Asset Insights bereitgestellt werden.
 
@@ -198,7 +198,7 @@ Synchronisieren Sie Ihre Assets innerhalb von Adobe Experience Manager (AEM)-Ass
 
 Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie weitere Informationen zum Zugriff auf Adobe CX Enterprise, zu Profilen und Zielgruppen sowie zur Ersteinrichtung von [!DNL Adobe Advertising]- und Adobe CX Enterprise-Zielgruppen erhalten möchten. **Hinweis:** Wenn Sie auch Adobe Target verwenden, sind alle in Adobe CX Enterprise veröffentlichten Zielgruppen auch für Aktivitäten in Adobe Target verfügbar.
 
-**CX Enterprise Assets:** (Advertisers mit Display-Verwaltung) Sie können jedes Ihrer Adobe CX Enterprise-Assets als Kreative für Ihre Display-Anzeigen verwenden, indem Sie die Ansicht Neue Display-Beta verwenden. Sie müssen über [ Adobe CX Enterprise bei Adobe Advertising angemeldet sein, ](https://enterprise.efrontier.com/CMDashboard) auf Ihre Adobe CX Enterprise-Assets zuzugreifen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Informationen zum Zugriff auf Adobe CX Enterprise benötigen.
+**CX Enterprise Assets:** (Advertisers mit Display-Verwaltung) Sie können jedes Ihrer Adobe CX Enterprise-Assets als Kreative für Ihre Display-Anzeigen verwenden, indem Sie die Ansicht Neue Display-Beta verwenden. Sie müssen über [&#x200B; Adobe CX Enterprise bei Adobe Advertising angemeldet sein, &#x200B;](https://enterprise.efrontier.com/CMDashboard) auf Ihre Adobe CX Enterprise-Assets zuzugreifen. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Informationen zum Zugriff auf Adobe CX Enterprise benötigen.
 
-**CX Enterprise-Benachrichtigungen:** Über den Benachrichtigungslink oben auf jeder Seite können Sie alle Warnhinweise anzeigen, die von Ihren Beta-Warnhinweisvorlagen für Suchen generiert wurden. Sie können auch CX Enterprise-Systemaktualisierungen, Beiträge, Erwähnungen und freigegebene Assets abrufen. Sie müssen über [ Adobe CX Enterprise bei Adobe Advertising angemeldet sein](https://enterprise.efrontier.com/CMDashboard) um auf Ihre Benachrichtigungen zugreifen zu können. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Informationen zum Zugriff auf Adobe CX Enterprise benötigen.
+**CX Enterprise-Benachrichtigungen:** Über den Benachrichtigungslink oben auf jeder Seite können Sie alle Warnhinweise anzeigen, die von Ihren Beta-Warnhinweisvorlagen für Suchen generiert wurden. Sie können auch CX Enterprise-Systemaktualisierungen, Beiträge, Erwähnungen und freigegebene Assets abrufen. Sie müssen über [&#x200B; Adobe CX Enterprise bei Adobe Advertising angemeldet sein](https://enterprise.efrontier.com/CMDashboard) um auf Ihre Benachrichtigungen zugreifen zu können. Wenden Sie sich an Ihren Kundenbetreuer, wenn Sie Informationen zum Zugriff auf Adobe CX Enterprise benötigen.
 
