@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -52,7 +52,7 @@ Erstellen Sie die Kundenattributquelle (`.csv`- und `.fin`) und laden Sie die Da
 
   Um herauszufinden, ob Ihr Unternehmen Zugriff auf Kundenattribute hat, muss sich Ihr [!DNL CX Enterprise]-Administrator bei der [CX Enterprise](https://experience.adobe.com) anmelden. Navigieren Sie zu **[!UICONTROL Admin Console]** > **[!UICONTROL Produkte]**. Wenn *[!DNL Customer Attributes]* als eines der [!UICONTROL Produktprofile“ angezeigt &#x200B;], können Sie beginnen.
 
-  Benutzer, die hinzugefügt wurden, [!DNL Customer Attributes] das [!DNL Customer Attributes] auf der linken Seite der CX Enterprise-Benutzeroberfläche zu sehen.
+  Benutzende, die hinzugefügt wurden, [!DNL Customer Attributes] das [!DNL Customer Attributes] Menüelement auf der linken Seite der CX Enterprise-Benutzeroberfläche zu sehen.
 
 * **Adobe Target** `at.js` (beliebige Version) oder `mbox.js` Version 58 oder höher ist für Kundenattribute erforderlich.
 
@@ -145,13 +145,13 @@ Der Kundenattributdatensatz wird erstellt, und Sie können die Datei hochladen, 
 
 1. Ziehen Sie die `.csv` oder `.zip` oder `.gzip` Datendatei per Drag-and-Drop in das Drag-and-Drop-Fenster.
 
->[!IMPORTANT]
->
->Für die Datendatei bestehen bestimmte Voraussetzungen. Weitere Informationen finden Sie unter [Datendateivoraussetzungen](crs-data-file.md).
+   >[!IMPORTANT]
+   >
+   >Für die Datendatei bestehen bestimmte Voraussetzungen. Weitere Informationen finden Sie unter [Datendateivoraussetzungen](crs-data-file.md).
 
-Nach dem Hochladen der Datei werden Tabellendaten unter der Überschrift [!UICONTROL Datei-Upload] auf dieser Seite angezeigt. Sie können das Schema validieren, Abonnements konfigurieren oder den FTP einrichten.
+   Nach dem Hochladen der Datei werden Tabellendaten unter der Überschrift [!UICONTROL Datei-Upload] auf dieser Seite angezeigt. Sie können das Schema validieren, Abonnements konfigurieren oder den FTP einrichten.
 
-![Attribute](assets/file_upload_attributes.png)
+   ![Attribute](assets/file_upload_attributes.png)
 
 * **[!UICONTROL Unique Customer ID:]** Zeigt an, wie viele eindeutige IDs Sie in diese Attributquelle hochgeladen haben.
 
@@ -177,7 +177,7 @@ So löschen Sie Attribute und ersetzen Attribute im Schema.
 
 ## Konfigurieren Sie Abonnements und aktivieren Sie die Attributquelle
 
-Durch die Konfiguration eines Abonnements wird der Datenfluss zwischen CX und Enterprise-Programmen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Programme übertragen werden. Die von Ihnen hochgeladenen Kundeneinträge werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
+Mit der Konfiguration eines Abonnements wird der Datenfluss zwischen CX Enterprise und Programmen eingerichtet. Durch die Aktivierung der Attributquelle können die Daten an die abonnierten Programme übertragen werden. Die von Ihnen hochgeladenen Kundeneinträge werden mit den von Ihrer Website oder Anwendung eingehenden ID-Signalen abgeglichen.
 
 Siehe [Konfigurieren von Abonnements und Aktivieren der Datenquelle](subscription.md).
 
@@ -189,7 +189,7 @@ Folgendes Beispiel zeigt ein [!DNL Analytics]-Segment, das auf den hochgeladenen
 
 ![Analytics-Segment basierend auf den hochgeladenen Attributen](assets/08_crs_usecase.png)
 
-Wenn Sie ein Segment in CX Enterprise veröffentlichen, wird es in CX Enterprise Audiences und in Audience Manager verfügbar.
+Wenn Sie ein Segment in CX Enterprise veröffentlichen, wird es in CX Enterprise Audiences und Audience Manager verfügbar.
 
 ## Verwenden von [!DNL Customer Attributes] in Adobe Target
 
