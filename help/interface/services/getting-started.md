@@ -14,7 +14,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud Services
+    internal-label: Experience Cloud services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 41%
@@ -78,9 +78,9 @@ Siehe [Verknüpfen von Konten in CX Enterprise](https://experienceleague.adobe.c
 
 >[!NOTE]
 >
->Nach dem Zuordnen von Unternehmens- und Programmgruppen werden neue Benutzer automatisch verknüpft. (Lösungsanmeldedaten werden automatisch erstellt und mit ihrer Adobe ID verknüpft.)
+>Nach dem Zuordnen von Unternehmens- und Anwendungsgruppen werden neue Benutzende automatisch verknüpft. (Lösungsanmeldedaten werden automatisch erstellt und mit ihrer Adobe ID verknüpft.)
 
-In den folgenden Abschnitte wird die Modernisierung Ihrer Implementierung beschrieben. Durch die Modernisierung Ihrer Implementierung werden zentrale Services in CX Enterprise ermöglicht.
+In den folgenden Abschnitten wird die Modernisierung Ihrer Implementierung beschrieben. Durch die Modernisierung Ihrer Implementierung werden zentrale Services in CX Enterprise ermöglicht.
 
 ## Als Benutzer anmelden {#user-sign-in}
 
@@ -88,7 +88,7 @@ Um sich bei CX Enterprise anzumelden, müssen Ihre Benutzerinnen und Benutzer:
 
 * Eine Adobe ID (oder Enterprise ID für Ihr Unternehmen) haben.
 * Sich bei [experience.adobe.com](https://experience.adobe.com) anmelden.
-* Zu einer Programmgruppe gehören, die einer Unternehmensgruppe zugeordnet ist.
+* Zu einer Anwendungsgruppe gehören, die einer Unternehmensgruppe zugeordnet ist.
 * Verknüpfen Sie ggf. die Programmkonten mit ihrer Adobe ID (Beschreibung unten).
 
 ## Adobe Analytics- und Adobe Target-Anforderungen für CX Enterprise {#experience-cloud-requirements}
@@ -143,7 +143,7 @@ Die Kunden-ID muss in jedem Aufruf an den [!DNL Analytics]-Server angegeben sein
 
 #### Analytics: Synchronisieren der Kunden-ID mit der Data Warehouse-Aufstockungsmethode
 
-Als Kundenattribute zum ersten Mal verfügbar wurden, hatten einige Kunden den Besucher-ID-Service noch nicht implementiert und konnten Kundenattribute nicht einfach nutzen. Um dieses Problem zu beheben, hat Adobe eine Möglichkeit zur Aufstockung von ID-Synchronisierungen mithilfe von Adobe Analytics Data Warehouse geschaffen. Diese Funktion wird als Data Warehouse-Aufstockung bezeichnet. Die Data Warehouse-Aufstockung ist jetzt im Allgemeinen nicht mehr erforderlich und ist daher seit Oktober 2022 nicht mehr verfügbar.
+Als Kundenattribute zum ersten Mal verfügbar wurden, hatten einige Kunden den Besucher-ID-Service noch nicht implementiert und konnten Kundenattribute nicht einfach nutzen. Um dieses Problem zu beheben, hat Adobe eine Möglichkeit zur Aufstockung von ID-Synchronisierungen mithilfe von Adobe Analytics Data Warehouse geschaffen. Diese Funktion wird als Data Warehouse-Aufstockung bezeichnet. Die Data Warehouse-Aufstockung ist jetzt im Allgemeinen nicht mehr erforderlich und wird daher ab Oktober 2022 nicht mehr verfügbar sein.
 
 ### Mobile SDKs
 
@@ -151,7 +151,7 @@ Im Abschnitt *Besucher-ID* finden Sie Syntaxbeispiele zum Festlegen zusätzliche
 
 ### Attribute für Verlaufsdaten aktivieren
 
-Kundenattributdaten werden nach der Anmeldung durch die Besucher bereitgestellt. Wenn Sie den Besucher-ID-Service noch nicht implementiert haben und Sie Kunden-IDs zuvor in einer Prop oder eVar verfolgt haben, können Sie einen Prozess anfordern, der historische Anmeldungen an CX Enterprise sendet. Auf diese Weise können Sie sofort mit der Verwendung von Kundenattributen beginnen.
+Kundenattributdaten werden bereitgestellt, nachdem sich Besuchende angemeldet haben. Wenn Sie den Besucher-ID-Service noch nicht implementiert haben und Sie Kunden-IDs zuvor in einer Prop oder eVar verfolgt haben, können Sie einen Prozess anfordern, der historische Anmeldungen an CX Enterprise sendet. Auf diese Weise können Sie sofort mit der Verwendung von Kundenattributen beginnen.
 
 Wenden Sie sich an den Support, um historische Daten zu aktivieren.
 

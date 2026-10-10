@@ -15,7 +15,7 @@ product_v2:
     internal-label: CX Enterprise
 feature_v2:
   - id: dab36b01-8bfa-48f3-8392-626455a058e6
-    internal-label: Experience Cloud Services
+    internal-label: Experience Cloud services
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
     internal-label: Administration
 subfeature_v2:
@@ -42,7 +42,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 57%
@@ -78,13 +78,13 @@ Versionshinweise zu allen Programmen finden Sie unter [CX Enterprise-Versionshin
 
 | Datum | Update | Beschreibung | Betroffene Produkte |
 | -----------| -----------| ---------- | ---------- |
-| &#x200B;14. Januar 2026 | Anpassbares linkes Navigationsmenü | Sie können jetzt das linke Navigationsmenü einer Anwendung in CX Enterprise anpassen. Ordnen Sie Navigationselemente neu an und steuern Sie ihre Sichtbarkeit, um schnell auf die wichtigsten Funktionen zuzugreifen. Diese Aktualisierung optimiert Workflows, reduziert die kognitive Belastung und unterstützt die volle Barrierefreiheit der Tastatur. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B Edition</li><li>Dynamic Chat</li></ul> |
+| &#x200B;14. Januar 2026 | Anpassbares linkes Navigationsmenü | Sie können jetzt das linke Navigationsmenü einer Anwendung in CX Enterprise anpassen. Ordnen Sie Navigationselemente neu an und steuern Sie ihre Sichtbarkeit, um schnell auf die wichtigsten Funktionen zuzugreifen. Diese Aktualisierung optimiert Workflows, reduziert die kognitive Belastung und unterstützt die vollständige Barrierefreiheit per Tastatur. | <ul><li>Experience Platform</li><li>Journey Optimizer</li><li>Journey Optimizer B2B Edition</li><li>Dynamic Chat</li></ul> |
 
 ## September 2025
 
 | Datum | Update | Beschreibung |
 | -----------| -----------| ---------- |
-| Freitag, 25. September 2025 | Unterstützung für IP-Zugriffslisten | Für Organisationen, die IP-Zugriffslisten in Admin Console verfügbar und aktiviert haben, berücksichtigt CX Enterprise diese IP-Einschränkungen für den Zugriff auf Anwendungen auf der `https://experience.adobe.com` Domain. Diese Aktualisierung betrifft alle Web-Anwendungen, auf die über diese Domain zugegriffen wird. Die Prüfungen werden bei der Anmeldung und beim Laden neuer Seiten in dieser Organisation durchgeführt. |
+| &#x200B;25. September 2025 | Unterstützung für IP-Zugriffslisten | Für Organisationen, die IP-Zugriffslisten in Admin Console verfügbar und aktiviert haben, berücksichtigt CX Enterprise diese IP-Einschränkungen für den Zugriff auf Anwendungen auf der `https://experience.adobe.com` Domain. Diese Aktualisierung betrifft alle Web-Anwendungen, auf die über diese Domain zugegriffen wird. Die Prüfungen werden bei der Anmeldung und beim Laden neuer Seiten in dieser Organisation durchgeführt. |
 
 ## März 2025
 
@@ -104,13 +104,13 @@ Versionshinweise zu allen Programmen finden Sie unter [CX Enterprise-Versionshin
 | -----------| -----------| ---------- |
 | Januar 9 | Produktnutzungsdaten | Um die Kontrolle der Voreinstellungen für CX Enterprise-Produktverwendungsdaten zu vereinfachen, haben wir unsere Seite [Voreinstellungen](../features/account-preferences.md#product-usage-data) von CX Enterprise optimiert, um doppelte Optionen zu entfernen. Mit dieser Vereinfachung haben wir die aktuellen Benutzereinstellungen beibehalten, und Sie können Ihre Voreinstellungen jederzeit in den [CX Enterprise-Voreinstellungen](https://experience.adobe.com/preferences) aktualisieren. |
 
-## Donnerstag, 2. Oktober 2024
+## &#x200B;2. Oktober 2024
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
 | Anpassbare Startseite | Klicken Sie auf der CX Enterprise-Landingpage auf **[!UICONTROL Bearbeiten]**. [!UICONTROL Bearbeiten]-Modus können Sie Ihre CX Enterprise-Startseite mit Zugriff auf eine Widget-Bibliothek und benutzerdefinierte Hintergründe personalisieren. [!UICONTROL Bearbeiten]-Modus bietet nahtlose, intuitive Steuerelemente zum Verschieben, Ändern der Größe und Verwalten von Widgets, einschließlich Massenaktionen und Layout-Anpassungen, die ein ästhetischeres und maßgeschneidertes Erlebnis bieten. |
 
-## Mittwoch, 10. September 2024
+## &#x200B;10. September 2024
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
@@ -240,7 +240,7 @@ Die einheitliche Suche wird aktualisiert und ist nun für Journey Optimizer, Ang
 
 | Funktion | Beschreibung |
 | -----------| ---------- |
-| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller CX Enterprise-Benutzenden und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzer sowie die zuletzt aufgerufenen Informationen. Detaillierte Informationen finden Sie in der Hilfe [&#128279;](../administration/admin-tool-experience-cloud.md) CX Enterprise Admin Tool. |
+| Admin-Tool – Benutzerdetails anzeigen | Administratoren können im neuen Admin-Tool eine sortierbare und filterbare Liste aller CX Enterprise-Benutzenden und deren Details anzeigen. Zu den Benutzerdetails zählen der Produktzugriff und die Rollen der Benutzenden sowie Informationen zum letzten Zugriff. Detaillierte Informationen finden Sie in der Hilfe [&#128279;](../administration/admin-tool-experience-cloud.md) CX Enterprise Admin Tool. |
 
 {style="table-layout:auto"}
 
