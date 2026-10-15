@@ -28,11 +28,11 @@ Mit einem kundenverwalteten Zertifikat erhält Ihr Unternehmen das Zertifikat f�
 
 >[!TIP]
 >
->Adobe empfiehlt für die meisten First-Party-Implementierungen ](adobe-managed-cert.md) von Adobe verwaltetes Zertifikatsprogramm . [Es ist sicherer und erneuert Zertifikate automatisch. Verwenden Sie ein vom Kunden verwaltetes Zertifikat nur, wenn Ihr Unternehmen es benötigt.
+>Adobe empfiehlt für die meisten First-Party-Implementierungen [&#128279;](adobe-managed-cert.md) von Adobe verwaltetes Zertifikatsprogramm . Es ist sicherer und erneuert Zertifikate automatisch. Verwenden Sie ein vom Kunden verwaltetes Zertifikat nur, wenn Ihr Unternehmen es benötigt.
 
 ## Verwendung eines vom Kunden verwalteten Zertifikats
 
-* **Sie leiten die Datenerfassung über ein CDN mit Erstanbieterherkunft**: Das von [Adobe verwaltete ](adobe-managed-cert.md) unterstützt keine CDN-Implementierungen. Siehe [Konfigurieren eines CDN mit Erstanbieterherkunft](cdn.md#first-party-origin).
+* **Sie leiten die Datenerfassung über ein CDN mit Erstanbieterherkunft**: Das von [Adobe verwaltete &#x200B;](adobe-managed-cert.md) unterstützt keine CDN-Implementierungen. Siehe [Konfigurieren eines CDN mit Erstanbieterherkunft](cdn.md#first-party-origin).
 * **Ihre Sicherheitsrichtlinie erfordert die direkte Kontrolle über das Zertifikat**: Beispielsweise muss Ihr Unternehmen in der Lage sein, das Zertifikat über seine eigene Zertifizierungsstelle zu widerrufen, anstatt einen Widerruf über die Adobe-Kundenunterstützung anzufordern.
 * **Ihr Unternehmen benötigt eine bestimmte Zertifizierungsstelle oder einen bestimmten Zertifikatstyp**: Das Adobe-verwaltete Zertifikatsprogramm verwendet von DigiCert ausgestellte Zertifikate.
 
@@ -53,7 +53,7 @@ Mit einem kundenverwalteten Zertifikat erhält Ihr Unternehmen das Zertifikat f�
 1. Sobald Adobe Ihr Zertifikat installiert hat, leiten Sie den Traffic für Ihren Hostnamen an Adobe weiter:
    * **Ohne CDN**: Aktualisieren Sie die DNS-Einträge Ihres Unternehmens, wie von der Adobe-Kundenunterstützung angewiesen.
    * **Mit einem CDN**: Legen Sie Ihren CDN-Ursprung auf Ihren Erstanbieter-Host-Namen fest. Siehe [Konfigurieren eines CDN mit Erstanbieterherkunft](cdn.md#first-party-origin).
-1. Wenn Ihre Implementierung noch keine Daten an diesen Hostnamen sendet, aktualisieren [ Ihre Implementierung](collection-domain.md#update-implementation).
+1. Wenn Ihre Implementierung noch keine Daten an diesen Hostnamen sendet, aktualisieren [&#x200B; Ihre Implementierung](collection-domain.md#update-implementation).
 
 ## Zertifikat verlängern {#renewals}
 

@@ -36,7 +36,7 @@ Ihre Datenerfassungs-Domain ist der Host-Name, an den Ihre Implementierung Daten
 
 ## Datenerfassungs-Domain eines Drittanbieters {#third-party}
 
-Wenn Sie keine Erstanbieter-Domain verwenden, senden Sie Daten an eine Subdomain von `data.adobedc.net`. Adobe empfiehlt, die (Mandanten[ID) Ihres Unternehmens ](#tenant-id) Subdomain zu verwenden. Beispiel: `example.data.adobedc.net`. Diese Domain ist auch der empfohlene Ursprung, wenn Sie [Datenerfassung über ein CDN ](cdn.md).
+Wenn Sie keine Erstanbieter-Domain verwenden, senden Sie Daten an eine Subdomain von `data.adobedc.net`. Adobe empfiehlt, die (Mandanten[ID) Ihres Unternehmens &#x200B;](#tenant-id) Subdomain zu verwenden. Beispiel: `example.data.adobedc.net`. Diese Domain ist auch der empfohlene Ursprung, wenn Sie [Datenerfassung über ein CDN &#x200B;](cdn.md).
 
 * Domänen von Drittanbietern verwenden immer den standardmäßigen [RDC-Typ](rdc.md#third-party-data-collection).
 * Verwenden Sie keine Subdomains, die tiefer als `example.data.adobedc.net` liegen. `custom.example.data.adobedc.net` ist beispielsweise keine gültige Datenerfassungsdomäne.
@@ -44,7 +44,7 @@ Wenn Sie keine Erstanbieter-Domain verwenden, senden Sie Daten an eine Subdomain
 
 ### Mandanten-ID suchen {#tenant-id}
 
-1. Melden Sie sich mit Ihren Adobe ID](https://experience.adobe.com)Anmeldeinformationen bei [Adobe CX Enterprise an.
+1. Melden Sie sich mit Ihren Adobe ID[&#128279;](https://experience.adobe.com)Anmeldeinformationen bei Adobe CX Enterprise an.
 1. Drücken Sie an einer beliebigen Stelle in der CX Enterprise-Benutzeroberfläche `[Cmd]` + `[I]` (macOS) oder `[Ctrl]` + `[I]` (Windows).
 1. Ein **[!UICONTROL User Data Debugger]** wird angezeigt. Wählen Sie die **[!UICONTROL Zugewiesene Organisationen]** aus.
 1. Erweitern Sie die gewünschte IMS-Organisation.
@@ -58,8 +58,8 @@ Wenn Sie Ihre Datenerfassungs-Domain ändern, aktualisieren Sie jede Implementie
 
 * **Web-SDK-Tag** Erweiterung: Aktualisieren Sie das Feld [[!UICONTROL Edge]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/configure/general)Domain“ beim Konfigurieren der Erweiterung.
 * **Web SDK (Legierung)**: Aktualisieren Sie die [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/edgedomain) Eigenschaft im `configure`.
-* **Adobe Analytics-Erweiterung**: Aktualisieren Sie das Feld [[!UICONTROL SSL-Tracking]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)Server“, wenn Sie die Erweiterung konfigurieren. Stellen Sie sicher, dass Sie auch [ Tag-Erweiterung „Visitor ID Service](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) installiert haben. Weitere [ finden Sie unter „Besucheridentifizierung mit der Tag](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)Erweiterung für Analytics“.
-* **AppMeasurement**: Aktualisieren Sie die [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure) Konfigurationsvariable. Stellen Sie sicher, dass Sie auch den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) mit `VisitorAPI.js` implementiert haben. Weitere Informationen [ Sie unter „Besucheridentifizierung mit ](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement)&quot;.
+* **Adobe Analytics-Erweiterung**: Aktualisieren Sie das Feld [[!UICONTROL SSL-Tracking]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview)Server“, wenn Sie die Erweiterung konfigurieren. Stellen Sie sicher, dass Sie auch [&#x200B; Tag-Erweiterung „Visitor ID Service](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview) installiert haben. Weitere [&#x200B; finden Sie unter „Besucheridentifizierung mit der Tag](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/analytics-extension)Erweiterung für Analytics“.
+* **AppMeasurement**: Aktualisieren Sie die [`trackingServerSecure`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserversecure) Konfigurationsvariable. Stellen Sie sicher, dass Sie auch den [Besucher-ID-Service](https://experienceleague.adobe.com/de/docs/id-service/using/home) mit `VisitorAPI.js` implementiert haben. Weitere Informationen [&#x200B; Sie unter „Besucheridentifizierung mit &#x200B;](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/appmeasurement)&quot;.
 * **Andere Implementierungen**: Aktualisieren Sie die Datenerfassungs-Domain in jeder anderen Implementierung, die Daten an Adobe sendet, z. B. Mobile Apps oder serverseitige Implementierungen.
 
 Wenn Ihre Implementierung weder den Besucher-ID-Service noch die Web-SDK verwendet, wird durch Ändern Ihrer Datenerfassungsdomäne die Domain der Besucher-Cookies geändert. Wiederkehrende Besucher können als neue Besucher gezählt werden.

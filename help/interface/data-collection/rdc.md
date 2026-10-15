@@ -49,7 +49,7 @@ Die Erstanbieter-Datenerfassung verwendet eine CNAME-Implementierung, um Daten �
 
 _*Die regionale Datenerfassung für China erfordert das Add-on-Paket „China Performance Optimization“ und gilt nur für Adobe Analytics mithilfe der Datenerfassung von AppMeasurement. Andere CX Enterprise-Services und die Web-SDK-Datenerfassung werden nicht unterstützt. Wenden Sie sich an Ihr Adobe-Account-Team, um mehr über das Add-on-Paket zur Leistungsoptimierung für China zu erfahren._
 
-Wenn Sie [Datenerfassung über ein CDN ](cdn.md)), benötigen regionsgesperrte RDC-Typen einen First-Party-Ursprung mit einem [kundenverwalteten Zertifikat](customer-managed-cert.md).
+Wenn Sie [Datenerfassung über ein CDN &#x200B;](cdn.md)), benötigen regionsgesperrte RDC-Typen einen First-Party-Ursprung mit einem [kundenverwalteten Zertifikat](customer-managed-cert.md).
 
 ## Datenerfassung durch Dritte
 

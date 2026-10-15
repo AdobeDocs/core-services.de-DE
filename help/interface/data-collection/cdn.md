@@ -42,7 +42,7 @@ Einige Unternehmen leiten Datenerfassungsanfragen über ihr Content Delivery Net
 
 >[!NOTE]
 >
->Das von Adobe verwaltete Zertifikatprogramm [](adobe-managed-cert.md) unterstützt keine CDN-Implementierungen. Adobe kann keine Domain-Eigentümerrechte überprüfen oder Zertifikate für Host-Namen erneuern, die auf Ihr CDN verweisen. Verwenden Sie eine Herkunft eines Drittanbieters oder eine Herkunft eines Erstanbieters mit einem [kundenverwalteten Zertifikat](customer-managed-cert.md).
+>Das von Adobe verwaltete Zertifikatprogramm [&#128279;](adobe-managed-cert.md) unterstützt keine CDN-Implementierungen. Adobe kann keine Domain-Eigentümerrechte überprüfen oder Zertifikate für Host-Namen erneuern, die auf Ihr CDN verweisen. Verwenden Sie eine Herkunft eines Drittanbieters oder eine Herkunft eines Erstanbieters mit einem [kundenverwalteten Zertifikat](customer-managed-cert.md).
 
 ## Anforderungen für alle CDN-Implementierungen {#requirements}
 
@@ -57,7 +57,7 @@ Ihre CDN-Konfiguration muss:
 * Leiten Sie die Anfragemethode, den URL-Pfad, die Abfragezeichenfolge und den Hauptteil ohne Änderungen weiter.
 * Lassen Sie die `Host` unverändert.
 * Lassen Sie die Domain, in der Adobe-Cookies gesetzt werden, unverändert.
-* Behalten Sie alle Cookies bei, [ im Abschnitt „Cookies](cookies/overview.md) dieses Handbuchs aufgeführt sind.
+* Behalten Sie alle Cookies bei, [&#x200B; im Abschnitt „Cookies](cookies/overview.md) dieses Handbuchs aufgeführt sind.
 * Fügen Sie den `X-Forwarded-For`-Header hinzu, der die IP-Adresse des Besuchers enthält. Adobe verwendet diesen Header für die Geolocation. Ohne sie spiegeln die Geolokalisierungsdaten den Standort der CDN-Server Ihrer Besucher wider.
 * Rückgabe der Adobe-Antworten an den Browser ohne Änderungen.
 
@@ -80,7 +80,7 @@ Eine Drittquelle verwendet ein eigenes Zertifikat von Adobe, sodass Ihr Unterneh
 1. Legen Sie in Ihrer CDN-Konfiguration den Ursprungs-Host-Namen auf Ihre Mandanten-ID-Subdomain von `data.adobedc.net` fest. Beispiel: `example.data.adobedc.net`.
 1. Aktivieren Sie die Server-Namensangabe (SNI) für den Ursprung. Legen Sie den SNI-Hostnamen auf den Ursprungs-Hostnamen (z. B. `example.data.adobedc.net`) fest, nicht auf den Hostnamen Ihrer Website.
 1. Konfigurieren Sie Ihr CDN so, dass es die [Anforderungen für alle CDN-Implementierungen](#requirements) oben erfüllt.
-1. Wenn sich der Hostname, den Ihre Implementierung an sendet, ändert, [ Sie Ihre Implementierung](collection-domain.md#update-implementation). Wenn Sie denselben Hostnamen beibehalten, sind keine Implementierungsänderungen erforderlich.
+1. Wenn sich der Hostname, den Ihre Implementierung an sendet, ändert, [&#x200B; Sie Ihre Implementierung](collection-domain.md#update-implementation). Wenn Sie denselben Hostnamen beibehalten, sind keine Implementierungsänderungen erforderlich.
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Verwenden Sie eine First-Party-Herkunft nur, wenn Ihr Unternehmen dies erfordert
 1. Legen Sie in Ihrer CDN-Konfiguration den Ursprungs-Host-Namen auf Ihren Erstanbieter-Host-Namen fest.
 1. Aktivieren Sie die Server-Namensangabe (SNI) für den Ursprung. Legen Sie den SNI-Hostnamen auf Ihren Erstanbieter-Hostnamen fest und konfigurieren Sie Ihr CDN so, dass Ihr Erstanbieterzertifikat von der Quelle erwartet wird.
 1. Konfigurieren Sie Ihr CDN so, dass es die [Anforderungen für alle CDN-Implementierungen](#requirements) oben erfüllt.
-1. Wenn sich der Hostname, den Ihre Implementierung an sendet, ändert, [ Sie Ihre Implementierung](collection-domain.md#update-implementation). Wenn Sie denselben Hostnamen beibehalten, sind keine Implementierungsänderungen erforderlich.
+1. Wenn sich der Hostname, den Ihre Implementierung an sendet, ändert, [&#x200B; Sie Ihre Implementierung](collection-domain.md#update-implementation). Wenn Sie denselben Hostnamen beibehalten, sind keine Implementierungsänderungen erforderlich.
 
 >[!IMPORTANT]
 >
@@ -110,7 +110,7 @@ Verwenden Sie eine First-Party-Herkunft nur, wenn Ihr Unternehmen dies erfordert
 Wenn Ihr Unternehmen derzeit Daten direkt an einen Erstanbieter-Host-Namen mit einem von Adobe gehosteten Zertifikat sendet, gehen Sie wie folgt vor, um zu einem CDN zu wechseln:
 
 1. Identifizieren Sie jede Implementierung, die Daten über alle Adobe-Produkte hinweg an Ihren Erstanbieter-Host-Namen sendet. Andere Produkte wie Adobe Target oder Adobe Journey Optimizer verwenden möglicherweise denselben Hostnamen, und ein einzelnes Zertifikat kann viele Hostnamen abdecken.
-1. Wählen Sie einen [Herkunftstyp](#origin-type). Wenn Sie einen Erstanbieter-Ursprung auswählen, wenden Sie sich an die Kundenunterstützung von Adobe, um Ihr Zertifikat in ein [kundenverwaltetes Zertifikat) ](customer-managed-cert.md) konvertieren, bevor es abläuft.
+1. Wählen Sie einen [Herkunftstyp](#origin-type). Wenn Sie einen Erstanbieter-Ursprung auswählen, wenden Sie sich an die Kundenunterstützung von Adobe, um Ihr Zertifikat in ein [kundenverwaltetes Zertifikat) &#x200B;](customer-managed-cert.md) konvertieren, bevor es abläuft.
 1. Konfigurieren des CDN. Behalten Sie Ihren vorhandenen Hostnamen bei, damit Sie Ihre Implementierungen nicht aktualisieren müssen.
 1. Bevor Ihr Zertifikat abläuft, verweisen Sie Ihren Hostnamen auf Ihr CDN und wechseln Sie alle Implementierungen, um es zu verwenden.
 1. [Überprüfen Sie Ihre Daten](#check).
@@ -155,6 +155,6 @@ Nein. Adobe bietet derzeit keine Möglichkeit, die Datenerfassung auf Anfragen a
 
 +++Kann Adobe eine Konfiguration für mein CDN bereitstellen oder validieren?
 
-Nein. Die CDN-Konfigurationsoptionen unterscheiden sich je nach Anbieter und ändern sich im Laufe der Zeit. Wenden Sie sich an Ihren CDN-Anbieter, um Hilfe bei der Konfiguration Ihres CDN zu erhalten, und [ Sie unter „Überprüfen Sie Ihre ](#check)&quot;, wie Sie Probleme mit Ihrer Konfiguration identifizieren können.
+Nein. Die CDN-Konfigurationsoptionen unterscheiden sich je nach Anbieter und ändern sich im Laufe der Zeit. Wenden Sie sich an Ihren CDN-Anbieter, um Hilfe bei der Konfiguration Ihres CDN zu erhalten, und [&#x200B; Sie unter „Überprüfen Sie Ihre &#x200B;](#check)&quot;, wie Sie Probleme mit Ihrer Konfiguration identifizieren können.
 
 +++
