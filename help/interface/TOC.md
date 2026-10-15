@@ -1,20 +1,18 @@
 ---
 role: User,Admin
 user-guide-title: Handbuch für die zentrale Benutzeroberfläche und Administration von CX Enterprise
-breadcrumb-title: CX Enterprise-Oberfläche und -Administration
-title: CX Enterprise-Benutzeroberfläche und Administrationshandbuch
+breadcrumb-title: Benutzeroberfläche und Administration von CX Enterprise
+title: Handbuch zur Benutzeroberfläche und Administration von CX Enterprise
 description: Erfahren Sie mehr über die Benutzeroberfläche und Administration von CX Enterprise. Durchsuchen Sie Themen zu KI, Administration, Shared Services, Datenerfassung, Cookies, Versionshinweisen und FAQs.
 index: true
-source-git-commit: 90efd37625c8ca89bc3ec7fc3f8df20d8c5e331b
+source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 60%
-
+source-wordcount: '207'
+ht-degree: 56%
 ---
+# Benutzeroberfläche und Administration von CX Enterprise {#interface}
 
-# CX Enterprise-Oberfläche und -Administration {#interface}
-
-+ [CX Enterprise-Oberfläche und -Administration](/help/interface/experience-cloud.md)
++ [Benutzeroberfläche und Administration von CX Enterprise](/help/interface/experience-cloud.md)
 + Administration {#administration}
   + [Kontovoreinstellungen und Benachrichtigungen](/help/interface/features/account-preferences.md)
   + [Browser- und Sprachunterstützung](/help/interface/browser-language.md)
@@ -52,7 +50,10 @@ ht-degree: 60%
   + [Trigger](/help/interface/services/triggers.md)
   + [Adobe Exchange](/help/interface/services/exchange.md)
 + Datenerfassung {#data-collection}
+  + [Auswählen einer Datenerfassungsdomäne](/help/interface/data-collection/collection-domain.md)
   + [Adobe Managed Certificate Program](/help/interface/data-collection/adobe-managed-cert.md)
+  + [Kundenverwaltete Zertifikate](/help/interface/data-collection/customer-managed-cert.md)
+  + [Weiterleiten der Datenerfassung über ein CDN](/help/interface/data-collection/cdn.md)
   + [IP-Adressen](/help/interface/data-collection/ip-addresses.md)
   + [Domains](/help/interface/data-collection/domains.md)
   + Cookies {#cookies}
