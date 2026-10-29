@@ -1,5 +1,5 @@
 ---
-description: Erfahren Sie, wie Sie CX Enterprise-Trigger konfigurieren.
+description: Erfahren Sie, wie Sie CX Enterprise Trigger konfigurieren.
 solution: Experience Cloud
 title: Übersicht über Triggers
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -37,19 +37,19 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 765c82ba802cb1fd7a16a5dc2433a9199669a331
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 67%
+source-wordcount: '877'
+ht-degree: 62%
 ---
-# CX Enterprise-Trigger
+# CX Enterprise Trigger
 
-Mit [!UICONTROL Trigger] in CX Enterprise können Sie wichtige Kundenverhaltensweisen identifizieren, definieren und überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierungen verwenden. Weitere Informationen zur Verwendung von [!UICONTROL Trigger] mit Adobe Campaign finden Sie unter [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de).
+Mit [!UICONTROL Trigger] in CX Enterprise können Sie wichtige Verbraucherverhaltensweisen identifizieren, definieren und überwachen sowie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierung verwenden. Weitere Informationen zur Verwendung von [!UICONTROL Trigger] mit Adobe Campaign finden Sie unter [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=de).
 
 Beispiel:
 
 * Konfigurieren des schnellen Remarketing für Warenkorbabbrüche oder Warenkorbabbrüche mit entfernten Produkten
-* Unvollständige Formulare und Anwendungen
+* Unvollständige Formulare und Anträge
 * Aktionen oder Abfolgen von Aktionen auf der Site
 
 ![Trigger-Beispiel](../assets/trigger-abandonment-2.png)
@@ -63,8 +63,12 @@ Beispiel:
 Im Allgemeinen kann ein Auslöser 15 bis 90 Minuten benötigen, um eine Marketing-Kampagne zu starten. Diese Verzögerung hängt von der Implementierung der Datenerfassung, der Auslastung der Pipeline, der benutzerdefinierten Konfiguration des definierten Triggers und dem Workflow in Adobe Campaign ab.
 
 * **Abbruch:** Sie können einen Auslöser für den Fall erstellen, dass ein Besucher ein Produkt anzeigt, es jedoch nicht zum Warenkorb hinzufügt.
-* **Aktion:** Sie können Sie Trigger erstellen, die beispielsweise nach der Newsletter-Anmeldung, E-Mail-Abonnements oder Kreditkartenanträgen (Bestätigungen) ausgelöst werden. Wenn Sie ein Händler sind, können Sie einen Trigger für einen Besucher erstellen, der sich für ein Treueprogramm anmeldet. Erstellen Sie in Medien und Unterhaltung Trigger für Besucher, die eine bestimmte Sendung ansehen. Sie können auch mit einer Umfrage reagieren.
+* **Aktion:** Sie können Sie Trigger erstellen, die beispielsweise nach der Newsletter-Anmeldung, E-Mail-Abonnements oder Kreditkartenanträgen (Bestätigungen) ausgelöst werden. Wenn Sie ein Einzelhändler sind, können Sie einen Trigger für eine Besucherin bzw. einen Besucher erstellen, die bzw. der sich für ein Treueprogramm anmeldet. Erstellen Sie in Medien und Unterhaltung Trigger für Besucher, die eine bestimmte Sendung ansehen. Sie können auch mit einer Umfrage reagieren.
 * **Sitzungsbeginn und Sitzungsende:** Erstellen Sie einen Trigger für die Sitzungsbeginn- und Sitzungsende-Ereignisse.
+
+## Sperrfrist für Trigger bei Abbruch
+
+Trigger bei einem Abbruch haben eine feste Haltedauer von einer Stunde nach dem Ende einer Trigger-Sitzung, unabhängig davon, ob der Trigger ausgelöst wird oder nicht. Während dieses Zeitraums beginnt für diesen Trigger keine neue Sitzung mit demselben Abbruchs, selbst wenn er zurückkehrt und die Trigger-Bedingungen erneut erfüllt. Die Haltezeit kann nicht konfiguriert werden.
 
 ## Erstellen eines CX Enterprise-Triggers
 
@@ -75,20 +79,20 @@ Erstellen Sie einen Trigger und konfigurieren Sie die Bedingungen für den Trigg
 >Derzeit existiert eine technische Begrenzung von 100 Triggern.
 
 1. Klicken Sie in CX Enterprise auf ![Menü](../assets/menu-icon.png) und dann auf **[!UICONTROL Datenerfassung/Launch]**.
-1. Klicken Sie auf der Karte {}Trigger **[!UICONTROL auf &quot;Trigger verwalten]**.
+1. Klicken Sie auf der Karte {]}Trigger **[!UICONTROL auf &quot;Trigger verwalten]**.[!UICONTROL 
 1. Klicken Sie **[!UICONTROL Neuer Trigger]** und geben Sie dann den Typ des Triggers an:
 
    ![Schritt Ergebnis](../assets/add-trigger.png)
 
-1. Konfigurieren Sie den Auslöser, indem Sie die folgenden Felder vervollständigen und Metrik- und Dimensionselemente in die Regelbehälter ziehen:
+1. Konfigurieren Sie den Auslöser, indem Sie die folgenden Felder vervollständigen und Metrik- und Dimensionselemente in die Container der Regel ziehen:
 
    | Element | Beschreibung |
    | --- | --- |
    | [!UICONTROL Name] | Der Anzeigename für diesen Trigger. |
-   | [!UICONTROL Beschreibung] | Die Beschreibung dieses Triggers, wie Sie ihn verwenden werden usw. |
+   | [!UICONTROL Beschreibung] | Die Beschreibung dieses Triggers, wie Sie ihn verwenden usw. |
    | [!UICONTROL Report Suite] | Die für diesen Trigger verwendete Analytics [Report Suite](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=de). Diese Einstellung identifiziert die zu verwendenden Berichtsdaten. |
-   | Besuch muss beinhalten<br>Besuch darf nicht beinhalten<br>Trigger nach ausbleibender Aktion<br>Metadaten einschließen | Sie können Kriterien oder Besucherverhalten, das auftreten soll, sowie Verhalten, das nicht auftreten soll, definieren. Regeln für einen einfachen Warenkorbabbruchs-Trigger können beispielsweise die folgenden sein:<ul><li>Besuch muss Folgendes beinhalten: [!UICONTROL Zusatz zum Warenkorb] (Metrik) und [!UICONTROL Vorhanden]. (Sie können die Regel mit einer bestimmten Produktansicht oder mit Dimensionen wie „Browsertypen“ weiter verfeinern.)</li><li>Besuch darf Folgendes nicht beinhalten: [!UICONTROL Checkout].</li><li>Auslöser nach ausbleibender Aktion bei: 10 Minuten.</li><li>[!UICONTROL Meta-Daten einschließen]: Ermöglicht das Hinzufügen einer bestimmten [!DNL Campaign] Dimension oder von Variablen, die für das Verhalten einer Besucherin oder eines Besuchers relevant sind. Dieses Feld kann für Adobe Campaign zum Verfassen der richtigen Remarketing-E-Mail nützlich sein.</li></ul><br>Sie können [!UICONTROL Beliebig], [!UICONTROL Und] oder [!UICONTROL Oder] Logik innerhalb oder zwischen Containern angeben, je nachdem, welche Kriterien Sie für die Regel für wichtig halten. |
-   | [!UICONTROL Container] | In [!UICONTROL Containern] legen Sie Regeln, Bedingungen oder Filter zum Definieren eines Triggers fest und speichern diese. Wenn Sie Ereignisse gleichzeitig auftreten sollen, platzieren Sie sie im selben Container. Dies bedeutet, dass jeder Behälter unabhängig auf der Trefferebene arbeitet. Wenn Sie beispielsweise zwei Behälter mit dem Operator AND verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
+   | Besuch muss beinhalten<br>Besuch darf nicht beinhalten<br>Trigger nach ausbleibender Aktion<br>Metadaten einschließen | Sie können Kriterien oder Besucherverhalten, das auftreten soll, sowie Verhalten, das nicht auftreten soll, definieren. Regeln für einen einfachen Warenkorbabbruchs-Trigger können beispielsweise die folgenden sein:<ul><li>Besuch muss Folgendes beinhalten: [!UICONTROL Zusatz zum Warenkorb] (Metrik) und [!UICONTROL Vorhanden]. (Sie können die Regel mit einer bestimmten Produktansicht oder mit Dimensionen wie „Browsertypen“ weiter verfeinern.)</li><li>Besuch darf Folgendes nicht beinhalten: [!UICONTROL Checkout].</li><li>Auslöser nach ausbleibender Aktion für: 10 Minuten.</li><li>[!UICONTROL Meta-Daten einschließen]: Ermöglicht das Hinzufügen einer bestimmten [!DNL Campaign] Dimension oder von Variablen, die für das Verhalten einer Besucherin oder eines Besuchers relevant sind. Dieses Feld kann für Adobe Campaign zum Verfassen der richtigen Remarketing-E-Mail nützlich sein.</li></ul><br>Sie können [!UICONTROL Beliebig], [!UICONTROL Und] oder [!UICONTROL Oder] Logik innerhalb oder zwischen Containern angeben, je nachdem, welche Kriterien Sie für die Regel für wichtig halten. |
+   | [!UICONTROL Container] | In [!UICONTROL Containern] legen Sie Regeln, Bedingungen oder Filter zum Definieren eines Triggers fest und speichern diese. Wenn Sie möchten, dass Ereignisse gleichzeitig auftreten, platzieren Sie sie im selben Container. Dies bedeutet, dass jeder Container unabhängig auf der Trefferebene arbeitet. Wenn Sie beispielsweise zwei Container mit dem Operator AND verbinden, treffen die Regeln zu, wenn zwei Treffer die Anforderungen erfüllen. |
    | Neue Sitzung starten nach | Erstellen Sie einen Trigger für die Ereignisse zum Sitzungsbeginn und Sitzungsende. |
 
    {style="table-layout:auto"}
