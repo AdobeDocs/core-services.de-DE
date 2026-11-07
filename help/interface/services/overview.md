@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie mehr über die Benutzer- und Produktverwaltung von CX Enterprise, Zielgruppen, Kundenattribute, Journey Orchestration, Angebote, Places, Experience Platform und Mobile Services.
 solution: Experience Cloud
-title: Übersicht über Experience Cloud-Services
+title: Übersicht über CX Enterprise Services
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: f9b96c953d928dd65fd40fab96d64dd4f814c685
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 43%
+ht-degree: 41%
 ---
 # Übersicht über die CX Enterprise-Benutzeroberfläche
 
@@ -62,8 +62,8 @@ Auf den Seiten Services in diesem Handbuch werden die folgenden Produkte und Ser
 | [Zielgruppenbibliothek](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/overview) | Zielgruppen sind Sammlungen von Besucherinnen und Besuchern (eine Liste von Besucher-IDs). Mit der [!DNL Audience Library] von Adobe können Sie die Übersetzung von Besucherdaten in eine Zielgruppensegmentierung verwalten. |
 | [Kundenattribute](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes) | Journey Orchestration ermöglicht die Erstellung von Anwendungsfällen für die Echtzeit-Orchestrierung mithilfe von Kontextdaten aus Ereignissen oder Datenquellen. [!UICONTROL Journey Orchestration] ist ein in Experience Platform integrierter Anwendungsdienst. |
 | [Assets](https://experienceleague.adobe.com/de/docs/core-services/interface/services/assets/experience-cloud-assets) | CX Enterprise Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie programmübergreifend freigeben können. |
-| [Triggers](https://experienceleague.adobe.com/de/docs/core-services/interface/services/triggers) | Trigger in CX Enterprise ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierung verwenden. |
-| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/de/docs/core-services/interface/services/exchange) | Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Mobile Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte. |
+| [Triggers](https://experienceleague.adobe.com/en/docs/core-services/interface/services/triggers) | Trigger in CX Enterprise ermöglicht es Ihnen, wichtige Verbraucherverhaltensweisen zu identifizieren, zu definieren und zu überwachen. Anschließend können Sie eine programmübergreifende Kommunikation generieren, um erneut mit Besuchern zu interagieren. Sie können Trigger bei Echtzeit-Entscheidungen und Personalisierung verwenden. |
+| [Adobe Exchange Marketplace](https://experienceleague.adobe.com/en/docs/core-services/interface/services/exchange) | Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Mobile Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte. |
 
 {style="table-layout:auto"}
 

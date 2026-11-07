@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '579'
 ht-degree: 10%
 ---
 # Cookies in Adobe Analytics
@@ -43,18 +43,18 @@ Analytics verwendet Cookies, um neue Besucher anonym zu definieren, Klickdaten z
 
 | Cookie-Name | Ablauf | Größe | Standort | Beschreibung |
 | --- | --- | --- | --- | --- |
-| **`s_ecid`** | 13 Monate | 45 Byte | Erstanbieter | Speichert die CX Enterprise ID (ECID) oder MID. Durch HTTP-Antwort festgelegt. Die MID wird im `s_ecid=MCMID`-Format gespeichert. Wird festgelegt, nachdem der Client das AMCV-Cookie gesetzt hat. Sie ermöglicht ein persistentes First-Party-ID-Tracking und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abläuft. `SameSite` ist auf „Lax“ festgelegt. Wenn Sie Web SDK zur Implementierung von Adobe Analytics verwenden, wird der Cookie-Ablauf auf 2 Jahre festgelegt. Die meisten modernen Browser kürzen diesen Ablauf jedoch auf 13 Monate. |
+| **`s_ecid`** | 13 Monate | 45 Byte | Erstanbieter | Speichert die ECID oder MID. Durch HTTP-Antwort festgelegt. Die MID wird im `s_ecid=MCMID`-Format gespeichert. Wird festgelegt, nachdem der Client das AMCV-Cookie gesetzt hat. Sie ermöglicht ein persistentes First-Party-ID-Tracking und wird als Referenz-ID verwendet, wenn das AMCV-Cookie abläuft. `SameSite` ist auf „Lax“ festgelegt. Wenn Sie Web SDK zur Implementierung von Adobe Analytics verwenden, wird der Cookie-Ablauf auf 2 Jahre festgelegt. Die meisten modernen Browser kürzen diesen Ablauf jedoch auf 13 Monate. |
 | **`s_cc`** | Session | 4 Byte | Erstanbieter | Bestimmt, ob Cookies aktiviert sind. Festgelegt durch JavaScript. |
 | **`s_sq`** | Session | 100-200 Byte | Erstanbieter | Von Activity Map verwendet. Sie enthält Informationen zum vorherigen Link, auf den der Besucher geklickt hat. Festgelegt durch JavaScript. |
 | **`s_vi`** | 2 Jahre | 44 Byte | Erstanbieter oder `*.omtrdc.net` (Drittanbieter) | Speichert eine Unique Visitor ID und einen Zeitstempel. Durch HTTP-Antwort festgelegt. Jede Besucher-ID ist einem Besucherprofil auf Adobe-Servern zugeordnet. Besucherprofile werden nach 1 Jahr Inaktivität gelöscht, unabhängig vom Ablauf von Besucher-ID-Cookies. Das `Secure`-Flag wird gesetzt, wenn `SameSite` „None“ und die Verbindung HTTPS ist. `SameSite` Erstanbieter-Cookies ist standardmäßig „Lax“. `SameSite` bei der Verwendung von Drittanbieter-Cookies, z. B. auf `omtrdc.net` oder `2o7.net`, ist „Keine“. Legen Sie `SameSite` auf „Keine“ fest, wenn Sie einen einzelnen CNAME verwenden, um mehrere Domains oder Eigenschaften zu verfolgen. |
 | **`s_fid`** | 2 Jahre | 33 Byte | Erstanbieter | Speichert die Fallback-Unique-Visitor-ID und den Zeitstempel. Wird von JavaScript festgelegt, wenn das standardmäßige `s_vi`-Cookie aufgrund von Beschränkungen für Drittanbieter-Cookies nicht gesetzt werden kann. Wird nicht für Erstanbieter-Cookie-Implementierungen verwendet. |
 | **`s_ac`** | Unmittelbar | 1 Byte | Erstanbieter | Hilft bei der Bestimmung der richtigen Domain für AppMeasurement-Cookies. Enthält den statischen Wert `"1"`. Sobald dieses Cookie gesetzt ist, wird es sofort gelöscht. |
 
-Weitere [&#x200B; dazu, wie Adobe Analytics Besucher mithilfe von &#x200B;](https://experienceleague.adobe.com/de/docs/analytics/implementation/id/overview) identifiziert, finden Sie unter „Besucheridentifizierung in Adobe Analytics&quot;.
+Weitere [ dazu, wie Adobe Analytics Besucher mithilfe von ](https://experienceleague.adobe.com/en/docs/analytics/implementation/id/overview) identifiziert, finden Sie unter „Besucheridentifizierung in Adobe Analytics&quot;.
 
 ## Von Plug-ins eingestellte Cookies
 
-Bei einigen Implementierungen werden Plug-ins verwendet, bei denen es sich um Code-Ausschnitte handelt, die zusätzliche Funktionen für Analytics bieten. Diese Plug-ins können Cookies setzen, die oben nicht aufgeführt sind. Unter [Übersicht über Analytics-Plug](https://experienceleague.adobe.com/de/docs/analytics/implementation/vars/plugins/impl-plugins) finden Sie eine Liste der verfügbaren Plug-ins und der von ihnen gesetzten Cookies.
+Bei einigen Implementierungen werden Plug-ins verwendet, bei denen es sich um Code-Ausschnitte handelt, die zusätzliche Funktionen für Analytics bieten. Diese Plug-ins können Cookies setzen, die oben nicht aufgeführt sind. Unter [Übersicht über Analytics-Plug](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) finden Sie eine Liste der verfügbaren Plug-ins und der von ihnen gesetzten Cookies.
 
 ## Folgen des Löschens von Analytics-Cookies
 

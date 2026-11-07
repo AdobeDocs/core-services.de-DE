@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie mehr über die Funktion „Einheitliche Suche“ für bestimmte Programme in CX Enterprise.
 solution: Experience Cloud
-title: Experience Cloud – Einheitliche Suche
+title: Einheitliche CX Enterprise-Suche
 index: true
 feature: Central Interface Components
 topic: Administration
@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 81%
+ht-degree: 80%
 ---
 # [!UICONTROL Einheitliche Suche] in CX Enterprise
 
@@ -49,7 +49,7 @@ Diese Funktion ist nur für unterstützte Produkte verfügbar – derzeit die fo
 * Experience Platform (AEP)
 * Journey Optimizer (AJO)
 
-In dem Maße, in dem mehr Inhalte indiziert werden, wird diese Funktion zu den entsprechenden Programmen hinzugefügt.
+In dem Maße, in dem mehr Content indiziert wird, wird diese Funktion zu den entsprechenden Anwendungen hinzugefügt.
 
 ## Durchsuchbare Objekte und Felder
 
@@ -103,11 +103,11 @@ Die folgenden Funktionen sind in der einheitlichen Suche verfügbar.
 | Funktion | Beschreibung |
 | ------- | ------- |
 | Globale Sprachunterstützung | Die globale Suche versteht Abfragen und liefert Ergebnisse für Deutsch, Spanisch, Französisch, Italienisch, Japanisch, Koreanisch, Portugiesisch und Chinesisch. |
-| Automatische Tippfehler-Korrektur | Die einheitliche Suche korrigiert Tippfehler unter Verwendung erweiterter Algorithmen automatisch. Diese Algorithmen berechnen Bearbeitungen und liefern passende Ergebnisse. |
+| Automatische Tippfehler-Korrektur | Die einheitliche Suche bietet mithilfe erweiterter Algorithmen eine robuste Toleranz gegenüber Tippfehlern. Diese Algorithmen berechnen Änderungen und liefern passende Ergebnisse. |
 | Hervorhebung | In der Suchanfrage wird das Übereinstimmungs-Keyword hervorgehoben, sodass Sie den Abschnitt und die Wörter, die Ihrer Abfrage entsprechen, einfach finden können. Die Hervorhebung funktioniert auch bei falsch geschriebenen Wörtern. |
 | Snippets | In der Suchantwort sehen Sie ein Snippet, einen Ausschnitt des Ergebnisses. Snippets geben die übereinstimmenden Wörter und einige Inhalte rund um die Übereinstimmungs-Keywords zurück. |
-| Stoppwörter | Einige im Englischen häufig verwendete Wörter werden als _Stoppwörter_ definiert. Wenn Stoppwörter in der Suchabfrage enthalten sind, wird ihnen weniger Gewicht zugemessen. <br>Stoppwörter beinhalten: _a, an, and, are, as, at, be, but, by, for, if, in, into, is, it, no, not, of, on, or, such, that, the, their, then, there, these, they, this, to, was, will, with_. <br>Stoppwörter werden in anderen globalen Sprachen nicht unterstützt. |
-| Natürliche Sprachabfragen | Wenn Sie in Experience League Communitys nach einem Hilfeartikel oder einer Diskussion suchen, können Sie Ihre Frage in natürlicher Sprache eingeben und die Antwort erhalten. Beispielsuche: „Wie erstelle ich ein Schema?“ |
+| Stoppwörter | Einige im Englischen häufig verwendete Wörter werden als _Stoppwörter_ definiert. Wenn Stoppwörter in der Suchanfrage enthalten sind, wird ihnen weniger Gewicht zugemessen. <br>Stoppwörter beinhalten: _a, an, and, are, as, at, be, but, by, for, if, in, into, is, it, no, not, of, on, or, such, that, the, their, then, there, these, they, this, to, was, will, with_. <br>Stoppwörter werden in anderen globalen Sprachen nicht unterstützt. |
+| Natürliche Sprachabfragen | Wenn Sie in Experience League Communities nach einem Hilfeartikel oder einer Diskussion suchen, können Sie Ihre Frage in natürlicher Sprache eingeben und die Antwort erhalten. Beispielsuche: „Wie erstelle ich ein Schema?“ |
 | Exakte Suche in Anführungszeichen | Mithilfe von Anführungszeichen in der Abfrage können Sie eine exakte Suche durchführen. Bei Abfragen mit exakter Übereinstimmung wird keine Korrektur von Tippfehlern vorgenommen. Beispiel: „Luma Journey 2022“. |
 | Filter | Im Popup-Fenster mit den vollständigen Suchergebnissen können Sie Filter wie _Objekttyp_ und andere objektspezifische Filter anwenden. Wenn Sie die Eingabetaste drücken, nachdem Sie die Suchabfrage eingegeben haben, wird ein ganzseitiges Popup-Fenster geöffnet, das die Filter enthält. |
 

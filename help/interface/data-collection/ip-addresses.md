@@ -1,5 +1,5 @@
 ---
-title: Von Experience Cloud verwendete IP-Adressen
+title: Von CX Enterprise verwendete IP-Adressen
 description: Wenn die Firewall Ihres Unternehmens IP-Adressen blockiert, die von Adobe stammen, verwenden Sie diese Liste, um Ihre Firewall-Einstellungen zu aktualisieren.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
 TQID: https://experienceleague.adobe.com/EPoerIJdL9FVBFB32WRB9zBMdXJarSu90hJIsn7Vpps
@@ -16,13 +16,11 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 50012e2564e88e1a6e16578e3331136c7df0cb21
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: 426
+source-wordcount: '426'
 ht-degree: 9%
-
 ---
-
 # Von CX Enterprise verwendete IP-Adressen
 
 Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Datenerfassungs-Servern oder -Servern von Adobe stammen, die für den Datenzugriff zuständig sind. Sie können diese Liste von Bereichen verwenden, um die Firewall-Einstellungen Ihrer Organisation zu ändern, um den Zugriff zu ermöglichen und Daten von innerhalb Ihrer Organisation zu senden. Diese Seite enthält sowohl eingehende Systeme (z. B. Datenerfassung) als auch ausgehende Systeme (z. B. Daten-Feeds in Adobe Analytics), die Adobe verwendet.
@@ -33,10 +31,10 @@ Einige Firewall-Konfigurationen blockieren IP-Adressen, die von den Datenerfassu
 
 Zusätzlich zu den unten aufgeführten IP-Adressblöcken verfügen einzelne Adobe CX Enterprise-Produkte über eigene IP-Adressen, die sie verwenden:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/de/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/de/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/de/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
-* [Adobe Workfront](https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/configure-your-firewall)
 
 ## Alle Adobe IP-Adressblöcke
 
@@ -58,7 +56,7 @@ Die folgende Tabelle enthält alle IP-Adressen im Besitz von Adobe. Diese Tabell
 
 Wenn Ihr Unternehmen bestimmte IP-Adressbereiche lieber zulässt, können Sie die folgende Tabelle heranziehen. Zu diesem Datensatz gehören:
 
-* Datenerfassungs-Server für alle CX Enterprise-Produkte
+* Datenerfassungsserver für alle CX Enterprise-Produkte
 * FTP-Server für alle CX Enterprise-Produkte
 
 Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
@@ -97,7 +95,7 @@ Alle IP-Bereiche in diesem Abschnitt sind in der obigen Tabelle enthalten.
 
 {style="table-layout:auto"}
 
-Adobe CX Enterprise unterstützt auch IPv6 in begrenzter Kapazität. Diese IP-Blöcke dienen ähnlichen Datenerfassungszwecken wie ihre IPv4-Gegenstücke oben, enthalten jedoch kein FTP.
+Der Adobe CX Enterprise unterstützt auch IPv6 in begrenzter Kapazität. Diese IP-Blöcke dienen ähnlichen Datenerfassungszwecken wie ihre IPv4-Gegenstücke oben, enthalten jedoch kein FTP.
 
 | Standort | Host |
 | --- | --- |
