@@ -1,6 +1,6 @@
 ---
-description: Erfahren Sie mehr über zentrale Komponenten der Benutzeroberfläche für CX Enterprise. Hier erhalten Sie Hilfe zur Benutzer- und Produktverwaltung in der Admin Console, zur Aktivierung von Programmen für CX Enterprise-Services. Hier erhalten Sie Hilfe zur Zielgruppenbibliothek, zu Kundenattributen, zur CX Enterprise Assets und mehr.
-title: Benutzeroberfläche und Verwaltung von Experience Cloud
+description: Erfahren Sie mehr über zentrale Schnittstellenkomponenten für CX Enterprise. Hier erhalten Sie Hilfe zur Benutzer- und Produktverwaltung in der Admin Console, zum Aktivieren von Programmen für CX Enterprise-Services. Hier erhalten Sie Hilfe zur Zielgruppenbibliothek, zu Kundenattributen, CX Enterprise Assets und mehr.
+title: Benutzeroberfläche und Administration von CX Enterprise
 hide: true
 hidefromtoc: 'yes'
 feature: Central Interface Components
@@ -13,22 +13,22 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 48%
+ht-degree: 47%
 ---
-# CX Enterprise-Oberfläche und -Administration
+# Benutzeroberfläche und Administration von CX Enterprise
 
-[CX Enterprise](https://experience.adobe.com) ist die integrierte Produktfamilie von Digital-Marketing-Anwendungen, -Produkten und -Services von Adobe. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Programme, Produktfunktionen und Services zugreifen.
+[CX Enterprise](https://experience.adobe.com) ist Adobes integrierte Produktfamilie von Programmen, Produkten und Services für Digital Marketing. Über die intuitive Benutzeroberfläche können Sie schnell auf Ihre Cloud-Programme, Produktfunktionen und Services zugreifen.
 
 &#x200B;30. Oktober ausgeblendet
 
 ![CX Enterprise](assets/landing.png)
 
-Im Header von CX Enterprise haben Sie folgende Möglichkeiten:
+In der Kopfzeile von CX Enterprise haben Sie folgende Möglichkeiten:
 
-* Zugriff auf alle CX Enterprise-Anwendungen und -Services
+* Zugriff auf alle CX Enterprise-Programme und -Services
 * Suchen Sie über das Menü „Hilfe“ nach Produktdokumentationen, Tutorials und Community-Beiträgen. Lassen Sie sich Ergebnisse in Experience League anzeigen.
 * Suchen Sie global nach Geschäftsobjekten, indem Sie eine globale Suche (nur für Nutzerinnen und Nutzer der Experience Platform) im Feld „Suche“ verwenden.
 * Verwalten der [Einstellungen](features/account-preferences.md) des Kontos (Warnhinweise, Benachrichtigungen und Abonnements)
@@ -49,17 +49,17 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
    Die [Organisation](administration/organizations.md) wird in der Kopfzeile der Benutzeroberfläche angezeigt.
 
-   Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit dem Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
+   Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit CX Enterprise beim Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
    Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
-## Zugriff auf CX Enterprise-Anwendungen {#navigation}
+## Zugriff auf CX Enterprise-Programme {#navigation}
 
-Nach der Anmeldung bei CX Enterprise können Sie über den einheitlichen Header schnell auf alle Ihre Anwendungen, Services und Organisationen zugreifen.
+Nach der Anmeldung bei CX Enterprise können Sie über den einheitlichen Header schnell auf alle Ihre Programme, Services und Organisationen zugreifen.
 
-Um auf die in Ihrem Unternehmen für Sie bereitgestellten CX Enterprise-Anwendungen und -Services zuzugreifen, gehen Sie zum Anwendungsauswahlmenü ![Menü](assets/apps-icon.png).
+Rufen Sie die Programmauswahl auf (Menü), um auf die in Ihrem Unternehmen für Sie ![&#x200B; CX Enterprise-Programme und -Services &#x200B;](assets/apps-icon.png).
 
-![Zugriff auf CX Enterprise-Anwendungen](assets/platform-core-services.png)
+![Zugriff auf CX Enterprise-Programme](assets/platform-core-services.png)
 
 ## Hilfe und Support {#support}
 
@@ -70,7 +70,7 @@ Greifen Sie mithilfe des **[!UICONTROL Hilfezentrums]** (![asset](assets/help-ic
 Das [!UICONTROL Hilfe]-Menü bietet Ihnen außerdem Zugriff auf:
 
 * **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie [!UICONTROL Support] über Twitter.
-* **[!UICONTROL Feedback]:** Geben Sie Feedback zu Ihrem CX Enterprise-Erlebnis. Ihr Feedback wird verwendet, um die Produkte und Services von Adobe zu verbessern.
+* **[!UICONTROL Feedback]:** Teilen Sie Feedback zu Ihrem CX Enterprise-Erlebnis. Ihr Feedback wird verwendet, um die Produkte und Services von Adobe zu verbessern.
 * **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/de-de/experience_cloud` und überprüfen Sie den Betriebsstatus des Produkts und [!UICONTROL Abonnements verwalten].
 * **[!UICONTROL Developer Connection]:** Navigation zum `adobe.io` und zur Entwicklerdokumentation.
 
@@ -79,7 +79,7 @@ Das [!UICONTROL Hilfe]-Menü bietet Ihnen außerdem Zugriff auf:
 Im Menü [!UICONTROL Profil] haben Sie folgende Möglichkeiten:
 
 * Festlegen eines dunklen Designs (nicht alle Anwendungen unterstützen dieses Design)
-* Verwalten von CX Enterprise [Voreinstellungen](features/account-preferences.md)
+* CX Enterprise verwalten [Voreinstellungen](features/account-preferences.md)
 * Auswählen von oder Suchen nach [Organisationen](administration/organizations.md)
 * Anzeigen [!UICONTROL Rechtliche Hinweise]
 * Abmelden

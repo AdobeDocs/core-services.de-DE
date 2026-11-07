@@ -1,7 +1,7 @@
 ---
-description: Erfahren Sie mehr über Admin-Tools zur Verwaltung genehmigter Creative Cloud-Benutzer in CX Enterprise.
+description: Erfahren Sie mehr über die Admin Tools zur Verwaltung genehmigter Creative Cloud-Benutzender in CX Enterprise.
 solution: Experience Cloud
-title: Verwalten von Creative Cloud-Benutzern in Experience Cloud
+title: Verwalten von Creative Cloud-Benutzern in CX Enterprise
 feature: Assets
 topic: Administration
 role: Admin
@@ -28,20 +28,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 46%
 ---
 # Verwaltung der Creative Cloud-Benutzer
 
-CX Enterprise bietet Verwaltungstools für die Verwaltung genehmigter Creative Cloud-Benutzer. Diese User können auf Ad-hoc-Basis zu einem Kampagnenordner eingeladen werden. Nur User, die von einem Administrator zur Liste hinzugefügt wurden, können zu einer Kampagne eingeladen werden. Die hinzugefügten Benutzer werden in CX Enterprise in der Benutzerliste für die automatische Vervollständigung angezeigt.
+Die CX Enterprise bietet Verwaltungstools zum Verwalten genehmigter Creative Cloud-Benutzender. Diese User können auf Ad-hoc-Basis zu einem Kampagnenordner eingeladen werden. Nur User, die von einem Administrator zur Liste hinzugefügt wurden, können zu einer Kampagne eingeladen werden. Die hinzugefügten Benutzer werden in CX Enterprise in der Benutzerliste für die automatische Vervollständigung angezeigt.
 
 >[!NOTE]
 >
 >Hierfür müssen Sie Administrator sein.
 
-1. Klicken Sie in CX Enterprise auf **[!UICONTROL Administration]** > **[!UICONTROL Creative Cloud-Mitarbeiter verwalten]**.
+1. Klicken Sie in CX Enterprise auf **[!UICONTROL Administration]** > **[!UICONTROL Creative Cloud-Mitwirkende verwalten]**.
 1. Klicken Sie auf **[!UICONTROL Creative Cloud Asset-Freigabe]**.
 1. Klicken Sie **[!UICONTROL Neuen Benutzer hinzufügen]**.  ![Neuen Benutzer hinzufügen](../../assets/mac_add_icon.png)
 1. Geben Sie eine E-Mail-Adresse, einen Anzeigenamen und einen Titel ein und fügen Sie optional einen Avatar hinzu.

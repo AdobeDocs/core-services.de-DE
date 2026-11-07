@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie mehr über die von CX Enterprise verwendeten Domains.
-title: Von Experience Cloud verwendete Domains
+title: Von CX Enterprise verwendete Domains
 feature: Central Interface Components
 topic: Administration
 role: Admin
@@ -18,14 +18,14 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 19%
 ---
 # Von CX Enterprise verwendete Domains
 
-CX Enterprise verwendet die folgenden Hosts, um die Anwendung bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen über das Netzwerk oder die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu gewährleisten.
+CX Enterprise verwendet die folgenden Hosts, um das Programm bereitzustellen, die Leistung zu verbessern und das Produkterlebnis zu verbessern. Adobe empfiehlt, diese Domänen über das Netzwerk oder die Firewall Ihres Unternehmens zuzulassen, um ein optimales Erlebnis zu gewährleisten.
 
 Zusätzlich zu den unten aufgeführten Domains verfügen einzelne Adobe CX Enterprise-Produkte über eigene Domains, die sie verwenden:
 

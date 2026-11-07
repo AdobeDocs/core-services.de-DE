@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7b12d5debfccd62ab7b416e9a6fe278d251a4ca5
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '981'
 ht-degree: 0%
 ---
 # Cookies in Adobe Experience Platform Web SDK
@@ -53,7 +53,7 @@ Adobe Experience Platform Web SDK verwendet Cookies, um implementierungsspezifis
 | **`kndctr_<orgId>_bc_session_id`** | Keine (Sitzungs-Cookie) | | Vorhanden, wenn die Brand Concierge-Komponente (Betaversion) verwendet wird. Speichert die Sitzungs-ID des Brand Concierge-Chats. Web SDK liest dieses Cookie nur, wenn [`stickyConversationSession`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/conversation) aktiviert ist, sodass Chat-Sitzungen über Seitenladevorgänge hinweg bestehen bleiben. |
 | **`mbox`** | 63072000 (2 Jahre) | | Bei aktiviertem [`targetMigrationEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled) vorhanden. Dadurch kann das Target[Mbox-Cookie](https://developer.adobe.com/target/implement/client-side/atjs/atjs-cookies/) von der Web-SDK festgelegt werden. |
 | **`mboxEdgeCluster`** | 1800 (30 Minuten) | | Bei aktiviertem [`targetMigrationEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/targetmigrationenabled) vorhanden. Dadurch kann Web SDK dem `at.js` den richtigen Edge-Cluster übermitteln, damit die Zielprofile synchron bleiben, während Benutzende auf einer Site navigieren. Wenn das `kndctr_<orgId>_cluster` Cookie nicht vorhanden ist, liest die Web-SDK dieses Cookie auch, um Anfragen an die entsprechende Edge Network-Region weiterzuleiten. |
-| **`s_ecid`** | 63115200 (2 Jahre) | ~45 Byte | Enthält eine Kopie der CX Enterprise ID (ECID/MID) im `s_ecid=MCMID\|<ECID>`. Fungiert als First-Party-Backup der ECID, insbesondere für CNAME-Szenarien (First-Party-Szenarien). Wenn [`idMigrationEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) aktiviert ist, liest die Web-SDK dieses Cookie, um eine vorhandene ECID wiederzuverwenden. |
+| **`s_ecid`** | 63115200 (2 Jahre) | ~45 Byte | Enthält eine Kopie der ECID/MID im Format `s_ecid=MCMID\|<ECID>`. Fungiert als First-Party-Backup der ECID, insbesondere für CNAME-Szenarien (First-Party-Szenarien). Wenn [`idMigrationEnabled`](https://experienceleague.adobe.com/de/docs/experience-platform/collection/js/commands/configure/idmigrationenabled) aktiviert ist, liest die Web-SDK dieses Cookie, um eine vorhandene ECID wiederzuverwenden. |
 | **Audience Manager-Cookie-Ziele** (Name variiert) | 864000 (10 Tage), es sei denn, das Ziel gibt eine andere Lebensdauer an | variiert | Vorhanden, wenn die Edge Network ein Audience Manager-[Cookie-Ziel](https://experienceleague.adobe.com/de/docs/audience-manager/user-guide/features/destinations/custom-destinations/create-cookie-destination) für den Besucher zurückgibt. Web SDK schreibt ein Erstanbieter-Cookie unter Verwendung des Cookie-Namens, des -Werts und der Domain, die im Ziel definiert sind. Die Werte sind URL-kodiert, entsprechend der Audience Manager Data Integration Library (DIL). |
 
 Edge Network setzt alle zugehörigen Cookies mit den Attributen `secure` und `sameSite="none"` . Wenn Sie derzeit sowohl sichere als auch nicht sichere Abschnitte auf Ihrer Website haben, kann die Benutzeridentifizierung ungenau sein. Wenn ein(e) Benutzende(r) von einem sicheren Abschnitt der Site zu einem nicht sicheren Abschnitt navigiert, generiert Edge Network mit der Anfrage einen neuen `ECID`.

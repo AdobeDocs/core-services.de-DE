@@ -1,7 +1,7 @@
 ---
-description: Erfahren Sie, wie der Besucher-ID-Service in allen CX Enterprise-Anwendungen gespeichert und verwendet wird.
+description: Erfahren Sie, wie der Besucher-ID-Service in allen CX Enterprise-Programmen gespeichert und verwendet wird.
 solution: Experience Cloud,Analytics,Target
-title: Cookies in Experience Cloud
+title: Cookies in CX Enterprise
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
 topic: Administration
@@ -33,14 +33,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '366'
 ht-degree: 67%
 ---
 # Cookies in CX Enterprise
 
-Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in allen CX Enterprise-Anwendungen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe CX Enterprise-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
+Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in allen CX Enterprise-Programmen verwendet wird. Diese Cookies gelten speziell für den Zugriff auf Adobe CX Enterprise-Anwendungen unter [experience.adobe.com](https://experience.adobe.com).
 
 **Cookie-Name: s_ecid**
 
@@ -54,7 +54,7 @@ Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Enthält eine Kopie der CX Enterprise ID (ECID) oder MID. Die MID ist in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Enthält eine Kopie der ECID oder MID. Die MID ist in einem Schlüssel-Wert-Paar gespeichert, das dieser Syntax folgt: s_ecid=MCMID|&lt;ECID&gt; </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
@@ -81,7 +81,7 @@ Adobe CX Enterprise verwendet Cookies, um eine Besucher-ID zu speichern, die in 
 
 **Cookie-Name: AMCV_###@AdobeOrg**
 
-Der [Besucher-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)Dienst verwendet JavaScript, um eine Unique-Visitor-ID in einem `AMCV_###@AdobeOrg`-Cookie in der Domain der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt
+Der [Besucher-ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=de)Dienst) verwendet JavaScript, um eine ECID in einem `AMCV_###@AdobeOrg`-Cookie in der Domain der aktuellen Website zu speichern, wobei `###` eine zufällige Zeichenfolge wie `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.` darstellt
 
 Siehe auch [Cookies und der Besucher-ID-Dienst](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=de).
 
@@ -95,7 +95,7 @@ Siehe auch [Cookies und der Besucher-ID-Dienst](https://experienceleague.adobe.c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gespeicherte Informationen </p> </td> 
-   <td colname="col2"> <p> Unique Visitor IDs, die von CX Enterprise Solutions verwendet werden. </p> </td> 
+   <td colname="col2"> <p> Von CX Enterprise-Lösungen verwendete Unique-Visitor-IDs. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Ablauf </p> </td> 
