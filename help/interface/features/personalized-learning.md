@@ -1,6 +1,6 @@
 ---
 description: Sie erhalten personalisierte Hilfe und Angebote per E-Mail, in Ihren CX Enterprise-Produkten und in den Experience League Communities auf der Grundlage Ihrer Nutzungsdaten.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Voreinstellungen für personalisierte Lerninhalte in CX Enterprise
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
 TQID: https://experienceleague.adobe.com/XL454ZwYb9liDNLbDcA7ZYRG-8OHpwuQEmvHCo0q-j4
@@ -23,14 +23,14 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 16%
 ---
 # Voreinstellungen für personalisierte Lerninhalte
 
-Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [CX Enterprise-Voreinstellungen&rbrace; &#x200B;](https://experience.adobe.com/preferences) oder deaktivieren.
+Adobe bietet hilfreiche Inhalte, die basierend auf Ihrer Arbeit in Ihren Adobe-Produkten auf Sie zugeschnitten sind. Die Produktnutzungsdaten geben Aufschluss darüber, wie wir diesen Kontext auf Sie zuschneiden. Sie können die Freigabe Ihrer Produktnutzungsdaten auf der Seite [CX Enterprise-Voreinstellungen} ](https://experience.adobe.com/preferences) oder deaktivieren.
 
 <!--
 ## Personalized training and support recommendations for your Adobe products and services

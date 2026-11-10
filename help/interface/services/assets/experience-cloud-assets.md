@@ -1,6 +1,6 @@
 ---
 description: Hier erfahren Sie mehr über CX Enterprise-Assets, die Sie anwendungsübergreifend gemeinsam verwenden können.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Übersicht über Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
@@ -31,7 +31,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 70%
@@ -43,7 +43,7 @@ CX Enterprise Assets bietet ein zentrales Repository Marketing-fähiger Assets, 
 Zu den Asset-Services gehören:
 
 * Asset-Speicherung, Verwaltungsschnittstelle, eingebettete Auswahlschnittstelle (Zugriff erfolgt über Programme).
-* Integrationen mit Creative Cloud, CX Enterprise Collaboration und CX Enterprise-Anwendungen.
+* Integrationen mit Creative Cloud, CX Enterprise Collaboration und CX Enterprise-Programmen.
 
 Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und beschleunigt die Markteinführung. Sie können Workflows in Programmen optimieren:
 
@@ -52,11 +52,11 @@ Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und b
 * **[!DNL Adobe Campaign]**: Fügen Sie Assets in E-Mail-Newslettern und Kampagnen ein.
 
 
-## Zu CX Enterprise Assets navigieren
+## Navigieren Sie zu CX Enterprise Assets
 
-![Zu CX Enterprise Assets navigieren](../../assets/asset-nav.png)
+![Navigieren Sie zu CX Enterprise Assets](../../assets/asset-nav.png)
 
-## Auf die Symbolleiste zugreifen
+## Zugriff auf die Symbolleiste
 
 Navigieren Sie zu einem Asset (oder Asset-Verzeichnis) und klicken Sie auf **[!UICONTROL Auswählen]**.
 
@@ -96,7 +96,7 @@ Klicken Sie auf **[!UICONTROL Ansichten]** > **[!UICONTROL Bild]**, um das volls
 
 ![Assets im Vollbildmodus anzeigen](../../assets/asset-zoom.png)
 
-## Asset-Eigenschaften anzeigen
+## Anzeigen von Asset-Eigenschaften
 
 Treffen Sie eine Auswahl zwischen der Kartenansicht mit Eigenschaften, der Listenansicht und der Spaltenansicht, um Ihr Asset möglichst schnell zu finden.
 
@@ -104,7 +104,7 @@ Klicken Sie **[!UICONTROL Ansichten]** > **[!UICONTROL Eigenschaften]**, um die 
 
 ![Asset-Eigenschaften anzeigen](../../assets/asset-properties.png)
 
-## Gebrauchsberichte ausführen
+## Ausführen von Nutzungsberichten
 
 Anzahl der Benutzer, belegten Speicherplatz und Gesamtzahl der Assets anzeigen.
 

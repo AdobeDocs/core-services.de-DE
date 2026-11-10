@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie sich anmelden, und lernen Sie die zentralen Komponenten der Benutzeroberfläche in CX Enterprise kennen. Erfahren Sie mehr über die globale Suche, Ihre Kontovoreinstellungen und darüber, wie Sie in der Benutzeroberfläche navigieren und Hilfe erhalten.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Zentrale Komponenten der CX Enterprise-Benutzeroberfläche
 feature: Central Interface Components
 topic: Administration
@@ -18,7 +18,7 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 40%
@@ -90,7 +90,7 @@ Klicken Sie auf die Programmauswahl ![Menü](assets/menu-icon.png), um auf die v
 
 ## Suche und Support in CX Enterprise
 
-Mit der CX Enterprise-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) in [Experience League suchen](https://experienceleague.adobe.com/de?lang=de#home).
+Mit der CX Enterprise-Suche können Sie nach Hilfe (Dokumentation, Tutorials und Kurse) in [Experience League suchen](https://experienceleague.adobe.com/?lang=de#home).
 
 ![Suche und Support in CX Enterprise](assets/search-menu.png)
 
@@ -98,7 +98,7 @@ Das [!UICONTROL Hilfe]-Menü bietet Ihnen außerdem Zugriff auf:
 
 * **[!UICONTROL Support]:** Erstellen Sie ein Support-Ticket oder kontaktieren Sie [!UICONTROL Support] über Twitter.
 * **[!UICONTROL Feedback]:** Kontaktieren Sie Adobe mithilfe von Feedback und teilen Sie uns Ihre Meinung mit.
-* **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/de-de/experience_cloud` und überprüfen Sie den Betriebsstatus des Produkts und [!UICONTROL Abonnements verwalten].
+* **[!UICONTROL Status]:** Navigieren Sie zu `https://status.adobe.com/experience_cloud` und überprüfen Sie den Betriebsstatus des Produkts und [!UICONTROL Abonnements verwalten].
 * **[!UICONTROL Developer Connection]:** Navigation zum `adobe.io` und zur Entwicklerdokumentation.
 
 ## Kontoeinstellungen
@@ -123,7 +123,7 @@ Unter [!UICONTROL CX Enterprise]Voreinstellungen können Sie die folgenden Funkt
 | Funktion | Beschreibung |
 | --- | --- |
 | Standardorganisation | Wählen Sie die Organisation aus, die beim Starten von CX Enterprise angezeigt werden soll. |
-| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop[!UICONTROL over &#x200B;]Benachrichtigungen“ und in Ihren E-Mails. |
+| [!UICONTROL Abonnements] | Wählen Sie die Produkte und Kategorien aus, die Sie abonnieren möchten. Benachrichtigungen im Pop[!UICONTROL over ]Benachrichtigungen“ und in Ihren E-Mails. |
 | [!UICONTROL Priorität] | Wählen Sie die Kategorien aus, die eine hohe Priorität erhalten sollen. Diese Kategorien sind mit dem Tag Hoch gekennzeichnet und können zur Zustellung wie Warnhinweise konfiguriert werden. |
 | [!UICONTROL Warnhinweise] | Wählen Sie die Benachrichtigungen aus, für die Warnhinweise in Ihrem Browser angezeigt werden sollen. Warnhinweise werden einige Sekunden lang in der oberen rechten Ecke des Fensters angezeigt. |
 | E-Mails | Geben Sie die Häufigkeit an, mit der Sie Benachrichtigungs-E-Mails erhalten möchten. (Nicht gesendet, unmittelbar, täglich oder wöchentlich.) |

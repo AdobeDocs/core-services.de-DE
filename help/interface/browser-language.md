@@ -1,7 +1,7 @@
 ---
 title: Browser- und Sprachunterstützung
-description: Erfahren Sie mehr über Browser- und Sprachunterstützung für CX Enterprise-Anwendungen. Wählen Sie eine primäre und sekundäre Sprache in Ihrem Kontoprofil aus.
-solution: Experience Cloud
+description: Erfahren Sie mehr über Browser- und Sprachunterstützung für CX Enterprise-Programme. Wählen Sie eine primäre und sekundäre Sprache in Ihrem Kontoprofil aus.
+solution: CX Enterprise
 feature: Account Preferences
 topic: Administration
 role: Admin
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 39%
@@ -82,7 +82,7 @@ Darüber hinaus kann eine gebietsschemaspezifische Formatierung (z. B. Daten, Ze
 
 1. Wählen **[!UICONTROL auf]** Sprache auswählen“ eine Sprache aus dem Menü **[!UICONTROL Erste Sprache]** aus.
 
-   Zwar verpflichten sich alle Anwendungsteams zur globalen Sprachunterstützung, doch werden nicht alle Anwendungen in allen in der Benutzeroberfläche aufgeführten Sprachen angeboten. Wenn Ihre primäre Sprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie ggf. eine sekundäre Standardsprache festlegen.
+   Zwar verpflichten sich alle Anwendungsteams zur globalen Sprachunterstützung, doch werden nicht alle Anwendungen in allen in der Benutzeroberfläche aufgeführten Sprachen angeboten. Wenn Ihre Primärsprache in einem CX Enterprise-Programm nicht unterstützt wird, können Sie ggf. eine sekundäre Standardsprache festlegen.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

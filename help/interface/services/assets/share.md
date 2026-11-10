@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie einen CX Enterprise Asset-Ordner für Creative Cloud-Benutzende freigeben.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Freigeben von CX Enterprise-Asset-Ordnern
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
@@ -31,7 +31,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b39f5e2ebae20b92fd984ca65462eb016837b4e2
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 37%
@@ -60,7 +60,7 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in CX Enterp
    ![Creative Cloud-Benutzer hinzufügen](../../assets/asset-share-cc-page.png)
 
 1. Klicken Sie auf **[!UICONTROL Freigeben]**.
-1. Starten Sie den [!DNL Creative Cloud]-Desktop (oder navigieren Sie in einem Browser zur  Creative Cloud-Dateien) und suchen Sie nach der Anfragebenachrichtigung.
+1. Starten Sie den [!DNL Creative Cloud]-Desktop (oder navigieren Sie in einem Browser zur ] [!UICONTROL Creative Cloud-Dateien) und suchen Sie nach der Anfragebenachrichtigung.
 
    ![Benachrichtigung anfordern](../../assets/cc_share_request.png)
 1. Öffnen Sie die Anfrage und klicken Sie auf **[!UICONTROL Akzeptieren]**.
@@ -85,7 +85,7 @@ Bevor Creative Cloud-Benutzer Zugriff auf Assets haben, müssen sie in CX Enterp
 
    Wenn Sie alle Creative Cloud-Benutzer entfernt haben, wird die Freigabe des Ordners aufgehoben. Die Creative Cloud-Benutzer haben dann keinen Zugriff mehr auf diesen Ordner.
 
-Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in Adobe Target für Bilder in -Aktivitäten.
+Zu den weiteren Möglichkeiten, ein freigegebenes Asset zu verwenden, gehören das Laden oder Austauschen von Assets in der [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in Adobe Target für Bilder in -Aktivitäten.
 
 Wenn Sie einen Ordner für Creative Cloud freigegeben haben, erscheint auf dem Ordner das Creative Cloud-Logo.
 
@@ -99,7 +99,7 @@ Zugehörige Hilfe:
 
 ## Informationen zur Asset-Freigabe für Adobe Target
 
-Beim Erstellen von Aktivitäten in [!DNL Adobe Target] können Sie ein freigegebenes Bild-Asset verwenden, wenn Sie Bilder in der [!UICONTROL Angebotsbibliothek“ &#x200B;].
+Beim Erstellen von Aktivitäten in [!DNL Adobe Target] können Sie ein freigegebenes Bild-Asset verwenden, wenn Sie Bilder in der [!UICONTROL Angebotsbibliothek“ ].
 
-Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=de) in der [!DNL Target]-Hilfe.
+Siehe [Angebotsbibliothek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) in der [!DNL Target]-Hilfe.
 

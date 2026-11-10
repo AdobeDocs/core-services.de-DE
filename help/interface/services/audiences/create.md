@@ -1,7 +1,7 @@
 ---
 title: Erstellen einer Zielgruppe in der Zielgruppenbibliothek
 description: Erfahren Sie, wie Sie in der Zielgruppenbibliothek mithilfe von Attributregeln eine freigebbare Zielgruppe erstellen. Erfahren Sie, wie Sie eine Regel konfigurieren und eine gemischte Zielgruppe definieren.
-solution: Experience Cloud
+solution: CX Enterprise
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
@@ -33,14 +33,14 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 56%
 ---
 # Erstellen einer Zielgruppe
 
-In [!UICONTROL Audience Library] können Sie Attributregeln verwenden, um eine Audience zu erstellen und eine gemischte Audience für die Freigabe in CX Enterprise-Anwendungen zu definieren.
+In [!UICONTROL Zielgruppenbibliothek] können Sie Attributregeln verwenden, um eine Zielgruppe zu erstellen und eine gemischte Zielgruppe für die Freigabe in CX Enterprise-Programmen zu definieren.
 
 In diesem Artikel lernen Sie Folgendes:
 
@@ -48,7 +48,7 @@ In diesem Artikel lernen Sie Folgendes:
 * Erstellen einer Regel
 * Verwenden von Regeln zum Definieren einer gemischten Zielgruppe
 
-Die folgende Grafik stellt zwei Regeln in einer gemischten Zielgruppe dar.
+Die folgende Grafik stellt zwei Regeln in einer zusammengesetzten Zielgruppe dar.
 
 ![Zwei Regeln in einer gemischten Zielgruppe](assets/audience_sharing.png)
 
@@ -58,7 +58,7 @@ Jeder Kreis steht für eine Regel, die die Zugehörigkeit zu einer Zielgruppe de
 >
 >Die Zielgruppe ist erst nach Ablauf des für die Datenerfassung angegebenen Zeitraums vollständig definiert.
 
-Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erstellt werden. Diese Zielgruppe umfasst Folgendes:
+Das folgende Beispiel zeigt, wie die Regeln für eine zusammengesetzte Zielgruppe erstellt werden. Diese Zielgruppe umfasst Folgendes:
 
 * Abschnitt „Home &amp; Garden“, der von Seitendaten oder Analyse-Rohdaten abgeleitet wurde.
 * Chrome- und Safari-Benutzer, die von einem [!DNL Adobe Analytics] Segment abgeleitet [veröffentlicht](overview.md) in [!DNL CX Enterprise].
@@ -69,12 +69,12 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 
 1. Klicken Sie auf [!DNL CX Enterprise] Apps ![Apps-Symbol](assets/apps-icon.png) und dann auf **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-1. Klicken Sie auf [!UICONTROL &#x200B; Seite &#x200B;]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
+1. Klicken Sie auf [!UICONTROL  Seite ]Zielgruppen **[!UICONTROL auf „Neu]**. ![Neue Zielgruppe](assets/add_icon_small.png)
 
    ![Erstellen einer Zielgruppe](assets/audience_create_new.png)
 
-1. Füllen Sie auf [!UICONTROL &#x200B; Seite „Neue Zielgruppe &#x200B;]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
-1. Wählen [!UICONTROL &#x200B; unter &#x200B;] eine Referenz-Report Suite und dann eine Attributquelle aus:
+1. Füllen Sie auf [!UICONTROL  Seite „Neue Zielgruppe ]&quot; die Felder **[!UICONTROL Titel]** und **[!UICONTROL Beschreibung]** aus.
+1. Wählen [!UICONTROL  unter ] eine Referenz-Report Suite und dann eine Attributquelle aus:
 
    * **[!UICONTROL Real-Time Analytics-Daten:]** (oder Rohdaten) Hierbei handelt es sich um Attributdaten, die aus Real-Time Analytics-Bildanforderungen abgeleitet wurden. Sie enthält eVars und Ereignisse. Sie müssen bei Verwendung dieser Attributquelle eine Report Suite auswählen und die einzuschließende Dimension oder das einzuschließende Ereignis definieren. Diese Report Suite-Auswahl stellt die von der Report Suite verwendete Variablenstruktur bereit.
 
@@ -82,7 +82,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
      >
      >Aufgrund des Caching benötigen gelöschte Report Suites in Analytics 12 Stunden, bevor die Löschung in CX Enterprise angezeigt wird.
 
-   * **[!UICONTROL CX Enterprise:]** Attributdaten aus [!DNL CX Enterprise]. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
+   * **[!UICONTROL CX Enterprise:]** Attributdaten werden aus [!DNL CX Enterprise] Quellen abgeleitet. Hierbei kann es sich z. B. um Daten aus Zielgruppensegmenten handeln, die Sie in [!DNL Analytics] erstellen, oder Daten aus [!DNL Audience Manager].
 
 1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Speichern].**
 
@@ -92,7 +92,7 @@ Das folgende Beispiel zeigt, wie die Regeln für eine gemischte Zielgruppe erste
 >
 >Für die Erstellung von Zielgruppenregeln sollten Sie Ihre Implementierungsvariablen unbedingt kennen.
 
-Definieren [!UICONTROL &#x200B; unter &quot;]&quot; die *`Home & Garden`* Attributauswahlen:
+Definieren [!UICONTROL  unter &quot;]&quot; die *`Home & Garden`* Attributauswahlen:
 
 * **[!UICONTROL Attribut Source:]** Analytics-Rohdaten
 * **[!UICONTROL Report Suite:]** Report Suite 31
@@ -111,13 +111,13 @@ Zum Vergleich können Sie eine *OR*-Regel hinzufügen, um alle Besucher eines Si
 
 ![ODER-Regel für eine Zielgruppe](assets/audiences_rule_patio.png)
 
-Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-Benutzern, die Home &amp; Garden besucht haben. Der Abschnitt „Patio &amp; Furniture“ bietet zusätzliche Einblicke in alle Besucher, die diesen Site-Abschnitt besuchen.
+Die resultierende Regel ist eine definierte Zielgruppe mit Chrome &amp; Safari-Benutzern, die Home &amp; Garden besucht haben. Das Segment „Terrasse &amp; Möbel“ bietet zusätzliche Erkenntnisse zu allen Besuchenden, die diesen Site-Abschnitt besuchen.
 
 ![Definierte Zielgruppe in CX Enterprise](assets/defined_audience.png)
 
 * **Historische Schätzdaten:** (Gepunkteter Kreis) Stellt Regeln dar, die basierend auf [!DNL Analytics]-Daten erstellt wurden.
-* **Tatsächliche Zielgruppe:** (Durchgehender Kreis) Eine erstellte Regel, die 30 Tage lang Daten aus Audience Manager enthält. Wenn die Audience Manager-Daten 30 Tage erreichen, ist die Zeile durchgehend gefüllt und stellt die tatsächlichen Zahlen dar.
+* **Tatsächliche Zielgruppe:** (Durchgehender Kreis) Eine erstellte Regel, die 30 Tage lang Daten aus Audience Manager enthält. Wenn die Audience Manager-Daten 30 Tage erreichen, wird die Zeile fest und stellt die tatsächlichen Zahlen dar.
 
 Nachdem die Datenerfassung für den angegebenen Zeitraum abgeschlossen wurde, werden die Kreise zu einer definierten Zielgruppe kombiniert.
 
-Nachdem die Zielgruppe gespeichert wurde, ist sie für andere CX Enterprise-Anwendungen verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) &#x200B;](https://experienceleague.adobe.com/de/docs/target/using/activities/activities).
+Nachdem die Zielgruppe gespeichert wurde, ist sie für andere CX Enterprise-Programme verfügbar. Sie können beispielsweise eine freigegebene Zielgruppe in eine Adobe Target-Aktivität ([) ](https://experienceleague.adobe.com/en/docs/target/using/activities/activities).

@@ -1,7 +1,7 @@
 ---
 description: Informationen zu Audience Manager-Cookies in Adobe CX Enterprise.
 keywords: Cookies
-solution: Experience Cloud, Audience Manager
+solution: CX Enterprise, Audience Manager
 title: Cookies in Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
@@ -44,14 +44,14 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '657'
 ht-degree: 96%
 ---
 # Cookies in Audience Manager
 
-Audience Manager vertraut bei der Ausführung verschiedener Funktionen auf ein einige einfache Cookies. Dazu gehören die Zuweisung von IDs, die Aufzeichnung von Datenaufrufen, die Fehlerverfolgung und Tests, um zu prüfen, ob Cookies gesetzt werden können. In diesem Abschnitt werden die verschiedenen Cookies aufgelistet und beschrieben, die von Audience Manager gesetzt werden.
+Audience Manager vertraut bei der Ausführung verschiedener Funktionen auf einige einfache Cookies. Dazu gehören die Zuweisung von IDs, die Aufzeichnung von Datenaufrufen, die Fehlerverfolgung und Tests, um zu prüfen, ob Cookies gesetzt werden können. In diesem Abschnitt werden die verschiedenen Cookies aufgelistet und beschrieben, die von Audience Manager gesetzt werden.
 
 **demdex-Cookie**
 
@@ -162,7 +162,7 @@ In der folgenden Tabelle werden die in einem `dextp`-Cookie enthaltenen Elemente
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Zweck</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=de" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager</span> setzt dieses Cookie, wenn bei der Übermittlung von Daten an ein <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">Ziel</a> ein Fehler auftritt. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Inhalt</b> </p> </td> 
