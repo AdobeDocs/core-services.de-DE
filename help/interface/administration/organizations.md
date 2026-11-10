@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie mehr über Organisationen (IMS-Organisations-ID), den Kontowechsel und die Verknüpfung von Lösungskonten.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Organisationen und Konten
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Organizations
@@ -33,16 +33,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 17%
 ---
 # Organisationen und Konten
 
-Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzer zu konfigurieren und Single Sign-on in CX Enterprise zu steuern.
+Eine *Organisation* (Organisations-ID) ist die Entität, die es einem Administrator ermöglicht, Gruppen und Benutzende zu konfigurieren und Single Sign-on in CX Enterprise zu steuern.
 
-Die Organisation agiert als Anmeldeunternehmen, das alle CX Enterprise-Produkte und -Anwendungen umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
+Das Unternehmen agiert als zentrale Anmeldestelle, die sämtliche CX Enterprise-Produkte und -Programme umfasst. Normalerweise besitzt eine Organisation den Namen Ihres Unternehmens. Ein Unternehmen kann jedoch über mehrere Organisationen verfügen.
 
 **Menü Organisation**
 
@@ -56,15 +56,15 @@ Um sicherzustellen, dass Sie sich bei Ihrer richtigen Organisation angemeldet ha
 
 ## Federated IDs
 
-Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit dem Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
+Wenn Ihr Unternehmen Federated IDs verwendet, können Sie sich mit CX Enterprise beim Single Sign-on Ihres Unternehmens anmelden, ohne Ihre E-Mail-Adresse und Ihr Passwort eingeben zu müssen. Fügen Sie `#/sso:@domain` zur CX Enterprise-URL (`https://experience.adobe.com`) hinzu, um diese Aufgabe zu erfüllen.
 
 Setzen Sie beispielsweise für eine Organisation mit Federated IDs und der Domain `example.com` Ihren URL-Link auf `https://experience.adobe.com/#/sso:@example.com`. Sie können auch direkt zu einem bestimmten Programm gehen, indem Sie diese URL, an die der Programmpfad angehängt ist, als Lesezeichen speichern. (Beispiel für Adobe Analytics: `https://experience.adobe.com/#/sso:@example.com/analytics`.)
 
 ## Federated Guest Accounts
 
-Sie können [Federated Guest Access](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) aktivieren, um Gastbenutzer sicher in Ihrer eigenen Domain zu authentifizieren. Wenn diese Option aktiviert ist, ändert sich das Organisationsmenü, damit diese Benutzer innerhalb der vorhandenen Organisation auf jeder CX Enterprise-Seite zwischen Konten wechseln können.
+Sie können [Federated Guest Access](https://helpx.adobe.com/de/business/enterprise/using/federated-guest-access.html) aktivieren, um Gastbenutzer sicher in Ihrer eigenen Domain zu authentifizieren. Wenn diese Option aktiviert ist, ändert sich das Organisationsmenü, damit diese Benutzenden innerhalb des bestehenden Unternehmens auf jeder CX Enterprise-Seite zwischen Konten wechseln können.
 
-Um zu einem Federated Guest-Konto zu wechseln, suchen Sie **[!UICONTROL Andere Konten]** im Menü **[!UICONTROL Organisation]** auf einer beliebigen [CX Enterprise](https://experience.adobe.com)-Seite.
+Um zu einem Federated Guest-Konto zu wechseln, suchen Sie **[!UICONTROL Andere Konten]** im Menü **[!UICONTROL Organisation]** auf einer beliebigen [CX Enterprise](https://experience.adobe.com)Seite.
 
 **Organisationsmenü für ein zusammengeführtes Gastkonto**
 
@@ -80,7 +80,7 @@ Sie können Ihre Organisations-ID zusammen mit anderen Kontoinformationen mithil
 
 **Anzeigen der Organisations-ID**
 
-1. Drücken Sie [CX Enterprise](https://experience.adobe.com) auf **Tastatur** Strg+i).
+1. Drücken Sie in [CX Enterprise](https://experience.adobe.com) **Strg+I** auf der Tastatur.
 
    ![Zugewiesene Organisations-ID](../assets/assigned-organization.png)
 

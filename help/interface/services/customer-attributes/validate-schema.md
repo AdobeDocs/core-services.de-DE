@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie das [!DNL Customer Attributes] in Adobe CX Enterprise validieren.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Validieren des [!DNL Customer Attributes] Schemas
 feature: Customer Attributes
 topic: Administration
@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 39%
@@ -69,9 +69,9 @@ Basierend auf diesen Einstellungen wird ein Schema erstellt. Das Schema wird zur
 
 * **[!UICONTROL FTP-Einrichtung:]** Erstellen Sie Ihr FTP-Konto, um [Ihre Daten via FTP hochzuladen](t-upload-attributes-ftp.md) (optional).
 
-* **[!UICONTROL ID-Suche]** Geben Sie eine Kunden-ID (CID) aus Ihrem `.csv` ein, um CX Enterprise-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
+* **[!UICONTROL ID-Suche:]** Geben Sie eine Kunden-ID (CID) aus Ihrer `.csv` ein, um CX Enterprise-Informationen für die ID zu suchen. Diese Funktion eignet sich zum Beispiel für die Fehlerbehebung, wenn Sie herausfinden möchten, weshalb die Attributdaten eines bestimmten Besuchers nicht angezeigt werden:
 
-  * **[!UICONTROL ECID:]** Zeigt an, wenn Sie den Besucher-ID-Dienst verwenden. Wenn Sie den Besucher-ID-Service verwenden, aber hier keine IDs aufgelistet sind, hat CX Enterprise keinen Alias für diese CID erhalten. Der Besucher hat sich also entweder nicht angemeldet, oder Ihre Implementierung lässt diese ID nicht durch.
+  * **[!UICONTROL ECID:]** Zeigt an, wenn Sie den Besucher-ID-Dienst verwenden. Wenn Sie den Besucher-ID-Service verwenden, hier jedoch keine IDs aufgelistet sind, hat CX Enterprise keinen Alias für diese CID erhalten. Der Besucher oder die Besucherin hat sich also entweder nicht angemeldet, oder Ihre Implementierung übergibt diese ID nicht.
 
   * **[!UICONTROL CID (Kunden-ID):]** Die mit dieser CID verknüpften Attribute. Wenn Sie eine prop oder eVar zum Hochladen von CIDs (AVID) verwenden und Attribute angezeigt werden, aber keine AVID, hat sich der Besucher vermutlich nicht bei Ihrer Site angemeldet.
 

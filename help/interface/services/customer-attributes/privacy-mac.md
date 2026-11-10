@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie mehr über Überlegungen und Best Practices bezüglich persönlich identifizierbarer Informationen (PII), die in CX Enterprise hochgeladen und verwendet werden.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Datenschutzüberlegungen für [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 92%
@@ -48,24 +48,24 @@ ht-degree: 92%
 * E-Mail-Adresse
 * Telefonnummer
 * Sozialversicherungsnummer
-* Andere Kennung, die die physische oder Online-Kontaktaufnahme mit einer Einzelperson ermöglicht. (Variiert nach Ort. Überprüfen und beachten Sie die lokalen Gesetze und Vorschriften bezüglich Datenschutz und PII für alle Orte, an denen Sie geschäftlich tätig sind.)
+* Andere Kennung, die die physische oder Online-Kontaktaufnahme mit einer Einzelperson ermöglicht. (Je nach Ort unterschiedlich. Überprüfen und beachten Sie die lokalen Gesetze und Vorschriften bezüglich Datenschutz und PII für alle Orte, an denen Sie geschäftlich tätig sind.)
 
-Adobe stellt Tools bereit, mit denen Werbetreibende Verhaltensdaten über Kunden erfassen können, die ihre Sites besuchen oder ihre Anwendungen verwenden. Adobe bietet darüber hinaus Tools, mit deren Hilfe Werbetreibende diese Informationen mit Offline- oder externen Kundeneinträgen erweitern können, über die der Werbetreibende möglicherweise in anderen Informationsmanagementsystemen verfügt.
+Adobe stellt Tools bereit, mit denen Werbetreibende Verhaltensdaten über Verbrauchende erfassen können, die ihre Sites besuchen oder ihre Anwendungen verwenden. Adobe bietet darüber hinaus Tools, mit deren Hilfe Werbetreibende diese Informationen mit Offline- oder externen Kundeneinträgen erweitern können, über die der Werbetreibende möglicherweise in anderen Informationsmanagementsystemen verfügt.
 
-Ein häufiger Grund dafür ist, dass Werbetreibende die verfügbaren Informationen verbessern, wenn sie verbrauchergerechte Marketing- und Werbeentscheidungen treffen. Mit Adobe Analytics und Target können Werbetreibende persönliche identifizierbare Informationen (PII) wie E-Mail-Adressen erst hochladen, nachdem ein Hash erfolgt ist, um die Kontaktaufnahme mit der betreffenden Person zu verhindern. Hash-Informationen können weiterhin für Analysen und Marketing-Zwecke verwendet werden. Zur Erinnerung: Adobe verbietet Werbetreibenden, vertrauliche persönliche Daten wie medizinische Aufzeichnungen, finanzielle Kontoinformationen und Informationen über Minderjährige an Adobe zu senden.
+Ein häufiger Grund dafür ist, dass Werbetreibende die verfügbaren Informationen verbessern, wenn sie verbrauchergerechte Marketing- und Werbeentscheidungen treffen. Mit Adobe Analytics und Target können Werbetreibende persönliche identifizierbare Informationen (PII) wie E-Mail-Adressen erst hochladen, nachdem ein Hash erfolgt ist, um die Kontaktaufnahme mit der betreffenden Person zu verhindern. Gehashte Informationen können weiterhin für Analysen und Marketingzwecke verwendet werden. Zur Erinnerung: Adobe verbietet Werbetreibenden, vertrauliche persönliche Daten wie medizinische Aufzeichnungen, finanzielle Kontoinformationen und Informationen über Minderjährige an Adobe zu senden.
 
 Adobe ist sich bewusst, dass diese Arten von Marketing- und Werbeentscheidungen Auswirkungen auf die Privatsphäre der Verbraucher haben können. Aus diesem Grund hat Adobe integrierte Datenschutzkontrollen, um Werbetreibenden dabei zu helfen, die Erwartungen ihrer Kunden zu erfüllen. Adobe empfiehlt den Werbetreibenden, sorgfältig zu prüfen, welche Informationen für Marketing-Zwecke geeignet sind und unter welchen Umständen der Werbetreibende zur Verwendung solcher Informationen berechtigt ist.
 
 ## Best Practices
 
-Beim Hochladen von PII in Adobe Analytics oder Adobe Target empfiehlt Adobe, dass der Kunde einen PII-Hash durchführt, bevor diese Daten bei Adobe hochgeladen werden. Hash-Informationen können weiterhin für Analysen und Marketing-Zwecke verwendet werden. Zur Erinnerung: Adobe verbietet Werbetreibenden, vertrauliche persönliche Daten wie medizinische Aufzeichnungen, finanzielle Kontoinformationen und Informationen über Minderjährige an Adobe Analytics und Adobe Target zu senden.
+Beim Hochladen von PII in Adobe Analytics oder Adobe Target empfiehlt Adobe, dass der Kunde einen PII-Hash durchführt, bevor diese Daten bei Adobe hochgeladen werden. Hash-Informationen können weiterhin für Analysen und Marketing-Zwecke verwendet werden. Zur Erinnerung: Adobe verbietet Werbetreibenden, besondere Kategorien personenbezogener Daten wie medizinische Aufzeichnungen, finanzielle Kontoinformationen und Informationen über Minderjährige an Adobe Analytics und Adobe Target zu senden.
 
 Adobe empfiehlt den Werbetreibenden, sorgfältig zu prüfen, welche Informationen für Marketing-Zwecke geeignet sind und unter welchen Umständen der Werbetreibende zur Verwendung solcher Informationen berechtigt ist.
 
 Da sich das Datenschutzrecht der Verbraucher ständig ändert, empfiehlt Adobe, dass Werbetreibende drei allgemeine Grundsätze beachten:
 
-1. Halten Sie, was Sie versprechen (in den Datenschutzrichtlinien).
-1. Kommunizieren Sie, was Sie tun (in den Datenschutzrichtlinien).
-1. Überraschen Sie Ihre Kunden nicht.
+1. Halten Sie, was Sie versprechen (in Ihrer Datenschutzrichtlinie).
+1. Kommunizieren Sie, was Sie tun (in Ihrer Datenschutzrichtlinie).
+1. Überraschen Sie Ihre Verbrauchenden nicht.
 
-Unter Berücksichtigung dieser Erwartungen empfiehlt Adobe, dass der Werbetreibende beim Zuordnen von Browsing-Aktivitäten zu PII Hinweise oder Personalisierungen bereitstellt, die angeben, dass der Kunde authentifiziert ist. Ein Beispiel hierfür ist die Aufnahme einer Begrüßung in der Kopfzeile der Website. Adobe empfiehlt Werbetreibenden außerdem, dass sie in ihren Datenschutzrichtlinien beschreiben, welche Arten von Browserinformationen mit PII verknüpft sind und unter welchen Umständen Browserinformationen mit PII verknüpft werden. Schließlich empfiehlt Adobe Werbetreibenden dringend, die Ausschlussoptionen zu überprüfen, die sie ihren Kunden anbieten, um nachzuvollziehen, ob und wie sie nicht authentifizierte Profildaten nach dem Ausschluss verwenden können.
+Unter Berücksichtigung dieser Erwartungen empfiehlt Adobe, dass der Werbetreibende beim Zuordnen von Browsing-Aktivitäten zu PII Hinweise oder Personalisierungen bereitstellt, die angeben, dass der Kunde authentifiziert ist. Ein Beispiel hierfür ist die Aufnahme einer Begrüßung in der Kopfzeile der Website. Adobe empfiehlt Werbetreibenden außerdem, dass sie in ihren Datenschutzrichtlinien beschreiben, welche Arten von Browserinformationen mit PII verknüpft sind und unter welchen Umständen Browserinformationen mit PII verknüpft werden. Schließlich empfiehlt Adobe Werbetreibenden dringend, die Ausschlussoptionen zu überprüfen, die sie ihren Verbrauchenden anbieten, um nachzuvollziehen, ob und wie sie nicht authentifizierte Profildaten nach dem Ausschluss verwenden können.

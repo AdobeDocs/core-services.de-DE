@@ -1,6 +1,6 @@
 ---
 description: Hier erfahren Sie mehr über Exchange Marketplace, einen zentralen Ort, an dem Sie Erweiterungen für Digital Marketing über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Adobe Exchange
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 feature: Customer Attributes
@@ -29,14 +29,14 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 85%
 ---
 # Adobe Exchange
 
-Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Mobile Apps gehören Data Connectors, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittherstellern und Berichte.
+Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erweiterungen über Apps suchen, durchsuchen, auswählen, bezahlen und herunterladen können. Zu den Apps gehören Daten-Connectoren, benutzerdefinierte Konfigurationen des Hauptprodukts von Adobe, Anwendungen von Drittanbietern und Berichte.
 
 **[!UICONTROL CX Enterprise]** > **[!UICONTROL Hilfe]** > **[!UICONTROL Exchange]**
 
@@ -54,4 +54,4 @@ Exchange Marketplace ist eine zentrale Stelle, an der Sie Digital Marketing-Erwe
 
 * Suchen und filtern Sie nach Kategorie, Unternehmen, Typ, Benutzer usw.
 
-Weitere Informationen finden Sie unter [CX Enterprise &#x200B;](https://exchange.adobe.com/experiencecloud.html)).
+Weitere Informationen finden Sie unter {[&#128279;](https://exchange.adobe.com/experiencecloud.html)}CX Enterprise Exchange.

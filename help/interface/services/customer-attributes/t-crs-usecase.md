@@ -1,6 +1,6 @@
 ---
 description: Erfahren Sie, wie Sie eine [!DNL Customer Attributes] Datenquelle erstellen und in CX Enterprise hochladen.
-solution: Experience Cloud
+solution: CX Enterprise
 title: Erstellen und Hochladen einer [!DNL Customer Attributes] Data Source-Datei
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7e25c1350ad8d57470b268d97bdfe7207fa35e7
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 41%
@@ -58,7 +58,7 @@ Erstellen Sie die Kundenattributquelle (`.csv`- und `.fin`) und laden Sie die Da
 
   Siehe [Bereitstellen von at.js](https://experienceleague.adobe.com/de/docs/target-dev/developer/client-side/overview).
 
-## Erstellen Sie eine Datendatei
+## Erstellen einer Datendatei
 
 Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können Abonnentendaten für Produkte wie Mitglieds-IDs, berechtigte Produkte, am häufigsten gestartete Produkte usw. enthalten.
 
@@ -75,7 +75,7 @@ Diese Daten sind Unternehmenskundendaten aus Ihrem CRM-System. Die Daten können
 1. Überprüfen Sie vor dem Hochladen der Datei die wichtigen Informationen in den [Datendateivoraussetzungen](crs-data-file.md).
 1. [Erstellen Sie eine Kundenattributquelle und laden Sie wie nachfolgend beschrieben die Daten hoch](t-crs-usecase.md#create-source).
 
-## Erstellen Sie die Attributquelle und laden Sie die Datendatei hoch
+## Erstellen der Attributquelle und Hochladen der Datendatei
 
 Führen Sie diese Schritte auf der Seite _[!UICONTROL Kundenattribut-Source erstellen]_ in CX Enterprise aus.
 
@@ -159,9 +159,9 @@ Der Kundenattributdatensatz wird erstellt, und Sie können die Datei hochladen, 
 
 * **[!UICONTROL Vom Kunden bereitgestellte IDs mit hoher Alias-Anzahl:]** Zeigt die Anzahl der vom Kunden bereitgestellten IDs mit 500 oder mehr Alias-ECIDs an. Diese vom Kunden bereitgestellten IDs stellen höchstwahrscheinlich keine Einzelpersonen dar, sondern eine Art freigegebene Anmeldung. Das System verteilt die mit diesen IDs verknüpften Attribute auf die 500 neuesten Alias-ECIDs, bis die Alias-Anzahl 10.000 erreicht. Dann erklärt das System die vom Kunden bereitgestellte ID als ungültig und verteilt nicht mehr die zugehörigen Attribute.
 
-## Prüfen Sie das Schema {#validate-schema}
+## Prüfen des Schemas {#validate-schema}
 
-Der Prüfungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.). Sie können Attribute auch löschen, indem Sie das Schema aktualisieren.
+Der Validierungsprozess ermöglicht die Zuordnung von Anzeigenamen und Beschreibungen zu den hochgeladenen Attributen (Zeichenfolgen, Ganzzahlen, Zahlen usw.). Sie können Attribute auch löschen, indem Sie das Schema aktualisieren.
 
 Siehe [Prüfen Sie das Schema](validate-schema.md).
 

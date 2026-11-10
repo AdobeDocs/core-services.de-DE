@@ -1,7 +1,7 @@
 ---
 description: Erfahren Sie mehr über Regeln, wie sich freigegebene Ordner verhalten, wenn sie in CX Enterprise verschoben, gelöscht und wiederhergestellt werden.
-keywords: Asset-Freigabe; Creative Cloud; Hauptdienste
-solution: Experience Cloud
+keywords: Asset-Freigabe; Creative Cloud; zentrale Dienste
+solution: CX Enterprise
 title: Verhalten freigegebener Ordner
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
@@ -30,7 +30,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7afb612bf6f14b87a57b7236c226e3f6e9b15380
+source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 90%
@@ -41,9 +41,9 @@ Richtlinien zum Verhalten freigegebener Ordner beim Verschieben, Löschen und Wi
 
 >[!NOTE]
 >
->Freigegebene CX Enterprise-Ordner und -Assets werden in einer 1:1-Beziehung auf dem Creative Cloud-Desktop gespiegelt. Wenn ein CX Enterprise-Benutzer einen Ordner ändert (Freigabe löscht, hinzufügt oder entfernt), wird die Aktion auf dem Creative Cloud-Desktop und im Web gespiegelt. Wenn die Freigabe eines Ordners aufgehoben wird, werden daher der Ordner und die Assets vom lokalen Computer gelöscht. Nachdem die Freigabe aufgehoben wurde, werden der Ordner und sein Inhalt in den Papierkorb auf den lokalen Computer verschoben, von wo Sie sie manuell auf Ihrem Computer wiederherstellen können.
+>Freigegebene CX Enterprise-Ordner und -Assets werden 1:1 auf dem Creative Cloud-Desktop gespiegelt. Wenn ein CX Enterprise-Benutzer einen Ordner ändert (löscht, fügt hinzu oder entfernt die Freigabe), wird die Aktion auf dem Creative Cloud-Desktop und im Web gespiegelt. Wenn die Freigabe eines Ordners aufgehoben wird, werden daher der Ordner und die Assets vom lokalen Computer gelöscht. Nachdem die Freigabe aufgehoben wurde, werden der Ordner und sein Inhalt in den Papierkorb auf Ihrem lokalen Computer verschoben, von wo Sie sie manuell auf Ihrem Computer wiederherstellen können.
 
-## Nicht freigegebener Ordner in freigegebenen Ordner
+## Nicht freigegebener Ordner in einen freigegebenen Ordner
 
 Sie verschieben einen nicht freigegebenen Ordner in einen freigegebenen Ordner:
 
@@ -51,7 +51,7 @@ Sie verschieben einen nicht freigegebenen Ordner in einen freigegebenen Ordner:
 
 **Ergebnis**: Beide Ordner werden freigegeben.
 
-## Freigegebener Ordner in nicht freigegebenen Ordner
+## Freigegebener Ordner in einen nicht freigegebenen Ordner
 
 Sie verschieben einen freigegebenen Ordner in einen nicht freigegebenen Ordner.
 
@@ -61,7 +61,7 @@ Sie verschieben einen freigegebenen Ordner in einen nicht freigegebenen Ordner.
 
 ## Inhalt eines nicht freigegebenen Ordners in freigegebenen Ordner
 
-Sie verschieben Inhalte aus einem nicht freigegebenen Ordner in einen freigegebenen Ordner.
+Sie verschieben Content aus einem nicht freigegebenen Ordner in einen freigegebenen Ordner.
 
 ![Inhalte eines nicht freigegebenen Ordners in freigegebenen Ordner](../../assets/03_assets_move.png)
 
@@ -73,7 +73,7 @@ Sie archivieren oder löschen Inhalte, die sich in einem freigegebenen Ordner be
 
 ![Archivierte und gelöschte freigegebene Inhalte](../../assets/04_assets_move.png)
 
-**Ergebnis:** Der Inhalt wird für den Eigentümer des Ordners archiviert. Mitwirkende, die nicht Eigentümer des Inhalts sind, können nicht mehr darauf zugreifen.
+**Ergebnis:** Der Inhalt wird für den Eigentümer des Ordners archiviert. Mitwirkende, die nicht Eigentümer des Content sind, können nicht mehr darauf zugreifen.
 
 ## Eigener freigegebener Inhalt in nicht freigegebenen Ordner
 
@@ -91,17 +91,17 @@ Sie verschieben Inhalte aus freigegebenen Ordnern, die Eigentum einer anderen Pe
 
 **Ergebnis:** Der Inhalt wird im nicht freigegebenen Ordner angezeigt und aus dem freigegebenen Ordner entfernt. Die am freigegebenen Ordner Mitwirkenden haben auf den Inhalt keinen Zugriff mehr. Der Inhalt wird für den Eigentümer des freigegebenen Ordners archiviert.
 
-Eigentümer und Editoren können Inhalte verschieben, die ihnen nicht gehören, aber Betrachter können dies nicht. Wenn Eigentümer und Editoren Inhalte verschieben, stehen diese keinem User in einem freigegebenen Ordner zur Verfügung.
+Eigentümer und Editoren können Inhalte verschieben, die ihnen nicht gehören, aber Betrachter können dies nicht. Wenn Eigentümer bzw. Eigentümerinnen und Editoren Inhalte verschieben, stehen diese keinem Benutzenden in einem freigegebenen Ordner zur Verfügung.
 
-## Archivierter oder gelöschter eigener Inhalt
+## Archivierter oder gelöschter eigener Ordner
 
-Sie archivieren (über das Web) oder löschen (über einen Desktop) einen freigegebenen Ordner, dessen Eigentümer Sie sind.
+Sie archivieren (über das Web) oder löschen (über den Desktop) einen freigegebenen Ordner, dessen Eigentümer bzw. Eigentümerin Sie sind.
 
 ![Archivierte oder gelöschte eigene Inhalte](../../assets/07_assets_move.png)
 
-**Ergebnis:** Der Ordner wird nicht freigegeben; anschließend wird er archiviert. Die Mitarbeiter haben keinen Zugriff mehr auf den Ordner.
+**Ergebnis:** Der Ordner wird nicht freigegeben; anschließend wird er archiviert. Die Mitwirkenden haben keinen Zugriff mehr auf den Ordner.
 
-## Freigegebener Ordner in anderen freigegebenen Ordner
+## Freigegebener Ordner in einen anderen freigegebenen Ordner
 
 Sie verschieben einen freigegebenen Ordner, dessen Eigentümer Sie sind, in einen anderen freigegebenen Ordner, egal ob Sie dessen Eigentümer sind oder nicht.
 
@@ -109,17 +109,17 @@ Sie verschieben einen freigegebenen Ordner, dessen Eigentümer Sie sind, in eine
 
 **Ergebnis:** Wenn der Ordner in Ordner 2 verschoben wird, wird er für die neuen Mitwirkenden freigegeben.
 
-## Freigegebener Inhalt in anderen freigegebenen Ordner
+## Freigegebener Inhalt in einen anderen freigegebenen Ordner
 
 Sie verschieben Inhalte aus einem freigegebenen Ordner in einen anderen freigegebenen Ordner.
 
 ![Freigegebene Inhalte in anderen freigegebenen Ordner](../../assets/11_assets_move.png)
 
-**Ergebnis:** Der Inhalt wird in Ordner 2 angezeigt und jetzt für neue Mitwirkende freigegeben. Der Inhalt wird aus dem Ordner 1 entfernt, und der Eigentümer sieht ihn als archiviert, während die anderen Mitwirkenden keinen Zugriff mehr darauf haben.
+**Ergebnis:** Der Inhalt wird in Ordner 2 angezeigt und jetzt für neue Mitwirkende freigegeben. Der Content wird aus dem Ordner 1 entfernt, und der Eigentümer bzw. die Eigentümerin sieht ihn als archiviert, während die anderen Mitwirkenden keinen Zugriff mehr darauf haben.
 
 ## Aus Archiv wiederhergestellter Inhalt
 
-Sie stellen Inhalte aus einem Archiv wieder her, das zu einem freigegebenen Ordner gehörte. Sie waren zum Zeitpunkt der Archivierung Eigentümer des Inhalts.
+Sie stellen Content aus einem Archiv wieder her, das zu einem freigegebenen Ordner gehörte. Sie waren zum Zeitpunkt der Archivierung Eigentümer des Inhalts.
 
 ![Aus Archiv wiederhergestellte Inhalte](../../assets/12_assets_move.png)
 
