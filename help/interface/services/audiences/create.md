@@ -33,20 +33,16 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: 3292f78ff6778df2ca1aecb752cf1aa24c043ef3
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 56%
+source-wordcount: '548'
+ht-degree: 52%
 ---
-# Erstellen einer Zielgruppe
+# Erstellen einer Zielgruppe {#create-audience}
 
-In [!UICONTROL Zielgruppenbibliothek] können Sie Attributregeln verwenden, um eine Zielgruppe zu erstellen und eine gemischte Zielgruppe für die Freigabe in CX Enterprise-Programmen zu definieren.
+In [!UICONTROL Zielgruppenbibliothek] können Sie Attributregeln verwenden, um eine Zielgruppe zu erstellen, individuelle Regeln zu erstellen und Regeln zu einer gemischten Zielgruppe zu kombinieren, die dann über CX Enterprise-Programme hinweg freigegeben werden kann.
 
-In diesem Artikel lernen Sie Folgendes:
-
-* Erstellen einer Zielgruppe
-* Erstellen einer Regel
-* Verwenden von Regeln zum Definieren einer gemischten Zielgruppe
+## Zusammengesetzte Zielgruppen {#composite-audiences}
 
 Die folgende Grafik stellt zwei Regeln in einer zusammengesetzten Zielgruppe dar.
 
@@ -58,14 +54,9 @@ Jeder Kreis steht für eine Regel, die die Zugehörigkeit zu einer Zielgruppe de
 >
 >Die Zielgruppe ist erst nach Ablauf des für die Datenerfassung angegebenen Zeitraums vollständig definiert.
 
-Das folgende Beispiel zeigt, wie die Regeln für eine zusammengesetzte Zielgruppe erstellt werden. Diese Zielgruppe umfasst Folgendes:
+## Erstellen der Zielgruppenregeln {#build-audience-rules}
 
-* Abschnitt „Home &amp; Garden“, der von Seitendaten oder Analyse-Rohdaten abgeleitet wurde.
-* Chrome- und Safari-Benutzer, die von einem [!DNL Adobe Analytics] Segment abgeleitet [veröffentlicht](overview.md) in [!DNL CX Enterprise].
-
-  ![Erstellen der Regeln für eine gemischte Zielgruppe](assets/audience_create.png)
-
-**Erstellen einer Zielgruppe**
+Führen Sie die folgenden Schritte aus, um eine Zielgruppe zu erstellen und ihre Regeln in [!UICONTROL Zielgruppenbibliothek] zu definieren.
 
 1. Klicken Sie auf [!DNL CX Enterprise] Apps ![Apps-Symbol](assets/apps-icon.png) und dann auf **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
@@ -86,7 +77,14 @@ Das folgende Beispiel zeigt, wie die Regeln für eine zusammengesetzte Zielgrupp
 
 1. Definieren Sie Zielgruppenregeln und klicken Sie dann auf **[!UICONTROL Speichern].**
 
-**Beispiel: Definieren von Regeln für eine gemischte Zielgruppe**
+## Beispiel für zusammengesetzte Zielgruppe {#example-composite-audience}
+
+Das folgende Beispiel zeigt, wie die Regeln für eine zusammengesetzte Zielgruppe erstellt werden. Diese Zielgruppe umfasst Folgendes:
+
+* Abschnitt „Home &amp; Garden“, der von Seitendaten oder Analyse-Rohdaten abgeleitet wurde.
+* Chrome- und Safari-Benutzer, die von einem [!DNL Adobe Analytics] Segment abgeleitet [veröffentlicht](overview.md) in [!DNL CX Enterprise].
+
+  ![Erstellen der Regeln für eine gemischte Zielgruppe](assets/audience_create.png)
 
 >[!NOTE]
 >
