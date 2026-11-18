@@ -31,7 +31,7 @@ Melden Sie sich bei [Adobe CX Enterprise](https://experience.adobe.com) an, um I
 
 ## Voraussetzungen {#before-you-begin}
 
-Sie benötigen eine Adobe ID, die für die CX Enterprise-Produkte Ihres Unternehmens bereitgestellt wurde. Wenn Sie sich nicht anmelden können oder die erwarteten Programme nicht angezeigt werden, wenden Sie sich an Ihren [!UICONTROL CX Enterprise][Administrator](administration/admin-console.md).
+Sie benötigen eine Adobe ID, die für die CX Enterprise-Produkte Ihres Unternehmens bereitgestellt wurde. Wenn Sie sich nicht anmelden können oder die erwarteten Programme nicht angezeigt werden, wenden Sie sich an Ihren [!UICONTROL CX Enterprise]&#x200B;[Administrator](administration/admin-console.md).
 
 ## Bei CX Enterprise anmelden {#sign-in}
 
@@ -59,7 +59,7 @@ Melden Sie sich an und stellen Sie sicher, dass Sie sich in der richtigen [Organ
 
 Nach der Anmeldung bei CX Enterprise können Sie über den einheitlichen Header schnell auf alle Ihre Programme, Services und Organisationen zugreifen.
 
-Rufen Sie die Programmauswahl auf (Menü), um auf die in Ihrem Unternehmen für Sie ![ CX Enterprise-Programme und -Services ](assets/apps-icon.png).
+Rufen Sie die Programmauswahl auf (Menü), um auf die in Ihrem Unternehmen für Sie ![&#x200B; CX Enterprise-Programme und -Services &#x200B;](assets/apps-icon.png).
 
 ![Zugriff auf CX Enterprise-Programme](assets/application-menu.png)
 

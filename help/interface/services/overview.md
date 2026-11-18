@@ -47,7 +47,7 @@ Bestimmte freigegebene Funktionen in CX Enterprise werden auch als _Core Service
 
 >[!NOTE]
 >
->Bei der Verwendung der Personen -Services müssen Sie möglicherweise bestimmte Implementierungsschritte ausführen. Weitere Informationen [ Sie unter „Erste Schritte mit dem ](getting-started.md)&quot;.
+>Bei der Verwendung der Personen -Services müssen Sie möglicherweise bestimmte Implementierungsschritte ausführen. Weitere Informationen [&#x200B; Sie unter „Erste Schritte mit dem &#x200B;](getting-started.md)&quot;.
 
 Um auf freigegebene Services und Programme in CX Enterprise zuzugreifen, klicken Sie auf die **[!UICONTROL Anwendungsauswahl]**
 ![Dienstauswahl](../assets/apps-icon.png).
