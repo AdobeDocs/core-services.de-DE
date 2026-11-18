@@ -31,16 +31,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 70%
+source-wordcount: '327'
+ht-degree: 65%
 ---
-# Überblick über CX Enterprise Assets
+# Überblick über CX Enterprise [!DNL Assets]
 
-CX Enterprise Assets bietet ein zentrales Repository Marketing-fähiger Assets, die Sie programmübergreifend freigeben können. Ein Asset ist ein digitales Dokument, Bild, Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
+CX Enterprise [!DNL Assets] ein zentrales Repository Marketing-fähiger Assets bereitstellen, die Sie programmübergreifend freigeben können. Ein Asset ist ein digitales Dokument, Bild, Video oder eine digitale Audiodatei (oder ein Teil davon), das bzw. die mehrere Darstellungen aufweisen und über untergeordnete Assets verfügen kann (z. B. Ebenen in einer [!DNL Photoshop]-Datei, Folien in einer [!DNL PowerPoint]-Datei, Seiten in einer PDF-Datei, Dateien in einer ZIP-Datei).
 
-Zu den Asset-Services gehören:
+[!DNL Assets] Service umfasst:
 
 * Asset-Speicherung, Verwaltungsschnittstelle, eingebettete Auswahlschnittstelle (Zugriff erfolgt über Programme).
 * Integrationen mit Creative Cloud, CX Enterprise Collaboration und CX Enterprise-Programmen.
@@ -48,9 +48,8 @@ Zu den Asset-Services gehören:
 Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und beschleunigt die Markteinführung. Sie können Workflows in Programmen optimieren:
 
 * **[!DNL Adobe Target]**: Erstellen Sie Erfahrungen für A/B- und multivariate Tests
-* **[!DNL Ad Cloud]**: Entwickeln Sie Werbeeinheiten für verschiedene Kanäle und Kampagnen
+* **[!DNL Adobe Advertising]**: Entwickeln Sie Werbeeinheiten für verschiedene Kanäle und Kampagnen
 * **[!DNL Adobe Campaign]**: Fügen Sie Assets in E-Mail-Newslettern und Kampagnen ein.
-
 
 ## Navigieren Sie zu CX Enterprise Assets
 
@@ -60,7 +59,7 @@ Die Verwendung von Assets verbessert die Konsistenz und Markenkonformität und b
 
 Navigieren Sie zu einem Asset (oder Asset-Verzeichnis) und klicken Sie auf **[!UICONTROL Auswählen]**.
 
-Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich Suche, Timeline, Darstellungen, Bearbeiten, Anmerkungen und Herunterladen.
+Die Symbolleiste bietet schnellen Zugriff auf Funktionen, einschließlich [!UICONTROL Suche], [!UICONTROL Zeitleiste], [!UICONTROL Ausgabedarstellungen], [!UICONTROL Bearbeiten], [!UICONTROL Anmerken] und [!UICONTROL Herunterladen].
 
 ![Auf die Symbolleiste zugreifen](../../assets/asset-tools.png)
 

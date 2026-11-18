@@ -1,5 +1,5 @@
 ---
-description: Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Programme für programmübergreifende Services. Erfahren Sie, wie Sie CX Enterprise-Services verwenden.
+description: Modernisieren Sie Ihre Adobe Analytics- und Adobe Target-Anwendungen für anwendungsübergreifende Services. Erfahren Sie, wie Sie mit der Verwendung des CX Enterprise People -Service beginnen.
 solution: CX Enterprise
 title: Erste Schritte mit CX Enterprise
 index: true
@@ -22,14 +22,16 @@ subfeature_v2:
     internal-label: Support
   - id: bdea9bc8-5600-45db-b85e-d74bb59dfcff
     internal-label: Organizations
-  - id: d27b1945-f442-4607-91bd-537a0b16e687
-    internal-label: Assets
   - id: eb7e29b9-c5e9-4ed0-8e4b-6465dabb3cb1
     internal-label: Admin tools
   - id: ecb4a972-6786-444c-a014-abc528b9407a
     internal-label: Customer attributes
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
     internal-label: Getting started
+  - id: e8b6b7ca-4f3c-4275-9b65-e43912bf78bf
+    internal-label: People Audience Library
+  - id: fe560ac6-1b84-42b7-9eee-bb033a8850d6
+    internal-label: People Customer Attributes
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -51,16 +53,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 41%
+source-wordcount: '2055'
+ht-degree: 39%
 ---
-# Erste Schritte mit CX Enterprise
+# Erste Schritte mit dem People -Service
 
-Wenn Sie CX Enterprise kürzlich mit [Experience Platform-Tags](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home) implementiert haben, sind Sie bereits für [Kundenattribute](../services/overview.md) und CX Enterprise [Audiences](../services/audiences/overview.md) eingerichtet. Sie können auch Benutzer und Produkte in [Admin Console verwalten](../administration/admin-console.md).
+Wenn Sie CX Enterprise kürzlich mit [Experience Platform-Tags](https://experienceleague.adobe.com/de/docs/experience-platform/tags/home) implementiert haben, sind Sie bereits für [Kundenattribute](../services/customer-attributes/attributes.md) und CX Enterprise [Audiences](../services/audiences/overview.md) eingerichtet. Sie können auch Benutzer und Produkte in [Admin Console verwalten](../administration/admin-console.md).
 
-Bestehende Kunden können ihre Programmimplementierungen modernisieren und CX Enterprise implementieren. Auf diese Weise können Sie Kundenattribute und Zielgruppenfunktionen in Adobe Analytics, Audience Manager und Adobe Target verwenden.
+Bestehende Kunden können ihre Programmimplementierungen modernisieren und CX Enterprise implementieren. Auf diese Weise können Sie [!UICONTROL Kundenattribute] und [!UICONTROL Zielgruppe] Funktionen in Adobe Analytics, Audience Manager und Adobe Target verwenden.
 
 ## Als Administrator anmelden {#admin-sign-in}
 
@@ -74,7 +76,7 @@ Wahrscheinlich haben Sie Benutzer, die bereits Mitglied von Programmgruppen sind
 
 Wenn Sie diese Gruppen CX Enterprise-Unternehmensgruppen zuordnen, müssen diese Benutzenden ihre Anmeldeinformationen für das Programmkonto manuell mit ihrer Adobe ID verknüpfen.
 
-Siehe [Verknüpfen von Konten in CX Enterprise](https://experienceleague.adobe.com/de/docs/core-services/interface/administration/organizations)
+Siehe [Verknüpfen von Konten in CX Enterprise](../administration/organizations.md)
 
 >[!NOTE]
 >
@@ -141,7 +143,7 @@ Beispiel: Bob hat in Ihrem CRM-System die Kunden-ID `52mc210tr42`. Wenn sich Bob
 
 Die Kunden-ID muss in jedem Aufruf an den [!DNL Analytics]-Server angegeben sein, auf dem die Kunden-ID bekannt ist.
 
-#### Analytics: Synchronisieren der Kunden-ID mit der Data Warehouse-Aufstockungsmethode
+#### [!DNL Analytics]: Synchronisieren der Kunden-ID mit der Data Warehouse-Aufstockungsmethode
 
 Als Kundenattribute zum ersten Mal verfügbar wurden, hatten einige Kunden den Besucher-ID-Service noch nicht implementiert und konnten Kundenattribute nicht einfach nutzen. Um dieses Problem zu beheben, hat Adobe eine Möglichkeit zur Aufstockung von ID-Synchronisierungen mithilfe von Adobe Analytics Data Warehouse geschaffen. Diese Funktion wird als Data Warehouse-Aufstockung bezeichnet. Die Data Warehouse-Aufstockung ist jetzt im Allgemeinen nicht mehr erforderlich und wird daher ab Oktober 2022 nicht mehr verfügbar sein.
 
@@ -192,7 +194,7 @@ ECID in der mbox-Anfrage:
 
 ![ECID in der mbox-Anfrage](../assets/mbox_request.png)
 
-### Was ist die Übergangsphase?
+### Wie lange dauert die Übergangsphase?
 
 Nach der Bereitstellung des Besucher-ID-Service erhalten neue Besucher keine Analytics-ID mehr (`aid`). Wenn in bestimmten Bereichen Ihrer Site der Besucher-ID-Service noch nicht implementiert wurde und Besucher diese Bereiche aufrufen, wird die ECID (`mid`) nicht erkannt und den Besuchern wird eine Legacy-Analytics-ID (`aid`) zugewiesen. Diese Einrichtung kann potenzielle Probleme verursachen, einschließlich doppelter Besuche und falscher Attribution.
 
@@ -206,7 +208,7 @@ Navigieren Sie nach der erfolgreichen Einrichtung zu [Admin Console](https://adm
 
 ![Zugriff auf Admin Console](../assets/menu-administration-shell.png)
 
-### Kundenattribute
+### Gruppe der Kundenattribute
 
 Benutzende, die der [!DNL Customer Attributes] hinzugefügt wurden, sehen auf der linken Seite von CX Enterprise das [!DNL Customer Attributes].
 
@@ -214,17 +216,17 @@ Benutzende, die der [!DNL Customer Attributes] hinzugefügt wurden, sehen auf de
 
 Nutzen Sie die Vorteile folgender Funktionen.
 
-### [!UICONTROL Kundenattribute]
+### [!UICONTROL Personen] > [!UICONTROL Kundenattribute]
 
 Wenn Sie Unternehmens-Kundendaten in einer CRM-Datenbank (Customer Relationship Management) erfassen, können Sie diese Daten in eine Datenquelle für Kundenattribute in CX Enterprise hochladen. Verarbeiten Sie die Daten nach dem Hochladen mit [!DNL Adobe Analytics] und [!DNL Adobe Target].
 
-Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/services/customer-attributes/attributes)Kundenattribute“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](../services/customer-attributes/attributes.md)Kundenattribute“.
 
 ### [!UICONTROL Personen] > [!UICONTROL Zielgruppenbibliothek]
 
 CX Enterprise [!UICONTROL Audiences] ist die Benutzeroberfläche, über die Sie Audiences erstellen, bestehende Audiences kombinieren können, um zusammengesetzte Audiences zu erstellen, und alle freigegebenen Audiences anzeigen können.
 
-Weitere Informationen finden [&#x200B; unter &#x200B;](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/overview)Zielgruppen“.
+Weitere Informationen finden [&#x200B; unter &#x200B;](../services/audiences/overview.md)Zielgruppen“.
 
 ## Datenspeicherung und Datenschutz
 

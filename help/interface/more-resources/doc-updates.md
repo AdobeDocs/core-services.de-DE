@@ -36,7 +36,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 36%
@@ -73,7 +73,7 @@ Updates zu [Agent KI in CX Enterprise](https://experienceleague.adobe.com/de/doc
 
 ## Oktober 2025
 
-Der [&#x200B; „Organisation überprüfen](../experience-cloud.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
+Der [&#x200B; „Organisation überprüfen](../home.md) wurde mit einem Hinweis zur Fehlermeldung aktualisiert, wenn ein Administrator den Zugriff auf Adobe-Produkte anhand von IP-Adressen einschränkt.
 
 ## August 2025
 
@@ -130,7 +130,7 @@ Die [Fragen und Antworten zur Administration](faq.md) wurden mit Informationen d
 
 ## &#x200B;24. August 2021
 
-Die Seite [Zentrale Komponenten](../experience-cloud.md) wurde aktualisiert (Landingpage dieses Handbuchs). Es wurden Browser- und Sprachunterstützung, Updates für Unternehmen und Anmeldung sowie Informationen zu Domains hinzugefügt.
+Die Seite [Zentrale Komponenten](../home.md) wurde aktualisiert (Landingpage dieses Handbuchs). Es wurden Browser- und Sprachunterstützung, Updates für Unternehmen und Anmeldung sowie Informationen zu Domains hinzugefügt.
 
 ## &#x200B;6. August 2021
 
@@ -142,7 +142,7 @@ Die Struktur des Handbuchs und das Inhaltsverzeichnis wurden neu strukturiert.
 
 ## &#x200B;1. Juni 2021
 
-Die [Landingpage“ wurde &#x200B;](../experience-cloud.md) neue Hilfe zum Zugriff auf CX Enterprise, globale Suche, Voreinstellungen und Benachrichtigungen aktualisiert.
+Die [Landingpage“ wurde &#x200B;](../home.md) neue Hilfe zum Zugriff auf CX Enterprise, globale Suche, Voreinstellungen und Benachrichtigungen aktualisiert.
 
 ## &#x200B;19. August 2020
 
@@ -197,7 +197,7 @@ Die Definition von Analytics-Rohdaten wurde in [Erstellen einer Zielgruppe](../s
 
 ## &#x200B;11. Februar 2016
 
-[CX Enterprise Assets hinzugefügt](../services/assets/experience-cloud-assets.md).
+[CX Enterprise Assets hinzugefügt](../services/assets/overview-assets.md).
 
 ## &#x200B;15. Januar 2015
 

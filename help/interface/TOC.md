@@ -5,14 +5,16 @@ breadcrumb-title: Benutzeroberfläche und Administration von CX Enterprise
 title: Handbuch zur Benutzeroberfläche und Administration von CX Enterprise
 description: Erfahren Sie mehr über die Benutzeroberfläche und Administration von CX Enterprise. Durchsuchen Sie Themen zu KI, Administration, Shared Services, Datenerfassung, Cookies, Versionshinweisen und FAQs.
 index: true
-source-git-commit: a714343bc3e17145e51fd99f64690e7d69ab4d9d
+source-git-commit: 8a12be4ae959319068585c1593d2ddfe24ffc0c3
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 56%
+source-wordcount: '214'
+ht-degree: 55%
 ---
 # Benutzeroberfläche und Administration von CX Enterprise {#interface}
 
-+ [Benutzeroberfläche und Administration von CX Enterprise](/help/interface/experience-cloud.md)
++ [Benutzeroberfläche und Administration von CX Enterprise](/help/interface/home.md)
++ Erste Schritte {#get-started}
+  + [Erste Schritte mit CX Enterprise](/help/interface/get-started-using-cxe.md)
 + Administration {#administration}
   + [Kontovoreinstellungen und Benachrichtigungen](/help/interface/features/account-preferences.md)
   + [Browser- und Sprachunterstützung](/help/interface/browser-language.md)
@@ -22,16 +24,16 @@ ht-degree: 56%
   + [Integrationen](/help/interface/administration/integrations.md)
   + [Einheitliche Suche](/help/interface/features/search.md)
   + [Voreinstellungen für personalisierte Lerninhalte](/help/interface/features/personalized-learning.md)
-+ Schnittstellendienste {#services}
-  + [Übersicht über die Benutzeroberfläche](/help/interface/services/overview.md)
++ Assets {#assets}
+  + [Übersicht über Assets](/help/interface/services/assets/overview-assets.md)
+  + [Verwaltung der Creative Cloud-Benutzenden](/help/interface/services/assets/manage-cc-users.md)
+  + [Asset-Ordner freigeben](/help/interface/services/assets/share.md)
+  + [Hochladen eines Assets in einen freigegebenen Ordner](/help/interface/services/assets/upload.md)
+  + [Dateivoraussetzungen für die Freigabe von Assets](/help/interface/services/assets/file-reqs.md)
+  + [Verhalten freigegebener Ordner](/help/interface/services/assets/behavior.md)
++ Personen {#services}
+  + [Über freigegebene Funktionen](/help/interface/services/overview.md)
   + [Erste Schritte](/help/interface/services/getting-started.md)
-  + Assets {#assets}
-    + [Übersicht über Assets](/help/interface/services/assets/experience-cloud-assets.md)
-    + [Verwaltung der Creative Cloud-Benutzenden](/help/interface/services/assets/manage-cc-users.md)
-    + [Asset-Ordner freigeben](/help/interface/services/assets/share.md)
-    + [Hochladen eines Assets in einen freigegebenen Ordner](/help/interface/services/assets/upload.md)
-    + [Dateivoraussetzungen für die Freigabe von Assets](/help/interface/services/assets/file-reqs.md)
-    + [Verhalten freigegebener Ordner](/help/interface/services/assets/behavior.md)
   + Zielgruppenbibliothek {#audiences}
     + [Zielgruppen – Überblick](/help/interface/services/audiences/overview.md)
     + [Erstellen einer Zielgruppe](/help/interface/services/audiences/create.md)

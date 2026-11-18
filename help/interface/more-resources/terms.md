@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 5%
@@ -61,7 +61,7 @@ Verwenden Sie diese Tabelle, wenn dasselbe Wort in verschiedenen Adobe-Erlebniss
 | **Kundenattribute** | CRM- oder Unternehmensattribute, die Sie hochladen und für die Verwendung in Analytics-, Target- und zugehörigen Workflows über den Personen-Service zuordnen. Siehe die [Kundenattribute](../services/customer-attributes/attributes.md) Themen. | Nicht mit **Audience Manager-Eigenschaften** allein oder mit jedem **Real-Time CDP**-Profilfeld gleichsetzen, ohne die Produktgrenze zu überprüfen. |
 | **Zielgruppenbibliothek** | CX Enterprise-Benutzeroberfläche zum Erstellen und Freigeben von Zielgruppen in integrierten Programmen. | **Audience Manager** und **Target** verwenden ebenfalls „Zielgruppen“, die Segmentierungsregeln und Ziele unterscheiden sich jedoch je nach Produkt. |
 | **Segment** (Analytics) | Eine regelbasierte Zielgruppendefinition, die Sie in Adobe Analytics erstellen und bei Unterstützung für freigegebene Zielgruppen veröffentlichen können. | In **Audience Manager** kombinieren Segmente **Eigenschaften** Namensüberschneidungen, aber die Implementierung ist nicht identisch. In **Target** hat „Zielgruppen“ an vielen Stellen ältere „Segment“-Beschriftungen ersetzt. |
-| **Assets (Experience Cloud Assets)** | Freigegebene Ordner und Dateien für die Zusammenarbeit zwischen CX Enterprise-Marketing-Workflows und genehmigten **Creative Cloud**-Benutzern. Siehe [Übersicht über Assets](../services/assets/experience-cloud-assets.md). | In **Creative Cloud** bedeutet „Assets“ normalerweise Designdateien (PSD, AI, INDD). Gleiches Wort, anderes Modell der Freigabe und Governance. |
+| **Assets (Experience Cloud Assets)** | Freigegebene Ordner und Dateien für die Zusammenarbeit zwischen CX Enterprise-Marketing-Workflows und genehmigten **Creative Cloud**-Benutzern. Siehe [Übersicht über Assets](../services/assets/overview-assets.md). | In **Creative Cloud** bedeutet „Assets“ normalerweise Designdateien (PSD, AI, INDD). Gleiches Wort, anderes Modell der Freigabe und Governance. |
 
 {style="table-layout:auto"}
 

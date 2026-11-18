@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Administration
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
     internal-label: Audience segmentation
-source-git-commit: 26b7f77165cfe16db6bc816f83ba6bfdf9c925d4
+source-git-commit: ecde38a8abc308acc666c6a0cb321c716921d2da
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 45%
+source-wordcount: '741'
+ht-degree: 44%
 ---
 # CX Enterprise-Zielgruppen
 
@@ -87,10 +87,10 @@ In der folgenden Tabelle wird beschrieben, wie Zielgruppen in CX Enterprise-Prog
 
 | Element | Beschreibung |
 | --- | --- |
-| Neu | [Erstellen einer Zielgruppe](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/create). |
+| Neu | [Erstellen einer Zielgruppe](create.md). |
 | Titel und Beschreibung | Eine Spaltenüberschrift, die die Zielgruppe identifiziert und beschreibt. |
 | Autor | Die Person, die das Zielgruppensegment erstellt hat. |
-| Quelle | Gibt an, wo die Zielgruppe erstellt wurde.<ul><li>**Analytics:** Ein Segment, das in Adobe Analytics erstellt und dann in CX Enterprise veröffentlicht wurde.</li><li>**CX Enterprise:** Eine neue Zielgruppe [erstellt in CX Enterprise Audiences](https://experienceleague.adobe.com/de/docs/core-services/interface/services/audiences/create).</li><li>**Audience Manager:** Zielgruppen, die in Audience Manager erstellt wurden, werden automatisch in CX Enterprise-Zielgruppen angezeigt.</li></ul> |
+| Quelle | Gibt an, wo die Zielgruppe erstellt wurde.<ul><li>**Analytics:** Ein Segment, das in Adobe Analytics erstellt und dann in CX Enterprise veröffentlicht wurde.</li><li>**CX Enterprise:** Eine neue Zielgruppe [erstellt in CX Enterprise Audiences](create.md).</li><li>**Audience Manager:** Zielgruppen, die in Audience Manager erstellt wurden, werden automatisch in CX Enterprise-Zielgruppen angezeigt.</li></ul> |
 | Aktuelle Größe | Die aktuelle Zielgruppengröße. |
 | Aktiv | Der aktive Status des Segments. |
 
